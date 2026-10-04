@@ -22,7 +22,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.25727203333129484,
+    "mean_wall_seconds": 0.22587146664348742,
     "unique_candidates": [
       24,
       22,
@@ -53,7 +53,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.21192943335821232,
+    "mean_wall_seconds": 0.18040813334907094,
     "unique_candidates": [
       17,
       18,
@@ -84,7 +84,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.2199400000196571,
+    "mean_wall_seconds": 0.18399053334724158,
     "unique_candidates": [
       16,
       19,
@@ -115,7 +115,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.14736116665881127,
+    "mean_wall_seconds": 0.12760973329811046,
     "unique_candidates": [
       9,
       11,
@@ -146,7 +146,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.30260136669191223,
+    "mean_wall_seconds": 0.25159710001510877,
     "unique_candidates": [
       24,
       24,
@@ -177,7 +177,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.23411116667557508,
+    "mean_wall_seconds": 0.19569413332889476,
     "unique_candidates": [
       20,
       19,
@@ -208,7 +208,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.25183086667675525,
+    "mean_wall_seconds": 0.17984596663154662,
     "unique_candidates": [
       16,
       20,
@@ -239,7 +239,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.1839944333769381,
+    "mean_wall_seconds": 0.13493836663352946,
     "unique_candidates": [
       11,
       12,
@@ -270,7 +270,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.30624336667824537,
+    "mean_wall_seconds": 0.27098789997398853,
     "unique_candidates": [
       24,
       23,
@@ -301,7 +301,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.2596004999165113,
+    "mean_wall_seconds": 0.20793873335545263,
     "unique_candidates": [
       18,
       20,
@@ -332,7 +332,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.2404290666260446,
+    "mean_wall_seconds": 0.20869896665681154,
     "unique_candidates": [
       16,
       19,
@@ -363,7 +363,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.16947003337554634,
+    "mean_wall_seconds": 0.14768080002007386,
     "unique_candidates": [
       9,
       11,
@@ -394,7 +394,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.3197802333937337,
+    "mean_wall_seconds": 0.28699656669050455,
     "unique_candidates": [
       24,
       23,
@@ -425,7 +425,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.2284661999826009,
+    "mean_wall_seconds": 0.20248390004659692,
     "unique_candidates": [
       16,
       18,
@@ -456,7 +456,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.24203916666253159,
+    "mean_wall_seconds": 0.20819643329984197,
     "unique_candidates": [
       16,
       19,
@@ -487,7 +487,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.1714603000242884,
+    "mean_wall_seconds": 0.1464386333245784,
     "unique_candidates": [
       9,
       11,
@@ -518,7 +518,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.4966136666868503,
+    "mean_wall_seconds": 0.40278729998196167,
     "unique_candidates": [
       24,
       23,
@@ -549,7 +549,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.383385366643779,
+    "mean_wall_seconds": 0.3437459000075857,
     "unique_candidates": [
       22,
       18,
@@ -580,7 +580,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.4517699666709329,
+    "mean_wall_seconds": 0.3439657000126317,
     "unique_candidates": [
       21,
       22,
@@ -611,7 +611,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.31580579998747754,
+    "mean_wall_seconds": 0.26605186665741104,
     "unique_candidates": [
       16,
       14,
@@ -642,7 +642,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.48826976667623967,
+    "mean_wall_seconds": 0.4366282999981195,
     "unique_candidates": [
       24,
       23,
@@ -673,7 +673,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.41453373335146654,
+    "mean_wall_seconds": 0.338013833311076,
     "unique_candidates": [
       22,
       18,
@@ -704,7 +704,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.4056964000143732,
+    "mean_wall_seconds": 0.36411413333068293,
     "unique_candidates": [
       21,
       22,
@@ -735,7 +735,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.28153160004876554,
+    "mean_wall_seconds": 0.24528659996576607,
     "unique_candidates": [
       16,
       14,
@@ -766,7 +766,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.7050511333315322,
+    "mean_wall_seconds": 0.6294669333146885,
     "unique_candidates": [
       24,
       22,
@@ -797,7 +797,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.5941585333396991,
+    "mean_wall_seconds": 0.5363464333349839,
     "unique_candidates": [
       20,
       19,
@@ -828,7 +828,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.5619054666021839,
+    "mean_wall_seconds": 0.49179806661171216,
     "unique_candidates": [
       22,
       21,
@@ -859,7 +859,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.3964240999969964,
+    "mean_wall_seconds": 0.365873866675732,
     "unique_candidates": [
       15,
       11,
@@ -890,7 +890,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.7979448999976739,
+    "mean_wall_seconds": 0.6973923000429446,
     "unique_candidates": [
       24,
       23,
@@ -921,7 +921,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.6284632999838019,
+    "mean_wall_seconds": 0.5746891333643968,
     "unique_candidates": [
       19,
       18,
@@ -952,7 +952,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.6543411999785652,
+    "mean_wall_seconds": 0.5859540666763982,
     "unique_candidates": [
       22,
       21,
@@ -983,7 +983,7 @@
       null,
       null
     ],
-    "mean_wall_seconds": 0.4997134666579465,
+    "mean_wall_seconds": 0.4438491666999956,
     "unique_candidates": [
       18,
       11,

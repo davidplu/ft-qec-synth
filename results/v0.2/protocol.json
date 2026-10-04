@@ -36,5 +36,5 @@
   "budget_policy": "every proposal including cached duplicates consumes one slot",
   "total_runs": 96,
   "total_evaluation_slots": 2304,
-  "total_wall_seconds": 35.46641320025083
+  "total_wall_seconds": 30.676022899802774
 }

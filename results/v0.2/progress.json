@@ -6,7 +6,7 @@
     "strategy": "random",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.20795660000294447
+    "runtime_seconds": 0.19300500000827014
   },
   {
     "code": "css4",
@@ -15,7 +15,7 @@
     "strategy": "resource",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.12504529999569058
+    "runtime_seconds": 0.12238029995933175
   },
   {
     "code": "css4",
@@ -24,7 +24,7 @@
     "strategy": "cegis",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.27492070000153035
+    "runtime_seconds": 0.23593650001566857
   },
   {
     "code": "css4",
@@ -33,7 +33,7 @@
     "strategy": "mixed",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.235654600081034
+    "runtime_seconds": 0.17644559999462217
   },
   {
     "code": "css4",
@@ -42,7 +42,7 @@
     "strategy": "random",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.2334820000687614
+    "runtime_seconds": 0.17376020003575832
   },
   {
     "code": "css4",
@@ -51,7 +51,7 @@
     "strategy": "resource",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.18586129997856915
+    "runtime_seconds": 0.1293500999454409
   },
   {
     "code": "css4",
@@ -60,7 +60,7 @@
     "strategy": "cegis",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.25996329996269196
+    "runtime_seconds": 0.23725110001396388
   },
   {
     "code": "css4",
@@ -69,7 +69,7 @@
     "strategy": "mixed",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.20107790001202375
+    "runtime_seconds": 0.18756500002928078
   },
   {
     "code": "css4",
@@ -78,7 +78,7 @@
     "strategy": "random",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.21838139998726547
+    "runtime_seconds": 0.18520639999769628
   },
   {
     "code": "css4",
@@ -87,7 +87,7 @@
     "strategy": "resource",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.13117690000217408
+    "runtime_seconds": 0.13109879998955876
   },
   {
     "code": "css4",
@@ -96,7 +96,7 @@
     "strategy": "cegis",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.23693210002966225
+    "runtime_seconds": 0.2044267999008298
   },
   {
     "code": "css4",
@@ -105,7 +105,7 @@
     "strategy": "mixed",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.19905579998157918
+    "runtime_seconds": 0.1772138000233099
   },
   {
     "code": "css4",
@@ -114,7 +114,7 @@
     "strategy": "random",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.19314560003113002
+    "runtime_seconds": 0.16738040000200272
   },
   {
     "code": "css4",
@@ -123,7 +123,7 @@
     "strategy": "resource",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.16165869997348636
+    "runtime_seconds": 0.1331682000309229
   },
   {
     "code": "css4",
@@ -132,7 +132,7 @@
     "strategy": "cegis",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.28216500009875745
+    "runtime_seconds": 0.23823590006213635
   },
   {
     "code": "css4",
@@ -141,7 +141,7 @@
     "strategy": "mixed",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.2466132000554353
+    "runtime_seconds": 0.20551489992067218
   },
   {
     "code": "css4",
@@ -150,7 +150,7 @@
     "strategy": "random",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.21965750004164875
+    "runtime_seconds": 0.17337749991565943
   },
   {
     "code": "css4",
@@ -159,7 +159,7 @@
     "strategy": "resource",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.1554651000769809
+    "runtime_seconds": 0.13140859990380704
   },
   {
     "code": "css4",
@@ -168,7 +168,7 @@
     "strategy": "cegis",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.29232110001612455
+    "runtime_seconds": 0.2342593000503257
   },
   {
     "code": "css4",
@@ -177,7 +177,7 @@
     "strategy": "mixed",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.2230944000184536
+    "runtime_seconds": 0.18123900005593896
   },
   {
     "code": "css4",
@@ -186,7 +186,7 @@
     "strategy": "random",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.342689499957487
+    "runtime_seconds": 0.1987799999769777
   },
   {
     "code": "css4",
@@ -195,7 +195,7 @@
     "strategy": "resource",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.23485950008034706
+    "runtime_seconds": 0.14023829996585846
   },
   {
     "code": "css4",
@@ -204,7 +204,7 @@
     "strategy": "cegis",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.33331799996085465
+    "runtime_seconds": 0.2822960999328643
   },
   {
     "code": "css4",
@@ -213,7 +213,7 @@
     "strategy": "mixed",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.23262589995283633
+    "runtime_seconds": 0.20032850001007318
   },
   {
     "code": "noncss4",
@@ -222,7 +222,7 @@
     "strategy": "random",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.20619290007743984
+    "runtime_seconds": 0.19031340000219643
   },
   {
     "code": "noncss4",
@@ -231,7 +231,7 @@
     "strategy": "resource",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.16062219999730587
+    "runtime_seconds": 0.151819400023669
   },
   {
     "code": "noncss4",
@@ -240,7 +240,7 @@
     "strategy": "cegis",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.3158221000339836
+    "runtime_seconds": 0.25480759993661195
   },
   {
     "code": "noncss4",
@@ -249,7 +249,7 @@
     "strategy": "mixed",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.24480829993262887
+    "runtime_seconds": 0.214784299954772
   },
   {
     "code": "noncss4",
@@ -258,7 +258,7 @@
     "strategy": "random",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.22196409991011024
+    "runtime_seconds": 0.19226729997899383
   },
   {
     "code": "noncss4",
@@ -267,7 +267,7 @@
     "strategy": "resource",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.15809030004311353
+    "runtime_seconds": 0.13636600004974753
   },
   {
     "code": "noncss4",
@@ -276,7 +276,7 @@
     "strategy": "cegis",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.29432089999318123
+    "runtime_seconds": 0.2661559999687597
   },
   {
     "code": "noncss4",
@@ -285,7 +285,7 @@
     "strategy": "mixed",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.269650699920021
+    "runtime_seconds": 0.21088630007579923
   },
   {
     "code": "noncss4",
@@ -294,7 +294,7 @@
     "strategy": "random",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.29313019989058375
+    "runtime_seconds": 0.24351619998924434
   },
   {
     "code": "noncss4",
@@ -303,7 +303,7 @@
     "strategy": "resource",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.1896976000862196
+    "runtime_seconds": 0.15485699998680502
   },
   {
     "code": "noncss4",
@@ -312,7 +312,7 @@
     "strategy": "cegis",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.3085871000075713
+    "runtime_seconds": 0.29200010001659393
   },
   {
     "code": "noncss4",
@@ -321,7 +321,7 @@
     "strategy": "mixed",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.26434249989688396
+    "runtime_seconds": 0.19814560003578663
   },
   {
     "code": "noncss4",
@@ -330,7 +330,7 @@
     "strategy": "random",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.21889399993233383
+    "runtime_seconds": 0.17628759995568544
   },
   {
     "code": "noncss4",
@@ -339,7 +339,7 @@
     "strategy": "resource",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.1570537000661716
+    "runtime_seconds": 0.13629819999914616
   },
   {
     "code": "noncss4",
@@ -348,7 +348,7 @@
     "strategy": "cegis",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.34192490007262677
+    "runtime_seconds": 0.3005898999981582
   },
   {
     "code": "noncss4",
@@ -357,7 +357,7 @@
     "strategy": "mixed",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.21963479998521507
+    "runtime_seconds": 0.19863620004616678
   },
   {
     "code": "noncss4",
@@ -366,7 +366,7 @@
     "strategy": "random",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.22621520003303885
+    "runtime_seconds": 0.21318710001651198
   },
   {
     "code": "noncss4",
@@ -375,7 +375,7 @@
     "strategy": "resource",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.17764590005390346
+    "runtime_seconds": 0.14235179999377578
   },
   {
     "code": "noncss4",
@@ -384,7 +384,7 @@
     "strategy": "cegis",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.29039120010565966
+    "runtime_seconds": 0.26715000008698553
   },
   {
     "code": "noncss4",
@@ -393,7 +393,7 @@
     "strategy": "mixed",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.21449669997673482
+    "runtime_seconds": 0.20381930004805326
   },
   {
     "code": "noncss4",
@@ -402,7 +402,7 @@
     "strategy": "random",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.2810083000222221
+    "runtime_seconds": 0.23511459992732853
   },
   {
     "code": "noncss4",
@@ -411,7 +411,7 @@
     "strategy": "resource",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.17968129995279014
+    "runtime_seconds": 0.16066589998081326
   },
   {
     "code": "noncss4",
@@ -420,7 +420,7 @@
     "strategy": "cegis",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.32702460000291467
+    "runtime_seconds": 0.2932497999863699
   },
   {
     "code": "noncss4",
@@ -429,7 +429,7 @@
     "strategy": "mixed",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.25126709998585284
+    "runtime_seconds": 0.20499620004557073
   },
   {
     "code": "perfect5",
@@ -438,7 +438,7 @@
     "strategy": "random",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.42219279997516423
+    "runtime_seconds": 0.3509502001106739
   },
   {
     "code": "perfect5",
@@ -447,7 +447,7 @@
     "strategy": "resource",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.3179321000352502
+    "runtime_seconds": 0.26776820002123713
   },
   {
     "code": "perfect5",
@@ -456,7 +456,7 @@
     "strategy": "cegis",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.5532501999987289
+    "runtime_seconds": 0.4350881000282243
   },
   {
     "code": "perfect5",
@@ -465,7 +465,7 @@
     "strategy": "mixed",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.4056508999783546
+    "runtime_seconds": 0.37591810000594705
   },
   {
     "code": "perfect5",
@@ -474,7 +474,7 @@
     "strategy": "random",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.5329803000204265
+    "runtime_seconds": 0.3392411000095308
   },
   {
     "code": "perfect5",
@@ -483,7 +483,7 @@
     "strategy": "resource",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.30105869995895773
+    "runtime_seconds": 0.2667366999667138
   },
   {
     "code": "perfect5",
@@ -492,7 +492,7 @@
     "strategy": "cegis",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.4647209000540897
+    "runtime_seconds": 0.40457799995783716
   },
   {
     "code": "perfect5",
@@ -501,7 +501,7 @@
     "strategy": "mixed",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.3200581999262795
+    "runtime_seconds": 0.2903799000196159
   },
   {
     "code": "perfect5",
@@ -510,7 +510,7 @@
     "strategy": "random",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.40013680001720786
+    "runtime_seconds": 0.34170579991769046
   },
   {
     "code": "perfect5",
@@ -519,7 +519,7 @@
     "strategy": "resource",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.32842659996822476
+    "runtime_seconds": 0.26365069998428226
   },
   {
     "code": "perfect5",
@@ -528,7 +528,7 @@
     "strategy": "cegis",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.4718699000077322
+    "runtime_seconds": 0.3686957999598235
   },
   {
     "code": "perfect5",
@@ -537,7 +537,7 @@
     "strategy": "mixed",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.4244470000267029
+    "runtime_seconds": 0.3649396999971941
   },
   {
     "code": "perfect5",
@@ -546,7 +546,7 @@
     "strategy": "random",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.4021289999363944
+    "runtime_seconds": 0.35010629997123033
   },
   {
     "code": "perfect5",
@@ -555,7 +555,7 @@
     "strategy": "resource",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.2929091000696644
+    "runtime_seconds": 0.24811980000231415
   },
   {
     "code": "perfect5",
@@ -564,7 +564,7 @@
     "strategy": "cegis",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.4989779000170529
+    "runtime_seconds": 0.456153400009498
   },
   {
     "code": "perfect5",
@@ -573,7 +573,7 @@
     "strategy": "mixed",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.44492030004039407
+    "runtime_seconds": 0.37998460000380874
   },
   {
     "code": "perfect5",
@@ -582,7 +582,7 @@
     "strategy": "random",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.4261478000553325
+    "runtime_seconds": 0.3672142999712378
   },
   {
     "code": "perfect5",
@@ -591,7 +591,7 @@
     "strategy": "resource",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.26898629998322576
+    "runtime_seconds": 0.251746799913235
   },
   {
     "code": "perfect5",
@@ -600,7 +600,7 @@
     "strategy": "cegis",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.49267609999515116
+    "runtime_seconds": 0.4205422999802977
   },
   {
     "code": "perfect5",
@@ -609,7 +609,7 @@
     "strategy": "mixed",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.35191139997914433
+    "runtime_seconds": 0.28401730000041425
   },
   {
     "code": "perfect5",
@@ -618,7 +618,7 @@
     "strategy": "random",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.3888124000513926
+    "runtime_seconds": 0.37502180004958063
   },
   {
     "code": "perfect5",
@@ -627,7 +627,7 @@
     "strategy": "resource",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.28269940009340644
+    "runtime_seconds": 0.23599319998174906
   },
   {
     "code": "perfect5",
@@ -636,7 +636,7 @@
     "strategy": "cegis",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.47315530001651496
+    "runtime_seconds": 0.43318920000456274
   },
   {
     "code": "perfect5",
@@ -645,7 +645,7 @@
     "strategy": "mixed",
     "best_dc": 1,
     "target_reached": false,
-    "runtime_seconds": 0.44676950003486127
+    "runtime_seconds": 0.3500395999290049
   },
   {
     "code": "steane",
@@ -654,7 +654,7 @@
     "strategy": "random",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.5851777999196202
+    "runtime_seconds": 0.5225385000230744
   },
   {
     "code": "steane",
@@ -663,7 +663,7 @@
     "strategy": "resource",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.45803989993873984
+    "runtime_seconds": 0.42457869998179376
   },
   {
     "code": "steane",
@@ -672,7 +672,7 @@
     "strategy": "cegis",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.7355334999738261
+    "runtime_seconds": 0.6545978999929503
   },
   {
     "code": "steane",
@@ -681,7 +681,7 @@
     "strategy": "mixed",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.5648350999690592
+    "runtime_seconds": 0.5267814999679103
   },
   {
     "code": "steane",
@@ -690,7 +690,7 @@
     "strategy": "random",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.5151104999240488
+    "runtime_seconds": 0.4556346999015659
   },
   {
     "code": "steane",
@@ -699,7 +699,7 @@
     "strategy": "resource",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.3445936000207439
+    "runtime_seconds": 0.33095249999314547
   },
   {
     "code": "steane",
@@ -708,7 +708,7 @@
     "strategy": "cegis",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.5888620000332594
+    "runtime_seconds": 0.559952300041914
   },
   {
     "code": "steane",
@@ -717,7 +717,7 @@
     "strategy": "mixed",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.5173650000942871
+    "runtime_seconds": 0.4704504000255838
   },
   {
     "code": "steane",
@@ -726,7 +726,7 @@
     "strategy": "random",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.5854280999628827
+    "runtime_seconds": 0.4972209999104962
   },
   {
     "code": "steane",
@@ -735,7 +735,7 @@
     "strategy": "resource",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.3866388000315055
+    "runtime_seconds": 0.3420904000522569
   },
   {
     "code": "steane",
@@ -744,7 +744,7 @@
     "strategy": "cegis",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.7907578999875113
+    "runtime_seconds": 0.6738505999092013
   },
   {
     "code": "steane",
@@ -753,7 +753,7 @@
     "strategy": "mixed",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.700275499955751
+    "runtime_seconds": 0.6118074000114575
   },
   {
     "code": "steane",
@@ -762,7 +762,7 @@
     "strategy": "random",
     "best_dc": 3,
     "target_reached": true,
-    "runtime_seconds": 0.881197499926202
+    "runtime_seconds": 0.7775744000682607
   },
   {
     "code": "steane",
@@ -771,7 +771,7 @@
     "strategy": "resource",
     "best_dc": 3,
     "target_reached": true,
-    "runtime_seconds": 0.749676899984479
+    "runtime_seconds": 0.6153331000823528
   },
   {
     "code": "steane",
@@ -780,7 +780,7 @@
     "strategy": "cegis",
     "best_dc": 3,
     "target_reached": true,
-    "runtime_seconds": 0.9953001999529079
+    "runtime_seconds": 0.8462056000716984
   },
   {
     "code": "steane",
@@ -789,7 +789,7 @@
     "strategy": "mixed",
     "best_dc": 3,
     "target_reached": true,
-    "runtime_seconds": 0.7435094000538811
+    "runtime_seconds": 0.6969854000490159
   },
   {
     "code": "steane",
@@ -798,7 +798,7 @@
     "strategy": "random",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.5164479999803007
+    "runtime_seconds": 0.43392799992579967
   },
   {
     "code": "steane",
@@ -807,7 +807,7 @@
     "strategy": "resource",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.35850219998974353
+    "runtime_seconds": 0.31787850009277463
   },
   {
     "code": "steane",
@@ -816,7 +816,7 @@
     "strategy": "cegis",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.6219014000380412
+    "runtime_seconds": 0.5524563000071794
   },
   {
     "code": "steane",
@@ -825,7 +825,7 @@
     "strategy": "mixed",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.4884693999774754
+    "runtime_seconds": 0.4238077000482008
   },
   {
     "code": "steane",
@@ -834,7 +834,7 @@
     "strategy": "random",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.5653781000291929
+    "runtime_seconds": 0.546359800035134
   },
   {
     "code": "steane",
@@ -843,7 +843,7 @@
     "strategy": "resource",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.39096129999961704
+    "runtime_seconds": 0.3983358999248594
   },
   {
     "code": "steane",
@@ -852,7 +852,7 @@
     "strategy": "cegis",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.7766331000020728
+    "runtime_seconds": 0.6935150000499561
   },
   {
     "code": "steane",
@@ -861,6 +861,6 @@
     "strategy": "mixed",
     "best_dc": 2,
     "target_reached": false,
-    "runtime_seconds": 0.6534110999200493
+    "runtime_seconds": 0.6032742999959737
   }
 ]

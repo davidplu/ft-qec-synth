@@ -1363,6 +1363,27 @@
     "final_compatible_checks": [
       0
     ],
+    "final_compatible_products": [
+      {
+        "check_indices": [
+          0
+        ],
+        "pauli": "XXXX",
+        "reference_parity": 0
+      }
+    ],
     "input_boundary": "ideal_encoded_eigenstate_with_optional_local_preparation_noise"
-  }
+  },
+  "detector_offsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
 }

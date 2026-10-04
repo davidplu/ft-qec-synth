@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2",
   "software_version": "0.2.0",
-  "software_git_commit": "30f11739f6c96297df5f207f0d9e6c89d0f735f6",
+  "software_git_commit": "027e59f80de2acf7a63721585b7567e99b9c1b98",
   "code": {
     "n": 5,
     "generators": [
@@ -59,7 +59,7 @@
     "first_dc_tiers": {
       "1": {
         "evaluation": 1,
-        "seconds": 0.009714600048027933
+        "seconds": 0.009163200040347874
       }
     },
     "evaluations_to_target_dc": null,
@@ -145,7 +145,7 @@
         "depth_lower_bound": 98,
         "schedule_efficiency": 1.0
       },
-      "circuit_hash": "7f9bea0dcc5d80e03bc7174f16eea4c110bb70457726a03ab3e75fe4698584aa",
+      "circuit_hash": "ddd4cb03230c850312cc5ed2f910094f123f5c0344720c62eba646186725c3bd",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -193,8 +193,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.004344400018453598,
-      "fault_search_seconds": 0.00035830005072057247,
+      "signature_seconds": 0.029371000011451542,
+      "fault_search_seconds": 0.00033549999352544546,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -439,7 +439,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.011167099932208657,
+      "runtime_seconds": 0.035062699927948415,
       "evaluation_index": 20,
       "cached_evaluation": false,
       "provenance": {
@@ -449,7 +449,7 @@
         "failure_class": null,
         "repair_operator": "random_local_mutation"
       },
-      "elapsed_seconds": 0.29026779998093843
+      "elapsed_seconds": 0.2607772999908775
     },
     {
       "architecture_id": "1b2cf1efca331e729156",
@@ -528,7 +528,7 @@
         "depth_lower_bound": 62,
         "schedule_efficiency": 0.9538461538461539
       },
-      "circuit_hash": "de669244161cc87960c56506a180bfe32cd29fa63239f32b8c0a41aaca51ac38",
+      "circuit_hash": "454f4f3bea84edd530d528374bb12d43ccd384ad199fa3b30f5316c8733f787e",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -578,8 +578,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.004356199991889298,
-      "fault_search_seconds": 0.0002194000408053398,
+      "signature_seconds": 0.004108899971470237,
+      "fault_search_seconds": 0.00022470008116215467,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -830,7 +830,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.010457900003530085,
+      "runtime_seconds": 0.01009420002810657,
       "evaluation_index": 24,
       "cached_evaluation": false,
       "provenance": {
@@ -840,7 +840,7 @@
         "failure_class": null,
         "repair_operator": "remove_flag_resource"
       },
-      "elapsed_seconds": 0.34089670004323125
+      "elapsed_seconds": 0.30432210001163185
     }
   ],
   "records": [
@@ -916,7 +916,7 @@
         "depth_lower_bound": 98,
         "schedule_efficiency": 1.0
       },
-      "circuit_hash": "287044fb45ab69bdb1b0da8867bf4018ad10613547c4a7e7371c9d7ab64cce05",
+      "circuit_hash": "629bfe56912a4f7065948e3a4570eb0313adb06eb4220c885cfd83cdd8ffa41e",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -965,8 +965,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.003286799998022616,
-      "fault_search_seconds": 0.00025889999233186245,
+      "signature_seconds": 0.003456900012679398,
+      "fault_search_seconds": 0.00027109996881335974,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -1215,7 +1215,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.008749299915507436,
+      "runtime_seconds": 0.00826569995842874,
       "evaluation_index": 1,
       "cached_evaluation": false,
       "provenance": {
@@ -1225,7 +1225,7 @@
         "failure_class": null,
         "repair_operator": "initial_population"
       },
-      "elapsed_seconds": 0.009714600048027933
+      "elapsed_seconds": 0.009163200040347874
     },
     {
       "architecture_id": "e250f735efc8cd75783e",
@@ -1318,7 +1318,7 @@
         "depth_lower_bound": 110,
         "schedule_efficiency": 0.9243697478991597
       },
-      "circuit_hash": "7b5ed05a19b2a1b65772c888479d36e67db9d8e58528798fbc0f1d9ff316269e",
+      "circuit_hash": "f1496919e3957a963a1b380e0c01319bf0180a4972778a8bb4c6650726e48949",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -1366,8 +1366,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.00723780004773289,
-      "fault_search_seconds": 0.0004069999558851123,
+      "signature_seconds": 0.004783899988979101,
+      "fault_search_seconds": 0.0002590999938547611,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -1618,7 +1618,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.01639700005762279,
+      "runtime_seconds": 0.011256799916736782,
       "evaluation_index": 2,
       "cached_evaluation": false,
       "provenance": {
@@ -1628,7 +1628,7 @@
         "failure_class": null,
         "repair_operator": "initial_population"
       },
-      "elapsed_seconds": 0.02656510006636381
+      "elapsed_seconds": 0.0207558999536559
     },
     {
       "architecture_id": "2e38e1658a2b7fa6c7a5",
@@ -1720,7 +1720,7 @@
         "depth_lower_bound": 146,
         "schedule_efficiency": 1.0
       },
-      "circuit_hash": "363c9a037930be736ff6c3fd0bf86fbbb8b1ca604acba35f06524a3dbeb4ae2a",
+      "circuit_hash": "35ff305809452626fb1e8f9e5e404d83db3de756868c285e523c60e6205b5da2",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -1768,8 +1768,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.006760700023733079,
-      "fault_search_seconds": 0.0003633000887930393,
+      "signature_seconds": 0.00577819999307394,
+      "fault_search_seconds": 0.0003130000550299883,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -2020,7 +2020,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.01554339996073395,
+      "runtime_seconds": 0.013159200083464384,
       "evaluation_index": 3,
       "cached_evaluation": false,
       "provenance": {
@@ -2030,7 +2030,7 @@
         "failure_class": null,
         "repair_operator": "initial_population"
       },
-      "elapsed_seconds": 0.042611800017766654
+      "elapsed_seconds": 0.03430009994190186
     },
     {
       "architecture_id": "b2c859629e115788ea1b",
@@ -2122,7 +2122,7 @@
         "depth_lower_bound": 74,
         "schedule_efficiency": 0.8604651162790697
       },
-      "circuit_hash": "76184c673289317854c6149dfa4482a802f41b19778e877daafa0e2e1ae29112",
+      "circuit_hash": "fe90d8a9c258e14f5764e25ada409e37e053b0c36876d92420746a32efee8902",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -2170,8 +2170,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.006332000019028783,
-      "fault_search_seconds": 0.0003768999595195055,
+      "signature_seconds": 0.005475300014950335,
+      "fault_search_seconds": 0.00033219996839761734,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -2416,7 +2416,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.014765299973078072,
+      "runtime_seconds": 0.012971099931746721,
       "evaluation_index": 4,
       "cached_evaluation": false,
       "provenance": {
@@ -2426,7 +2426,7 @@
         "failure_class": null,
         "repair_operator": "initial_population"
       },
-      "elapsed_seconds": 0.05782310001086444
+      "elapsed_seconds": 0.04766599996946752
     },
     {
       "architecture_id": "b4b6bbe39d8a43f85802",
@@ -2523,7 +2523,7 @@
         "depth_lower_bound": 86,
         "schedule_efficiency": 0.9347826086956522
       },
-      "circuit_hash": "b9ae53228e57f83a263ade2439be0280648584991534bcf1c638a35e2b112ca6",
+      "circuit_hash": "d3be2141e829fbaa23aed0d0a8ef65e1cd5b3e79913792f93d45a1ccc5445679",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -2571,8 +2571,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.006628899951465428,
-      "fault_search_seconds": 0.00041630002669990063,
+      "signature_seconds": 0.006046800059266388,
+      "fault_search_seconds": 0.00027820002287626266,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -2817,7 +2817,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.015427200007252395,
+      "runtime_seconds": 0.01354479999281466,
       "evaluation_index": 5,
       "cached_evaluation": false,
       "provenance": {
@@ -2827,7 +2827,7 @@
         "failure_class": null,
         "repair_operator": "initial_population"
       },
-      "elapsed_seconds": 0.07372450002003461
+      "elapsed_seconds": 0.061599800013937056
     },
     {
       "architecture_id": "f193b2899bcb68ddaa96",
@@ -2919,7 +2919,7 @@
         "depth_lower_bound": 146,
         "schedule_efficiency": 1.0
       },
-      "circuit_hash": "7facb248858e7151268d27a6eaf2e5761847550a519c2b600fb1bb65b603ab24",
+      "circuit_hash": "2a4e3dfa0e53f2e2b39f1de3aa5aaa4b5a7728ac3f445c7768b7392c43f28d48",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -2967,8 +2967,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.0062902000499889255,
-      "fault_search_seconds": 0.00037349993363022804,
+      "signature_seconds": 0.00514130003284663,
+      "fault_search_seconds": 0.00029660004656761885,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -3219,7 +3219,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.014661099994555116,
+      "runtime_seconds": 0.012129000038839877,
       "evaluation_index": 6,
       "cached_evaluation": false,
       "provenance": {
@@ -3229,7 +3229,7 @@
         "failure_class": null,
         "repair_operator": "initial_population"
       },
-      "elapsed_seconds": 0.08886620006524026
+      "elapsed_seconds": 0.07411409995984286
     },
     {
       "architecture_id": "154a0d9c2eb001d5269f",
@@ -3326,7 +3326,7 @@
         "depth_lower_bound": 158,
         "schedule_efficiency": 1.0
       },
-      "circuit_hash": "f57654ae33a02f4eddbb92fe3c7022553bf2979e6951697cc6e7b8a6cbe05e2b",
+      "circuit_hash": "f7cf2804830badbeee6e2015259ddd469c496dde6cdceb2ba6ac3c86095557dd",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -3374,8 +3374,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.006820800015702844,
-      "fault_search_seconds": 0.0004241999704390764,
+      "signature_seconds": 0.006060299929231405,
+      "fault_search_seconds": 0.00029960006941109896,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -3620,7 +3620,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.015903900028206408,
+      "runtime_seconds": 0.013800199958495796,
       "evaluation_index": 7,
       "cached_evaluation": false,
       "provenance": {
@@ -3630,7 +3630,7 @@
         "failure_class": null,
         "repair_operator": "reduce_syndrome_budget"
       },
-      "elapsed_seconds": 0.10544549999758601
+      "elapsed_seconds": 0.08840370003599674
     },
     {
       "architecture_id": "22abfd536ea72d78144f",
@@ -3731,7 +3731,7 @@
         "depth_lower_bound": 86,
         "schedule_efficiency": 0.8514851485148515
       },
-      "circuit_hash": "89ebb0f9008912bd2a651eea06d212f821b4733cd61caf9d533eac8b7d3b8a1b",
+      "circuit_hash": "5e10928cc02951dbd9d05babe4fff859a0029e4861af5eefd31e7eb8ecfa14a1",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -3779,8 +3779,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.007423599949106574,
-      "fault_search_seconds": 0.0004456000169739127,
+      "signature_seconds": 0.00615299993660301,
+      "fault_search_seconds": 0.000453400076366961,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -4031,7 +4031,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.017588600050657988,
+      "runtime_seconds": 0.014794899965636432,
       "evaluation_index": 8,
       "cached_evaluation": false,
       "provenance": {
@@ -4041,7 +4041,7 @@
         "failure_class": "OTHER",
         "repair_operator": "independent_full_interval_flag"
       },
-      "elapsed_seconds": 0.12454960006289184,
+      "elapsed_seconds": 0.10459380003158003,
       "repair_outcome": {
         "eliminates_source_witness": false,
         "transport_reason": null,
@@ -4148,7 +4148,7 @@
         "depth_lower_bound": 86,
         "schedule_efficiency": 0.9347826086956522
       },
-      "circuit_hash": "b9ae53228e57f83a263ade2439be0280648584991534bcf1c638a35e2b112ca6",
+      "circuit_hash": "d3be2141e829fbaa23aed0d0a8ef65e1cd5b3e79913792f93d45a1ccc5445679",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -4196,8 +4196,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.006628899951465428,
-      "fault_search_seconds": 0.00041630002669990063,
+      "signature_seconds": 0.006046800059266388,
+      "fault_search_seconds": 0.00027820002287626266,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -4452,7 +4452,7 @@
         "failure_class": null,
         "repair_operator": "maximize_parallelism"
       },
-      "elapsed_seconds": 0.12743710004724562
+      "elapsed_seconds": 0.10718119994271547
     },
     {
       "architecture_id": "a5d8a134d6ef734002f2",
@@ -4544,7 +4544,7 @@
         "depth_lower_bound": 74,
         "schedule_efficiency": 0.925
       },
-      "circuit_hash": "f64eb492cc79c7dc24c47a3d8a6c66d926021c30e8a5f5ce32c782d616e762d7",
+      "circuit_hash": "15f68a350b4123c4aee333859a9397733c287215e989674faa942fec2f57dd08",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -4592,8 +4592,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.006996899959631264,
-      "fault_search_seconds": 0.0004634999204427004,
+      "signature_seconds": 0.00566849997267127,
+      "fault_search_seconds": 0.00035440002102404833,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -4838,7 +4838,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.016741700004786253,
+      "runtime_seconds": 0.012773900059983134,
       "evaluation_index": 10,
       "cached_evaluation": false,
       "provenance": {
@@ -4848,7 +4848,7 @@
         "failure_class": null,
         "repair_operator": "remove_flag_resource"
       },
-      "elapsed_seconds": 0.14473559998441488
+      "elapsed_seconds": 0.12038119998760521
     },
     {
       "architecture_id": "f1a4596800cfe2771f8d",
@@ -4922,7 +4922,7 @@
         "depth_lower_bound": 98,
         "schedule_efficiency": 1.0
       },
-      "circuit_hash": "287044fb45ab69bdb1b0da8867bf4018ad10613547c4a7e7371c9d7ab64cce05",
+      "circuit_hash": "629bfe56912a4f7065948e3a4570eb0313adb06eb4220c885cfd83cdd8ffa41e",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -4971,8 +4971,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.003286799998022616,
-      "fault_search_seconds": 0.00025889999233186245,
+      "signature_seconds": 0.003456900012679398,
+      "fault_search_seconds": 0.00027109996881335974,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -5231,7 +5231,7 @@
         "failure_class": null,
         "repair_operator": "remove_flag_resource"
       },
-      "elapsed_seconds": 0.14510329999029636
+      "elapsed_seconds": 0.1206673999549821
     },
     {
       "architecture_id": "7367ac92b72bac20a76c",
@@ -5310,7 +5310,7 @@
         "depth_lower_bound": 110,
         "schedule_efficiency": 1.0
       },
-      "circuit_hash": "be97a5351a82064feb37e4eaee111178a39759370d482dc3a2085cdd2ec062c6",
+      "circuit_hash": "6ff747c37ad18b1f7fe76253eba10d3586d2796a7a5df74663bf26cf71d7d96d",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -5359,8 +5359,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.005462600034661591,
-      "fault_search_seconds": 0.0003836998948827386,
+      "signature_seconds": 0.0040710000321269035,
+      "fault_search_seconds": 0.0002570999786257744,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -5609,7 +5609,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.012757599935866892,
+      "runtime_seconds": 0.00961119995918125,
       "evaluation_index": 12,
       "cached_evaluation": false,
       "provenance": {
@@ -5619,7 +5619,7 @@
         "failure_class": "SAME_CHECK_HOOK",
         "repair_operator": "independent_full_interval_flag"
       },
-      "elapsed_seconds": 0.1593533999985084,
+      "elapsed_seconds": 0.13133110001217574,
       "repair_outcome": {
         "eliminates_source_witness": true,
         "transport_reason": null,
@@ -5721,7 +5721,7 @@
         "depth_lower_bound": 74,
         "schedule_efficiency": 0.8604651162790697
       },
-      "circuit_hash": "86e0ede2a31b332216f5c6e6a689d838a5baa7466ce7296f4caaa7c7cb0d1aa5",
+      "circuit_hash": "52f5db7083fbf01605dec2d7b50a3e2bc4c85f9306c01276a6bc0776dad8b93b",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -5769,8 +5769,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.007124199997633696,
-      "fault_search_seconds": 0.00045279995538294315,
+      "signature_seconds": 0.005593800102360547,
+      "fault_search_seconds": 0.000269699958153069,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -6015,7 +6015,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.01697759993840009,
+      "runtime_seconds": 0.012834800058044493,
       "evaluation_index": 13,
       "cached_evaluation": false,
       "provenance": {
@@ -6025,7 +6025,7 @@
         "failure_class": null,
         "repair_operator": "random_local_mutation"
       },
-      "elapsed_seconds": 0.17895880003925413
+      "elapsed_seconds": 0.1461616000160575
     },
     {
       "architecture_id": "0a5c245fb91861455bff",
@@ -6113,7 +6113,7 @@
         "depth_lower_bound": 74,
         "schedule_efficiency": 0.961038961038961
       },
-      "circuit_hash": "8fe815614c47eeb706282b3e7fbf6141797e74c5b84bbab7f15998dbc2954bd4",
+      "circuit_hash": "d807c7cbdd6c3f8defbb2311a8840a8a789d586005ff0f078571986bd97ad55c",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -6161,8 +6161,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.0064984000055119395,
-      "fault_search_seconds": 0.00040410005021840334,
+      "signature_seconds": 0.0048365999246016145,
+      "fault_search_seconds": 0.0002604000037536025,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -6407,7 +6407,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.015130799962207675,
+      "runtime_seconds": 0.011628000065684319,
       "evaluation_index": 14,
       "cached_evaluation": false,
       "provenance": {
@@ -6417,7 +6417,7 @@
         "failure_class": null,
         "repair_operator": "remove_flag_resource"
       },
-      "elapsed_seconds": 0.1946534999879077
+      "elapsed_seconds": 0.15824030002113432
     },
     {
       "architecture_id": "45ae8099d5aac007e71b",
@@ -6509,7 +6509,7 @@
         "depth_lower_bound": 74,
         "schedule_efficiency": 0.891566265060241
       },
-      "circuit_hash": "24cd23e77f1636be6b9e49c0eea7299ae6b500c024d269f0e4454dc191396710",
+      "circuit_hash": "855b8a303c4d63fe8cb438b4b48c6b61ea8326cd19a6cc957909aaa655ac700d",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -6557,8 +6557,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.006892999983392656,
-      "fault_search_seconds": 0.00041690003126859665,
+      "signature_seconds": 0.005246900022029877,
+      "fault_search_seconds": 0.00026929995510727167,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -6809,7 +6809,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.016486900043673813,
+      "runtime_seconds": 0.012501100078225136,
       "evaluation_index": 15,
       "cached_evaluation": false,
       "provenance": {
@@ -6819,7 +6819,7 @@
         "failure_class": "OTHER",
         "repair_operator": "independent_full_interval_flag"
       },
-      "elapsed_seconds": 0.21267080004327,
+      "elapsed_seconds": 0.17195410002022982,
       "repair_outcome": {
         "eliminates_source_witness": false,
         "transport_reason": null,
@@ -6917,7 +6917,7 @@
         "depth_lower_bound": 134,
         "schedule_efficiency": 1.0
       },
-      "circuit_hash": "7d6a12bf3e98b8f7846621806d40fbf3b9e34337e2910303a710216890fc6140",
+      "circuit_hash": "8ad9e9dec4d735ab99edbc5b4545885f8b7a8a1062c53c81ff62c9dafb910297",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -6965,8 +6965,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.006376700010150671,
-      "fault_search_seconds": 0.0003743999404832721,
+      "signature_seconds": 0.004749700077809393,
+      "fault_search_seconds": 0.0002720999764278531,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -7211,7 +7211,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.015080300043337047,
+      "runtime_seconds": 0.011357499985024333,
       "evaluation_index": 16,
       "cached_evaluation": false,
       "provenance": {
@@ -7221,7 +7221,7 @@
         "failure_class": null,
         "repair_operator": "random_local_mutation"
       },
-      "elapsed_seconds": 0.23093249998055398
+      "elapsed_seconds": 0.1857124000089243
     },
     {
       "architecture_id": "8b97fb7d72b64f608c67",
@@ -7313,7 +7313,7 @@
         "depth_lower_bound": 74,
         "schedule_efficiency": 0.8604651162790697
       },
-      "circuit_hash": "3aa5202be911473769a568b3a1cc3342dd59a6e053619a3942a4186aa1cc887c",
+      "circuit_hash": "e82e9d5fe09998d24cc620b4a48376400250da061f61928acc0b00c0937aa264",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -7361,8 +7361,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.006667600013315678,
-      "fault_search_seconds": 0.0004365000640973449,
+      "signature_seconds": 0.006544400006532669,
+      "fault_search_seconds": 0.00030700000934302807,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -7607,7 +7607,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.015954399947077036,
+      "runtime_seconds": 0.015894000069238245,
       "evaluation_index": 17,
       "cached_evaluation": false,
       "provenance": {
@@ -7617,7 +7617,7 @@
         "failure_class": "OTHER",
         "repair_operator": "split_prefix_flag"
       },
-      "elapsed_seconds": 0.24738820001948625,
+      "elapsed_seconds": 0.20200469996780157,
       "repair_outcome": {
         "eliminates_source_witness": false,
         "transport_reason": null,
@@ -7706,7 +7706,7 @@
         "depth_lower_bound": 110,
         "schedule_efficiency": 1.0
       },
-      "circuit_hash": "9d60659faa16ca11991aafa587675acc1bf06997905fcf6d88267c879a263bf2",
+      "circuit_hash": "c2c9a24ebd52bbb1f9d989be4352b35f2591de90bb421d40cc71dfa3023d5a16",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -7755,8 +7755,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.005101799964904785,
-      "fault_search_seconds": 0.0002970000496134162,
+      "signature_seconds": 0.003709399956278503,
+      "fault_search_seconds": 0.00023530004546046257,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -8005,7 +8005,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.012355900020338595,
+      "runtime_seconds": 0.009007400018163025,
       "evaluation_index": 18,
       "cached_evaluation": false,
       "provenance": {
@@ -8015,7 +8015,7 @@
         "failure_class": "SAME_CHECK_HOOK",
         "repair_operator": "split_prefix_flag"
       },
-      "elapsed_seconds": 0.26279589999467134,
+      "elapsed_seconds": 0.21322869998402894,
       "repair_outcome": {
         "eliminates_source_witness": false,
         "transport_reason": null,
@@ -8108,7 +8108,7 @@
         "depth_lower_bound": 74,
         "schedule_efficiency": 0.961038961038961
       },
-      "circuit_hash": "07cbe565be316d22c13d3e68c0e5dd4dc97c0c1170a06a8af004025c181efa1d",
+      "circuit_hash": "14a3d76888ac818e0bc4af18b94278f01c7a14c6fc79255c80f5c9a283971e18",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -8158,8 +8158,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.005562399979680777,
-      "fault_search_seconds": 0.0002902999985963106,
+      "signature_seconds": 0.004267700016498566,
+      "fault_search_seconds": 0.00023509992752224207,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -8410,7 +8410,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.013338700053282082,
+      "runtime_seconds": 0.010241099982522428,
       "evaluation_index": 19,
       "cached_evaluation": false,
       "provenance": {
@@ -8420,7 +8420,7 @@
         "failure_class": null,
         "repair_operator": "remove_flag_resource"
       },
-      "elapsed_seconds": 0.2786173999775201
+      "elapsed_seconds": 0.2253296000417322
     },
     {
       "architecture_id": "097a9bf5e8f9dbb63b70",
@@ -8494,7 +8494,7 @@
         "depth_lower_bound": 98,
         "schedule_efficiency": 1.0
       },
-      "circuit_hash": "7f9bea0dcc5d80e03bc7174f16eea4c110bb70457726a03ab3e75fe4698584aa",
+      "circuit_hash": "ddd4cb03230c850312cc5ed2f910094f123f5c0344720c62eba646186725c3bd",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -8542,8 +8542,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.004344400018453598,
-      "fault_search_seconds": 0.00035830005072057247,
+      "signature_seconds": 0.029371000011451542,
+      "fault_search_seconds": 0.00033549999352544546,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -8788,7 +8788,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.011167099932208657,
+      "runtime_seconds": 0.035062699927948415,
       "evaluation_index": 20,
       "cached_evaluation": false,
       "provenance": {
@@ -8798,7 +8798,7 @@
         "failure_class": null,
         "repair_operator": "random_local_mutation"
       },
-      "elapsed_seconds": 0.29026779998093843
+      "elapsed_seconds": 0.2607772999908775
     },
     {
       "architecture_id": "5e537e577bcd6263d5af",
@@ -8877,7 +8877,7 @@
         "depth_lower_bound": 110,
         "schedule_efficiency": 1.0
       },
-      "circuit_hash": "3f79c8758e4c94dc22aa074bb94fc2b69697bd6975592d917b3990238801557e",
+      "circuit_hash": "64abe9d0811365e051638c5b0d70c32ac0c8fbee038ac24e160c8fc81b206d1f",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -8925,8 +8925,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.005005899933166802,
-      "fault_search_seconds": 0.0002821000525727868,
+      "signature_seconds": 0.0037679000524803996,
+      "fault_search_seconds": 0.00020699994638562202,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -9171,7 +9171,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.011988100013695657,
+      "runtime_seconds": 0.009149399935267866,
       "evaluation_index": 21,
       "cached_evaluation": false,
       "provenance": {
@@ -9181,7 +9181,7 @@
         "failure_class": null,
         "repair_operator": "random_local_mutation"
       },
-      "elapsed_seconds": 0.30270850006490946
+      "elapsed_seconds": 0.2703135999618098
     },
     {
       "architecture_id": "37959578f1f4f10948c7",
@@ -9269,7 +9269,7 @@
         "depth_lower_bound": 74,
         "schedule_efficiency": 0.891566265060241
       },
-      "circuit_hash": "62ce4ab56f4f4bca4a51b5524e87c9d5ce3fb0715e1f5c618db151bc121a92ef",
+      "circuit_hash": "a0d476753fd6261080473de0e47f8acf8c204d947b3042240f3b3622d7d3ea52",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -9317,8 +9317,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.005475400015711784,
-      "fault_search_seconds": 0.00029310001991689205,
+      "signature_seconds": 0.004604300018399954,
+      "fault_search_seconds": 0.0002522999420762062,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -9569,7 +9569,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.012462200014851987,
+      "runtime_seconds": 0.010720399906858802,
       "evaluation_index": 22,
       "cached_evaluation": false,
       "provenance": {
@@ -9579,7 +9579,7 @@
         "failure_class": "SAME_CHECK_HOOK",
         "repair_operator": "independent_full_interval_flag"
       },
-      "elapsed_seconds": 0.31663899996783584,
+      "elapsed_seconds": 0.282254199963063,
       "repair_outcome": {
         "eliminates_source_witness": true,
         "transport_reason": null,
@@ -9672,7 +9672,7 @@
         "depth_lower_bound": 122,
         "schedule_efficiency": 1.0
       },
-      "circuit_hash": "5ad16ee32795c68e69059d4439db2714d5c67c105e36decb2ca945896e79dac8",
+      "circuit_hash": "6b49722d40f71eb687ccdb981e3eb7be79f520685a13cf66dd06459531de530f",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -9722,8 +9722,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.0047824999783188105,
-      "fault_search_seconds": 0.00025559996720403433,
+      "signature_seconds": 0.003927299985662103,
+      "fault_search_seconds": 0.00021570001263171434,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -9974,7 +9974,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.011083499994128942,
+      "runtime_seconds": 0.009570900001563132,
       "evaluation_index": 23,
       "cached_evaluation": false,
       "provenance": {
@@ -9984,7 +9984,7 @@
         "failure_class": null,
         "repair_operator": "reduce_syndrome_budget"
       },
-      "elapsed_seconds": 0.3300242000259459
+      "elapsed_seconds": 0.2938200000207871
     },
     {
       "architecture_id": "1b2cf1efca331e729156",
@@ -10063,7 +10063,7 @@
         "depth_lower_bound": 62,
         "schedule_efficiency": 0.9538461538461539
       },
-      "circuit_hash": "de669244161cc87960c56506a180bfe32cd29fa63239f32b8c0a41aaca51ac38",
+      "circuit_hash": "454f4f3bea84edd530d528374bb12d43ccd384ad199fa3b30f5316c8733f787e",
       "bounds": {
         "status": "EXACT",
         "lower_bound": 1,
@@ -10113,8 +10113,8 @@
       },
       "rejection": "logical_witness_below_target",
       "stage": "B",
-      "signature_seconds": 0.004356199991889298,
-      "fault_search_seconds": 0.0002194000408053398,
+      "signature_seconds": 0.004108899971470237,
+      "fault_search_seconds": 0.00022470008116215467,
       "witness_verification": {
         "verified": true,
         "path": "boolean_array_simultaneous_replay"
@@ -10365,7 +10365,7 @@
           }
         ]
       },
-      "runtime_seconds": 0.010457900003530085,
+      "runtime_seconds": 0.01009420002810657,
       "evaluation_index": 24,
       "cached_evaluation": false,
       "provenance": {
@@ -10375,7 +10375,7 @@
         "failure_class": null,
         "repair_operator": "remove_flag_resource"
       },
-      "elapsed_seconds": 0.34089670004323125
+      "elapsed_seconds": 0.30432210001163185
     }
   ],
   "proposals": [
@@ -10620,5 +10620,5 @@
       "repair_operator": "remove_flag_resource"
     }
   ],
-  "runtime_seconds": 0.4056508999783546
+  "runtime_seconds": 0.37591810000594705
 }

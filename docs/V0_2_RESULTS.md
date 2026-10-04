@@ -6,13 +6,13 @@
 
 V0.1 delivered source was not a Git repository. It was preserved as baseline commit `0291500da4c5977a093988f918c8baf8ffdf867e`; development uses branch `development/v0.2`. Packaging/serialization fixes were committed separately, with 34 passing baseline tests and zero skips. The original algebra, gadgets, candidates, scheduler and search were extended rather than replaced.
 
-V0.2 adds repeated rounds and temporal detector closures; destructive X/Z logical memory readout; separate bounded minimum-weight decoder metrics; round/check/location metadata; backward packed transfer maps; independently replayed witnesses; structural analysis and generic repairs; mutation provenance; matched ablations; JSON-native public objects and mandatory complete dev dependencies. V0.1 ideal-boundary mode remains explicitly selectable.
+V0.2 adds repeated rounds, temporal detectors and phase-correct compatible-stabilizer-subgroup readout closure; destructive X/Z logical memory readout; separate bounded minimum-weight decoder metrics; round/check/location metadata; backward packed transfer maps; independently replayed witnesses; structural analysis and generic repairs; mutation provenance; matched ablations; JSON-native public objects and mandatory complete dev dependencies. V0.1 ideal-boundary mode remains explicitly selectable.
 
 ## Frozen protocol
 
 Development inputs: css4, noncss4, perfect5 and Steane. Both X/Z memory at logical index 0; R=3; ideal encoded input; noisy ancilla resets, gates and readouts; physical terminal product readout; implicit idles and optional input noise disabled in this pilot. Maximum physical fault weight 3; 200000 work entries per search; target d_c >= 3.
 
-Seeds [0, 1, 2]; four strategies; six identical initial candidates; 24 slots and 18 mutation proposals per run. Duplicates consume slots with a common cache policy. 96 runs, 2304 slots, 35.466 summed wall seconds. Time is measured, not equalized. Exact model and limitations are in `FAULT_MODEL.md` and `V0_2_LIMITATIONS.md`.
+Seeds [0, 1, 2]; four strategies; six identical initial candidates; 24 slots and 18 mutation proposals per run. Duplicates consume slots with a common cache policy. 96 runs, 2304 slots, 30.676 summed wall seconds. Time is measured, not equalized. Exact model and limitations are in `FAULT_MODEL.md` and `V0_2_LIMITATIONS.md`.
 
 ## Multi-seed distance comparison
 
@@ -35,10 +35,10 @@ CEGIS versus random: 0 stronger-distance wins, 24 ties and 0 losses across the 2
 
 | Strategy | Runs reaching target | Fraction | Mean seconds/run |
 |---|---:|---:|---:|
-| random | 1/24 | 0.042 | 0.378 |
-| resource | 1/24 | 0.042 | 0.271 |
-| cegis | 1/24 | 0.042 | 0.459 |
-| mixed | 1/24 | 0.042 | 0.369 |
+| random | 1/24 | 0.042 | 0.321 |
+| resource | 1/24 | 0.042 | 0.235 |
+| cegis | 1/24 | 0.042 | 0.400 |
+| mixed | 1/24 | 0.042 | 0.322 |
 
 All target successes occurred in the common initial population: True. Accordingly, evaluations-to-target are not evidence of a guided-mutation benefit. Unreached targets remain in the reach-fraction denominator; target-conditioned timing/resource statistics remain explicitly conditional. Full per-seed first-tier evaluation/time and best Q/D/QD/2Q metrics are saved in every raw run and `aggregate.json`.
 
@@ -97,13 +97,13 @@ Every candidate also trains/evaluates the deterministic detector-to-logical reco
 
 Three repeated-round Steane circuits were profiled using both the original forward single-fault path and the new suffix-map path, each three times, with exact signature equality. Median speedups:
 
-- `aac259b9dff50156609d`: 1267 elementary variants, 157 IR operations; 36.53x; forward median 0.236440s -> suffix median 0.006472s.
-- `ada6bc5645b00ca78fe6`: 1981 elementary variants, 241 IR operations; 53.05x; forward median 0.556700s -> suffix median 0.010493s.
-- `3feee3526676a0f0e3ea`: 1879 elementary variants, 229 IR operations; 48.60x; forward median 0.514912s -> suffix median 0.010594s.
+- `aac259b9dff50156609d`: 1267 elementary variants, 157 IR operations; 35.55x; forward median 0.212396s -> suffix median 0.005974s.
+- `ada6bc5645b00ca78fe6`: 1981 elementary variants, 241 IR operations; 48.01x; forward median 0.497524s -> suffix median 0.010362s.
+- `3feee3526676a0f0e3ea`: 1879 elementary variants, 229 IR operations; 50.65x; forward median 0.457277s -> suffix median 0.009028s.
 
 The final profile now spreads cost over signature enumeration, JSON/dataclass serialization, IR validation and search bookkeeping. Packed suffix maps remove the demonstrated repeated-propagation bottleneck. High-weight scaling and larger-code throughput remain unmeasured; no held-out execution is used to support a performance claim.
 
-Full suite: 71 passed, 0 failures, 0 skips. All 96 raw runs validate against the native V0.2 schema, and all 2281 reported witness instances replay independently from rebuilt serialized circuits. Dense-state tests cover repeated CSS/non-CSS semantics, actual measurement/reset outcomes, flags, preparation-output noise and both logical memory bases. Full editable installation and CLI paths are tested without manually setting PYTHONPATH.
+Full suite: 74 passed, 0 failures, 0 skips. All 96 raw runs validate against the native V0.2 schema, and all 2281 reported witness instances replay independently from rebuilt serialized circuits. Dense-state tests cover repeated CSS/non-CSS semantics, actual measurement/reset outcomes, flags, preparation-output noise and both logical memory bases. Full editable installation and CLI paths are tested without manually setting PYTHONPATH.
 
 ## Held-out readiness gate
 

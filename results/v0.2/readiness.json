@@ -1,7 +1,7 @@
 {
   "status": "NOT_READY_FOR_HELD_OUT",
   "correctness": {
-    "tests_passed": 70,
+    "tests_passed": 74,
     "tests_failed": 0,
     "tests_skipped": 0,
     "saved_witnesses_independently_replayed": 2281,
@@ -18,9 +18,9 @@
   },
   "performance": {
     "evaluation_slots": 2304,
-    "wall_seconds": 35.46641320025083,
-    "slots_per_second": 64.96287027930147,
-    "median_signature_speedup": 48.60185947832794,
+    "wall_seconds": 30.676022899802774,
+    "slots_per_second": 75.10751988696727,
+    "median_signature_speedup": 48.01378057835949,
     "large_code_scaling_tested": false
   },
   "isolation": {
