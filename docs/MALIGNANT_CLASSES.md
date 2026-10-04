@@ -75,3 +75,11 @@ a separate exhaustive detector join through the claimed excluded weight. Class
 heuristics never alter either certificate. Architecture/signature/class caches are
 exact full-circuit keyed; tiny mutations are fully reevaluated because reset,
 record and schedule changes make unproved local reuse unsafe.
+
+The result audit uses bit lanes to run many independent physical error frames
+through the circuit simultaneously, including singleton frames for exclusion.
+It does not combine optimized suffix signatures. It is tested against scalar
+simultaneous replay, including flagged pairs, virtual idles and legacy logical
+effects. Physical address validation is shared with the scalar path and runs once
+per distinct address. Two saved frozen runs are regression-checked to confirm
+audit-only corrections do not change architecture selection, spectra or resources.

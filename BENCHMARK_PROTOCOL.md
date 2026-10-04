@@ -13,3 +13,21 @@ Report every rejected and accepted candidate, exhausted work limits, lower/upper
 Only css4, noncss4, perfect5 and Steane development inputs are used. R=3, both X/Z memory at logical index 0, ideal encoded input, physical product readout, idles disabled, maximum weight 3, 200000 fault-search work entries, seeds 0/1/2, six shared initial candidates and 24 proposal/evaluation slots per run are frozen for all four ablations. Duplicate proposals consume slots and use the same cache policy. Target d_c=3 conditions resource frontiers; unattainable or unreached targets remain explicit empty frontiers. Optional idle/input-noise semantics are tested but not mixed into this pilot.
 
 This is a small pilot, not evidence of statistical significance. Strongest-distance comparisons, target reach, time and quality/resource improvements are separate from eliminating an individual source witness. Do not reinterpret a local repair as a global search advantage. No held-out code may be run merely because the implementation passes tests.
+
+## V0.3 frozen malignant-gradient experiment
+
+The prospective hypothesis, endpoint tests and hyperparameters are frozen in
+`docs/V0_3_HYPOTHESIS.md`, committed before the final run. The same four
+development codes and both memory bases use seeds 0–5 and 32 matched evaluation
+slots, including six common initial candidates. Five primary strategies and
+five matched ablations yield 480 runs. All runs use independent distance
+certification; complete malignant counts guide selection, and capped counts
+are unknown. One optional noisy terminal verification round and four flags per
+check bound redundancy. Raw outputs are losslessly compressed into
+`results/v0.3/raw`; V0.2 results are not overwritten.
+
+Only an endpoint meeting the frozen corrected comparison and cross-code/seed
+requirements is an established development advantage. Local class reduction,
+source elimination and progress through a weak parent are separate from improving
+the best architecture obtained under an equal budget. Finite search ancestries
+provide censored descriptive gradient observations, not causal estimates.

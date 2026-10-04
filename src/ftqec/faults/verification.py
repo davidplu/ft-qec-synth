@@ -15,41 +15,7 @@ def replay(circuit, faults):
     c.validate()
     if len({f.location for f in faults}) != len(faults):
         raise ValueError('Multiple faults at the same physical location')
-    for f in faults:
-        if not 0 <= f.operation <= len(c.operations) or len(f.label) != len(f.qubits):
-            raise ValueError('Invalid fault address')
-        if any(q < 0 or q >= c.num_qubits for q in f.qubits) or any(p not in 'IXYZ' for p in f.label):
-            raise ValueError('Invalid fault Pauli')
-        if f.kind == 'measurement':
-            if f.operation == len(c.operations) or c.operations[f.operation].gate != 'M' or f.label != 'I':
-                raise ValueError('Invalid readout fault')
-            if f.before or f.qubits != c.operations[f.operation].qubits:
-                raise ValueError('Invalid readout fault address')
-        elif f.kind != 'idle':
-            if f.operation == len(c.operations) or tuple(f.qubits) != c.operations[f.operation].qubits or f.before:
-                raise ValueError('Invalid gate fault')
-            if all(p == 'I' for p in f.label) or c.operations[f.operation].gate in ('M', 'BARRIER'):
-                raise ValueError('Invalid gate fault type')
-            expected_kind = 'preparation' if c.operations[f.operation].role == 'input_preparation_noise' else 'idle_gate' if c.operations[f.operation].gate=='IDLE' else c.operations[f.operation].gate.lower()
-            if f.kind != expected_kind: raise ValueError('Fault kind does not match gate')
-        if f.kind != 'idle' and f.location != f'op:{f.operation}':
-            raise ValueError('Forged physical location identifier')
-        if f.kind == 'idle':
-            if len(f.qubits) != 1 or f.label not in 'XYZ' or not f.before:
-                raise ValueError('Invalid idle fault')
-            try:
-                tag, qubit, tick = f.location.split(':')
-                qubit, tick = int(qubit), int(tick)
-            except (ValueError, AttributeError): raise ValueError('Invalid idle location') from None
-            sched = schedule(c)
-            if tag != 'idle' or qubit != f.qubits[0] or not 0 <= tick < sched.depth:
-                raise ValueError('Idle tick outside circuit')
-            uses = [(sched.starts[i], i) for i, op in enumerate(c.operations)
-                    if qubit in op.qubits and op.gate != 'BARRIER']
-            if any(t == tick for t, _ in uses): raise ValueError('Occupied tick is not idle')
-            following = [i for t, i in uses if t > tick]
-            anchor = following[0] if following else len(c.operations)
-            if f.operation != anchor: raise ValueError('Incorrect idle replay anchor')
+    for f in faults: validate_fault_address(c, f)
     x = [False]*c.num_qubits
     z = [False]*c.num_qubits
     records = {}
@@ -101,3 +67,42 @@ def verify_witness(circuit, witness):
     agrees = all(actual[k] == witness[k] for k in expected_keys)
     return {'verified': agrees and actual['detector_outcomes'] == 0 and actual['logical_coset'] != 0,
             'agrees': agrees, 'actual': actual}
+
+
+def validate_fault_address(c, f):
+    """Validate one physical address on an already validated circuit."""
+    if not 0 <= f.operation <= len(c.operations) or len(f.label) != len(f.qubits):
+        raise ValueError('Invalid fault address')
+    if any(q < 0 or q >= c.num_qubits for q in f.qubits) or any(p not in 'IXYZ' for p in f.label):
+        raise ValueError('Invalid fault Pauli')
+    if f.kind == 'measurement':
+        if f.operation == len(c.operations) or c.operations[f.operation].gate != 'M' or f.label != 'I':
+            raise ValueError('Invalid readout fault')
+        if f.before or f.qubits != c.operations[f.operation].qubits:
+            raise ValueError('Invalid readout fault address')
+    elif f.kind != 'idle':
+        if f.operation == len(c.operations) or tuple(f.qubits) != c.operations[f.operation].qubits or f.before:
+            raise ValueError('Invalid gate fault')
+        if all(p == 'I' for p in f.label) or c.operations[f.operation].gate in ('M', 'BARRIER'):
+            raise ValueError('Invalid gate fault type')
+        expected_kind = 'preparation' if c.operations[f.operation].role == 'input_preparation_noise' else 'idle_gate' if c.operations[f.operation].gate=='IDLE' else c.operations[f.operation].gate.lower()
+        if f.kind != expected_kind: raise ValueError('Fault kind does not match gate')
+    if f.kind != 'idle' and f.location != f'op:{f.operation}':
+        raise ValueError('Forged physical location identifier')
+    if f.kind == 'idle':
+        if len(f.qubits) != 1 or f.label not in 'XYZ' or not f.before:
+            raise ValueError('Invalid idle fault')
+        try:
+            tag, qubit, tick = f.location.split(':')
+            qubit, tick = int(qubit), int(tick)
+        except (ValueError, AttributeError): raise ValueError('Invalid idle location') from None
+        sched = schedule(c)
+        if tag != 'idle' or qubit != f.qubits[0] or not 0 <= tick < sched.depth:
+            raise ValueError('Idle tick outside circuit')
+        uses = [(sched.starts[i], i) for i, op in enumerate(c.operations)
+                if qubit in op.qubits and op.gate != 'BARRIER']
+        if any(t == tick for t, _ in uses): raise ValueError('Occupied tick is not idle')
+        following = [i for t, i in uses if t > tick]
+        anchor = following[0] if following else len(c.operations)
+        if f.operation != anchor: raise ValueError('Incorrect idle replay anchor')
+

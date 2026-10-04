@@ -23,7 +23,7 @@ VARIANTS = {
 
 def main():
     OUT.mkdir(parents=True,exist_ok=True); (OUT/'raw').mkdir(exist_ok=True)
-    hypothesis = (ROOT/'docs/V0_3_HYPOTHESIS.md').read_bytes()
+    hypothesis = (ROOT/'docs/V0_3_HYPOTHESIS.md').read_text(encoding='utf-8').encode('utf-8')
     protocol = {'baseline_commit':'e6e9c746151552befa4105a3b02b30a1d4a5b2c9',
         'hypothesis_sha256':hashlib.sha256(hypothesis).hexdigest(),
         'codes':['css4','noncss4','perfect5','steane'],'bases':['X','Z'],'seeds':list(range(6)),

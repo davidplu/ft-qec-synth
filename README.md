@@ -1,6 +1,24 @@
-# FTQEC 0.2
+# FTQEC 0.3
 
 Repeated noisy syndrome-extraction memory experiments and counterexample-guided architecture search, extending the V0.1 research core. No held-out architectural answers are included. Runtime uses only the Python standard library; the full development suite declares pytest and jsonschema.
+
+V0.3 adds complete low-weight malignant spectra, structural fault classes, a
+bounded progress archive, diverse class-targeted repairs, estimated set-cover
+ordering, ancestry and independent exhaustive audits of distance gains. The
+published `v0.2.0` tag preserves the pre-V0.3 baseline and its results.
+
+Use `ftqec search benchmarks/development/css4.json --search-version 0.3 --strategy v03 --budget 32`
+for the new algorithm. `--equivalence raw|signature|structural` selects its
+malignant objective. `ftqec spectrum circuit.json --max-weight 3` evaluates a
+saved circuit's bounded spectrum. Legacy search remains available with
+`--search-version 0.2`; V0.2 raw files are never overwritten by V0.3 experiments.
+
+The prospective protocol is [V0_3_HYPOTHESIS.md](docs/V0_3_HYPOTHESIS.md), and the
+exact mechanism definition is [MALIGNANT_CLASSES.md](docs/MALIGNANT_CLASSES.md).
+`python experiments/run_v03.py` runs the frozen development experiment into
+`results/v0.3`; `python experiments/report_v03.py` validates and reports it.
+Raw JSON is losslessly compressed with gzip and validates against
+`docs/schemas/result-v0.3.schema.json` after decompression.
 
 ## Install and test
 
@@ -11,7 +29,7 @@ python -m venv .venv
 .venv\Scripts\activate
 pip install -e ".[dev]"
 pytest
-python experiments/run_tests.py
+python experiments/run_tests.py --results-dir results/v0.3
 ```
 
 On POSIX activate with `source .venv/bin/activate`. Editable installation is the normal workflow; no manual PYTHONPATH is required. The automated verification command saves JUnit XML and a JSON summary. Missing test dependencies fail explicitly instead of skipping.

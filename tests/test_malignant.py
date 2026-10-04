@@ -11,9 +11,12 @@ from ftqec.circuits.memory import MemoryConfig, build_memory
 from ftqec.faults.signatures import signatures, Signature
 from ftqec.faults.spectrum import classify, malignant_spectrum, spectrum_delta, boundary_class
 from ftqec.faults.exclusion import verify_exclusion
+from ftqec.faults.batch_verification import verify_batch, singleton_effects
+from ftqec.faults.search import witness
+from ftqec.faults.verification import verify_witness
 from ftqec.search.malignant import (MalignantConfig, run_malignant_search, quality_key,
     malignant_dominates, select_beam, diverse_classes, greedy_coverage,
-    classify_repair, bounded_compound)
+    classify_repair, bounded_compound, whole_class_result)
 from ftqec.search.repairs import Provenance
 from dense_memory_oracle import dense_run
 
@@ -66,6 +69,15 @@ def test_capped_count_is_unknown_not_zero():
     assert not spec['layers']['1']['complete']
     assert spec['layers']['2']['reason']=='not_searched_above_frontier'
 
+def test_complete_triple_join_matches_brute_toy():
+    c=circuit();base=signatures(c)
+    ss=[replace(base[i],detectors=d,logical=l) for i,d,l in ((0,1,1),(20,2,0),(40,3,0))]
+    assert len({s.fault.location for s in ss})==3
+    spec,_=malignant_spectrum(c,ss,3,1000)
+    assert spec['layers']['1']['raw_count']==0
+    assert spec['layers']['2']['raw_count']==0
+    assert spec['layers']['3']['raw_count']==spec['layers']['3']['class_count']==1
+
 def test_fault_quality_lexicographic_and_resource_tradeoff():
     parent=record(10,100);child=record(7,200,node=2)
     assert quality_key(child)<quality_key(parent)
@@ -94,6 +106,12 @@ def test_source_elimination_not_net_improvement():
     assert classify_repair(p,c,True)['category']=='REGRESSION'
     assert classify_repair(p,record(5,node=2),True)['category']=='SOURCE_ONLY'
     assert spectrum_delta(p['malignant_spectrum'],c['malignant_spectrum'])['2']==3
+
+def test_partial_source_class_cannot_claim_whole_elimination():
+    assert whole_class_result([True,True],0,False) is None
+    assert whole_class_result([True,True],1,True) is None
+    assert whole_class_result([True,True],0,True) is True
+    assert whole_class_result([True,False],0,True) is False
 
 def test_compound_depth_bound_and_no_unknown_progress():
     p=record(10);c=record(5,node=2);cfg=MalignantConfig(compound_depth=3)
@@ -146,6 +164,32 @@ def test_independent_exhaustive_exclusion_uses_replay():
     assert verify_exclusion(c,0)['verified']
     assert not verify_exclusion(c,1)['verified']
 
+@pytest.mark.parametrize('flagged',[False,True])
+def test_bit_lane_replay_matches_scalar_minimum_witnesses_and_tamper(flagged):
+    c=circuit()
+    if flagged:c=build_memory(c.code,list(generate(c.code,2))[1],MemoryConfig(2,'Z'))
+    ss=signatures(c);spec,_=malignant_spectrum(c,ss,2,100000)
+    witnesses=[witness(c,[ss[i] for i in cls['representative_indices']]).to_dict() for cls in spec['classes']]
+    assert witnesses
+    assert all(verify_witness(c,w)['verified'] for w in witnesses)
+    assert verify_batch(c,witnesses)['verified']
+    bad=[{**witnesses[0],'logical_coset':0}]+witnesses[1:]
+    assert not verify_batch(c,bad)['verified']
+    with pytest.raises(ValueError):verify_batch(c,[{**witnesses[0],'fault_count':99}])
+
+def test_bit_lane_replay_virtual_idles_and_legacy_logicals():
+    from ftqec.circuits.extraction import build
+    code=StabilizerCode.from_dict({'generators':['ZZ']});candidate=next(generate(code,1))
+    for c in (build(code,candidate),build_memory(code,candidate,MemoryConfig(2,'X'))):
+        ss=signatures(c,True)
+        assert singleton_effects(c,[s.fault for s in ss])==[(s.detectors,s.logical) for s in ss]
+        # A single data Z has an undetected X-memory/logical effect; measurement
+        # and trailing-idle realizations exercise before/after boundary handling.
+        found=[witness(c,[s]).to_dict() for s in ss if not s.detectors and s.logical]
+        assert found and any(w['faults'][0]['kind']=='idle' for w in found)
+        assert all(verify_witness(c,w)['verified'] for w in found)
+        assert verify_batch(c,found)['verified']
+
 def test_deterministic_search_ancestry_matched_budgets_and_schema():
     code=circuit().code;config=MalignantConfig(budget=9,initial_population=3,seed=2,max_weight=2,target_dc=2)
     a=run_malignant_search(code,MemoryConfig(2,'Z'),config)
@@ -156,6 +200,12 @@ def test_deterministic_search_ancestry_matched_budgets_and_schema():
     for r in a['records']:
         assert r['parent_node'] is None or r['parent_node']<r['evaluation_index']
         if r.get('dc_delta',0)>0:assert r['independent_exclusion']['verified']
+    for chain in a['distance_gain_chains']:
+        assert chain['nodes']==sorted(chain['nodes'])
+        assert chain['nodes'][-1]==chain['gain_node']
+        for node,ancestor in zip(chain['nodes'][1:],chain['nodes']):
+            assert a['records'][node-1]['parent_node']==ancestor
+        assert len(chain['spectra'])==len(chain['operators'])==len(chain['nodes'])
     assert json.loads(json.dumps(a))==a
     jsonschema.validate(a,json.loads((ROOT/'docs/schemas/result-v0.3.schema.json').read_text(encoding='utf-8')))
     for strategy in ('random','resource','v02','mixed'):
@@ -167,3 +217,13 @@ def test_configuration_bounds():
     with pytest.raises(ValueError):MalignantConfig(protected_slots=20)
     with pytest.raises(ValueError):MalignantConfig(compound_depth=0)
     with pytest.raises(ValueError):MalignantConfig(equivalence='magic')
+
+def test_v03_cli_frontier_and_incompatible_model(tmp_path):
+    from ftqec.cli import main
+    source=tmp_path/'search.json';target=tmp_path/'frontier.json'
+    result=run_malignant_search(circuit().code,MemoryConfig(2,'Z'),MalignantConfig(budget=3,max_weight=2,target_dc=2))
+    source.write_text(json.dumps(result),encoding='utf-8')
+    main(['frontier',str(source),'-o',str(target)])
+    assert any(json.loads(target.read_text(encoding='utf-8')).values())
+    with pytest.raises(SystemExit):
+        main(['search',str(ROOT/'benchmarks/development/css4.json'),'--model','ideal-boundary','--strategy','v03'])

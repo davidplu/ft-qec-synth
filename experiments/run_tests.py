@@ -1,15 +1,19 @@
 """Execute the complete installed pytest suite and save machine-readable status."""
 import json
+import argparse
 from pathlib import Path
 import subprocess
 import sys
 import xml.etree.ElementTree as ET
 
 root = Path(__file__).resolve().parents[1]
-out = root / 'results/v0.2'
+parser = argparse.ArgumentParser()
+parser.add_argument('--results-dir', default='results/v0.3')
+args = parser.parse_args()
+out = root / args.results_dir
 out.mkdir(parents=True, exist_ok=True)
 report = out / 'junit.xml'
-command = [sys.executable, '-m', 'pytest', '-q', '--basetemp', str(root / '.pytest-tmp'),
+command = [sys.executable, '-m', 'pytest', '-q', '--basetemp', str(root / '.pytest-tmp/v03-final'),
            '--junitxml', str(report)]
 result = subprocess.run(command, cwd=root)
 suites = ET.parse(report).getroot().iter('testsuite') if report.exists() else []

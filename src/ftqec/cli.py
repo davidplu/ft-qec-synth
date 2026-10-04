@@ -42,10 +42,18 @@ def main(argv=None):
             for file in sorted(path.glob('*.json')) if path.is_dir() else [path]:
                 d=json.loads(file.read_text(encoding='utf-8'))
                 if isinstance(d,dict) and 'code_input_hash' in d and 'frontier' in d:
-                    key=json.dumps([d['code_input_hash'],d['fault_model'],d.get('memory_configuration'),d['configuration'].get('idles'),d['configuration'].get('target_dc',d['configuration'].get('required_distance'))],sort_keys=True)
-                    groups.setdefault(key,[]).extend(d['frontier'])
+                    config=d['configuration'];version=d.get('schema_version')
+                    key=json.dumps([d['code_input_hash'],d.get('fault_model','repeated_noisy_memory'),d.get('memory_configuration'),config.get('idles'),config.get('target_dc',config.get('required_distance')),version,config.get('equivalence')],sort_keys=True)
+                    selected=[d['records'][i-1] for i in d['frontier']] if version=='0.3' else d['frontier']
+                    groups.setdefault(key,[]).extend(selected)
             if not groups: raise ValueError('No search-result JSON objects found')
-            out={h:frontier(rs) for h,rs in groups.items()}
+            out={}
+            for h,rs in groups.items():
+                settings=json.loads(h)
+                if settings[-2]=='0.3':
+                    from .search.malignant import malignant_dominates
+                    out[h]=[a for a in rs if not any(malignant_dominates(b,a,settings[-1]) for b in rs if b is not a)]
+                else:out[h]=frontier(rs)
         else:
             d=json.loads(path.read_text(encoding='utf-8'))
             if args.command in ('validate','generate','memory','search'):
@@ -58,6 +66,8 @@ def main(argv=None):
                     candidate=Candidate.from_dict(json.loads(Path(args.candidate).read_text(encoding='utf-8'))) if args.candidate else next(generate(code,1))
                     out=build_memory(code,candidate,MemoryConfig(args.rounds,args.basis,args.logical_index,args.noisy_input)).to_dict()
                 elif args.model=='ideal-boundary':
+                    if args.search_version=='0.3' or args.strategy in ('v02','v03'):
+                        raise ValueError('V0.3 search requires the repeated-memory model')
                     if args.max_weight>3: raise ValueError('Legacy ideal-boundary search supports at most weight three')
                     out=search(code,args.budget,args.seed,args.max_weight,args.max_combinations,idles=args.idles,required_distance=args.required_distance)
                 else:

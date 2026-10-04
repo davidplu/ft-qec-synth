@@ -186,6 +186,10 @@ def classify_repair(parent, child, source_eliminated):
             'net_minimum_class_reduction': -d if d is not None else None}
 
 
+def whole_class_result(statuses, unresolved_members, complete):
+    return all(statuses) if complete and statuses and not unresolved_members else None
+
+
 def bounded_compound(parent, child, config):
     same = child['bounds']['lower_bound'] == parent['bounds']['lower_bound']
     reduction = count_at(parent, parent['bounds']['lower_bound'], config.equivalence)
@@ -273,7 +277,8 @@ def run_malignant_search(code, memory=MemoryConfig(), config=MalignantConfig()):
                         if transported is None: unresolved_members += 1; continue
                         effect = replay(circuits[candidate.id], transported)
                         statuses.append(bool(effect['detector_outcomes'] or not effect['logical_coset']))
-                    whole = all(statuses) if statuses and not unresolved_members else None
+                    complete = parent['malignant_spectrum']['layers'][str(source['fault_count'])]['complete']
+                    whole = whole_class_result(statuses, unresolved_members, complete)
             outcome = classify_repair(parent, record, eliminated)
             outcome.update(transported_source_class_eliminated=whole, unresolved_source_class_members=unresolved_members)
             record['repair_outcome_v03'] = outcome
