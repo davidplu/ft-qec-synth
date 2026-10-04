@@ -251,7 +251,7 @@ Explicit final answers:
 
 1. 23 candidate code instances (46 basis tasks).
 2. 17 basis tasks of 11 codes were boundary-limited; this counts at least one rejected basis, not necessarily rejection of the entire code.
-3. 17 tasks were too easy/at their terminal ceiling. Certification-tier-limited cases are counted separately, not called easy.
+3. 17 basis tasks across 11 codes were already at the frozen code-distance reference goal or terminal ceiling. This is not a claim that every chosen-observable ceiling was attained: four tasks have higher terminal ceilings but initial tier three, already meeting their distance-three code reference and requiring target tier four outside the frozen primary limit. Certification-tier-limited cases are counted separately.
 4. 1 task(s) rejected after all bounded reachability pilots remained unsuccessful: ['affine15_k1_mixed-X']. 2 screening tasks separately unresolved/deferred. No failed pilot proves unreachability.
 5. affine15_k1-X, steane14_sum-Z, steane7-X, simplex15_k7-X, steane7_mixed-X, simplex15_k7-Z.
 6. 2 declared construction groups, 3 parent instances, k values [1, 2, 7], code distances [3], check weights 4/6/8. Shared-parent controls and Hamming-related construction dependence limit diversity; genuinely non-CSS, higher-distance and cyclic primary strata are absent.
