@@ -45,7 +45,7 @@ class SearchConfig:
             raise ValueError('Invalid work/decoder limits')
 
 
-def evaluate_memory(code, candidate, memory, config):
+def evaluate_memory(code, candidate, memory, config, signature_cache=None):
     started = time.perf_counter()
     circuit = build_memory(code, candidate, memory)
     metrics = resources(circuit)
@@ -59,6 +59,7 @@ def evaluate_memory(code, candidate, memory, config):
         return rec, circuit
     before = time.perf_counter()
     ss = signatures(circuit, config.idles)
+    if signature_cache is not None: signature_cache[rec['circuit_hash']] = ss
     rec['signature_seconds'] = time.perf_counter()-before
     before = time.perf_counter()
     bounds = search_faults(circuit, ss, config.max_weight, config.max_combinations)

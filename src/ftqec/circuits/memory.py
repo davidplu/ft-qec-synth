@@ -20,6 +20,10 @@ class MemoryConfig:
 
 def build_memory(code, candidate, config=MemoryConfig()):
     base = build(code, candidate)
+    if candidate.terminal_repetitions:
+        # A real noisy extraction round, with the same ancillas, gates, resets,
+        # records and temporal detectors. Never an ideal extra check.
+        config = replace(config, rounds=config.rounds+candidate.terminal_repetitions)
     pairs = logical_basis(code)
     if pairs and config.logical_index >= len(pairs):
         raise ValueError('Logical index outside encoded dimension')

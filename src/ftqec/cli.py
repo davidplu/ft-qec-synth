@@ -14,14 +14,16 @@ from .search.engine import search
 def main(argv=None):
     parser=argparse.ArgumentParser(description='Generic stabilizer architecture synthesis')
     sub=parser.add_subparsers(dest='command',required=True)
-    for name in ('validate','generate','memory','search','evaluate','faults','frontier','decode','verify'):
+    for name in ('validate','generate','memory','search','evaluate','faults','frontier','decode','verify','spectrum'):
         p=sub.add_parser(name); p.add_argument('input'); p.add_argument('--output','-o')
         if name in ('generate','search'):
             p.add_argument('--seed',type=int,default=0); p.add_argument('--budget',type=int,default=100)
         if name=='search':
             p.add_argument('--required-distance', '--target-dc', dest='required_distance', type=int, default=3)
             p.add_argument('--model', choices=('memory','ideal-boundary'), default='memory')
-            p.add_argument('--strategy', choices=('random','resource','cegis','mixed'), default='cegis')
+            p.add_argument('--strategy', choices=('random','resource','cegis','mixed','v02','v03'), default='cegis')
+            p.add_argument('--search-version', choices=('0.2','0.3'), default='0.2')
+            p.add_argument('--equivalence', choices=('raw','signature','structural'), default='structural')
             p.add_argument('--initial-population', type=int, default=6)
         if name in ('memory','search'):
             p.add_argument('--rounds',type=int,default=3); p.add_argument('--basis',choices=('X','Z'),default='Z')
@@ -29,7 +31,7 @@ def main(argv=None):
         if name=='memory': p.add_argument('--candidate')
         if name=='verify': p.add_argument('--witness',required=True)
         if name=='decode': p.add_argument('--max-weight',type=int,default=1); p.add_argument('--max-combinations',type=int,default=100000)
-        if name in ('search','faults'):
+        if name in ('search','faults','spectrum'):
             p.add_argument('--max-weight',type=int,choices=tuple(range(1,7)),default=3)
             p.add_argument('--max-combinations',type=int,default=2000000); p.add_argument('--idles',action='store_true')
     args=parser.parse_args(argv)
@@ -60,8 +62,16 @@ def main(argv=None):
                     out=search(code,args.budget,args.seed,args.max_weight,args.max_combinations,idles=args.idles,required_distance=args.required_distance)
                 else:
                     from .circuits.memory import MemoryConfig
-                    from .search.cegis import SearchConfig,run_search
-                    out=run_search(code,MemoryConfig(args.rounds,args.basis,args.logical_index,args.noisy_input),
+                    if args.search_version=='0.3' or args.strategy in ('v02','v03'):
+                        from .search.malignant import MalignantConfig,run_malignant_search
+                        strategy='v03' if args.strategy=='cegis' else args.strategy
+                        out=run_malignant_search(code,MemoryConfig(args.rounds,args.basis,args.logical_index,args.noisy_input),
+                            MalignantConfig(budget=args.budget,seed=args.seed,strategy=strategy,target_dc=args.required_distance,
+                                max_weight=args.max_weight,max_combinations=args.max_combinations,idles=args.idles,
+                                initial_population=args.initial_population,equivalence=args.equivalence))
+                    else:
+                        from .search.cegis import SearchConfig,run_search
+                        out=run_search(code,MemoryConfig(args.rounds,args.basis,args.logical_index,args.noisy_input),
                                    SearchConfig(budget=args.budget,seed=args.seed,strategy=args.strategy,target_dc=args.required_distance,
                                                 max_weight=args.max_weight,max_combinations=args.max_combinations,idles=args.idles,initial_population=args.initial_population))
             else:
@@ -74,6 +84,9 @@ def main(argv=None):
                     from .decoding.minimum_weight import BoundedMinimumWeightDecoder,decoder_failures
                     ss=signatures(circuit); dec=BoundedMinimumWeightDecoder().fit(ss,args.max_weight,args.max_combinations)
                     out=dict(training_completed_through=dec.completed_through,**decoder_failures(ss,dec,args.max_weight,args.max_combinations))
+                elif args.command=='spectrum':
+                    from .faults.spectrum import malignant_spectrum
+                    out,_=malignant_spectrum(circuit,signatures(circuit,args.idles),args.max_weight,args.max_combinations)
                 else:
                     out=search_faults(circuit,signatures(circuit,args.idles),args.max_weight,args.max_combinations)
                     if out['witness']:

@@ -12,17 +12,22 @@ class Candidate:
     ancilla_assignment: tuple
     syndrome_budget: int
     parallelism: int
+    terminal_repetitions: int = 0
 
-    def to_dict(self): return json_native(asdict(self))
+    def to_dict(self):
+        data = asdict(self)
+        if not self.terminal_repetitions: data.pop('terminal_repetitions')
+        return json_native(data)
     @property
     def id(self): return sha256(json.dumps(self.to_dict(),sort_keys=True).encode()).hexdigest()[:20]
     @classmethod
     def from_dict(cls,d):
         return cls(tuple(d['generating_basis']),tuple(tuple(x) for x in d['orders']),
                    tuple(tuple(tuple(y) for y in x) for x in d['flag_intervals']),
-                   tuple(d['check_order']),tuple(d['ancilla_assignment']),d['syndrome_budget'],d['parallelism'])
+                   tuple(d['check_order']),tuple(d['ancilla_assignment']),d['syndrome_budget'],d['parallelism'],d.get('terminal_repetitions',0))
     def validate(self,code):
         m=len(code.generators)
+        if type(self.terminal_repetitions) is not int or not 0 <= self.terminal_repetitions <= 1: raise ValueError('Terminal repetition bound')
         if self.generating_basis!=tuple(map(str,code.generators)): raise ValueError('Basis mismatch')
         if len(self.orders)!=m or len(self.flag_intervals)!=m or len(self.ancilla_assignment)!=m: raise ValueError('Check count')
         if sorted(self.check_order)!=list(range(m)): raise ValueError('Check permutation')
