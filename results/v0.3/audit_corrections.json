@@ -1,0 +1,1241 @@
+[
+  {
+    "run": "steane-X-seed1-v03.json.gz",
+    "node": 12,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed1-v03.json.gz",
+    "node": 25,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed1-v03.json.gz",
+    "node": 31,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed1-v03_no_coverage.json.gz",
+    "node": 14,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed1-v03_no_coverage.json.gz",
+    "node": 16,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed1-v03_no_protection.json.gz",
+    "node": 12,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed1-v03_no_protection.json.gz",
+    "node": 16,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed1-v03_no_protection.json.gz",
+    "node": 22,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed1-v03_no_protection.json.gz",
+    "node": 24,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed1-v03_no_protection.json.gz",
+    "node": 28,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed1-v03_no_protection.json.gz",
+    "node": 29,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed1-v03_no_protection.json.gz",
+    "node": 30,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed1-v03_raw.json.gz",
+    "node": 12,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed1-v03_raw.json.gz",
+    "node": 25,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed1-v03_raw.json.gz",
+    "node": 31,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed2-v03_arbitrary.json.gz",
+    "node": 31,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed2-v03_no_coverage.json.gz",
+    "node": 32,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-mixed.json.gz",
+    "node": 17,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-mixed.json.gz",
+    "node": 30,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03.json.gz",
+    "node": 8,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03.json.gz",
+    "node": 9,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03.json.gz",
+    "node": 17,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03.json.gz",
+    "node": 19,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_arbitrary.json.gz",
+    "node": 26,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_arbitrary.json.gz",
+    "node": 32,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_coverage.json.gz",
+    "node": 8,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_coverage.json.gz",
+    "node": 9,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_coverage.json.gz",
+    "node": 18,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 8,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 9,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 14,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 15,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 16,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 18,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 20,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 21,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 22,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 23,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 24,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 26,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 27,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 28,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 29,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 30,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_no_protection.json.gz",
+    "node": 31,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 8,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 9,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 14,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 16,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 19,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 20,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 22,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 23,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 25,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 26,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 27,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 28,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 29,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 30,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 31,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_raw.json.gz",
+    "node": 32,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 7,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 8,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 9,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 11,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 14,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 15,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 16,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 17,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 18,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 21,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 23,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 24,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 26,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 27,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 28,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 30,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 31,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-X-seed4-v03_signature.json.gz",
+    "node": 32,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed0-v03_no_coverage.json.gz",
+    "node": 14,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed0-v03_no_coverage.json.gz",
+    "node": 15,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed0-v03_no_coverage.json.gz",
+    "node": 19,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed0-v03_no_coverage.json.gz",
+    "node": 23,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed0-v03_no_coverage.json.gz",
+    "node": 26,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed0-v03_no_coverage.json.gz",
+    "node": 32,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed0-v03_no_protection.json.gz",
+    "node": 21,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed0-v03_no_protection.json.gz",
+    "node": 24,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-mixed.json.gz",
+    "node": 24,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-mixed.json.gz",
+    "node": 26,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-mixed.json.gz",
+    "node": 27,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-mixed.json.gz",
+    "node": 28,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-mixed.json.gz",
+    "node": 31,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-v03_arbitrary.json.gz",
+    "node": 25,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-v03_arbitrary.json.gz",
+    "node": 27,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-v03_arbitrary.json.gz",
+    "node": 31,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-v03_no_coverage.json.gz",
+    "node": 8,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-v03_no_coverage.json.gz",
+    "node": 23,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-v03_no_coverage.json.gz",
+    "node": 24,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-v03_no_coverage.json.gz",
+    "node": 25,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-v03_no_coverage.json.gz",
+    "node": 26,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-v03_no_coverage.json.gz",
+    "node": 28,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-v03_no_coverage.json.gz",
+    "node": 29,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-v03_no_coverage.json.gz",
+    "node": 30,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed1-v03_no_coverage.json.gz",
+    "node": 31,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed2-v03_arbitrary.json.gz",
+    "node": 32,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed2-v03_no_coverage.json.gz",
+    "node": 28,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed2-v03_no_coverage.json.gz",
+    "node": 30,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed2-v03_no_coverage.json.gz",
+    "node": 31,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed2-v03_no_coverage.json.gz",
+    "node": 32,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-mixed.json.gz",
+    "node": 15,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-mixed.json.gz",
+    "node": 16,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-mixed.json.gz",
+    "node": 26,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03.json.gz",
+    "node": 13,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03.json.gz",
+    "node": 24,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03.json.gz",
+    "node": 25,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03.json.gz",
+    "node": 26,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_arbitrary.json.gz",
+    "node": 12,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_arbitrary.json.gz",
+    "node": 18,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_arbitrary.json.gz",
+    "node": 31,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_no_coverage.json.gz",
+    "node": 12,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_no_coverage.json.gz",
+    "node": 14,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_no_coverage.json.gz",
+    "node": 21,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_no_coverage.json.gz",
+    "node": 22,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_no_coverage.json.gz",
+    "node": 26,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_no_coverage.json.gz",
+    "node": 27,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_no_coverage.json.gz",
+    "node": 30,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_no_coverage.json.gz",
+    "node": 32,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_no_protection.json.gz",
+    "node": 13,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_no_protection.json.gz",
+    "node": 22,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_no_protection.json.gz",
+    "node": 30,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_no_protection.json.gz",
+    "node": 32,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_raw.json.gz",
+    "node": 10,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_raw.json.gz",
+    "node": 19,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 7,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 8,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 9,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 10,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 11,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 13,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 14,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 15,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 16,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 17,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 18,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 19,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 20,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 21,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 22,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 23,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 24,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 25,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 26,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 27,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 28,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 29,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 30,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 31,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed3-v03_signature.json.gz",
+    "node": 32,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03.json.gz",
+    "node": 22,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03.json.gz",
+    "node": 25,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03.json.gz",
+    "node": 26,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03.json.gz",
+    "node": 27,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03.json.gz",
+    "node": 29,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03.json.gz",
+    "node": 30,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03_no_coverage.json.gz",
+    "node": 14,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03_no_coverage.json.gz",
+    "node": 15,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03_no_coverage.json.gz",
+    "node": 16,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03_no_coverage.json.gz",
+    "node": 18,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03_no_coverage.json.gz",
+    "node": 22,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03_no_coverage.json.gz",
+    "node": 28,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03_no_protection.json.gz",
+    "node": 24,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03_no_protection.json.gz",
+    "node": 25,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed4-v03_no_protection.json.gz",
+    "node": 32,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed5-v03_no_coverage.json.gz",
+    "node": 15,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed5-v03_no_coverage.json.gz",
+    "node": 16,
+    "raw_observed_members_eliminated": false,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed5-v03_no_coverage.json.gz",
+    "node": 17,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  },
+  {
+    "run": "steane-Z-seed5-v03_no_coverage.json.gz",
+    "node": 26,
+    "raw_observed_members_eliminated": true,
+    "audited_whole_class_eliminated": null,
+    "reason": "source class layer incomplete; observed members are not the whole class"
+  }
+]

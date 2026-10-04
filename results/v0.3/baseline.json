@@ -1,0 +1,11 @@
+{
+  "baseline_tag": "v0.2.0",
+  "baseline_commit": "e6e9c746151552befa4105a3b02b30a1d4a5b2c9",
+  "baseline_tests": {
+    "passed": 74,
+    "failed": 0,
+    "skipped": 0
+  },
+  "v02_result_tree_sha256": "0bf90200e73092610b6237c92bdd62486ac4d0ec530009e1debd325ed49dcf81",
+  "v02_raw_modified": false
+}

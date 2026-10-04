@@ -1,0 +1,8394 @@
+[
+  {
+    "code": "css4",
+    "basis": "X",
+    "variant": "mixed",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 47,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 47,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 35,
+          "QD": 210,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 35,
+          "QD": 210,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.688543400009318
+  },
+  {
+    "code": "css4",
+    "basis": "X",
+    "variant": "random",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 35,
+          "QD": 210,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 35,
+          "QD": 210,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 35,
+          "QD": 210,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 35,
+          "QD": 210,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.9477291166549549
+  },
+  {
+    "code": "css4",
+    "basis": "X",
+    "variant": "resource",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 32,
+          "QD": 192,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 35,
+          "QD": 210,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 35,
+          "QD": 210,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 35,
+          "QD": 210,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 35,
+          "QD": 210,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 35,
+          "QD": 210,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 35,
+          "QD": 210,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.4622451499841797
+  },
+  {
+    "code": "css4",
+    "basis": "X",
+    "variant": "v02",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.1361548833083361
+  },
+  {
+    "code": "css4",
+    "basis": "X",
+    "variant": "v03",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.7682615333081533
+  },
+  {
+    "code": "css4",
+    "basis": "X",
+    "variant": "v03_arbitrary",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 1,
+    "mean_seconds": 1.5587867666811992
+  },
+  {
+    "code": "css4",
+    "basis": "X",
+    "variant": "v03_no_coverage",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 47,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 47,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 41,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 41,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.7041424000053667
+  },
+  {
+    "code": "css4",
+    "basis": "X",
+    "variant": "v03_no_protection",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.738339266681578
+  },
+  {
+    "code": "css4",
+    "basis": "X",
+    "variant": "v03_raw",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.692309583343255
+  },
+  {
+    "code": "css4",
+    "basis": "X",
+    "variant": "v03_signature",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 44,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 38,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 41,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 41,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 50,
+          "QD": 250,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.6418854166792396
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "variant": "mixed",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 49,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 55,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 37,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 37,
+          "QD": 259,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.458075866685249
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "variant": "random",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 7,
+          "D": 49,
+          "QD": 392,
+          "two_q_gates": 36
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 40,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 73,
+          "QD": 438,
+          "two_q_gates": 36
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 43,
+          "QD": 344,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 40,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 40,
+          "QD": 280,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.8015514832998937
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "variant": "resource",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 37,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 34,
+          "QD": 204,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 7,
+          "D": 85,
+          "QD": 595,
+          "two_q_gates": 42
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 7,
+          "D": 52,
+          "QD": 416,
+          "two_q_gates": 36
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 37,
+          "QD": 222,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 7,
+          "D": 58,
+          "QD": 511,
+          "two_q_gates": 36
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 34,
+          "QD": 204,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 40,
+          "QD": 280,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.41996389999985695
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "variant": "v02",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 49,
+          "QD": 343,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 49,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 58,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 37,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 49,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 40,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 40,
+          "QD": 280,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.2095831000090886
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "variant": "v03",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 49,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 7,
+          "D": 58,
+          "QD": 522,
+          "two_q_gates": 42
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 37,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 37,
+          "QD": 259,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      }
+    ],
+    "successful_compositions": 6,
+    "mean_seconds": 1.477703749978294
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "variant": "v03_arbitrary",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 49,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 7,
+          "D": 85,
+          "QD": 595,
+          "two_q_gates": 42
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 7,
+          "D": 58,
+          "QD": 511,
+          "two_q_gates": 36
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 7,
+          "D": 61,
+          "QD": 610,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 40,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 40,
+          "QD": 280,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      }
+    ],
+    "successful_compositions": 7,
+    "mean_seconds": 1.473512066664019
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "variant": "v03_no_coverage",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 49,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 46,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 58,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 49,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 40,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 40,
+          "QD": 280,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.8684414332771364
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "variant": "v03_no_protection",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 49,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 7,
+          "D": 55,
+          "QD": 495,
+          "two_q_gates": 36
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 37,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 37,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 37,
+          "QD": 259,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      }
+    ],
+    "successful_compositions": 1,
+    "mean_seconds": 1.5279913333361037
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "variant": "v03_raw",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 7,
+          "D": 49,
+          "QD": 392,
+          "two_q_gates": 36
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 55,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 58,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 37,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 37,
+          "QD": 259,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.5778964000055566
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "variant": "v03_signature",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 49,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 43,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 55,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 52,
+          "QD": 366,
+          "two_q_gates": 30
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 37,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 7,
+          "D": 58,
+          "QD": 580,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 37,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 5,
+          "D": 37,
+          "QD": 245,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 49,
+          "QD": 245,
+          "two_q_gates": 24
+        },
+        "2": {
+          "Q": 6,
+          "D": 61,
+          "QD": 427,
+          "two_q_gates": 30
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.6154365833499469
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "variant": "mixed",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 59,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 300,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 65,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 59,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.6890105833299458
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "variant": "random",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 56,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 318,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 264,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 65,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 318,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.49712270001570386
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "variant": "resource",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 300,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 318,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 350,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 318,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 318,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.2213869666447863
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "variant": "v02",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 56,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 56,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 350,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.5311432000016794
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "variant": "v03",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 59,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.7008111499599181
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "variant": "v03_arbitrary",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 59,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.7379907333524898
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "variant": "v03_no_coverage",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 71,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 59,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.7918836833365882
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "variant": "v03_no_protection",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 350,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.6876399499791054
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "variant": "v03_raw",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 59,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.748831000023832
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "variant": "v03_signature",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 59,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.607911650033202
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "variant": "mixed",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 59,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 56,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.6432537500125667
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "variant": "random",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 56,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 318,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 44,
+          "QD": 264,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 65,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 318,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.4627244166525391
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "variant": "resource",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 300,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 318,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 350,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 318,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 318,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.23220623335024962
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "variant": "v02",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 300,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 318,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.5251553833174208
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "variant": "v03",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 59,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 59,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.6732219833453806
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "variant": "v03_arbitrary",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 350,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.6415976999754397
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "variant": "v03_no_coverage",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 59,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.7716260666493326
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "variant": "v03_no_protection",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 350,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.6519955833209679
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "variant": "v03_raw",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 53,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 50,
+          "QD": 350,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.68980594999933
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "variant": "v03_signature",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 62,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 68,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 56,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 59,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      },
+      {
+        "1": {
+          "Q": 5,
+          "D": 74,
+          "QD": 370,
+          "two_q_gates": 24
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.5669041666745519
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "variant": "mixed",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 89,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.4287015166676913
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "variant": "random",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 80,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 65,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 80,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 53,
+          "QD": 424,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.993683700003506
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "variant": "resource",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 56,
+          "QD": 496,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 50,
+          "QD": 400,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 558,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 74,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 50,
+          "QD": 450,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.5817000000388362
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "variant": "v02",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.0864841833050984
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "variant": "v03",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 80,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 89,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.3914955999935046
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "variant": "v03_arbitrary",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 71,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.3125808666809462
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "variant": "v03_no_coverage",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 80,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.528816650020114
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "variant": "v03_no_protection",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 71,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.4312171666533686
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "variant": "v03_raw",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 71,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.3835528333244536
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "variant": "v03_signature",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 80,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.206291933330552
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "variant": "mixed",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 71,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 89,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.16781333333347
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "variant": "random",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 80,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 65,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 80,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 53,
+          "QD": 424,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.0239559499896131
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "variant": "resource",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 56,
+          "QD": 496,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 50,
+          "QD": 400,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 558,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 74,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 50,
+          "QD": 450,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 0.5959967333474196
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "variant": "v02",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 71,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.077841266640462
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "variant": "v03",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 71,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.1660562833033812
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "variant": "v03_arbitrary",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 71,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.2100181000035566
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "variant": "v03_no_coverage",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 80,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.375705483330724
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "variant": "v03_no_protection",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 71,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.206848433338261
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "variant": "v03_raw",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 71,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 89,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.3069986500001203
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "variant": "v03_signature",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "target_successes": 0,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 6,
+          "D": 86,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 71,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 89,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 92,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 98,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      },
+      {
+        "1": {
+          "Q": 6,
+          "D": 62,
+          "QD": 588,
+          "two_q_gates": 48
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.1893254333796601
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "variant": "mixed",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      3,
+      3,
+      2,
+      3,
+      2
+    ],
+    "target_successes": 3,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      29,
+      24,
+      null,
+      4,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 18,
+          "D": 152,
+          "QD": 2736,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 15,
+          "D": 230,
+          "QD": 3450,
+          "two_q_gates": 114
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 113,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 113,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 83,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 83,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 22,
+          "D": 83,
+          "QD": 1826,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 1,
+    "mean_seconds": 3.580007883332049
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "variant": "random",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      3,
+      2
+    ],
+    "target_successes": 1,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      4,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 89,
+          "QD": 1068,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 89,
+          "QD": 1068,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 98,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 98,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 95,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 95,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 13,
+          "D": 95,
+          "QD": 2090,
+          "two_q_gates": 120
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 98,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 98,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 2.558640616693689
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "variant": "resource",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      3,
+      2
+    ],
+    "target_successes": 1,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      4,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 59,
+          "QD": 590,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 59,
+          "QD": 590,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 95,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 95,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 80,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 80,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 80,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 80,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 20,
+          "D": 92,
+          "QD": 2024,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 56,
+          "QD": 728,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 56,
+          "QD": 728,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.5279175166894372
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "variant": "v02",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      3,
+      2
+    ],
+    "target_successes": 1,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      4,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 98,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 98,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 113,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 113,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 86,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 86,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 22,
+          "D": 86,
+          "QD": 1892,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 2.5302650333420993
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "variant": "v03",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      3,
+      2,
+      2,
+      3,
+      2
+    ],
+    "target_successes": 2,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      11,
+      null,
+      null,
+      4,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 107,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 107,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 19,
+          "D": 152,
+          "QD": 2888,
+          "two_q_gates": 132
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 113,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 113,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 83,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 83,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 22,
+          "D": 83,
+          "QD": 1826,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 1,
+    "mean_seconds": 4.1537513000075705
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "variant": "v03_arbitrary",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      3,
+      2,
+      3,
+      2
+    ],
+    "target_successes": 2,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      28,
+      null,
+      4,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 98,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 98,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 140,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 140,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 9,
+          "D": 182,
+          "QD": 1638,
+          "two_q_gates": 90
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 113,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 113,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 95,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 95,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 10,
+          "D": 95,
+          "QD": 2090,
+          "two_q_gates": 108
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 1,
+    "mean_seconds": 3.431405716672695
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "variant": "v03_no_coverage",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "target_successes": 4,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      7,
+      22,
+      9,
+      4,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 107,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 107,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 10,
+          "D": 218,
+          "QD": 2180,
+          "two_q_gates": 108
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 11,
+          "D": 194,
+          "QD": 2134,
+          "two_q_gates": 96
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 113,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 113,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 13,
+          "D": 173,
+          "QD": 2249,
+          "two_q_gates": 120
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 95,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 95,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 22,
+          "D": 95,
+          "QD": 2090,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 3,
+    "mean_seconds": 3.9668828500046707
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "variant": "v03_no_protection",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      3,
+      2,
+      2,
+      3,
+      2
+    ],
+    "target_successes": 2,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      11,
+      null,
+      null,
+      4,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 19,
+          "D": 152,
+          "QD": 2888,
+          "two_q_gates": 132
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 113,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 113,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 83,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 83,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 18,
+          "D": 83,
+          "QD": 1826,
+          "two_q_gates": 108
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 4.555322066647932
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "variant": "v03_raw",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      3,
+      2,
+      2,
+      3,
+      2
+    ],
+    "target_successes": 2,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      11,
+      null,
+      null,
+      4,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 107,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 107,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 19,
+          "D": 152,
+          "QD": 2888,
+          "two_q_gates": 132
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 107,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 107,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 113,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 113,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 83,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 83,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 22,
+          "D": 83,
+          "QD": 1826,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 1,
+    "mean_seconds": 4.3953448666531285
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "variant": "v03_signature",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      2,
+      2,
+      2,
+      2,
+      3,
+      2
+    ],
+    "target_successes": 1,
+    "runs": 6,
+    "target_evaluations": [
+      null,
+      null,
+      null,
+      null,
+      4,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 101,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 101,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 98,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 98,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 83,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 83,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 14,
+          "D": 83,
+          "QD": 1826,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 3.5556336833590954
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "variant": "mixed",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      3,
+      3,
+      3,
+      3,
+      2,
+      3
+    ],
+    "target_successes": 5,
+    "runs": 6,
+    "target_evaluations": [
+      6,
+      21,
+      18,
+      4,
+      null,
+      8
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 13,
+          "D": 184,
+          "QD": 2392,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 16,
+          "D": 157,
+          "QD": 2983,
+          "two_q_gates": 132
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 97,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 97,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 19,
+          "D": 115,
+          "QD": 2185,
+          "two_q_gates": 138
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 15,
+          "D": 151,
+          "QD": 2265,
+          "two_q_gates": 108
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 10,
+          "D": 241,
+          "QD": 2410,
+          "two_q_gates": 120
+        }
+      }
+    ],
+    "successful_compositions": 2,
+    "mean_seconds": 5.018626466665107
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "variant": "random",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      2
+    ],
+    "target_successes": 2,
+    "runs": 6,
+    "target_evaluations": [
+      6,
+      null,
+      null,
+      4,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 85,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 85,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 10,
+          "D": 142,
+          "QD": 2275,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 103,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 103,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 15,
+          "D": 133,
+          "QD": 1995,
+          "two_q_gates": 114
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 82,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 82,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 97,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 97,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 2.583917250003045
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "variant": "resource",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      2
+    ],
+    "target_successes": 2,
+    "runs": 6,
+    "target_evaluations": [
+      6,
+      null,
+      null,
+      4,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 88,
+          "QD": 1056,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 88,
+          "QD": 1056,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 10,
+          "D": 184,
+          "QD": 2392,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 85,
+          "QD": 1105,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 85,
+          "QD": 1105,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 10,
+          "D": 97,
+          "QD": 1455,
+          "two_q_gates": 108
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 88,
+          "QD": 1092,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 88,
+          "QD": 1092,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 55,
+          "QD": 715,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 55,
+          "QD": 715,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 1.7614268999701987
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "variant": "v02",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      2
+    ],
+    "target_successes": 2,
+    "runs": 6,
+    "target_evaluations": [
+      6,
+      null,
+      null,
+      4,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 13,
+          "D": 121,
+          "QD": 2119,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 15,
+          "D": 133,
+          "QD": 1995,
+          "two_q_gates": 114
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 85,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 85,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 3.0453800666922084
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "variant": "v03",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      3,
+      3,
+      2,
+      3,
+      3,
+      2
+    ],
+    "target_successes": 4,
+    "runs": 6,
+    "target_evaluations": [
+      6,
+      21,
+      null,
+      4,
+      13,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 13,
+          "D": 184,
+          "QD": 2392,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 10,
+          "D": 229,
+          "QD": 2290,
+          "two_q_gates": 114
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 103,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 103,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 15,
+          "D": 133,
+          "QD": 2265,
+          "two_q_gates": 114
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 15,
+          "D": 229,
+          "QD": 3435,
+          "two_q_gates": 114
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 3,
+    "mean_seconds": 4.218350350003068
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "variant": "v03_arbitrary",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "target_successes": 5,
+    "runs": 6,
+    "target_evaluations": [
+      6,
+      20,
+      25,
+      4,
+      19,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 9,
+          "D": 181,
+          "QD": 1629,
+          "two_q_gates": 90
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 9,
+          "D": 157,
+          "QD": 1629,
+          "two_q_gates": 90
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 9,
+          "D": 181,
+          "QD": 1629,
+          "two_q_gates": 90
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 15,
+          "D": 133,
+          "QD": 1995,
+          "two_q_gates": 114
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 24,
+          "D": 97,
+          "QD": 2328,
+          "two_q_gates": 138
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 5,
+    "mean_seconds": 4.062304933303191
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "variant": "v03_no_coverage",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "target_successes": 6,
+    "runs": 6,
+    "target_evaluations": [
+      6,
+      7,
+      8,
+      4,
+      7,
+      9
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 10,
+          "D": 184,
+          "QD": 2290,
+          "two_q_gates": 114
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 9,
+          "D": 157,
+          "QD": 1629,
+          "two_q_gates": 90
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 12,
+          "D": 121,
+          "QD": 2064,
+          "two_q_gates": 102
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 10,
+          "D": 151,
+          "QD": 2265,
+          "two_q_gates": 114
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 9,
+          "D": 181,
+          "QD": 1629,
+          "two_q_gates": 90
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 9,
+          "D": 181,
+          "QD": 1629,
+          "two_q_gates": 90
+        }
+      }
+    ],
+    "successful_compositions": 22,
+    "mean_seconds": 8.733176699994752
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "variant": "v03_no_protection",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      3,
+      2,
+      2,
+      3,
+      3,
+      2
+    ],
+    "target_successes": 3,
+    "runs": 6,
+    "target_evaluations": [
+      6,
+      null,
+      null,
+      4,
+      22,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 13,
+          "D": 139,
+          "QD": 1963,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 15,
+          "D": 133,
+          "QD": 2265,
+          "two_q_gates": 114
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 14,
+          "D": 253,
+          "QD": 3542,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 4.24122368330912
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "variant": "v03_raw",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      2
+    ],
+    "target_successes": 2,
+    "runs": 6,
+    "target_evaluations": [
+      6,
+      null,
+      null,
+      4,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 13,
+          "D": 133,
+          "QD": 1729,
+          "two_q_gates": 126
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 103,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 103,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 15,
+          "D": 133,
+          "QD": 2265,
+          "two_q_gates": 114
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 94,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 1,
+    "mean_seconds": 3.7559635000264584
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "variant": "v03_signature",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "distance_distribution": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      2
+    ],
+    "target_successes": 2,
+    "runs": 6,
+    "target_evaluations": [
+      6,
+      null,
+      null,
+      4,
+      null,
+      null
+    ],
+    "best_resources_by_tier": [
+      {
+        "1": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 106,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 13,
+          "D": 145,
+          "QD": 1885,
+          "two_q_gates": 114
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 145,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 112,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "3": {
+          "Q": 15,
+          "D": 145,
+          "QD": 2265,
+          "two_q_gates": 114
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 85,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 85,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      },
+      {
+        "1": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        },
+        "2": {
+          "Q": 8,
+          "D": 109,
+          "QD": 1160,
+          "two_q_gates": 72
+        }
+      }
+    ],
+    "successful_compositions": 0,
+    "mean_seconds": 3.9584717500062347
+  }
+]

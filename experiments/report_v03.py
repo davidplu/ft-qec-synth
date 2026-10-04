@@ -309,6 +309,8 @@ def main():
     lines+=['','## Explicit answers to the 20 research questions','']
     lines += [f'{i}. {answer}' for i,answer in enumerate(responses,1)]
     (ROOT/'docs/V0_3_RESULTS.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
-    print(json.dumps(readiness,indent=2))
+    from interpret_v03 import main as interpret
+    interpret()
+    print((OUT/'readiness.json').read_text(encoding='utf-8'))
 
 if __name__=='__main__':main()

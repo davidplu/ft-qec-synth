@@ -1,0 +1,238 @@
+{
+  "layers": {
+    "1": {
+      "complete": true,
+      "class_count": 6,
+      "raw_count": 6,
+      "signature_count": 1,
+      "observed_class_count": 6,
+      "observed_raw_count": 6,
+      "logical_effect_diversity": 1,
+      "hook_support_diversity": 2,
+      "multiplicities": {
+        "7b7a364f409d31c6682aff2d": 1,
+        "a532a33b6a2815d338be43c3": 1,
+        "9ca9494ef1ced9b6174207a6": 1,
+        "8ef155dfc13ecf213a83f039": 1,
+        "65ccd51a7a832069d4da6d36": 1,
+        "d7d1e2aca6aa0a84e8829d8e": 1
+      }
+    },
+    "2": {
+      "complete": false,
+      "class_count": null,
+      "raw_count": null,
+      "signature_count": null,
+      "reason": "not_searched_above_frontier"
+    }
+  },
+  "work": 284,
+  "classes": [
+    {
+      "id": "7b7a364f409d31c6682aff2d",
+      "weight": 1,
+      "logical_effect": 1,
+      "hook_support": [
+        2,
+        3
+      ],
+      "mechanisms": [
+        [
+          0,
+          0,
+          "CX",
+          "cx",
+          "data_interaction",
+          null,
+          1,
+          [
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [],
+          [],
+          1,
+          12
+        ]
+      ],
+      "representative_indices": [
+        24
+      ]
+    },
+    {
+      "id": "a532a33b6a2815d338be43c3",
+      "weight": 1,
+      "logical_effect": 1,
+      "hook_support": [
+        2,
+        3
+      ],
+      "mechanisms": [
+        [
+          0,
+          0,
+          "CX",
+          "cx",
+          "data_interaction",
+          null,
+          2,
+          [
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [],
+          [],
+          1,
+          12
+        ]
+      ],
+      "representative_indices": [
+        40
+      ]
+    },
+    {
+      "id": "9ca9494ef1ced9b6174207a6",
+      "weight": 1,
+      "logical_effect": 1,
+      "hook_support": [
+        2,
+        3
+      ],
+      "mechanisms": [
+        [
+          1,
+          0,
+          "CX",
+          "cx",
+          "data_interaction",
+          null,
+          1,
+          [
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [],
+          [],
+          1,
+          12
+        ]
+      ],
+      "representative_indices": [
+        164
+      ]
+    },
+    {
+      "id": "8ef155dfc13ecf213a83f039",
+      "weight": 1,
+      "logical_effect": 1,
+      "hook_support": [
+        1,
+        2,
+        3
+      ],
+      "mechanisms": [
+        [
+          1,
+          0,
+          "CX",
+          "cx",
+          "data_interaction",
+          null,
+          1,
+          [
+            1
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [],
+          [],
+          1,
+          44
+        ]
+      ],
+      "representative_indices": [
+        167
+      ]
+    },
+    {
+      "id": "65ccd51a7a832069d4da6d36",
+      "weight": 1,
+      "logical_effect": 1,
+      "hook_support": [
+        2,
+        3
+      ],
+      "mechanisms": [
+        [
+          1,
+          0,
+          "CX",
+          "cx",
+          "data_interaction",
+          null,
+          2,
+          [
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [],
+          [],
+          1,
+          12
+        ]
+      ],
+      "representative_indices": [
+        180
+      ]
+    },
+    {
+      "id": "d7d1e2aca6aa0a84e8829d8e",
+      "weight": 1,
+      "logical_effect": 1,
+      "hook_support": [
+        2,
+        3
+      ],
+      "mechanisms": [
+        [
+          1,
+          0,
+          "CX",
+          "cx",
+          "data_interaction",
+          null,
+          2,
+          [
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [],
+          [],
+          1,
+          76
+        ]
+      ],
+      "representative_indices": [
+        181
+      ]
+    }
+  ]
+}

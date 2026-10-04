@@ -1,0 +1,438 @@
+{
+  "categories": [
+    {
+      "variant": "mixed",
+      "category": "CLASS_ELIMINATION",
+      "count": 23
+    },
+    {
+      "variant": "mixed",
+      "category": "MULTI_CLASS_IMPROVEMENT",
+      "count": 227
+    },
+    {
+      "variant": "mixed",
+      "category": "NEUTRAL",
+      "count": 611
+    },
+    {
+      "variant": "mixed",
+      "category": "REGRESSION",
+      "count": 271
+    },
+    {
+      "variant": "mixed",
+      "category": "SOURCE_ONLY",
+      "count": 116
+    },
+    {
+      "variant": "random",
+      "category": "CLASS_ELIMINATION",
+      "count": 34
+    },
+    {
+      "variant": "random",
+      "category": "MULTI_CLASS_IMPROVEMENT",
+      "count": 342
+    },
+    {
+      "variant": "random",
+      "category": "NEUTRAL",
+      "count": 658
+    },
+    {
+      "variant": "random",
+      "category": "REGRESSION",
+      "count": 214
+    },
+    {
+      "variant": "resource",
+      "category": "CLASS_ELIMINATION",
+      "count": 1
+    },
+    {
+      "variant": "resource",
+      "category": "MULTI_CLASS_IMPROVEMENT",
+      "count": 102
+    },
+    {
+      "variant": "resource",
+      "category": "NEUTRAL",
+      "count": 1003
+    },
+    {
+      "variant": "resource",
+      "category": "REGRESSION",
+      "count": 142
+    },
+    {
+      "variant": "v02",
+      "category": "CLASS_ELIMINATION",
+      "count": 128
+    },
+    {
+      "variant": "v02",
+      "category": "MULTI_CLASS_IMPROVEMENT",
+      "count": 520
+    },
+    {
+      "variant": "v02",
+      "category": "NEUTRAL",
+      "count": 371
+    },
+    {
+      "variant": "v02",
+      "category": "REGRESSION",
+      "count": 117
+    },
+    {
+      "variant": "v02",
+      "category": "SOURCE_ONLY",
+      "count": 112
+    },
+    {
+      "variant": "v03",
+      "category": "CLASS_ELIMINATION",
+      "count": 34
+    },
+    {
+      "variant": "v03",
+      "category": "MULTI_CLASS_IMPROVEMENT",
+      "count": 250
+    },
+    {
+      "variant": "v03",
+      "category": "NEUTRAL",
+      "count": 531
+    },
+    {
+      "variant": "v03",
+      "category": "REGRESSION",
+      "count": 273
+    },
+    {
+      "variant": "v03",
+      "category": "SOURCE_ONLY",
+      "count": 160
+    },
+    {
+      "variant": "v03_arbitrary",
+      "category": "CLASS_ELIMINATION",
+      "count": 34
+    },
+    {
+      "variant": "v03_arbitrary",
+      "category": "MULTI_CLASS_IMPROVEMENT",
+      "count": 281
+    },
+    {
+      "variant": "v03_arbitrary",
+      "category": "NEUTRAL",
+      "count": 580
+    },
+    {
+      "variant": "v03_arbitrary",
+      "category": "REGRESSION",
+      "count": 222
+    },
+    {
+      "variant": "v03_arbitrary",
+      "category": "SOURCE_ONLY",
+      "count": 131
+    },
+    {
+      "variant": "v03_no_coverage",
+      "category": "CLASS_ELIMINATION",
+      "count": 56
+    },
+    {
+      "variant": "v03_no_coverage",
+      "category": "MULTI_CLASS_IMPROVEMENT",
+      "count": 351
+    },
+    {
+      "variant": "v03_no_coverage",
+      "category": "NEUTRAL",
+      "count": 688
+    },
+    {
+      "variant": "v03_no_coverage",
+      "category": "REGRESSION",
+      "count": 95
+    },
+    {
+      "variant": "v03_no_coverage",
+      "category": "SOURCE_ONLY",
+      "count": 58
+    },
+    {
+      "variant": "v03_no_protection",
+      "category": "CLASS_ELIMINATION",
+      "count": 33
+    },
+    {
+      "variant": "v03_no_protection",
+      "category": "MULTI_CLASS_IMPROVEMENT",
+      "count": 258
+    },
+    {
+      "variant": "v03_no_protection",
+      "category": "NEUTRAL",
+      "count": 553
+    },
+    {
+      "variant": "v03_no_protection",
+      "category": "REGRESSION",
+      "count": 239
+    },
+    {
+      "variant": "v03_no_protection",
+      "category": "SOURCE_ONLY",
+      "count": 165
+    },
+    {
+      "variant": "v03_raw",
+      "category": "CLASS_ELIMINATION",
+      "count": 23
+    },
+    {
+      "variant": "v03_raw",
+      "category": "MULTI_CLASS_IMPROVEMENT",
+      "count": 266
+    },
+    {
+      "variant": "v03_raw",
+      "category": "NEUTRAL",
+      "count": 565
+    },
+    {
+      "variant": "v03_raw",
+      "category": "REGRESSION",
+      "count": 232
+    },
+    {
+      "variant": "v03_raw",
+      "category": "SOURCE_ONLY",
+      "count": 162
+    },
+    {
+      "variant": "v03_signature",
+      "category": "CLASS_ELIMINATION",
+      "count": 80
+    },
+    {
+      "variant": "v03_signature",
+      "category": "MULTI_CLASS_IMPROVEMENT",
+      "count": 394
+    },
+    {
+      "variant": "v03_signature",
+      "category": "NEUTRAL",
+      "count": 405
+    },
+    {
+      "variant": "v03_signature",
+      "category": "REGRESSION",
+      "count": 211
+    },
+    {
+      "variant": "v03_signature",
+      "category": "SOURCE_ONLY",
+      "count": 158
+    }
+  ],
+  "source_vs_whole_class": [
+    {
+      "variant": "mixed",
+      "outcome": "eliminated",
+      "count": 255
+    },
+    {
+      "variant": "mixed",
+      "outcome": "survives",
+      "count": 568
+    },
+    {
+      "variant": "mixed",
+      "outcome": "unresolved",
+      "count": 13
+    },
+    {
+      "variant": "v02",
+      "outcome": "unresolved",
+      "count": 982
+    },
+    {
+      "variant": "v03",
+      "outcome": "eliminated",
+      "count": 363
+    },
+    {
+      "variant": "v03",
+      "outcome": "survives",
+      "count": 824
+    },
+    {
+      "variant": "v03",
+      "outcome": "unresolved",
+      "count": 19
+    },
+    {
+      "variant": "v03_arbitrary",
+      "outcome": "eliminated",
+      "count": 326
+    },
+    {
+      "variant": "v03_arbitrary",
+      "outcome": "survives",
+      "count": 842
+    },
+    {
+      "variant": "v03_arbitrary",
+      "outcome": "unresolved",
+      "count": 10
+    },
+    {
+      "variant": "v03_no_coverage",
+      "outcome": "eliminated",
+      "count": 176
+    },
+    {
+      "variant": "v03_no_coverage",
+      "outcome": "survives",
+      "count": 911
+    },
+    {
+      "variant": "v03_no_coverage",
+      "outcome": "unresolved",
+      "count": 91
+    },
+    {
+      "variant": "v03_no_protection",
+      "outcome": "eliminated",
+      "count": 373
+    },
+    {
+      "variant": "v03_no_protection",
+      "outcome": "survives",
+      "count": 777
+    },
+    {
+      "variant": "v03_no_protection",
+      "outcome": "unresolved",
+      "count": 37
+    },
+    {
+      "variant": "v03_raw",
+      "outcome": "eliminated",
+      "count": 336
+    },
+    {
+      "variant": "v03_raw",
+      "outcome": "survives",
+      "count": 860
+    },
+    {
+      "variant": "v03_raw",
+      "outcome": "unresolved",
+      "count": 28
+    },
+    {
+      "variant": "v03_signature",
+      "outcome": "eliminated",
+      "count": 430
+    },
+    {
+      "variant": "v03_signature",
+      "outcome": "survives",
+      "count": 749
+    },
+    {
+      "variant": "v03_signature",
+      "outcome": "unresolved",
+      "count": 47
+    }
+  ],
+  "source_elimination": [
+    {
+      "variant": "mixed",
+      "metric": "attempts",
+      "count": 836
+    },
+    {
+      "variant": "mixed",
+      "metric": "source_eliminated",
+      "count": 273
+    },
+    {
+      "variant": "v02",
+      "metric": "attempts",
+      "count": 982
+    },
+    {
+      "variant": "v02",
+      "metric": "source_eliminated",
+      "count": 414
+    },
+    {
+      "variant": "v03",
+      "metric": "attempts",
+      "count": 1206
+    },
+    {
+      "variant": "v03",
+      "metric": "source_eliminated",
+      "count": 388
+    },
+    {
+      "variant": "v03_arbitrary",
+      "metric": "attempts",
+      "count": 1178
+    },
+    {
+      "variant": "v03_arbitrary",
+      "metric": "source_eliminated",
+      "count": 332
+    },
+    {
+      "variant": "v03_no_coverage",
+      "metric": "attempts",
+      "count": 1178
+    },
+    {
+      "variant": "v03_no_coverage",
+      "metric": "source_eliminated",
+      "count": 224
+    },
+    {
+      "variant": "v03_no_protection",
+      "metric": "attempts",
+      "count": 1187
+    },
+    {
+      "variant": "v03_no_protection",
+      "metric": "source_eliminated",
+      "count": 406
+    },
+    {
+      "variant": "v03_raw",
+      "metric": "attempts",
+      "count": 1224
+    },
+    {
+      "variant": "v03_raw",
+      "metric": "source_eliminated",
+      "count": 371
+    },
+    {
+      "variant": "v03_signature",
+      "metric": "attempts",
+      "count": 1226
+    },
+    {
+      "variant": "v03_signature",
+      "metric": "source_eliminated",
+      "count": 487
+    }
+  ]
+}

@@ -28,3 +28,6 @@ htmlcov/
 *.pstats
 *.tmp
 *.log
+
+# Live progress checkpoint; final verification is saved separately.
+results/v0.3/audit_progress.json

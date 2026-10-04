@@ -1,0 +1,46 @@
+{
+  "status": "NOT_READY_FOR_HELD_OUT",
+  "interpretation": "RESULT B \u2014 Partial local success; no validated general advantage",
+  "frozen_development_criteria_passed": false,
+  "baseline_endpoint_passes": {
+    "random": false,
+    "resource": false,
+    "v02": false
+  },
+  "reasons": [
+    "V0.3 does not beat every required baseline under the frozen multiplicity-corrected, cross-code/cross-seed criteria.",
+    "Practical throughput at held-out code size has not been established; only development codes were run.",
+    "Pure product-readout boundary failures remain unsupported."
+  ],
+  "held_out_runs": 0,
+  "external_architecture_searches": 0,
+  "algorithm_freeze_created": false,
+  "tests": {
+    "tests_run": 96,
+    "passed": 96,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true,
+    "pytest_exit_code": 0
+  },
+  "witness_instances_verified": 2368557,
+  "unique_witnesses_independently_replayed": 1058039,
+  "distance_gain_exclusions_verified": 87,
+  "all_certified_bound_exclusions_verified": 3507,
+  "frozen_algorithm_commit": "3bd96eebf370edc17a42618eb602db88b987b40c",
+  "distinct_architectures_with_unsupported_boundary_classes": 4776,
+  "local_partial_evidence": {
+    "target_totals_out_of_48": {
+      "random": 3,
+      "resource": 3,
+      "v02": 3,
+      "v03": 6,
+      "mixed": 8,
+      "v03_no_coverage": 10
+    },
+    "strict_compositions": 9,
+    "strict_compositions_beyond_initial_best": 3,
+    "does_not_pass_frozen_general_criteria": true
+  }
+}

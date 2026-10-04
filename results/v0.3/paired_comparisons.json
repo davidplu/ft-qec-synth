@@ -1,0 +1,3282 @@
+[
+  {
+    "baseline": "random",
+    "endpoint": "target_success",
+    "pairs": 48,
+    "wins": 3,
+    "ties": 45,
+    "losses": 0,
+    "mean_margin": 0.0625,
+    "p_two_sided": 0.25,
+    "favorable_codes": [
+      "steane"
+    ],
+    "favorable_seeds": [
+      1,
+      4
+    ],
+    "pairs_detail": [
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      }
+    ],
+    "holm_p": 1,
+    "passes_frozen_endpoint": false
+  },
+  {
+    "baseline": "random",
+    "endpoint": "target_evaluations",
+    "pairs": 48,
+    "wins": 3,
+    "ties": 45,
+    "losses": 0,
+    "mean_margin": 1.125,
+    "p_two_sided": 0.25,
+    "favorable_codes": [
+      "steane"
+    ],
+    "favorable_seeds": [
+      1,
+      4
+    ],
+    "pairs_detail": [
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 22
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 12
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 20
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      }
+    ],
+    "holm_p": 1,
+    "passes_frozen_endpoint": false
+  },
+  {
+    "baseline": "random",
+    "endpoint": "distance",
+    "pairs": 48,
+    "wins": 3,
+    "ties": 45,
+    "losses": 0,
+    "mean_margin": 0.0625,
+    "p_two_sided": 0.25,
+    "favorable_codes": [
+      "steane"
+    ],
+    "favorable_seeds": [
+      1,
+      4
+    ],
+    "pairs_detail": [
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      }
+    ],
+    "holm_p": 1,
+    "passes_frozen_endpoint": false
+  },
+  {
+    "baseline": "random",
+    "endpoint": "matched_QD",
+    "pairs": 24,
+    "wins": 4,
+    "ties": 13,
+    "losses": 7,
+    "mean_margin": -20.125,
+    "p_two_sided": 0.548828125,
+    "favorable_codes": [
+      "css4",
+      "steane"
+    ],
+    "favorable_seeds": [
+      0,
+      1,
+      4
+    ],
+    "pairs_detail": [
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": -40
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": -40
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 26
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 72
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": -178
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 21
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": -121
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": -100
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 264
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": -117
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": -270
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      }
+    ],
+    "holm_p": 1,
+    "passes_frozen_endpoint": false
+  },
+  {
+    "baseline": "resource",
+    "endpoint": "target_success",
+    "pairs": 48,
+    "wins": 3,
+    "ties": 45,
+    "losses": 0,
+    "mean_margin": 0.0625,
+    "p_two_sided": 0.25,
+    "favorable_codes": [
+      "steane"
+    ],
+    "favorable_seeds": [
+      1,
+      4
+    ],
+    "pairs_detail": [
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      }
+    ],
+    "holm_p": 1,
+    "passes_frozen_endpoint": false
+  },
+  {
+    "baseline": "resource",
+    "endpoint": "target_evaluations",
+    "pairs": 48,
+    "wins": 3,
+    "ties": 45,
+    "losses": 0,
+    "mean_margin": 1.125,
+    "p_two_sided": 0.25,
+    "favorable_codes": [
+      "steane"
+    ],
+    "favorable_seeds": [
+      1,
+      4
+    ],
+    "pairs_detail": [
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 22
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 12
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 20
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      }
+    ],
+    "holm_p": 1,
+    "passes_frozen_endpoint": false
+  },
+  {
+    "baseline": "resource",
+    "endpoint": "distance",
+    "pairs": 48,
+    "wins": 3,
+    "ties": 45,
+    "losses": 0,
+    "mean_margin": 0.0625,
+    "p_two_sided": 0.25,
+    "favorable_codes": [
+      "steane"
+    ],
+    "favorable_seeds": [
+      1,
+      4
+    ],
+    "pairs_detail": [
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      }
+    ],
+    "holm_p": 1,
+    "passes_frozen_endpoint": false
+  },
+  {
+    "baseline": "resource",
+    "endpoint": "matched_QD",
+    "pairs": 24,
+    "wins": 4,
+    "ties": 9,
+    "losses": 11,
+    "mean_margin": -92.33333333333333,
+    "p_two_sided": 0.11846923828125,
+    "favorable_codes": [
+      "css4",
+      "steane"
+    ],
+    "favorable_seeds": [
+      1,
+      3,
+      4
+    ],
+    "pairs_detail": [
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": -40
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": -40
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": -40
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": -121
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 229
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": -106
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 145
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 21
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": -121
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": -578
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 198
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": -440
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": -810
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": -68
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": -445
+      }
+    ],
+    "holm_p": 1,
+    "passes_frozen_endpoint": false
+  },
+  {
+    "baseline": "v02",
+    "endpoint": "target_success",
+    "pairs": 48,
+    "wins": 3,
+    "ties": 45,
+    "losses": 0,
+    "mean_margin": 0.0625,
+    "p_two_sided": 0.25,
+    "favorable_codes": [
+      "steane"
+    ],
+    "favorable_seeds": [
+      1,
+      4
+    ],
+    "pairs_detail": [
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      }
+    ],
+    "holm_p": 1,
+    "passes_frozen_endpoint": false
+  },
+  {
+    "baseline": "v02",
+    "endpoint": "target_evaluations",
+    "pairs": 48,
+    "wins": 3,
+    "ties": 45,
+    "losses": 0,
+    "mean_margin": 1.125,
+    "p_two_sided": 0.25,
+    "favorable_codes": [
+      "steane"
+    ],
+    "favorable_seeds": [
+      1,
+      4
+    ],
+    "pairs_detail": [
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 22
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 12
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 20
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      }
+    ],
+    "holm_p": 1,
+    "passes_frozen_endpoint": false
+  },
+  {
+    "baseline": "v02",
+    "endpoint": "distance",
+    "pairs": 48,
+    "wins": 3,
+    "ties": 45,
+    "losses": 0,
+    "mean_margin": 0.0625,
+    "p_two_sided": 0.25,
+    "favorable_codes": [
+      "steane"
+    ],
+    "favorable_seeds": [
+      1,
+      4
+    ],
+    "pairs_detail": [
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "noncss4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "perfect5",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 1
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      }
+    ],
+    "holm_p": 1,
+    "passes_frozen_endpoint": false
+  },
+  {
+    "baseline": "v02",
+    "endpoint": "matched_QD",
+    "pairs": 24,
+    "wins": 2,
+    "ties": 18,
+    "losses": 4,
+    "mean_margin": -26.458333333333332,
+    "p_two_sided": 0.6875,
+    "favorable_codes": [
+      "css4",
+      "steane"
+    ],
+    "favorable_seeds": [
+      4
+    ],
+    "pairs_detail": [
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": -23
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": -156
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 21
+      },
+      {
+        "code": "css4",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 0,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 3,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 4,
+        "difference_favoring_v03": 66
+      },
+      {
+        "code": "steane",
+        "basis": "X",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 0,
+        "difference_favoring_v03": -273
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 1,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 2,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 3,
+        "difference_favoring_v03": -270
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 4,
+        "difference_favoring_v03": 0
+      },
+      {
+        "code": "steane",
+        "basis": "Z",
+        "seed": 5,
+        "difference_favoring_v03": 0
+      }
+    ],
+    "holm_p": 1,
+    "passes_frozen_endpoint": false
+  }
+]

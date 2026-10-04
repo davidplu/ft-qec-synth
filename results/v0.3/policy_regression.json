@@ -1,0 +1,14 @@
+{
+  "checks": [
+    {
+      "frozen_reference": "css4-X-seed0-v03.json.gz",
+      "identical_policy_choices_spectra_bounds_and_resources": true
+    },
+    {
+      "frozen_reference": "steane-Z-seed0-v03.json.gz",
+      "identical_policy_choices_spectra_bounds_and_resources": true
+    }
+  ],
+  "included_in_final_experiment": false,
+  "purpose": "Verify audit-only corrections do not change frozen search policy"
+}

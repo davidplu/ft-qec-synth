@@ -1,0 +1,68 @@
+{
+  "baseline_commit": "e6e9c746151552befa4105a3b02b30a1d4a5b2c9",
+  "hypothesis_sha256": "68bb8d2a5fd1ad26fb02b9f1a6f7244987ca04f8d428e629c06583dd3d105a0d",
+  "codes": [
+    "css4",
+    "noncss4",
+    "perfect5",
+    "steane"
+  ],
+  "bases": [
+    "X",
+    "Z"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "variants": {
+    "random": {},
+    "resource": {},
+    "v02": {},
+    "v03": {},
+    "mixed": {},
+    "v03_raw": {
+      "equivalence": "raw"
+    },
+    "v03_signature": {
+      "equivalence": "signature"
+    },
+    "v03_no_protection": {
+      "protect_progress": false
+    },
+    "v03_arbitrary": {
+      "dominant_order": false
+    },
+    "v03_no_coverage": {
+      "coverage_priority": false
+    }
+  },
+  "configuration": {
+    "budget": 32,
+    "seed": 0,
+    "strategy": "v03",
+    "target_dc": 3,
+    "max_weight": 3,
+    "max_combinations": 200000,
+    "spectrum_work": 200000,
+    "beam_width": 12,
+    "initial_population": 6,
+    "idles": false,
+    "equivalence": "structural",
+    "protect_progress": true,
+    "dominant_order": true,
+    "coverage_priority": true,
+    "protected_slots": 4,
+    "protection_age": 4,
+    "compound_depth": 3,
+    "representatives": 4,
+    "option_limit": 16
+  },
+  "raw_format": "gzip-compressed JSON, lossless; validate after decompression",
+  "held_out_runs": 0,
+  "external_architecture_searches": 0
+}

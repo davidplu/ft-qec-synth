@@ -1,0 +1,182 @@
+[
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\search\\malignant.py:198:run_malignant_search",
+    "calls": 1,
+    "self_seconds": 0.0043317,
+    "cumulative_seconds": 1.9864247000000002
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\spectrum.py:100:malignant_spectrum",
+    "calls": 8,
+    "self_seconds": 0.1222072,
+    "cumulative_seconds": 0.9624301000000001
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\spectrum.py:29:fault_features",
+    "calls": 14012,
+    "self_seconds": 0.0915464,
+    "cumulative_seconds": 0.6111918000000001
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\search\\malignant.py:141:repair_options",
+    "calls": 2,
+    "self_seconds": 0.0018624000000000002,
+    "cumulative_seconds": 0.47732620000000003
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\search\\cegis.py:48:evaluate_memory",
+    "calls": 8,
+    "self_seconds": 0.0019744000000000003,
+    "cumulative_seconds": 0.4310045
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\architectures\\candidate.py:21:id",
+    "calls": 2776,
+    "self_seconds": 0.007776300000000001,
+    "cumulative_seconds": 0.3966344
+  },
+  {
+    "function": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\dataclasses.py:1308:asdict",
+    "calls": 6907,
+    "self_seconds": 0.0044714,
+    "cumulative_seconds": 0.39283130000000005
+  },
+  {
+    "function": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\dataclasses.py:1332:_asdict_inner",
+    "calls": 273867,
+    "self_seconds": 0.21705480000000002,
+    "cumulative_seconds": 0.38467700000000005
+  },
+  {
+    "function": "~:0:<built-in method builtins.sorted>",
+    "calls": 50232,
+    "self_seconds": 0.0536936,
+    "cumulative_seconds": 0.38172670000000003
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\architectures\\candidate.py:17:to_dict",
+    "calls": 2784,
+    "self_seconds": 0.0030534000000000004,
+    "cumulative_seconds": 0.3510122
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\spectrum.py:37:<genexpr>",
+    "calls": 243518,
+    "self_seconds": 0.2172551,
+    "cumulative_seconds": 0.3156159
+  },
+  {
+    "function": "~:0:<built-in method builtins.min>",
+    "calls": 17531,
+    "self_seconds": 0.00557,
+    "cumulative_seconds": 0.2918179
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\search\\malignant.py:124:greedy_coverage",
+    "calls": 2,
+    "self_seconds": 0.0001654,
+    "cumulative_seconds": 0.2835914
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\search\\malignant.py:132:rank",
+    "calls": 1984,
+    "self_seconds": 0.0032818,
+    "cumulative_seconds": 0.2816555
+  },
+  {
+    "function": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\dataclasses.py:1373:<genexpr>",
+    "calls": 254890,
+    "self_seconds": 0.06893540000000001,
+    "cumulative_seconds": 0.224558
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\spectrum.py:60:cancelling_groups",
+    "calls": 294480,
+    "self_seconds": 0.1468279,
+    "cumulative_seconds": 0.19316
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\signatures.py:87:signatures",
+    "calls": 8,
+    "self_seconds": 0.033782200000000005,
+    "cumulative_seconds": 0.1500406
+  },
+  {
+    "function": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\__init__.py:183:dumps",
+    "calls": 8842,
+    "self_seconds": 0.0115782,
+    "cumulative_seconds": 0.10353340000000001
+  },
+  {
+    "function": "~:0:<method 'startswith' of 'str' objects>",
+    "calls": 584948,
+    "self_seconds": 0.09973660000000001,
+    "cumulative_seconds": 0.09973660000000001
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\search.py:32:search_faults",
+    "calls": 8,
+    "self_seconds": 0.0770884,
+    "cumulative_seconds": 0.0979769
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\serialization.py:5:json_native",
+    "calls": 3426,
+    "self_seconds": 0.0033384,
+    "cumulative_seconds": 0.09564990000000001
+  },
+  {
+    "function": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\encoder.py:183:encode",
+    "calls": 8842,
+    "self_seconds": 0.011340300000000001,
+    "cumulative_seconds": 0.0901436
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\signatures.py:41:enumerate_faults",
+    "calls": 14020,
+    "self_seconds": 0.040050800000000004,
+    "cumulative_seconds": 0.0885018
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\search\\repairs.py:17:targeted_repairs",
+    "calls": 8,
+    "self_seconds": 0.0009759,
+    "cumulative_seconds": 0.0861013
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\circuits\\model.py:55:to_dict",
+    "calls": 15,
+    "self_seconds": 0.0011759000000000001,
+    "cumulative_seconds": 0.08431340000000001
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\search\\engine.py:38:software_commit",
+    "calls": 1,
+    "self_seconds": 4.35e-05,
+    "cumulative_seconds": 0.07708200000000001
+  },
+  {
+    "function": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py:506:run",
+    "calls": 1,
+    "self_seconds": 4.21e-05,
+    "cumulative_seconds": 0.076951
+  },
+  {
+    "function": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\encoder.py:205:iterencode",
+    "calls": 8842,
+    "self_seconds": 0.0739427,
+    "cumulative_seconds": 0.0739427
+  },
+  {
+    "function": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\spectrum.py:40:<genexpr>",
+    "calls": 47778,
+    "self_seconds": 0.06480820000000001,
+    "cumulative_seconds": 0.0731816
+  },
+  {
+    "function": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py:1165:communicate",
+    "calls": 1,
+    "self_seconds": 1.0700000000000001e-05,
+    "cumulative_seconds": 0.0664493
+  }
+]

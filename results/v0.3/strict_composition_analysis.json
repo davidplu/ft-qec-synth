@@ -1,0 +1,612 @@
+{
+  "definition": "Consecutive guided neutral class-reducing edges followed by a guided certified distance gain",
+  "distance_gain_events": 17,
+  "strict_compositions": 9,
+  "strict_compositions_beyond_initial_best": 3,
+  "events": [
+    {
+      "run": "css4-Z-seed0-v03.json.gz",
+      "gain_node": 8,
+      "starting_node": 1,
+      "guided_progress_segment": [
+        8
+      ],
+      "qualifies": false,
+      "start_dc": 1,
+      "end_dc": 2,
+      "beyond_best_initial": false,
+      "architecture_ids": [
+        "e2378b2b63185649a3f6",
+        "14a2b838cfa3c9df7dc7"
+      ],
+      "class_counts_at_start_weight": [
+        8,
+        0
+      ],
+      "operators": [
+        "split_suffix_flag"
+      ],
+      "targeted_class_ids": [
+        "e27b7191b48af9beead56f98"
+      ],
+      "resource_delta": {
+        "Q": 1,
+        "D": 12,
+        "QD": 121,
+        "two_q_gates": 6
+      }
+    },
+    {
+      "run": "css4-Z-seed0-v03.json.gz",
+      "gain_node": 19,
+      "starting_node": 3,
+      "guided_progress_segment": [
+        19
+      ],
+      "qualifies": false,
+      "start_dc": 1,
+      "end_dc": 2,
+      "beyond_best_initial": false,
+      "architecture_ids": [
+        "66ea1b275f1f73a8d12e",
+        "f08042d82d655db44a45"
+      ],
+      "class_counts_at_start_weight": [
+        7,
+        0
+      ],
+      "operators": [
+        "split_suffix_flag"
+      ],
+      "targeted_class_ids": [
+        "48fcf95dcd7b6983dbe82514"
+      ],
+      "resource_delta": {
+        "Q": 1,
+        "D": 9,
+        "QD": 115,
+        "two_q_gates": 6
+      }
+    },
+    {
+      "run": "css4-Z-seed1-v03.json.gz",
+      "gain_node": 18,
+      "starting_node": 9,
+      "guided_progress_segment": [
+        15,
+        18
+      ],
+      "qualifies": true,
+      "start_dc": 1,
+      "end_dc": 2,
+      "beyond_best_initial": false,
+      "architecture_ids": [
+        "d95c292d465cdf8a33a9",
+        "24ecfd26503b4f0a0441",
+        "7a39a3673c6bbb52793e"
+      ],
+      "class_counts_at_start_weight": [
+        8,
+        7,
+        0
+      ],
+      "operators": [
+        "split_prefix_flag",
+        "independent_full_interval_flag"
+      ],
+      "targeted_class_ids": [
+        "015b4fba5b992aa4032fbf17",
+        "ca9e8ea9e1abeaf8dfae366d"
+      ],
+      "resource_delta": {
+        "Q": 2,
+        "D": 24,
+        "QD": 266,
+        "two_q_gates": 12
+      }
+    },
+    {
+      "run": "css4-Z-seed1-v03.json.gz",
+      "gain_node": 22,
+      "starting_node": 9,
+      "guided_progress_segment": [
+        15,
+        19,
+        22
+      ],
+      "qualifies": true,
+      "start_dc": 1,
+      "end_dc": 2,
+      "beyond_best_initial": false,
+      "architecture_ids": [
+        "d95c292d465cdf8a33a9",
+        "24ecfd26503b4f0a0441",
+        "bff8c18acdfc32e187bb",
+        "b5bf9b0419fcaecf8d77"
+      ],
+      "class_counts_at_start_weight": [
+        8,
+        7,
+        6,
+        0
+      ],
+      "operators": [
+        "split_prefix_flag",
+        "split_suffix_flag",
+        "independent_full_interval_flag"
+      ],
+      "targeted_class_ids": [
+        "015b4fba5b992aa4032fbf17",
+        "ca9e8ea9e1abeaf8dfae366d",
+        "ca9e8ea9e1abeaf8dfae366d"
+      ],
+      "resource_delta": {
+        "Q": 3,
+        "D": 36,
+        "QD": 435,
+        "two_q_gates": 18
+      }
+    },
+    {
+      "run": "css4-Z-seed1-v03.json.gz",
+      "gain_node": 24,
+      "starting_node": 12,
+      "guided_progress_segment": [
+        24
+      ],
+      "qualifies": false,
+      "start_dc": 1,
+      "end_dc": 2,
+      "beyond_best_initial": false,
+      "architecture_ids": [
+        "e2378b2b63185649a3f6",
+        "14a2b838cfa3c9df7dc7"
+      ],
+      "class_counts_at_start_weight": [
+        8,
+        0
+      ],
+      "operators": [
+        "split_suffix_flag"
+      ],
+      "targeted_class_ids": [
+        "e27b7191b48af9beead56f98"
+      ],
+      "resource_delta": {
+        "Q": 1,
+        "D": 12,
+        "QD": 121,
+        "two_q_gates": 6
+      }
+    },
+    {
+      "run": "css4-Z-seed1-v03.json.gz",
+      "gain_node": 28,
+      "starting_node": 12,
+      "guided_progress_segment": [
+        26,
+        28
+      ],
+      "qualifies": true,
+      "start_dc": 1,
+      "end_dc": 2,
+      "beyond_best_initial": false,
+      "architecture_ids": [
+        "e2378b2b63185649a3f6",
+        "1f8f7c2976e7601d9342",
+        "d11cce570c8bc0d3d5ab"
+      ],
+      "class_counts_at_start_weight": [
+        8,
+        7,
+        0
+      ],
+      "operators": [
+        "split_prefix_flag",
+        "independent_full_interval_flag"
+      ],
+      "targeted_class_ids": [
+        "65ccd51a7a832069d4da6d36",
+        "87e71465f76b37fef4dd2adf"
+      ],
+      "resource_delta": {
+        "Q": 2,
+        "D": 24,
+        "QD": 266,
+        "two_q_gates": 12
+      }
+    },
+    {
+      "run": "css4-Z-seed1-v03.json.gz",
+      "gain_node": 31,
+      "starting_node": 12,
+      "guided_progress_segment": [
+        26,
+        29,
+        31
+      ],
+      "qualifies": true,
+      "start_dc": 1,
+      "end_dc": 2,
+      "beyond_best_initial": false,
+      "architecture_ids": [
+        "e2378b2b63185649a3f6",
+        "1f8f7c2976e7601d9342",
+        "afc741e32d3a792ced9a",
+        "bd4bc8bca0d941bfee46"
+      ],
+      "class_counts_at_start_weight": [
+        8,
+        7,
+        6,
+        0
+      ],
+      "operators": [
+        "split_prefix_flag",
+        "split_suffix_flag",
+        "independent_full_interval_flag"
+      ],
+      "targeted_class_ids": [
+        "65ccd51a7a832069d4da6d36",
+        "87e71465f76b37fef4dd2adf",
+        "87e71465f76b37fef4dd2adf"
+      ],
+      "resource_delta": {
+        "Q": 3,
+        "D": 36,
+        "QD": 435,
+        "two_q_gates": 18
+      }
+    },
+    {
+      "run": "css4-Z-seed2-v03.json.gz",
+      "gain_node": 14,
+      "starting_node": 5,
+      "guided_progress_segment": [
+        10,
+        14
+      ],
+      "qualifies": true,
+      "start_dc": 1,
+      "end_dc": 2,
+      "beyond_best_initial": false,
+      "architecture_ids": [
+        "e0b963a3587c9f9b324c",
+        "01f1e07e1aef8d1cc6ca",
+        "2fa7665f458a5b4d3675"
+      ],
+      "class_counts_at_start_weight": [
+        7,
+        6,
+        0
+      ],
+      "operators": [
+        "split_prefix_flag",
+        "independent_full_interval_flag"
+      ],
+      "targeted_class_ids": [
+        "0f2ab89c8971904702485c1b",
+        "0f2ab89c8971904702485c1b"
+      ],
+      "resource_delta": {
+        "Q": 2,
+        "D": 12,
+        "QD": 242,
+        "two_q_gates": 12
+      }
+    },
+    {
+      "run": "css4-Z-seed3-v03.json.gz",
+      "gain_node": 20,
+      "starting_node": 1,
+      "guided_progress_segment": [
+        20
+      ],
+      "qualifies": false,
+      "start_dc": 1,
+      "end_dc": 2,
+      "beyond_best_initial": false,
+      "architecture_ids": [
+        "e2378b2b63185649a3f6",
+        "14a2b838cfa3c9df7dc7"
+      ],
+      "class_counts_at_start_weight": [
+        8,
+        0
+      ],
+      "operators": [
+        "split_suffix_flag"
+      ],
+      "targeted_class_ids": [
+        "e27b7191b48af9beead56f98"
+      ],
+      "resource_delta": {
+        "Q": 1,
+        "D": 12,
+        "QD": 121,
+        "two_q_gates": 6
+      }
+    },
+    {
+      "run": "css4-Z-seed3-v03.json.gz",
+      "gain_node": 29,
+      "starting_node": 9,
+      "guided_progress_segment": [
+        24,
+        26,
+        29
+      ],
+      "qualifies": true,
+      "start_dc": 1,
+      "end_dc": 2,
+      "beyond_best_initial": false,
+      "architecture_ids": [
+        "d95c292d465cdf8a33a9",
+        "24ecfd26503b4f0a0441",
+        "bff8c18acdfc32e187bb",
+        "b5bf9b0419fcaecf8d77"
+      ],
+      "class_counts_at_start_weight": [
+        8,
+        7,
+        6,
+        0
+      ],
+      "operators": [
+        "split_prefix_flag",
+        "split_suffix_flag",
+        "independent_full_interval_flag"
+      ],
+      "targeted_class_ids": [
+        "015b4fba5b992aa4032fbf17",
+        "ca9e8ea9e1abeaf8dfae366d",
+        "ca9e8ea9e1abeaf8dfae366d"
+      ],
+      "resource_delta": {
+        "Q": 3,
+        "D": 36,
+        "QD": 435,
+        "two_q_gates": 18
+      }
+    },
+    {
+      "run": "css4-Z-seed4-v03.json.gz",
+      "gain_node": 24,
+      "starting_node": 4,
+      "guided_progress_segment": [
+        24
+      ],
+      "qualifies": false,
+      "start_dc": 1,
+      "end_dc": 2,
+      "beyond_best_initial": false,
+      "architecture_ids": [
+        "c3eafe0b27ef0d142956",
+        "20f5b64da3b223b1ec36"
+      ],
+      "class_counts_at_start_weight": [
+        8,
+        0
+      ],
+      "operators": [
+        "independent_full_interval_flag"
+      ],
+      "targeted_class_ids": [
+        "e27b7191b48af9beead56f98"
+      ],
+      "resource_delta": {
+        "Q": 1,
+        "D": 12,
+        "QD": 121,
+        "two_q_gates": 6
+      }
+    },
+    {
+      "run": "css4-Z-seed5-v03.json.gz",
+      "gain_node": 9,
+      "starting_node": 1,
+      "guided_progress_segment": [
+        9
+      ],
+      "qualifies": false,
+      "start_dc": 1,
+      "end_dc": 2,
+      "beyond_best_initial": false,
+      "architecture_ids": [
+        "e2378b2b63185649a3f6",
+        "14a2b838cfa3c9df7dc7"
+      ],
+      "class_counts_at_start_weight": [
+        8,
+        0
+      ],
+      "operators": [
+        "split_suffix_flag"
+      ],
+      "targeted_class_ids": [
+        "e27b7191b48af9beead56f98"
+      ],
+      "resource_delta": {
+        "Q": 1,
+        "D": 12,
+        "QD": 121,
+        "two_q_gates": 6
+      }
+    },
+    {
+      "run": "steane-X-seed1-v03.json.gz",
+      "gain_node": 11,
+      "starting_node": 9,
+      "guided_progress_segment": [
+        11
+      ],
+      "qualifies": false,
+      "start_dc": 2,
+      "end_dc": 3,
+      "beyond_best_initial": true,
+      "architecture_ids": [
+        "70bb4dd0a3e3eb5580c6",
+        "007a3feaf769d248cf6f"
+      ],
+      "class_counts_at_start_weight": [
+        33,
+        0
+      ],
+      "operators": [
+        "independent_full_interval_flag"
+      ],
+      "targeted_class_ids": [
+        "0cb2a22f80036476840e9420"
+      ],
+      "resource_delta": {
+        "Q": 1,
+        "D": 0,
+        "QD": 152,
+        "two_q_gates": 6
+      }
+    },
+    {
+      "run": "steane-X-seed1-v03.json.gz",
+      "gain_node": 28,
+      "starting_node": 10,
+      "guided_progress_segment": [
+        26,
+        28
+      ],
+      "qualifies": true,
+      "start_dc": 2,
+      "end_dc": 3,
+      "beyond_best_initial": true,
+      "architecture_ids": [
+        "5e75e0c5b4ffcc9e40cc",
+        "106d0cc99243bb503309",
+        "c739d88f4d1945db7ab0"
+      ],
+      "class_counts_at_start_weight": [
+        33,
+        32,
+        0
+      ],
+      "operators": [
+        "change_implicated_check_order",
+        "independent_full_interval_flag"
+      ],
+      "targeted_class_ids": [
+        "67f47486c99ee567ff3a880f",
+        "3fd1669665e69dc739a4c07b"
+      ],
+      "resource_delta": {
+        "Q": 1,
+        "D": 39,
+        "QD": 893,
+        "two_q_gates": 6
+      }
+    },
+    {
+      "run": "steane-Z-seed1-v03.json.gz",
+      "gain_node": 21,
+      "starting_node": 6,
+      "guided_progress_segment": [
+        19,
+        21
+      ],
+      "qualifies": true,
+      "start_dc": 2,
+      "end_dc": 3,
+      "beyond_best_initial": true,
+      "architecture_ids": [
+        "4071de20127569943955",
+        "02a2f0e69bdfa8cd9517",
+        "23620508efe3c627483f"
+      ],
+      "class_counts_at_start_weight": [
+        53,
+        30,
+        0
+      ],
+      "operators": [
+        "independent_full_interval_flag",
+        "independent_full_interval_flag"
+      ],
+      "targeted_class_ids": [
+        "1cc0e335c71d4947c53b8c1f",
+        "5e8af6d9634522132e8bd132"
+      ],
+      "resource_delta": {
+        "Q": 0,
+        "D": 24,
+        "QD": 240,
+        "two_q_gates": 12
+      }
+    },
+    {
+      "run": "steane-Z-seed4-v03.json.gz",
+      "gain_node": 13,
+      "starting_node": 2,
+      "guided_progress_segment": [
+        11,
+        13
+      ],
+      "qualifies": true,
+      "start_dc": 2,
+      "end_dc": 3,
+      "beyond_best_initial": true,
+      "architecture_ids": [
+        "98db4e237fbb33809fe7",
+        "0dbbe6b08721feea8673",
+        "0ea676cb53bbe8b56459"
+      ],
+      "class_counts_at_start_weight": [
+        37,
+        27,
+        0
+      ],
+      "operators": [
+        "reverse_implicated_order",
+        "independent_full_interval_flag"
+      ],
+      "targeted_class_ids": [
+        "0080c942eea44f0f1cb32f10",
+        "9f9860d588c432c1226c0bfa"
+      ],
+      "resource_delta": {
+        "Q": 1,
+        "D": 12,
+        "QD": 397,
+        "two_q_gates": 6
+      }
+    },
+    {
+      "run": "steane-Z-seed4-v03.json.gz",
+      "gain_node": 24,
+      "starting_node": 16,
+      "guided_progress_segment": [
+        24
+      ],
+      "qualifies": false,
+      "start_dc": 2,
+      "end_dc": 3,
+      "beyond_best_initial": true,
+      "architecture_ids": [
+        "06b31c9981f637a56f15",
+        "071654ad7b54d207d8fa"
+      ],
+      "class_counts_at_start_weight": [
+        27,
+        0
+      ],
+      "operators": [
+        "split_suffix_flag"
+      ],
+      "targeted_class_ids": [
+        "c688d93e20da7109fc72a67c"
+      ],
+      "resource_delta": {
+        "Q": 1,
+        "D": 12,
+        "QD": 397,
+        "two_q_gates": 6
+      }
+    }
+  ]
+}

@@ -20,6 +20,11 @@ exact mechanism definition is [MALIGNANT_CLASSES.md](docs/MALIGNANT_CLASSES.md).
 Raw JSON is losslessly compressed with gzip and validates against
 `docs/schemas/result-v0.3.schema.json` after decompression.
 
+The completed V0.3 experiment shows partial local composition evidence, with no
+validated general search advantage. It remains **NOT_READY_FOR_HELD_OUT**.
+See [V0_3_RESULTS.md](docs/V0_3_RESULTS.md) for the frozen comparisons, strict
+repair chains, resource costs, ablations and all 20 research answers.
+
 ## Install and test
 
 Python 3.10+, from this repository:
