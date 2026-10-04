@@ -7,12 +7,12 @@ A generic, reproducible research core for stabilizer syndrome-extraction archite
 Python 3.10+:
 
 ```console
-python -m pip install -e .
+python -m pip install -e ".[dev]"
 ftqec validate benchmarks/development/steane.json
 ftqec generate benchmarks/development/steane.json --budget 12 --seed 7 -o results/generated.json
 ftqec search benchmarks/development/steane.json --budget 1000 --seed 7 --max-weight 2 -o results/steane-search.json
 ftqec frontier results/steane-search.json -o results/frontier.json
-python -m unittest discover -s tests -v
+pytest
 python experiments/run_development.py --budget 24
 ```
 

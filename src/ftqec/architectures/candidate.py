@@ -1,6 +1,7 @@
 from dataclasses import dataclass, asdict
 import json
 from hashlib import sha256
+from ..serialization import json_native
 
 @dataclass(frozen=True)
 class Candidate:
@@ -12,7 +13,7 @@ class Candidate:
     syndrome_budget: int
     parallelism: int
 
-    def to_dict(self): return asdict(self)
+    def to_dict(self): return json_native(asdict(self))
     @property
     def id(self): return sha256(json.dumps(self.to_dict(),sort_keys=True).encode()).hexdigest()[:20]
     @classmethod

@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field, asdict
 from ..codes.stabilizer import StabilizerCode
+from ..serialization import json_native
 
 ARITY = {'H':1,'S':1,'SDG':1,'X':1,'Y':1,'Z':1,'CX':2,'CZ':2,'SWAP':2,
          'PREP':1,'RESET':1,'M':1,'IDLE':1,'BARRIER':None}
@@ -42,9 +43,9 @@ class Circuit:
         if self.boundary_model!='ideal_initial_and_final_syndrome': raise ValueError('Unsupported boundary model')
         if any(r not in records for d in self.detectors+self.observables for r in d): raise ValueError('Unknown record')
     def to_dict(self):
-        return dict(code=self.code.to_dict(),syndrome_qubits=self.syndrome_qubits,flag_qubits=self.flag_qubits,
+        return json_native(dict(code=self.code.to_dict(),syndrome_qubits=self.syndrome_qubits,flag_qubits=self.flag_qubits,
                     operations=[asdict(op) for op in self.operations],detectors=self.detectors,
-                    observables=self.observables,boundary_model=self.boundary_model)
+                    observables=self.observables,boundary_model=self.boundary_model))
     @classmethod
     def from_dict(cls,d):
         c = cls(StabilizerCode.from_dict(d['code']),tuple(d['syndrome_qubits']),tuple(d['flag_qubits']))

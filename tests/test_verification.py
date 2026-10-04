@@ -71,9 +71,8 @@ class IndependentTests(unittest.TestCase):
         c=Circuit(StabilizerCode(2,()),(),()); c.add('H',[0]); c.add('H',[0]); c.add('H',[1])
         c.add('BARRIER',[0,1]); c.add('M',[1],record='m')
         s=schedule(c); self.assertEqual(s.starts,[0,1,0,2,2]); self.assertEqual(s.depth,3)
-    def test_schema_results_if_validator_available(self):
-        try: import jsonschema
-        except ImportError: self.skipTest('Optional JSON-schema validator not installed')
+    def test_schema_results(self):
+        import jsonschema
         from pathlib import Path
         import json
         root=Path(__file__).resolve().parents[1]

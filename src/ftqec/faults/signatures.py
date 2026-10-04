@@ -4,6 +4,7 @@ from ..codes.pauli import Pauli
 from ..codes.logicals import logical_basis, logical_effect
 from ..scheduling.scheduler import schedule
 from .propagation import propagate
+from ..serialization import json_native
 
 @dataclass(frozen=True)
 class Fault:
@@ -16,7 +17,7 @@ class Fault:
     def pauli(self,n):
         return Pauli(n,sum(1<<q for q,p in zip(self.qubits,self.label) if p in 'XY'),
                      sum(1<<q for q,p in zip(self.qubits,self.label) if p in 'YZ'))
-    def to_dict(self): return asdict(self)
+    def to_dict(self): return json_native(asdict(self))
 
 @dataclass(frozen=True)
 class Signature:

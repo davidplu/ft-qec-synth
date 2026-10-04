@@ -1,0 +1,11 @@
+{
+  "v0_1_commit": "0291500da4c5977a093988f918c8baf8ffdf867e",
+  "fixes": [
+    "JSON-native public serialization",
+    "mandatory full test dependencies",
+    "editable installation and pytest"
+  ],
+  "tests_passed": 34,
+  "tests_skipped": 0,
+  "tests_failed": 0
+}
