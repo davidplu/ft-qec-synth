@@ -7,3 +7,24 @@ dist/
 
 .pytest_cache/
 .pytest-tmp/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Additional local environments and tooling output
+venv/
+env/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.pstats
+*.tmp
+*.log
