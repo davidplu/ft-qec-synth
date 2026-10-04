@@ -38,14 +38,14 @@ def main(argv=None):
         if args.command=='frontier':
             groups={}
             for file in sorted(path.glob('*.json')) if path.is_dir() else [path]:
-                d=json.loads(file.read_text())
+                d=json.loads(file.read_text(encoding='utf-8'))
                 if isinstance(d,dict) and 'code_input_hash' in d and 'frontier' in d:
                     key=json.dumps([d['code_input_hash'],d['fault_model'],d.get('memory_configuration'),d['configuration'].get('idles'),d['configuration'].get('target_dc',d['configuration'].get('required_distance'))],sort_keys=True)
                     groups.setdefault(key,[]).extend(d['frontier'])
             if not groups: raise ValueError('No search-result JSON objects found')
             out={h:frontier(rs) for h,rs in groups.items()}
         else:
-            d=json.loads(path.read_text())
+            d=json.loads(path.read_text(encoding='utf-8'))
             if args.command in ('validate','generate','memory','search'):
                 code=StabilizerCode.from_dict(d)
                 if args.command=='validate': out=dict(**code.metrics(),logicals=[[str(a),str(b)] for a,b in logical_basis(code)])
@@ -53,7 +53,7 @@ def main(argv=None):
                 elif args.command=='memory':
                     from .circuits.memory import MemoryConfig,build_memory
                     from .architectures.candidate import Candidate
-                    candidate=Candidate.from_dict(json.loads(Path(args.candidate).read_text())) if args.candidate else next(generate(code,1))
+                    candidate=Candidate.from_dict(json.loads(Path(args.candidate).read_text(encoding='utf-8'))) if args.candidate else next(generate(code,1))
                     out=build_memory(code,candidate,MemoryConfig(args.rounds,args.basis,args.logical_index,args.noisy_input)).to_dict()
                 elif args.model=='ideal-boundary':
                     if args.max_weight>3: raise ValueError('Legacy ideal-boundary search supports at most weight three')
@@ -69,7 +69,7 @@ def main(argv=None):
                 if args.command=='evaluate': out=resources(circuit)
                 elif args.command=='verify':
                     from .faults.verification import verify_witness
-                    w=json.loads(Path(args.witness).read_text()); out=verify_witness(circuit,w.get('witness',w))
+                    w=json.loads(Path(args.witness).read_text(encoding='utf-8')); out=verify_witness(circuit,w.get('witness',w))
                 elif args.command=='decode':
                     from .decoding.minimum_weight import BoundedMinimumWeightDecoder,decoder_failures
                     ss=signatures(circuit); dec=BoundedMinimumWeightDecoder().fit(ss,args.max_weight,args.max_combinations)
@@ -81,7 +81,7 @@ def main(argv=None):
                         out['independent_verification']=verify_witness(circuit,out['witness'])
         text=json.dumps(out,indent=2)
         if args.output:
-            output=Path(args.output); output.parent.mkdir(parents=True,exist_ok=True); output.write_text(text+'\n')
+            output=Path(args.output); output.parent.mkdir(parents=True,exist_ok=True); output.write_text(text+'\n',encoding='utf-8')
         else: print(text)
     except (ValueError,KeyError,OSError) as exc: parser.error(str(exc))
 

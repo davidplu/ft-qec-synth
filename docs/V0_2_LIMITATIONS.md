@@ -2,7 +2,7 @@
 
 - Repeated extraction uses a specified ideal encoded logical eigenstate, optional local output-preparation noise, noisy ancilla preparation/reset and noisy final physical readout. It does not synthesize or fault-test an encoding/preparation circuit.
 - One logical index and X or Z memory are tested per experiment. k>1 codes require separate runs for all desired indices/bases. The development comparison tests index 0 only.
-- Product-basis destructive readout closes only locally compatible stabilizers. Non-CSS codes can have a weight-one readout ceiling. Such a result is valid for this experiment but does not characterize the code's attainable distance with a richer logical readout circuit.
+- Product-basis destructive readout closes the entire locally compatible stabilizer subgroup, including inferred signed products. Non-CSS codes can have a weight-one readout ceiling. Such a result is valid for this experiment but does not characterize the code's attainable distance with a richer logical readout circuit.
 - Measurement noise is classical readout flipping; separate quantum measurement backaction faults are not included. Noise is adversarial location-weighted Pauli enumeration, not a calibrated stochastic LER model.
 - Logical decoder recovery is a detector-to-logical correction interface, not a synthesized physical correction circuit. Minimum weights are certified only through completely enumerated training layers. Unseen/partially covered signatures remain unresolved.
 - Searches are exact when completed. Hash searches cover weights 1–3; direct signature-combination enumeration covers tractable weights 4–6. Work limits never certify partial layers. Above the cutoff, no claim is made.

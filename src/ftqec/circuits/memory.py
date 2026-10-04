@@ -3,6 +3,7 @@ from dataclasses import dataclass, asdict, replace
 from .model import Circuit
 from .extraction import build
 from ..codes.logicals import logical_basis
+from .readout import compatible_products
 
 
 @dataclass(frozen=True)
@@ -26,10 +27,12 @@ def build_memory(code, candidate, config=MemoryConfig()):
     axes = [p if p != 'I' else config.basis for p in str(logical)] if logical else [config.basis] * code.n
     compatible = [i for i, p in enumerate(code.generators)
                   if all(a == 'I' or a == b for a, b in zip(str(p), axes))]
+    products = compatible_products(code, axes)
     c = Circuit(code, base.syndrome_qubits, base.flag_qubits,
                 boundary_model='repeated_noisy_memory',
                 experiment={**asdict(config), 'logical_pauli': str(logical) if logical else None,
                             'readout_axes': axes, 'final_compatible_checks': compatible,
+                            'final_compatible_products': products,
                             'input_boundary': 'ideal_encoded_eigenstate_with_optional_local_preparation_noise'})
     if config.noisy_input:
         for q in range(code.n):
@@ -57,9 +60,11 @@ def build_memory(code, candidate, config=MemoryConfig()):
         if axis in ('X', 'Y'):
             deps = (c.add('H', [q], deps, round_index=config.rounds, role='final_basis_change'),)
         c.add('M', [q], deps, record=f'd{q}', round_index=config.rounds, role='final_data_readout')
-    for i in compatible:
-        support = [f'd{q}' for q, p in enumerate(str(code.generators[i])) if p != 'I']
-        c.detectors.append([f's{i}:r{config.rounds-1}'] + support)
+    c.detector_offsets = [0]*len(c.detectors)
+    for product in products:
+        support = [f'd{q}' for q, p in enumerate(product['pauli']) if p != 'I']
+        c.detectors.append([f's{i}:r{config.rounds-1}' for i in product['check_indices']] + support)
+        c.detector_offsets.append(product['reference_parity'])
     if logical:
         c.observables.append([f'd{q}' for q, p in enumerate(str(logical)) if p != 'I'])
     c.validate()

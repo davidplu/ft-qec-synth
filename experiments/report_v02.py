@@ -13,17 +13,17 @@ from ftqec.faults.verification import verify_witness
 def main():
     root = Path(__file__).resolve().parents[1]
     out = root / 'results/v0.2'
-    protocol = json.loads((out/'protocol.json').read_text())
-    aggregate = json.loads((out/'aggregate.json').read_text())
-    paired = json.loads((out/'paired_comparisons.json').read_text())
-    repairs = json.loads((out/'repair_statistics.json').read_text())
-    performance = json.loads((out/'performance.json').read_text())
-    verification = json.loads((out/'verification.json').read_text())
-    validator = jsonschema.Draft202012Validator(json.loads((root/'docs/schemas/result-v0.2.schema.json').read_text()))
+    protocol = json.loads((out/'protocol.json').read_text(encoding='utf-8'))
+    aggregate = json.loads((out/'aggregate.json').read_text(encoding='utf-8'))
+    paired = json.loads((out/'paired_comparisons.json').read_text(encoding='utf-8'))
+    repairs = json.loads((out/'repair_statistics.json').read_text(encoding='utf-8'))
+    performance = json.loads((out/'performance.json').read_text(encoding='utf-8'))
+    verification = json.loads((out/'verification.json').read_text(encoding='utf-8'))
+    validator = jsonschema.Draft202012Validator(json.loads((root/'docs/schemas/result-v0.2.schema.json').read_text(encoding='utf-8')))
     runs = []; replayed = 0; successful = []; eliminated_only = []; target_records = []
     local_counts = defaultdict(int); initial_only = True
     for file in sorted((out/'raw').glob('*.json')):
-        run = json.loads(file.read_text()); validator.validate(run)
+        run = json.loads(file.read_text(encoding='utf-8')); validator.validate(run)
         assert run['evaluation_slots'] == protocol['evaluation_budget']
         assert run['mutation_count'] == protocol['mutation_count']
         code = StabilizerCode.from_dict(run['code']); memory = MemoryConfig(**run['memory_configuration'])
@@ -97,7 +97,7 @@ def main():
     rows = ['# V0.2 research results', '', '**NOT_READY_FOR_HELD_OUT.** The repeated-memory implementation and independent checks pass, but this pilot does not support the claim that CEGIS reaches stronger architectures more efficiently than unguided search.', '',
             '## Baseline and exact changes', '',
             'V0.1 delivered source was not a Git repository. It was preserved as baseline commit `0291500da4c5977a093988f918c8baf8ffdf867e`; development uses branch `development/v0.2`. Packaging/serialization fixes were committed separately, with 34 passing baseline tests and zero skips. The original algebra, gadgets, candidates, scheduler and search were extended rather than replaced.', '',
-            'V0.2 adds repeated rounds and temporal detector closures; destructive X/Z logical memory readout; separate bounded minimum-weight decoder metrics; round/check/location metadata; backward packed transfer maps; independently replayed witnesses; structural analysis and generic repairs; mutation provenance; matched ablations; JSON-native public objects and mandatory complete dev dependencies. V0.1 ideal-boundary mode remains explicitly selectable.', '',
+            'V0.2 adds repeated rounds, temporal detectors and phase-correct compatible-stabilizer-subgroup readout closure; destructive X/Z logical memory readout; separate bounded minimum-weight decoder metrics; round/check/location metadata; backward packed transfer maps; independently replayed witnesses; structural analysis and generic repairs; mutation provenance; matched ablations; JSON-native public objects and mandatory complete dev dependencies. V0.1 ideal-boundary mode remains explicitly selectable.', '',
             '## Frozen protocol', '',
             f"Development inputs: css4, noncss4, perfect5 and Steane. Both X/Z memory at logical index 0; R={protocol['rounds']}; ideal encoded input; noisy ancilla resets, gates and readouts; physical terminal product readout; implicit idles and optional input noise disabled in this pilot. Maximum physical fault weight 3; {protocol['max_combinations']} work entries per search; target d_c >= 3.", '',
             f"Seeds {protocol['seeds']}; four strategies; six identical initial candidates; {protocol['evaluation_budget']} slots and {protocol['mutation_count']} mutation proposals per run. Duplicates consume slots with a common cache policy. {protocol['total_runs']} runs, {protocol['total_evaluation_slots']} slots, {protocol['total_wall_seconds']:.3f} summed wall seconds. Time is measured, not equalized. Exact model and limitations are in `FAULT_MODEL.md` and `V0_2_LIMITATIONS.md`.", '',

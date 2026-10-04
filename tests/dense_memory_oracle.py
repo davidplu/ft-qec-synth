@@ -59,7 +59,8 @@ def dense_run(c,faults=(),seed=0):
         for f in at:
             if not f.before and f.kind!='measurement': inject(f)
     for f in events.get(len(c.operations),[]): inject(f)
-    detectors=sum((sum(records[r] for r in d)&1)<<i for i,d in enumerate(c.detectors))
+    offsets=c.detector_offsets or [0]*len(c.detectors)
+    detectors=sum(((sum(records[r] for r in d)&1)^offsets[i])<<i for i,d in enumerate(c.detectors))
     logical=sum((sum(records[r] for r in o)&1)<<i for i,o in enumerate(c.observables))
     flags=sum(records[r]<<i for i,r in enumerate(sorted(r for r in records if r.startswith('f'))))
     return detectors,logical,flags

@@ -199,3 +199,35 @@ def test_dense_encoded_input_output_noise():
     c=simple(noisy_input=True)
     fault=next(s for s in signatures(c) if s.fault.kind=='preparation' and s.fault.qubits==(0,) and s.fault.label=='X')
     assert dense_run(c,[fault.fault],3)==(fault.detectors,fault.logical,fault.flags)
+
+
+def test_final_boundary_includes_compatible_generator_products():
+    # Equivalent CSS subspace presented with mixed generators; no supplied Z check.
+    code=StabilizerCode.from_dict({'generators':['YYYY','XXXX']})
+    c=build_memory(code,next(generate(code,1)),MemoryConfig(2,'Z'))
+    assert c.experiment['final_compatible_checks']==[]
+    assert c.experiment['final_compatible_products']==[{'check_indices':[0,1],'pauli':'ZZZZ','reference_parity':0}]
+    assert dense_run(c,seed=7)==(0,0,0)
+    fault=next(s for s in signatures(c) if s.fault.role=='final_data_readout' and s.fault.qubits==(0,))
+    assert fault.detectors!=0
+    assert dense_run(c,[fault.fault],7)==(fault.detectors,fault.logical,fault.flags)
+    assert signatures(c)==signatures(c,backend='forward')
+
+def test_signed_final_product_has_correct_ideal_reference():
+    # (+XX)(+YY) = -ZZ. The last data parity is one without a fault.
+    code=StabilizerCode.from_dict({'generators':['XXI','YYI']})
+    c=build_memory(code,next(generate(code,1)),MemoryConfig(2,'Z'))
+    assert c.experiment['final_compatible_products']==[{'check_indices':[0,1],'pauli':'ZZI','reference_parity':1}]
+    assert c.detector_offsets[-1]==1
+    assert dense_run(c,seed=9)==(0,0,0)
+    assert replay(c,[])['detector_outcomes']==0
+    for f in signatures(c)[-3:]:
+        assert dense_run(c,[f.fault],9)==(f.detectors,f.logical,f.flags)
+    assert Circuit.from_dict(c.to_dict()).detector_offsets==c.detector_offsets
+
+
+def test_product_closure_is_invariant_to_css_generating_basis():
+    from ftqec.circuits.readout import compatible_products
+    a=StabilizerCode.from_dict({'generators':['XXXX','ZZZZ']})
+    b=StabilizerCode.from_dict({'generators':['YYYY','XXXX']})
+    assert [p['pauli'] for p in compatible_products(a,['Z']*4)]==[p['pauli'] for p in compatible_products(b,['Z']*4)]

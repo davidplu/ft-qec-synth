@@ -9,7 +9,7 @@ def main():
     args=p.parse_args(); root=Path(__file__).resolve().parents[1]; out=root/'results/development'; out.mkdir(parents=True,exist_ok=True)
     profiler=cProfile.Profile(); profiler.enable(); summary=[]
     for file in sorted((root/'benchmarks/development').glob('*.json')):
-        code=StabilizerCode.from_dict(json.loads(file.read_text()))
+        code=StabilizerCode.from_dict(json.loads(file.read_text(encoding='utf-8')))
         result=search(code,args.budget,seed=20261003,max_weight=args.max_weight,max_combinations=500000)
         (out/(file.stem+'.json')).write_text(json.dumps(result,indent=2)+'\n')
         summary.append(dict(code=code.name,candidates=result['candidates_evaluated'],rejections=result['rejections'],

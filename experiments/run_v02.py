@@ -15,7 +15,7 @@ from ftqec.faults.signatures import signatures
 
 
 def dump(path, value):
-    path.write_text(json.dumps(value, indent=2) + '\n')
+    path.write_text(json.dumps(value, indent=2) + '\n', encoding='utf-8')
 
 
 def aggregate(runs):
@@ -65,7 +65,7 @@ def main():
     out = root / 'results/v0.2'; raw = out / 'raw'; raw.mkdir(parents=True, exist_ok=True)
     runs = []; progress = []; profiler = cProfile.Profile()
     for name in ('css4', 'noncss4', 'perfect5', 'steane'):
-        code = StabilizerCode.from_dict(json.loads((root/f'benchmarks/development/{name}.json').read_text()))
+        code = StabilizerCode.from_dict(json.loads((root/f'benchmarks/development/{name}.json').read_text(encoding='utf-8')))
         for basis in ('X', 'Z'):
             for seed in args.seeds:
                 initial_ids = None
@@ -103,7 +103,7 @@ def main():
                                'cegis_evaluations_to_target':pair['cegis']['evaluations_to_target_dc']})
     dump(out/'paired_comparisons.json', paired)
     timings = []
-    code = StabilizerCode.from_dict(json.loads((root/'benchmarks/development/steane.json').read_text()))
+    code = StabilizerCode.from_dict(json.loads((root/'benchmarks/development/steane.json').read_text(encoding='utf-8')))
     for candidate in generate(code, 3, 11):
         circuit = build_memory(code,candidate,MemoryConfig(args.rounds))
         before_times=[]; after_times=[]

@@ -103,7 +103,7 @@ Three repeated-round Steane circuits were profiled using both the original forwa
 
 The final profile now spreads cost over signature enumeration, JSON/dataclass serialization, IR validation and search bookkeeping. Packed suffix maps remove the demonstrated repeated-propagation bottleneck. High-weight scaling and larger-code throughput remain unmeasured; no held-out execution is used to support a performance claim.
 
-Full suite: 70 passed, 0 failures, 0 skips. All 96 raw runs validate against the native V0.2 schema, and all 2281 reported witness instances replay independently from rebuilt serialized circuits. Dense-state tests cover repeated CSS/non-CSS semantics, actual measurement/reset outcomes, flags, preparation-output noise and both logical memory bases. Full editable installation and CLI paths are tested without manually setting PYTHONPATH.
+Full suite: 71 passed, 0 failures, 0 skips. All 96 raw runs validate against the native V0.2 schema, and all 2281 reported witness instances replay independently from rebuilt serialized circuits. Dense-state tests cover repeated CSS/non-CSS semantics, actual measurement/reset outcomes, flags, preparation-output noise and both logical memory bases. Full editable installation and CLI paths are tested without manually setting PYTHONPATH.
 
 ## Held-out readiness gate
 

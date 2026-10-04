@@ -133,6 +133,15 @@
     },
     "experiment": {
       "type": "object"
+    },
+    "detector_offsets": {
+      "type": "array",
+      "items": {
+        "enum": [
+          0,
+          1
+        ]
+      }
     }
   }
 }
