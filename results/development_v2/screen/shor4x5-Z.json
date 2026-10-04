@@ -1,0 +1,1726 @@
+{
+  "name": "shor4x5",
+  "task": "shor4x5-Z",
+  "basis": "Z",
+  "code_path": "benchmarks/development_v2/pool/shor4x5.json",
+  "family": "rectangular_shor",
+  "shared_parent": null,
+  "n": 20,
+  "k": 1,
+  "css": true,
+  "distance_certificate": {
+    "status": "EXACT",
+    "distance": 4,
+    "witness": "ZIIIIZIIIIZIIIIZIIII",
+    "patterns": 78315,
+    "construction_distance": 4
+  },
+  "boundary": {
+    "status": "EXACT_TERMINAL_ONLY",
+    "distance": 5,
+    "lower_bound": 5,
+    "upper_bound": 5,
+    "witness": {
+      "fault_count": 5,
+      "faults": [
+        {
+          "operation": 420,
+          "qubits": [
+            0
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:420",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 421,
+          "qubits": [
+            1
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:421",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 422,
+          "qubits": [
+            2
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:422",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 423,
+          "qubits": [
+            3
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:423",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 424,
+          "qubits": [
+            4
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:424",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        }
+      ],
+      "checks": [],
+      "relation": "unassigned",
+      "hook_support": [],
+      "flags_fired": false,
+      "flag_information_cancelled": false,
+      "logical_coset": 1,
+      "detector_outcomes": 0,
+      "flag_outcomes": 0,
+      "final_data_pauli": "IIIIIIIIIIIIIIIIIIII"
+    },
+    "subsets": 6196,
+    "seconds": 0.0365746000315994,
+    "method": "physical singleton replay plus exhaustive classical terminal-flip supports",
+    "full_circuit_lower_bound": false,
+    "axes": [
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z"
+    ]
+  },
+  "classification": "OPEN_HEADROOM",
+  "difficulty": "CERTIFICATION_TIER_LIMITED",
+  "d_initial": 3,
+  "d_target": 4,
+  "initial_target_frequency": 0.0,
+  "calibration_runs": [
+    {
+      "seed": 0,
+      "initial_ids": [
+        "748530d3043f3c82435c",
+        "7a12af0eec53f0e6749a",
+        "648f7b6662a31491a77c",
+        "de37fde9e00824adbf94",
+        "076c71f9f194f37b4b64",
+        "1f01ee2d327fd4798293"
+      ],
+      "bounds": [
+        {
+          "status": "EXACT",
+          "lower_bound": 1,
+          "upper_bound": 1,
+          "excluded_through": 0,
+          "witness": {
+            "fault_count": 1,
+            "faults": [
+              {
+                "operation": 103,
+                "qubits": [
+                  20,
+                  4
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:103",
+                "before": false,
+                "round_index": 0,
+                "check": 16,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 4
+              }
+            ],
+            "checks": [
+              16
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIXXXXXIIIIIIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 710,
+          "fault_locations": 434,
+          "fault_variants": 3380,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 41,
+                "qubits": [
+                  21,
+                  16
+                ],
+                "label": "IX",
+                "kind": "cz",
+                "location": "op:41",
+                "before": false,
+                "round_index": 0,
+                "check": 13,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 0
+              },
+              {
+                "operation": 152,
+                "qubits": [
+                  22,
+                  19
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:152",
+                "before": false,
+                "round_index": 0,
+                "check": 18,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 3
+              }
+            ],
+            "checks": [
+              13,
+              18
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIIIIIIXXXXXIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 163639,
+          "fault_locations": 674,
+          "fault_variants": 5420,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 2,
+          "upper_bound": null,
+          "excluded_through": 1,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 710,
+          "fault_variants": 5726,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 6,
+                "qubits": [
+                  20,
+                  6
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:6",
+                "before": false,
+                "round_index": 0,
+                "check": 17,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 3
+              },
+              {
+                "operation": 11,
+                "qubits": [
+                  20,
+                  11
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:11",
+                "before": false,
+                "round_index": 0,
+                "check": 17,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 8
+              }
+            ],
+            "checks": [
+              17
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIIIIIIXXXXXIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 155390,
+          "fault_locations": 638,
+          "fault_variants": 5114,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 58,
+                "qubits": [
+                  20,
+                  12
+                ],
+                "label": "IX",
+                "kind": "cz",
+                "location": "op:58",
+                "before": false,
+                "round_index": 0,
+                "check": 10,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              },
+              {
+                "operation": 70,
+                "qubits": [
+                  23,
+                  17
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:70",
+                "before": false,
+                "round_index": 0,
+                "check": 18,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 5
+              }
+            ],
+            "checks": [
+              10,
+              18
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIIIIIIXXXXXIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 153255,
+          "fault_locations": 650,
+          "fault_variants": 5216,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 2,
+          "upper_bound": null,
+          "excluded_through": 1,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 722,
+          "fault_variants": 5828,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 22,
+            "raw_count": 22,
+            "signature_count": 1,
+            "observed_class_count": 22,
+            "observed_raw_count": 22,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 6,
+            "multiplicities": {
+              "2f907d25824562084d192bb8": 1,
+              "b4be1c1a535636bbea26db7e": 1,
+              "103d65e6c3611981985f8b6b": 1,
+              "94d42918fa26359df49580cd": 1,
+              "7927f085c6ec30edd3e01db1": 1,
+              "67866e438f6a786ee7fb9789": 1,
+              "a0f7a7a7a19a0090934991f2": 1,
+              "5444f95cab637be6c5844894": 1,
+              "e0c8f1596b42b1138cd29f3d": 1,
+              "92b9edf0191b183fe8153cd5": 1,
+              "61746eaf9c6012db72886081": 1,
+              "32dc9da03e6089f584cd064a": 1,
+              "a6319cccfea936bc1df15452": 1,
+              "67f941e26fd04209c37f11d7": 1,
+              "d3829524c8e01fa2a1815037": 1,
+              "04f05b2ea30da852b6af262f": 1,
+              "8c19fb1a3059249395f5cd70": 1,
+              "5e569f5a596664aed2c85431": 1,
+              "d87b919885d9610fc4b4edf7": 1,
+              "4e3acc8f4cfc60beaeaec0c1": 1,
+              "125fc9f3894cda936dbd6424": 1,
+              "0a3da4df21b2194eafd6e04b": 1
+            }
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 70,
+            "raw_count": 70,
+            "signature_count": 1,
+            "observed_class_count": 70,
+            "observed_raw_count": 70,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 4,
+            "multiplicities": {
+              "dbcadc16f92dc7ca36ec287a": 1,
+              "dc9f06a38bdc3e036e9d53d2": 1,
+              "705409311cec4909cb3f4f6e": 1,
+              "56266b4148a79a4033a37dbc": 1,
+              "3be1f457d919a401e8dffe55": 1,
+              "b2238d85b047fdb0a4470ffd": 1,
+              "0985866dc426e81051454293": 1,
+              "97a7f2b551c2effdbe866081": 1,
+              "aeac577d878d682dc3e3d936": 1,
+              "2638f4bc10659a5272ab0150": 1,
+              "88c674b10604cb3232ffa7c2": 1,
+              "68c971238451231e4151d788": 1,
+              "3ad47803077755e3f0276455": 1,
+              "d724fe0afd8048b8b9362be2": 1,
+              "0ed2b54abc77b04a0de02c9c": 1,
+              "95911e2fd10bc06ee94a781b": 1,
+              "ca491e0cae400324e6c03b8a": 1,
+              "d84333064a735118c9d2ec1e": 1,
+              "a592c05a4aff741228abbf21": 1,
+              "950ab3a1b057d070e5676caf": 1,
+              "9e5bc700058906ecb5f8d364": 1,
+              "b673fc7da352bded6643488a": 1,
+              "b63d299243968d0eef6f5e94": 1,
+              "e936b203e14aac183527df60": 1,
+              "4ee49992d21a9935292c2565": 1,
+              "17a465c3bf3c759014669d88": 1,
+              "95b315b9140a12a4d0b8237c": 1,
+              "3ad06b0e06add2465bcacc71": 1,
+              "9341321d3754ce530f19f1b1": 1,
+              "850c066ed22855de87bee5e5": 1,
+              "7b697ee23030b9d0d4f84505": 1,
+              "b7f28616e6c506b64ffba213": 1,
+              "dd052488f76dc980295d12bb": 1,
+              "9f1d3a6bc5712152d90d4f44": 1,
+              "9eed5bebfacfe873e8041208": 1,
+              "d0a4932ba0a9d3860fab22d0": 1,
+              "de94110cf6d929f045c8ca0f": 1,
+              "2376f3306b678627ea6a8849": 1,
+              "d9b8e05b6f18088f86a3ac2d": 1,
+              "fb5cc4b51710e0a286b13021": 1,
+              "29c5803094b9ec5e01d0c4a8": 1,
+              "bc32a798584c5f84b331cb7a": 1,
+              "edb7366e97c71fc3952f0047": 1,
+              "210c06da6401d562a299cc1d": 1,
+              "693891c3125ceccb8e89f2ea": 1,
+              "9aa176e5d3f92d41f77dabd7": 1,
+              "34169ca8d34e670ea52faaa6": 1,
+              "5b9b76a7376d187ba31cf6e1": 1,
+              "aae2cc024c7d1454bf8891e4": 1,
+              "c1a459aeaafaaa91ea69691c": 1,
+              "0aea696a306aabf61412a973": 1,
+              "85a8d07071330498e4b96665": 1,
+              "cf3234a79da8abf3e0143656": 1,
+              "a922f8cda529c54810510a1b": 1,
+              "5f00c234456e559185d5ac4f": 1,
+              "df6301a3333c51c557e487f6": 1,
+              "94caac8db075f73b7b26f243": 1,
+              "21e302925562b0897f56479c": 1,
+              "c02f914b29f9b3f08d459c02": 1,
+              "8d9de5fcef289d5cbd808f1b": 1,
+              "417ffaa7776245265d61474b": 1,
+              "dc9fa4d231f70d7133ee8e9c": 1,
+              "f3fdd76f18271c548aaee527": 1,
+              "42765847b4471d1759102a17": 1,
+              "ba36cfa84dc5f01b8cca4a3a": 1,
+              "322ba93f484810c32f8d3ef7": 1,
+              "c680127a2c83865a17a14819": 1,
+              "3a6899ca992873615ef48444": 1,
+              "b60de7e67902565688aad5d7": 1,
+              "6031bda35e1cd2d5f67f703a": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 60,
+            "raw_count": 84,
+            "signature_count": 1,
+            "observed_class_count": 60,
+            "observed_raw_count": 84,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 3,
+            "multiplicities": {
+              "efc9840c7caa130829b247f7": 1,
+              "0133ae1fe243cea6e3e225b8": 2,
+              "f96e6b407f378905ada6df28": 1,
+              "0a14a2b2ee109af3b729eb59": 1,
+              "7aa57b24f7e7cddc44149244": 2,
+              "f60f8bcb03d19842d9eadc5c": 1,
+              "853ee5839a883668800beba2": 2,
+              "2d57dd45266893d4b082f148": 1,
+              "73d2f18f4c0d360750bfc187": 1,
+              "a76e68289695065418f5f407": 2,
+              "70d4c2945778301c22847765": 1,
+              "34d4b444822c735cdac53e67": 2,
+              "88315cd839a2b9edd2bdf6f9": 2,
+              "4f2d2d8325a64c57759cb7be": 1,
+              "ad7a655aa3f9b843e117a418": 1,
+              "93f4616e8df084d8eda33cc8": 1,
+              "8883562f6e59f77d76ab0a2c": 1,
+              "3354fadbc46609717b2ec56f": 1,
+              "74ea767b0c402c82c641547e": 1,
+              "2eaef49ad391f1e18c9206bc": 2,
+              "704ccae654b47a5464e44637": 2,
+              "7460ebd7bf58f45347d1059a": 1,
+              "8cfe348d4864713fdc191509": 2,
+              "2fdc643dbe22da0efd8de2d9": 1,
+              "b28968d4f71445489cb5ac5f": 1,
+              "dddb6f21b12277cf4734c68d": 2,
+              "b9ecaa8242c79402fef434f4": 1,
+              "11befe83ec5f5881a09cce97": 2,
+              "26175e238a432fa060a42a38": 2,
+              "1c79ce95d59195153481e01d": 2,
+              "613297bc7391022f0645c893": 1,
+              "54d9e98bcaeae115e73efa82": 1,
+              "f3250bf2a8b24532a1103089": 2,
+              "9e35a2d6f95fc0871fad5cea": 1,
+              "ebc670157691ec7cfbd6d9f8": 2,
+              "6492dd14a1c88b5612140ad0": 1,
+              "54af1e308197d0b5287112db": 1,
+              "5d4114c81f14008163977994": 1,
+              "0556013db1496ac1aec56da3": 1,
+              "553ab76402c1374782976b9b": 1,
+              "c763c409b75307e558f5c48b": 1,
+              "4ffe89fa58f14d3ce7f5a590": 2,
+              "7bc8c403cb9d10da1ece7e09": 2,
+              "e319abbd198243cfbb5cb280": 1,
+              "ddc7992c84a82251c430b665": 2,
+              "3b129dcad182b29b6e4b2dd3": 1,
+              "1804881f0249bd3329fb704c": 1,
+              "66b9d0efa5693f3f267b1175": 2,
+              "0b7d2848fe31bde1a27173d7": 1,
+              "09405b7056a1e23ee9767394": 1,
+              "33431fa0827da1fd0aeb27a5": 2,
+              "dd10f73dc9cd29cd5d842dec": 1,
+              "68b3c9a69e208577555ba03c": 2,
+              "1e75f98fe0d4c918bd66310f": 2,
+              "14e6a5fe962b4bae218233f3": 1,
+              "04008050c56d4ba50c7c10a1": 2,
+              "139dacc5e2e4ffb0cd578ece": 1,
+              "e41ab63f57f24ae495abab04": 2,
+              "e93f182650faae799d907ff9": 1,
+              "06259b01df4383c4e1d618e3": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 54,
+            "raw_count": 54,
+            "signature_count": 1,
+            "observed_class_count": 54,
+            "observed_raw_count": 54,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 2,
+            "multiplicities": {
+              "e2f55eaffa8bbea3b91bd77a": 1,
+              "a5e9dd6b5a9f70af5473bede": 1,
+              "ba8efc57291759422672e482": 1,
+              "95f86d8459b0a114332dc268": 1,
+              "b6d3b12b97ecfb6416e49baf": 1,
+              "99757425b75219f5123a2ddb": 1,
+              "17f5f1d1c336efb2fa28d466": 1,
+              "19cb444d8f561c423f886281": 1,
+              "613669b859a0ff9fb9f045f5": 1,
+              "52682f46c6f1fb3957854a88": 1,
+              "2c39f1254b090415593dfe02": 1,
+              "ec3ea66a38844ae97c484c6e": 1,
+              "acb717d4b24754ea49cb61da": 1,
+              "23dbe8fb1a8094dfaed50c01": 1,
+              "03a84d00bf9ed53ccad7d73f": 1,
+              "1d28bb10b4d8aedbab38a7f3": 1,
+              "dcdd526a80c3e666e3cf15cd": 1,
+              "a3c5ff388c70ab3adb5ad8d1": 1,
+              "02bd8e18d8221ff7a0d0f90b": 1,
+              "3a3359d9db4734dcd7d83986": 1,
+              "e6bbcab6105b2b84106becf0": 1,
+              "a89037fc0bf8614e33ccb6fb": 1,
+              "455703c51c8ed9bb89ccc43a": 1,
+              "244e9f52a5717d8dac1ea669": 1,
+              "4256f999d1d13ab3baae5127": 1,
+              "97bc3878e4bd2cb1a6f8c56c": 1,
+              "a1bb660b7edf3fde306c4a0b": 1,
+              "2a7bf09b6bae74e1db58e90e": 1,
+              "161eff3d4eb85c3bcd922162": 1,
+              "e8231b4e160fbdc81c386fd2": 1,
+              "dbba2c6bddbaa397740e26df": 1,
+              "82bedac6e7dca047437c59bf": 1,
+              "dee69d0bafca8376e6df807d": 1,
+              "3a0a04134b88f1de457f4edc": 1,
+              "00f39a14a68c6f40c965d2bb": 1,
+              "365f710cad33bd792c3e3ebe": 1,
+              "81709dd80e0268398476e78a": 1,
+              "35866a34d4b6129b3b2e145c": 1,
+              "2642f70894f8c59dedc632d8": 1,
+              "bbc96e4e218d3ff8387a4c9d": 1,
+              "cfabe26abb0cb38b8e4733ad": 1,
+              "cd195e91348d2c7f73dad236": 1,
+              "11ca650edbb937365c19fdb9": 1,
+              "79b20e652c37fcbaca6ecfda": 1,
+              "4b9750d68f531486528922eb": 1,
+              "8bf4c6cb708f9b035a35e1a3": 1,
+              "b5d814c68167a55827d455ce": 1,
+              "9e86e444e4be464a29462263": 1,
+              "1ee3001130c19b6b2e797667": 1,
+              "57b619e27c7450d1a902a591": 1,
+              "2d4d9915dce9997fb40d1619": 1,
+              "c946540300f57c92750f61db": 1,
+              "f4049fef6ce967bb329c8b60": 1,
+              "78558483a573e3cddcc10203": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        }
+      ],
+      "seconds": 4.179383100010455,
+      "best_dc": 2
+    },
+    {
+      "seed": 1,
+      "initial_ids": [
+        "748530d3043f3c82435c",
+        "b3ba5d677997d9c9c90a",
+        "48c18647017ab515d3ec",
+        "6f9babc1d3f6291ac9af",
+        "1079adff3a99201c30a5",
+        "0f9e29dc94c90742dd77"
+      ],
+      "bounds": [
+        {
+          "status": "EXACT",
+          "lower_bound": 1,
+          "upper_bound": 1,
+          "excluded_through": 0,
+          "witness": {
+            "fault_count": 1,
+            "faults": [
+              {
+                "operation": 103,
+                "qubits": [
+                  20,
+                  4
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:103",
+                "before": false,
+                "round_index": 0,
+                "check": 16,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 4
+              }
+            ],
+            "checks": [
+              16
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIXXXXXIIIIIIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 710,
+          "fault_locations": 434,
+          "fault_variants": 3380,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 2,
+          "upper_bound": null,
+          "excluded_through": 1,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 734,
+          "fault_variants": 5930,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 662,
+          "fault_variants": 5318,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 662,
+          "fault_variants": 5318,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 33,
+                "qubits": [
+                  22,
+                  18
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:33",
+                "before": false,
+                "round_index": 0,
+                "check": 18,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 2
+              },
+              {
+                "operation": 38,
+                "qubits": [
+                  22,
+                  11
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:38",
+                "before": false,
+                "round_index": 0,
+                "check": 18,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 7
+              }
+            ],
+            "checks": [
+              18
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIIIIIIXXXXXIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 139440,
+          "fault_locations": 614,
+          "fault_variants": 4910,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 2,
+          "upper_bound": null,
+          "excluded_through": 1,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 734,
+          "fault_variants": 5930,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 22,
+            "raw_count": 22,
+            "signature_count": 1,
+            "observed_class_count": 22,
+            "observed_raw_count": 22,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 6,
+            "multiplicities": {
+              "2f907d25824562084d192bb8": 1,
+              "b4be1c1a535636bbea26db7e": 1,
+              "103d65e6c3611981985f8b6b": 1,
+              "94d42918fa26359df49580cd": 1,
+              "7927f085c6ec30edd3e01db1": 1,
+              "67866e438f6a786ee7fb9789": 1,
+              "a0f7a7a7a19a0090934991f2": 1,
+              "5444f95cab637be6c5844894": 1,
+              "e0c8f1596b42b1138cd29f3d": 1,
+              "92b9edf0191b183fe8153cd5": 1,
+              "61746eaf9c6012db72886081": 1,
+              "32dc9da03e6089f584cd064a": 1,
+              "a6319cccfea936bc1df15452": 1,
+              "67f941e26fd04209c37f11d7": 1,
+              "d3829524c8e01fa2a1815037": 1,
+              "04f05b2ea30da852b6af262f": 1,
+              "8c19fb1a3059249395f5cd70": 1,
+              "5e569f5a596664aed2c85431": 1,
+              "d87b919885d9610fc4b4edf7": 1,
+              "4e3acc8f4cfc60beaeaec0c1": 1,
+              "125fc9f3894cda936dbd6424": 1,
+              "0a3da4df21b2194eafd6e04b": 1
+            }
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 44,
+            "raw_count": 44,
+            "signature_count": 1,
+            "observed_class_count": 44,
+            "observed_raw_count": 44,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 2,
+            "multiplicities": {
+              "8d97390cb89319f2a1d0c6b1": 1,
+              "ec8ea6ef5e585a4d8b235d68": 1,
+              "54f6bf48d116cc00faf8283d": 1,
+              "8382329faa1876664763bc4e": 1,
+              "36924050f8e521c90effeeb9": 1,
+              "d184af094a55a49b31a1c7d5": 1,
+              "018bab1169799569ee7f6111": 1,
+              "24497c40dc2653f5beb9b162": 1,
+              "80b62716eb25f874675094e7": 1,
+              "532b97fc4edf76ca7cd35f2b": 1,
+              "4262d510ab5d37c5a9ef4994": 1,
+              "e5eb690b6ab25321a442affa": 1,
+              "ab153cd47c0bfab56231baee": 1,
+              "95ecba64df7c2c3cc1eb1141": 1,
+              "32d80ce6e5bb060535fb60f3": 1,
+              "4fde8648701d94a2bc1e2733": 1,
+              "b05b15c751568403703791b4": 1,
+              "f3c99d1f933dd916e845b31c": 1,
+              "937ed254843a45c78d7b11fe": 1,
+              "334a97e2b951efd1cc18c293": 1,
+              "beb2fb20fc734023d366429a": 1,
+              "5d800db903e4bc7fb6e41cae": 1,
+              "414f83f142e30438af03fcc7": 1,
+              "b6c4b5e5ced7d7bcba55d56c": 1,
+              "e2641a039f58336afdf675ff": 1,
+              "eb6d19edb6bead1a71261da9": 1,
+              "f660ce33cb6b5daa330ea61e": 1,
+              "58219cd987c6b4a55e5e5c6e": 1,
+              "d9331663ba08c4abd01ffdee": 1,
+              "c3eb3ad1122ab28629ba3152": 1,
+              "6cfc1f9b1bdc7828a760a20d": 1,
+              "206611d4a40d689c183876bd": 1,
+              "62570b915b109ff6ae63b62c": 1,
+              "983f346690180133e1a0185f": 1,
+              "d59d6fbe876ab9d44f9f8176": 1,
+              "15a9e3d5822a7937b2ce5123": 1,
+              "710a257e9fc8469f39651559": 1,
+              "6ad56c5d4c58c9d92404afbc": 1,
+              "ef4da2c3783404b25c08dff7": 1,
+              "8240517c8fef8f7bb46f6325": 1,
+              "652765df3e75b65ecbd08a9e": 1,
+              "210ceffc8c74a11db22592d6": 1,
+              "fb9adba716b5b3bacbc85378": 1,
+              "720a2c597115d970933e6371": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        }
+      ],
+      "seconds": 3.9014349000062793,
+      "best_dc": 3
+    },
+    {
+      "seed": 2,
+      "initial_ids": [
+        "748530d3043f3c82435c",
+        "b79e4f8f0c490e5b5b6c",
+        "31a4dc643f0726acb908",
+        "88244d9dddc4f5e1a522",
+        "9afa3e058bfa3196efa8",
+        "b623c56a6551b4e43e2f"
+      ],
+      "bounds": [
+        {
+          "status": "EXACT",
+          "lower_bound": 1,
+          "upper_bound": 1,
+          "excluded_through": 0,
+          "witness": {
+            "fault_count": 1,
+            "faults": [
+              {
+                "operation": 103,
+                "qubits": [
+                  20,
+                  4
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:103",
+                "before": false,
+                "round_index": 0,
+                "check": 16,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 4
+              }
+            ],
+            "checks": [
+              16
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIXXXXXIIIIIIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 710,
+          "fault_locations": 434,
+          "fault_variants": 3380,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 2,
+          "upper_bound": null,
+          "excluded_through": 1,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 698,
+          "fault_variants": 5624,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 614,
+          "fault_variants": 4910,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 153,
+                "qubits": [
+                  25,
+                  7
+                ],
+                "label": "IX",
+                "kind": "cz",
+                "location": "op:153",
+                "before": false,
+                "round_index": 0,
+                "check": 5,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 0
+              },
+              {
+                "operation": 178,
+                "qubits": [
+                  21,
+                  8
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:178",
+                "before": false,
+                "round_index": 0,
+                "check": 16,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 3
+              }
+            ],
+            "checks": [
+              5,
+              16
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "XXXXXIIIIIIIIIIIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 149235,
+          "fault_locations": 638,
+          "fault_variants": 5114,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 2,
+          "upper_bound": null,
+          "excluded_through": 1,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 710,
+          "fault_variants": 5726,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 2,
+          "upper_bound": null,
+          "excluded_through": 1,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 698,
+          "fault_variants": 5624,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 22,
+            "raw_count": 22,
+            "signature_count": 1,
+            "observed_class_count": 22,
+            "observed_raw_count": 22,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 6,
+            "multiplicities": {
+              "2f907d25824562084d192bb8": 1,
+              "b4be1c1a535636bbea26db7e": 1,
+              "103d65e6c3611981985f8b6b": 1,
+              "94d42918fa26359df49580cd": 1,
+              "7927f085c6ec30edd3e01db1": 1,
+              "67866e438f6a786ee7fb9789": 1,
+              "a0f7a7a7a19a0090934991f2": 1,
+              "5444f95cab637be6c5844894": 1,
+              "e0c8f1596b42b1138cd29f3d": 1,
+              "92b9edf0191b183fe8153cd5": 1,
+              "61746eaf9c6012db72886081": 1,
+              "32dc9da03e6089f584cd064a": 1,
+              "a6319cccfea936bc1df15452": 1,
+              "67f941e26fd04209c37f11d7": 1,
+              "d3829524c8e01fa2a1815037": 1,
+              "04f05b2ea30da852b6af262f": 1,
+              "8c19fb1a3059249395f5cd70": 1,
+              "5e569f5a596664aed2c85431": 1,
+              "d87b919885d9610fc4b4edf7": 1,
+              "4e3acc8f4cfc60beaeaec0c1": 1,
+              "125fc9f3894cda936dbd6424": 1,
+              "0a3da4df21b2194eafd6e04b": 1
+            }
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 66,
+            "raw_count": 72,
+            "signature_count": 1,
+            "observed_class_count": 66,
+            "observed_raw_count": 72,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 4,
+            "multiplicities": {
+              "849ecf34c48a996d6711d8c9": 1,
+              "9308979012568cc339f9788c": 1,
+              "afa69b2a25bcc09616c47b40": 1,
+              "8c3128c33bfb347c9770786e": 1,
+              "1c60e3fa375bd414f89cf90e": 1,
+              "22a24e709f8bc8be8497fa95": 2,
+              "9d8ec61458f63122e0240288": 1,
+              "305300754db10dbfb1dbee02": 2,
+              "d456a202cb4de0cec119b82a": 1,
+              "9b04fba027d368c6b7d64ba0": 1,
+              "907fe55bb60bbfb841e10823": 1,
+              "3e1a29832240a23908c509db": 1,
+              "6ebd5e11be33ffa3022c9cd3": 2,
+              "d3c0ee1ed7a82b6409712388": 1,
+              "a32f09b12d882e2f7a57592e": 1,
+              "e02eeaa292271ebe52c4221b": 1,
+              "385286bbd85e56318dc226dd": 1,
+              "007ac2b59284d0cdb919f56d": 1,
+              "d139a9f39bc976adf412e517": 1,
+              "1a9a28a87bc2f0ab078e7383": 1,
+              "f53e0e08e3f951be57f1f0a8": 2,
+              "2865d954055e22f116d23871": 1,
+              "ed456ec2f200319e862ac85c": 2,
+              "7a23a85dad4ea92a50adbde6": 1,
+              "7e895d6210d49f0fb5fd62f0": 1,
+              "fd1b6c7fbfe8f2bb411ccf17": 1,
+              "78da5766754536634e647aae": 1,
+              "fbc3389acdd057cf402b7966": 2,
+              "700676e7526cdc59954f02b3": 1,
+              "d21d1e337d7037fc6eb13b9f": 1,
+              "2acef376a508f2385da3f360": 1,
+              "23934067d5c47190b6ba7240": 1,
+              "df50af001db37bb11891d7cd": 1,
+              "7f5f7865d412cb085387f940": 1,
+              "00f27fcc64602e7ae70cc536": 1,
+              "ef3ef0bcb1ec3d920558fa7f": 1,
+              "1cceb2838e7bd635e096947c": 1,
+              "78bceb41186ebab047a33e20": 1,
+              "e17a3d075c164e58576f3b55": 1,
+              "417af3655ec032442c57ce3d": 1,
+              "2c6c9a3e87c0be8a186b0b97": 1,
+              "b4298de2b2a3f2197ead7f8e": 1,
+              "332ab3bffcc1b19c688bd4e9": 1,
+              "734f53ca86681011965ca2f0": 1,
+              "aef9b3a27c682dc2736883aa": 1,
+              "e1483b86bf02475faecd8692": 1,
+              "2b8cc3443a85ebf184a3f7e3": 1,
+              "759834a94fb52745d461beed": 1,
+              "bd201ddd9b98b311d12ea1a9": 1,
+              "7f45ddc032c7c4f95fb75749": 1,
+              "7a615832f51482ad1c38dfd7": 1,
+              "e11542c451b1fe29eab383b6": 1,
+              "16fd9508acaa446e5450cc9a": 1,
+              "af4537f777d7fd6fc26d0a73": 1,
+              "7a9521a8eb3cf0c7161ad1fa": 1,
+              "2618e91a2e62ce6fa8f8128b": 1,
+              "1436eb35e19f5a3f082dc320": 1,
+              "d8a71c69907ed9e871543597": 1,
+              "353037d5d91423e373d39017": 1,
+              "db64cf55db1d014c9b0a5f8b": 1,
+              "126ad1a918a5dd39f8d716a4": 1,
+              "8dd0f8c71acd5323a6fc19f9": 1,
+              "0a0cbaaa24959811491c3a30": 1,
+              "a8cda98fa43285e69fc9dd82": 1,
+              "94323c9c3e1828d8169e4a54": 1,
+              "4988a07327ebb3a8810cd300": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        }
+      ],
+      "seconds": 3.965991900069639,
+      "best_dc": 3
+    }
+  ],
+  "failure_mechanisms": {
+    "SAME_CHECK_HOOK": 218,
+    "INTERACTION_ORDER_HOOK": 134,
+    "CROSS_CHECK_COLLISION": 92,
+    "CROSS_CHECK_OVERLAP": 42,
+    "FINAL_READOUT": 4
+  },
+  "mechanism_sample": "up to 64 evenly spaced structural representatives per architecture"
+}

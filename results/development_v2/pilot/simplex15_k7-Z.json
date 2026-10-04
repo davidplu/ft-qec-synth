@@ -1,0 +1,2628 @@
+{
+  "task": "simplex15_k7-Z",
+  "target": 3,
+  "reachable": true,
+  "status": "CONSTRUCTIVELY_REACHABLE",
+  "fixed_generic_constructions": [
+    {
+      "flags_per_check": 1,
+      "reverse": false,
+      "architecture_id": "a959faf308a375a52501",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 8,
+        "Q": 31,
+        "one_q_gates": 48,
+        "two_q_gates": 240,
+        "measurements": 63,
+        "resets": 48,
+        "preparations": 0,
+        "operation_count": 399,
+        "D": 385,
+        "QD": 11935,
+        "depth_lower_bound": 385,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "fb5454c948bd5fc0efd66d3ec9d6dfa23296186d961f98edf689d69e089db4eb",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 399,
+        "fault_variants": 3951,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.1716239999514073,
+      "fault_search_seconds": 0.08535970002412796,
+      "runtime_seconds": 0.2757235000608489,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 3951,
+        "joined_combinations_checked": 59279,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 1,
+      "reverse": true,
+      "architecture_id": "d090ba89577e05b60cfa",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ],
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 8,
+        "Q": 31,
+        "one_q_gates": 48,
+        "two_q_gates": 240,
+        "measurements": 63,
+        "resets": 48,
+        "preparations": 0,
+        "operation_count": 399,
+        "D": 385,
+        "QD": 11935,
+        "depth_lower_bound": 385,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "fe763ead977c4a61fc2058363af618f53a93ab04a0c3c1b2b8dd145ba4f3de6b",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 399,
+        "fault_variants": 3951,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.21261909999884665,
+      "fault_search_seconds": 0.08789560000877827,
+      "runtime_seconds": 0.3168025999329984,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 3951,
+        "joined_combinations_checked": 59279,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 2,
+      "reverse": false,
+      "architecture_id": "730651b021094f1d1f1c",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 16,
+        "Q": 39,
+        "one_q_gates": 48,
+        "two_q_gates": 288,
+        "measurements": 87,
+        "resets": 72,
+        "preparations": 0,
+        "operation_count": 495,
+        "D": 481,
+        "QD": 18759,
+        "depth_lower_bound": 481,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "273ca624123aef79c8ed0108d88ba6dd2c28904e29c30fe9e87d8ea49717c7fe",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 495,
+        "fault_variants": 4767,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.04967530001886189,
+      "fault_search_seconds": 0.09336769999936223,
+      "runtime_seconds": 0.1661869001109153,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 4767,
+        "joined_combinations_checked": 86179,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 2,
+      "reverse": true,
+      "architecture_id": "45520fbcebcd7715a537",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ],
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 16,
+        "Q": 39,
+        "one_q_gates": 48,
+        "two_q_gates": 288,
+        "measurements": 87,
+        "resets": 72,
+        "preparations": 0,
+        "operation_count": 495,
+        "D": 481,
+        "QD": 18759,
+        "depth_lower_bound": 481,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "f23bf5241d2ea9242417cf4709fa975d7ebb7f9d5a83025a20f3bd4ef6be0958",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 495,
+        "fault_variants": 4767,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.05171709996648133,
+      "fault_search_seconds": 0.08197129995096475,
+      "runtime_seconds": 0.15552489995025098,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 4767,
+        "joined_combinations_checked": 86179,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 3,
+      "reverse": false,
+      "architecture_id": "5b7c0447a5d32a4a5ecd",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 24,
+        "Q": 47,
+        "one_q_gates": 48,
+        "two_q_gates": 336,
+        "measurements": 111,
+        "resets": 96,
+        "preparations": 0,
+        "operation_count": 591,
+        "D": 577,
+        "QD": 27119,
+        "depth_lower_bound": 577,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "abc69465c523fd66dcaf78a9f5ae90cefafa132be686133670768776405f6f2c",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 591,
+        "fault_variants": 5583,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.05413779988884926,
+      "fault_search_seconds": 0.07312880002427846,
+      "runtime_seconds": 0.15098140004556626,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 5583,
+        "joined_combinations_checked": 119263,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 3,
+      "reverse": true,
+      "architecture_id": "567132045bd6468692d5",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ],
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 24,
+        "Q": 47,
+        "one_q_gates": 48,
+        "two_q_gates": 336,
+        "measurements": 111,
+        "resets": 96,
+        "preparations": 0,
+        "operation_count": 591,
+        "D": 577,
+        "QD": 27119,
+        "depth_lower_bound": 577,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "c0a0ff2c97fecb9bc72cc0cb28abc1b4f1ae0caa84bbf68f0cf59d43e2001f85",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 591,
+        "fault_variants": 5583,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.05338039994239807,
+      "fault_search_seconds": 0.0813207000028342,
+      "runtime_seconds": 0.15966800006572157,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 5583,
+        "joined_combinations_checked": 119263,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 4,
+      "reverse": false,
+      "architecture_id": "5f82e0f53ac8ffe5dcb0",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 32,
+        "Q": 55,
+        "one_q_gates": 48,
+        "two_q_gates": 384,
+        "measurements": 135,
+        "resets": 120,
+        "preparations": 0,
+        "operation_count": 687,
+        "D": 673,
+        "QD": 37015,
+        "depth_lower_bound": 673,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "a51168346cd990e9182cac3ab952dd803e3a8b4a79ed94e7f21c9dec01162471",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 687,
+        "fault_variants": 6399,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.06261679995805025,
+      "fault_search_seconds": 0.07522579992655665,
+      "runtime_seconds": 0.16527640004642308,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 6399,
+        "joined_combinations_checked": 157915,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 4,
+      "reverse": true,
+      "architecture_id": "f16944ee6cb2b14ba9bf",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ],
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 32,
+        "Q": 55,
+        "one_q_gates": 48,
+        "two_q_gates": 384,
+        "measurements": 135,
+        "resets": 120,
+        "preparations": 0,
+        "operation_count": 687,
+        "D": 673,
+        "QD": 37015,
+        "depth_lower_bound": 673,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "b8a7a22d24c928c720be3d728ad7220566238ca86e7391435eac148048c0768c",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 687,
+        "fault_variants": 6399,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.06145100004505366,
+      "fault_search_seconds": 0.08980059996247292,
+      "runtime_seconds": 0.1799851000541821,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 6399,
+        "joined_combinations_checked": 157915,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    }
+  ],
+  "matched_unguided_pilots": [
+    {
+      "seed": 6,
+      "strategy": "random",
+      "file": "results/development_v2/pilot/simplex15_k7-Z-seed6-random.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 2,
+        "minimum_witness_weight": 2,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 46,
+            "raw_count": 72,
+            "signature_count": 1,
+            "observed_class_count": 46,
+            "observed_raw_count": 72,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 3,
+            "multiplicities": {
+              "a7cdb5c4150d0b7a39b3d22f": 1,
+              "9ebc235bac6a1effd03fd7b9": 1,
+              "369bf7ead4ca34fafa748702": 2,
+              "2a38e9cda18b4a9d3c1ee544": 2,
+              "465a9245610becc1a36071c9": 1,
+              "4688e17f943cc5d0ae7679d4": 2,
+              "ece1ac648f6ec6465d7a22be": 2,
+              "d61b63a4622d5b84859e3aac": 2,
+              "ac603d1bceae9a03dc12dffd": 1,
+              "92a64a403b28beb78ad5554f": 2,
+              "37ae450bf87bc4c2e8805c40": 1,
+              "34b061b32173e0969e278b8c": 2,
+              "536dacc95ae62582f4928c6d": 1,
+              "e78a3048793d639b5ba8b588": 2,
+              "6d9f864af84bfb6a3849d469": 1,
+              "39ce2b943acd9ba2139c37f3": 1,
+              "7425f1cb2c9317b6cd589009": 2,
+              "4948001584b2639f42a6a73e": 2,
+              "7fc6487c144f87371ea67357": 1,
+              "f3b737294c3f5705d4fbd080": 2,
+              "3a1843a017c82d320e237af9": 2,
+              "7746afb7d5e24e87776a678f": 2,
+              "cf653be2d7396970949b7fcc": 1,
+              "d74e7eb212b26daf41cfb5f0": 1,
+              "f0757a1bfb11ffb6f3d075bc": 2,
+              "3d857c733f71dca26c3e554d": 2,
+              "1af46cfd3b596b043d2f31f0": 1,
+              "28adb980303811226c410bbd": 1,
+              "1c4dca70082e28393e59901c": 2,
+              "6b1e25f86c16245150f3c526": 2,
+              "54bed46298bc4b0c85c01c9c": 1,
+              "8b7ddf8ad803fad6e1e43e30": 2,
+              "e4a1e96cd3c0252205deb6a8": 1,
+              "0cf32199a5ba20d8fd367e11": 1,
+              "bb64dd71e5e75e25ac2f6c84": 2,
+              "b8f91b0628f454076832b5ea": 2,
+              "700ef8465aaa9d6791e38f83": 1,
+              "8960fda9ec4eda95d8aaa4cc": 2,
+              "aba78f9678f6265744407c96": 1,
+              "1f43c4cd8ec711e38f060b36": 2,
+              "da7a2b0a8e77adb3cb94b0bd": 2,
+              "592305415879fb6a240d6893": 2,
+              "171d1acb45c60a923ab7f50e": 2,
+              "c2a1f009c96fed9812c6c9c8": 2,
+              "e545d684d60147d2477664c7": 1,
+              "db99f0a790e835e608f0b225": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 16,
+            "D": 196,
+            "QD": 4624,
+            "two_q_gates": 192
+          },
+          "2": {
+            "Q": 16,
+            "D": 196,
+            "QD": 4624,
+            "two_q_gates": 192
+          }
+        },
+        "target_reached": false,
+        "evaluations_to_target": null,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 24.843085399945267
+    },
+    {
+      "seed": 6,
+      "strategy": "resource",
+      "file": "results/development_v2/pilot/simplex15_k7-Z-seed6-resource.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 2,
+        "minimum_witness_weight": 2,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 79,
+            "raw_count": 120,
+            "signature_count": 1,
+            "observed_class_count": 79,
+            "observed_raw_count": 120,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 7,
+            "multiplicities": {
+              "a7cdb5c4150d0b7a39b3d22f": 1,
+              "9ebc235bac6a1effd03fd7b9": 1,
+              "369bf7ead4ca34fafa748702": 2,
+              "2a38e9cda18b4a9d3c1ee544": 2,
+              "465a9245610becc1a36071c9": 1,
+              "4688e17f943cc5d0ae7679d4": 2,
+              "ece1ac648f6ec6465d7a22be": 2,
+              "d61b63a4622d5b84859e3aac": 2,
+              "ac603d1bceae9a03dc12dffd": 1,
+              "92a64a403b28beb78ad5554f": 2,
+              "37ae450bf87bc4c2e8805c40": 1,
+              "34b061b32173e0969e278b8c": 2,
+              "5244ac317a57008da830b8f3": 1,
+              "824c7c61432c16a8801c4d63": 2,
+              "536dacc95ae62582f4928c6d": 1,
+              "e78a3048793d639b5ba8b588": 2,
+              "46645eab12cfd21fa2d89fda": 1,
+              "fdb35aeb8af3c4fa79cba70b": 1,
+              "fc6fc4bf8335e4e808020230": 2,
+              "5d623e6d650be2994ded22d8": 2,
+              "6d9f864af84bfb6a3849d469": 1,
+              "39ce2b943acd9ba2139c37f3": 1,
+              "7425f1cb2c9317b6cd589009": 2,
+              "4948001584b2639f42a6a73e": 2,
+              "7fc6487c144f87371ea67357": 1,
+              "f3b737294c3f5705d4fbd080": 2,
+              "3a1843a017c82d320e237af9": 2,
+              "7746afb7d5e24e87776a678f": 2,
+              "cf653be2d7396970949b7fcc": 1,
+              "d74e7eb212b26daf41cfb5f0": 1,
+              "f0757a1bfb11ffb6f3d075bc": 2,
+              "3d857c733f71dca26c3e554d": 2,
+              "1af46cfd3b596b043d2f31f0": 1,
+              "28adb980303811226c410bbd": 1,
+              "1c4dca70082e28393e59901c": 2,
+              "6b1e25f86c16245150f3c526": 2,
+              "c9cba76a1c089f8ef1e01c80": 1,
+              "b9a11b2dd2e8c90f4ecf303f": 2,
+              "54bed46298bc4b0c85c01c9c": 1,
+              "8b7ddf8ad803fad6e1e43e30": 2,
+              "569c8bbe8ed9c1c62b98cd4b": 1,
+              "d82bb3c60a19ed31553a210c": 1,
+              "de9ee3bfc77de6cdf71657eb": 2,
+              "b18fa9831d4a24cbff4a2cd0": 2,
+              "e4a1e96cd3c0252205deb6a8": 1,
+              "0cf32199a5ba20d8fd367e11": 1,
+              "bb64dd71e5e75e25ac2f6c84": 2,
+              "b8f91b0628f454076832b5ea": 2,
+              "700ef8465aaa9d6791e38f83": 1,
+              "8960fda9ec4eda95d8aaa4cc": 2,
+              "aba78f9678f6265744407c96": 1,
+              "1f43c4cd8ec711e38f060b36": 2,
+              "da7a2b0a8e77adb3cb94b0bd": 2,
+              "bd68462f622c904c24519378": 2,
+              "592305415879fb6a240d6893": 2,
+              "812f84095000d9a70896c0eb": 2,
+              "171d1acb45c60a923ab7f50e": 2,
+              "d0496fe01cb93442eb513502": 2,
+              "c2a1f009c96fed9812c6c9c8": 2,
+              "b0c9d7fc0f73f085ee96e771": 2,
+              "e545d684d60147d2477664c7": 1,
+              "953517bf3e276a13a8494308": 1,
+              "db99f0a790e835e608f0b225": 1,
+              "0317f88e642e3a71fd7f34af": 1,
+              "9887b9b4dd8e5f73607a0395": 1,
+              "3819eaccb859ba9cf285e1bb": 1,
+              "d312ad3b3b2bfcbe2b74bb8b": 2,
+              "6dbcf271c3d92bde597e8b64": 1,
+              "95841df406e7a17ca9fadb40": 1,
+              "f8a6be4f53f643234fb19e69": 2,
+              "4f7f5d016b38b5db472844ee": 1,
+              "144bb9da35183386d09127ab": 1,
+              "d2895665897ab342fdec2d5d": 2,
+              "f5b1f3bb5869bf9611b5fd59": 1,
+              "82164bd3344aa30041488fca": 1,
+              "1b671d8c9fbd244e64bea2eb": 2,
+              "d0b0a5e546b73373c96ec12a": 1,
+              "07fdc6ac16f2c014848792c3": 1,
+              "362a09c459a4b308405fdc9a": 2
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 16,
+            "D": 196,
+            "QD": 4624,
+            "two_q_gates": 192
+          },
+          "2": {
+            "Q": 16,
+            "D": 196,
+            "QD": 4624,
+            "two_q_gates": 192
+          }
+        },
+        "target_reached": false,
+        "evaluations_to_target": null,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 20.356300099985674
+    },
+    {
+      "seed": 7,
+      "strategy": "random",
+      "file": "results/development_v2/pilot/simplex15_k7-Z-seed7-random.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 2,
+        "minimum_witness_weight": 2,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 86,
+            "raw_count": 96,
+            "signature_count": 1,
+            "observed_class_count": 86,
+            "observed_raw_count": 96,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 5,
+            "multiplicities": {
+              "a7767a4cccf17094b31c5616": 1,
+              "98e08fa2b0e7c63dc9e80ea8": 1,
+              "2524fb9a0dc47f9abefe8d66": 1,
+              "06c217446285aa27c30fb0d8": 1,
+              "d2463815776d6461c1e47dc6": 1,
+              "7218c8352b6c9f6f6c7f167c": 1,
+              "291551d06e419a8979fbac90": 1,
+              "faddc943d46401ee48f70af7": 1,
+              "63afd23eab3c9cd430737723": 1,
+              "74c7879409ddcd83e2c858f7": 1,
+              "5de9e3a7e32d3b8aa7b7a2d2": 1,
+              "485170bda921612b6a3b29f5": 1,
+              "f5c381098bce48ae8269f073": 1,
+              "ee7a87847b24d2a4b4bc64e3": 1,
+              "ede8993132ae7b9fbdcacf6b": 1,
+              "eff6df09c55303e775fc51d6": 1,
+              "f19df239b4536da733c99909": 2,
+              "efc830d1cb7f93a23dd1bbcf": 1,
+              "6c2ce4546418c52cd3fd44d5": 2,
+              "a9ea1b1ecf366c8ef15b9ff4": 2,
+              "3d33ab880a1ae8338aa500d6": 1,
+              "79d8bc91c0671514a2a82b8d": 1,
+              "af54346f7b7f0ffcda3508cb": 1,
+              "737332dfd099670e5fc785af": 1,
+              "ee0410fe7496e784b5e1f4b0": 1,
+              "dce376133b03889796d1303a": 1,
+              "e4571ed74899aa2da2b45567": 1,
+              "7b235f56eed1dc9342186dd4": 1,
+              "6b8527e6b5351e017536f43b": 1,
+              "47606b76dedf4a63b14ae91f": 1,
+              "ab91bdf6068cc146d4415f9e": 1,
+              "9a3b6520ad40e68009141f62": 1,
+              "bfe5c9a2b26aefc703b8da51": 1,
+              "280b9d9990adc327535ebdf2": 1,
+              "50d19f59b0983933b4877a4c": 1,
+              "4b16b2580cc2f6752c2a6f71": 1,
+              "157b00e11a988ef1a8cbf960": 1,
+              "c7e7c6e68396d967617d8c37": 1,
+              "2781ad4e825088aa920f27b2": 2,
+              "09169737b45e3ea571ba7b0b": 1,
+              "d8ffd41fe7c5b7031d917411": 2,
+              "3493024aab3e3697dbf928d4": 2,
+              "d70750733da9f4fec6bb3678": 1,
+              "0d2802d47124245830bc5164": 1,
+              "b78c7903fe01c3eb09e93494": 1,
+              "695817a169061597657b4d1d": 1,
+              "a5094e14b6f438acd5d6ccf1": 1,
+              "b312d8867048fde333d904d4": 1,
+              "3cbb462df42eb3af721bebe1": 1,
+              "1029f97aabcee866a3ce8507": 1,
+              "48669aef74035f02a4ab3fa3": 1,
+              "df175e18bc7411a9ae0fb7aa": 1,
+              "5fe648decf96588bebc3e77e": 1,
+              "eefcebb5f6330715c12b2fe9": 1,
+              "e07afb2f0875fd65fef596c3": 1,
+              "59ac03c4a86b3bee0c16c0d4": 1,
+              "ab1c7cf8a21d4e069cbfbdcd": 1,
+              "40321d24de685d345dd97478": 1,
+              "1e6a7c655aac53c2ee2d7fe2": 1,
+              "bb75a37f4d3de295fa380181": 1,
+              "1b014ab743383e728b8ae3d5": 1,
+              "8c51fcfb251211e8e8323801": 1,
+              "8bde80a2c99ff49f37731b21": 1,
+              "3148bf7caa672b0a99fb1c0e": 1,
+              "1b567760c33f5ea220c29e2b": 1,
+              "5e35411877824d1361b1cf0c": 1,
+              "03838093aa34b3d14883cca0": 1,
+              "f5b07e9e02b90f5249ac410a": 1,
+              "6756ad6ada4ca1da9743df53": 1,
+              "14a66d69c96c1a11b9dce8bf": 1,
+              "f565e70f05787951eb51928b": 1,
+              "ba0cd7178edd5875b7cbecf9": 1,
+              "70de403eb75d1d214b283441": 1,
+              "485695bef75c0ba96e092e3f": 1,
+              "00bfd0d00cc604bda0a95b92": 1,
+              "17f06abf4264773df18d784c": 2,
+              "742e40ba2b85facbc9bdda69": 1,
+              "c6df3bdd91191265b8a9cdf1": 2,
+              "1835e2291cb28edf3c12986c": 2,
+              "121baf34d602d3ec16855c59": 2,
+              "44da7471a454493746324666": 1,
+              "f5c56b51edaa6111764da315": 1,
+              "94767690b43bc77a291eff1c": 1,
+              "ba5acf0c95c116858b6d8e2a": 1,
+              "9c7aac31b1156b8b8d8f8fd3": 1,
+              "0b0b3f2a886a853214b8127e": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 16,
+            "D": 163,
+            "QD": 4075,
+            "two_q_gates": 192
+          },
+          "2": {
+            "Q": 16,
+            "D": 163,
+            "QD": 4075,
+            "two_q_gates": 192
+          }
+        },
+        "target_reached": false,
+        "evaluations_to_target": null,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 20.666182200075127
+    },
+    {
+      "seed": 7,
+      "strategy": "resource",
+      "file": "results/development_v2/pilot/simplex15_k7-Z-seed7-resource.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 2,
+        "minimum_witness_weight": 2,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 86,
+            "raw_count": 96,
+            "signature_count": 1,
+            "observed_class_count": 86,
+            "observed_raw_count": 96,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 5,
+            "multiplicities": {
+              "a7767a4cccf17094b31c5616": 1,
+              "98e08fa2b0e7c63dc9e80ea8": 1,
+              "2524fb9a0dc47f9abefe8d66": 1,
+              "06c217446285aa27c30fb0d8": 1,
+              "d2463815776d6461c1e47dc6": 1,
+              "7218c8352b6c9f6f6c7f167c": 1,
+              "291551d06e419a8979fbac90": 1,
+              "faddc943d46401ee48f70af7": 1,
+              "63afd23eab3c9cd430737723": 1,
+              "74c7879409ddcd83e2c858f7": 1,
+              "5de9e3a7e32d3b8aa7b7a2d2": 1,
+              "485170bda921612b6a3b29f5": 1,
+              "f5c381098bce48ae8269f073": 1,
+              "ee7a87847b24d2a4b4bc64e3": 1,
+              "ede8993132ae7b9fbdcacf6b": 1,
+              "eff6df09c55303e775fc51d6": 1,
+              "f19df239b4536da733c99909": 2,
+              "efc830d1cb7f93a23dd1bbcf": 1,
+              "6c2ce4546418c52cd3fd44d5": 2,
+              "a9ea1b1ecf366c8ef15b9ff4": 2,
+              "3d33ab880a1ae8338aa500d6": 1,
+              "79d8bc91c0671514a2a82b8d": 1,
+              "af54346f7b7f0ffcda3508cb": 1,
+              "737332dfd099670e5fc785af": 1,
+              "ee0410fe7496e784b5e1f4b0": 1,
+              "dce376133b03889796d1303a": 1,
+              "e4571ed74899aa2da2b45567": 1,
+              "7b235f56eed1dc9342186dd4": 1,
+              "6b8527e6b5351e017536f43b": 1,
+              "47606b76dedf4a63b14ae91f": 1,
+              "ab91bdf6068cc146d4415f9e": 1,
+              "9a3b6520ad40e68009141f62": 1,
+              "bfe5c9a2b26aefc703b8da51": 1,
+              "280b9d9990adc327535ebdf2": 1,
+              "50d19f59b0983933b4877a4c": 1,
+              "4b16b2580cc2f6752c2a6f71": 1,
+              "157b00e11a988ef1a8cbf960": 1,
+              "c7e7c6e68396d967617d8c37": 1,
+              "2781ad4e825088aa920f27b2": 2,
+              "09169737b45e3ea571ba7b0b": 1,
+              "d8ffd41fe7c5b7031d917411": 2,
+              "3493024aab3e3697dbf928d4": 2,
+              "d70750733da9f4fec6bb3678": 1,
+              "0d2802d47124245830bc5164": 1,
+              "b78c7903fe01c3eb09e93494": 1,
+              "695817a169061597657b4d1d": 1,
+              "a5094e14b6f438acd5d6ccf1": 1,
+              "b312d8867048fde333d904d4": 1,
+              "3cbb462df42eb3af721bebe1": 1,
+              "1029f97aabcee866a3ce8507": 1,
+              "48669aef74035f02a4ab3fa3": 1,
+              "df175e18bc7411a9ae0fb7aa": 1,
+              "5fe648decf96588bebc3e77e": 1,
+              "eefcebb5f6330715c12b2fe9": 1,
+              "e07afb2f0875fd65fef596c3": 1,
+              "59ac03c4a86b3bee0c16c0d4": 1,
+              "ab1c7cf8a21d4e069cbfbdcd": 1,
+              "40321d24de685d345dd97478": 1,
+              "1e6a7c655aac53c2ee2d7fe2": 1,
+              "bb75a37f4d3de295fa380181": 1,
+              "1b014ab743383e728b8ae3d5": 1,
+              "8c51fcfb251211e8e8323801": 1,
+              "8bde80a2c99ff49f37731b21": 1,
+              "3148bf7caa672b0a99fb1c0e": 1,
+              "1b567760c33f5ea220c29e2b": 1,
+              "5e35411877824d1361b1cf0c": 1,
+              "03838093aa34b3d14883cca0": 1,
+              "f5b07e9e02b90f5249ac410a": 1,
+              "6756ad6ada4ca1da9743df53": 1,
+              "14a66d69c96c1a11b9dce8bf": 1,
+              "f565e70f05787951eb51928b": 1,
+              "ba0cd7178edd5875b7cbecf9": 1,
+              "70de403eb75d1d214b283441": 1,
+              "485695bef75c0ba96e092e3f": 1,
+              "00bfd0d00cc604bda0a95b92": 1,
+              "17f06abf4264773df18d784c": 2,
+              "742e40ba2b85facbc9bdda69": 1,
+              "c6df3bdd91191265b8a9cdf1": 2,
+              "1835e2291cb28edf3c12986c": 2,
+              "121baf34d602d3ec16855c59": 2,
+              "44da7471a454493746324666": 1,
+              "f5c56b51edaa6111764da315": 1,
+              "94767690b43bc77a291eff1c": 1,
+              "ba5acf0c95c116858b6d8e2a": 1,
+              "9c7aac31b1156b8b8d8f8fd3": 1,
+              "0b0b3f2a886a853214b8127e": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 16,
+            "D": 166,
+            "QD": 3154,
+            "two_q_gates": 192
+          },
+          "2": {
+            "Q": 16,
+            "D": 166,
+            "QD": 3154,
+            "two_q_gates": 192
+          }
+        },
+        "target_reached": false,
+        "evaluations_to_target": null,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 11.441852499963716
+    }
+  ],
+  "v03_pilot_runs": 0
+}

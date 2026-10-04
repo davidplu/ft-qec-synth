@@ -1,0 +1,1177 @@
+{
+  "name": "shor3x5",
+  "task": "shor3x5-Z",
+  "basis": "Z",
+  "code_path": "benchmarks/development_v2/pool/shor3x5.json",
+  "family": "rectangular_shor",
+  "shared_parent": null,
+  "n": 15,
+  "k": 1,
+  "css": true,
+  "distance_certificate": {
+    "status": "EXACT",
+    "distance": 3,
+    "witness": "ZIIIIZIIIIZIIII",
+    "patterns": 2367,
+    "construction_distance": 3
+  },
+  "boundary": {
+    "status": "EXACT_TERMINAL_ONLY",
+    "distance": 5,
+    "lower_bound": 5,
+    "upper_bound": 5,
+    "witness": {
+      "fault_count": 5,
+      "faults": [
+        {
+          "operation": 306,
+          "qubits": [
+            0
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:306",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 307,
+          "qubits": [
+            1
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:307",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 308,
+          "qubits": [
+            2
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:308",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 309,
+          "qubits": [
+            3
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:309",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 310,
+          "qubits": [
+            4
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:310",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        }
+      ],
+      "checks": [],
+      "relation": "unassigned",
+      "hook_support": [],
+      "flags_fired": false,
+      "flag_information_cancelled": false,
+      "logical_coset": 1,
+      "detector_outcomes": 0,
+      "flag_outcomes": 0,
+      "final_data_pauli": "IIIIIIIIIIIIIII"
+    },
+    "subsets": 1941,
+    "seconds": 0.020685700001195073,
+    "method": "physical singleton replay plus exhaustive classical terminal-flip supports",
+    "full_circuit_lower_bound": false,
+    "axes": [
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z"
+    ]
+  },
+  "classification": "UNRESOLVED",
+  "difficulty": "TOO_EASY",
+  "d_initial": 3,
+  "d_target": 4,
+  "initial_target_frequency": 0.0,
+  "calibration_runs": [
+    {
+      "seed": 0,
+      "initial_ids": [
+        "57801c746837baa4c472",
+        "8081d936b482fbb45942",
+        "eee5348e479bf445a070",
+        "7279855f79164659b063",
+        "ab8dfe51dfdcb5ab30ee",
+        "951577827245e05f3700"
+      ],
+      "bounds": [
+        {
+          "status": "EXACT",
+          "lower_bound": 1,
+          "upper_bound": 1,
+          "excluded_through": 0,
+          "witness": {
+            "fault_count": 1,
+            "faults": [
+              {
+                "operation": 79,
+                "qubits": [
+                  15,
+                  4
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:79",
+                "before": false,
+                "round_index": 0,
+                "check": 12,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 4
+              }
+            ],
+            "checks": [
+              12
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIXXXXXIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 550,
+          "fault_locations": 315,
+          "fault_variants": 2415,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 471,
+          "fault_variants": 3741,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 459,
+          "fault_variants": 3639,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 459,
+          "fault_variants": 3639,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 483,
+          "fault_variants": 3843,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 459,
+          "fault_variants": 3639,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 15,
+            "raw_count": 15,
+            "signature_count": 1,
+            "observed_class_count": 15,
+            "observed_raw_count": 15,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 4,
+            "multiplicities": {
+              "646ef4c70cf733412d8c469d": 1,
+              "cb093768a936735309a5abc4": 1,
+              "aa42bbc4cabbbb98f3bad73d": 1,
+              "b4dda107e44010eb9a32bcbc": 1,
+              "80aeb064ada300342cb30f56": 1,
+              "e0b91d6a7ae657a90437ae4c": 1,
+              "1ef06fde6f9aaac93a2d8f4f": 1,
+              "5053f6aa4664c239ec4cd248": 1,
+              "9f3188c461995d576c066e2b": 1,
+              "1c6843afb842feb4ae429409": 1,
+              "b95476ad0907779a2cac0124": 1,
+              "a7d2d34d57651effcbe4ea6e": 1,
+              "4c1414e938ca26f0c46548e3": 1,
+              "d8617041fa72c9bfd5d90cd5": 1,
+              "d63ffcbeab45f55e5483588a": 1
+            }
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        }
+      ],
+      "seconds": 3.033562899916433,
+      "best_dc": 3
+    },
+    {
+      "seed": 1,
+      "initial_ids": [
+        "57801c746837baa4c472",
+        "d99cdb6681c7efbf41db",
+        "e21d7bbc09e2117fc154",
+        "3ff176a5dfe47600e699",
+        "a85a824c0757097f7571",
+        "032b44fe9f0311c3d573"
+      ],
+      "bounds": [
+        {
+          "status": "EXACT",
+          "lower_bound": 1,
+          "upper_bound": 1,
+          "excluded_through": 0,
+          "witness": {
+            "fault_count": 1,
+            "faults": [
+              {
+                "operation": 79,
+                "qubits": [
+                  15,
+                  4
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:79",
+                "before": false,
+                "round_index": 0,
+                "check": 12,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 4
+              }
+            ],
+            "checks": [
+              12
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIXXXXXIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 550,
+          "fault_locations": 315,
+          "fault_variants": 2415,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 567,
+          "fault_variants": 4557,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 483,
+          "fault_variants": 3843,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 507,
+          "fault_variants": 4047,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 471,
+          "fault_variants": 3741,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 447,
+          "fault_variants": 3537,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 15,
+            "raw_count": 15,
+            "signature_count": 1,
+            "observed_class_count": 15,
+            "observed_raw_count": 15,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 4,
+            "multiplicities": {
+              "646ef4c70cf733412d8c469d": 1,
+              "cb093768a936735309a5abc4": 1,
+              "aa42bbc4cabbbb98f3bad73d": 1,
+              "b4dda107e44010eb9a32bcbc": 1,
+              "80aeb064ada300342cb30f56": 1,
+              "e0b91d6a7ae657a90437ae4c": 1,
+              "1ef06fde6f9aaac93a2d8f4f": 1,
+              "5053f6aa4664c239ec4cd248": 1,
+              "9f3188c461995d576c066e2b": 1,
+              "1c6843afb842feb4ae429409": 1,
+              "b95476ad0907779a2cac0124": 1,
+              "a7d2d34d57651effcbe4ea6e": 1,
+              "4c1414e938ca26f0c46548e3": 1,
+              "d8617041fa72c9bfd5d90cd5": 1,
+              "d63ffcbeab45f55e5483588a": 1
+            }
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        }
+      ],
+      "seconds": 2.6272967999102548,
+      "best_dc": 3
+    },
+    {
+      "seed": 2,
+      "initial_ids": [
+        "57801c746837baa4c472",
+        "06b37bac0601944bb963",
+        "66e12b20f33ec19fe2cb",
+        "dd66ac9cecf2e7153a34",
+        "84d6b21ce1afb56a5417",
+        "affd57506232c0abfff7"
+      ],
+      "bounds": [
+        {
+          "status": "EXACT",
+          "lower_bound": 1,
+          "upper_bound": 1,
+          "excluded_through": 0,
+          "witness": {
+            "fault_count": 1,
+            "faults": [
+              {
+                "operation": 79,
+                "qubits": [
+                  15,
+                  4
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:79",
+                "before": false,
+                "round_index": 0,
+                "check": 12,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 4
+              }
+            ],
+            "checks": [
+              12
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIXXXXXIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 550,
+          "fault_locations": 315,
+          "fault_variants": 2415,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 507,
+          "fault_variants": 4047,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 483,
+          "fault_variants": 3843,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 351,
+          "fault_variants": 2721,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 459,
+          "fault_variants": 3639,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 459,
+          "fault_variants": 3639,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 15,
+            "raw_count": 15,
+            "signature_count": 1,
+            "observed_class_count": 15,
+            "observed_raw_count": 15,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 4,
+            "multiplicities": {
+              "646ef4c70cf733412d8c469d": 1,
+              "cb093768a936735309a5abc4": 1,
+              "aa42bbc4cabbbb98f3bad73d": 1,
+              "b4dda107e44010eb9a32bcbc": 1,
+              "80aeb064ada300342cb30f56": 1,
+              "e0b91d6a7ae657a90437ae4c": 1,
+              "1ef06fde6f9aaac93a2d8f4f": 1,
+              "5053f6aa4664c239ec4cd248": 1,
+              "9f3188c461995d576c066e2b": 1,
+              "1c6843afb842feb4ae429409": 1,
+              "b95476ad0907779a2cac0124": 1,
+              "a7d2d34d57651effcbe4ea6e": 1,
+              "4c1414e938ca26f0c46548e3": 1,
+              "d8617041fa72c9bfd5d90cd5": 1,
+              "d63ffcbeab45f55e5483588a": 1
+            }
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        }
+      ],
+      "seconds": 2.61123649997171,
+      "best_dc": 3
+    }
+  ],
+  "failure_mechanisms": {
+    "SAME_CHECK_HOOK": 45
+  },
+  "mechanism_sample": "up to 64 evenly spaced structural representatives per architecture"
+}

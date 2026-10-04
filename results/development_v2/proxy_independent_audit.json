@@ -1,0 +1,117 @@
+[
+  {
+    "n": 23,
+    "architecture_id": "d34b239f9a6e43164a2b",
+    "native_bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 746,
+      "fault_variants": 5852,
+      "requested_weight": 3
+    },
+    "independent_exclusion": {
+      "verified": true,
+      "excluded_through": 2,
+      "singleton_replay_count": 5852,
+      "joined_combinations_checked": 241285,
+      "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+    }
+  },
+  {
+    "n": 25,
+    "architecture_id": "f0dbbfdb50d8f9a48111",
+    "native_bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 793,
+      "fault_variants": 6385,
+      "requested_weight": 3
+    },
+    "independent_exclusion": {
+      "verified": false,
+      "counterexample_indices": [
+        42,
+        192
+      ]
+    }
+  },
+  {
+    "n": 25,
+    "architecture_id": "7085301d87aab624acda",
+    "native_bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 841,
+      "fault_variants": 6793,
+      "requested_weight": 3
+    },
+    "independent_exclusion": {
+      "verified": true,
+      "excluded_through": 2,
+      "singleton_replay_count": 6793,
+      "joined_combinations_checked": 290057,
+      "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+    }
+  },
+  {
+    "n": 31,
+    "architecture_id": "d6b4b0ca970f67d1163d",
+    "native_bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 976,
+      "fault_variants": 7834,
+      "requested_weight": 3
+    },
+    "independent_exclusion": {
+      "verified": true,
+      "excluded_through": 2,
+      "singleton_replay_count": 7834,
+      "joined_combinations_checked": 345286,
+      "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+    }
+  },
+  {
+    "n": 44,
+    "architecture_id": "bffa7e43490a1ab28b05",
+    "native_bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 1508,
+      "fault_variants": 12200,
+      "requested_weight": 3
+    },
+    "independent_exclusion": {
+      "verified": true,
+      "excluded_through": 2,
+      "singleton_replay_count": 12200,
+      "joined_combinations_checked": 835195,
+      "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "n": 15,
+  "generators": [
+    "XZYZYIXIXIXIXIX",
+    "IXXIIXXIIXXIIXX",
+    "IIIXXXXIIIIXXXX",
+    "IIIIIIIXXXXXXXX",
+    "IZZZZIIIIIIIIII",
+    "ZIZZIZIIIIIIIII",
+    "ZZIZIIZIIIIIIII",
+    "IZZIIIIZZIIIIII",
+    "ZIZIIIIZIZIIIII",
+    "ZZIIIIIZIIZIIII",
+    "ZZZZIIIZIIIZIII",
+    "ZIIZIIIZIIIIZII",
+    "IZIZIIIZIIIIIZI",
+    "IIZZIIIZIIIIIIZ"
+  ],
+  "name": "affine15_k1_mixed",
+  "provenance": {
+    "method": "invertible triangular check-basis transform in experiments/development_v2.py",
+    "family": "affine_css",
+    "shared_parent": "affine15_k1",
+    "external_architectures_used": false
+  }
+}

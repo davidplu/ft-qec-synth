@@ -1,0 +1,23 @@
+{
+  "status": "RESERVED_NOT_INSTANTIATED",
+  "inputs_accessed": false,
+  "architectures_searched": false,
+  "development_pool_excluded": true,
+  "reservations": [
+    {
+      "id": "concatenated-five-qubit-two-level",
+      "construction": "generic concatenation of the five-qubit stabilizer code with itself",
+      "validation": "not performed here"
+    },
+    {
+      "id": "periodic-toric-width-five",
+      "construction": "periodic square-grid toric construction, distinct from development open-boundary grids",
+      "validation": "not performed here"
+    },
+    {
+      "id": "quaternary-quadratic-residue",
+      "construction": "separate quaternary quadratic-residue input to be selected and validated before future evaluation",
+      "validation": "uninstantiated; no parameters or distance claimed"
+    }
+  ]
+}

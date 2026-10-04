@@ -1,0 +1,2188 @@
+{
+  "task": "steane7-X",
+  "target": 3,
+  "reachable": true,
+  "status": "CONSTRUCTIVELY_REACHABLE",
+  "fixed_generic_constructions": [
+    {
+      "flags_per_check": 1,
+      "reverse": false,
+      "architecture_id": "c8465bf416c17a9d0d83",
+      "candidate": {
+        "generating_basis": [
+          "IIIXXXX",
+          "IXXIIXX",
+          "XIXIXIX",
+          "IIIZZZZ",
+          "IZZIIZZ",
+          "ZIZIZIZ"
+        ],
+        "orders": [
+          [
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            5,
+            6
+          ],
+          [
+            0,
+            2,
+            4,
+            6
+          ],
+          [
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            5,
+            6
+          ],
+          [
+            0,
+            2,
+            4,
+            6
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "syndrome_budget": 6,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 7,
+        "syndrome_ancillas": 6,
+        "flag_ancillas": 6,
+        "Q": 19,
+        "one_q_gates": 43,
+        "two_q_gates": 108,
+        "measurements": 43,
+        "resets": 36,
+        "preparations": 0,
+        "operation_count": 230,
+        "D": 218,
+        "QD": 4142,
+        "depth_lower_bound": 218,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "daf68691905d109f20a0e34a56749c4041bdfdfa62667b43be9b617451977bc7",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 230,
+        "fault_variants": 1900,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.013260800042189658,
+      "fault_search_seconds": 0.05163789994549006,
+      "runtime_seconds": 0.0720875000115484,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 1900,
+        "joined_combinations_checked": 26055,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 1,
+      "reverse": true,
+      "architecture_id": "9afe5a3cd20810a198f6",
+      "candidate": {
+        "generating_basis": [
+          "IIIXXXX",
+          "IXXIIXX",
+          "XIXIXIX",
+          "IIIZZZZ",
+          "IZZIIZZ",
+          "ZIZIZIZ"
+        ],
+        "orders": [
+          [
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            6,
+            4,
+            2,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "syndrome_budget": 6,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 7,
+        "syndrome_ancillas": 6,
+        "flag_ancillas": 6,
+        "Q": 19,
+        "one_q_gates": 43,
+        "two_q_gates": 108,
+        "measurements": 43,
+        "resets": 36,
+        "preparations": 0,
+        "operation_count": 230,
+        "D": 218,
+        "QD": 4142,
+        "depth_lower_bound": 218,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "a9c6b07b5d471dfaaddf1cb88ef6691e6cd4f3b1f0f043aaa0631b95855f15a5",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 230,
+        "fault_variants": 1900,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.015116800088435411,
+      "fault_search_seconds": 0.052948499913327396,
+      "runtime_seconds": 0.07678090000990778,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 1900,
+        "joined_combinations_checked": 26055,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 2,
+      "reverse": false,
+      "architecture_id": "7c64f4fd8755a84311bd",
+      "candidate": {
+        "generating_basis": [
+          "IIIXXXX",
+          "IXXIIXX",
+          "XIXIXIX",
+          "IIIZZZZ",
+          "IZZIIZZ",
+          "ZIZIZIZ"
+        ],
+        "orders": [
+          [
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            5,
+            6
+          ],
+          [
+            0,
+            2,
+            4,
+            6
+          ],
+          [
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            5,
+            6
+          ],
+          [
+            0,
+            2,
+            4,
+            6
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "syndrome_budget": 6,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 7,
+        "syndrome_ancillas": 6,
+        "flag_ancillas": 12,
+        "Q": 25,
+        "one_q_gates": 43,
+        "two_q_gates": 144,
+        "measurements": 61,
+        "resets": 54,
+        "preparations": 0,
+        "operation_count": 302,
+        "D": 290,
+        "QD": 7250,
+        "depth_lower_bound": 290,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "526b8d598532528ded4e3bd701d27f7750845a1cedfc201c5b6ba374e64059d2",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 302,
+        "fault_variants": 2512,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.016794700059108436,
+      "fault_search_seconds": 0.057188899954780936,
+      "runtime_seconds": 0.08272840001154691,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 2512,
+        "joined_combinations_checked": 41118,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 2,
+      "reverse": true,
+      "architecture_id": "d0f100c4fc08482cae37",
+      "candidate": {
+        "generating_basis": [
+          "IIIXXXX",
+          "IXXIIXX",
+          "XIXIXIX",
+          "IIIZZZZ",
+          "IZZIIZZ",
+          "ZIZIZIZ"
+        ],
+        "orders": [
+          [
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            6,
+            4,
+            2,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "syndrome_budget": 6,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 7,
+        "syndrome_ancillas": 6,
+        "flag_ancillas": 12,
+        "Q": 25,
+        "one_q_gates": 43,
+        "two_q_gates": 144,
+        "measurements": 61,
+        "resets": 54,
+        "preparations": 0,
+        "operation_count": 302,
+        "D": 290,
+        "QD": 7250,
+        "depth_lower_bound": 290,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "fb548fc5a0097f796d19810c8f12aad644acadcf54a4f729ed70ba9a93f7e03f",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 302,
+        "fault_variants": 2512,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.017356000025756657,
+      "fault_search_seconds": 0.06222459999844432,
+      "runtime_seconds": 0.0898528000107035,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 2512,
+        "joined_combinations_checked": 41118,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 3,
+      "reverse": false,
+      "architecture_id": "3f5ed82c6cec84f77388",
+      "candidate": {
+        "generating_basis": [
+          "IIIXXXX",
+          "IXXIIXX",
+          "XIXIXIX",
+          "IIIZZZZ",
+          "IZZIIZZ",
+          "ZIZIZIZ"
+        ],
+        "orders": [
+          [
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            5,
+            6
+          ],
+          [
+            0,
+            2,
+            4,
+            6
+          ],
+          [
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            5,
+            6
+          ],
+          [
+            0,
+            2,
+            4,
+            6
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "syndrome_budget": 6,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 7,
+        "syndrome_ancillas": 6,
+        "flag_ancillas": 18,
+        "Q": 31,
+        "one_q_gates": 43,
+        "two_q_gates": 180,
+        "measurements": 79,
+        "resets": 72,
+        "preparations": 0,
+        "operation_count": 374,
+        "D": 362,
+        "QD": 11222,
+        "depth_lower_bound": 362,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "4acbbf0abe9800e385a22cb56159d0e83dccf32e2c7955e8ee549da4b82313e5",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 374,
+        "fault_variants": 3124,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.021441299933940172,
+      "fault_search_seconds": 0.07802490005269647,
+      "runtime_seconds": 0.11345579999033362,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 3124,
+        "joined_combinations_checked": 59033,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 3,
+      "reverse": true,
+      "architecture_id": "21830142c57b529bfd1f",
+      "candidate": {
+        "generating_basis": [
+          "IIIXXXX",
+          "IXXIIXX",
+          "XIXIXIX",
+          "IIIZZZZ",
+          "IZZIIZZ",
+          "ZIZIZIZ"
+        ],
+        "orders": [
+          [
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            6,
+            4,
+            2,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "syndrome_budget": 6,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 7,
+        "syndrome_ancillas": 6,
+        "flag_ancillas": 18,
+        "Q": 31,
+        "one_q_gates": 43,
+        "two_q_gates": 180,
+        "measurements": 79,
+        "resets": 72,
+        "preparations": 0,
+        "operation_count": 374,
+        "D": 362,
+        "QD": 11222,
+        "depth_lower_bound": 362,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "57ed95531e78a23ef188740aea9ccab77cfcd4aa3fb9b15be5c9ff88c721cf98",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 374,
+        "fault_variants": 3124,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.023438400006853044,
+      "fault_search_seconds": 0.06021979998331517,
+      "runtime_seconds": 0.09308610006701201,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 3124,
+        "joined_combinations_checked": 59033,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 4,
+      "reverse": false,
+      "architecture_id": "82edce0c07e49b7e5b8c",
+      "candidate": {
+        "generating_basis": [
+          "IIIXXXX",
+          "IXXIIXX",
+          "XIXIXIX",
+          "IIIZZZZ",
+          "IZZIIZZ",
+          "ZIZIZIZ"
+        ],
+        "orders": [
+          [
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            5,
+            6
+          ],
+          [
+            0,
+            2,
+            4,
+            6
+          ],
+          [
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            5,
+            6
+          ],
+          [
+            0,
+            2,
+            4,
+            6
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "syndrome_budget": 6,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 7,
+        "syndrome_ancillas": 6,
+        "flag_ancillas": 24,
+        "Q": 37,
+        "one_q_gates": 43,
+        "two_q_gates": 216,
+        "measurements": 97,
+        "resets": 90,
+        "preparations": 0,
+        "operation_count": 446,
+        "D": 434,
+        "QD": 16058,
+        "depth_lower_bound": 434,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "32284fa597d92937eb464db295cc3b371e215c87bccdf835d034500dcad733d7",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 446,
+        "fault_variants": 3736,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.040882500004954636,
+      "fault_search_seconds": 0.04906160000246018,
+      "runtime_seconds": 0.10772680002264678,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 3736,
+        "joined_combinations_checked": 80152,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 4,
+      "reverse": true,
+      "architecture_id": "87df6162ab0e910dbb20",
+      "candidate": {
+        "generating_basis": [
+          "IIIXXXX",
+          "IXXIIXX",
+          "XIXIXIX",
+          "IIIZZZZ",
+          "IZZIIZZ",
+          "ZIZIZIZ"
+        ],
+        "orders": [
+          [
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            6,
+            4,
+            2,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "syndrome_budget": 6,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 7,
+        "syndrome_ancillas": 6,
+        "flag_ancillas": 24,
+        "Q": 37,
+        "one_q_gates": 43,
+        "two_q_gates": 216,
+        "measurements": 97,
+        "resets": 90,
+        "preparations": 0,
+        "operation_count": 446,
+        "D": 434,
+        "QD": 16058,
+        "depth_lower_bound": 434,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "00806de951d5e4891dbb74cc5212b855d6155cc2e1dfaf375d0aa833f99b35ee",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 446,
+        "fault_variants": 3736,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.02541380003094673,
+      "fault_search_seconds": 0.04745630000252277,
+      "runtime_seconds": 0.08437759999651462,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 3736,
+        "joined_combinations_checked": 80152,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    }
+  ],
+  "matched_unguided_pilots": [
+    {
+      "seed": 6,
+      "strategy": "random",
+      "file": "results/development_v2/pilot/steane7-X-seed6-random.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 2,
+        "minimum_witness_weight": 2,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 16,
+            "raw_count": 23,
+            "signature_count": 1,
+            "observed_class_count": 16,
+            "observed_raw_count": 23,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 1,
+            "multiplicities": {
+              "f833bfa36c5f37165c474756": 2,
+              "3b5ab33e24f10fdc32b2d37d": 1,
+              "291b252f9b3359b0725437ea": 2,
+              "4de58a480c6344294cb9946d": 1,
+              "823f8ee8f43df44c52678e1b": 2,
+              "8b3079472c8db217f73ec68d": 1,
+              "5a8718d784d5414b6feb59cc": 2,
+              "cd7a04c2ce7ace59f1949c8d": 1,
+              "cc3796fd29dd82a051f5ace2": 2,
+              "6a4028bd31e2a5c8d7218cbb": 1,
+              "05d936ceaa6569101b1d8643": 2,
+              "a38ca7ac077e79af2d48babc": 1,
+              "83b1d001b5b8b4c2b9b60101": 2,
+              "0dbaa0b429b9d282f6953dac": 1,
+              "fde28c4073c0f9f8ca908005": 1,
+              "72daee8f196090a8690836f8": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 8,
+            "D": 74,
+            "QD": 1168,
+            "two_q_gates": 72
+          },
+          "2": {
+            "Q": 8,
+            "D": 74,
+            "QD": 1168,
+            "two_q_gates": 72
+          }
+        },
+        "target_reached": false,
+        "evaluations_to_target": null,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 62.33981580007821
+    },
+    {
+      "seed": 6,
+      "strategy": "resource",
+      "file": "results/development_v2/pilot/steane7-X-seed6-resource.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 2,
+        "minimum_witness_weight": 2,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 16,
+            "raw_count": 23,
+            "signature_count": 1,
+            "observed_class_count": 16,
+            "observed_raw_count": 23,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 1,
+            "multiplicities": {
+              "f833bfa36c5f37165c474756": 2,
+              "3b5ab33e24f10fdc32b2d37d": 1,
+              "291b252f9b3359b0725437ea": 2,
+              "4de58a480c6344294cb9946d": 1,
+              "823f8ee8f43df44c52678e1b": 2,
+              "8b3079472c8db217f73ec68d": 1,
+              "5a8718d784d5414b6feb59cc": 2,
+              "cd7a04c2ce7ace59f1949c8d": 1,
+              "cc3796fd29dd82a051f5ace2": 2,
+              "6a4028bd31e2a5c8d7218cbb": 1,
+              "05d936ceaa6569101b1d8643": 2,
+              "a38ca7ac077e79af2d48babc": 1,
+              "83b1d001b5b8b4c2b9b60101": 2,
+              "0dbaa0b429b9d282f6953dac": 1,
+              "fde28c4073c0f9f8ca908005": 1,
+              "72daee8f196090a8690836f8": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 8,
+            "D": 62,
+            "QD": 806,
+            "two_q_gates": 72
+          },
+          "2": {
+            "Q": 8,
+            "D": 62,
+            "QD": 806,
+            "two_q_gates": 72
+          }
+        },
+        "target_reached": false,
+        "evaluations_to_target": null,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 17.97931670001708
+    },
+    {
+      "seed": 7,
+      "strategy": "random",
+      "file": "results/development_v2/pilot/steane7-X-seed7-random.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 3,
+        "minimum_witness_weight": 3,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 58,
+            "observed_raw_count": 82,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 5,
+            "multiplicities": {
+              "907ad8abe429c101e6d785a3": 2,
+              "65ff56934bd72ace025f5e59": 1,
+              "8af6ea177b5dff6f7824fe45": 1,
+              "13a4401f55f44c3111be9737": 2,
+              "46d36167eb4d5314252acc65": 1,
+              "bc011e89780b1c511ed95ed1": 2,
+              "f6c37548e2faad1d2c0e4a31": 2,
+              "23c5536e38efd94091d6fad5": 2,
+              "832fb7a0f9786676e712e486": 1,
+              "b6d0e4cfc247749ec145bff7": 1,
+              "fceaf92c30408c34b7e479c5": 1,
+              "2ff809e7e5207999b8fea7f6": 1,
+              "7db58b16f4ce050bd04ca600": 2,
+              "ac419656f740c18d346a6ce1": 1,
+              "bda21e003d3130ddef6e0a52": 2,
+              "b3f3034136a0dcad304051d9": 2,
+              "347a5e5c8521cf3e28cc557c": 1,
+              "e73259e8a0e21feb5a36fa70": 1,
+              "14e8c77d88d5f1de777cf7fd": 1,
+              "3b507fcbb0271cc234fe3dd8": 2,
+              "dfa163a714ad9f0df09154e1": 2,
+              "ad6efe2a359b1198e5d84639": 2,
+              "707c41d475ccfb7e38809dda": 1,
+              "01dd60da5f224f8fc3dfd42f": 1,
+              "9d056882c2aec9f4e63b1e27": 1,
+              "70920bb3dda0d77b4b54719c": 1,
+              "270acbcadc360cae4d1f8a80": 2,
+              "9077ab5ee765ce95f38ff56a": 1,
+              "0a793e9a93da0c4b58732540": 2,
+              "a37dd5e8a4b028fd3eb62bfe": 2,
+              "314aed35c85017b42e694741": 1,
+              "2e4aa149ebf92caae1a3838a": 1,
+              "0f9e036b706a58d28187c32d": 1,
+              "56823e159bcd46fd0fea442b": 2,
+              "7fc77d7a8ec98fbc524894c9": 2,
+              "9e1468707a2378b4f91a2570": 1,
+              "878721a8001566d4c4461b2c": 1,
+              "b1badc62954645e176756196": 2,
+              "b29c17517588318b3b9b6a5a": 1,
+              "35dc589f2f8aca9f06b0faf9": 2,
+              "f321db3bd2e1553aa605d075": 2,
+              "d7ad293d530f9cd04bdd68c2": 2,
+              "079bf2552a35ba3a0fd7c19a": 1,
+              "d6cebce122d938016b87c30d": 1,
+              "4e85c26535ab486aafc6cc91": 1,
+              "54bde8b4393e0ff48d2882f2": 1,
+              "78183d7bdee6648ee5ff9a52": 2,
+              "039287158a41945ddf4b6e0f": 1,
+              "f5bf98a4e18341a986ebc268": 1,
+              "6c9a689db9c802c44b2d9184": 2,
+              "46dacb62e5ff946c88b7872c": 1,
+              "978dce36c1b548c129386fd4": 1,
+              "60e0afb6cc6bfc025cea5def": 2,
+              "714d6e6ec1cc33877348a4c5": 2,
+              "7f43a356ff94c150ea3ecc42": 1,
+              "b72b4097c4191ae7390185c4": 1,
+              "1858d83271dcfeaa347bf314": 1,
+              "5bad681e73dec6f8a0261fa3": 1
+            }
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 8,
+            "D": 74,
+            "QD": 1110,
+            "two_q_gates": 72
+          },
+          "2": {
+            "Q": 8,
+            "D": 74,
+            "QD": 1110,
+            "two_q_gates": 72
+          },
+          "3": {
+            "Q": 16,
+            "D": 194,
+            "QD": 3104,
+            "two_q_gates": 126
+          }
+        },
+        "target_reached": true,
+        "evaluations_to_target": 3,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 50.36632019991521
+    },
+    {
+      "seed": 7,
+      "strategy": "resource",
+      "file": "results/development_v2/pilot/steane7-X-seed7-resource.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 3,
+        "minimum_witness_weight": 3,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 339,
+            "observed_raw_count": 465,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 16,
+            "multiplicities": {
+              "db4feb66ff8abca346729ba1": 1,
+              "b39ad933b02a35310103f30b": 1,
+              "af46fcf9c004f7322d49bf6d": 1,
+              "96046bd5fc07e06d72e5f097": 1,
+              "66a2c51c4ec86586a30989b3": 2,
+              "7167005378ecf48d87da8615": 1,
+              "761ae1e65865aeecc1fd82c7": 1,
+              "2c5bacb81919467fae6c5fcc": 1,
+              "5a89ea031cfc4e3b75eebeab": 1,
+              "f8b910ac2f2f1ba8e5a0269f": 1,
+              "ab0e4d4465355dfbf5d9377b": 1,
+              "b583208efc2c9fa890500abd": 2,
+              "1f3f2cb9fce4583b31b6ae21": 1,
+              "578955d3eff7eed27c56ea51": 2,
+              "ec7b8673c472a79c10b1bf62": 1,
+              "3aab6096e44078c78deefbde": 1,
+              "eb87fa984e3ddac24a587193": 4,
+              "dcde4ac296e29a5b4bab2d2a": 1,
+              "429a45ff5ec96e2ab2f14d71": 1,
+              "e2cefbc63ade7e456f7a363d": 1,
+              "c2d3d7a70ad7860be6c2d62a": 1,
+              "86f5c3ed3cab47bfc4b9e63d": 2,
+              "71339c98289d21c3c69814cc": 1,
+              "a26a62d2b79c143b2645dc8f": 1,
+              "4df5f95ebcb766f40efa2fb7": 1,
+              "048e5b3d2b9e93af3dca2b01": 1,
+              "1b2ac8760178dbbf4c566202": 2,
+              "2438edbd91915e39310dcca8": 1,
+              "be91dab0184902684188cff9": 1,
+              "f1498fa658f0abf762b58ec0": 1,
+              "bdba7a8d1bd346ebf1717a1f": 1,
+              "06e61152b86fb67aeae7059b": 1,
+              "bf727d3c454b7320bbd0959d": 1,
+              "6f01562eb42840c7690c4001": 1,
+              "bf1ecc36c1a926a54cc9e7ef": 1,
+              "80f5e0d165e40cd97252557f": 2,
+              "267ccb12458c164cb74a3742": 1,
+              "654d223b5a088eefbf39b948": 1,
+              "fe98e66893cbcf55215d478a": 1,
+              "b01ddd6c350a7494810f4b90": 2,
+              "3c90607b8be8603725d27abc": 1,
+              "0f3ace9c96bfa85165d98563": 1,
+              "bea330dc781d6accc69f4442": 4,
+              "bf2310c09461f07bbc6164b5": 1,
+              "d58d4a07da4abd984a8eaf4e": 1,
+              "6d91539e318a0aa831ae2296": 1,
+              "d79a923d00b496f93ad77941": 1,
+              "61fc4b47fe3b7c08a9104231": 2,
+              "8d4eba70eb7ba99c742c2706": 2,
+              "655b57ab9a0c7f14d4d1a99f": 2,
+              "205ce09ef87757fc3a03fd98": 2,
+              "53df03350a18969d80064169": 1,
+              "b1521797e9f5ee0428d023e8": 1,
+              "58e0eac8dba6ff42fa55c9b3": 1,
+              "4bf33b1b9e6e2dd74fd70699": 1,
+              "3f37b3e6a904885d5f329c27": 2,
+              "6a285711403585fb0b887ee6": 1,
+              "52ee1cfad2bdb0dcdd08008a": 1,
+              "37b3d589c868f8aeee1f4785": 1,
+              "d86b24cf4dd0506c42b03f4a": 1,
+              "5f9bc4758b7ec58729a37906": 1,
+              "b276c19f246d08566de0bad2": 1,
+              "3d9997c7a3a95c5bf8d7ad7e": 1,
+              "b32b796e6921ba08e5f1bf31": 1,
+              "f21f72717a43cce9d3facb97": 2,
+              "6c0bc636067fbb9fe55fc497": 1,
+              "2a6afa6874b923ac051cc457": 1,
+              "76ca2bfd8807a393c1b8a007": 1,
+              "2c292f41ad10e01f10cf384d": 2,
+              "0b8a5d4f1de9f7cac6482699": 1,
+              "e34500eaf2ed7972dd91c465": 1,
+              "d3dfdc9fcae37e0e8ff28e3a": 4,
+              "f6d333034a7ac7b55d798ad7": 1,
+              "20fbad72bcbb5db3b981d35f": 1,
+              "189856353c6e5ef9e2ae3a32": 1,
+              "d916f19ad8eb447badf148a9": 1,
+              "c74561d1f748383c8ffcd433": 2,
+              "f5c95cce79ed9c98a949c942": 2,
+              "494fcac49e597bc5bc306217": 2,
+              "dfd04a3aa5158ee06d574c60": 2,
+              "829c00498054cd4e7b89d882": 1,
+              "00256c6a0f30c171512e6e71": 1,
+              "6212d20568e950780d1ae9c9": 1,
+              "92ef867489af0b301a3a8380": 1,
+              "f2485907c2c000527738047f": 2,
+              "b24831a75d061fbced4e2eea": 1,
+              "ec3a500990a7e888e9afab17": 1,
+              "c208d237db467e4966575e7e": 1,
+              "23fd437a8bafbe58a1dc4102": 1,
+              "656849579a4ecb2462b3c457": 1,
+              "3e86648320225e406a6b6847": 1,
+              "098b6eeafd5b58e4bad8dc93": 2,
+              "ba6dcec7a0034825d328a0bf": 1,
+              "f6af557faad6589360fea661": 2,
+              "20d115a2cffd4b93fa56b9ed": 1,
+              "3acd1e33685d4b174fe68192": 1,
+              "045e788b51f47bab88261454": 4,
+              "23f85b65c3671ffb4750528a": 1,
+              "586c8320f2deb9bef4d9ab13": 1,
+              "52fc0c178e12b5e087135b5d": 1,
+              "25948620e32f1b338c38b109": 1,
+              "bdae1a6c930827a72627c06a": 2,
+              "480e6e203f8d1f3afd1b9613": 1,
+              "3b6877c722ab7bf5ab7c39b8": 1,
+              "55279243b317a6815c09a7c4": 1,
+              "6e3acc68263c974ddd50f32f": 1,
+              "f3a095d7673d7c33ae392fdf": 2,
+              "93722b391d62d0ab5a95e580": 1,
+              "fb63ff67cdb3f4afd7847740": 1,
+              "3d6cb5396ade709d17478123": 1,
+              "75f23f77877bd696de08e2b5": 1,
+              "2c9031f8e2c1a8cb5388ec4c": 2,
+              "48038169461cc63fe0ee3ff9": 1,
+              "ae44df9c47ca2ea62be36fbd": 1,
+              "61d95c89bf767482b513caa3": 1,
+              "1f90d008223e672efc5d4954": 1,
+              "98b8035e239fe4c6f8bcb591": 2,
+              "7eb37dfc4079576b409d3798": 1,
+              "563ed66b775743bb98520dc5": 1,
+              "55cd9fe5f6d92776d6f1f20a": 1,
+              "179a32b4af5df83a4bd83166": 1,
+              "3f0c8d0f5b24115de81808c4": 2,
+              "8ae97eef4287b369ab61529f": 1,
+              "af2fd2bdc59052b362a8a721": 2,
+              "f5be35bfc4fd224bb38f30bd": 2,
+              "5959b4e40037e1e3bbf61ef9": 1,
+              "22653e125c53a9603cae2ce4": 2,
+              "b5a2240deaad8f221bf0ba9c": 1,
+              "fd66af5684dbb17ef404c801": 1,
+              "03665edc210078e5e88b2bda": 1,
+              "7134263c5ebf72de945a5a0e": 2,
+              "6190572084b3913700cae790": 1,
+              "2440ab361261573a9c24c12c": 2,
+              "eda6aff90f09811470e19fe5": 2,
+              "c4d162b0663b99e43b01065e": 1,
+              "1ddbd8f643a342c205b31fcc": 1,
+              "cb9ed50d914eff274a134b68": 2,
+              "29bb9cf9bb1d12798371a6a9": 1,
+              "12358c0bf6d57a272bb17bc6": 1,
+              "bfa4a80196b071719c5a7409": 2,
+              "51547e8257f6c02125d9cbcb": 1,
+              "d43b190a01194aa46d81598b": 1,
+              "a5dedc8bc1f085ca7b16da91": 1,
+              "c9cba27ca7c6f9dd8aecc1d9": 1,
+              "8e935adbeb3416488d62c032": 1,
+              "32a0f1d3269406cb086be836": 1,
+              "4c3e2e764c99e3b3cbb025b9": 1,
+              "950791e675b5c06a5f38c310": 1,
+              "ef7acff693f6c67d3b17dd33": 1,
+              "702e0de734c143178ecbdfa9": 2,
+              "86ff8197ba3f4254bfaf5288": 2,
+              "bf360c606b727f9a8a70393b": 1,
+              "ccda7dd257e8bed4f94a8724": 2,
+              "6978ad9da6f0277686294a3e": 2,
+              "89854218746c3c0dec6ac903": 2,
+              "980c711ed3cc132219cef42e": 2,
+              "1d80ac6f1d72502b8b2cc5f8": 1,
+              "2e2a33804e0c7497ee65013b": 1,
+              "01f24b2842e9498fad953e2b": 1,
+              "348051b9d883df2eac9505ba": 1,
+              "2b875aa310bb9e155f29d302": 1,
+              "5aed9c8595c79e8aa8fdf680": 2,
+              "45e4716d81a04cdbbdeb9653": 1,
+              "ac8a397bd246d8db99fac61b": 2,
+              "032988ad3a1b0775f49f1b21": 2,
+              "5ba1a282523d16e5722bbafd": 1,
+              "af98e17eab704f12d34899c2": 1,
+              "e5917c783a0235c22249e39a": 1,
+              "d51f017342f10fbc3799b571": 1,
+              "e1ae878363ca9d9a62f6485f": 1,
+              "dd49ccc5938572c2e7c476e8": 1,
+              "67d058ba60dcf5ac100746f5": 2,
+              "722f6e32413993e6879aca7a": 2,
+              "68eecabd62a4c1301d4bc24c": 2,
+              "144202f9f66812ec66318bbe": 1,
+              "0b0aedcd1024e6b7ed6c2c6b": 1,
+              "20d35b00fa7317c5d46f5f14": 1,
+              "e0372440b22aafbd2a6f667e": 1,
+              "819598cd27552e25df3ad445": 2,
+              "14009433d45d2770904de605": 2,
+              "a87c3d5ed7510bc186e0c27d": 2,
+              "76f6670bd8424fd8de250329": 1,
+              "4aa4001283b4256c28a794e0": 1,
+              "37f801e62107de51b243cae6": 1,
+              "0734a64b4365551c056db4d3": 2,
+              "96466558fafe6d4ed8e43da4": 1,
+              "a41b328266a81dc98c9363e4": 2,
+              "a5b1b128ec93dbca2328a77c": 2,
+              "d0583c0bce7f4d2ac131f76d": 2,
+              "707a5ed4d6e44abe6e44e34d": 2,
+              "e6faf555e194f90e9faa812a": 2,
+              "d39c95722ae9b9057f57d76b": 2,
+              "d7c8d933fd3b16a6f8d77122": 2,
+              "2b505ee6607fe210d3b6f262": 2,
+              "10bd9ca110846df0f0b8431c": 1,
+              "202379cb2ca1e4efbe012ce6": 2,
+              "b996adf4e7bbb90278996ff9": 1,
+              "004b400dd17bc3bff06d96eb": 1,
+              "fa778439180f262908e849ed": 1,
+              "c1fdc8371ff5b000205a25cf": 2,
+              "ef72c0a5f3b9a54c76550043": 1,
+              "30d8f650748912258dba2cd2": 1,
+              "e09f1d58a4b5485c5c614492": 1,
+              "442f9d07c2f05759b7fc8227": 1,
+              "b1472ebcf731787e30ca654a": 1,
+              "b76e2f6651ef5c58baaac40a": 1,
+              "56af11bb69f5ba7f395a5270": 2,
+              "0c7434b33f1ae01af1d65f54": 1,
+              "d481b7ab3f713dfd156cd35a": 2,
+              "88a00153cb19e6a71641e137": 1,
+              "bc47c7f3b5ab485b48008af2": 1,
+              "f36c87263dc4085b2e2e1113": 1,
+              "f91cfe10014b39dfeb04d68f": 2,
+              "922ffc7a018ed5209636c4c4": 2,
+              "658e3d4272735707b7e368eb": 2,
+              "11464a063afc78860e21b7be": 1,
+              "52564ad430858955fc0b392d": 1,
+              "f847c80eae0662ca60cff313": 1,
+              "07e854590aa42cb6eca72d3b": 1,
+              "abfeeadc7e0c62b0a0cdc3cb": 1,
+              "eaab02b088feb951edb8e461": 1,
+              "7f105d73eb8c23bf2d6f72ee": 2,
+              "49157b4ff05b443082e992ae": 2,
+              "fe160daefaf200b66d6636d9": 2,
+              "2cf55e7a6bbeecf053ec807a": 1,
+              "df97d0c6bd2ef395a840e4ae": 2,
+              "067becb3eb5289a617385505": 1,
+              "9e425686f76acf51684ca28f": 1,
+              "66b523e0e33d4d2aed5bb403": 1,
+              "b95845d3d7f2f50bc199a278": 2,
+              "edf4c55a747c6811dc04079f": 1,
+              "9e19f79dec95e88ab460904b": 2,
+              "1dea797efdb33008d2c54a7b": 1,
+              "12c79758bcfee9b763934eaa": 2,
+              "6dcf6452fc1c49e0d93707e7": 2,
+              "d8161d2a4e4bc8cd0930ee9a": 1,
+              "e546d9817550a802c88a413a": 1,
+              "649e88d9237a0470846f492b": 1,
+              "dea454e9beb1cc28049561e5": 1,
+              "4260d1d3ff66acd4593942f5": 2,
+              "7f8f73aa2667821333b92dad": 1,
+              "a73a98694d69d170896cd600": 1,
+              "17c3f7d312081f9bd16ea0c5": 1,
+              "ac2bb76478d00ca9016896aa": 1,
+              "3f2c6101f34376215c81f2ab": 1,
+              "ff8462fc637d789f98dca182": 2,
+              "bd00d5713fe3247d17832285": 1,
+              "e1492541304a8dcbca20f114": 2,
+              "8fa327b63c6c63de1b084fcf": 1,
+              "b156822f1091eb65b2ca26d1": 1,
+              "4b5b0140e8592fa93c6bcd66": 1,
+              "1f5d77a8408c91927843f87e": 1,
+              "8446856366eaecbbe80cbe19": 1,
+              "2546bd12f7bb790541f7ebb1": 1,
+              "572400fd52e0b36c4cfbc745": 1,
+              "412e569312288e5f5364e6a5": 2,
+              "3a83f43be33b68e17afa816e": 1,
+              "c97681919ac6c7365e42417d": 1,
+              "1666bf662716f5aa6a2eafbc": 1,
+              "9c330e2a52faca6822dd1e1d": 2,
+              "3af07056faa982d10bf9ed83": 1,
+              "933ec8e2706f938277eb9291": 2,
+              "b4860072f625429ea54b0ce0": 2,
+              "804a5526bdf09c5681c3db3c": 2,
+              "40d9d519e3cab72d75a6feb3": 2,
+              "e46226405f06107083401733": 1,
+              "ce0801309a40311e2777e399": 1,
+              "3f84abf94010bf7e7a071dda": 1,
+              "fde7e55b24b2fe769f508e5a": 1,
+              "8a0caf249e7a62ea58cb772a": 1,
+              "a85fffc6f8e59f460bbe30fb": 1,
+              "d0fa1102920776dfb530c209": 1,
+              "0c504535ad0167187018a975": 1,
+              "0f5025e7c3ba39fed243a743": 2,
+              "74d87f322e7049518f4251c5": 2,
+              "28242922290fd361696163f1": 2,
+              "ce3886ea5ee20862e78eb8cd": 1,
+              "75914c790250a451d82dfcdc": 1,
+              "0055d9350bc1ad8db0c37ed0": 2,
+              "e781d8336e71c458b259ecd6": 1,
+              "c384521bab0dd49f1ba765b4": 1,
+              "41fdb2cf35e7cd6aa0946967": 1,
+              "cb617c98549672bc40b3b3a8": 1,
+              "53ccb74054d8c93a869bffb7": 2,
+              "1d67625c7d82c9c1298f3a6a": 2,
+              "daa92530fb0622fdf8231aa9": 2,
+              "af78ff4329f4a56224adaf01": 4,
+              "8fa1dfcdcd8cb5698f5bc78e": 2,
+              "b29c3862b8fc7e47e1137fe8": 2,
+              "9069c243d4172a0fecafc066": 1,
+              "5a61862d9447bdc897b63a1b": 1,
+              "288990c52f463dee11c1444b": 1,
+              "573e38245af72014046ee0ce": 1,
+              "1c11b276b89fde0a02d90d4b": 1,
+              "4c57ccca14be8bbe823c9960": 2,
+              "5ff5b75706ac0e942e852fe1": 2,
+              "e59136cd349ccb3866e0ddcc": 1,
+              "3ace20d406d8aac3c32bf1f6": 1,
+              "0fcf0734933593c40f0b8637": 2,
+              "4b20d9ac60f136adc30590ff": 2,
+              "e94019f6673c470628f7c316": 1,
+              "4c1ab2ab789eae52bb925aaa": 2,
+              "e19ad1e490e93393957950bf": 2,
+              "39cd9b7f79e041d0d22b8402": 4,
+              "28b0e66b967b7fcac21e79b4": 2,
+              "8129f64f0c3b76921a495516": 2,
+              "91809bb8cd4f3ffebacdb04d": 2,
+              "04008f15f62931a7e5b74522": 2,
+              "aeeb2cdee576d26c38750566": 4,
+              "c38fe7019b5b8547e4905e28": 2,
+              "4c5fa367ebee5a1e52ef18d2": 2,
+              "b77bc2ed99eb279e52016ab7": 1,
+              "ec420aa6290ba2e89ba49d97": 1,
+              "a9380d359226864e93e395ce": 1,
+              "5ebc2454765c68eefc920d3a": 1,
+              "a0af3f4c92d7d25efe999036": 2,
+              "2aa3512e675b6413bb4bd3c5": 2,
+              "eaa9d8fd099178d737a97599": 1,
+              "c6a1968f6257556427f3a7db": 1,
+              "8d9071cdea1997e77288c3bb": 1,
+              "1a77b12ebe66c6e41e8a3f6b": 1,
+              "e2bbb5bc52ec40164a4bd250": 1,
+              "8f5d795265742e93c0ad42fa": 1,
+              "904ce7090de85c1c9615adbf": 1,
+              "9c7d7428d5d4ae71b214599a": 1,
+              "ac24cbf819c99a9fbeebec6a": 1,
+              "45145892b1128d7bc473dcfd": 1,
+              "b7d528c268accc6527c7cc21": 1,
+              "22eecd733c682fa0baef233b": 1,
+              "aca78c3da78f009352eb5bd5": 1,
+              "e2923fb4c42002a84667cf3b": 1,
+              "8189bd05312beec815d5ba91": 1,
+              "3d83e63e39c800383b6322e5": 1,
+              "1faff7f9718fa10dd59fc510": 1,
+              "a8c4ef73398ff59b1019850f": 1,
+              "1891af3a831a8887eb0296e4": 1,
+              "58b0efebc9df9d673d75b734": 1,
+              "6d3085f4182e74e2854120ef": 1,
+              "006711e72f7ad01e08e718d0": 1
+            }
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 8,
+            "D": 65,
+            "QD": 910,
+            "two_q_gates": 72
+          },
+          "2": {
+            "Q": 8,
+            "D": 65,
+            "QD": 910,
+            "two_q_gates": 72
+          },
+          "3": {
+            "Q": 10,
+            "D": 119,
+            "QD": 2040,
+            "two_q_gates": 102
+          }
+        },
+        "target_reached": true,
+        "evaluations_to_target": 3,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 50.56223740009591
+    }
+  ],
+  "v03_pilot_runs": 0
+}

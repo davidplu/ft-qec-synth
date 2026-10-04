@@ -1,0 +1,27 @@
+{
+  "n": 16,
+  "generators": [
+    "ZZIIIIIIIIIIIIII",
+    "IZZIIIIIIIIIIIII",
+    "IIZZIIIIIIIIIIII",
+    "IIIIZZIIIIIIIIII",
+    "IIIIIZZIIIIIIIII",
+    "IIIIIIZZIIIIIIII",
+    "IIIIIIIIZZIIIIII",
+    "IIIIIIIIIZZIIIII",
+    "IIIIIIIIIIZZIIII",
+    "IIIIIIIIIIIIZZII",
+    "IIIIIIIIIIIIIZZI",
+    "IIIIIIIIIIIIIIZZ",
+    "XXXXXXXXIIIIIIII",
+    "IIIIXXXXXXXXIIII",
+    "IIIIIIIIXXXXXXXX"
+  ],
+  "name": "shor4x4",
+  "provenance": {
+    "method": "explicit generic construction in experiments/development_v2.py",
+    "family": "rectangular_shor",
+    "shared_parent": null,
+    "external_architectures_used": false
+  }
+}

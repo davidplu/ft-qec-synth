@@ -1,0 +1,27 @@
+{
+  "n": 16,
+  "generators": [
+    "ZZIIIIIIIIIIIIII",
+    "ZIZIIIIIIIIIIIII",
+    "ZIIZIIIIIIIIIIII",
+    "ZIIZZZIIIIIIIIII",
+    "ZIIZZIZIIIIIIIII",
+    "ZIIZZIIZIIIIIIII",
+    "ZIIZZIIZZZIIIIII",
+    "ZIIZZIIZZIZIIIII",
+    "ZIIZZIIZZIIZIIII",
+    "ZIIZZIIZZIIZZZII",
+    "ZIIZZIIZZIIZZIZI",
+    "ZIIZZIIZZIIZZIIZ",
+    "XXXXXXXXIIIIIIII",
+    "XXXXIIIIXXXXIIII",
+    "XXXXIIIIIIIIXXXX"
+  ],
+  "name": "shor4x4_dense",
+  "provenance": {
+    "method": "invertible triangular check-basis transform in experiments/development_v2.py",
+    "family": "rectangular_shor",
+    "shared_parent": "shor4x4",
+    "external_architectures_used": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "n": 5,
+  "generators": [
+    "XZZXI",
+    "IXZZX",
+    "XIXZZ",
+    "ZXIXZ"
+  ],
+  "name": "perfect5",
+  "provenance": {
+    "method": "explicit generic construction in experiments/development_v2.py",
+    "family": "legacy_noncss",
+    "shared_parent": null,
+    "external_architectures_used": false
+  }
+}

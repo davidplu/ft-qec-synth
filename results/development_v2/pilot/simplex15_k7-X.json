@@ -1,0 +1,2854 @@
+{
+  "task": "simplex15_k7-X",
+  "target": 3,
+  "reachable": true,
+  "status": "CONSTRUCTIVELY_REACHABLE",
+  "fixed_generic_constructions": [
+    {
+      "flags_per_check": 1,
+      "reverse": false,
+      "architecture_id": "a959faf308a375a52501",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 8,
+        "Q": 31,
+        "one_q_gates": 63,
+        "two_q_gates": 240,
+        "measurements": 63,
+        "resets": 48,
+        "preparations": 0,
+        "operation_count": 414,
+        "D": 386,
+        "QD": 11966,
+        "depth_lower_bound": 386,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "b81bd12eaa9c27cc6ef03ffe0e9d4824304245a6ccf91bc0065355601712410e",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 414,
+        "fault_variants": 3996,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.1287219999358058,
+      "fault_search_seconds": 0.42793860007077456,
+      "runtime_seconds": 0.5873119999887422,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 3996,
+        "joined_combinations_checked": 52248,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 1,
+      "reverse": true,
+      "architecture_id": "d090ba89577e05b60cfa",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ],
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 8,
+        "Q": 31,
+        "one_q_gates": 63,
+        "two_q_gates": 240,
+        "measurements": 63,
+        "resets": 48,
+        "preparations": 0,
+        "operation_count": 414,
+        "D": 386,
+        "QD": 11966,
+        "depth_lower_bound": 386,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "22ee48eb076cf96f114e6e11e11e5e615d80947402a4c464339ff10c21f00d67",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 414,
+        "fault_variants": 3996,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.1495104000205174,
+      "fault_search_seconds": 0.7423767000436783,
+      "runtime_seconds": 0.9130371999926865,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 3996,
+        "joined_combinations_checked": 52248,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 2,
+      "reverse": false,
+      "architecture_id": "730651b021094f1d1f1c",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 16,
+        "Q": 39,
+        "one_q_gates": 63,
+        "two_q_gates": 288,
+        "measurements": 87,
+        "resets": 72,
+        "preparations": 0,
+        "operation_count": 510,
+        "D": 482,
+        "QD": 18798,
+        "depth_lower_bound": 482,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "63221e3eb0c2883447348e793db3e0fb1b34c961007cf5a111244e3791af91cb",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 510,
+        "fault_variants": 4812,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.17461839993484318,
+      "fault_search_seconds": 0.19864590000361204,
+      "runtime_seconds": 0.5147907000500709,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 4812,
+        "joined_combinations_checked": 78324,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 2,
+      "reverse": true,
+      "architecture_id": "45520fbcebcd7715a537",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ],
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 16,
+        "Q": 39,
+        "one_q_gates": 63,
+        "two_q_gates": 288,
+        "measurements": 87,
+        "resets": 72,
+        "preparations": 0,
+        "operation_count": 510,
+        "D": 482,
+        "QD": 18798,
+        "depth_lower_bound": 482,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "3714dd8ffa7590ed03ca6abd8d3cc03b3c994d73e76b0968a6c4598cc2bde23f",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 510,
+        "fault_variants": 4812,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.08116649999283254,
+      "fault_search_seconds": 0.1718004000140354,
+      "runtime_seconds": 0.28798949997872114,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 4812,
+        "joined_combinations_checked": 78324,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 3,
+      "reverse": false,
+      "architecture_id": "5b7c0447a5d32a4a5ecd",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 24,
+        "Q": 47,
+        "one_q_gates": 63,
+        "two_q_gates": 336,
+        "measurements": 111,
+        "resets": 96,
+        "preparations": 0,
+        "operation_count": 606,
+        "D": 578,
+        "QD": 27166,
+        "depth_lower_bound": 578,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "a0b633ebde2559549bbf25708036a46da0025d896fc39db6ad62a7f094d15d31",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 606,
+        "fault_variants": 5628,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.3629252000246197,
+      "fault_search_seconds": 0.6601374999154359,
+      "runtime_seconds": 1.160273400018923,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 5628,
+        "joined_combinations_checked": 110056,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 3,
+      "reverse": true,
+      "architecture_id": "567132045bd6468692d5",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ],
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 24,
+        "Q": 47,
+        "one_q_gates": 63,
+        "two_q_gates": 336,
+        "measurements": 111,
+        "resets": 96,
+        "preparations": 0,
+        "operation_count": 606,
+        "D": 578,
+        "QD": 27166,
+        "depth_lower_bound": 578,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "f8d910f5c185ed838a4eb4d9e4776e0c7eaf3adab4f136748cf8c0f36637af90",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 606,
+        "fault_variants": 5628,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.08624939993023872,
+      "fault_search_seconds": 0.128048500046134,
+      "runtime_seconds": 0.25048999988939613,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 5628,
+        "joined_combinations_checked": 110056,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 4,
+      "reverse": false,
+      "architecture_id": "5f82e0f53ac8ffe5dcb0",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 32,
+        "Q": 55,
+        "one_q_gates": 63,
+        "two_q_gates": 384,
+        "measurements": 135,
+        "resets": 120,
+        "preparations": 0,
+        "operation_count": 702,
+        "D": 674,
+        "QD": 37070,
+        "depth_lower_bound": 674,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "6d160b8de2fe2d6cfef67d52781cb9153a616088643faa73b391ba20b6100862",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 702,
+        "fault_variants": 6444,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.1462664999999106,
+      "fault_search_seconds": 0.11941289994865656,
+      "runtime_seconds": 0.31010120001155883,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 6444,
+        "joined_combinations_checked": 147356,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    {
+      "flags_per_check": 4,
+      "reverse": true,
+      "architecture_id": "f16944ee6cb2b14ba9bf",
+      "candidate": {
+        "generating_basis": [
+          "XIXIXIXIXIXIXIX",
+          "IXXIIXXIIXXIIXX",
+          "IIIXXXXIIIIXXXX",
+          "IIIIIIIXXXXXXXX",
+          "ZIZIZIZIZIZIZIZ",
+          "IZZIIZZIIZZIIZZ",
+          "IIIZZZZIIIIZZZZ",
+          "IIIIIIIZZZZZZZZ"
+        ],
+        "orders": [
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ],
+          [
+            14,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2,
+            0
+          ],
+          [
+            14,
+            13,
+            10,
+            9,
+            6,
+            5,
+            2,
+            1
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "syndrome_budget": 8,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 32,
+        "Q": 55,
+        "one_q_gates": 63,
+        "two_q_gates": 384,
+        "measurements": 135,
+        "resets": 120,
+        "preparations": 0,
+        "operation_count": 702,
+        "D": 674,
+        "QD": 37070,
+        "depth_lower_bound": 674,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "a9c6e4d6c85a7085ee828832aee7303c2cd27364ff768084335541947c573403",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "excluded_through": 2,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 702,
+        "fault_variants": 6444,
+        "requested_weight": 3
+      },
+      "rejection": null,
+      "stage": "D",
+      "signature_seconds": 0.09846679994370788,
+      "fault_search_seconds": 0.10589240002445877,
+      "runtime_seconds": 0.24797309993300587,
+      "independent_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 6444,
+        "joined_combinations_checked": 147356,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    }
+  ],
+  "matched_unguided_pilots": [
+    {
+      "seed": 6,
+      "strategy": "random",
+      "file": "results/development_v2/pilot/simplex15_k7-X-seed6-random.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 2,
+        "minimum_witness_weight": 2,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 117,
+            "raw_count": 201,
+            "signature_count": 1,
+            "observed_class_count": 117,
+            "observed_raw_count": 201,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 4,
+            "multiplicities": {
+              "27b5af6d44ab398431d4f952": 2,
+              "ac472de09e192f91e00671c2": 4,
+              "56edc274c96b842f3cb03835": 1,
+              "2414da202eb49cfc9547c313": 2,
+              "974eabe594064f2ea728a9e0": 2,
+              "e3297ad5c1684e59f2e92ca1": 4,
+              "c4b1db1ef3ded410567f8bcf": 1,
+              "4a018f30d8fabd591404c76e": 2,
+              "c0e664b9c30287498e0b4193": 2,
+              "b92cf9c6f74cff3473b6d0d1": 2,
+              "e02d83c025e8003c4d0e0458": 1,
+              "9396dac1ac792db61010e15e": 1,
+              "c1b8488876f69e6bae7e007e": 2,
+              "13aeba0a0c51f2890fb8c985": 2,
+              "e8027d5faca206583b477f7b": 1,
+              "68d96fbff7cab2cac776a66f": 1,
+              "150362e6e16c5a2bbbf8f51d": 2,
+              "17aa2117acd9bd1a0e9f8b03": 1,
+              "3753a66d53df1667c47b757c": 2,
+              "28ca7ac40255779999a9ef19": 1,
+              "964268e8a9cd7777fe67fcf9": 2,
+              "921a5f040e6d9306e0a07ab3": 2,
+              "20274e2aa0d6da1eeca79a07": 1,
+              "bd7422f74ccaad089be54a54": 1,
+              "24e35d0e52deb34a23e6e77e": 4,
+              "ea039f21827f08aae4a6bcac": 2,
+              "751bee9e57512f5aa5ad5d13": 4,
+              "ef622bc7a87fa28c3860c355": 2,
+              "5fe6ab4697d30bf9f9bda147": 2,
+              "bf887d9cf8e2c7f45e2c5854": 1,
+              "00f2780f2acc89822e554495": 2,
+              "eebe38b391e4b26d69e1adb6": 1,
+              "15af0d85d284650dabbc8654": 2,
+              "4dc242852ce1c0049f17665d": 4,
+              "366c65379de5b1e6b7e82902": 1,
+              "71aae1e891ca094a68683ff5": 2,
+              "1b9c768013568f71b60e8f0b": 2,
+              "bddf9eca866aeff3ec43f345": 4,
+              "90655466be6440f9018280fa": 1,
+              "be8b312d7005bc8c92b0110e": 2,
+              "695e43f3bd7610c337100073": 2,
+              "291f65238af29fcc24f96f4b": 1,
+              "c012ff8b2aae51ac31275bab": 2,
+              "7e8c2111363ad49190e1f6c0": 2,
+              "37d6a972cdd31926b3b93446": 1,
+              "eef74fb9a77244ce5cbbd576": 1,
+              "e11b1e799433a9e3ea419477": 2,
+              "fc78feb1aa9a0da4ee51cc98": 2,
+              "813ed0df380ce5975105c78d": 1,
+              "f9d0cbae353759955994008c": 1,
+              "c91f9d5c4f2f54d16b4d3101": 2,
+              "5a4aee684341c6dee3519c82": 1,
+              "cf9f63590bc1b532a37a6760": 2,
+              "d32784dd92894040d285a17c": 1,
+              "c3376e7aa55afdc4d4a565eb": 2,
+              "7239d4380fc3c55dd03fa9f9": 2,
+              "21647a987738d48c510f62aa": 1,
+              "8f910b8777abf14711fc0ade": 1,
+              "a4e1f12390aca669be854e07": 4,
+              "0b923f1d4907144573f17864": 2,
+              "f29843eb79594d172cc6e0b8": 2,
+              "242c855b3b0b8c88de31dd8f": 4,
+              "8a74a40e7ac0c600d2b8a09f": 2,
+              "db196aab17b40391c34fb91d": 2,
+              "23c43e78709b434657be3c5c": 1,
+              "baef1806c2801d0a2bd857ce": 1,
+              "822941e93eda13c4c057e81f": 2,
+              "d5c529f6c5fd22a0d8406195": 1,
+              "e6f76b45d02aa82baa891673": 2,
+              "ac11a35081654a952b4e1d42": 4,
+              "96a2fda35c77c5a4d3baadca": 1,
+              "b3b5f128cef2e7733261c1d2": 2,
+              "09e57c80100ce3604e13477f": 1,
+              "1eaa64df98969c438b01c091": 2,
+              "a968f57470a4cafc2f4e7702": 2,
+              "eb8332284a6758c3f9de1761": 4,
+              "775d3d299edb4c77efb433ae": 1,
+              "40e4109a0e158ef954b13e61": 2,
+              "16f42940386353a0f9ca9594": 2,
+              "f65f81354bba545e7bd5db9f": 1,
+              "03eca6b4b6ac293496aa5baf": 1,
+              "050379193adf06cf880fc67c": 2,
+              "1716668b3f8c1afcc1db8725": 2,
+              "e5792631549079f35f8a97c7": 2,
+              "1ee2125249034d0da88bf323": 1,
+              "d872175ab2857071072ee4e9": 1,
+              "24181e7753bac48d19e11b01": 1,
+              "255881919b87a37bc6ba1846": 2,
+              "75fa8d76c81589ac8d9d6472": 2,
+              "4350722cf4ca24db0d12a50c": 2,
+              "a88d7c0407adbcb6636dd280": 1,
+              "69239640a93fcdf5e620ba20": 1,
+              "fff20d7ae52521dc7584cce2": 1,
+              "fbabca80452caf8bde31746f": 2,
+              "ab567365da5de55cc0f40a87": 1,
+              "205f0cbe0d2fdb49865f92f8": 1,
+              "0a377b941e9cb7fa9a92509c": 2,
+              "1df1e3905d4757960c0c9815": 1,
+              "9c1268ae7592104b2d479f5e": 1,
+              "f70906a33f77b9805f97795f": 2,
+              "abe2040e34286c8653251ff0": 2,
+              "16c9c99acd4cb37dc0fe4499": 2,
+              "5acc5e9b7c58d9fe7c80a2ed": 2,
+              "340049098f6d08fac2f08169": 2,
+              "3c6ca990acc7b7781577bbe4": 1,
+              "3abbbbe31c87cb3bc06c5b2e": 1,
+              "1216b61efd85d5bf895e7d01": 1,
+              "6ecebd46e2f2bdddf54ae7f4": 1,
+              "b7df8300836349155ddc87db": 1,
+              "6bba3e1ea3925162f074004f": 1,
+              "a3f35e15dae4c3abd96852f7": 1,
+              "95df06dfaf82f2eaf6240441": 1,
+              "5e893ae95ff7e7fbc7423406": 1,
+              "c696e4bfbf55ad95adbefb6a": 1,
+              "6cc612f3802c604570c03a8f": 2,
+              "41e89a9694d5cb74a0a0c1ee": 1,
+              "ed55c61222a64a8f57b409a4": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 16,
+            "D": 197,
+            "QD": 4640,
+            "two_q_gates": 192
+          },
+          "2": {
+            "Q": 16,
+            "D": 197,
+            "QD": 4640,
+            "two_q_gates": 192
+          }
+        },
+        "target_reached": false,
+        "evaluations_to_target": null,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 907.6735320000444
+    },
+    {
+      "seed": 6,
+      "strategy": "resource",
+      "file": "results/development_v2/pilot/simplex15_k7-X-seed6-resource.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 2,
+        "minimum_witness_weight": 2,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 158,
+            "raw_count": 158,
+            "signature_count": 1,
+            "observed_class_count": 158,
+            "observed_raw_count": 158,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 13,
+            "multiplicities": {
+              "7289ba9592decaedc4590404": 1,
+              "40d11ff284fdc91ee974cb7d": 1,
+              "3beef0b13edd655c5b5fbc04": 1,
+              "6b9ce5463e11db3a3f82b94a": 1,
+              "e0f7be5708a4ab3872aebc62": 1,
+              "f99bc0386a0a71ec79baf551": 1,
+              "5f916c667fb1beb1d662d362": 1,
+              "eb4de7a4028d1fcdb60d2b6d": 1,
+              "9a45d103d8f02b05af26f4b7": 1,
+              "d70c5a84777c222b335c19e5": 1,
+              "2435c3d5079a484028106130": 1,
+              "199e0b948199215f50c139df": 1,
+              "01ff772a00c2808371cfccdd": 1,
+              "64eb7553c7a73791f8b47de3": 1,
+              "4c345958c463910ce8425be7": 1,
+              "474735341f216990eee460f0": 1,
+              "23f1af9ed99e2a32061c1412": 1,
+              "829c85c22ba6cfa8e7492d7b": 1,
+              "ab4981c26f0923f25f96676f": 1,
+              "79c6818626baf4efac137bcc": 1,
+              "373a3388f84de8f658e0fd6e": 1,
+              "fb815f3106e6fe09fa48fc24": 1,
+              "bfbc56fe3aec3184075771d8": 1,
+              "af5b24a90ce1cb108d40276c": 1,
+              "e198426c42f1f31c3e06305a": 1,
+              "5d5da34259fc95fafecea200": 1,
+              "c9d0b8703bb1fea78efaf7ec": 1,
+              "4e1449b2c925c8c4c9511e90": 1,
+              "fd5ff6c80f164f7975138516": 1,
+              "05e5d13b2908120baa5e04f4": 1,
+              "1a4a2878942879dc0b316f95": 1,
+              "b6e9b0c965aff06dd97a01de": 1,
+              "2bd762b2c4fd564c585363e3": 1,
+              "babbd719b28e84adad901304": 1,
+              "16392d671ed151ccac74eacf": 1,
+              "e8e6bf2b0d654c41d063f34c": 1,
+              "2cbaf24cd49ec103ae4bb860": 1,
+              "f422eaac8b9c6ef9d42bffdb": 1,
+              "7a3f94030d7e91379219c91f": 1,
+              "c5eb5c47d11f4224bd2b498c": 1,
+              "46d32bfb192496d8551e8afc": 1,
+              "7cd7088831f6ed26341b82dc": 1,
+              "a411c4606c89e08ffb39baad": 1,
+              "3fc04814be0a6d1c947b9493": 1,
+              "4f5c856b426abad61b5fe319": 1,
+              "222aa9e0a148faca2c5773ab": 1,
+              "e17e6ca2be4d5dd9c2ae9c5c": 1,
+              "3094dc83fa90ef55e2bf5410": 1,
+              "37b8798df8d1dceb7f79b8d0": 1,
+              "967f52c0e6dc12d3a83a307b": 1,
+              "11250bd0b311ce5ff7a6ba7e": 1,
+              "d1b87be79012c925d394b4fb": 1,
+              "a9bd874be68c033907ecaaac": 1,
+              "893f6ca0e5f47235ebfd348f": 1,
+              "7dcdb508472352bbaa6bc410": 1,
+              "2f7f6e55109b40aa663674c2": 1,
+              "89072e6fdf53c20d5883a189": 1,
+              "de8bb020c42e78d15e0b0ad0": 1,
+              "0c0b5c2ff8ba42bdab5dcd5b": 1,
+              "ef905853f71cd12db83940c5": 1,
+              "76a153ba14df25d2df05ef70": 1,
+              "95721db4a0aa02f4483534ca": 1,
+              "e25a6de10114fcce13c874e1": 1,
+              "1bb22cbbb10eb016f6fc74d4": 1,
+              "7134045a31ea66912e0ab2c5": 1,
+              "52b5210249bfa7907e411ed6": 1,
+              "4d4354b734416a646c93dcc1": 1,
+              "360f512579da39f5d87ddeaf": 1,
+              "bf686aee80120c029a10f289": 1,
+              "ed9e0793ac75f86f1bcb2af9": 1,
+              "37628c8e4e53454131ead427": 1,
+              "bde9ad9d696f3738aea7ba5f": 1,
+              "61e863b754d606029b08342f": 1,
+              "abb72e178bf0a7941764a886": 1,
+              "57a2af84d98ca113c709a1a2": 1,
+              "b6ded9445473e2cd151a005c": 1,
+              "7c5f644452a23a8d4ac84e48": 1,
+              "a125ad525f5ee530ce1a139f": 1,
+              "72ce00ff1e593ba0f16255be": 1,
+              "30bcb20c281639dd18da11a7": 1,
+              "5af3204ca04545384a92668a": 1,
+              "1a30ad06d006c39d0fd6091b": 1,
+              "1a5bed0c95e67355d38bef62": 1,
+              "476b9cabd3207e9826ddbea6": 1,
+              "c0ec50725f0f0c7f3444dad4": 1,
+              "b76281caad124f9d7dc6cef4": 1,
+              "96b08527e6d01daf5f3ac5e8": 1,
+              "a773d07bb648afad63b5669d": 1,
+              "2018b08f4123ed24a924934d": 1,
+              "3460223bfefcda71b55b4034": 1,
+              "2ffe412de95e96ad6087da73": 1,
+              "264778964ba6752613c7a980": 1,
+              "ef193339382402a8ff411c5a": 1,
+              "62d1b40210c31fdef2ed7384": 1,
+              "feba19c2c56ab8c506f90a9e": 1,
+              "b310b9f4187d7730497592a0": 1,
+              "dd9d460ef181c29228bda968": 1,
+              "9b0dee5517d37b66445b7987": 1,
+              "5863b5ee5f45d9b215831843": 1,
+              "69f08026b0abb644f0394cac": 1,
+              "66b95e91b90e5c0a0afee238": 1,
+              "31e5ec278f31bf43a0de345d": 1,
+              "4bf0ba9ed5539aa2ca5ad2e8": 1,
+              "5f9aef138292ceba24c5a5a2": 1,
+              "76bb332777e19e1e12d19654": 1,
+              "05ca3824b56df8edc414ec4b": 1,
+              "5038bf1d963a0172a67095f1": 1,
+              "7a72b75f98075bd4c25188f7": 1,
+              "c380e27f4e818e64ae8101a4": 1,
+              "cac79e77f9e6af69425e26b2": 1,
+              "8662a99d67e399acd67a11b0": 1,
+              "87eed0a439a3275c8c2f0437": 1,
+              "bf55e3325e60cb4d7cfe5243": 1,
+              "a4319f002ed254aebb7dc67c": 1,
+              "3b45336146b64405f6b88a24": 1,
+              "6eed4008d10fe6bf216b4d9d": 1,
+              "4381eca53cbbebec13db5756": 1,
+              "04760dadf6d540ae49905a94": 1,
+              "f0f980004427b54960f1148d": 1,
+              "8fd9a0a011d25846df01a6b4": 1,
+              "be59966ea1d04c14a4baa6ab": 1,
+              "f617509f24fe3b93ed2f53d6": 1,
+              "2307aefc4d23cdf5ea355f78": 1,
+              "5cc76957b43e85744308527d": 1,
+              "f42031d7d7d37ffb11ec0540": 1,
+              "af8e7a0ff44a65b105f486dd": 1,
+              "0f54f82cf46c12a8884f920e": 1,
+              "ecee15801521fe4c419ad3f9": 1,
+              "5aee0f1e34dc0fb89c14c095": 1,
+              "33e1ea75d062849b7a3e8271": 1,
+              "fb3273cd51573cd77670450d": 1,
+              "a5cffee04602bda61b559636": 1,
+              "139553b05ebc0d92961b6753": 1,
+              "7aa24abaa0be06c11899fadf": 1,
+              "ac5205c3f847541eb980c228": 1,
+              "ec887232a6fedb23a965bf6f": 1,
+              "2468bab00dd2419188289778": 1,
+              "9fb80d7e4a88f84bb3a4aa77": 1,
+              "c5b75c26bc96163ea500cde7": 1,
+              "1a3fa2c053d80ef6d86cf813": 1,
+              "3db4ee38883cb97a182861e5": 1,
+              "14e58ceee33ad518af7777e1": 1,
+              "8e7ff789de47efed49443484": 1,
+              "56e8e045bc9c963d9477a62c": 1,
+              "09f1af2c45a0a74ede6f931b": 1,
+              "3b47459bb3c1946b073a9520": 1,
+              "e99f88f8d545e5ecaae9f61b": 1,
+              "3fadc0fa72089cf7cccd0f2b": 1,
+              "bd9b0c83c821ac070e02fe14": 1,
+              "e0f00f03c43b6c0cc8ccd939": 1,
+              "c386f1b0daa7190f2854e301": 1,
+              "cd4b1d9a1575d91ab53b7a28": 1,
+              "fd457431479554a159bd1183": 1,
+              "a537c78329d67f9949c0c7b3": 1,
+              "ea63ff1f127f55c4102ea613": 1,
+              "9e6e564192875dcc66450703": 1,
+              "75867305ee82813a985b2bc4": 1,
+              "c74bf9d35f2f9fc9f6e976ad": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 16,
+            "D": 197,
+            "QD": 4640,
+            "two_q_gates": 192
+          },
+          "2": {
+            "Q": 16,
+            "D": 197,
+            "QD": 4640,
+            "two_q_gates": 192
+          }
+        },
+        "target_reached": false,
+        "evaluations_to_target": null,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 24.90820360009093
+    },
+    {
+      "seed": 7,
+      "strategy": "random",
+      "file": "results/development_v2/pilot/simplex15_k7-X-seed7-random.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 2,
+        "minimum_witness_weight": 2,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 124,
+            "raw_count": 155,
+            "signature_count": 1,
+            "observed_class_count": 124,
+            "observed_raw_count": 155,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 8,
+            "multiplicities": {
+              "32bd903874642c30842f0414": 1,
+              "517dc231225f48d2b581fa1a": 1,
+              "ac20cc33f4a16132d3b2f240": 1,
+              "cb016f8646fd0c0935019852": 1,
+              "db91630b6d36a29e392ef809": 1,
+              "58190de1efc8faf7cc1c52ca": 1,
+              "f3091ebbed5aa4cab41dfa60": 1,
+              "aec4f77c52954659ba123e32": 1,
+              "2eb2be1d56662706cc223958": 2,
+              "208131a8eac06ee59d4e9579": 1,
+              "1d56b709da7f25e64076902d": 2,
+              "0e64ec0dc96711bf13235c9d": 1,
+              "c81a3b5148a2cc95baae54b5": 1,
+              "989cd39e3ad158af59eee9ff": 1,
+              "e9ffc0fb544d93f0167c0d4e": 1,
+              "80416875e7c8742ca42cb09d": 1,
+              "f0cd0815814fdb5cabe7aa3c": 1,
+              "c0a6bd99b89db44e382eecbc": 1,
+              "6024784eb39645153b09e066": 1,
+              "ce4fe817f10ba49532016847": 2,
+              "d9bb615a0445ec164898610f": 1,
+              "05dcca9ad32c9e8601f89df0": 2,
+              "bda0ff333c1bddb908d7051f": 2,
+              "4ac7a1664256d4ca6d9f4246": 4,
+              "5c40f5cdeba749c79a00a869": 2,
+              "287193f2364c92c09b1563c4": 1,
+              "113b733e2a1c0f10eadacce4": 1,
+              "9811833f1c5361498f5f44e2": 2,
+              "b982bf914e2be3111c35316b": 1,
+              "1857a1ebc3d309d683b7bb2c": 1,
+              "373921f13bb82fcbc4eda8be": 1,
+              "a2858fd2d6b47c10235707e6": 2,
+              "41f002c044a604afbb86bf6f": 1,
+              "78e3bce4675f08f5f98a9403": 2,
+              "6981fea86301667e3b2b679f": 1,
+              "f3046798853c4d564df06bca": 2,
+              "29c30b2fe10c0b25067e507f": 1,
+              "2ef5ba5877fe7e096989a048": 1,
+              "adefe61a895d0f7056a4baef": 1,
+              "c841d888031bae80ed09e8fd": 1,
+              "9f836c4b2e8997fc098f1e8b": 1,
+              "3ed927cb4a1bdcfe17e4f3ba": 1,
+              "3f87de194d8e5e3ccb762db7": 1,
+              "7e14997abec5935d2d27b24f": 1,
+              "876629b4dda585c870260572": 1,
+              "beb542a3f4243a5acd28973e": 1,
+              "8e71b0c37006cc1ef9e16201": 1,
+              "9b1671f066a5c741b0dbc1af": 1,
+              "8afa4cb67d5679e6814acc4d": 1,
+              "e624cab062e86d516858e998": 1,
+              "c10df7c933e5ca5444cf582c": 1,
+              "7a2ea51387317880b5193826": 1,
+              "d6cc455d08dff37a99913cdd": 1,
+              "11777b2663273b832a8ebfb8": 1,
+              "7cf060a8f5afe74e90f416d3": 1,
+              "1fe35d40a5f2c618458695bf": 2,
+              "91ef170cfb22c9bedd07ac92": 1,
+              "29cbd06de67501628ded12dc": 2,
+              "9c66f07853e1dc1d0098eb0c": 2,
+              "175fba260d8341b919c11a5d": 4,
+              "d4e34206280523a40c0ac1ff": 2,
+              "96e4cf5fd5951de92135487b": 1,
+              "33b173d4582c1871bf4e3a82": 1,
+              "cf4addff5796cf90f937656a": 2,
+              "70e1c87aaaf9476bfd28b95a": 1,
+              "6fbc6ec2e646afadb759cefe": 1,
+              "3f01b7445543e65fe27836ee": 1,
+              "8a37a3854c3bb7dc9fd9bd6d": 1,
+              "8ad588c8c256c240318bfb68": 2,
+              "1c4dd9547f50d720e1830224": 1,
+              "36ad35513db5b43aa70659a6": 1,
+              "ec0d3d57a9ffee9a1b3ecdff": 2,
+              "a9191235b797f00b925b6c24": 1,
+              "783156192a3f9df3f77b6d45": 1,
+              "8bf07d0d918da6774599a19e": 2,
+              "559166dfcbd6954ebb24e12d": 1,
+              "b5e7791e0c7a4f8a01627a9b": 1,
+              "50f3baf35525a64f26b110ba": 1,
+              "478c85e014ad0cf21a9dfdb2": 1,
+              "7d59e7a470947bc650e3eddc": 2,
+              "f2d8ddcb57f19a253f288fb0": 2,
+              "2d6b3d39db81b5ddf373177d": 1,
+              "5528c69cfedab2093c9a0b8f": 1,
+              "de5a2cc1b5ed6b80264723d4": 1,
+              "bbb1e07317e3aef2d118a0f7": 1,
+              "ddd7a1d2bcbd3ca308809c9b": 1,
+              "7d431e2c95106f8901a4fdd7": 1,
+              "40b7750ce2f8428872c79e48": 1,
+              "416be096a552c6ea47deb52c": 1,
+              "0a7be40d2aa1de0e5ee5e935": 1,
+              "9fd52beff06a4149a80c894b": 1,
+              "bd2cb4987f4c571aaf55065c": 1,
+              "4949909541bb2f86bd3fa734": 1,
+              "71cb691d386106a7d81c3670": 1,
+              "1ce3dfbd62314cdb0d312adc": 1,
+              "d6d73558df4caab9cdc84c17": 1,
+              "b3cbece114641842b23102aa": 1,
+              "7768fe33f52ac87a13a062e6": 1,
+              "9cea93a28fd6a70642a0b4b0": 1,
+              "a36a6341175aefd56a1207df": 1,
+              "520d4e714dd7995696cf1e74": 1,
+              "1e58a1636a557aa965f0c08d": 1,
+              "ed15b3fb5846393a6b62461f": 1,
+              "847200ce5ac1273eef39acee": 1,
+              "182350a741b60918d7d54a0a": 1,
+              "913e477567aac6bfbe8654e4": 1,
+              "5ad0c0b15a0d206fe935a36f": 1,
+              "54220bb7e096a10ea8713e4f": 1,
+              "094472c54983218fc5d278ac": 1,
+              "e56016661818ecb277080ae2": 2,
+              "e707da358151ee95bf76678a": 1,
+              "45e534edcba1ef1d03fab77d": 1,
+              "4d31cd575e9733e79139d4fd": 2,
+              "5abb87bc20486d9a2260b373": 1,
+              "23bbbbb5cf7c9467c513c882": 1,
+              "aa508cf41831118fd73d2617": 2,
+              "eab16e4c687daefa6ab409be": 2,
+              "925330fafba7651d24870e9b": 2,
+              "9755e5df1f8357a21df6dd9a": 1,
+              "86a1712628e6c99833749f14": 1,
+              "7f355a6500d40f2234a2e6e8": 1,
+              "a4dff575516b4da63d170c5d": 1,
+              "63f5cbc288855bae322fdaf6": 1,
+              "ec96d94c60a50d059259499b": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 16,
+            "D": 164,
+            "QD": 4100,
+            "two_q_gates": 192
+          },
+          "2": {
+            "Q": 16,
+            "D": 164,
+            "QD": 4100,
+            "two_q_gates": 192
+          }
+        },
+        "target_reached": false,
+        "evaluations_to_target": null,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 21.91802840004675
+    },
+    {
+      "seed": 7,
+      "strategy": "resource",
+      "file": "results/development_v2/pilot/simplex15_k7-X-seed7-resource.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 2,
+        "minimum_witness_weight": 2,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 124,
+            "raw_count": 155,
+            "signature_count": 1,
+            "observed_class_count": 124,
+            "observed_raw_count": 155,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 8,
+            "multiplicities": {
+              "32bd903874642c30842f0414": 1,
+              "517dc231225f48d2b581fa1a": 1,
+              "ac20cc33f4a16132d3b2f240": 1,
+              "cb016f8646fd0c0935019852": 1,
+              "db91630b6d36a29e392ef809": 1,
+              "58190de1efc8faf7cc1c52ca": 1,
+              "f3091ebbed5aa4cab41dfa60": 1,
+              "aec4f77c52954659ba123e32": 1,
+              "2eb2be1d56662706cc223958": 2,
+              "208131a8eac06ee59d4e9579": 1,
+              "1d56b709da7f25e64076902d": 2,
+              "0e64ec0dc96711bf13235c9d": 1,
+              "c81a3b5148a2cc95baae54b5": 1,
+              "989cd39e3ad158af59eee9ff": 1,
+              "e9ffc0fb544d93f0167c0d4e": 1,
+              "80416875e7c8742ca42cb09d": 1,
+              "f0cd0815814fdb5cabe7aa3c": 1,
+              "c0a6bd99b89db44e382eecbc": 1,
+              "6024784eb39645153b09e066": 1,
+              "ce4fe817f10ba49532016847": 2,
+              "d9bb615a0445ec164898610f": 1,
+              "05dcca9ad32c9e8601f89df0": 2,
+              "bda0ff333c1bddb908d7051f": 2,
+              "4ac7a1664256d4ca6d9f4246": 4,
+              "5c40f5cdeba749c79a00a869": 2,
+              "287193f2364c92c09b1563c4": 1,
+              "113b733e2a1c0f10eadacce4": 1,
+              "9811833f1c5361498f5f44e2": 2,
+              "b982bf914e2be3111c35316b": 1,
+              "1857a1ebc3d309d683b7bb2c": 1,
+              "373921f13bb82fcbc4eda8be": 1,
+              "a2858fd2d6b47c10235707e6": 2,
+              "41f002c044a604afbb86bf6f": 1,
+              "78e3bce4675f08f5f98a9403": 2,
+              "6981fea86301667e3b2b679f": 1,
+              "f3046798853c4d564df06bca": 2,
+              "29c30b2fe10c0b25067e507f": 1,
+              "2ef5ba5877fe7e096989a048": 1,
+              "adefe61a895d0f7056a4baef": 1,
+              "c841d888031bae80ed09e8fd": 1,
+              "9f836c4b2e8997fc098f1e8b": 1,
+              "3ed927cb4a1bdcfe17e4f3ba": 1,
+              "3f87de194d8e5e3ccb762db7": 1,
+              "7e14997abec5935d2d27b24f": 1,
+              "876629b4dda585c870260572": 1,
+              "beb542a3f4243a5acd28973e": 1,
+              "8e71b0c37006cc1ef9e16201": 1,
+              "9b1671f066a5c741b0dbc1af": 1,
+              "8afa4cb67d5679e6814acc4d": 1,
+              "e624cab062e86d516858e998": 1,
+              "c10df7c933e5ca5444cf582c": 1,
+              "7a2ea51387317880b5193826": 1,
+              "d6cc455d08dff37a99913cdd": 1,
+              "11777b2663273b832a8ebfb8": 1,
+              "7cf060a8f5afe74e90f416d3": 1,
+              "1fe35d40a5f2c618458695bf": 2,
+              "91ef170cfb22c9bedd07ac92": 1,
+              "29cbd06de67501628ded12dc": 2,
+              "9c66f07853e1dc1d0098eb0c": 2,
+              "175fba260d8341b919c11a5d": 4,
+              "d4e34206280523a40c0ac1ff": 2,
+              "96e4cf5fd5951de92135487b": 1,
+              "33b173d4582c1871bf4e3a82": 1,
+              "cf4addff5796cf90f937656a": 2,
+              "70e1c87aaaf9476bfd28b95a": 1,
+              "6fbc6ec2e646afadb759cefe": 1,
+              "3f01b7445543e65fe27836ee": 1,
+              "8a37a3854c3bb7dc9fd9bd6d": 1,
+              "8ad588c8c256c240318bfb68": 2,
+              "1c4dd9547f50d720e1830224": 1,
+              "36ad35513db5b43aa70659a6": 1,
+              "ec0d3d57a9ffee9a1b3ecdff": 2,
+              "a9191235b797f00b925b6c24": 1,
+              "783156192a3f9df3f77b6d45": 1,
+              "8bf07d0d918da6774599a19e": 2,
+              "559166dfcbd6954ebb24e12d": 1,
+              "b5e7791e0c7a4f8a01627a9b": 1,
+              "50f3baf35525a64f26b110ba": 1,
+              "478c85e014ad0cf21a9dfdb2": 1,
+              "7d59e7a470947bc650e3eddc": 2,
+              "f2d8ddcb57f19a253f288fb0": 2,
+              "2d6b3d39db81b5ddf373177d": 1,
+              "5528c69cfedab2093c9a0b8f": 1,
+              "de5a2cc1b5ed6b80264723d4": 1,
+              "bbb1e07317e3aef2d118a0f7": 1,
+              "ddd7a1d2bcbd3ca308809c9b": 1,
+              "7d431e2c95106f8901a4fdd7": 1,
+              "40b7750ce2f8428872c79e48": 1,
+              "416be096a552c6ea47deb52c": 1,
+              "0a7be40d2aa1de0e5ee5e935": 1,
+              "9fd52beff06a4149a80c894b": 1,
+              "bd2cb4987f4c571aaf55065c": 1,
+              "4949909541bb2f86bd3fa734": 1,
+              "71cb691d386106a7d81c3670": 1,
+              "1ce3dfbd62314cdb0d312adc": 1,
+              "d6d73558df4caab9cdc84c17": 1,
+              "b3cbece114641842b23102aa": 1,
+              "7768fe33f52ac87a13a062e6": 1,
+              "9cea93a28fd6a70642a0b4b0": 1,
+              "a36a6341175aefd56a1207df": 1,
+              "520d4e714dd7995696cf1e74": 1,
+              "1e58a1636a557aa965f0c08d": 1,
+              "ed15b3fb5846393a6b62461f": 1,
+              "847200ce5ac1273eef39acee": 1,
+              "182350a741b60918d7d54a0a": 1,
+              "913e477567aac6bfbe8654e4": 1,
+              "5ad0c0b15a0d206fe935a36f": 1,
+              "54220bb7e096a10ea8713e4f": 1,
+              "094472c54983218fc5d278ac": 1,
+              "e56016661818ecb277080ae2": 2,
+              "e707da358151ee95bf76678a": 1,
+              "45e534edcba1ef1d03fab77d": 1,
+              "4d31cd575e9733e79139d4fd": 2,
+              "5abb87bc20486d9a2260b373": 1,
+              "23bbbbb5cf7c9467c513c882": 1,
+              "aa508cf41831118fd73d2617": 2,
+              "eab16e4c687daefa6ab409be": 2,
+              "925330fafba7651d24870e9b": 2,
+              "9755e5df1f8357a21df6dd9a": 1,
+              "86a1712628e6c99833749f14": 1,
+              "7f355a6500d40f2234a2e6e8": 1,
+              "a4dff575516b4da63d170c5d": 1,
+              "63f5cbc288855bae322fdaf6": 1,
+              "ec96d94c60a50d059259499b": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 16,
+            "D": 167,
+            "QD": 3173,
+            "two_q_gates": 192
+          },
+          "2": {
+            "Q": 16,
+            "D": 167,
+            "QD": 3173,
+            "two_q_gates": 192
+          }
+        },
+        "target_reached": false,
+        "evaluations_to_target": null,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 12.017386200022884
+    }
+  ],
+  "v03_pilot_runs": 0
+}

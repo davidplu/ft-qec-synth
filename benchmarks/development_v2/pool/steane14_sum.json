@@ -1,0 +1,24 @@
+{
+  "n": 14,
+  "generators": [
+    "IIIXXXXIIIIIII",
+    "IXXIIXXIIIIIII",
+    "XIXIXIXIIIIIII",
+    "IIIZZZZIIIIIII",
+    "IZZIIZZIIIIIII",
+    "ZIZIZIZIIIIIII",
+    "IIIIIIIIIIXXXX",
+    "IIIIIIIIXXIIXX",
+    "IIIIIIIXIXIXIX",
+    "IIIIIIIIIIZZZZ",
+    "IIIIIIIIZZIIZZ",
+    "IIIIIIIZIZIZIZ"
+  ],
+  "name": "steane14_sum",
+  "provenance": {
+    "method": "explicit generic construction in experiments/development_v2.py",
+    "family": "direct_sum",
+    "shared_parent": "two steane7 blocks",
+    "external_architectures_used": false
+  }
+}

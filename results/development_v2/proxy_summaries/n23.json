@@ -1,0 +1,28 @@
+{
+  "name": "generic-shor-4x5-plus-3-fixed-qubits-proxy",
+  "n": 23,
+  "check_count": 22,
+  "rounds": 3,
+  "max_fault_weight": 3,
+  "evaluation_slots": 32,
+  "seconds": 16.951535900007002,
+  "memory": {
+    "working_set_bytes": 86294528,
+    "peak_working_set_bytes": 110338048
+  },
+  "best_dc": 2,
+  "independent_best_exclusion": {
+    "verified": true,
+    "excluded_through": 1,
+    "singleton_replay_count": 5852,
+    "joined_combinations_checked": 5852,
+    "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+  },
+  "certification_seconds": 0.8731105002807453,
+  "combinations_examined": 5000710,
+  "unique_architectures": 26,
+  "distance_code": 4,
+  "held_out_runs": 0,
+  "boundary_upper_bound": "not used for runtime selection",
+  "spectrum_seconds": 14.011125200195238
+}

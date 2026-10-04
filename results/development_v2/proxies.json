@@ -1,0 +1,178 @@
+[
+  {
+    "name": "generic-shor-4x5-plus-3-fixed-qubits-proxy",
+    "n": 23,
+    "check_count": 22,
+    "rounds": 3,
+    "max_fault_weight": 3,
+    "evaluation_slots": 32,
+    "seconds": 17.1676627000561,
+    "memory": {
+      "working_set_bytes": 86294528,
+      "peak_working_set_bytes": 110338048
+    },
+    "best_dc": 2,
+    "independent_best_exclusion": {
+      "verified": true,
+      "excluded_through": 2,
+      "singleton_replay_count": 5852,
+      "joined_combinations_checked": 241285,
+      "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+    },
+    "certification_seconds": 0.8731105002807453,
+    "combinations_examined": 5000710,
+    "unique_architectures": 26,
+    "distance_code": 4,
+    "held_out_runs": 0,
+    "boundary_upper_bound": "not used for runtime selection",
+    "spectrum_seconds": 14.011125200195238,
+    "native_search_seconds": 16.951535900007002,
+    "independent_audit_seconds": 0.21612680004909635,
+    "independently_resolved_target_architecture": {
+      "node": 2,
+      "architecture_id": "d34b239f9a6e43164a2b",
+      "native_lower_bound": 2,
+      "independent_lower_bound": 3,
+      "exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 5852,
+        "joined_combinations_checked": 241285,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    "best_dc_independent_lower_bound": 3
+  },
+  {
+    "name": "generic-shor-5x5-plus-0-fixed-qubits-proxy",
+    "n": 25,
+    "check_count": 24,
+    "rounds": 3,
+    "max_fault_weight": 3,
+    "evaluation_slots": 32,
+    "seconds": 243.28307570004836,
+    "memory": {
+      "working_set_bytes": 105963520,
+      "peak_working_set_bytes": 148115456
+    },
+    "best_dc": 2,
+    "independent_best_exclusion": {
+      "verified": true,
+      "excluded_through": 2,
+      "singleton_replay_count": 6793,
+      "joined_combinations_checked": 290057,
+      "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+    },
+    "certification_seconds": 7.819861700292677,
+    "combinations_examined": 4609430,
+    "unique_architectures": 32,
+    "distance_code": 5,
+    "held_out_runs": 0,
+    "boundary_upper_bound": "not used for runtime selection",
+    "spectrum_seconds": 212.98455950035714,
+    "native_search_seconds": 242.76246530003846,
+    "independent_audit_seconds": 0.5206104000099003,
+    "independently_resolved_target_architecture": {
+      "node": 3,
+      "architecture_id": "7085301d87aab624acda",
+      "native_lower_bound": 2,
+      "independent_lower_bound": 3,
+      "exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 6793,
+        "joined_combinations_checked": 290057,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    "best_dc_independent_lower_bound": 3
+  },
+  {
+    "name": "generic-shor-5x6-plus-1-fixed-qubits-proxy",
+    "n": 31,
+    "check_count": 30,
+    "rounds": 3,
+    "max_fault_weight": 3,
+    "evaluation_slots": 32,
+    "seconds": 307.1901024999097,
+    "memory": {
+      "working_set_bytes": 118304768,
+      "peak_working_set_bytes": 159543296
+    },
+    "best_dc": 2,
+    "independent_best_exclusion": {
+      "verified": true,
+      "excluded_through": 2,
+      "singleton_replay_count": 7834,
+      "joined_combinations_checked": 345286,
+      "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+    },
+    "certification_seconds": 6.169913900084794,
+    "combinations_examined": 4012573,
+    "unique_architectures": 31,
+    "distance_code": 5,
+    "held_out_runs": 0,
+    "boundary_upper_bound": "not used for runtime selection",
+    "spectrum_seconds": 258.2089148000814,
+    "native_search_seconds": 306.82669669995084,
+    "independent_audit_seconds": 0.3634057999588549,
+    "independently_resolved_target_architecture": {
+      "node": 2,
+      "architecture_id": "d6b4b0ca970f67d1163d",
+      "native_lower_bound": 2,
+      "independent_lower_bound": 3,
+      "exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 7834,
+        "joined_combinations_checked": 345286,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    "best_dc_independent_lower_bound": 3
+  },
+  {
+    "name": "generic-shor-6x7-plus-2-fixed-qubits-proxy",
+    "n": 44,
+    "check_count": 43,
+    "rounds": 3,
+    "max_fault_weight": 3,
+    "evaluation_slots": 32,
+    "seconds": 612.6637260999996,
+    "memory": {
+      "working_set_bytes": 149274624,
+      "peak_working_set_bytes": 244830208
+    },
+    "best_dc": 2,
+    "independent_best_exclusion": {
+      "verified": true,
+      "excluded_through": 2,
+      "singleton_replay_count": 12200,
+      "joined_combinations_checked": 835195,
+      "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+    },
+    "certification_seconds": 7.0688147998880595,
+    "combinations_examined": 4412100,
+    "unique_architectures": 29,
+    "distance_code": 6,
+    "held_out_runs": 0,
+    "boundary_upper_bound": "not used for runtime selection",
+    "spectrum_seconds": 554.1980758004356,
+    "native_search_seconds": 611.7381485999795,
+    "independent_audit_seconds": 0.9255775000201538,
+    "independently_resolved_target_architecture": {
+      "node": 2,
+      "architecture_id": "bffa7e43490a1ab28b05",
+      "native_lower_bound": 2,
+      "independent_lower_bound": 3,
+      "exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12200,
+        "joined_combinations_checked": 835195,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      }
+    },
+    "best_dc_independent_lower_bound": 3
+  }
+]

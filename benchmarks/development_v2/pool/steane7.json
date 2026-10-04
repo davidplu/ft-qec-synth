@@ -1,0 +1,18 @@
+{
+  "n": 7,
+  "generators": [
+    "IIIXXXX",
+    "IXXIIXX",
+    "XIXIXIX",
+    "IIIZZZZ",
+    "IZZIIZZ",
+    "ZIZIZIZ"
+  ],
+  "name": "steane7",
+  "provenance": {
+    "method": "explicit generic construction in experiments/development_v2.py",
+    "family": "simplex_css",
+    "shared_parent": null,
+    "external_architectures_used": false
+  }
+}

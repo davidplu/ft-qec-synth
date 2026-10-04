@@ -1,0 +1,23 @@
+{
+  "n": 12,
+  "generators": [
+    "ZZIIIIIIIIII",
+    "IZZIIIIIIIII",
+    "IIZZIIIIIIII",
+    "IIIIZZIIIIII",
+    "IIIIIZZIIIII",
+    "IIIIIIZZIIII",
+    "IIIIIIIIZZII",
+    "IIIIIIIIIZZI",
+    "IIIIIIIIIIZZ",
+    "XXXXXXXXIIII",
+    "IIIIXXXXXXXX"
+  ],
+  "name": "shor3x4",
+  "provenance": {
+    "method": "explicit generic construction in experiments/development_v2.py",
+    "family": "rectangular_shor",
+    "shared_parent": null,
+    "external_architectures_used": false
+  }
+}

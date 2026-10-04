@@ -1,0 +1,1818 @@
+{
+  "name": "grid4_dense",
+  "task": "grid4_dense-Z",
+  "basis": "Z",
+  "code_path": "benchmarks/development_v2/pool/grid4_dense.json",
+  "family": "checkerboard_grid",
+  "shared_parent": "grid4",
+  "n": 16,
+  "k": 1,
+  "css": true,
+  "distance_certificate": {
+    "status": "EXACT",
+    "distance": 4,
+    "witness": "ZYYZIIIIIIIIIIII",
+    "patterns": 16317,
+    "method": "rank-preserving stabilizer-group basis equivalence to grid4"
+  },
+  "boundary": {
+    "status": "EXACT_TERMINAL_ONLY",
+    "distance": 4,
+    "lower_bound": 4,
+    "upper_bound": 4,
+    "witness": {
+      "fault_count": 4,
+      "faults": [
+        {
+          "operation": 540,
+          "qubits": [
+            0
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:540",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 544,
+          "qubits": [
+            4
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:544",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 548,
+          "qubits": [
+            8
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:548",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 552,
+          "qubits": [
+            12
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:552",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        }
+      ],
+      "checks": [],
+      "relation": "unassigned",
+      "hook_support": [],
+      "flags_fired": false,
+      "flag_information_cancelled": false,
+      "logical_coset": 1,
+      "detector_outcomes": 0,
+      "flag_outcomes": 0,
+      "final_data_pauli": "IIIIIIIIIIIIIIII"
+    },
+    "subsets": 962,
+    "seconds": 0.07111979997716844,
+    "method": "physical singleton replay plus exhaustive classical terminal-flip supports",
+    "full_circuit_lower_bound": false,
+    "axes": [
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z"
+    ]
+  },
+  "classification": "OPEN_HEADROOM",
+  "difficulty": "CERTIFICATION_TIER_LIMITED",
+  "d_initial": 3,
+  "d_target": 4,
+  "initial_target_frequency": 0.0,
+  "calibration_runs": [
+    {
+      "seed": 0,
+      "initial_ids": [
+        "5705a04c4d08f55694a3",
+        "ccb741cdfc88061e4d36",
+        "d26a947c188d18f3c554",
+        "8b52e73d1f27a15cd5c9",
+        "aae85885914ad1c60837",
+        "b12dfdb8990c3a5118f0"
+      ],
+      "bounds": [
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 550,
+          "fault_variants": 5776,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 730,
+          "fault_variants": 7306,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 706,
+          "fault_variants": 7102,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 766,
+          "fault_variants": 7612,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 718,
+          "fault_variants": 7204,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 136,
+                "qubits": [
+                  19,
+                  4
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:136",
+                "before": false,
+                "round_index": 0,
+                "check": 12,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              },
+              {
+                "operation": 140,
+                "qubits": [
+                  19,
+                  11
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:140",
+                "before": false,
+                "round_index": 0,
+                "check": 12,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 5
+              }
+            ],
+            "checks": [
+              12
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              3,
+              7,
+              11,
+              15
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIXIIIXIIIXIIIX"
+          },
+          "reason": null,
+          "combinations_examined": 102144,
+          "fault_locations": 730,
+          "fault_variants": 7306,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 30,
+            "raw_count": 30,
+            "signature_count": 1,
+            "observed_class_count": 30,
+            "observed_raw_count": 30,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 2,
+            "multiplicities": {
+              "926b39d3dd268b6f703f557a": 1,
+              "b8af906059592174b0649a00": 1,
+              "3abbc0f48659d1ed4c273616": 1,
+              "c47dcb37a416b82d86c1d6c5": 1,
+              "25a4faa134d1ab0de0de5ef5": 1,
+              "8ce609a64e8f7f0a53b0fe1c": 1,
+              "a7eae4444e34907e9100fb3f": 1,
+              "ff4fcb2671ebefe01f7c3926": 1,
+              "1193b1515f24f4bcf9aac7bd": 1,
+              "67069f4fd2867bb49ccd00d4": 1,
+              "76cadba5abd7a071ead9d664": 1,
+              "63b8b5d79f0ec421498e564e": 1,
+              "2f8761ea48c777357427b5e1": 1,
+              "e62935a43d31b36928fabc78": 1,
+              "5bb00b5923e4491dc0f4b5ed": 1,
+              "4f325f4844ad2125c40c4dbc": 1,
+              "8e7560141d843c1048e3abcb": 1,
+              "8fd38c465950bf78051fa400": 1,
+              "57d48c0f161d1fe03caac83c": 1,
+              "1da7355ff7400b4c03889e46": 1,
+              "255a76f878120bed10bb10f5": 1,
+              "0e3f3573667d66e3d7090876": 1,
+              "636630b758bc7b155269f4c0": 1,
+              "937fcb75b741bb7b1235e22e": 1,
+              "69cee04a427e8c444780d3e2": 1,
+              "2d6f74f9d3ef04a83a95f22d": 1,
+              "415ff90d64ca7b364a1a9b70": 1,
+              "0c34cdf2ddfc05b7924c2396": 1,
+              "e1e4813f598473f893c908d7": 1,
+              "5b859eb7c8a285c25a77c289": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        }
+      ],
+      "seconds": 5.555392500013113,
+      "best_dc": 3
+    },
+    {
+      "seed": 1,
+      "initial_ids": [
+        "5705a04c4d08f55694a3",
+        "2df28d37e2b4cc8f277f",
+        "12302f6d77e6b0479269",
+        "4a10cd5b309e37ec3070",
+        "96431b4602b593bf3adc",
+        "76909ad12877cbb95fee"
+      ],
+      "bounds": [
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 550,
+          "fault_variants": 5776,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 42,
+                "qubits": [
+                  16,
+                  3
+                ],
+                "label": "IX",
+                "kind": "cz",
+                "location": "op:42",
+                "before": false,
+                "round_index": 0,
+                "check": 14,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 7
+              },
+              {
+                "operation": 85,
+                "qubits": [
+                  28,
+                  0
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:85",
+                "before": false,
+                "round_index": 0,
+                "check": 12,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 4
+              }
+            ],
+            "checks": [
+              12,
+              14
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              3,
+              7,
+              11,
+              15
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIXIIIXIIIXIIIX"
+          },
+          "reason": null,
+          "combinations_examined": 111420,
+          "fault_locations": 766,
+          "fault_variants": 7612,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 7,
+                "qubits": [
+                  20,
+                  7
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:7",
+                "before": false,
+                "round_index": 0,
+                "check": 4,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 4
+              },
+              {
+                "operation": 92,
+                "qubits": [
+                  27,
+                  42
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:92",
+                "before": false,
+                "round_index": 0,
+                "check": 11,
+                "role": "flag_close",
+                "interval": 0,
+                "interaction_position": 7
+              }
+            ],
+            "checks": [
+              4,
+              11
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              3,
+              7,
+              10,
+              14
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIXIIIXIIXIIIXI"
+          },
+          "reason": null,
+          "combinations_examined": 131845,
+          "fault_locations": 754,
+          "fault_variants": 7510,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 706,
+          "fault_variants": 7102,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 21,
+                "qubits": [
+                  21,
+                  12
+                ],
+                "label": "IX",
+                "kind": "cz",
+                "location": "op:21",
+                "before": false,
+                "round_index": 0,
+                "check": 13,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 6
+              },
+              {
+                "operation": 79,
+                "qubits": [
+                  16,
+                  8
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:79",
+                "before": false,
+                "round_index": 0,
+                "check": 8,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 4
+              }
+            ],
+            "checks": [
+              8,
+              13
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              3,
+              7,
+              11,
+              13,
+              14,
+              15
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIXIIIXIIIXIXXX"
+          },
+          "reason": null,
+          "combinations_examined": 84914,
+          "fault_locations": 694,
+          "fault_variants": 7000,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 38,
+                "qubits": [
+                  16,
+                  3
+                ],
+                "label": "IX",
+                "kind": "cz",
+                "location": "op:38",
+                "before": false,
+                "round_index": 0,
+                "check": 10,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 5
+              },
+              {
+                "operation": 55,
+                "qubits": [
+                  24,
+                  7
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:55",
+                "before": false,
+                "round_index": 0,
+                "check": 8,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 6
+              }
+            ],
+            "checks": [
+              8,
+              10
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              0,
+              4,
+              8,
+              12
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "XIIIXIIIXIIIXIII"
+          },
+          "reason": null,
+          "combinations_examined": 120383,
+          "fault_locations": 778,
+          "fault_variants": 7714,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 91,
+            "raw_count": 115,
+            "signature_count": 1,
+            "observed_class_count": 91,
+            "observed_raw_count": 115,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 5,
+            "multiplicities": {
+              "b7fa46313e07905827ecfa5d": 2,
+              "32528669a73a8412cea8d0ac": 2,
+              "47d5cad9109cd070af4776ab": 1,
+              "0e2a00736b72f3d9a66094ca": 1,
+              "2597f7b23da43939ee072736": 1,
+              "8536150fc0949db197cf1d5c": 1,
+              "4b954fc30b1628fac3795f33": 1,
+              "cac233b5aed7b28acd072319": 2,
+              "7a42b32877112895dec3186a": 1,
+              "36b8c80b36135b3703ff6a7e": 1,
+              "c9c5e6f94bd734eb6f6eab30": 1,
+              "21fdc54222a48c7dbc01bf55": 1,
+              "9331821fa2d357b4624b03ad": 2,
+              "4a3e374c0e4122948f15e0e4": 1,
+              "5cb83a3df3aa77494425ef36": 1,
+              "1cf8af5865c071003977f340": 1,
+              "8e1aeae628eca23215aad1c5": 1,
+              "5ef6bae6611395f30524dfac": 1,
+              "2e6caec986e1f8584fa353ae": 1,
+              "fe94addc7b6cc88ed0ddab7d": 1,
+              "ec0dd89094446fcc0b581540": 2,
+              "14f3f4e07d328321e10b4c5d": 2,
+              "63c467247fb89e956acf30f8": 1,
+              "bc035260197f8004c01e8c3f": 1,
+              "e205032c7aaf6693603cfd43": 2,
+              "745a68429aa229b1d3deaaba": 2,
+              "909d480940be5bf7666864f4": 1,
+              "09a38550f2677e07786b01a9": 1,
+              "1c801e1c7bf8e889f52dd85e": 1,
+              "d2aeda205f05cb2312d22344": 1,
+              "94f721d58bf17bac79f8c3ed": 2,
+              "6ffb1101ae29055798d066d9": 2,
+              "cef662328c382afcb0d4cfd7": 1,
+              "efb7de15de1728b5088a3449": 1,
+              "b51173dc29c2406da13a3f5e": 1,
+              "84d2f9a50ca0888c2a9b9815": 1,
+              "a80cb3432c885d6741f8f9a1": 1,
+              "fea6428bdb36a76673e8879b": 2,
+              "102eb42bb653586ecf6c2757": 1,
+              "13de90d943dd92c8df64b4c9": 1,
+              "0488d461a36285f730458a09": 1,
+              "4202dc579439ab5451a69749": 1,
+              "40e6791d6c6189dc4989a1c2": 2,
+              "dee43eb1dc2df23b5b5fe12e": 1,
+              "2839263c65732f4b50b983c9": 1,
+              "a0b2ef42b59747bd277290a6": 1,
+              "8e40f39be9175d654e6b4a68": 1,
+              "7d7840f92a63fe54247ca1ac": 1,
+              "3239dd931bc54194e3be8db4": 1,
+              "6c3015ac5ecb77932e22534c": 1,
+              "bfb583de439afd9061be5b5e": 2,
+              "71583c61972cc93a3406e4ef": 2,
+              "eb4f2affaf9018178be4f5ec": 1,
+              "176ec52cdb8bbab2c447a259": 1,
+              "1a1d099542a724243e35d69f": 2,
+              "426dfb815d8080ce92234052": 2,
+              "0e6c4893fa028632d8218e37": 1,
+              "59dc6c5bdef9e8b2b0a6ec1e": 1,
+              "7650a5b93ef0ab31e40e8a0c": 1,
+              "a5d2739a3dd0968ed9afa5ff": 1,
+              "1f8f36ae55caa08a36fd5a09": 2,
+              "6c78264dd67f2d2758d23c81": 2,
+              "1a84a6ba62d5bfbb1d3cba9e": 1,
+              "6e2cbe04ede20cb4d0eee38c": 1,
+              "472e913b788af5dc7d319ea8": 1,
+              "5a8281c44f00acd9d27b431f": 1,
+              "0be54664ac1185b932028364": 1,
+              "a87706ef7ea16cf37c40152b": 2,
+              "b5dcad799207da2cb634bca9": 1,
+              "d1fa12f5e60a0bdcabd60d67": 1,
+              "2109a74580476cd6994a0e8a": 1,
+              "27858cae012cd60d9bdaada5": 1,
+              "cd8e0a847eb757383efce280": 2,
+              "402f14d16139de23ba11248b": 1,
+              "81da46bb029386ef18700201": 1,
+              "89eac952d06162e52f84ad37": 1,
+              "d8cc4a358171562ff4f543dd": 1,
+              "97fdd1adc0a9ff553e87f9f8": 1,
+              "38004808f799700dbf3ab3f6": 1,
+              "f42a945003d69c0e98503f14": 1,
+              "7b3f344824ecdfe40227cec4": 1,
+              "29a7b5c825b05f946f668613": 2,
+              "ae88924107a41e7507945720": 2,
+              "6fb8c220bd0e1937e648bba2": 1,
+              "ccd6f18e38353a90a1495b84": 1,
+              "0ea7ef3469a68c82c50e7d54": 2,
+              "c9ed60590cd82c1cb7d2c823": 2,
+              "f9bbe7c7472e7c52ce5923b2": 1,
+              "de6016a7027497ff833c966e": 1,
+              "0d4e27661343b26812abb39b": 1,
+              "38a3fcaad77f3c92e4b1e350": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 30,
+            "raw_count": 36,
+            "signature_count": 1,
+            "observed_class_count": 30,
+            "observed_raw_count": 36,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 3,
+            "multiplicities": {
+              "e224f90799d0d9e71ba79d21": 2,
+              "5c5ba6d83db8b77245014171": 1,
+              "f719b63827a77e71ee6998af": 2,
+              "83235da45083b63d122305ef": 1,
+              "896c4480032c2ee35bf44b4a": 1,
+              "d13092ffb210307676b80ea1": 1,
+              "0ea8fdaf165b92e526df4215": 1,
+              "1316ad73a1a460a91ec7506a": 1,
+              "962cad435c4f60e040b10cb0": 1,
+              "951bcbe3822df5699607e5c3": 1,
+              "3764e50a894770f3a0829a3f": 1,
+              "12cedb0adaee38e4874bbe45": 1,
+              "3c1d9ce598d82c5c58d6bd03": 2,
+              "8d46aef3495d9009d45f6bf6": 1,
+              "74e8d7d4825f287c1a0cc7af": 2,
+              "0464090663221876954c6c73": 1,
+              "9a4f02b4c14300006ccd7f63": 1,
+              "8ee7e526417e7152f374dfdb": 1,
+              "da430f5314fa2b08433de494": 1,
+              "ded7ec386455a8c82df95ba4": 1,
+              "9a8192a4537dae6e5864b090": 1,
+              "77a5036e087a894569a7a438": 1,
+              "5873a472d1ac2e4795b324d3": 1,
+              "735910be1fc2d14a25244b73": 1,
+              "a2c9c0bd0695af312630e842": 1,
+              "693e7e1684e0afacb9cb3a48": 1,
+              "28917c664ec3ad876a72030b": 2,
+              "daab6a1dfdbeb4fd409f47bc": 1,
+              "b52febeca8fefb7a8f17d12d": 2,
+              "d94b07276bbe62a723ea89d1": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 89,
+            "raw_count": 89,
+            "signature_count": 1,
+            "observed_class_count": 89,
+            "observed_raw_count": 89,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 5,
+            "multiplicities": {
+              "1501c8af506cc62734a22410": 1,
+              "6f6635c74c87913fed64ce7f": 1,
+              "6c95361a3515ff07f9b04d51": 1,
+              "fe81536bdf7a6705b66887c5": 1,
+              "48101a65b1547040be2ff66f": 1,
+              "63ddfb17583eb170f813b5f1": 1,
+              "beef37d90ae84ede3357fc6d": 1,
+              "7e63241de23d54b09e58b3b9": 1,
+              "e53fafda59133ce17a9bc0b7": 1,
+              "5a944709e29105c169e20771": 1,
+              "f0103537b3f584139f23149a": 1,
+              "5fec8f142340255a9a649b2a": 1,
+              "f36aab974e4c89a355bba4fb": 1,
+              "630d330819ee40665a00cac6": 1,
+              "43795d9294503794266cf1f3": 1,
+              "fc06b73d3647b0b80f037368": 1,
+              "253b627fe42f078ce0076dbe": 1,
+              "98ccad1079a8dbc226182ce7": 1,
+              "f235db421be76e5b3f143675": 1,
+              "6af575cb9034e60546613ddc": 1,
+              "feebd67e015fa08cec31ef29": 1,
+              "7706211a37cafcd2afdaac71": 1,
+              "fd27ece863fa4e8397bb7b75": 1,
+              "66b93977bb6657b52d31d19f": 1,
+              "f1519dd6cbb1c1fb4cdb5d6c": 1,
+              "4afb0a3c61f66a78ed09f81b": 1,
+              "d43a0df0424bd12f04268e57": 1,
+              "a3fb767731e4c36a768af820": 1,
+              "8d8dd0bb553f35e46c9f049f": 1,
+              "b9a66fc40dc1a3d2236e035f": 1,
+              "e299c28e425cfa9639876a2c": 1,
+              "13c82aed28c00caa2dfa6789": 1,
+              "4cd4b75b6d854b743631fdc8": 1,
+              "d7367139609254615015c823": 1,
+              "3c4063a1c5e68a083b1c3c59": 1,
+              "35bcc3d88bf90b3d08aa7325": 1,
+              "410a3ee71f658ea39b04c67d": 1,
+              "ce5f69a4da9c01d97201cc29": 1,
+              "dca78a09b843e913e7838d74": 1,
+              "583570bee8a48c0bf7fa7fb4": 1,
+              "4c507c0a32101dcf4bd15206": 1,
+              "a980dd546d00d8243bdb5cac": 1,
+              "50c37260ad9cdc1ca6e9b5e4": 1,
+              "943486af5dc151f9a00893af": 1,
+              "2644b9e3411f424757b3d924": 1,
+              "8a80d6b0a9eb8344a9ee97a3": 1,
+              "64c650316025a98def8e2b13": 1,
+              "3b19f3e706e839ab967c0d30": 1,
+              "2389b71d3f4cf896ff19e0fe": 1,
+              "9774d590170d1143f2af60cc": 1,
+              "89b90a7aa1709ae930e2604c": 1,
+              "ce9a6395030823d0cd6fae8d": 1,
+              "57e1d9ec43322ee267998480": 1,
+              "29006fb0b9bc47670ef66e9a": 1,
+              "618b2a7c9330a024aafdbcce": 1,
+              "1cde2171cd3430aa1227cd91": 1,
+              "9cafa04166df3fa626faace4": 1,
+              "9ed852d2bb7e4cc985e341ab": 1,
+              "9815a02939506272d6bac680": 1,
+              "81268a941f1f7cb17d99ac72": 1,
+              "6511043e15e9b30d7ce21ac3": 1,
+              "b16f6c3c7213c1aa4618ddf0": 1,
+              "338d4dd99ab4f54a452e4e35": 1,
+              "cb45cd1042584741df1e44f7": 1,
+              "f013c40d440ae29359a3919f": 1,
+              "c4c05a2fd3710b42e70121cd": 1,
+              "448683d284e2667e1914971e": 1,
+              "df559c8a6acb686171cf8277": 1,
+              "3fc868708d77f4794d9b0222": 1,
+              "0fe6a2ea8a5dcbb62ee95c27": 1,
+              "e84c83a3f9a3d652265555a6": 1,
+              "5f96f87f19d5b1ede138afef": 1,
+              "9c7d90364905d5639acad3b0": 1,
+              "cce7b15632717c70f437c5a8": 1,
+              "194bdc973e7190c20ddcb0b8": 1,
+              "6862d11c7f36ee874a2d97ad": 1,
+              "0661900695e8d90d98b9c823": 1,
+              "7cc417d16a11a425fe4d34a8": 1,
+              "55e9251cf3b3a90290d19050": 1,
+              "54326623b8c3373257af2b8c": 1,
+              "13bca53384648490f05aaa55": 1,
+              "7049de183178620c91d4fea1": 1,
+              "9417f5f2b6aa09a17a3be45d": 1,
+              "c0b5649327b771bf6759a939": 1,
+              "5262c1dc0b5642690190f2f1": 1,
+              "999f59dbf9a3436c931206bb": 1,
+              "31ce9d6cf77c145b17a5e681": 1,
+              "d97cc210822f1e0fc76b52cc": 1,
+              "be5c766d268c3236b44edf11": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 66,
+            "raw_count": 66,
+            "signature_count": 1,
+            "observed_class_count": 66,
+            "observed_raw_count": 66,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 4,
+            "multiplicities": {
+              "1aa8399b3cdf2feb18e03013": 1,
+              "e2d873bcf1ac3507447e7b83": 1,
+              "397f302aae8696c085fd3a14": 1,
+              "e76db1d455f2d93ee459d1ad": 1,
+              "b3793091b34dbe8987d951ce": 1,
+              "19a20c2e943814b3af224c76": 1,
+              "ca6938ac9d7757dd852e7360": 1,
+              "afc6f39129e7553a87a15b4b": 1,
+              "ef419830c124b65571e640d7": 1,
+              "3ae09c8be293f1f28aaa257d": 1,
+              "6bd3611095f1cb5f8fa6bc30": 1,
+              "92850ec8a2f290cb04e449e9": 1,
+              "4c4b7e745296943d7af4f7f0": 1,
+              "d4aff86593bef22c14966ff4": 1,
+              "8b4c88f312ccc4208d85915d": 1,
+              "5332f849500e3eddd35174e3": 1,
+              "e5702cda88b811d6b795b89d": 1,
+              "fee29ca02aa276ad30a738c9": 1,
+              "d43e62e6ffe176e8f1b28606": 1,
+              "7b95138c8f5052019b64cd31": 1,
+              "220c2561414f436b884e8fb2": 1,
+              "07a67b267c5ddb1733ddecc9": 1,
+              "222185cec43b2b91fae39e66": 1,
+              "1832a2a34e1ab095559c5e58": 1,
+              "0862691d54c6b8d0b15774c8": 1,
+              "067f65d56aa8934451ee3d53": 1,
+              "5503d77138c4374f2dc3fceb": 1,
+              "a5c3ce0ed893a31adf8f4dd0": 1,
+              "79e6304012931f429ab3a6cd": 1,
+              "4a1dc7d412259cd4b15b3356": 1,
+              "1811e028ca70e40e6d0789f5": 1,
+              "7c7ac29793aae6651efc189e": 1,
+              "0ef87375629084e473bbd1bb": 1,
+              "2773ff41475fe294b5900734": 1,
+              "36f0636152c1aadcd8a37491": 1,
+              "176a5021200c242939b4e12e": 1,
+              "5028e5c41f17ce26d5b5abff": 1,
+              "8c4e44617b9ab9778dd5cd90": 1,
+              "b4d3e7fba3b0afdf9151eb7d": 1,
+              "c44886dbab894f0a6664b16e": 1,
+              "7d6b3d280811506f3c3ba48a": 1,
+              "52f794f6fa7da7994c3f5ee4": 1,
+              "51118832d4e9720e9efbf8f4": 1,
+              "33d5629617a26ce321d599bb": 1,
+              "db564e63efbab9e2ba6a6eef": 1,
+              "2eca0f32619f08243995f60e": 1,
+              "f663cc2c4e64f2bdb3df6bd6": 1,
+              "3a6b275e2ed42bf635367cd1": 1,
+              "057d9eb472cbe52fb7661af8": 1,
+              "82f6363caa66e0296f65947d": 1,
+              "380efdbea69d91951adf0b70": 1,
+              "a7f1aa7767e6644f11a61023": 1,
+              "e18316823c5310c5608db700": 1,
+              "41d69371839c6563e2205191": 1,
+              "12804064820cc51e95d6b881": 1,
+              "f53f8011df1a570c40e19a21": 1,
+              "34b994f6755075a735507a7d": 1,
+              "76f1e3f0a70902565c03eabb": 1,
+              "a93190664638464e40b49aea": 1,
+              "e3395ee87354da906562a209": 1,
+              "9a8cb3f345642c1bc53cf557": 1,
+              "d5a9503197bcfbcb5c5ff29a": 1,
+              "7180147420432a1078e843cb": 1,
+              "b01a052358475eec6ab81a4b": 1,
+              "1d184dff45e502653d7baa50": 1,
+              "bcb5857ec6744abba56d3a27": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        }
+      ],
+      "seconds": 5.312732600024901,
+      "best_dc": 3
+    },
+    {
+      "seed": 2,
+      "initial_ids": [
+        "5705a04c4d08f55694a3",
+        "11789f1c8d25ac4293c5",
+        "bf6074218ba6020d2229",
+        "fab8fcd86529a49c7f94",
+        "5ef4a49974cebeacd3a0",
+        "227b2cf5037fc8932c06"
+      ],
+      "bounds": [
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 550,
+          "fault_variants": 5776,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 9,
+                "qubits": [
+                  16,
+                  13
+                ],
+                "label": "IX",
+                "kind": "cz",
+                "location": "op:9",
+                "before": false,
+                "round_index": 0,
+                "check": 7,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 6
+              },
+              {
+                "operation": 48,
+                "qubits": [
+                  16,
+                  17
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:48",
+                "before": false,
+                "round_index": 0,
+                "check": 4,
+                "role": "flag_close",
+                "interval": 0,
+                "interaction_position": 5
+              }
+            ],
+            "checks": [
+              4,
+              7
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              0,
+              4,
+              9,
+              13
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "XIIIXIIIIXIIIXII"
+          },
+          "reason": null,
+          "combinations_examined": 90736,
+          "fault_locations": 706,
+          "fault_variants": 7102,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 730,
+          "fault_variants": 7306,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 1,
+          "upper_bound": 1,
+          "excluded_through": 0,
+          "witness": {
+            "fault_count": 1,
+            "faults": [
+              {
+                "operation": 12,
+                "qubits": [
+                  16,
+                  15
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:12",
+                "before": false,
+                "round_index": 0,
+                "check": 8,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 5
+              }
+            ],
+            "checks": [
+              8
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              12
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "XXXIXIIIXIIIXIII"
+          },
+          "reason": null,
+          "combinations_examined": 119,
+          "fault_locations": 802,
+          "fault_variants": 7918,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 116,
+                "qubits": [
+                  16,
+                  3
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:116",
+                "before": false,
+                "round_index": 0,
+                "check": 12,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              },
+              {
+                "operation": 184,
+                "qubits": [
+                  18,
+                  10
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:184",
+                "before": false,
+                "round_index": 0,
+                "check": 6,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 5
+              }
+            ],
+            "checks": [
+              6,
+              12
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              3,
+              7,
+              11,
+              15
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIXIIIXIIIXIIIX"
+          },
+          "reason": null,
+          "combinations_examined": 96207,
+          "fault_locations": 718,
+          "fault_variants": 7204,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 718,
+          "fault_variants": 7204,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 75,
+            "raw_count": 116,
+            "signature_count": 1,
+            "observed_class_count": 75,
+            "observed_raw_count": 116,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 3,
+            "multiplicities": {
+              "830f024d9b9a42fbabc9c4ee": 2,
+              "4ab29c1e78f5bc0fac7e1e62": 1,
+              "7afc21d9bb28f74a20fb883c": 4,
+              "639df3b6af6c3fca37ab20e4": 2,
+              "054123fe44f314e0583e36eb": 2,
+              "12b75c8e548588fef888c659": 2,
+              "8c9dc35b794318ba5b0bffdd": 1,
+              "4bd280eeecd45744836fa864": 1,
+              "fb85fb08e0a972e48abfd739": 2,
+              "320c1ddef8dc938bd8119318": 1,
+              "eac7a2c91b52d276856b7a7c": 2,
+              "43d28e2c59eab0e6f9e1d8d8": 1,
+              "8b716fdb833072aed7f007d5": 2,
+              "e745759f8ac49930f6d8c75a": 2,
+              "633e80f235a5d00b9c684350": 1,
+              "6243f273ebb30d13e157bc59": 1,
+              "6ae185afa1450baa7b2b0c11": 2,
+              "12c0107b6055f0a6c62e7899": 1,
+              "129503faf24083502b37c6f2": 2,
+              "ac6dcd5e8a9a82522dd93faf": 1,
+              "f785e3a9c4ccd369dd4add5c": 4,
+              "c2d84fb44632458058991689": 2,
+              "2d3fc1ad94981702df7d8f69": 2,
+              "833e702f13212518f466d248": 2,
+              "0e8014726b5c4bd45b51cc11": 1,
+              "e5758e6c20c754efebba5014": 1,
+              "5f11debbac206f1e7711e5d1": 2,
+              "979ed005f8104e596235e536": 1,
+              "0efdb20c6ede6caf032a07a7": 2,
+              "7beaefb2d71b45d180b16d63": 1,
+              "0441812dac40fe0621f6cf4b": 2,
+              "94cde7d5c378cee04cb8394e": 2,
+              "23da248cc8f969337b338d49": 1,
+              "1024aa2f9fd1fad730b895dc": 1,
+              "21128f59239cca2e7b5a6b86": 2,
+              "be9c39059ee82a698363bd33": 1,
+              "258d9baff81a305450fd9527": 2,
+              "6bd392b41755c5ef4cd98b0b": 1,
+              "4bce1855cab17276db864433": 1,
+              "af86a3ad39c7d209f79e02cb": 4,
+              "3f1e7c4c3526b6dc7bbcb32b": 2,
+              "51dab4cd48adedf0e3861375": 2,
+              "2367ccb896e153836534e6ca": 2,
+              "3a6e94fa8043c27fccab3dcd": 2,
+              "6fe4777175d6881f6ec1d950": 2,
+              "dcd32eb68fbc0de157d02557": 1,
+              "d6f2b2bea2d696521a1ae5b0": 1,
+              "c44ebcba749f087f4827387f": 1,
+              "74ed3308ee71e55e867d425c": 1,
+              "6e40fc2088884e2791641a52": 1,
+              "3e74a49998eac02b07de0683": 1,
+              "f7f1d2f590b8f2f6015b6a90": 2,
+              "803041174b5e2c757d7142c6": 1,
+              "9850f34c10096ff1a0c5f19f": 1,
+              "12d0f53160c4ef62b0ee57c1": 2,
+              "d3295cb07e0458d06fb67fc4": 1,
+              "4d70af4c9f57d41a5a0bb783": 1,
+              "38c6b27700769601b1df7dcb": 2,
+              "cc2ea635f519c42ba6fd960b": 2,
+              "276143de3104d89a91234e69": 2,
+              "e6bc6a7f81b4e000c1dd4f0d": 1,
+              "96cca77a1cd6d6b04012b6bc": 1,
+              "5d28866373e9604fdfb74398": 1,
+              "fbce20cbdd50a7bb171a2f03": 1,
+              "0ce3039b8df877dd865beaab": 1,
+              "9ad1ff32f6b5037949d1594b": 1,
+              "4a846f0a08c030364568e130": 2,
+              "85acefdf689932e9703afd32": 1,
+              "a9422bf399c83c9c312058b0": 1,
+              "a4337ece8e8717c58ce8b47a": 2,
+              "5547339e279bd853deaae0db": 2,
+              "a5e514b72399060e8d92749d": 1,
+              "41ddbfd7416261944cb6859d": 1,
+              "d4cd7f39c6279d1ad9023295": 1,
+              "22b56a6bf722b87fc6dc17d2": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 6,
+            "raw_count": 6,
+            "signature_count": 1,
+            "observed_class_count": 6,
+            "observed_raw_count": 6,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 1,
+            "multiplicities": {
+              "041f6ad71313ee9d75484462": 1,
+              "2bfae98716639c62cbb4035e": 1,
+              "2dbe1a28da5286e7b41ebc68": 1,
+              "ffb0a5c6019db2bd0a8208c5": 1,
+              "82ffe5ec5bd2f6c5df42c8f9": 1,
+              "df0ce49df6f2b8fc8c8ce89a": 1
+            }
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 16,
+            "raw_count": 16,
+            "signature_count": 1,
+            "observed_class_count": 16,
+            "observed_raw_count": 16,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 2,
+            "multiplicities": {
+              "c001848a60b7b8c4ecaa0386": 1,
+              "068d6134f342618992e34f25": 1,
+              "1385b04b14622f1fc09f7897": 1,
+              "71b90ab9aad8076364e74cac": 1,
+              "741e036b9556afc5e2bdca39": 1,
+              "cd0a8040bf9caaac73046653": 1,
+              "60d15411fd9aa33b112b360e": 1,
+              "fbd1e142665bc721072ff21f": 1,
+              "d5567a1f72b2977c7cb7c767": 1,
+              "0f88a378c1db124ff31ec16e": 1,
+              "4fbd14aff713056f939a538c": 1,
+              "36abf85ffc0c860cb68869c7": 1,
+              "f427e901f3e91132520aea7d": 1,
+              "cdc96fb10643f98ef359ca8c": 1,
+              "5c9bafc4f2dc5049bfc3bdab": 1,
+              "ce5580460c9c2a8926095d99": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        }
+      ],
+      "seconds": 5.131717800046317,
+      "best_dc": 3
+    }
+  ],
+  "failure_mechanisms": {
+    "SAME_CHECK_HOOK": 119,
+    "INTERACTION_ORDER_HOOK": 219,
+    "CROSS_CHECK_OVERLAP": 73,
+    "FLAG_CANCELLATION": 20,
+    "CROSS_CHECK_COLLISION": 146,
+    "FINAL_READOUT": 3
+  },
+  "mechanism_sample": "up to 64 evenly spaced structural representatives per architecture"
+}

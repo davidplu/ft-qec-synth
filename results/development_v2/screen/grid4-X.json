@@ -1,0 +1,1274 @@
+{
+  "name": "grid4",
+  "task": "grid4-X",
+  "basis": "X",
+  "code_path": "benchmarks/development_v2/pool/grid4.json",
+  "family": "checkerboard_grid",
+  "shared_parent": null,
+  "n": 16,
+  "k": 1,
+  "css": true,
+  "distance_certificate": {
+    "status": "EXACT",
+    "distance": 4,
+    "witness": "ZYYZIIIIIIIIIIII",
+    "patterns": 16317
+  },
+  "boundary": {
+    "status": "EXACT_TERMINAL_ONLY",
+    "distance": 4,
+    "lower_bound": 4,
+    "upper_bound": 4,
+    "witness": {
+      "fault_count": 4,
+      "faults": [
+        {
+          "operation": 331,
+          "qubits": [
+            0
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:331",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 333,
+          "qubits": [
+            1
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:333",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 335,
+          "qubits": [
+            2
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:335",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 337,
+          "qubits": [
+            3
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:337",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        }
+      ],
+      "checks": [],
+      "relation": "unassigned",
+      "hook_support": [],
+      "flags_fired": false,
+      "flag_information_cancelled": false,
+      "logical_coset": 1,
+      "detector_outcomes": 0,
+      "flag_outcomes": 0,
+      "final_data_pauli": "IIIIIIIIIIIIIIII"
+    },
+    "subsets": 697,
+    "seconds": 0.07115189998876303,
+    "method": "physical singleton replay plus exhaustive classical terminal-flip supports",
+    "full_circuit_lower_bound": false,
+    "axes": [
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X"
+    ]
+  },
+  "classification": "OPEN_HEADROOM",
+  "difficulty": "CERTIFICATION_TIER_LIMITED",
+  "d_initial": 3,
+  "d_target": 4,
+  "initial_target_frequency": 0.0,
+  "calibration_runs": [
+    {
+      "seed": 0,
+      "initial_ids": [
+        "0399df5f09e40a364d18",
+        "865e1f01fe606581436a",
+        "e8652e1d411c48002993",
+        "ce56c760f734f1960351",
+        "7e79e0ad5f7113166049",
+        "3f5ef5b238f0e6691eb1"
+      ],
+      "bounds": [
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 44,
+                "qubits": [
+                  16,
+                  7
+                ],
+                "label": "XI",
+                "kind": "cz",
+                "location": "op:44",
+                "before": false,
+                "round_index": 0,
+                "check": 5,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              },
+              {
+                "operation": 138,
+                "qubits": [
+                  16,
+                  5
+                ],
+                "label": "XI",
+                "kind": "cz",
+                "location": "op:138",
+                "before": false,
+                "round_index": 1,
+                "check": 3,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              }
+            ],
+            "checks": [
+              3,
+              5
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              8,
+              9,
+              10,
+              11
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIIIIXXXXIIII"
+          },
+          "reason": null,
+          "combinations_examined": 44606,
+          "fault_locations": 356,
+          "fault_variants": 2674,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 536,
+          "fault_variants": 4204,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 536,
+          "fault_variants": 4204,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 548,
+          "fault_variants": 4306,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 488,
+          "fault_variants": 3796,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 572,
+          "fault_variants": 4510,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 10,
+            "raw_count": 10,
+            "signature_count": 1,
+            "observed_class_count": 10,
+            "observed_raw_count": 10,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 2,
+            "multiplicities": {
+              "f675ef0e2f68130b83e99936": 1,
+              "4124ebaf26ba048faa6cd695": 1,
+              "f714c491c1f785a65e9e31af": 1,
+              "3641a9ba003ab8a413c5db4b": 1,
+              "1382a2254441e185c36cd7b8": 1,
+              "2675331656b24e0e36684361": 1,
+              "83f9d5b45958a78279d27ad5": 1,
+              "8b9ddc374eb070103014b20a": 1,
+              "85f37ae4cfebdf0d41c63c9c": 1,
+              "1f470ab6080838d232f6bf1a": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        }
+      ],
+      "seconds": 12.034186100005172,
+      "best_dc": 3
+    },
+    {
+      "seed": 1,
+      "initial_ids": [
+        "0399df5f09e40a364d18",
+        "eac921d5c738c67dd405",
+        "cd370e0b86924339b7a4",
+        "545537056fb1722b14aa",
+        "12d75e47f3c78b675f1f",
+        "7ecbf199a427bea01c4b"
+      ],
+      "bounds": [
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 44,
+                "qubits": [
+                  16,
+                  7
+                ],
+                "label": "XI",
+                "kind": "cz",
+                "location": "op:44",
+                "before": false,
+                "round_index": 0,
+                "check": 5,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              },
+              {
+                "operation": 138,
+                "qubits": [
+                  16,
+                  5
+                ],
+                "label": "XI",
+                "kind": "cz",
+                "location": "op:138",
+                "before": false,
+                "round_index": 1,
+                "check": 3,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              }
+            ],
+            "checks": [
+              3,
+              5
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              8,
+              9,
+              10,
+              11
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIIIIXXXXIIII"
+          },
+          "reason": null,
+          "combinations_examined": 44606,
+          "fault_locations": 356,
+          "fault_variants": 2674,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 596,
+          "fault_variants": 4714,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 524,
+          "fault_variants": 4102,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 536,
+          "fault_variants": 4204,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 536,
+          "fault_variants": 4204,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 500,
+          "fault_variants": 3898,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 10,
+            "raw_count": 10,
+            "signature_count": 1,
+            "observed_class_count": 10,
+            "observed_raw_count": 10,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 2,
+            "multiplicities": {
+              "f675ef0e2f68130b83e99936": 1,
+              "4124ebaf26ba048faa6cd695": 1,
+              "f714c491c1f785a65e9e31af": 1,
+              "3641a9ba003ab8a413c5db4b": 1,
+              "1382a2254441e185c36cd7b8": 1,
+              "2675331656b24e0e36684361": 1,
+              "83f9d5b45958a78279d27ad5": 1,
+              "8b9ddc374eb070103014b20a": 1,
+              "85f37ae4cfebdf0d41c63c9c": 1,
+              "1f470ab6080838d232f6bf1a": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        }
+      ],
+      "seconds": 12.479947100044228,
+      "best_dc": 3
+    },
+    {
+      "seed": 2,
+      "initial_ids": [
+        "0399df5f09e40a364d18",
+        "6efbde3d78a2f62c4550",
+        "f67e0b383ac623ddfe05",
+        "39a41e8ce95a28632c27",
+        "e5df0b9816f822b1c898",
+        "f0688a5a9a2a19a7dd41"
+      ],
+      "bounds": [
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 44,
+                "qubits": [
+                  16,
+                  7
+                ],
+                "label": "XI",
+                "kind": "cz",
+                "location": "op:44",
+                "before": false,
+                "round_index": 0,
+                "check": 5,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              },
+              {
+                "operation": 138,
+                "qubits": [
+                  16,
+                  5
+                ],
+                "label": "XI",
+                "kind": "cz",
+                "location": "op:138",
+                "before": false,
+                "round_index": 1,
+                "check": 3,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              }
+            ],
+            "checks": [
+              3,
+              5
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              8,
+              9,
+              10,
+              11
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIIIIXXXXIIII"
+          },
+          "reason": null,
+          "combinations_examined": 44606,
+          "fault_locations": 356,
+          "fault_variants": 2674,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 584,
+          "fault_variants": 4612,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 512,
+          "fault_variants": 4000,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 18,
+                "qubits": [
+                  17,
+                  11
+                ],
+                "label": "XI",
+                "kind": "cz",
+                "location": "op:18",
+                "before": false,
+                "round_index": 0,
+                "check": 5,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              },
+              {
+                "operation": 58,
+                "qubits": [
+                  19,
+                  5
+                ],
+                "label": "XI",
+                "kind": "cz",
+                "location": "op:58",
+                "before": false,
+                "round_index": 0,
+                "check": 3,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              }
+            ],
+            "checks": [
+              3,
+              5
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              6,
+              7,
+              8,
+              9
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIIXXXXIIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 94947,
+          "fault_locations": 476,
+          "fault_variants": 3694,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 548,
+          "fault_variants": 4306,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 572,
+          "fault_variants": 4510,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 10,
+            "raw_count": 10,
+            "signature_count": 1,
+            "observed_class_count": 10,
+            "observed_raw_count": 10,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 2,
+            "multiplicities": {
+              "f675ef0e2f68130b83e99936": 1,
+              "4124ebaf26ba048faa6cd695": 1,
+              "f714c491c1f785a65e9e31af": 1,
+              "3641a9ba003ab8a413c5db4b": 1,
+              "1382a2254441e185c36cd7b8": 1,
+              "2675331656b24e0e36684361": 1,
+              "83f9d5b45958a78279d27ad5": 1,
+              "8b9ddc374eb070103014b20a": 1,
+              "85f37ae4cfebdf0d41c63c9c": 1,
+              "1f470ab6080838d232f6bf1a": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 16,
+            "raw_count": 16,
+            "signature_count": 1,
+            "observed_class_count": 16,
+            "observed_raw_count": 16,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 2,
+            "multiplicities": {
+              "a40fbc5077df0fe0247beb00": 1,
+              "21832da869eeb5a97a506a7c": 1,
+              "8b7b85e6bd116b73d4f71d56": 1,
+              "7dfe2af7fce72533f26951d2": 1,
+              "11fcecc1b82de07f6205d9cd": 1,
+              "358186a9ccfaf92491c242af": 1,
+              "81799791a34886225461f419": 1,
+              "3febc53fbc7617bfa833e580": 1,
+              "11cc5d12284ef65d0dbd642a": 1,
+              "44f343503b12ef49408256cf": 1,
+              "f76b4846e9c6a338a94f4767": 1,
+              "e8d5bb11e8aa219b3c8658fd": 1,
+              "5c1e8c4b78866e2fb4dfc85d": 1,
+              "db9904915513d471fbf27b96": 1,
+              "c5a6cf36596ac1e11a2245e5": 1,
+              "c60c2b21dc8fb4b116c9ffa0": 1
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        }
+      ],
+      "seconds": 13.70101750001777,
+      "best_dc": 3
+    }
+  ],
+  "failure_mechanisms": {
+    "INTERACTION_ORDER_HOOK": 46,
+    "CROSS_CHECK_COLLISION": 46
+  },
+  "mechanism_sample": "up to 64 evenly spaced structural representatives per architecture"
+}

@@ -1,0 +1,9 @@
+{
+  "reason": "Independent calibration proved target already present in grid5_dense initial populations; stop unnecessary enlarged pilots on ineligible tasks after resume. Completed raw runs retained. No final strategy comparison had begun.",
+  "affected_tasks": [
+    "grid5_dense-X",
+    "grid5_dense-Z"
+  ],
+  "algorithm_changed": false,
+  "primary_results_used_for_decision": false
+}

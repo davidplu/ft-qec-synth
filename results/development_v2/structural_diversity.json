@@ -1,0 +1,352 @@
+[
+  {
+    "name": "steane7",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "NONDEGENERATE_BELOW_CERTIFIED_DISTANCE",
+    "low_weight_stabilizer_witness": null,
+    "check_weights": [
+      4
+    ],
+    "mean_overlap": 2.4,
+    "max_overlap": 4,
+    "max_degree": 6,
+    "geometry": "algebraic nonlocal/no supplied hardware graph",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "steane7_mixed",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "NONDEGENERATE_BELOW_CERTIFIED_DISTANCE",
+    "low_weight_stabilizer_witness": null,
+    "check_weights": [
+      4
+    ],
+    "mean_overlap": 2.4,
+    "max_overlap": 4,
+    "max_degree": 6,
+    "geometry": "algebraic nonlocal/no supplied hardware graph",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "steane14_sum",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "NONDEGENERATE_BELOW_CERTIFIED_DISTANCE",
+    "low_weight_stabilizer_witness": null,
+    "check_weights": [
+      4
+    ],
+    "mean_overlap": 1.0909090909090908,
+    "max_overlap": 4,
+    "max_degree": 6,
+    "geometry": "algebraic nonlocal/no supplied hardware graph",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "shor3x3",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "DEGENERATE",
+    "low_weight_stabilizer_witness": "ZZIIIIIII",
+    "check_weights": [
+      2,
+      6
+    ],
+    "mean_overlap": 0.7857142857142857,
+    "max_overlap": 3,
+    "max_degree": 4,
+    "geometry": "rectangular row-pair supports plus nearest-row Z pairs",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "shor3x4",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "DEGENERATE",
+    "low_weight_stabilizer_witness": "ZZIIIIIIIIII",
+    "check_weights": [
+      2,
+      8
+    ],
+    "mean_overlap": 0.6181818181818182,
+    "max_overlap": 4,
+    "max_degree": 4,
+    "geometry": "rectangular row-pair supports plus nearest-row Z pairs",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "shor3x5",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "DEGENERATE",
+    "low_weight_stabilizer_witness": "ZZIIIIIIIIIIIII",
+    "check_weights": [
+      2,
+      10
+    ],
+    "mean_overlap": 0.5054945054945055,
+    "max_overlap": 5,
+    "max_degree": 4,
+    "geometry": "rectangular row-pair supports plus nearest-row Z pairs",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "shor4x4",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "DEGENERATE",
+    "low_weight_stabilizer_witness": "ZZIIIIIIIIIIIIII",
+    "check_weights": [
+      2,
+      8
+    ],
+    "mean_overlap": 0.49523809523809526,
+    "max_overlap": 4,
+    "max_degree": 4,
+    "geometry": "rectangular row-pair supports plus nearest-row Z pairs",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "shor4x5",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "DEGENERATE",
+    "low_weight_stabilizer_witness": "ZZIIIIIIIIIIIIIIIIII",
+    "check_weights": [
+      2,
+      10
+    ],
+    "mean_overlap": 0.4093567251461988,
+    "max_overlap": 5,
+    "max_degree": 4,
+    "geometry": "rectangular row-pair supports plus nearest-row Z pairs",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "shor5x5",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "DEGENERATE",
+    "low_weight_stabilizer_witness": "ZZIIIIIIIIIIIIIIIIIIIIIII",
+    "check_weights": [
+      2,
+      10
+    ],
+    "mean_overlap": 0.34057971014492755,
+    "max_overlap": 5,
+    "max_degree": 4,
+    "geometry": "rectangular row-pair supports plus nearest-row Z pairs",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "shor3x3_mixed",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "DEGENERATE",
+    "low_weight_stabilizer_witness": "ZZIIIIIII",
+    "check_weights": [
+      2,
+      6
+    ],
+    "mean_overlap": 0.7857142857142857,
+    "max_overlap": 3,
+    "max_degree": 4,
+    "geometry": "rectangular row-pair supports plus nearest-row Z pairs",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "grid3",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "DEGENERATE",
+    "low_weight_stabilizer_witness": "ZIIZIIIII",
+    "check_weights": [
+      2,
+      4
+    ],
+    "mean_overlap": 0.7857142857142857,
+    "max_overlap": 2,
+    "max_degree": 4,
+    "geometry": "grid-derived; dense variants include extended supports",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "grid4",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "DEGENERATE",
+    "low_weight_stabilizer_witness": "ZIIIZIIIIIIIIIII",
+    "check_weights": [
+      2,
+      4
+    ],
+    "mean_overlap": 0.49523809523809526,
+    "max_overlap": 2,
+    "max_degree": 4,
+    "geometry": "grid-derived; dense variants include extended supports",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "grid5",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "DEGENERATE",
+    "low_weight_stabilizer_witness": "XXIIIXXIIIIIIIIIIIIIIIIII",
+    "check_weights": [
+      2,
+      4
+    ],
+    "mean_overlap": 0.34057971014492755,
+    "max_overlap": 2,
+    "max_degree": 4,
+    "geometry": "grid-derived; dense variants include extended supports",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "simplex15_k7",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "NONDEGENERATE_BELOW_CERTIFIED_DISTANCE",
+    "low_weight_stabilizer_witness": null,
+    "check_weights": [
+      8
+    ],
+    "mean_overlap": 4.571428571428571,
+    "max_overlap": 8,
+    "max_degree": 8,
+    "geometry": "algebraic nonlocal/no supplied hardware graph",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "affine15_k1",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "NONDEGENERATE_BELOW_CERTIFIED_DISTANCE",
+    "low_weight_stabilizer_witness": null,
+    "check_weights": [
+      4,
+      6,
+      8
+    ],
+    "mean_overlap": 1.9230769230769231,
+    "max_overlap": 4,
+    "max_degree": 8,
+    "geometry": "algebraic nonlocal/no supplied hardware graph",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "perfect5",
+    "cyclic_in_supplied_qubit_order": true,
+    "degeneracy": "NONDEGENERATE_BELOW_CERTIFIED_DISTANCE",
+    "low_weight_stabilizer_witness": null,
+    "check_weights": [
+      4
+    ],
+    "mean_overlap": 3,
+    "max_overlap": 3,
+    "max_degree": 4,
+    "geometry": "algebraic nonlocal/no supplied hardware graph",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "noncss4",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "NONDEGENERATE_BELOW_CERTIFIED_DISTANCE",
+    "low_weight_stabilizer_witness": null,
+    "check_weights": [
+      4
+    ],
+    "mean_overlap": 4,
+    "max_overlap": 4,
+    "max_degree": 2,
+    "geometry": "algebraic nonlocal/no supplied hardware graph",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "shor7x7",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "DEGENERATE",
+    "low_weight_stabilizer_witness": "ZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII",
+    "check_weights": [
+      2,
+      14
+    ],
+    "mean_overlap": 0.18971631205673758,
+    "max_overlap": 7,
+    "max_degree": 4,
+    "geometry": "rectangular row-pair supports plus nearest-row Z pairs",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "grid3_dense",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "DEGENERATE",
+    "low_weight_stabilizer_witness": "ZIIZIIIII",
+    "check_weights": [
+      4,
+      6
+    ],
+    "mean_overlap": 3.357142857142857,
+    "max_overlap": 5,
+    "max_degree": 7,
+    "geometry": "grid-derived; dense variants include extended supports",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "grid4_dense",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "UNRESOLVED",
+    "low_weight_stabilizer_witness": null,
+    "check_weights": [
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "mean_overlap": 4.4,
+    "max_overlap": 10,
+    "max_degree": 13,
+    "geometry": "grid-derived; dense variants include extended supports",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "grid5_dense",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "DEGENERATE",
+    "low_weight_stabilizer_witness": "XXIIIXXIIIIIIIIIIIIIIIIII",
+    "check_weights": [
+      4,
+      8,
+      10,
+      12,
+      14
+    ],
+    "mean_overlap": 5.833333333333333,
+    "max_overlap": 13,
+    "max_degree": 21,
+    "geometry": "grid-derived; dense variants include extended supports",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "shor4x4_dense",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "DEGENERATE",
+    "low_weight_stabilizer_witness": "ZZIIIIIIIIIIIIII",
+    "check_weights": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "mean_overlap": 2.9714285714285715,
+    "max_overlap": 7,
+    "max_degree": 15,
+    "geometry": "rectangular row-pair supports plus nearest-row Z pairs",
+    "hardware_routing_performed": false
+  },
+  {
+    "name": "affine15_k1_mixed",
+    "cyclic_in_supplied_qubit_order": false,
+    "degeneracy": "NONDEGENERATE_BELOW_CERTIFIED_DISTANCE",
+    "low_weight_stabilizer_witness": null,
+    "check_weights": [
+      4,
+      6,
+      8,
+      10
+    ],
+    "mean_overlap": 2.087912087912088,
+    "max_overlap": 5,
+    "max_degree": 9,
+    "geometry": "algebraic nonlocal/no supplied hardware graph",
+    "hardware_routing_performed": false
+  }
+]

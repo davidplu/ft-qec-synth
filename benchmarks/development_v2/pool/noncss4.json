@@ -1,0 +1,14 @@
+{
+  "n": 4,
+  "generators": [
+    "YXXY",
+    "ZYYZ"
+  ],
+  "name": "noncss4",
+  "provenance": {
+    "method": "explicit generic construction in experiments/development_v2.py",
+    "family": "legacy_noncss",
+    "shared_parent": null,
+    "external_architectures_used": false
+  }
+}

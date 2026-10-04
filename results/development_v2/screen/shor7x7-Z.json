@@ -1,0 +1,27 @@
+{
+  "name": "shor7x7",
+  "task": "shor7x7-Z",
+  "basis": "Z",
+  "code_path": "benchmarks/development_v2/pool/shor7x7.json",
+  "family": "rectangular_shor",
+  "shared_parent": null,
+  "n": 49,
+  "k": 1,
+  "css": true,
+  "distance_certificate": {
+    "status": "NOT_ENUMERATED",
+    "construction_distance": 7
+  },
+  "boundary": {
+    "status": "UNRESOLVED",
+    "lower_bound": 5,
+    "upper_bound": null,
+    "subsets": 2000000
+  },
+  "classification": "COMPUTE_DEFERRED",
+  "difficulty": "UNREACHABLE/UNKNOWN",
+  "d_initial": null,
+  "d_target": null,
+  "initial_target_frequency": null,
+  "calibration_runs": []
+}

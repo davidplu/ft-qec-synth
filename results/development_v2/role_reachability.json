@@ -1,0 +1,3956 @@
+[
+  {
+    "task": "steane7-X",
+    "target": 3,
+    "reachable": true,
+    "fixed_generic_constructions": [
+      {
+        "template": "uniform_readout_role_prefixes",
+        "reverse": false,
+        "architecture_id": "e7542cc5df06c3a2882b",
+        "candidate": {
+          "generating_basis": [
+            "IIIXXXX",
+            "IXXIIXX",
+            "XIXIXIX",
+            "IIIZZZZ",
+            "IZZIIZZ",
+            "ZIZIZIZ"
+          ],
+          "orders": [
+            [
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              1,
+              2,
+              5,
+              6
+            ],
+            [
+              0,
+              2,
+              4,
+              6
+            ],
+            [
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              1,
+              2,
+              5,
+              6
+            ],
+            [
+              0,
+              2,
+              4,
+              6
+            ]
+          ],
+          "flag_intervals": [
+            [],
+            [],
+            [],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ]
+          ],
+          "check_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "ancilla_assignment": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "syndrome_budget": 6,
+          "parallelism": 1
+        },
+        "resources": {
+          "data_qubits": 7,
+          "syndrome_ancillas": 6,
+          "flag_ancillas": 3,
+          "Q": 16,
+          "one_q_gates": 43,
+          "two_q_gates": 90,
+          "measurements": 34,
+          "resets": 27,
+          "preparations": 0,
+          "operation_count": 194,
+          "D": 182,
+          "QD": 2912,
+          "depth_lower_bound": 182,
+          "schedule_efficiency": 1.0
+        },
+        "circuit_hash": "874e867b784337a6f9f92384ffd2061c8ac4cf7aaf16719f01a73a1d9b796f87",
+        "bounds": {
+          "status": "EXACT",
+          "lower_bound": 3,
+          "upper_bound": 3,
+          "excluded_through": 2,
+          "witness": {
+            "fault_count": 3,
+            "faults": [
+              {
+                "operation": 3,
+                "qubits": [
+                  7,
+                  3
+                ],
+                "label": "IY",
+                "kind": "cx",
+                "location": "op:3",
+                "before": false,
+                "round_index": 0,
+                "check": 0,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 0
+              },
+              {
+                "operation": 4,
+                "qubits": [
+                  7,
+                  4
+                ],
+                "label": "IY",
+                "kind": "cx",
+                "location": "op:4",
+                "before": false,
+                "round_index": 0,
+                "check": 0,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              },
+              {
+                "operation": 19,
+                "qubits": [
+                  9,
+                  0
+                ],
+                "label": "YZ",
+                "kind": "cx",
+                "location": "op:19",
+                "before": false,
+                "round_index": 0,
+                "check": 2,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 0
+              }
+            ],
+            "checks": [
+              0,
+              2
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              0,
+              2,
+              3,
+              4,
+              6
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "XIZYXIZ"
+          },
+          "reason": null,
+          "combinations_examined": 65568,
+          "fault_locations": 194,
+          "fault_variants": 1594,
+          "requested_weight": 3
+        },
+        "rejection": null,
+        "stage": "D",
+        "signature_seconds": 0.008436399977654219,
+        "fault_search_seconds": 0.014816700015217066,
+        "witness_verification": {
+          "verified": true,
+          "path": "boolean_array_simultaneous_replay"
+        },
+        "counterexample_analysis": {
+          "counterexample_id": "185e34456021afcdc863",
+          "total_fault_weight": 3,
+          "rounds": [
+            0
+          ],
+          "checks": [
+            0,
+            2
+          ],
+          "round_relation": "same-round",
+          "check_relation": "cross-check",
+          "data_hook_support": [
+            0,
+            2,
+            4,
+            6
+          ],
+          "hook_weight": 4,
+          "implicated_intervals": [
+            {
+              "round": 0,
+              "check": 0,
+              "flag_interval": null,
+              "interaction_position": 0,
+              "monitored_intervals": [],
+              "propagated_support": [
+                3
+              ]
+            },
+            {
+              "round": 0,
+              "check": 0,
+              "flag_interval": null,
+              "interaction_position": 1,
+              "monitored_intervals": [],
+              "propagated_support": [
+                4
+              ]
+            },
+            {
+              "round": 0,
+              "check": 2,
+              "flag_interval": null,
+              "interaction_position": 0,
+              "monitored_intervals": [],
+              "propagated_support": [
+                0,
+                2,
+                4,
+                6
+              ]
+            }
+          ],
+          "flag_records_triggered": [],
+          "flag_records_cancelled": [],
+          "measurement_faults": 0,
+          "reset_faults": 0,
+          "idle_faults": 0,
+          "shared_gadget": true,
+          "independent_completion": true,
+          "overlapping_gadgets": false,
+          "failure_classes": [
+            "INTERACTION_ORDER_HOOK",
+            "CROSS_CHECK_COLLISION"
+          ]
+        },
+        "runtime_seconds": 0.0335821999469772,
+        "independent_exclusion": {
+          "verified": true,
+          "excluded_through": 2,
+          "singleton_replay_count": 1594,
+          "joined_combinations_checked": 17160,
+          "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+        }
+      },
+      {
+        "template": "uniform_readout_role_prefixes",
+        "reverse": true,
+        "architecture_id": "72e618760e9319d7f855",
+        "candidate": {
+          "generating_basis": [
+            "IIIXXXX",
+            "IXXIIXX",
+            "XIXIXIX",
+            "IIIZZZZ",
+            "IZZIIZZ",
+            "ZIZIZIZ"
+          ],
+          "orders": [
+            [
+              6,
+              5,
+              4,
+              3
+            ],
+            [
+              6,
+              5,
+              2,
+              1
+            ],
+            [
+              6,
+              4,
+              2,
+              0
+            ],
+            [
+              6,
+              5,
+              4,
+              3
+            ],
+            [
+              6,
+              5,
+              2,
+              1
+            ],
+            [
+              6,
+              4,
+              2,
+              0
+            ]
+          ],
+          "flag_intervals": [
+            [],
+            [],
+            [],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ]
+          ],
+          "check_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "ancilla_assignment": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "syndrome_budget": 6,
+          "parallelism": 1
+        },
+        "resources": {
+          "data_qubits": 7,
+          "syndrome_ancillas": 6,
+          "flag_ancillas": 3,
+          "Q": 16,
+          "one_q_gates": 43,
+          "two_q_gates": 90,
+          "measurements": 34,
+          "resets": 27,
+          "preparations": 0,
+          "operation_count": 194,
+          "D": 182,
+          "QD": 2912,
+          "depth_lower_bound": 182,
+          "schedule_efficiency": 1.0
+        },
+        "circuit_hash": "aff770f631f638f76eee76518d38c208f700ce4d76d92034341433e555bd9786",
+        "bounds": {
+          "status": "EXACT",
+          "lower_bound": 3,
+          "upper_bound": 3,
+          "excluded_through": 2,
+          "witness": {
+            "fault_count": 3,
+            "faults": [
+              {
+                "operation": 3,
+                "qubits": [
+                  7,
+                  6
+                ],
+                "label": "IY",
+                "kind": "cx",
+                "location": "op:3",
+                "before": false,
+                "round_index": 0,
+                "check": 0,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 0
+              },
+              {
+                "operation": 4,
+                "qubits": [
+                  7,
+                  5
+                ],
+                "label": "IY",
+                "kind": "cx",
+                "location": "op:4",
+                "before": false,
+                "round_index": 0,
+                "check": 0,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              },
+              {
+                "operation": 22,
+                "qubits": [
+                  9,
+                  0
+                ],
+                "label": "YY",
+                "kind": "cx",
+                "location": "op:22",
+                "before": false,
+                "round_index": 0,
+                "check": 2,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 3
+              }
+            ],
+            "checks": [
+              0,
+              2
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              0,
+              5,
+              6
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "YIIIIYY"
+          },
+          "reason": null,
+          "combinations_examined": 66453,
+          "fault_locations": 194,
+          "fault_variants": 1594,
+          "requested_weight": 3
+        },
+        "rejection": null,
+        "stage": "D",
+        "signature_seconds": 0.008411600021645427,
+        "fault_search_seconds": 0.01502779999282211,
+        "witness_verification": {
+          "verified": true,
+          "path": "boolean_array_simultaneous_replay"
+        },
+        "counterexample_analysis": {
+          "counterexample_id": "ed9101294a98710133ff",
+          "total_fault_weight": 3,
+          "rounds": [
+            0
+          ],
+          "checks": [
+            0,
+            2
+          ],
+          "round_relation": "same-round",
+          "check_relation": "cross-check",
+          "data_hook_support": [],
+          "hook_weight": 0,
+          "implicated_intervals": [
+            {
+              "round": 0,
+              "check": 0,
+              "flag_interval": null,
+              "interaction_position": 0,
+              "monitored_intervals": [],
+              "propagated_support": [
+                6
+              ]
+            },
+            {
+              "round": 0,
+              "check": 0,
+              "flag_interval": null,
+              "interaction_position": 1,
+              "monitored_intervals": [],
+              "propagated_support": [
+                5
+              ]
+            },
+            {
+              "round": 0,
+              "check": 2,
+              "flag_interval": null,
+              "interaction_position": 3,
+              "monitored_intervals": [],
+              "propagated_support": [
+                0
+              ]
+            }
+          ],
+          "flag_records_triggered": [],
+          "flag_records_cancelled": [],
+          "measurement_faults": 0,
+          "reset_faults": 0,
+          "idle_faults": 0,
+          "shared_gadget": true,
+          "independent_completion": false,
+          "overlapping_gadgets": false,
+          "failure_classes": [
+            "CROSS_CHECK_COLLISION"
+          ]
+        },
+        "runtime_seconds": 0.03240429994184524,
+        "independent_exclusion": {
+          "verified": true,
+          "excluded_through": 2,
+          "singleton_replay_count": 1594,
+          "joined_combinations_checked": 17160,
+          "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+        }
+      }
+    ],
+    "algorithm_modified": false
+  },
+  {
+    "task": "steane7_mixed-X",
+    "target": 3,
+    "reachable": true,
+    "fixed_generic_constructions": [
+      {
+        "template": "uniform_readout_role_prefixes",
+        "reverse": false,
+        "architecture_id": "53edd9f8841f422581f0",
+        "candidate": {
+          "generating_basis": [
+            "IIIYYYY",
+            "IXXIIXX",
+            "XIXIXIX",
+            "IIIZZZZ",
+            "IZZIIZZ",
+            "ZIZIZIZ"
+          ],
+          "orders": [
+            [
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              1,
+              2,
+              5,
+              6
+            ],
+            [
+              0,
+              2,
+              4,
+              6
+            ],
+            [
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              1,
+              2,
+              5,
+              6
+            ],
+            [
+              0,
+              2,
+              4,
+              6
+            ]
+          ],
+          "flag_intervals": [
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [],
+            [],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ]
+          ],
+          "check_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "ancilla_assignment": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "syndrome_budget": 6,
+          "parallelism": 1
+        },
+        "resources": {
+          "data_qubits": 7,
+          "syndrome_ancillas": 6,
+          "flag_ancillas": 4,
+          "Q": 17,
+          "one_q_gates": 67,
+          "two_q_gates": 96,
+          "measurements": 37,
+          "resets": 30,
+          "preparations": 0,
+          "operation_count": 230,
+          "D": 218,
+          "QD": 3706,
+          "depth_lower_bound": 218,
+          "schedule_efficiency": 1.0
+        },
+        "circuit_hash": "7f323f3d7801d4ed6b36e8c5581304d12ff5d0a1d3a569a8f98f4f649900c6e1",
+        "bounds": {
+          "status": "EXACT",
+          "lower_bound": 3,
+          "upper_bound": 3,
+          "excluded_through": 2,
+          "witness": {
+            "fault_count": 3,
+            "faults": [
+              {
+                "operation": 3,
+                "qubits": [
+                  13
+                ],
+                "label": "X",
+                "kind": "reset",
+                "location": "op:3",
+                "before": false,
+                "round_index": 0,
+                "check": 0,
+                "role": "flag_reset",
+                "interval": 0,
+                "interaction_position": 0
+              },
+              {
+                "operation": 9,
+                "qubits": [
+                  7,
+                  4
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:9",
+                "before": false,
+                "round_index": 0,
+                "check": 0,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              },
+              {
+                "operation": 31,
+                "qubits": [
+                  9,
+                  0
+                ],
+                "label": "YZ",
+                "kind": "cx",
+                "location": "op:31",
+                "before": false,
+                "round_index": 0,
+                "check": 2,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 0
+              }
+            ],
+            "checks": [
+              0,
+              2
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              0,
+              2,
+              4,
+              5,
+              6
+            ],
+            "flags_fired": true,
+            "flag_information_cancelled": true,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "XIZIZYX"
+          },
+          "reason": null,
+          "combinations_examined": 78906,
+          "fault_locations": 230,
+          "fault_variants": 1768,
+          "requested_weight": 3
+        },
+        "rejection": null,
+        "stage": "D",
+        "signature_seconds": 0.008837400004267693,
+        "fault_search_seconds": 0.01718670001719147,
+        "witness_verification": {
+          "verified": true,
+          "path": "boolean_array_simultaneous_replay"
+        },
+        "counterexample_analysis": {
+          "counterexample_id": "2d933b29772e14639649",
+          "total_fault_weight": 3,
+          "rounds": [
+            0
+          ],
+          "checks": [
+            0,
+            2
+          ],
+          "round_relation": "same-round",
+          "check_relation": "cross-check",
+          "data_hook_support": [
+            0,
+            2,
+            4,
+            5,
+            6
+          ],
+          "hook_weight": 5,
+          "implicated_intervals": [
+            {
+              "round": 0,
+              "check": 0,
+              "flag_interval": 0,
+              "interaction_position": 0,
+              "monitored_intervals": [
+                {
+                  "flag_interval": 0,
+                  "lo": 0,
+                  "hi": 4
+                }
+              ],
+              "propagated_support": []
+            },
+            {
+              "round": 0,
+              "check": 0,
+              "flag_interval": null,
+              "interaction_position": 1,
+              "monitored_intervals": [
+                {
+                  "flag_interval": 0,
+                  "lo": 0,
+                  "hi": 4
+                }
+              ],
+              "propagated_support": [
+                5,
+                6
+              ]
+            },
+            {
+              "round": 0,
+              "check": 2,
+              "flag_interval": null,
+              "interaction_position": 0,
+              "monitored_intervals": [],
+              "propagated_support": [
+                0,
+                2,
+                4,
+                6
+              ]
+            }
+          ],
+          "flag_records_triggered": [
+            "f0_0:r0"
+          ],
+          "flag_records_cancelled": [
+            "f0_0:r0"
+          ],
+          "measurement_faults": 0,
+          "reset_faults": 1,
+          "idle_faults": 0,
+          "shared_gadget": true,
+          "independent_completion": false,
+          "overlapping_gadgets": false,
+          "failure_classes": [
+            "INTERACTION_ORDER_HOOK",
+            "FLAG_CANCELLATION",
+            "CROSS_CHECK_COLLISION"
+          ]
+        },
+        "runtime_seconds": 0.03609940002206713,
+        "independent_exclusion": {
+          "verified": true,
+          "excluded_through": 2,
+          "singleton_replay_count": 1768,
+          "joined_combinations_checked": 20164,
+          "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+        }
+      },
+      {
+        "template": "uniform_readout_role_prefixes",
+        "reverse": true,
+        "architecture_id": "63db465b347b6eea04f4",
+        "candidate": {
+          "generating_basis": [
+            "IIIYYYY",
+            "IXXIIXX",
+            "XIXIXIX",
+            "IIIZZZZ",
+            "IZZIIZZ",
+            "ZIZIZIZ"
+          ],
+          "orders": [
+            [
+              6,
+              5,
+              4,
+              3
+            ],
+            [
+              6,
+              5,
+              2,
+              1
+            ],
+            [
+              6,
+              4,
+              2,
+              0
+            ],
+            [
+              6,
+              5,
+              4,
+              3
+            ],
+            [
+              6,
+              5,
+              2,
+              1
+            ],
+            [
+              6,
+              4,
+              2,
+              0
+            ]
+          ],
+          "flag_intervals": [
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [],
+            [],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ]
+          ],
+          "check_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "ancilla_assignment": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "syndrome_budget": 6,
+          "parallelism": 1
+        },
+        "resources": {
+          "data_qubits": 7,
+          "syndrome_ancillas": 6,
+          "flag_ancillas": 4,
+          "Q": 17,
+          "one_q_gates": 67,
+          "two_q_gates": 96,
+          "measurements": 37,
+          "resets": 30,
+          "preparations": 0,
+          "operation_count": 230,
+          "D": 218,
+          "QD": 3706,
+          "depth_lower_bound": 218,
+          "schedule_efficiency": 1.0
+        },
+        "circuit_hash": "90744eea5e1e019be18d2e298626215843f1aeec2caf15c642b5927d884a1fe1",
+        "bounds": {
+          "status": "EXACT",
+          "lower_bound": 3,
+          "upper_bound": 3,
+          "excluded_through": 2,
+          "witness": {
+            "fault_count": 3,
+            "faults": [
+              {
+                "operation": 3,
+                "qubits": [
+                  13
+                ],
+                "label": "X",
+                "kind": "reset",
+                "location": "op:3",
+                "before": false,
+                "round_index": 0,
+                "check": 0,
+                "role": "flag_reset",
+                "interval": 0,
+                "interaction_position": 0
+              },
+              {
+                "operation": 9,
+                "qubits": [
+                  7,
+                  5
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:9",
+                "before": false,
+                "round_index": 0,
+                "check": 0,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              },
+              {
+                "operation": 34,
+                "qubits": [
+                  9,
+                  0
+                ],
+                "label": "YY",
+                "kind": "cx",
+                "location": "op:34",
+                "before": false,
+                "round_index": 0,
+                "check": 2,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 3
+              }
+            ],
+            "checks": [
+              0,
+              2
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              0,
+              3,
+              4
+            ],
+            "flags_fired": true,
+            "flag_information_cancelled": true,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "YIIYYII"
+          },
+          "reason": null,
+          "combinations_examined": 78912,
+          "fault_locations": 230,
+          "fault_variants": 1768,
+          "requested_weight": 3
+        },
+        "rejection": null,
+        "stage": "D",
+        "signature_seconds": 0.0095057999715209,
+        "fault_search_seconds": 0.01791980001144111,
+        "witness_verification": {
+          "verified": true,
+          "path": "boolean_array_simultaneous_replay"
+        },
+        "counterexample_analysis": {
+          "counterexample_id": "a9e234120968dfc6a220",
+          "total_fault_weight": 3,
+          "rounds": [
+            0
+          ],
+          "checks": [
+            0,
+            2
+          ],
+          "round_relation": "same-round",
+          "check_relation": "cross-check",
+          "data_hook_support": [
+            3,
+            4
+          ],
+          "hook_weight": 2,
+          "implicated_intervals": [
+            {
+              "round": 0,
+              "check": 0,
+              "flag_interval": 0,
+              "interaction_position": 0,
+              "monitored_intervals": [
+                {
+                  "flag_interval": 0,
+                  "lo": 0,
+                  "hi": 4
+                }
+              ],
+              "propagated_support": []
+            },
+            {
+              "round": 0,
+              "check": 0,
+              "flag_interval": null,
+              "interaction_position": 1,
+              "monitored_intervals": [
+                {
+                  "flag_interval": 0,
+                  "lo": 0,
+                  "hi": 4
+                }
+              ],
+              "propagated_support": [
+                3,
+                4
+              ]
+            },
+            {
+              "round": 0,
+              "check": 2,
+              "flag_interval": null,
+              "interaction_position": 3,
+              "monitored_intervals": [],
+              "propagated_support": [
+                0
+              ]
+            }
+          ],
+          "flag_records_triggered": [
+            "f0_0:r0"
+          ],
+          "flag_records_cancelled": [
+            "f0_0:r0"
+          ],
+          "measurement_faults": 0,
+          "reset_faults": 1,
+          "idle_faults": 0,
+          "shared_gadget": true,
+          "independent_completion": true,
+          "overlapping_gadgets": false,
+          "failure_classes": [
+            "INTERACTION_ORDER_HOOK",
+            "FLAG_CANCELLATION",
+            "CROSS_CHECK_COLLISION"
+          ]
+        },
+        "runtime_seconds": 0.03778120002243668,
+        "independent_exclusion": {
+          "verified": true,
+          "excluded_through": 2,
+          "singleton_replay_count": 1768,
+          "joined_combinations_checked": 20164,
+          "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+        }
+      }
+    ],
+    "algorithm_modified": false
+  },
+  {
+    "task": "steane14_sum-Z",
+    "target": 3,
+    "reachable": true,
+    "fixed_generic_constructions": [
+      {
+        "template": "uniform_readout_role_prefixes",
+        "reverse": false,
+        "architecture_id": "caf4c5edea67e111ff18",
+        "candidate": {
+          "generating_basis": [
+            "IIIXXXXIIIIIII",
+            "IXXIIXXIIIIIII",
+            "XIXIXIXIIIIIII",
+            "IIIZZZZIIIIIII",
+            "IZZIIZZIIIIIII",
+            "ZIZIZIZIIIIIII",
+            "IIIIIIIIIIXXXX",
+            "IIIIIIIIXXIIXX",
+            "IIIIIIIXIXIXIX",
+            "IIIIIIIIIIZZZZ",
+            "IIIIIIIIZZIIZZ",
+            "IIIIIIIZIZIZIZ"
+          ],
+          "orders": [
+            [
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              1,
+              2,
+              5,
+              6
+            ],
+            [
+              0,
+              2,
+              4,
+              6
+            ],
+            [
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              1,
+              2,
+              5,
+              6
+            ],
+            [
+              0,
+              2,
+              4,
+              6
+            ],
+            [
+              10,
+              11,
+              12,
+              13
+            ],
+            [
+              8,
+              9,
+              12,
+              13
+            ],
+            [
+              7,
+              9,
+              11,
+              13
+            ],
+            [
+              10,
+              11,
+              12,
+              13
+            ],
+            [
+              8,
+              9,
+              12,
+              13
+            ],
+            [
+              7,
+              9,
+              11,
+              13
+            ]
+          ],
+          "flag_intervals": [
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [],
+            [],
+            [],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [],
+            [],
+            []
+          ],
+          "check_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "ancilla_assignment": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "syndrome_budget": 12,
+          "parallelism": 1
+        },
+        "resources": {
+          "data_qubits": 14,
+          "syndrome_ancillas": 12,
+          "flag_ancillas": 6,
+          "Q": 32,
+          "one_q_gates": 72,
+          "two_q_gates": 180,
+          "measurements": 68,
+          "resets": 54,
+          "preparations": 0,
+          "operation_count": 374,
+          "D": 361,
+          "QD": 11552,
+          "depth_lower_bound": 361,
+          "schedule_efficiency": 1.0
+        },
+        "circuit_hash": "430decdaa618298b3c06b0d591db9cd3caaf32d3d78b6cdf39d65f94f5a3e567",
+        "bounds": {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 374,
+          "fault_variants": 3146,
+          "requested_weight": 3
+        },
+        "rejection": null,
+        "stage": "D",
+        "signature_seconds": 0.013541999971494079,
+        "fault_search_seconds": 0.04023719998076558,
+        "runtime_seconds": 0.06262900005094707,
+        "independent_exclusion": {
+          "verified": true,
+          "excluded_through": 2,
+          "singleton_replay_count": 3146,
+          "joined_combinations_checked": 71944,
+          "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+        }
+      },
+      {
+        "template": "uniform_readout_role_prefixes",
+        "reverse": true,
+        "architecture_id": "7e6e253bece7c631a5a4",
+        "candidate": {
+          "generating_basis": [
+            "IIIXXXXIIIIIII",
+            "IXXIIXXIIIIIII",
+            "XIXIXIXIIIIIII",
+            "IIIZZZZIIIIIII",
+            "IZZIIZZIIIIIII",
+            "ZIZIZIZIIIIIII",
+            "IIIIIIIIIIXXXX",
+            "IIIIIIIIXXIIXX",
+            "IIIIIIIXIXIXIX",
+            "IIIIIIIIIIZZZZ",
+            "IIIIIIIIZZIIZZ",
+            "IIIIIIIZIZIZIZ"
+          ],
+          "orders": [
+            [
+              6,
+              5,
+              4,
+              3
+            ],
+            [
+              6,
+              5,
+              2,
+              1
+            ],
+            [
+              6,
+              4,
+              2,
+              0
+            ],
+            [
+              6,
+              5,
+              4,
+              3
+            ],
+            [
+              6,
+              5,
+              2,
+              1
+            ],
+            [
+              6,
+              4,
+              2,
+              0
+            ],
+            [
+              13,
+              12,
+              11,
+              10
+            ],
+            [
+              13,
+              12,
+              9,
+              8
+            ],
+            [
+              13,
+              11,
+              9,
+              7
+            ],
+            [
+              13,
+              12,
+              11,
+              10
+            ],
+            [
+              13,
+              12,
+              9,
+              8
+            ],
+            [
+              13,
+              11,
+              9,
+              7
+            ]
+          ],
+          "flag_intervals": [
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [],
+            [],
+            [],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [],
+            [],
+            []
+          ],
+          "check_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "ancilla_assignment": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "syndrome_budget": 12,
+          "parallelism": 1
+        },
+        "resources": {
+          "data_qubits": 14,
+          "syndrome_ancillas": 12,
+          "flag_ancillas": 6,
+          "Q": 32,
+          "one_q_gates": 72,
+          "two_q_gates": 180,
+          "measurements": 68,
+          "resets": 54,
+          "preparations": 0,
+          "operation_count": 374,
+          "D": 361,
+          "QD": 11552,
+          "depth_lower_bound": 361,
+          "schedule_efficiency": 1.0
+        },
+        "circuit_hash": "27023ba4d417611a298dd7b444c282e2dbc29692576f3f548d9d5029d6fa5e5e",
+        "bounds": {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 374,
+          "fault_variants": 3146,
+          "requested_weight": 3
+        },
+        "rejection": null,
+        "stage": "D",
+        "signature_seconds": 0.021549200057052076,
+        "fault_search_seconds": 0.044645499903708696,
+        "runtime_seconds": 0.0747851999476552,
+        "independent_exclusion": {
+          "verified": true,
+          "excluded_through": 2,
+          "singleton_replay_count": 3146,
+          "joined_combinations_checked": 71944,
+          "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+        }
+      }
+    ],
+    "algorithm_modified": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "target": 3,
+    "reachable": true,
+    "fixed_generic_constructions": [
+      {
+        "template": "uniform_readout_role_prefixes",
+        "reverse": false,
+        "architecture_id": "39df2b721b051c70071f",
+        "candidate": {
+          "generating_basis": [
+            "XIXIXIXIXIXIXIX",
+            "IXXIIXXIIXXIIXX",
+            "IIIXXXXIIIIXXXX",
+            "IIIIIIIXXXXXXXX",
+            "ZIZIZIZIZIZIZIZ",
+            "IZZIIZZIIZZIIZZ",
+            "IIIZZZZIIIIZZZZ",
+            "IIIIIIIZZZZZZZZ"
+          ],
+          "orders": [
+            [
+              0,
+              2,
+              4,
+              6,
+              8,
+              10,
+              12,
+              14
+            ],
+            [
+              1,
+              2,
+              5,
+              6,
+              9,
+              10,
+              13,
+              14
+            ],
+            [
+              3,
+              4,
+              5,
+              6,
+              11,
+              12,
+              13,
+              14
+            ],
+            [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            [
+              0,
+              2,
+              4,
+              6,
+              8,
+              10,
+              12,
+              14
+            ],
+            [
+              1,
+              2,
+              5,
+              6,
+              9,
+              10,
+              13,
+              14
+            ],
+            [
+              3,
+              4,
+              5,
+              6,
+              11,
+              12,
+              13,
+              14
+            ],
+            [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ]
+          ],
+          "flag_intervals": [
+            [],
+            [],
+            [],
+            [],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ]
+          ],
+          "check_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "ancilla_assignment": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "syndrome_budget": 8,
+          "parallelism": 1
+        },
+        "resources": {
+          "data_qubits": 15,
+          "syndrome_ancillas": 8,
+          "flag_ancillas": 16,
+          "Q": 39,
+          "one_q_gates": 63,
+          "two_q_gates": 288,
+          "measurements": 87,
+          "resets": 72,
+          "preparations": 0,
+          "operation_count": 510,
+          "D": 482,
+          "QD": 18798,
+          "depth_lower_bound": 482,
+          "schedule_efficiency": 1.0
+        },
+        "circuit_hash": "1ca76e2c613a66cb0825cd31d79d492b2959c63ccbd2ecfb26a961aaf0ca14c2",
+        "bounds": {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 510,
+          "fault_variants": 4812,
+          "requested_weight": 3
+        },
+        "rejection": null,
+        "stage": "D",
+        "signature_seconds": 0.02569079992827028,
+        "fault_search_seconds": 0.03981840005144477,
+        "runtime_seconds": 0.07673259999137372,
+        "independent_exclusion": {
+          "verified": true,
+          "excluded_through": 2,
+          "singleton_replay_count": 4812,
+          "joined_combinations_checked": 79480,
+          "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+        }
+      },
+      {
+        "template": "uniform_readout_role_prefixes",
+        "reverse": true,
+        "architecture_id": "820f1d09faad6b9185bf",
+        "candidate": {
+          "generating_basis": [
+            "XIXIXIXIXIXIXIX",
+            "IXXIIXXIIXXIIXX",
+            "IIIXXXXIIIIXXXX",
+            "IIIIIIIXXXXXXXX",
+            "ZIZIZIZIZIZIZIZ",
+            "IZZIIZZIIZZIIZZ",
+            "IIIZZZZIIIIZZZZ",
+            "IIIIIIIZZZZZZZZ"
+          ],
+          "orders": [
+            [
+              14,
+              12,
+              10,
+              8,
+              6,
+              4,
+              2,
+              0
+            ],
+            [
+              14,
+              13,
+              10,
+              9,
+              6,
+              5,
+              2,
+              1
+            ],
+            [
+              14,
+              13,
+              12,
+              11,
+              6,
+              5,
+              4,
+              3
+            ],
+            [
+              14,
+              13,
+              12,
+              11,
+              10,
+              9,
+              8,
+              7
+            ],
+            [
+              14,
+              12,
+              10,
+              8,
+              6,
+              4,
+              2,
+              0
+            ],
+            [
+              14,
+              13,
+              10,
+              9,
+              6,
+              5,
+              2,
+              1
+            ],
+            [
+              14,
+              13,
+              12,
+              11,
+              6,
+              5,
+              4,
+              3
+            ],
+            [
+              14,
+              13,
+              12,
+              11,
+              10,
+              9,
+              8,
+              7
+            ]
+          ],
+          "flag_intervals": [
+            [],
+            [],
+            [],
+            [],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ]
+          ],
+          "check_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "ancilla_assignment": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "syndrome_budget": 8,
+          "parallelism": 1
+        },
+        "resources": {
+          "data_qubits": 15,
+          "syndrome_ancillas": 8,
+          "flag_ancillas": 16,
+          "Q": 39,
+          "one_q_gates": 63,
+          "two_q_gates": 288,
+          "measurements": 87,
+          "resets": 72,
+          "preparations": 0,
+          "operation_count": 510,
+          "D": 482,
+          "QD": 18798,
+          "depth_lower_bound": 482,
+          "schedule_efficiency": 1.0
+        },
+        "circuit_hash": "ab9d532ce3ecb603acf43c8d787a36e94c2186c351d72f92b7cf062ee024ea60",
+        "bounds": {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 510,
+          "fault_variants": 4812,
+          "requested_weight": 3
+        },
+        "rejection": null,
+        "stage": "D",
+        "signature_seconds": 0.02538450004067272,
+        "fault_search_seconds": 0.04016189998947084,
+        "runtime_seconds": 0.07688429998233914,
+        "independent_exclusion": {
+          "verified": true,
+          "excluded_through": 2,
+          "singleton_replay_count": 4812,
+          "joined_combinations_checked": 79513,
+          "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+        }
+      }
+    ],
+    "algorithm_modified": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "target": 3,
+    "reachable": true,
+    "fixed_generic_constructions": [
+      {
+        "template": "uniform_readout_role_prefixes",
+        "reverse": false,
+        "architecture_id": "0e68cdde9d3e8051c0dd",
+        "candidate": {
+          "generating_basis": [
+            "XIXIXIXIXIXIXIX",
+            "IXXIIXXIIXXIIXX",
+            "IIIXXXXIIIIXXXX",
+            "IIIIIIIXXXXXXXX",
+            "ZIZIZIZIZIZIZIZ",
+            "IZZIIZZIIZZIIZZ",
+            "IIIZZZZIIIIZZZZ",
+            "IIIIIIIZZZZZZZZ"
+          ],
+          "orders": [
+            [
+              0,
+              2,
+              4,
+              6,
+              8,
+              10,
+              12,
+              14
+            ],
+            [
+              1,
+              2,
+              5,
+              6,
+              9,
+              10,
+              13,
+              14
+            ],
+            [
+              3,
+              4,
+              5,
+              6,
+              11,
+              12,
+              13,
+              14
+            ],
+            [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            [
+              0,
+              2,
+              4,
+              6,
+              8,
+              10,
+              12,
+              14
+            ],
+            [
+              1,
+              2,
+              5,
+              6,
+              9,
+              10,
+              13,
+              14
+            ],
+            [
+              3,
+              4,
+              5,
+              6,
+              11,
+              12,
+              13,
+              14
+            ],
+            [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ]
+          ],
+          "flag_intervals": [
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            [],
+            [],
+            [],
+            []
+          ],
+          "check_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "ancilla_assignment": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "syndrome_budget": 8,
+          "parallelism": 1
+        },
+        "resources": {
+          "data_qubits": 15,
+          "syndrome_ancillas": 8,
+          "flag_ancillas": 16,
+          "Q": 39,
+          "one_q_gates": 48,
+          "two_q_gates": 288,
+          "measurements": 87,
+          "resets": 72,
+          "preparations": 0,
+          "operation_count": 495,
+          "D": 481,
+          "QD": 18759,
+          "depth_lower_bound": 481,
+          "schedule_efficiency": 1.0
+        },
+        "circuit_hash": "b0ec7707e218e8672d733817b18e96a1bb1d0d38918c87d1baf9892959f0e99b",
+        "bounds": {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 495,
+          "fault_variants": 4767,
+          "requested_weight": 3
+        },
+        "rejection": null,
+        "stage": "D",
+        "signature_seconds": 0.02945099992211908,
+        "fault_search_seconds": 0.036080899997614324,
+        "runtime_seconds": 0.07579379994422197,
+        "independent_exclusion": {
+          "verified": true,
+          "excluded_through": 2,
+          "singleton_replay_count": 4767,
+          "joined_combinations_checked": 105529,
+          "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+        }
+      },
+      {
+        "template": "uniform_readout_role_prefixes",
+        "reverse": true,
+        "architecture_id": "e938f0991b1353f78baa",
+        "candidate": {
+          "generating_basis": [
+            "XIXIXIXIXIXIXIX",
+            "IXXIIXXIIXXIIXX",
+            "IIIXXXXIIIIXXXX",
+            "IIIIIIIXXXXXXXX",
+            "ZIZIZIZIZIZIZIZ",
+            "IZZIIZZIIZZIIZZ",
+            "IIIZZZZIIIIZZZZ",
+            "IIIIIIIZZZZZZZZ"
+          ],
+          "orders": [
+            [
+              14,
+              12,
+              10,
+              8,
+              6,
+              4,
+              2,
+              0
+            ],
+            [
+              14,
+              13,
+              10,
+              9,
+              6,
+              5,
+              2,
+              1
+            ],
+            [
+              14,
+              13,
+              12,
+              11,
+              6,
+              5,
+              4,
+              3
+            ],
+            [
+              14,
+              13,
+              12,
+              11,
+              10,
+              9,
+              8,
+              7
+            ],
+            [
+              14,
+              12,
+              10,
+              8,
+              6,
+              4,
+              2,
+              0
+            ],
+            [
+              14,
+              13,
+              10,
+              9,
+              6,
+              5,
+              2,
+              1
+            ],
+            [
+              14,
+              13,
+              12,
+              11,
+              6,
+              5,
+              4,
+              3
+            ],
+            [
+              14,
+              13,
+              12,
+              11,
+              10,
+              9,
+              8,
+              7
+            ]
+          ],
+          "flag_intervals": [
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                8
+              ]
+            ],
+            [],
+            [],
+            [],
+            []
+          ],
+          "check_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "ancilla_assignment": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "syndrome_budget": 8,
+          "parallelism": 1
+        },
+        "resources": {
+          "data_qubits": 15,
+          "syndrome_ancillas": 8,
+          "flag_ancillas": 16,
+          "Q": 39,
+          "one_q_gates": 48,
+          "two_q_gates": 288,
+          "measurements": 87,
+          "resets": 72,
+          "preparations": 0,
+          "operation_count": 495,
+          "D": 481,
+          "QD": 18759,
+          "depth_lower_bound": 481,
+          "schedule_efficiency": 1.0
+        },
+        "circuit_hash": "ba206bd99229ccc3533b3ac396eea1606866936234ac40abfbe02bd43b20765e",
+        "bounds": {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 495,
+          "fault_variants": 4767,
+          "requested_weight": 3
+        },
+        "rejection": null,
+        "stage": "D",
+        "signature_seconds": 0.024946600082330406,
+        "fault_search_seconds": 0.03630680008791387,
+        "runtime_seconds": 0.07231329998467118,
+        "independent_exclusion": {
+          "verified": true,
+          "excluded_through": 2,
+          "singleton_replay_count": 4767,
+          "joined_combinations_checked": 105562,
+          "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+        }
+      }
+    ],
+    "algorithm_modified": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "target": 3,
+    "reachable": true,
+    "fixed_generic_constructions": [
+      {
+        "template": "uniform_readout_role_prefixes",
+        "reverse": false,
+        "architecture_id": "7593f70c12bdb11e1ba7",
+        "candidate": {
+          "generating_basis": [
+            "XIXIXIXIXIXIXIX",
+            "IXXIIXXIIXXIIXX",
+            "IIIXXXXIIIIXXXX",
+            "IIIIIIIXXXXXXXX",
+            "IZZZZIIIIIIIIII",
+            "ZIZZIZIIIIIIIII",
+            "ZZIZIIZIIIIIIII",
+            "IZZIIIIZZIIIIII",
+            "ZIZIIIIZIZIIIII",
+            "ZZIIIIIZIIZIIII",
+            "ZZZZIIIZIIIZIII",
+            "ZIIZIIIZIIIIZII",
+            "IZIZIIIZIIIIIZI",
+            "IIZZIIIZIIIIIIZ"
+          ],
+          "orders": [
+            [
+              0,
+              2,
+              4,
+              6,
+              8,
+              10,
+              12,
+              14
+            ],
+            [
+              1,
+              2,
+              5,
+              6,
+              9,
+              10,
+              13,
+              14
+            ],
+            [
+              3,
+              4,
+              5,
+              6,
+              11,
+              12,
+              13,
+              14
+            ],
+            [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              0,
+              2,
+              3,
+              5
+            ],
+            [
+              0,
+              1,
+              3,
+              6
+            ],
+            [
+              1,
+              2,
+              7,
+              8
+            ],
+            [
+              0,
+              2,
+              7,
+              9
+            ],
+            [
+              0,
+              1,
+              7,
+              10
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              7,
+              11
+            ],
+            [
+              0,
+              3,
+              7,
+              12
+            ],
+            [
+              1,
+              3,
+              7,
+              13
+            ],
+            [
+              2,
+              3,
+              7,
+              14
+            ]
+          ],
+          "flag_intervals": [
+            [],
+            [],
+            [],
+            [],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ]
+          ],
+          "check_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "ancilla_assignment": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "syndrome_budget": 14,
+          "parallelism": 1
+        },
+        "resources": {
+          "data_qubits": 15,
+          "syndrome_ancillas": 14,
+          "flag_ancillas": 13,
+          "Q": 42,
+          "one_q_gates": 99,
+          "two_q_gates": 300,
+          "measurements": 96,
+          "resets": 81,
+          "preparations": 0,
+          "operation_count": 576,
+          "D": 548,
+          "QD": 23016,
+          "depth_lower_bound": 548,
+          "schedule_efficiency": 1.0
+        },
+        "circuit_hash": "fb25e409330082e5d1abd38f290e39d2631a8555cf5043b8a887eb23c22ea3a1",
+        "bounds": {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 576,
+          "fault_variants": 5136,
+          "requested_weight": 3
+        },
+        "rejection": null,
+        "stage": "D",
+        "signature_seconds": 0.026194400037638843,
+        "fault_search_seconds": 0.03835529997013509,
+        "runtime_seconds": 0.07603900006506592,
+        "independent_exclusion": {
+          "verified": true,
+          "excluded_through": 2,
+          "singleton_replay_count": 5136,
+          "joined_combinations_checked": 106400,
+          "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+        }
+      },
+      {
+        "template": "uniform_readout_role_prefixes",
+        "reverse": true,
+        "architecture_id": "01e268d3bce2df178a65",
+        "candidate": {
+          "generating_basis": [
+            "XIXIXIXIXIXIXIX",
+            "IXXIIXXIIXXIIXX",
+            "IIIXXXXIIIIXXXX",
+            "IIIIIIIXXXXXXXX",
+            "IZZZZIIIIIIIIII",
+            "ZIZZIZIIIIIIIII",
+            "ZZIZIIZIIIIIIII",
+            "IZZIIIIZZIIIIII",
+            "ZIZIIIIZIZIIIII",
+            "ZZIIIIIZIIZIIII",
+            "ZZZZIIIZIIIZIII",
+            "ZIIZIIIZIIIIZII",
+            "IZIZIIIZIIIIIZI",
+            "IIZZIIIZIIIIIIZ"
+          ],
+          "orders": [
+            [
+              14,
+              12,
+              10,
+              8,
+              6,
+              4,
+              2,
+              0
+            ],
+            [
+              14,
+              13,
+              10,
+              9,
+              6,
+              5,
+              2,
+              1
+            ],
+            [
+              14,
+              13,
+              12,
+              11,
+              6,
+              5,
+              4,
+              3
+            ],
+            [
+              14,
+              13,
+              12,
+              11,
+              10,
+              9,
+              8,
+              7
+            ],
+            [
+              4,
+              3,
+              2,
+              1
+            ],
+            [
+              5,
+              3,
+              2,
+              0
+            ],
+            [
+              6,
+              3,
+              1,
+              0
+            ],
+            [
+              8,
+              7,
+              2,
+              1
+            ],
+            [
+              9,
+              7,
+              2,
+              0
+            ],
+            [
+              10,
+              7,
+              1,
+              0
+            ],
+            [
+              11,
+              7,
+              3,
+              2,
+              1,
+              0
+            ],
+            [
+              12,
+              7,
+              3,
+              0
+            ],
+            [
+              13,
+              7,
+              3,
+              1
+            ],
+            [
+              14,
+              7,
+              3,
+              2
+            ]
+          ],
+          "flag_intervals": [
+            [],
+            [],
+            [],
+            [],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ]
+          ],
+          "check_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "ancilla_assignment": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "syndrome_budget": 14,
+          "parallelism": 1
+        },
+        "resources": {
+          "data_qubits": 15,
+          "syndrome_ancillas": 14,
+          "flag_ancillas": 13,
+          "Q": 42,
+          "one_q_gates": 99,
+          "two_q_gates": 300,
+          "measurements": 96,
+          "resets": 81,
+          "preparations": 0,
+          "operation_count": 576,
+          "D": 548,
+          "QD": 23016,
+          "depth_lower_bound": 548,
+          "schedule_efficiency": 1.0
+        },
+        "circuit_hash": "0dbcb14ddec7f9e97c5be090489c7d85ff2b3edbaa3de68d56738f305c6fba7e",
+        "bounds": {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 576,
+          "fault_variants": 5136,
+          "requested_weight": 3
+        },
+        "rejection": null,
+        "stage": "D",
+        "signature_seconds": 0.026366899954155087,
+        "fault_search_seconds": 0.036680700024589896,
+        "runtime_seconds": 0.08025910006836057,
+        "independent_exclusion": {
+          "verified": true,
+          "excluded_through": 2,
+          "singleton_replay_count": 5136,
+          "joined_combinations_checked": 106393,
+          "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+        }
+      }
+    ],
+    "algorithm_modified": false
+  },
+  {
+    "task": "affine15_k1_mixed-X",
+    "target": 3,
+    "reachable": false,
+    "fixed_generic_constructions": [
+      {
+        "template": "uniform_readout_role_prefixes",
+        "reverse": false,
+        "architecture_id": "991323a67365ee7d34c7",
+        "candidate": {
+          "generating_basis": [
+            "XZYZYIXIXIXIXIX",
+            "IXXIIXXIIXXIIXX",
+            "IIIXXXXIIIIXXXX",
+            "IIIIIIIXXXXXXXX",
+            "IZZZZIIIIIIIIII",
+            "ZIZZIZIIIIIIIII",
+            "ZZIZIIZIIIIIIII",
+            "IZZIIIIZZIIIIII",
+            "ZIZIIIIZIZIIIII",
+            "ZZIIIIIZIIZIIII",
+            "ZZZZIIIZIIIZIII",
+            "ZIIZIIIZIIIIZII",
+            "IZIZIIIZIIIIIZI",
+            "IIZZIIIZIIIIIIZ"
+          ],
+          "orders": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6,
+              8,
+              10,
+              12,
+              14
+            ],
+            [
+              1,
+              2,
+              5,
+              6,
+              9,
+              10,
+              13,
+              14
+            ],
+            [
+              3,
+              4,
+              5,
+              6,
+              11,
+              12,
+              13,
+              14
+            ],
+            [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              0,
+              2,
+              3,
+              5
+            ],
+            [
+              0,
+              1,
+              3,
+              6
+            ],
+            [
+              1,
+              2,
+              7,
+              8
+            ],
+            [
+              0,
+              2,
+              7,
+              9
+            ],
+            [
+              0,
+              1,
+              7,
+              10
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              7,
+              11
+            ],
+            [
+              0,
+              3,
+              7,
+              12
+            ],
+            [
+              1,
+              3,
+              7,
+              13
+            ],
+            [
+              2,
+              3,
+              7,
+              14
+            ]
+          ],
+          "flag_intervals": [
+            [
+              [
+                0,
+                10
+              ]
+            ],
+            [],
+            [],
+            [],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ]
+          ],
+          "check_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "ancilla_assignment": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "syndrome_budget": 14,
+          "parallelism": 1
+        },
+        "resources": {
+          "data_qubits": 15,
+          "syndrome_ancillas": 14,
+          "flag_ancillas": 14,
+          "Q": 43,
+          "one_q_gates": 111,
+          "two_q_gates": 312,
+          "measurements": 99,
+          "resets": 84,
+          "preparations": 0,
+          "operation_count": 606,
+          "D": 578,
+          "QD": 24854,
+          "depth_lower_bound": 578,
+          "schedule_efficiency": 1.0
+        },
+        "circuit_hash": "2e79ac08c6331c90a74be4680640470c14b953e648df4c157d3b5acaa468832a",
+        "bounds": {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 5,
+                "qubits": [
+                  15,
+                  0
+                ],
+                "label": "XZ",
+                "kind": "cx",
+                "location": "op:5",
+                "before": false,
+                "round_index": 0,
+                "check": 0,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 0
+              },
+              {
+                "operation": 8,
+                "qubits": [
+                  15,
+                  2
+                ],
+                "label": "XY",
+                "kind": "cx",
+                "location": "op:8",
+                "before": false,
+                "round_index": 0,
+                "check": 0,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 2
+              }
+            ],
+            "checks": [
+              0
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              0,
+              1,
+              2
+            ],
+            "flags_fired": true,
+            "flag_information_cancelled": true,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "XXXIIIIIIIIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 98677,
+          "fault_locations": 606,
+          "fault_variants": 5364,
+          "requested_weight": 3
+        },
+        "rejection": "logical_witness_below_target",
+        "stage": "C",
+        "signature_seconds": 0.029795399983413517,
+        "fault_search_seconds": 0.014830000000074506,
+        "witness_verification": {
+          "verified": true,
+          "path": "boolean_array_simultaneous_replay"
+        },
+        "counterexample_analysis": {
+          "counterexample_id": "d55f52fe9c8d152219f9",
+          "total_fault_weight": 2,
+          "rounds": [
+            0
+          ],
+          "checks": [
+            0
+          ],
+          "round_relation": "same-round",
+          "check_relation": "same-check",
+          "data_hook_support": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          "hook_weight": 10,
+          "implicated_intervals": [
+            {
+              "round": 0,
+              "check": 0,
+              "flag_interval": null,
+              "interaction_position": 0,
+              "monitored_intervals": [
+                {
+                  "flag_interval": 0,
+                  "lo": 0,
+                  "hi": 10
+                }
+              ],
+              "propagated_support": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14
+              ]
+            },
+            {
+              "round": 0,
+              "check": 0,
+              "flag_interval": null,
+              "interaction_position": 2,
+              "monitored_intervals": [
+                {
+                  "flag_interval": 0,
+                  "lo": 0,
+                  "hi": 10
+                }
+              ],
+              "propagated_support": [
+                2,
+                3,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14
+              ]
+            }
+          ],
+          "flag_records_triggered": [
+            "f0_0:r0"
+          ],
+          "flag_records_cancelled": [
+            "f0_0:r0"
+          ],
+          "measurement_faults": 0,
+          "reset_faults": 0,
+          "idle_faults": 0,
+          "shared_gadget": true,
+          "independent_completion": false,
+          "overlapping_gadgets": false,
+          "failure_classes": [
+            "SAME_CHECK_HOOK",
+            "FLAG_CANCELLATION"
+          ]
+        },
+        "runtime_seconds": 0.07043049996718764
+      },
+      {
+        "template": "uniform_readout_role_prefixes",
+        "reverse": true,
+        "architecture_id": "765c8b7d61ffedaaf158",
+        "candidate": {
+          "generating_basis": [
+            "XZYZYIXIXIXIXIX",
+            "IXXIIXXIIXXIIXX",
+            "IIIXXXXIIIIXXXX",
+            "IIIIIIIXXXXXXXX",
+            "IZZZZIIIIIIIIII",
+            "ZIZZIZIIIIIIIII",
+            "ZZIZIIZIIIIIIII",
+            "IZZIIIIZZIIIIII",
+            "ZIZIIIIZIZIIIII",
+            "ZZIIIIIZIIZIIII",
+            "ZZZZIIIZIIIZIII",
+            "ZIIZIIIZIIIIZII",
+            "IZIZIIIZIIIIIZI",
+            "IIZZIIIZIIIIIIZ"
+          ],
+          "orders": [
+            [
+              14,
+              12,
+              10,
+              8,
+              6,
+              4,
+              3,
+              2,
+              1,
+              0
+            ],
+            [
+              14,
+              13,
+              10,
+              9,
+              6,
+              5,
+              2,
+              1
+            ],
+            [
+              14,
+              13,
+              12,
+              11,
+              6,
+              5,
+              4,
+              3
+            ],
+            [
+              14,
+              13,
+              12,
+              11,
+              10,
+              9,
+              8,
+              7
+            ],
+            [
+              4,
+              3,
+              2,
+              1
+            ],
+            [
+              5,
+              3,
+              2,
+              0
+            ],
+            [
+              6,
+              3,
+              1,
+              0
+            ],
+            [
+              8,
+              7,
+              2,
+              1
+            ],
+            [
+              9,
+              7,
+              2,
+              0
+            ],
+            [
+              10,
+              7,
+              1,
+              0
+            ],
+            [
+              11,
+              7,
+              3,
+              2,
+              1,
+              0
+            ],
+            [
+              12,
+              7,
+              3,
+              0
+            ],
+            [
+              13,
+              7,
+              3,
+              1
+            ],
+            [
+              14,
+              7,
+              3,
+              2
+            ]
+          ],
+          "flag_intervals": [
+            [
+              [
+                0,
+                10
+              ]
+            ],
+            [],
+            [],
+            [],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                6
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ],
+            [
+              [
+                0,
+                4
+              ]
+            ]
+          ],
+          "check_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "ancilla_assignment": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "syndrome_budget": 14,
+          "parallelism": 1
+        },
+        "resources": {
+          "data_qubits": 15,
+          "syndrome_ancillas": 14,
+          "flag_ancillas": 14,
+          "Q": 43,
+          "one_q_gates": 111,
+          "two_q_gates": 312,
+          "measurements": 99,
+          "resets": 84,
+          "preparations": 0,
+          "operation_count": 606,
+          "D": 578,
+          "QD": 24854,
+          "depth_lower_bound": 578,
+          "schedule_efficiency": 1.0
+        },
+        "circuit_hash": "7992366c32fef2d54e15bb070a6c0044feda344c88d74ed2d1c8be01b4579ba3",
+        "bounds": {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 15,
+                "qubits": [
+                  15,
+                  2
+                ],
+                "label": "XZ",
+                "kind": "cx",
+                "location": "op:15",
+                "before": false,
+                "round_index": 0,
+                "check": 0,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 7
+              },
+              {
+                "operation": 18,
+                "qubits": [
+                  15,
+                  0
+                ],
+                "label": "XY",
+                "kind": "cx",
+                "location": "op:18",
+                "before": false,
+                "round_index": 0,
+                "check": 0,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 9
+              }
+            ],
+            "checks": [
+              0
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              0,
+              1,
+              2
+            ],
+            "flags_fired": true,
+            "flag_information_cancelled": true,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "XXXIIIIIIIIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 98793,
+          "fault_locations": 606,
+          "fault_variants": 5364,
+          "requested_weight": 3
+        },
+        "rejection": "logical_witness_below_target",
+        "stage": "C",
+        "signature_seconds": 0.02903929993044585,
+        "fault_search_seconds": 0.015338900033384562,
+        "witness_verification": {
+          "verified": true,
+          "path": "boolean_array_simultaneous_replay"
+        },
+        "counterexample_analysis": {
+          "counterexample_id": "3e9d0ca2613680b8d5f7",
+          "total_fault_weight": 2,
+          "rounds": [
+            0
+          ],
+          "checks": [
+            0
+          ],
+          "round_relation": "same-round",
+          "check_relation": "same-check",
+          "data_hook_support": [
+            0,
+            1,
+            2
+          ],
+          "hook_weight": 3,
+          "implicated_intervals": [
+            {
+              "round": 0,
+              "check": 0,
+              "flag_interval": null,
+              "interaction_position": 7,
+              "monitored_intervals": [
+                {
+                  "flag_interval": 0,
+                  "lo": 0,
+                  "hi": 10
+                }
+              ],
+              "propagated_support": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "round": 0,
+              "check": 0,
+              "flag_interval": null,
+              "interaction_position": 9,
+              "monitored_intervals": [
+                {
+                  "flag_interval": 0,
+                  "lo": 0,
+                  "hi": 10
+                }
+              ],
+              "propagated_support": [
+                0
+              ]
+            }
+          ],
+          "flag_records_triggered": [
+            "f0_0:r0"
+          ],
+          "flag_records_cancelled": [
+            "f0_0:r0"
+          ],
+          "measurement_faults": 0,
+          "reset_faults": 0,
+          "idle_faults": 0,
+          "shared_gadget": true,
+          "independent_completion": true,
+          "overlapping_gadgets": false,
+          "failure_classes": [
+            "SAME_CHECK_HOOK",
+            "FLAG_CANCELLATION"
+          ]
+        },
+        "runtime_seconds": 0.07040029997006059
+      }
+    ],
+    "algorithm_modified": false
+  }
+]

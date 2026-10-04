@@ -1,0 +1,4575 @@
+{
+  "task": "shor5x5-Z",
+  "target": 3,
+  "reachable": false,
+  "status": "UNKNOWN_AFTER_BOUNDED_PILOT",
+  "fixed_generic_constructions": [
+    {
+      "flags_per_check": 1,
+      "reverse": false,
+      "architecture_id": "ca3164695d768a1f740a",
+      "candidate": {
+        "generating_basis": [
+          "ZZIIIIIIIIIIIIIIIIIIIIIII",
+          "IZZIIIIIIIIIIIIIIIIIIIIII",
+          "IIZZIIIIIIIIIIIIIIIIIIIII",
+          "IIIZZIIIIIIIIIIIIIIIIIIII",
+          "IIIIIZZIIIIIIIIIIIIIIIIII",
+          "IIIIIIZZIIIIIIIIIIIIIIIII",
+          "IIIIIIIZZIIIIIIIIIIIIIIII",
+          "IIIIIIIIZZIIIIIIIIIIIIIII",
+          "IIIIIIIIIIZZIIIIIIIIIIIII",
+          "IIIIIIIIIIIZZIIIIIIIIIIII",
+          "IIIIIIIIIIIIZZIIIIIIIIIII",
+          "IIIIIIIIIIIIIZZIIIIIIIIII",
+          "IIIIIIIIIIIIIIIZZIIIIIIII",
+          "IIIIIIIIIIIIIIIIZZIIIIIII",
+          "IIIIIIIIIIIIIIIIIZZIIIIII",
+          "IIIIIIIIIIIIIIIIIIZZIIIII",
+          "IIIIIIIIIIIIIIIIIIIIZZIII",
+          "IIIIIIIIIIIIIIIIIIIIIZZII",
+          "IIIIIIIIIIIIIIIIIIIIIIZZI",
+          "IIIIIIIIIIIIIIIIIIIIIIIZZ",
+          "XXXXXXXXXXIIIIIIIIIIIIIII",
+          "IIIIIXXXXXXXXXXIIIIIIIIII",
+          "IIIIIIIIIIXXXXXXXXXXIIIII",
+          "IIIIIIIIIIIIIIIXXXXXXXXXX"
+        ],
+        "orders": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "syndrome_budget": 24,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 25,
+        "syndrome_ancillas": 24,
+        "flag_ancillas": 24,
+        "Q": 73,
+        "one_q_gates": 144,
+        "two_q_gates": 384,
+        "measurements": 169,
+        "resets": 144,
+        "preparations": 0,
+        "operation_count": 841,
+        "D": 817,
+        "QD": 59641,
+        "depth_lower_bound": 817,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "8afddd1969db084db39d9cced77bc2c1168adc0a8b2ac236da5ba744075e0ea5",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 841,
+        "fault_variants": 6793,
+        "requested_weight": 3
+      },
+      "rejection": "incomplete_distance_screen",
+      "stage": "D",
+      "signature_seconds": 0.5137382000684738,
+      "fault_search_seconds": 0.4222588000120595,
+      "runtime_seconds": 1.250897299963981
+    },
+    {
+      "flags_per_check": 1,
+      "reverse": true,
+      "architecture_id": "59344e3aa65841db4109",
+      "candidate": {
+        "generating_basis": [
+          "ZZIIIIIIIIIIIIIIIIIIIIIII",
+          "IZZIIIIIIIIIIIIIIIIIIIIII",
+          "IIZZIIIIIIIIIIIIIIIIIIIII",
+          "IIIZZIIIIIIIIIIIIIIIIIIII",
+          "IIIIIZZIIIIIIIIIIIIIIIIII",
+          "IIIIIIZZIIIIIIIIIIIIIIIII",
+          "IIIIIIIZZIIIIIIIIIIIIIIII",
+          "IIIIIIIIZZIIIIIIIIIIIIIII",
+          "IIIIIIIIIIZZIIIIIIIIIIIII",
+          "IIIIIIIIIIIZZIIIIIIIIIIII",
+          "IIIIIIIIIIIIZZIIIIIIIIIII",
+          "IIIIIIIIIIIIIZZIIIIIIIIII",
+          "IIIIIIIIIIIIIIIZZIIIIIIII",
+          "IIIIIIIIIIIIIIIIZZIIIIIII",
+          "IIIIIIIIIIIIIIIIIZZIIIIII",
+          "IIIIIIIIIIIIIIIIIIZZIIIII",
+          "IIIIIIIIIIIIIIIIIIIIZZIII",
+          "IIIIIIIIIIIIIIIIIIIIIZZII",
+          "IIIIIIIIIIIIIIIIIIIIIIZZI",
+          "IIIIIIIIIIIIIIIIIIIIIIIZZ",
+          "XXXXXXXXXXIIIIIIIIIIIIIII",
+          "IIIIIXXXXXXXXXXIIIIIIIIII",
+          "IIIIIIIIIIXXXXXXXXXXIIIII",
+          "IIIIIIIIIIIIIIIXXXXXXXXXX"
+        ],
+        "orders": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            11,
+            10
+          ],
+          [
+            12,
+            11
+          ],
+          [
+            13,
+            12
+          ],
+          [
+            14,
+            13
+          ],
+          [
+            16,
+            15
+          ],
+          [
+            17,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            19,
+            18
+          ],
+          [
+            21,
+            20
+          ],
+          [
+            22,
+            21
+          ],
+          [
+            23,
+            22
+          ],
+          [
+            24,
+            23
+          ],
+          [
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5
+          ],
+          [
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10
+          ],
+          [
+            24,
+            23,
+            22,
+            21,
+            20,
+            19,
+            18,
+            17,
+            16,
+            15
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "syndrome_budget": 24,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 25,
+        "syndrome_ancillas": 24,
+        "flag_ancillas": 24,
+        "Q": 73,
+        "one_q_gates": 144,
+        "two_q_gates": 384,
+        "measurements": 169,
+        "resets": 144,
+        "preparations": 0,
+        "operation_count": 841,
+        "D": 817,
+        "QD": 59641,
+        "depth_lower_bound": 817,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "c520afb62de450e0ec7ef9c02f39fbfdaf5bcf194228bc1d50465fc00f297667",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 841,
+        "fault_variants": 6793,
+        "requested_weight": 3
+      },
+      "rejection": "incomplete_distance_screen",
+      "stage": "D",
+      "signature_seconds": 0.5699849999509752,
+      "fault_search_seconds": 0.34594869997818023,
+      "runtime_seconds": 1.1065034000203013
+    },
+    {
+      "flags_per_check": 2,
+      "reverse": false,
+      "architecture_id": "20e1f2a2f962fb255c5c",
+      "candidate": {
+        "generating_basis": [
+          "ZZIIIIIIIIIIIIIIIIIIIIIII",
+          "IZZIIIIIIIIIIIIIIIIIIIIII",
+          "IIZZIIIIIIIIIIIIIIIIIIIII",
+          "IIIZZIIIIIIIIIIIIIIIIIIII",
+          "IIIIIZZIIIIIIIIIIIIIIIIII",
+          "IIIIIIZZIIIIIIIIIIIIIIIII",
+          "IIIIIIIZZIIIIIIIIIIIIIIII",
+          "IIIIIIIIZZIIIIIIIIIIIIIII",
+          "IIIIIIIIIIZZIIIIIIIIIIIII",
+          "IIIIIIIIIIIZZIIIIIIIIIIII",
+          "IIIIIIIIIIIIZZIIIIIIIIIII",
+          "IIIIIIIIIIIIIZZIIIIIIIIII",
+          "IIIIIIIIIIIIIIIZZIIIIIIII",
+          "IIIIIIIIIIIIIIIIZZIIIIIII",
+          "IIIIIIIIIIIIIIIIIZZIIIIII",
+          "IIIIIIIIIIIIIIIIIIZZIIIII",
+          "IIIIIIIIIIIIIIIIIIIIZZIII",
+          "IIIIIIIIIIIIIIIIIIIIIZZII",
+          "IIIIIIIIIIIIIIIIIIIIIIZZI",
+          "IIIIIIIIIIIIIIIIIIIIIIIZZ",
+          "XXXXXXXXXXIIIIIIIIIIIIIII",
+          "IIIIIXXXXXXXXXXIIIIIIIIII",
+          "IIIIIIIIIIXXXXXXXXXXIIIII",
+          "IIIIIIIIIIIIIIIXXXXXXXXXX"
+        ],
+        "orders": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "syndrome_budget": 24,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 25,
+        "syndrome_ancillas": 24,
+        "flag_ancillas": 48,
+        "Q": 97,
+        "one_q_gates": 144,
+        "two_q_gates": 528,
+        "measurements": 241,
+        "resets": 216,
+        "preparations": 0,
+        "operation_count": 1129,
+        "D": 1105,
+        "QD": 107185,
+        "depth_lower_bound": 1105,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "b9cfe2292087bcedd3c9ae8565b0766e4cda1642e8707f2a65878595d83cc23f",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1129,
+        "fault_variants": 9241,
+        "requested_weight": 3
+      },
+      "rejection": "incomplete_distance_screen",
+      "stage": "D",
+      "signature_seconds": 0.7523110000183806,
+      "fault_search_seconds": 0.2855118000879884,
+      "runtime_seconds": 1.2378557999618351
+    },
+    {
+      "flags_per_check": 2,
+      "reverse": true,
+      "architecture_id": "8d0d26c438567368bbab",
+      "candidate": {
+        "generating_basis": [
+          "ZZIIIIIIIIIIIIIIIIIIIIIII",
+          "IZZIIIIIIIIIIIIIIIIIIIIII",
+          "IIZZIIIIIIIIIIIIIIIIIIIII",
+          "IIIZZIIIIIIIIIIIIIIIIIIII",
+          "IIIIIZZIIIIIIIIIIIIIIIIII",
+          "IIIIIIZZIIIIIIIIIIIIIIIII",
+          "IIIIIIIZZIIIIIIIIIIIIIIII",
+          "IIIIIIIIZZIIIIIIIIIIIIIII",
+          "IIIIIIIIIIZZIIIIIIIIIIIII",
+          "IIIIIIIIIIIZZIIIIIIIIIIII",
+          "IIIIIIIIIIIIZZIIIIIIIIIII",
+          "IIIIIIIIIIIIIZZIIIIIIIIII",
+          "IIIIIIIIIIIIIIIZZIIIIIIII",
+          "IIIIIIIIIIIIIIIIZZIIIIIII",
+          "IIIIIIIIIIIIIIIIIZZIIIIII",
+          "IIIIIIIIIIIIIIIIIIZZIIIII",
+          "IIIIIIIIIIIIIIIIIIIIZZIII",
+          "IIIIIIIIIIIIIIIIIIIIIZZII",
+          "IIIIIIIIIIIIIIIIIIIIIIZZI",
+          "IIIIIIIIIIIIIIIIIIIIIIIZZ",
+          "XXXXXXXXXXIIIIIIIIIIIIIII",
+          "IIIIIXXXXXXXXXXIIIIIIIIII",
+          "IIIIIIIIIIXXXXXXXXXXIIIII",
+          "IIIIIIIIIIIIIIIXXXXXXXXXX"
+        ],
+        "orders": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            11,
+            10
+          ],
+          [
+            12,
+            11
+          ],
+          [
+            13,
+            12
+          ],
+          [
+            14,
+            13
+          ],
+          [
+            16,
+            15
+          ],
+          [
+            17,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            19,
+            18
+          ],
+          [
+            21,
+            20
+          ],
+          [
+            22,
+            21
+          ],
+          [
+            23,
+            22
+          ],
+          [
+            24,
+            23
+          ],
+          [
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5
+          ],
+          [
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10
+          ],
+          [
+            24,
+            23,
+            22,
+            21,
+            20,
+            19,
+            18,
+            17,
+            16,
+            15
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "syndrome_budget": 24,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 25,
+        "syndrome_ancillas": 24,
+        "flag_ancillas": 48,
+        "Q": 97,
+        "one_q_gates": 144,
+        "two_q_gates": 528,
+        "measurements": 241,
+        "resets": 216,
+        "preparations": 0,
+        "operation_count": 1129,
+        "D": 1105,
+        "QD": 107185,
+        "depth_lower_bound": 1105,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "169a4264b5244a3e99de9815d6d9811e932391bf5a4bbebcd3167c1c572e4574",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1129,
+        "fault_variants": 9241,
+        "requested_weight": 3
+      },
+      "rejection": "incomplete_distance_screen",
+      "stage": "D",
+      "signature_seconds": 1.2380691999569535,
+      "fault_search_seconds": 0.4331153000239283,
+      "runtime_seconds": 2.0857925000600517
+    },
+    {
+      "flags_per_check": 3,
+      "reverse": false,
+      "architecture_id": "fe1d7588d674343d1a01",
+      "candidate": {
+        "generating_basis": [
+          "ZZIIIIIIIIIIIIIIIIIIIIIII",
+          "IZZIIIIIIIIIIIIIIIIIIIIII",
+          "IIZZIIIIIIIIIIIIIIIIIIIII",
+          "IIIZZIIIIIIIIIIIIIIIIIIII",
+          "IIIIIZZIIIIIIIIIIIIIIIIII",
+          "IIIIIIZZIIIIIIIIIIIIIIIII",
+          "IIIIIIIZZIIIIIIIIIIIIIIII",
+          "IIIIIIIIZZIIIIIIIIIIIIIII",
+          "IIIIIIIIIIZZIIIIIIIIIIIII",
+          "IIIIIIIIIIIZZIIIIIIIIIIII",
+          "IIIIIIIIIIIIZZIIIIIIIIIII",
+          "IIIIIIIIIIIIIZZIIIIIIIIII",
+          "IIIIIIIIIIIIIIIZZIIIIIIII",
+          "IIIIIIIIIIIIIIIIZZIIIIIII",
+          "IIIIIIIIIIIIIIIIIZZIIIIII",
+          "IIIIIIIIIIIIIIIIIIZZIIIII",
+          "IIIIIIIIIIIIIIIIIIIIZZIII",
+          "IIIIIIIIIIIIIIIIIIIIIZZII",
+          "IIIIIIIIIIIIIIIIIIIIIIZZI",
+          "IIIIIIIIIIIIIIIIIIIIIIIZZ",
+          "XXXXXXXXXXIIIIIIIIIIIIIII",
+          "IIIIIXXXXXXXXXXIIIIIIIIII",
+          "IIIIIIIIIIXXXXXXXXXXIIIII",
+          "IIIIIIIIIIIIIIIXXXXXXXXXX"
+        ],
+        "orders": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "syndrome_budget": 24,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 25,
+        "syndrome_ancillas": 24,
+        "flag_ancillas": 72,
+        "Q": 121,
+        "one_q_gates": 144,
+        "two_q_gates": 672,
+        "measurements": 313,
+        "resets": 288,
+        "preparations": 0,
+        "operation_count": 1417,
+        "D": 1393,
+        "QD": 168553,
+        "depth_lower_bound": 1393,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "daf00d2dc1eb0bf9722af9b69570462c0d08e4746872a684079a7de4a7d9ee36",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1417,
+        "fault_variants": 11689,
+        "requested_weight": 3
+      },
+      "rejection": "incomplete_distance_screen",
+      "stage": "D",
+      "signature_seconds": 0.8447739999974146,
+      "fault_search_seconds": 0.7577056000009179,
+      "runtime_seconds": 2.420621099998243
+    },
+    {
+      "flags_per_check": 3,
+      "reverse": true,
+      "architecture_id": "aeed019531ca2624da27",
+      "candidate": {
+        "generating_basis": [
+          "ZZIIIIIIIIIIIIIIIIIIIIIII",
+          "IZZIIIIIIIIIIIIIIIIIIIIII",
+          "IIZZIIIIIIIIIIIIIIIIIIIII",
+          "IIIZZIIIIIIIIIIIIIIIIIIII",
+          "IIIIIZZIIIIIIIIIIIIIIIIII",
+          "IIIIIIZZIIIIIIIIIIIIIIIII",
+          "IIIIIIIZZIIIIIIIIIIIIIIII",
+          "IIIIIIIIZZIIIIIIIIIIIIIII",
+          "IIIIIIIIIIZZIIIIIIIIIIIII",
+          "IIIIIIIIIIIZZIIIIIIIIIIII",
+          "IIIIIIIIIIIIZZIIIIIIIIIII",
+          "IIIIIIIIIIIIIZZIIIIIIIIII",
+          "IIIIIIIIIIIIIIIZZIIIIIIII",
+          "IIIIIIIIIIIIIIIIZZIIIIIII",
+          "IIIIIIIIIIIIIIIIIZZIIIIII",
+          "IIIIIIIIIIIIIIIIIIZZIIIII",
+          "IIIIIIIIIIIIIIIIIIIIZZIII",
+          "IIIIIIIIIIIIIIIIIIIIIZZII",
+          "IIIIIIIIIIIIIIIIIIIIIIZZI",
+          "IIIIIIIIIIIIIIIIIIIIIIIZZ",
+          "XXXXXXXXXXIIIIIIIIIIIIIII",
+          "IIIIIXXXXXXXXXXIIIIIIIIII",
+          "IIIIIIIIIIXXXXXXXXXXIIIII",
+          "IIIIIIIIIIIIIIIXXXXXXXXXX"
+        ],
+        "orders": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            11,
+            10
+          ],
+          [
+            12,
+            11
+          ],
+          [
+            13,
+            12
+          ],
+          [
+            14,
+            13
+          ],
+          [
+            16,
+            15
+          ],
+          [
+            17,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            19,
+            18
+          ],
+          [
+            21,
+            20
+          ],
+          [
+            22,
+            21
+          ],
+          [
+            23,
+            22
+          ],
+          [
+            24,
+            23
+          ],
+          [
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5
+          ],
+          [
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10
+          ],
+          [
+            24,
+            23,
+            22,
+            21,
+            20,
+            19,
+            18,
+            17,
+            16,
+            15
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "syndrome_budget": 24,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 25,
+        "syndrome_ancillas": 24,
+        "flag_ancillas": 72,
+        "Q": 121,
+        "one_q_gates": 144,
+        "two_q_gates": 672,
+        "measurements": 313,
+        "resets": 288,
+        "preparations": 0,
+        "operation_count": 1417,
+        "D": 1393,
+        "QD": 168553,
+        "depth_lower_bound": 1393,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "1c83cf110738d19242a5dc9fe5513bb42ad83e67de336e1c5108cb1b8d142032",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1417,
+        "fault_variants": 11689,
+        "requested_weight": 3
+      },
+      "rejection": "incomplete_distance_screen",
+      "stage": "D",
+      "signature_seconds": 1.5884273999836296,
+      "fault_search_seconds": 1.2859162000240758,
+      "runtime_seconds": 3.0503346000332385
+    },
+    {
+      "flags_per_check": 4,
+      "reverse": false,
+      "architecture_id": "9afcca29f272bd158cb2",
+      "candidate": {
+        "generating_basis": [
+          "ZZIIIIIIIIIIIIIIIIIIIIIII",
+          "IZZIIIIIIIIIIIIIIIIIIIIII",
+          "IIZZIIIIIIIIIIIIIIIIIIIII",
+          "IIIZZIIIIIIIIIIIIIIIIIIII",
+          "IIIIIZZIIIIIIIIIIIIIIIIII",
+          "IIIIIIZZIIIIIIIIIIIIIIIII",
+          "IIIIIIIZZIIIIIIIIIIIIIIII",
+          "IIIIIIIIZZIIIIIIIIIIIIIII",
+          "IIIIIIIIIIZZIIIIIIIIIIIII",
+          "IIIIIIIIIIIZZIIIIIIIIIIII",
+          "IIIIIIIIIIIIZZIIIIIIIIIII",
+          "IIIIIIIIIIIIIZZIIIIIIIIII",
+          "IIIIIIIIIIIIIIIZZIIIIIIII",
+          "IIIIIIIIIIIIIIIIZZIIIIIII",
+          "IIIIIIIIIIIIIIIIIZZIIIIII",
+          "IIIIIIIIIIIIIIIIIIZZIIIII",
+          "IIIIIIIIIIIIIIIIIIIIZZIII",
+          "IIIIIIIIIIIIIIIIIIIIIZZII",
+          "IIIIIIIIIIIIIIIIIIIIIIZZI",
+          "IIIIIIIIIIIIIIIIIIIIIIIZZ",
+          "XXXXXXXXXXIIIIIIIIIIIIIII",
+          "IIIIIXXXXXXXXXXIIIIIIIIII",
+          "IIIIIIIIIIXXXXXXXXXXIIIII",
+          "IIIIIIIIIIIIIIIXXXXXXXXXX"
+        ],
+        "orders": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "syndrome_budget": 24,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 25,
+        "syndrome_ancillas": 24,
+        "flag_ancillas": 96,
+        "Q": 145,
+        "one_q_gates": 144,
+        "two_q_gates": 816,
+        "measurements": 385,
+        "resets": 360,
+        "preparations": 0,
+        "operation_count": 1705,
+        "D": 1681,
+        "QD": 243745,
+        "depth_lower_bound": 1681,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "46cc4ae9a61dffa180503ab0eb1281196c4a14a9bd176b19688eaa1cbd397cbf",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1705,
+        "fault_variants": 14137,
+        "requested_weight": 3
+      },
+      "rejection": "incomplete_distance_screen",
+      "stage": "D",
+      "signature_seconds": 1.54176870000083,
+      "fault_search_seconds": 0.7483904000837356,
+      "runtime_seconds": 2.8283771999413148
+    },
+    {
+      "flags_per_check": 4,
+      "reverse": true,
+      "architecture_id": "70524f2254103d798759",
+      "candidate": {
+        "generating_basis": [
+          "ZZIIIIIIIIIIIIIIIIIIIIIII",
+          "IZZIIIIIIIIIIIIIIIIIIIIII",
+          "IIZZIIIIIIIIIIIIIIIIIIIII",
+          "IIIZZIIIIIIIIIIIIIIIIIIII",
+          "IIIIIZZIIIIIIIIIIIIIIIIII",
+          "IIIIIIZZIIIIIIIIIIIIIIIII",
+          "IIIIIIIZZIIIIIIIIIIIIIIII",
+          "IIIIIIIIZZIIIIIIIIIIIIIII",
+          "IIIIIIIIIIZZIIIIIIIIIIIII",
+          "IIIIIIIIIIIZZIIIIIIIIIIII",
+          "IIIIIIIIIIIIZZIIIIIIIIIII",
+          "IIIIIIIIIIIIIZZIIIIIIIIII",
+          "IIIIIIIIIIIIIIIZZIIIIIIII",
+          "IIIIIIIIIIIIIIIIZZIIIIIII",
+          "IIIIIIIIIIIIIIIIIZZIIIIII",
+          "IIIIIIIIIIIIIIIIIIZZIIIII",
+          "IIIIIIIIIIIIIIIIIIIIZZIII",
+          "IIIIIIIIIIIIIIIIIIIIIZZII",
+          "IIIIIIIIIIIIIIIIIIIIIIZZI",
+          "IIIIIIIIIIIIIIIIIIIIIIIZZ",
+          "XXXXXXXXXXIIIIIIIIIIIIIII",
+          "IIIIIXXXXXXXXXXIIIIIIIIII",
+          "IIIIIIIIIIXXXXXXXXXXIIIII",
+          "IIIIIIIIIIIIIIIXXXXXXXXXX"
+        ],
+        "orders": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            11,
+            10
+          ],
+          [
+            12,
+            11
+          ],
+          [
+            13,
+            12
+          ],
+          [
+            14,
+            13
+          ],
+          [
+            16,
+            15
+          ],
+          [
+            17,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            19,
+            18
+          ],
+          [
+            21,
+            20
+          ],
+          [
+            22,
+            21
+          ],
+          [
+            23,
+            22
+          ],
+          [
+            24,
+            23
+          ],
+          [
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          [
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5
+          ],
+          [
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10
+          ],
+          [
+            24,
+            23,
+            22,
+            21,
+            20,
+            19,
+            18,
+            17,
+            16,
+            15
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              10
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "ancilla_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "syndrome_budget": 24,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 25,
+        "syndrome_ancillas": 24,
+        "flag_ancillas": 96,
+        "Q": 145,
+        "one_q_gates": 144,
+        "two_q_gates": 816,
+        "measurements": 385,
+        "resets": 360,
+        "preparations": 0,
+        "operation_count": 1705,
+        "D": 1681,
+        "QD": 243745,
+        "depth_lower_bound": 1681,
+        "schedule_efficiency": 1.0
+      },
+      "circuit_hash": "132861b1477f91569da85ed1e6b067bbb5aeb53a301efc0468c56326e5ea0e4e",
+      "bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1705,
+        "fault_variants": 14137,
+        "requested_weight": 3
+      },
+      "rejection": "incomplete_distance_screen",
+      "stage": "D",
+      "signature_seconds": 0.9619458001106977,
+      "fault_search_seconds": 0.5858581000939012,
+      "runtime_seconds": 2.1913177999667823
+    }
+  ],
+  "matched_unguided_pilots": [
+    {
+      "seed": 6,
+      "strategy": "random",
+      "file": "results/development_v2/pilot/shor5x5-Z-seed6-random.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 2,
+        "minimum_witness_weight": null,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 26,
+            "D": 154,
+            "QD": 8428,
+            "two_q_gates": 240
+          },
+          "2": {
+            "Q": 37,
+            "D": 154,
+            "QD": 8428,
+            "two_q_gates": 336
+          }
+        },
+        "target_reached": false,
+        "evaluations_to_target": null,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 276.20894439995755
+    },
+    {
+      "seed": 6,
+      "strategy": "resource",
+      "file": "results/development_v2/pilot/shor5x5-Z-seed6-resource.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 2,
+        "minimum_witness_weight": null,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 26,
+            "D": 148,
+            "QD": 7844,
+            "two_q_gates": 240
+          },
+          "2": {
+            "Q": 28,
+            "D": 148,
+            "QD": 7844,
+            "two_q_gates": 330
+          }
+        },
+        "target_reached": false,
+        "evaluations_to_target": null,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 194.0603095999686
+    },
+    {
+      "seed": 7,
+      "strategy": "random",
+      "file": "results/development_v2/pilot/shor5x5-Z-seed7-random.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 2,
+        "minimum_witness_weight": null,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 26,
+            "D": 148,
+            "QD": 8758,
+            "two_q_gates": 240
+          },
+          "2": {
+            "Q": 34,
+            "D": 148,
+            "QD": 8758,
+            "two_q_gates": 372
+          }
+        },
+        "target_reached": false,
+        "evaluations_to_target": null,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 348.3306053999113
+    },
+    {
+      "seed": 7,
+      "strategy": "resource",
+      "file": "results/development_v2/pilot/shor5x5-Z-seed7-resource.json.gz",
+      "summary": {
+        "best_dc_lower_bound": 2,
+        "minimum_witness_weight": null,
+        "malignant_spectrum": {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        "best_resources_by_tier": {
+          "1": {
+            "Q": 26,
+            "D": 136,
+            "QD": 7752,
+            "two_q_gates": 240
+          },
+          "2": {
+            "Q": 31,
+            "D": 136,
+            "QD": 7752,
+            "two_q_gates": 348
+          }
+        },
+        "target_reached": false,
+        "evaluations_to_target": null,
+        "maximum_repair_chain_length": 0,
+        "successful_compositions": 0
+      },
+      "seconds": 156.87259710009675
+    }
+  ],
+  "v03_pilot_runs": 0
+}

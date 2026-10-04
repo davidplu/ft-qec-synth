@@ -1,0 +1,1402 @@
+[
+  {
+    "proxy": "generic-shor-4x5-plus-3-fixed-qubits-proxy",
+    "n": 23,
+    "checks": 22,
+    "rounds": 1,
+    "requested_fault_weight": 1,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": null,
+      "combinations_examined": 3462,
+      "fault_locations": 440,
+      "fault_variants": 3462,
+      "requested_weight": 1
+    },
+    "resources": {
+      "data_qubits": 23,
+      "syndrome_ancillas": 22,
+      "flag_ancillas": 66,
+      "Q": 111,
+      "one_q_gates": 44,
+      "two_q_gates": 197,
+      "measurements": 111,
+      "resets": 88,
+      "preparations": 0,
+      "operation_count": 440,
+      "D": 418,
+      "QD": 46398,
+      "depth_lower_bound": 418,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.05757069995161146,
+    "signature_seconds": 0.03318510006647557,
+    "certification_seconds": 0.0014349000994116068,
+    "fault_combinations_per_sec": 2412711.5200700196,
+    "memory": {
+      "working_set_bytes": 24965120,
+      "peak_working_set_bytes": 28798976
+    },
+    "architecture_id": "0b26813dbeeaac345ac9",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-4x5-plus-3-fixed-qubits-proxy",
+    "n": 23,
+    "checks": 22,
+    "rounds": 1,
+    "requested_fault_weight": 2,
+    "bounds": {
+      "status": "EXACT",
+      "lower_bound": 2,
+      "upper_bound": 2,
+      "excluded_through": 1,
+      "witness": {
+        "fault_count": 2,
+        "faults": [
+          {
+            "operation": 296,
+            "qubits": [
+              39,
+              95
+            ],
+            "label": "XI",
+            "kind": "cx",
+            "location": "op:296",
+            "before": false,
+            "round_index": 0,
+            "check": 16,
+            "role": "flag_open",
+            "interval": 2,
+            "interaction_position": 0
+          },
+          {
+            "operation": 301,
+            "qubits": [
+              39,
+              4
+            ],
+            "label": "XI",
+            "kind": "cx",
+            "location": "op:301",
+            "before": false,
+            "round_index": 0,
+            "check": 16,
+            "role": "data_interaction",
+            "interval": null,
+            "interaction_position": 4
+          }
+        ],
+        "checks": [
+          16
+        ],
+        "relation": "same-check",
+        "hook_support": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "flags_fired": true,
+        "flag_information_cancelled": true,
+        "logical_coset": 1,
+        "detector_outcomes": 0,
+        "flag_outcomes": 0,
+        "final_data_pauli": "XXXXXIIIIIIIIIIIIIIIIII"
+      },
+      "reason": null,
+      "combinations_examined": 84172,
+      "fault_locations": 440,
+      "fault_variants": 3462,
+      "requested_weight": 2
+    },
+    "resources": {
+      "data_qubits": 23,
+      "syndrome_ancillas": 22,
+      "flag_ancillas": 66,
+      "Q": 111,
+      "one_q_gates": 44,
+      "two_q_gates": 197,
+      "measurements": 111,
+      "resets": 88,
+      "preparations": 0,
+      "operation_count": 440,
+      "D": 418,
+      "QD": 46398,
+      "depth_lower_bound": 418,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.07089050009381026,
+    "signature_seconds": 0.02463480003643781,
+    "certification_seconds": 0.015379699994809926,
+    "fault_combinations_per_sec": 5472928.602534829,
+    "memory": {
+      "working_set_bytes": 27140096,
+      "peak_working_set_bytes": 28798976
+    },
+    "architecture_id": "0b26813dbeeaac345ac9",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-4x5-plus-3-fixed-qubits-proxy",
+    "n": 23,
+    "checks": 22,
+    "rounds": 1,
+    "requested_fault_weight": 3,
+    "bounds": {
+      "status": "EXACT",
+      "lower_bound": 2,
+      "upper_bound": 2,
+      "excluded_through": 1,
+      "witness": {
+        "fault_count": 2,
+        "faults": [
+          {
+            "operation": 296,
+            "qubits": [
+              39,
+              95
+            ],
+            "label": "XI",
+            "kind": "cx",
+            "location": "op:296",
+            "before": false,
+            "round_index": 0,
+            "check": 16,
+            "role": "flag_open",
+            "interval": 2,
+            "interaction_position": 0
+          },
+          {
+            "operation": 301,
+            "qubits": [
+              39,
+              4
+            ],
+            "label": "XI",
+            "kind": "cx",
+            "location": "op:301",
+            "before": false,
+            "round_index": 0,
+            "check": 16,
+            "role": "data_interaction",
+            "interval": null,
+            "interaction_position": 4
+          }
+        ],
+        "checks": [
+          16
+        ],
+        "relation": "same-check",
+        "hook_support": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "flags_fired": true,
+        "flag_information_cancelled": true,
+        "logical_coset": 1,
+        "detector_outcomes": 0,
+        "flag_outcomes": 0,
+        "final_data_pauli": "XXXXXIIIIIIIIIIIIIIIIII"
+      },
+      "reason": null,
+      "combinations_examined": 84172,
+      "fault_locations": 440,
+      "fault_variants": 3462,
+      "requested_weight": 3
+    },
+    "resources": {
+      "data_qubits": 23,
+      "syndrome_ancillas": 22,
+      "flag_ancillas": 66,
+      "Q": 111,
+      "one_q_gates": 44,
+      "two_q_gates": 197,
+      "measurements": 111,
+      "resets": 88,
+      "preparations": 0,
+      "operation_count": 440,
+      "D": 418,
+      "QD": 46398,
+      "depth_lower_bound": 418,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.06661280000116676,
+    "signature_seconds": 0.02197969995904714,
+    "certification_seconds": 0.013544999994337559,
+    "fault_combinations_per_sec": 6214248.802893157,
+    "memory": {
+      "working_set_bytes": 27361280,
+      "peak_working_set_bytes": 28798976
+    },
+    "architecture_id": "0b26813dbeeaac345ac9",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-4x5-plus-3-fixed-qubits-proxy",
+    "n": 23,
+    "checks": 22,
+    "rounds": 3,
+    "requested_fault_weight": 1,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": null,
+      "combinations_examined": 10340,
+      "fault_locations": 1274,
+      "fault_variants": 10340,
+      "requested_weight": 1
+    },
+    "resources": {
+      "data_qubits": 23,
+      "syndrome_ancillas": 22,
+      "flag_ancillas": 66,
+      "Q": 111,
+      "one_q_gates": 132,
+      "two_q_gates": 591,
+      "measurements": 287,
+      "resets": 264,
+      "preparations": 0,
+      "operation_count": 1274,
+      "D": 1252,
+      "QD": 138972,
+      "depth_lower_bound": 1252,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.11212909989990294,
+    "signature_seconds": 0.0693197000073269,
+    "certification_seconds": 0.003551200032234192,
+    "fault_combinations_per_sec": 2911691.7960531563,
+    "memory": {
+      "working_set_bytes": 27623424,
+      "peak_working_set_bytes": 32907264
+    },
+    "architecture_id": "0b26813dbeeaac345ac9",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-4x5-plus-3-fixed-qubits-proxy",
+    "n": 23,
+    "checks": 22,
+    "rounds": 3,
+    "requested_fault_weight": 2,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 1274,
+      "fault_variants": 10340,
+      "requested_weight": 2
+    },
+    "resources": {
+      "data_qubits": 23,
+      "syndrome_ancillas": 22,
+      "flag_ancillas": 66,
+      "Q": 111,
+      "one_q_gates": 132,
+      "two_q_gates": 591,
+      "measurements": 287,
+      "resets": 264,
+      "preparations": 0,
+      "operation_count": 1274,
+      "D": 1252,
+      "QD": 138972,
+      "depth_lower_bound": 1252,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.17331840004771948,
+    "signature_seconds": 0.07892260001972318,
+    "certification_seconds": 0.04111330001614988,
+    "fault_combinations_per_sec": 4864605.855561028,
+    "memory": {
+      "working_set_bytes": 30408704,
+      "peak_working_set_bytes": 33148928
+    },
+    "architecture_id": "0b26813dbeeaac345ac9",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-4x5-plus-3-fixed-qubits-proxy",
+    "n": 23,
+    "checks": 22,
+    "rounds": 3,
+    "requested_fault_weight": 3,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 1274,
+      "fault_variants": 10340,
+      "requested_weight": 3
+    },
+    "resources": {
+      "data_qubits": 23,
+      "syndrome_ancillas": 22,
+      "flag_ancillas": 66,
+      "Q": 111,
+      "one_q_gates": 132,
+      "two_q_gates": 591,
+      "measurements": 287,
+      "resets": 264,
+      "preparations": 0,
+      "operation_count": 1274,
+      "D": 1252,
+      "QD": 138972,
+      "depth_lower_bound": 1252,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.16268239996861666,
+    "signature_seconds": 0.07609360001515597,
+    "certification_seconds": 0.051440800074487925,
+    "fault_combinations_per_sec": 3887964.4117197557,
+    "memory": {
+      "working_set_bytes": 30846976,
+      "peak_working_set_bytes": 33243136
+    },
+    "architecture_id": "0b26813dbeeaac345ac9",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-5x5-plus-0-fixed-qubits-proxy",
+    "n": 25,
+    "checks": 24,
+    "rounds": 1,
+    "requested_fault_weight": 1,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": null,
+      "combinations_examined": 3913,
+      "fault_locations": 489,
+      "fault_variants": 3913,
+      "requested_weight": 1
+    },
+    "resources": {
+      "data_qubits": 25,
+      "syndrome_ancillas": 24,
+      "flag_ancillas": 72,
+      "Q": 121,
+      "one_q_gates": 48,
+      "two_q_gates": 224,
+      "measurements": 121,
+      "resets": 96,
+      "preparations": 0,
+      "operation_count": 489,
+      "D": 465,
+      "QD": 56265,
+      "depth_lower_bound": 465,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.05486089992336929,
+    "signature_seconds": 0.030012000002898276,
+    "certification_seconds": 0.0008981000864878297,
+    "fault_combinations_per_sec": 4356975.4182993565,
+    "memory": {
+      "working_set_bytes": 30507008,
+      "peak_working_set_bytes": 33243136
+    },
+    "architecture_id": "fe1d7588d674343d1a01",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-5x5-plus-0-fixed-qubits-proxy",
+    "n": 25,
+    "checks": 24,
+    "rounds": 1,
+    "requested_fault_weight": 2,
+    "bounds": {
+      "status": "EXACT",
+      "lower_bound": 2,
+      "upper_bound": 2,
+      "excluded_through": 1,
+      "witness": {
+        "fault_count": 2,
+        "faults": [
+          {
+            "operation": 368,
+            "qubits": [
+              45,
+              111
+            ],
+            "label": "XI",
+            "kind": "cx",
+            "location": "op:368",
+            "before": false,
+            "round_index": 0,
+            "check": 20,
+            "role": "flag_open",
+            "interval": 2,
+            "interaction_position": 0
+          },
+          {
+            "operation": 373,
+            "qubits": [
+              45,
+              4
+            ],
+            "label": "XI",
+            "kind": "cx",
+            "location": "op:373",
+            "before": false,
+            "round_index": 0,
+            "check": 20,
+            "role": "data_interaction",
+            "interval": null,
+            "interaction_position": 4
+          }
+        ],
+        "checks": [
+          20
+        ],
+        "relation": "same-check",
+        "hook_support": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "flags_fired": true,
+        "flag_information_cancelled": true,
+        "logical_coset": 1,
+        "detector_outcomes": 0,
+        "flag_outcomes": 0,
+        "final_data_pauli": "XXXXXIIIIIIIIIIIIIIIIIIII"
+      },
+      "reason": null,
+      "combinations_examined": 99976,
+      "fault_locations": 489,
+      "fault_variants": 3913,
+      "requested_weight": 2
+    },
+    "resources": {
+      "data_qubits": 25,
+      "syndrome_ancillas": 24,
+      "flag_ancillas": 72,
+      "Q": 121,
+      "one_q_gates": 48,
+      "two_q_gates": 224,
+      "measurements": 121,
+      "resets": 96,
+      "preparations": 0,
+      "operation_count": 489,
+      "D": 465,
+      "QD": 56265,
+      "depth_lower_bound": 465,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.08607080008368939,
+    "signature_seconds": 0.028507200069725513,
+    "certification_seconds": 0.02021490002516657,
+    "fault_combinations_per_sec": 4945658.889014278,
+    "memory": {
+      "working_set_bytes": 31014912,
+      "peak_working_set_bytes": 33243136
+    },
+    "architecture_id": "fe1d7588d674343d1a01",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-5x5-plus-0-fixed-qubits-proxy",
+    "n": 25,
+    "checks": 24,
+    "rounds": 1,
+    "requested_fault_weight": 3,
+    "bounds": {
+      "status": "EXACT",
+      "lower_bound": 2,
+      "upper_bound": 2,
+      "excluded_through": 1,
+      "witness": {
+        "fault_count": 2,
+        "faults": [
+          {
+            "operation": 368,
+            "qubits": [
+              45,
+              111
+            ],
+            "label": "XI",
+            "kind": "cx",
+            "location": "op:368",
+            "before": false,
+            "round_index": 0,
+            "check": 20,
+            "role": "flag_open",
+            "interval": 2,
+            "interaction_position": 0
+          },
+          {
+            "operation": 373,
+            "qubits": [
+              45,
+              4
+            ],
+            "label": "XI",
+            "kind": "cx",
+            "location": "op:373",
+            "before": false,
+            "round_index": 0,
+            "check": 20,
+            "role": "data_interaction",
+            "interval": null,
+            "interaction_position": 4
+          }
+        ],
+        "checks": [
+          20
+        ],
+        "relation": "same-check",
+        "hook_support": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "flags_fired": true,
+        "flag_information_cancelled": true,
+        "logical_coset": 1,
+        "detector_outcomes": 0,
+        "flag_outcomes": 0,
+        "final_data_pauli": "XXXXXIIIIIIIIIIIIIIIIIIII"
+      },
+      "reason": null,
+      "combinations_examined": 99976,
+      "fault_locations": 489,
+      "fault_variants": 3913,
+      "requested_weight": 3
+    },
+    "resources": {
+      "data_qubits": 25,
+      "syndrome_ancillas": 24,
+      "flag_ancillas": 72,
+      "Q": 121,
+      "one_q_gates": 48,
+      "two_q_gates": 224,
+      "measurements": 121,
+      "resets": 96,
+      "preparations": 0,
+      "operation_count": 489,
+      "D": 465,
+      "QD": 56265,
+      "depth_lower_bound": 465,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.7074134999420494,
+    "signature_seconds": 0.17755259992554784,
+    "certification_seconds": 0.29399220005143434,
+    "fault_combinations_per_sec": 340063.44380058063,
+    "memory": {
+      "working_set_bytes": 31080448,
+      "peak_working_set_bytes": 33243136
+    },
+    "architecture_id": "fe1d7588d674343d1a01",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-5x5-plus-0-fixed-qubits-proxy",
+    "n": 25,
+    "checks": 24,
+    "rounds": 3,
+    "requested_fault_weight": 1,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": null,
+      "combinations_examined": 11689,
+      "fault_locations": 1417,
+      "fault_variants": 11689,
+      "requested_weight": 1
+    },
+    "resources": {
+      "data_qubits": 25,
+      "syndrome_ancillas": 24,
+      "flag_ancillas": 72,
+      "Q": 121,
+      "one_q_gates": 144,
+      "two_q_gates": 672,
+      "measurements": 313,
+      "resets": 288,
+      "preparations": 0,
+      "operation_count": 1417,
+      "D": 1393,
+      "QD": 168553,
+      "depth_lower_bound": 1393,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.8961436999961734,
+    "signature_seconds": 0.6305953999981284,
+    "certification_seconds": 0.005848500062711537,
+    "fault_combinations_per_sec": 1998632.1064653688,
+    "memory": {
+      "working_set_bytes": 31776768,
+      "peak_working_set_bytes": 34385920
+    },
+    "architecture_id": "fe1d7588d674343d1a01",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-5x5-plus-0-fixed-qubits-proxy",
+    "n": 25,
+    "checks": 24,
+    "rounds": 3,
+    "requested_fault_weight": 2,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 1417,
+      "fault_variants": 11689,
+      "requested_weight": 2
+    },
+    "resources": {
+      "data_qubits": 25,
+      "syndrome_ancillas": 24,
+      "flag_ancillas": 72,
+      "Q": 121,
+      "one_q_gates": 144,
+      "two_q_gates": 672,
+      "measurements": 313,
+      "resets": 288,
+      "preparations": 0,
+      "operation_count": 1417,
+      "D": 1393,
+      "QD": 168553,
+      "depth_lower_bound": 1393,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.3928516000742093,
+    "signature_seconds": 0.19597889995202422,
+    "certification_seconds": 0.10784589999821037,
+    "fault_combinations_per_sec": 1854497.9457106749,
+    "memory": {
+      "working_set_bytes": 32878592,
+      "peak_working_set_bytes": 34852864
+    },
+    "architecture_id": "fe1d7588d674343d1a01",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-5x5-plus-0-fixed-qubits-proxy",
+    "n": 25,
+    "checks": 24,
+    "rounds": 3,
+    "requested_fault_weight": 3,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 1417,
+      "fault_variants": 11689,
+      "requested_weight": 3
+    },
+    "resources": {
+      "data_qubits": 25,
+      "syndrome_ancillas": 24,
+      "flag_ancillas": 72,
+      "Q": 121,
+      "one_q_gates": 144,
+      "two_q_gates": 672,
+      "measurements": 313,
+      "resets": 288,
+      "preparations": 0,
+      "operation_count": 1417,
+      "D": 1393,
+      "QD": 168553,
+      "depth_lower_bound": 1393,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.5220914999954402,
+    "signature_seconds": 0.2741359999636188,
+    "certification_seconds": 0.14949969993904233,
+    "fault_combinations_per_sec": 1337795.327225064,
+    "memory": {
+      "working_set_bytes": 34062336,
+      "peak_working_set_bytes": 36237312
+    },
+    "architecture_id": "fe1d7588d674343d1a01",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-5x6-plus-1-fixed-qubits-proxy",
+    "n": 31,
+    "checks": 30,
+    "rounds": 1,
+    "requested_fault_weight": 1,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": null,
+      "combinations_examined": 4876,
+      "fault_locations": 610,
+      "fault_variants": 4876,
+      "requested_weight": 1
+    },
+    "resources": {
+      "data_qubits": 31,
+      "syndrome_ancillas": 30,
+      "flag_ancillas": 90,
+      "Q": 151,
+      "one_q_gates": 60,
+      "two_q_gates": 279,
+      "measurements": 151,
+      "resets": 120,
+      "preparations": 0,
+      "operation_count": 610,
+      "D": 580,
+      "QD": 87580,
+      "depth_lower_bound": 580,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.33566360000986606,
+    "signature_seconds": 0.27717540005687624,
+    "certification_seconds": 0.0033285999670624733,
+    "fault_combinations_per_sec": 1464880.1442797359,
+    "memory": {
+      "working_set_bytes": 33447936,
+      "peak_working_set_bytes": 36237312
+    },
+    "architecture_id": "4a417836cd4ea87aeb7d",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-5x6-plus-1-fixed-qubits-proxy",
+    "n": 31,
+    "checks": 30,
+    "rounds": 1,
+    "requested_fault_weight": 2,
+    "bounds": {
+      "status": "EXACT",
+      "lower_bound": 2,
+      "upper_bound": 2,
+      "excluded_through": 1,
+      "witness": {
+        "fault_count": 2,
+        "faults": [
+          {
+            "operation": 458,
+            "qubits": [
+              56,
+              138
+            ],
+            "label": "XI",
+            "kind": "cx",
+            "location": "op:458",
+            "before": false,
+            "round_index": 0,
+            "check": 25,
+            "role": "flag_open",
+            "interval": 2,
+            "interaction_position": 0
+          },
+          {
+            "operation": 464,
+            "qubits": [
+              56,
+              5
+            ],
+            "label": "XI",
+            "kind": "cx",
+            "location": "op:464",
+            "before": false,
+            "round_index": 0,
+            "check": 25,
+            "role": "data_interaction",
+            "interval": null,
+            "interaction_position": 5
+          }
+        ],
+        "checks": [
+          25
+        ],
+        "relation": "same-check",
+        "hook_support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "flags_fired": true,
+        "flag_information_cancelled": true,
+        "logical_coset": 1,
+        "detector_outcomes": 0,
+        "flag_outcomes": 0,
+        "final_data_pauli": "XXXXXXIIIIIIIIIIIIIIIIIIIIIIIII"
+      },
+      "reason": null,
+      "combinations_examined": 151002,
+      "fault_locations": 610,
+      "fault_variants": 4876,
+      "requested_weight": 2
+    },
+    "resources": {
+      "data_qubits": 31,
+      "syndrome_ancillas": 30,
+      "flag_ancillas": 90,
+      "Q": 151,
+      "one_q_gates": 60,
+      "two_q_gates": 279,
+      "measurements": 151,
+      "resets": 120,
+      "preparations": 0,
+      "operation_count": 610,
+      "D": 580,
+      "QD": 87580,
+      "depth_lower_bound": 580,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 1.159247100003995,
+    "signature_seconds": 0.36325320007745177,
+    "certification_seconds": 0.32498409994877875,
+    "fault_combinations_per_sec": 464644.270362149,
+    "memory": {
+      "working_set_bytes": 34443264,
+      "peak_working_set_bytes": 36237312
+    },
+    "architecture_id": "4a417836cd4ea87aeb7d",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-5x6-plus-1-fixed-qubits-proxy",
+    "n": 31,
+    "checks": 30,
+    "rounds": 1,
+    "requested_fault_weight": 3,
+    "bounds": {
+      "status": "EXACT",
+      "lower_bound": 2,
+      "upper_bound": 2,
+      "excluded_through": 1,
+      "witness": {
+        "fault_count": 2,
+        "faults": [
+          {
+            "operation": 458,
+            "qubits": [
+              56,
+              138
+            ],
+            "label": "XI",
+            "kind": "cx",
+            "location": "op:458",
+            "before": false,
+            "round_index": 0,
+            "check": 25,
+            "role": "flag_open",
+            "interval": 2,
+            "interaction_position": 0
+          },
+          {
+            "operation": 464,
+            "qubits": [
+              56,
+              5
+            ],
+            "label": "XI",
+            "kind": "cx",
+            "location": "op:464",
+            "before": false,
+            "round_index": 0,
+            "check": 25,
+            "role": "data_interaction",
+            "interval": null,
+            "interaction_position": 5
+          }
+        ],
+        "checks": [
+          25
+        ],
+        "relation": "same-check",
+        "hook_support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "flags_fired": true,
+        "flag_information_cancelled": true,
+        "logical_coset": 1,
+        "detector_outcomes": 0,
+        "flag_outcomes": 0,
+        "final_data_pauli": "XXXXXXIIIIIIIIIIIIIIIIIIIIIIIII"
+      },
+      "reason": null,
+      "combinations_examined": 151002,
+      "fault_locations": 610,
+      "fault_variants": 4876,
+      "requested_weight": 3
+    },
+    "resources": {
+      "data_qubits": 31,
+      "syndrome_ancillas": 30,
+      "flag_ancillas": 90,
+      "Q": 151,
+      "one_q_gates": 60,
+      "two_q_gates": 279,
+      "measurements": 151,
+      "resets": 120,
+      "preparations": 0,
+      "operation_count": 610,
+      "D": 580,
+      "QD": 87580,
+      "depth_lower_bound": 580,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 1.184090599999763,
+    "signature_seconds": 0.4614712999900803,
+    "certification_seconds": 0.1979644000530243,
+    "fault_combinations_per_sec": 762773.5085679772,
+    "memory": {
+      "working_set_bytes": 34205696,
+      "peak_working_set_bytes": 36237312
+    },
+    "architecture_id": "4a417836cd4ea87aeb7d",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-5x6-plus-1-fixed-qubits-proxy",
+    "n": 31,
+    "checks": 30,
+    "rounds": 3,
+    "requested_fault_weight": 1,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": null,
+      "combinations_examined": 14566,
+      "fault_locations": 1768,
+      "fault_variants": 14566,
+      "requested_weight": 1
+    },
+    "resources": {
+      "data_qubits": 31,
+      "syndrome_ancillas": 30,
+      "flag_ancillas": 90,
+      "Q": 151,
+      "one_q_gates": 180,
+      "two_q_gates": 837,
+      "measurements": 391,
+      "resets": 360,
+      "preparations": 0,
+      "operation_count": 1768,
+      "D": 1738,
+      "QD": 262438,
+      "depth_lower_bound": 1738,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 1.039479799917899,
+    "signature_seconds": 0.23984529997687787,
+    "certification_seconds": 0.006636600010097027,
+    "fault_combinations_per_sec": 2194798.5380826117,
+    "memory": {
+      "working_set_bytes": 33660928,
+      "peak_working_set_bytes": 38412288
+    },
+    "architecture_id": "4a417836cd4ea87aeb7d",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-5x6-plus-1-fixed-qubits-proxy",
+    "n": 31,
+    "checks": 30,
+    "rounds": 3,
+    "requested_fault_weight": 2,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 1768,
+      "fault_variants": 14566,
+      "requested_weight": 2
+    },
+    "resources": {
+      "data_qubits": 31,
+      "syndrome_ancillas": 30,
+      "flag_ancillas": 90,
+      "Q": 151,
+      "one_q_gates": 180,
+      "two_q_gates": 837,
+      "measurements": 391,
+      "resets": 360,
+      "preparations": 0,
+      "operation_count": 1768,
+      "D": 1738,
+      "QD": 262438,
+      "depth_lower_bound": 1738,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 2.593799200025387,
+    "signature_seconds": 1.1622113999910653,
+    "certification_seconds": 0.4285105000017211,
+    "fault_combinations_per_sec": 466733.0205425461,
+    "memory": {
+      "working_set_bytes": 35053568,
+      "peak_working_set_bytes": 39010304
+    },
+    "architecture_id": "4a417836cd4ea87aeb7d",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-5x6-plus-1-fixed-qubits-proxy",
+    "n": 31,
+    "checks": 30,
+    "rounds": 3,
+    "requested_fault_weight": 3,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 1768,
+      "fault_variants": 14566,
+      "requested_weight": 3
+    },
+    "resources": {
+      "data_qubits": 31,
+      "syndrome_ancillas": 30,
+      "flag_ancillas": 90,
+      "Q": 151,
+      "one_q_gates": 180,
+      "two_q_gates": 837,
+      "measurements": 391,
+      "resets": 360,
+      "preparations": 0,
+      "operation_count": 1768,
+      "D": 1738,
+      "QD": 262438,
+      "depth_lower_bound": 1738,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 2.139054200029932,
+    "signature_seconds": 0.6956390999257565,
+    "certification_seconds": 0.7874074999708682,
+    "fault_combinations_per_sec": 253998.08867377997,
+    "memory": {
+      "working_set_bytes": 35012608,
+      "peak_working_set_bytes": 39501824
+    },
+    "architecture_id": "4a417836cd4ea87aeb7d",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-6x7-plus-2-fixed-qubits-proxy",
+    "n": 44,
+    "checks": 43,
+    "rounds": 1,
+    "requested_fault_weight": 1,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": null,
+      "combinations_examined": 7020,
+      "fault_locations": 876,
+      "fault_variants": 7020,
+      "requested_weight": 1
+    },
+    "resources": {
+      "data_qubits": 44,
+      "syndrome_ancillas": 43,
+      "flag_ancillas": 129,
+      "Q": 216,
+      "one_q_gates": 86,
+      "two_q_gates": 402,
+      "measurements": 216,
+      "resets": 172,
+      "preparations": 0,
+      "operation_count": 876,
+      "D": 833,
+      "QD": 179928,
+      "depth_lower_bound": 833,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.5199875999242067,
+    "signature_seconds": 0.31219640001654625,
+    "certification_seconds": 0.0028057999443262815,
+    "fault_combinations_per_sec": 2501960.2748925197,
+    "memory": {
+      "working_set_bytes": 34496512,
+      "peak_working_set_bytes": 39501824
+    },
+    "architecture_id": "aa88212513338ce494af",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-6x7-plus-2-fixed-qubits-proxy",
+    "n": 44,
+    "checks": 43,
+    "rounds": 1,
+    "requested_fault_weight": 2,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 876,
+      "fault_variants": 7020,
+      "requested_weight": 2
+    },
+    "resources": {
+      "data_qubits": 44,
+      "syndrome_ancillas": 43,
+      "flag_ancillas": 129,
+      "Q": 216,
+      "one_q_gates": 86,
+      "two_q_gates": 402,
+      "measurements": 216,
+      "resets": 172,
+      "preparations": 0,
+      "operation_count": 876,
+      "D": 833,
+      "QD": 179928,
+      "depth_lower_bound": 833,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.787101799971424,
+    "signature_seconds": 0.2048438999336213,
+    "certification_seconds": 0.10418929997831583,
+    "fault_combinations_per_sec": 1919582.913424167,
+    "memory": {
+      "working_set_bytes": 35303424,
+      "peak_working_set_bytes": 39501824
+    },
+    "architecture_id": "aa88212513338ce494af",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-6x7-plus-2-fixed-qubits-proxy",
+    "n": 44,
+    "checks": 43,
+    "rounds": 1,
+    "requested_fault_weight": 3,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 876,
+      "fault_variants": 7020,
+      "requested_weight": 3
+    },
+    "resources": {
+      "data_qubits": 44,
+      "syndrome_ancillas": 43,
+      "flag_ancillas": 129,
+      "Q": 216,
+      "one_q_gates": 86,
+      "two_q_gates": 402,
+      "measurements": 216,
+      "resets": 172,
+      "preparations": 0,
+      "operation_count": 876,
+      "D": 833,
+      "QD": 179928,
+      "depth_lower_bound": 833,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 0.7342184000881389,
+    "signature_seconds": 0.34208630002103746,
+    "certification_seconds": 0.28488689998630434,
+    "fault_combinations_per_sec": 702032.9822452868,
+    "memory": {
+      "working_set_bytes": 35336192,
+      "peak_working_set_bytes": 39501824
+    },
+    "architecture_id": "aa88212513338ce494af",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-6x7-plus-2-fixed-qubits-proxy",
+    "n": 44,
+    "checks": 43,
+    "rounds": 3,
+    "requested_fault_weight": 1,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": null,
+      "combinations_examined": 20972,
+      "fault_locations": 2540,
+      "fault_variants": 20972,
+      "requested_weight": 1
+    },
+    "resources": {
+      "data_qubits": 44,
+      "syndrome_ancillas": 43,
+      "flag_ancillas": 129,
+      "Q": 216,
+      "one_q_gates": 258,
+      "two_q_gates": 1206,
+      "measurements": 560,
+      "resets": 516,
+      "preparations": 0,
+      "operation_count": 2540,
+      "D": 2497,
+      "QD": 539352,
+      "depth_lower_bound": 2497,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 2.469664900097996,
+    "signature_seconds": 1.6165834000566974,
+    "certification_seconds": 0.014532499946653843,
+    "fault_combinations_per_sec": 1443110.2753816885,
+    "memory": {
+      "working_set_bytes": 35766272,
+      "peak_working_set_bytes": 49029120
+    },
+    "architecture_id": "aa88212513338ce494af",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-6x7-plus-2-fixed-qubits-proxy",
+    "n": 44,
+    "checks": 43,
+    "rounds": 3,
+    "requested_fault_weight": 2,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 2540,
+      "fault_variants": 20972,
+      "requested_weight": 2
+    },
+    "resources": {
+      "data_qubits": 44,
+      "syndrome_ancillas": 43,
+      "flag_ancillas": 129,
+      "Q": 216,
+      "one_q_gates": 258,
+      "two_q_gates": 1206,
+      "measurements": 560,
+      "resets": 516,
+      "preparations": 0,
+      "operation_count": 2540,
+      "D": 2497,
+      "QD": 539352,
+      "depth_lower_bound": 2497,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 3.230913400067948,
+    "signature_seconds": 1.941376999951899,
+    "certification_seconds": 0.5142307999776676,
+    "fault_combinations_per_sec": 388930.4180315254,
+    "memory": {
+      "working_set_bytes": 37056512,
+      "peak_working_set_bytes": 49577984
+    },
+    "architecture_id": "aa88212513338ce494af",
+    "work_cap": 200000
+  },
+  {
+    "proxy": "generic-shor-6x7-plus-2-fixed-qubits-proxy",
+    "n": 44,
+    "checks": 43,
+    "rounds": 3,
+    "requested_fault_weight": 3,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 2,
+      "upper_bound": null,
+      "excluded_through": 1,
+      "witness": null,
+      "reason": "work_limit",
+      "combinations_examined": 200000,
+      "fault_locations": 2540,
+      "fault_variants": 20972,
+      "requested_weight": 3
+    },
+    "resources": {
+      "data_qubits": 44,
+      "syndrome_ancillas": 43,
+      "flag_ancillas": 129,
+      "Q": 216,
+      "one_q_gates": 258,
+      "two_q_gates": 1206,
+      "measurements": 560,
+      "resets": 516,
+      "preparations": 0,
+      "operation_count": 2540,
+      "D": 2497,
+      "QD": 539352,
+      "depth_lower_bound": 2497,
+      "schedule_efficiency": 1.0
+    },
+    "total_seconds": 1.452106500044465,
+    "signature_seconds": 0.9026923000346869,
+    "certification_seconds": 0.35783730004914105,
+    "fault_combinations_per_sec": 558913.226688594,
+    "memory": {
+      "working_set_bytes": 39227392,
+      "peak_working_set_bytes": 49577984
+    },
+    "architecture_id": "aa88212513338ce494af",
+    "work_cap": 200000
+  }
+]

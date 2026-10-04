@@ -1,0 +1,20 @@
+{
+  "n": 9,
+  "generators": [
+    "XXIXXIIII",
+    "IZZIZZIII",
+    "IIIZZIZZI",
+    "IIIIXXIXX",
+    "ZIIZIIIII",
+    "IIIIIIXXI",
+    "IIIIIZIIZ",
+    "IXXIIIIII"
+  ],
+  "name": "grid3",
+  "provenance": {
+    "method": "explicit generic construction in experiments/development_v2.py",
+    "family": "checkerboard_grid",
+    "shared_parent": null,
+    "external_architectures_used": false
+  }
+}

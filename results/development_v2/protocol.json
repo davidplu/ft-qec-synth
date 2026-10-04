@@ -1,0 +1,9 @@
+{
+  "manifest_sha256": "0686826aedce8c76e827e003c85789b2c5b217481d8ac174ddf6be792efec818",
+  "algorithm_commit": "50b926c793bbc78fa922c5eebf067678fec29504",
+  "hypothesis_sha256": "8b9673b48fe401c7a25e5da44806d64ebf543343c1d817f800720073797ffff9",
+  "selection_protocol_sha256": "0ed220d0a872722893d190068d4966e211df6f98db53cb5f04b2647ceda319bf",
+  "pool_extension_sha256": "dbb85a6173a0ff0cade98db7256735c90cb96bbc036a365473db0d494b85497d",
+  "pilot_extension_sha256": "6682583d12f1cc8c524a0a205c46335bf60c536fcc54a682ded32e163aaddfd9",
+  "role_pilot_sha256": "f1660ad5a3a79e57ae8012ece31e09d209b159f4b32b9093864969a6c62131f8"
+}

@@ -1,0 +1,31 @@
+{
+  "n": 20,
+  "generators": [
+    "ZZIIIIIIIIIIIIIIIIII",
+    "IZZIIIIIIIIIIIIIIIII",
+    "IIZZIIIIIIIIIIIIIIII",
+    "IIIZZIIIIIIIIIIIIIII",
+    "IIIIIZZIIIIIIIIIIIII",
+    "IIIIIIZZIIIIIIIIIIII",
+    "IIIIIIIZZIIIIIIIIIII",
+    "IIIIIIIIZZIIIIIIIIII",
+    "IIIIIIIIIIZZIIIIIIII",
+    "IIIIIIIIIIIZZIIIIIII",
+    "IIIIIIIIIIIIZZIIIIII",
+    "IIIIIIIIIIIIIZZIIIII",
+    "IIIIIIIIIIIIIIIZZIII",
+    "IIIIIIIIIIIIIIIIZZII",
+    "IIIIIIIIIIIIIIIIIZZI",
+    "IIIIIIIIIIIIIIIIIIZZ",
+    "XXXXXXXXXXIIIIIIIIII",
+    "IIIIIXXXXXXXXXXIIIII",
+    "IIIIIIIIIIXXXXXXXXXX"
+  ],
+  "name": "shor4x5",
+  "provenance": {
+    "method": "explicit generic construction in experiments/development_v2.py",
+    "family": "rectangular_shor",
+    "shared_parent": null,
+    "external_architectures_used": false
+  }
+}

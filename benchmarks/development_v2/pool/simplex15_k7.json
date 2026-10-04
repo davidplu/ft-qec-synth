@@ -1,0 +1,20 @@
+{
+  "n": 15,
+  "generators": [
+    "XIXIXIXIXIXIXIX",
+    "IXXIIXXIIXXIIXX",
+    "IIIXXXXIIIIXXXX",
+    "IIIIIIIXXXXXXXX",
+    "ZIZIZIZIZIZIZIZ",
+    "IZZIIZZIIZZIIZZ",
+    "IIIZZZZIIIIZZZZ",
+    "IIIIIIIZZZZZZZZ"
+  ],
+  "name": "simplex15_k7",
+  "provenance": {
+    "method": "explicit generic construction in experiments/development_v2.py",
+    "family": "simplex_css",
+    "shared_parent": null,
+    "external_architectures_used": false
+  }
+}

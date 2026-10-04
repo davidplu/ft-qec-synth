@@ -1,0 +1,28 @@
+{
+  "name": "generic-shor-6x7-plus-2-fixed-qubits-proxy",
+  "n": 44,
+  "check_count": 43,
+  "rounds": 3,
+  "max_fault_weight": 3,
+  "evaluation_slots": 32,
+  "seconds": 611.7381485999795,
+  "memory": {
+    "working_set_bytes": 149274624,
+    "peak_working_set_bytes": 244830208
+  },
+  "best_dc": 2,
+  "independent_best_exclusion": {
+    "verified": true,
+    "excluded_through": 1,
+    "singleton_replay_count": 12200,
+    "joined_combinations_checked": 12200,
+    "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+  },
+  "certification_seconds": 7.0688147998880595,
+  "combinations_examined": 4412100,
+  "unique_architectures": 29,
+  "distance_code": 6,
+  "held_out_runs": 0,
+  "boundary_upper_bound": "not used for runtime selection",
+  "spectrum_seconds": 554.1980758004356
+}

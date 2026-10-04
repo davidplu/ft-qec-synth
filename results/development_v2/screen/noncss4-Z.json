@@ -1,0 +1,68 @@
+{
+  "name": "noncss4",
+  "task": "noncss4-Z",
+  "basis": "Z",
+  "code_path": "benchmarks/development_v2/pool/noncss4.json",
+  "family": "legacy_noncss",
+  "shared_parent": null,
+  "n": 4,
+  "k": 2,
+  "css": false,
+  "distance_certificate": {
+    "status": "EXACT",
+    "distance": 2,
+    "witness": "XZII",
+    "patterns": 15
+  },
+  "boundary": {
+    "status": "EXACT_TERMINAL_ONLY",
+    "distance": 1,
+    "lower_bound": 1,
+    "upper_bound": 1,
+    "witness": {
+      "fault_count": 1,
+      "faults": [
+        {
+          "operation": 79,
+          "qubits": [
+            0
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:79",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        }
+      ],
+      "checks": [],
+      "relation": "unassigned",
+      "hook_support": [],
+      "flags_fired": false,
+      "flag_information_cancelled": false,
+      "logical_coset": 1,
+      "detector_outcomes": 0,
+      "flag_outcomes": 0,
+      "final_data_pauli": "IIII"
+    },
+    "subsets": 1,
+    "seconds": 0.003868900006636977,
+    "method": "physical singleton replay plus exhaustive classical terminal-flip supports",
+    "full_circuit_lower_bound": false,
+    "axes": [
+      "X",
+      "Z",
+      "Z",
+      "Z"
+    ]
+  },
+  "classification": "BOUNDARY_LIMITED",
+  "difficulty": "UNREACHABLE/UNKNOWN",
+  "d_initial": 1,
+  "d_target": null,
+  "initial_target_frequency": null,
+  "calibration_runs": []
+}

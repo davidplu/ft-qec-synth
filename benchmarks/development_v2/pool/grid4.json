@@ -1,0 +1,27 @@
+{
+  "n": 16,
+  "generators": [
+    "XXIIXXIIIIIIIIII",
+    "IZZIIZZIIIIIIIII",
+    "IIXXIIXXIIIIIIII",
+    "IIIIZZIIZZIIIIII",
+    "IIIIIXXIIXXIIIII",
+    "IIIIIIZZIIZZIIII",
+    "IIIIIIIIXXIIXXII",
+    "IIIIIIIIIZZIIZZI",
+    "IIIIIIIIIIXXIIXX",
+    "ZIIIZIIIIIIIIIII",
+    "IIIZIIIZIIIIIIII",
+    "IXXIIIIIIIIIIIII",
+    "IIIIIIIIIIIIIXXI",
+    "IIIIIIIIZIIIZIII",
+    "IIIIIIIIIIIZIIIZ"
+  ],
+  "name": "grid4",
+  "provenance": {
+    "method": "explicit generic construction in experiments/development_v2.py",
+    "family": "checkerboard_grid",
+    "shared_parent": null,
+    "external_architectures_used": false
+  }
+}

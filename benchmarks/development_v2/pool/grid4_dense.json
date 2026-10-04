@@ -1,0 +1,27 @@
+{
+  "n": 16,
+  "generators": [
+    "XXIIXXIIIIIIIIII",
+    "IZZIIZZIIIIIIIII",
+    "XXXXXXXXIIIIIIII",
+    "IZZIZIZIZZIIIIII",
+    "XXXXXIIXIXXIIIII",
+    "IZZIZIIZZZZZIIII",
+    "XXXXXIIXXIXIXXII",
+    "IZZIZIIZZIIZIZZI",
+    "XXXXXIIXXIIXXXXX",
+    "ZZZIIIIZZIIZIZZI",
+    "ZZZZIIIIZIIZIZZI",
+    "XIIXXIIXXIIXXXXX",
+    "XIIXXIIXXIIXXIIX",
+    "ZZZZIIIIIIIZZZZI",
+    "ZZZZIIIIIIIIZZZZ"
+  ],
+  "name": "grid4_dense",
+  "provenance": {
+    "method": "invertible triangular check-basis transform in experiments/development_v2.py",
+    "family": "checkerboard_grid",
+    "shared_parent": "grid4",
+    "external_architectures_used": false
+  }
+}

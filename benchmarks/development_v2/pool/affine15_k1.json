@@ -1,0 +1,26 @@
+{
+  "n": 15,
+  "generators": [
+    "XIXIXIXIXIXIXIX",
+    "IXXIIXXIIXXIIXX",
+    "IIIXXXXIIIIXXXX",
+    "IIIIIIIXXXXXXXX",
+    "IZZZZIIIIIIIIII",
+    "ZIZZIZIIIIIIIII",
+    "ZZIZIIZIIIIIIII",
+    "IZZIIIIZZIIIIII",
+    "ZIZIIIIZIZIIIII",
+    "ZZIIIIIZIIZIIII",
+    "ZZZZIIIZIIIZIII",
+    "ZIIZIIIZIIIIZII",
+    "IZIZIIIZIIIIIZI",
+    "IIZZIIIZIIIIIIZ"
+  ],
+  "name": "affine15_k1",
+  "provenance": {
+    "method": "explicit generic construction in experiments/development_v2.py",
+    "family": "affine_css",
+    "shared_parent": null,
+    "external_architectures_used": false
+  }
+}

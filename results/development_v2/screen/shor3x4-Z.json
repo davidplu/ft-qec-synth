@@ -1,0 +1,1575 @@
+{
+  "name": "shor3x4",
+  "task": "shor3x4-Z",
+  "basis": "Z",
+  "code_path": "benchmarks/development_v2/pool/shor3x4.json",
+  "family": "rectangular_shor",
+  "shared_parent": null,
+  "n": 12,
+  "k": 1,
+  "css": true,
+  "distance_certificate": {
+    "status": "EXACT",
+    "distance": 3,
+    "witness": "ZIIIZIIIZIII",
+    "patterns": 1467,
+    "construction_distance": 3
+  },
+  "boundary": {
+    "status": "EXACT_TERMINAL_ONLY",
+    "distance": 4,
+    "lower_bound": 4,
+    "upper_bound": 4,
+    "witness": {
+      "fault_count": 4,
+      "faults": [
+        {
+          "operation": 240,
+          "qubits": [
+            0
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:240",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 241,
+          "qubits": [
+            1
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:241",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 242,
+          "qubits": [
+            2
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:242",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        },
+        {
+          "operation": 243,
+          "qubits": [
+            3
+          ],
+          "label": "I",
+          "kind": "measurement",
+          "location": "op:243",
+          "before": false,
+          "round_index": 3,
+          "check": null,
+          "role": "final_data_readout",
+          "interval": null,
+          "interaction_position": null
+        }
+      ],
+      "checks": [],
+      "relation": "unassigned",
+      "hook_support": [],
+      "flags_fired": false,
+      "flag_information_cancelled": false,
+      "logical_coset": 1,
+      "detector_outcomes": 0,
+      "flag_outcomes": 0,
+      "final_data_pauli": "IIIIIIIIIIII"
+    },
+    "subsets": 299,
+    "seconds": 0.013404000084847212,
+    "method": "physical singleton replay plus exhaustive classical terminal-flip supports",
+    "full_circuit_lower_bound": false,
+    "axes": [
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z",
+      "Z"
+    ]
+  },
+  "classification": "UNRESOLVED",
+  "difficulty": "TOO_EASY",
+  "d_initial": 3,
+  "d_target": 4,
+  "initial_target_frequency": 0.0,
+  "calibration_runs": [
+    {
+      "seed": 0,
+      "initial_ids": [
+        "d83d55abe27d10f27ed6",
+        "26c3fbd4d1494eb2d6a2",
+        "a6f69f4fd7c5e8c5e962",
+        "5ff959205ddf226b51df",
+        "5f7020ec73829f1d4e34",
+        "3cc445bb0062710fbdea"
+      ],
+      "bounds": [
+        {
+          "status": "EXACT",
+          "lower_bound": 1,
+          "upper_bound": 1,
+          "excluded_through": 0,
+          "witness": {
+            "fault_count": 1,
+            "faults": [
+              {
+                "operation": 60,
+                "qubits": [
+                  12,
+                  3
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:60",
+                "before": false,
+                "round_index": 0,
+                "check": 9,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 3
+              }
+            ],
+            "checks": [
+              9
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIXXXXIIII"
+          },
+          "reason": null,
+          "combinations_examined": 415,
+          "fault_locations": 246,
+          "fault_variants": 1872,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 390,
+          "fault_variants": 3096,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 378,
+          "fault_variants": 2994,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 366,
+          "fault_variants": 2892,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 390,
+          "fault_variants": 3096,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 390,
+          "fault_variants": 3096,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 15,
+            "raw_count": 15,
+            "signature_count": 1,
+            "observed_class_count": 15,
+            "observed_raw_count": 15,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 4,
+            "multiplicities": {
+              "a6645f734fb2bfb1a4b7163e": 1,
+              "0b61bf33fce7cd7bb3a5e2d7": 1,
+              "88cacdbb9ba5b21a70ae7eb2": 1,
+              "b27a5b4892a365a4184f2723": 1,
+              "3929156cb031743f66dcb4a6": 1,
+              "3a1954e8c1d4cab8348a1fbb": 1,
+              "e35b2dd9db9c0d0ced6c4114": 1,
+              "8ff07ca4ce46f36108238e01": 1,
+              "919f5097e4bd95d69e4a1f2f": 1,
+              "937df78c2259a1301af0de20": 1,
+              "8890ba635321b0973c37a9d7": 1,
+              "f93b8740e0ee28b5d1d0f444": 1,
+              "279fa42a87bc9b295a1d7f9b": 1,
+              "6d484481e5d635b03da093f2": 1,
+              "769ecd2f7b9ec54524aef778": 1
+            }
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        }
+      ],
+      "seconds": 2.9495309999911115,
+      "best_dc": 3
+    },
+    {
+      "seed": 1,
+      "initial_ids": [
+        "d83d55abe27d10f27ed6",
+        "df854745e8ab4a1c24c8",
+        "599b5c12c19188a0d39f",
+        "f0d414329001401833ed",
+        "bcaba8e629ec39c6ca1c",
+        "2b12f07a0b88cd5ea312"
+      ],
+      "bounds": [
+        {
+          "status": "EXACT",
+          "lower_bound": 1,
+          "upper_bound": 1,
+          "excluded_through": 0,
+          "witness": {
+            "fault_count": 1,
+            "faults": [
+              {
+                "operation": 60,
+                "qubits": [
+                  12,
+                  3
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:60",
+                "before": false,
+                "round_index": 0,
+                "check": 9,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 3
+              }
+            ],
+            "checks": [
+              9
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIXXXXIIII"
+          },
+          "reason": null,
+          "combinations_examined": 415,
+          "fault_locations": 246,
+          "fault_variants": 1872,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 402,
+          "fault_variants": 3198,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 426,
+          "fault_variants": 3402,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 3,
+          "upper_bound": 3,
+          "excluded_through": 2,
+          "witness": {
+            "fault_count": 3,
+            "faults": [
+              {
+                "operation": 3,
+                "qubits": [
+                  16,
+                  5
+                ],
+                "label": "IX",
+                "kind": "cz",
+                "location": "op:3",
+                "before": false,
+                "round_index": 0,
+                "check": 4,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 0
+              },
+              {
+                "operation": 9,
+                "qubits": [
+                  15,
+                  4
+                ],
+                "label": "YY",
+                "kind": "cz",
+                "location": "op:9",
+                "before": false,
+                "round_index": 0,
+                "check": 3,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 0
+              },
+              {
+                "operation": 76,
+                "qubits": [
+                  15,
+                  7
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:76",
+                "before": false,
+                "round_index": 0,
+                "check": 9,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              }
+            ],
+            "checks": [
+              3,
+              4,
+              9
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "XXXXZZIIIIII"
+          },
+          "reason": null,
+          "combinations_examined": 182091,
+          "fault_locations": 342,
+          "fault_variants": 2688,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 85,
+                "qubits": [
+                  12,
+                  4
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:85",
+                "before": false,
+                "round_index": 0,
+                "check": 10,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 2
+              },
+              {
+                "operation": 89,
+                "qubits": [
+                  12,
+                  9
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:89",
+                "before": false,
+                "round_index": 0,
+                "check": 10,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 6
+              }
+            ],
+            "checks": [
+              10
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              8,
+              9,
+              10,
+              11
+            ],
+            "flags_fired": true,
+            "flag_information_cancelled": true,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIIIIXXXX"
+          },
+          "reason": null,
+          "combinations_examined": 63381,
+          "fault_locations": 402,
+          "fault_variants": 3198,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 402,
+          "fault_variants": 3198,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 15,
+            "raw_count": 15,
+            "signature_count": 1,
+            "observed_class_count": 15,
+            "observed_raw_count": 15,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 4,
+            "multiplicities": {
+              "a6645f734fb2bfb1a4b7163e": 1,
+              "0b61bf33fce7cd7bb3a5e2d7": 1,
+              "88cacdbb9ba5b21a70ae7eb2": 1,
+              "b27a5b4892a365a4184f2723": 1,
+              "3929156cb031743f66dcb4a6": 1,
+              "3a1954e8c1d4cab8348a1fbb": 1,
+              "e35b2dd9db9c0d0ced6c4114": 1,
+              "8ff07ca4ce46f36108238e01": 1,
+              "919f5097e4bd95d69e4a1f2f": 1,
+              "937df78c2259a1301af0de20": 1,
+              "8890ba635321b0973c37a9d7": 1,
+              "f93b8740e0ee28b5d1d0f444": 1,
+              "279fa42a87bc9b295a1d7f9b": 1,
+              "6d484481e5d635b03da093f2": 1,
+              "769ecd2f7b9ec54524aef778": 1
+            }
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 8,
+            "observed_raw_count": 8,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 1,
+            "multiplicities": {
+              "af1a9a9034586ce0da895518": 1,
+              "5026a3171e4039e2697472fa": 1,
+              "01ac5a3cce4e41367572c3bf": 1,
+              "d187b478159731f06fb5fdc7": 1,
+              "fdc91947b415aba38fe8a626": 1,
+              "bde3c39b5861c4abe07bb8db": 1,
+              "0a598c055b03badead698008": 1,
+              "00ce7c25221482c50a331d04": 1
+            }
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 38,
+            "raw_count": 52,
+            "signature_count": 1,
+            "observed_class_count": 38,
+            "observed_raw_count": 52,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 1,
+            "multiplicities": {
+              "232ce4902fd9339f713627ee": 1,
+              "1e88bf11fd2b238db3dc0679": 2,
+              "45ef74a0c08206287ba38c07": 1,
+              "37833f39390599917a327e45": 2,
+              "03550dc94966e15f50a2a893": 1,
+              "bade2fda4c41f16f3dd642f2": 2,
+              "944c22291621d95437ee5f99": 1,
+              "5a235a4df7aae046d24fa08b": 2,
+              "c505e90454acc7468f0a46ad": 1,
+              "d76abb1d2dad422e4370b1b9": 1,
+              "421283b6bdec3efa81becbd0": 1,
+              "f0dcd101a59caf26cd817932": 2,
+              "af89576859115e328099c07f": 1,
+              "f890452b9f350caa70cbff3b": 2,
+              "3064b2d86c40ab707ef823cd": 1,
+              "6d58f63012f1b2f94b3487bc": 2,
+              "4277e55f1493c9ee26c0e1c7": 1,
+              "443b232de899dfc92d24a806": 2,
+              "426e9b468a9a00c5aa2a78ef": 1,
+              "517283f6115fdf4f9368b64e": 1,
+              "aa98be3f6ab268689f88fcbe": 1,
+              "97a4ef6814bd1891bab2c62b": 1,
+              "66b6d0e91fdc40524fa99da8": 2,
+              "bf416c9ae036aaeb9f89b36f": 1,
+              "ea6cbe0dc70fa20990fdf84f": 1,
+              "ba589467c2fd1effea388309": 2,
+              "b5aad842b336ccf167bb8912": 1,
+              "9e339d4e9486074f0d0db02d": 1,
+              "2b950c7ac0651cc6647c47f2": 2,
+              "d8dbdc4342f03f01793b687c": 1,
+              "abe6524ecbc64df7be3c4a9b": 1,
+              "853236829970a58981447d05": 2,
+              "57e2236924b3236ab22e0bd7": 1,
+              "77dcd434f6f843f87fe06883": 1,
+              "bfb80defaafe98d9b3f47790": 2,
+              "a48dcb3cdc4cb72442ee1c12": 1,
+              "4c3efa4fb59ce895984df9ca": 1,
+              "02bb62170faedfbe76b76225": 2
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        }
+      ],
+      "seconds": 2.724282299983315,
+      "best_dc": 3
+    },
+    {
+      "seed": 2,
+      "initial_ids": [
+        "d83d55abe27d10f27ed6",
+        "2be2efbcf0d99499f2e2",
+        "3194ba693f3c2f62f488",
+        "cba36631170ae7457dee",
+        "244dbc16fab3077b842f",
+        "6747e05b0c894420567b"
+      ],
+      "bounds": [
+        {
+          "status": "EXACT",
+          "lower_bound": 1,
+          "upper_bound": 1,
+          "excluded_through": 0,
+          "witness": {
+            "fault_count": 1,
+            "faults": [
+              {
+                "operation": 60,
+                "qubits": [
+                  12,
+                  3
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:60",
+                "before": false,
+                "round_index": 0,
+                "check": 9,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 3
+              }
+            ],
+            "checks": [
+              9
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIXXXXIIII"
+          },
+          "reason": null,
+          "combinations_examined": 415,
+          "fault_locations": 246,
+          "fault_variants": 1872,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 450,
+          "fault_variants": 3606,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 39,
+                "qubits": [
+                  20
+                ],
+                "label": "X",
+                "kind": "reset",
+                "location": "op:39",
+                "before": false,
+                "round_index": 0,
+                "check": 9,
+                "role": "flag_reset",
+                "interval": 1,
+                "interaction_position": 0
+              },
+              {
+                "operation": 46,
+                "qubits": [
+                  16,
+                  3
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:46",
+                "before": false,
+                "round_index": 0,
+                "check": 9,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 3
+              }
+            ],
+            "checks": [
+              9
+            ],
+            "relation": "same-check",
+            "hook_support": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "flags_fired": true,
+            "flag_information_cancelled": true,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIXXXXIIII"
+          },
+          "reason": null,
+          "combinations_examined": 36877,
+          "fault_locations": 294,
+          "fault_variants": 2280,
+          "requested_weight": 3
+        },
+        {
+          "status": "EXACT",
+          "lower_bound": 2,
+          "upper_bound": 2,
+          "excluded_through": 1,
+          "witness": {
+            "fault_count": 2,
+            "faults": [
+              {
+                "operation": 16,
+                "qubits": [
+                  12,
+                  10
+                ],
+                "label": "IX",
+                "kind": "cz",
+                "location": "op:16",
+                "before": false,
+                "round_index": 0,
+                "check": 8,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 1
+              },
+              {
+                "operation": 79,
+                "qubits": [
+                  12,
+                  4
+                ],
+                "label": "XI",
+                "kind": "cx",
+                "location": "op:79",
+                "before": false,
+                "round_index": 0,
+                "check": 10,
+                "role": "data_interaction",
+                "interval": null,
+                "interaction_position": 4
+              }
+            ],
+            "checks": [
+              8,
+              10
+            ],
+            "relation": "cross-check",
+            "hook_support": [
+              8,
+              9,
+              10,
+              11
+            ],
+            "flags_fired": false,
+            "flag_information_cancelled": false,
+            "logical_coset": 1,
+            "detector_outcomes": 0,
+            "flag_outcomes": 0,
+            "final_data_pauli": "IIIIIIIIXXXX"
+          },
+          "reason": null,
+          "combinations_examined": 58411,
+          "fault_locations": 390,
+          "fault_variants": 3096,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 306,
+          "fault_variants": 2382,
+          "requested_weight": 3
+        },
+        {
+          "status": "LOWER_BOUND",
+          "lower_bound": 3,
+          "upper_bound": null,
+          "excluded_through": 2,
+          "witness": null,
+          "reason": "work_limit",
+          "combinations_examined": 200000,
+          "fault_locations": 378,
+          "fault_variants": 2994,
+          "requested_weight": 3
+        }
+      ],
+      "spectra": [
+        {
+          "1": {
+            "complete": true,
+            "class_count": 15,
+            "raw_count": 15,
+            "signature_count": 1,
+            "observed_class_count": 15,
+            "observed_raw_count": 15,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 4,
+            "multiplicities": {
+              "a6645f734fb2bfb1a4b7163e": 1,
+              "0b61bf33fce7cd7bb3a5e2d7": 1,
+              "88cacdbb9ba5b21a70ae7eb2": 1,
+              "b27a5b4892a365a4184f2723": 1,
+              "3929156cb031743f66dcb4a6": 1,
+              "3a1954e8c1d4cab8348a1fbb": 1,
+              "e35b2dd9db9c0d0ced6c4114": 1,
+              "8ff07ca4ce46f36108238e01": 1,
+              "919f5097e4bd95d69e4a1f2f": 1,
+              "937df78c2259a1301af0de20": 1,
+              "8890ba635321b0973c37a9d7": 1,
+              "f93b8740e0ee28b5d1d0f444": 1,
+              "279fa42a87bc9b295a1d7f9b": 1,
+              "6d484481e5d635b03da093f2": 1,
+              "769ecd2f7b9ec54524aef778": 1
+            }
+          },
+          "2": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 48,
+            "raw_count": 88,
+            "signature_count": 1,
+            "observed_class_count": 48,
+            "observed_raw_count": 88,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 2,
+            "multiplicities": {
+              "dc407ff56d20f40f6b9d1413": 2,
+              "ff2c6a1f88e6d642fbdde4a5": 2,
+              "b34c70bcdd9c58cd6084396b": 2,
+              "56a577e7a4ee92d4128bd0a6": 2,
+              "43468a25de8418c891b1d00e": 2,
+              "7cb0c26628eacb71deae882b": 1,
+              "60fe8020ca449090dafaff07": 2,
+              "4ac6a798eaebd44a995c1764": 1,
+              "3c9bfcfab7e88a6a7df5b17c": 2,
+              "e7cd77f85567746ac4c1a618": 2,
+              "2678b6b135ca2d17aa08bae4": 2,
+              "bc152043e08f090e81fac96c": 2,
+              "791302c216b24754b99eeb69": 2,
+              "63e7216df9690b2a76ed31ca": 2,
+              "774fd1b27493aa9216264358": 2,
+              "becf13c93225829792e544d5": 2,
+              "fc69976ca0e12314b1dfa084": 2,
+              "406f0248e917a07b056399b9": 1,
+              "5ef3bbd20b9657a660a51f65": 2,
+              "890451fd2df23edcc534ea65": 1,
+              "366ca9e6cd730036124d3931": 2,
+              "78ba6addb47b44fc3712f7b6": 2,
+              "efdcc0f32b10be3812073e68": 2,
+              "4cc2fa8daa6559b8fce116a8": 2,
+              "94b258602c87f5808cc60040": 2,
+              "76cd9403387393f69587ca03": 2,
+              "b111362a80053ddb60f331c1": 2,
+              "78f7f31cfbee8ed146151963": 2,
+              "75a4faf0869815f495623d50": 2,
+              "7a913e7d707679c466f027b0": 2,
+              "665538095670bbb2de77f6a4": 2,
+              "d095cb7eff466555ec8f64f2": 2,
+              "e6f0061505f8409dc5fa268d": 2,
+              "220f7cc61dd3c15a4c91dd00": 1,
+              "d1e81c3ab626671a0ab673cc": 2,
+              "869169021220670e91930604": 1,
+              "4f9d1a0989281183a3c6fbb9": 2,
+              "d5af2ded4f1ea8d97e4b6249": 1,
+              "6ec1b32c6e696bbc8c39d137": 2,
+              "7c45b5366beed217a8079acc": 1,
+              "f9a482d4d270e2c499497f53": 2,
+              "e30213543d3f2bddd839e025": 2,
+              "a644ccdac6cd7fc44606cb64": 2,
+              "15ecc24b50d9454f38923232": 2,
+              "f1ae94eae5d7e23ca5828a63": 2,
+              "66cc06920d0ddac6ba978d0d": 2,
+              "9da01e6357969de388808b20": 2,
+              "2209d07db9b9ee45a05bac72": 2
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 100,
+            "raw_count": 116,
+            "signature_count": 1,
+            "observed_class_count": 100,
+            "observed_raw_count": 116,
+            "logical_effect_diversity": 1,
+            "hook_support_diversity": 4,
+            "multiplicities": {
+              "4f9aafb7480f326c8b039101": 1,
+              "fbfe55ffcb4946ab037d5cf3": 1,
+              "4d1c9cc1784423ca1690c160": 1,
+              "74dae8f897f57d75dc5cf83f": 1,
+              "a4170aaa6b21176ce8d8848f": 1,
+              "2d6b1b779665e27cdebb2525": 1,
+              "b4551b2f1ab94c3ddffaee00": 2,
+              "405405fb67ddce94317a6360": 2,
+              "d62b93682e6309e307c58b6b": 1,
+              "fa29e40d4750d7de66bae2a6": 1,
+              "27f00b9072198cd5329abc71": 1,
+              "95df44e232633bfbaa9613cb": 1,
+              "086b6cdff3962b3af2edc7be": 1,
+              "4b1f88d1a010302220f3f080": 1,
+              "7f9059fdd2e8755bb98794b4": 1,
+              "4ac76156cdee2eb9624ee08f": 1,
+              "0abd0dc1467fb7ece146a39a": 1,
+              "7ba2d58e7e18358675553c36": 1,
+              "10f7268a1e8931e8025826c4": 1,
+              "6295b9deaf6692d1709a6c51": 1,
+              "1f8bd0d0bedde2a99292f9a8": 2,
+              "64d7ca133568dd6d21925b4d": 2,
+              "52f3dc376e0de14aee01f4a7": 1,
+              "c9f56a3ad56140f326cf5265": 1,
+              "cbe1141d4c0b68b0270b5ad1": 1,
+              "d45beca03b6412a75919f355": 1,
+              "41a1cd8628736106da6a6b2b": 1,
+              "c6cada71c0e147b05c4359ca": 1,
+              "2246797dff07d3a05d1091e7": 2,
+              "bfb003628eee61159b7d1ede": 2,
+              "3bb3802cdba49662e44f8391": 1,
+              "628c3a499a7dc3784a235410": 1,
+              "b67361f2c28fcf3f58772204": 1,
+              "ae6370c3e8993d171a9c3eb3": 1,
+              "4185f1d0d52a80624452f80f": 1,
+              "2e180b8370f29639ba16011a": 1,
+              "5e5936aa1082b07a69dbf2a5": 1,
+              "05c60c4e086b29ad95b39b28": 1,
+              "ba23c551f1fe52d8434a91b5": 1,
+              "087fa18f4fcda5d7c994b18f": 1,
+              "6e8fe8a47d7eb02b41c2284c": 1,
+              "0399f853d256b1ddd4500c43": 1,
+              "ba8ff04058f7244d7cb4bc8d": 2,
+              "6869c7ff4f41614cc7b29a7a": 2,
+              "03e2071e8899bc74a2cf012a": 1,
+              "111a2b9ef404ae5822a8e0bb": 1,
+              "dbac60d1aedf5068f5cce8de": 1,
+              "c31c4687cb643e53bfaf2349": 1,
+              "108b252d37b0985f4dbde8c8": 1,
+              "78c96efe47b86641edb0f1f6": 1,
+              "7ca7125329941baa1cde69b8": 1,
+              "ff3dca16a9df80b4659f7892": 1,
+              "24d00db07bb1312b1cc7af7a": 1,
+              "f06ed3e5c04ba5f741a9fb9a": 1,
+              "b550dbd410194bd3c2295d83": 1,
+              "fe5f2695e859c9e810f878bf": 1,
+              "8c91b84418e791ae78b57e7d": 1,
+              "acc88aa90d56c194912c2c5d": 1,
+              "e192fb4cf4e11a42b45153d2": 1,
+              "bcc5713cf0820e55e64e1f63": 1,
+              "d231244848d4aff09fbefe52": 1,
+              "ded1314f8edc7a734ec2a165": 1,
+              "660a951b49d951dff3bf3023": 1,
+              "0fffca8874b696cb805dce23": 1,
+              "2814777090ab3a229ac9f57b": 2,
+              "b59150a0f463283babf34116": 2,
+              "c2f22e189d9fe5572e8af5fe": 2,
+              "608bd7e53951748701625c10": 2,
+              "37f2b43763c4b01785b90d8a": 1,
+              "89e1b9061167b752702c8cf1": 1,
+              "6c34e0ef15a41ddce1b0dcfd": 1,
+              "93004d3bafbbbd3678521072": 1,
+              "c96a9b75c536ce0a9185cebf": 1,
+              "4f6895e9d1f87f42bf65c555": 1,
+              "4ecd06ebeb106948adbd2cc0": 1,
+              "9e7f036b4999423e07a2c3e1": 1,
+              "5db4990572295497a247e1ef": 1,
+              "a5f238ee282dd7d71fcc64a8": 1,
+              "691c090fbc04243773a97a38": 1,
+              "474d22f4f98c6110c530adcc": 1,
+              "07012c45f5367d13b848f69c": 1,
+              "50214856b64d0f56c21c2b39": 1,
+              "ce80627701917f0ec26f7c8c": 1,
+              "ade1facf186ce2d63ded8292": 1,
+              "7f6150436271fddbfbd410bc": 1,
+              "c3729d68bb5ae5240c84d999": 1,
+              "12cda6ef838da3ef5fc212f0": 1,
+              "c8d3016b696a4fb1a35afcb8": 1,
+              "6d12b3afc0c7e3da2527b80f": 1,
+              "f386202aeab3a4d7a84af9b0": 1,
+              "315865a370e6a1aa7446e763": 1,
+              "95a5bb01d426eca8ca80a6a2": 1,
+              "f2fb10795cdad04e1129f225": 1,
+              "3c3dc72972390f8fd7831b69": 1,
+              "1e1129dfd6b97b49cebda7e8": 1,
+              "353de59d6c1567fdd505a1d3": 1,
+              "a4e2e8635cd5d71a2ec074b5": 2,
+              "ab1b4fadd36412fe126007fd": 2,
+              "f549718a5fbc12ee90c42e65": 2,
+              "fafb039505324c50e2e76974": 2
+            }
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "reason": "not_searched_above_frontier"
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        },
+        {
+          "1": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "2": {
+            "complete": true,
+            "class_count": 0,
+            "raw_count": 0,
+            "signature_count": 0,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          },
+          "3": {
+            "complete": false,
+            "class_count": null,
+            "raw_count": null,
+            "signature_count": null,
+            "observed_class_count": 0,
+            "observed_raw_count": 0,
+            "logical_effect_diversity": 0,
+            "hook_support_diversity": 0,
+            "multiplicities": {}
+          }
+        }
+      ],
+      "seconds": 2.2207591000478715,
+      "best_dc": 3
+    }
+  ],
+  "failure_mechanisms": {
+    "SAME_CHECK_HOOK": 179,
+    "INTERACTION_ORDER_HOOK": 24,
+    "CROSS_CHECK_OVERLAP": 8,
+    "FLAG_CANCELLATION": 86,
+    "FLAG_READOUT_HIDING": 8,
+    "CROSS_CHECK_COLLISION": 16
+  },
+  "mechanism_sample": "up to 64 evenly spaced structural representatives per architecture"
+}
