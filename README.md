@@ -79,3 +79,9 @@ python experiments/run_v02.py --budget 24 --seeds 0 1 2 --rounds 3
 Four development codes, X/Z memory, three seeds and four strategies (random/resource/CEGIS/mixed) use identical populations, evaluation slots and mutation counts. Duplicate proposals consume slots under every strategy; raw records retain cache status and all provenance. Runs, paired comparisons, repairs and profiles are saved in `results/v0.2/`. The current pilot does not establish a CEGIS search advantage.
 
 See [CEGIS and repair definitions](docs/CEGIS.md), [V0.2 results and readiness](docs/V0_2_RESULTS.md), [limitations](docs/V0_2_LIMITATIONS.md) and [research isolation](BENCHMARK_PROTOCOL.md). JSON schemas are under `docs/schemas/`; use `result-v0.2.schema.json` for repeated-memory results and `result.schema.json` for legacy V0.1 outputs.
+
+## Frozen V0.3 evaluation
+
+V0.3 adds malignant-spectrum-guided synthesis. Its [original evaluation](docs/V0_3_RESULTS.md) and raw results remain preserved. [Development Suite 2](docs/DEVELOPMENT_V2.md) evaluates the unchanged algorithm on independently screened tasks with certified reachable targets, using a [pre-comparison manifest](benchmarks/development_v2/MANIFEST.json), matched seeds and budgets, and physical replay audits. See the [algorithm freeze](FROZEN_V0_3_ALGORITHM.md), [prospective hypothesis](docs/DEVELOPMENT_V2_HYPOTHESIS.md) and [new results with twenty explicit answers](docs/DEVELOPMENT_V2_RESULTS.md).
+
+All these inputs are development data. No held-out-code experiment or V0.4 implementation is part of this evaluation. The report distinguishes native bounded-engine scores, independent certificates, initial-target frequency and shared-parent benchmark dependence.

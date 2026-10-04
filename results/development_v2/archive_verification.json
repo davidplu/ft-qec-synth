@@ -1,0 +1,24 @@
+{
+  "verified": true,
+  "runs": 390,
+  "evaluation_slots": 12480,
+  "matched_task_seed_populations": 60,
+  "variants": {
+    "mixed": 60,
+    "random": 60,
+    "resource": 60,
+    "v02": 60,
+    "v03": 60,
+    "v03_arbitrary": 18,
+    "v03_no_coverage": 18,
+    "v03_no_protection": 18,
+    "v03_raw": 18,
+    "v03_signature": 18
+  },
+  "recorded_experiment_commits": [
+    "6035a868a120f7a23e907d687b9c9f5e08b5e62a"
+  ],
+  "frozen_algorithm_commit": "50b926c793bbc78fa922c5eebf067678fec29504",
+  "raw_hashes_verified": 390,
+  "algorithm_and_previous_results_unchanged": true
+}

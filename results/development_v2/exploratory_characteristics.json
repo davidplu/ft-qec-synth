@@ -1,0 +1,211 @@
+{
+  "tasks": [
+    {
+      "task": "affine15_k1-X",
+      "family": "affine_css",
+      "shared_parent": null,
+      "n": 15,
+      "k": 1,
+      "css": true,
+      "mean_check_weight": 5.285714285714286,
+      "max_check_weight": 8,
+      "mean_overlap": 1.9230769230769231,
+      "mean_degree": 4.933333333333334,
+      "observed_mechanism_count": 5,
+      "mean_initial_classes": 292.3333333333333,
+      "calibrated_initial_target_frequency": 0.0,
+      "initial_class_count_complete_architectures": 15,
+      "native_final_initial_target_frequency": 0,
+      "physical_final_initial_target_frequency": 0,
+      "target_gap": 1,
+      "boundary_headroom": 1,
+      "v03_minus_random_target_success": 0,
+      "v03_minus_random_distance": 0
+    },
+    {
+      "task": "steane14_sum-Z",
+      "family": "simplex_css",
+      "shared_parent": "two steane7 blocks",
+      "n": 14,
+      "k": 2,
+      "css": true,
+      "mean_check_weight": 4,
+      "max_check_weight": 4,
+      "mean_overlap": 1.0909090909090908,
+      "mean_degree": 3.4285714285714284,
+      "observed_mechanism_count": 5,
+      "mean_initial_classes": 88.33333333333333,
+      "calibrated_initial_target_frequency": 0.0,
+      "initial_class_count_complete_architectures": 18,
+      "native_final_initial_target_frequency": 0.1,
+      "physical_final_initial_target_frequency": 0.1,
+      "target_gap": 1,
+      "boundary_headroom": 1,
+      "v03_minus_random_target_success": 0.1,
+      "v03_minus_random_distance": 0.1
+    },
+    {
+      "task": "steane7-X",
+      "family": "simplex_css",
+      "shared_parent": null,
+      "n": 7,
+      "k": 1,
+      "css": true,
+      "mean_check_weight": 4,
+      "max_check_weight": 4,
+      "mean_overlap": 2.4,
+      "mean_degree": 3.4285714285714284,
+      "observed_mechanism_count": 5,
+      "mean_initial_classes": 84.77777777777777,
+      "calibrated_initial_target_frequency": 0.0,
+      "initial_class_count_complete_architectures": 18,
+      "native_final_initial_target_frequency": 0,
+      "physical_final_initial_target_frequency": 0,
+      "target_gap": 1,
+      "boundary_headroom": 1,
+      "v03_minus_random_target_success": 0.3,
+      "v03_minus_random_distance": 0.3
+    },
+    {
+      "task": "simplex15_k7-X",
+      "family": "simplex_css",
+      "shared_parent": null,
+      "n": 15,
+      "k": 7,
+      "css": true,
+      "mean_check_weight": 8,
+      "max_check_weight": 8,
+      "mean_overlap": 4.571428571428571,
+      "mean_degree": 4.266666666666667,
+      "observed_mechanism_count": 6,
+      "mean_initial_classes": 282.9375,
+      "calibrated_initial_target_frequency": 0.0,
+      "initial_class_count_complete_architectures": 16,
+      "native_final_initial_target_frequency": 0,
+      "physical_final_initial_target_frequency": 0,
+      "target_gap": 1,
+      "boundary_headroom": 1,
+      "v03_minus_random_target_success": 0,
+      "v03_minus_random_distance": 0
+    },
+    {
+      "task": "steane7_mixed-X",
+      "family": "simplex_css",
+      "shared_parent": "steane7",
+      "n": 7,
+      "k": 1,
+      "css": false,
+      "mean_check_weight": 4,
+      "max_check_weight": 4,
+      "mean_overlap": 2.4,
+      "mean_degree": 3.4285714285714284,
+      "observed_mechanism_count": 5,
+      "mean_initial_classes": 107.94444444444444,
+      "calibrated_initial_target_frequency": 0.0,
+      "initial_class_count_complete_architectures": 18,
+      "native_final_initial_target_frequency": 0,
+      "physical_final_initial_target_frequency": 0,
+      "target_gap": 1,
+      "boundary_headroom": 1,
+      "v03_minus_random_target_success": 0.2,
+      "v03_minus_random_distance": 0.2
+    },
+    {
+      "task": "simplex15_k7-Z",
+      "family": "simplex_css",
+      "shared_parent": null,
+      "n": 15,
+      "k": 7,
+      "css": true,
+      "mean_check_weight": 8,
+      "max_check_weight": 8,
+      "mean_overlap": 4.571428571428571,
+      "mean_degree": 4.266666666666667,
+      "observed_mechanism_count": 7,
+      "mean_initial_classes": 250.625,
+      "calibrated_initial_target_frequency": 0.0,
+      "initial_class_count_complete_architectures": 16,
+      "native_final_initial_target_frequency": 0,
+      "physical_final_initial_target_frequency": 0,
+      "target_gap": 1,
+      "boundary_headroom": 1,
+      "v03_minus_random_target_success": 0.2,
+      "v03_minus_random_distance": 0.2
+    }
+  ],
+  "correlations": [
+    {
+      "feature": "n",
+      "pearson": -0.7530008693742329,
+      "task_count": 6,
+      "exploratory_only": true
+    },
+    {
+      "feature": "k",
+      "pearson": -0.2389851246995186,
+      "task_count": 6,
+      "exploratory_only": true
+    },
+    {
+      "feature": "css",
+      "pearson": -0.26967994498529685,
+      "task_count": 6,
+      "exploratory_only": true
+    },
+    {
+      "feature": "mean_check_weight",
+      "pearson": -0.36841580767900906,
+      "task_count": 6,
+      "exploratory_only": true
+    },
+    {
+      "feature": "max_check_weight",
+      "pearson": -0.6030226891555273,
+      "task_count": 6,
+      "exploratory_only": true
+    },
+    {
+      "feature": "mean_overlap",
+      "pearson": -0.043227514960466666,
+      "task_count": 6,
+      "exploratory_only": true
+    },
+    {
+      "feature": "mean_degree",
+      "pearson": -0.6726992394304088,
+      "task_count": 6,
+      "exploratory_only": true
+    },
+    {
+      "feature": "observed_mechanism_count",
+      "pearson": 2.7392742031330614e-17,
+      "task_count": 6,
+      "exploratory_only": true
+    },
+    {
+      "feature": "mean_initial_classes",
+      "pearson": -0.6821603764627492,
+      "task_count": 6,
+      "exploratory_only": true
+    },
+    {
+      "feature": "target_gap",
+      "pearson": null,
+      "task_count": 6,
+      "exploratory_only": true
+    },
+    {
+      "feature": "physical_final_initial_target_frequency",
+      "pearson": -0.1348399724926484,
+      "task_count": 6,
+      "exploratory_only": true
+    },
+    {
+      "feature": "boundary_headroom",
+      "pearson": null,
+      "task_count": 6,
+      "exploratory_only": true
+    }
+  ],
+  "causal_claim": false
+}

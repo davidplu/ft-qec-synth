@@ -5,5 +5,7 @@
   "errors": 0,
   "skipped": 0,
   "successful": true,
-  "pytest_exit_code": 0
+  "pytest_exit_code": 0,
+  "stage": "final completed comparison, report and archive harness",
+  "seconds": 14.265
 }

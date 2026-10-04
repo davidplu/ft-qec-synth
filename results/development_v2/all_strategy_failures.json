@@ -1,0 +1,9 @@
+[
+  {
+    "task": "affine15_k1-X",
+    "classification": "E_SEARCH_FAILED_DESPITE_CERTIFIED_REACHABLE_CANDIDATE",
+    "independently_found_censored_target_records": 0,
+    "alternative": "B_INSUFFICIENT_SEARCH_BUDGET remains possible; no impossibility inference",
+    "pilot": "CONSTRUCTIVELY_REACHABLE_WITH_GENERIC_READOUT_ROLE_FLAGS"
+  }
+]

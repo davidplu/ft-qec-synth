@@ -1,0 +1,1217 @@
+[
+  {
+    "variant": "mixed",
+    "failure": "BOUNDARY_READOUT_FAILURE",
+    "operator": "noisy_terminal_verification_round",
+    "attempts": 3,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "mixed",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "change_implicated_check_order",
+    "attempts": 18,
+    "source_eliminated": 12,
+    "complete_class_eliminated": 12,
+    "net_class_reduction": 5
+  },
+  {
+    "variant": "mixed",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "separate_syndrome_ancillas",
+    "attempts": 236,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "mixed",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "serialize_cross_check_gadgets",
+    "attempts": 154,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "mixed",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 56,
+    "source_eliminated": 31,
+    "complete_class_eliminated": 31,
+    "net_class_reduction": 40
+  },
+  {
+    "variant": "mixed",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "redirect_hook_order",
+    "attempts": 9,
+    "source_eliminated": 3,
+    "complete_class_eliminated": 2,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "mixed",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 112,
+    "source_eliminated": 53,
+    "complete_class_eliminated": 53,
+    "net_class_reduction": 22
+  },
+  {
+    "variant": "mixed",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 72,
+    "source_eliminated": 39,
+    "complete_class_eliminated": 39,
+    "net_class_reduction": 20
+  },
+  {
+    "variant": "mixed",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 46,
+    "source_eliminated": 10,
+    "complete_class_eliminated": 10,
+    "net_class_reduction": 17
+  },
+  {
+    "variant": "mixed",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 25,
+    "source_eliminated": 9,
+    "complete_class_eliminated": 9,
+    "net_class_reduction": 12
+  },
+  {
+    "variant": "mixed",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 16,
+    "source_eliminated": 8,
+    "complete_class_eliminated": 8,
+    "net_class_reduction": 9
+  },
+  {
+    "variant": "mixed",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 4,
+    "source_eliminated": 4,
+    "complete_class_eliminated": 4,
+    "net_class_reduction": 4
+  },
+  {
+    "variant": "mixed",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 83,
+    "source_eliminated": 60,
+    "complete_class_eliminated": 60,
+    "net_class_reduction": 14
+  },
+  {
+    "variant": "mixed",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 143,
+    "source_eliminated": 90,
+    "complete_class_eliminated": 90,
+    "net_class_reduction": 65
+  },
+  {
+    "variant": "mixed",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 9,
+    "source_eliminated": 1,
+    "complete_class_eliminated": 1,
+    "net_class_reduction": 4
+  },
+  {
+    "variant": "mixed",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 10,
+    "source_eliminated": 5,
+    "complete_class_eliminated": 5,
+    "net_class_reduction": 5
+  },
+  {
+    "variant": "mixed",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 2,
+    "source_eliminated": 2,
+    "complete_class_eliminated": 2,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v02",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "change_implicated_check_order",
+    "attempts": 1,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v02",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "separate_syndrome_ancillas",
+    "attempts": 1,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v02",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "serialize_cross_check_gadgets",
+    "attempts": 1,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v02",
+    "failure": "FLAG_CANCELLATION",
+    "operator": "independent_full_interval_flag",
+    "attempts": 8,
+    "source_eliminated": 7,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 5
+  },
+  {
+    "variant": "v02",
+    "failure": "FLAG_CANCELLATION",
+    "operator": "split_prefix_flag",
+    "attempts": 4,
+    "source_eliminated": 4,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v02",
+    "failure": "FLAG_CANCELLATION",
+    "operator": "split_suffix_flag",
+    "attempts": 4,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v02",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 322,
+    "source_eliminated": 150,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 264
+  },
+  {
+    "variant": "v02",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "redirect_hook_order",
+    "attempts": 95,
+    "source_eliminated": 14,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 16
+  },
+  {
+    "variant": "v02",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 177,
+    "source_eliminated": 76,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 66
+  },
+  {
+    "variant": "v02",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 117,
+    "source_eliminated": 31,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 35
+  },
+  {
+    "variant": "v02",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 289,
+    "source_eliminated": 102,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 157
+  },
+  {
+    "variant": "v02",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 253,
+    "source_eliminated": 28,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 109
+  },
+  {
+    "variant": "v02",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 71,
+    "source_eliminated": 20,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 40
+  },
+  {
+    "variant": "v02",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 49,
+    "source_eliminated": 45,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 49
+  },
+  {
+    "variant": "v02",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 34,
+    "source_eliminated": 33,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 3
+  },
+  {
+    "variant": "v02",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 14,
+    "source_eliminated": 10,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 13
+  },
+  {
+    "variant": "v02",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 44,
+    "source_eliminated": 44,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 12
+  },
+  {
+    "variant": "v02",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 37,
+    "source_eliminated": 4,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 12
+  },
+  {
+    "variant": "v02",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 11,
+    "source_eliminated": 7,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 6
+  },
+  {
+    "variant": "v03",
+    "failure": "BOUNDARY_READOUT_FAILURE",
+    "operator": "noisy_terminal_verification_round",
+    "attempts": 9,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "change_implicated_check_order",
+    "attempts": 39,
+    "source_eliminated": 22,
+    "complete_class_eliminated": 21,
+    "net_class_reduction": 12
+  },
+  {
+    "variant": "v03",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "independent_full_interval_flag",
+    "attempts": 1,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "separate_syndrome_ancillas",
+    "attempts": 251,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "serialize_cross_check_gadgets",
+    "attempts": 196,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03",
+    "failure": "FLAG_CANCELLATION",
+    "operator": "independent_full_interval_flag",
+    "attempts": 1,
+    "source_eliminated": 1,
+    "complete_class_eliminated": 1,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v03",
+    "failure": "FLAG_CANCELLATION",
+    "operator": "split_prefix_flag",
+    "attempts": 2,
+    "source_eliminated": 1,
+    "complete_class_eliminated": 1,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v03",
+    "failure": "FLAG_CANCELLATION",
+    "operator": "split_suffix_flag",
+    "attempts": 2,
+    "source_eliminated": 1,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 90,
+    "source_eliminated": 52,
+    "complete_class_eliminated": 51,
+    "net_class_reduction": 59
+  },
+  {
+    "variant": "v03",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "redirect_hook_order",
+    "attempts": 17,
+    "source_eliminated": 3,
+    "complete_class_eliminated": 2,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v03",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 153,
+    "source_eliminated": 83,
+    "complete_class_eliminated": 81,
+    "net_class_reduction": 29
+  },
+  {
+    "variant": "v03",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 148,
+    "source_eliminated": 73,
+    "complete_class_eliminated": 73,
+    "net_class_reduction": 42
+  },
+  {
+    "variant": "v03",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 66,
+    "source_eliminated": 13,
+    "complete_class_eliminated": 13,
+    "net_class_reduction": 20
+  },
+  {
+    "variant": "v03",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 112,
+    "source_eliminated": 50,
+    "complete_class_eliminated": 45,
+    "net_class_reduction": 65
+  },
+  {
+    "variant": "v03",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 38,
+    "source_eliminated": 13,
+    "complete_class_eliminated": 12,
+    "net_class_reduction": 13
+  },
+  {
+    "variant": "v03",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 12,
+    "source_eliminated": 12,
+    "complete_class_eliminated": 12,
+    "net_class_reduction": 12
+  },
+  {
+    "variant": "v03",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 143,
+    "source_eliminated": 110,
+    "complete_class_eliminated": 110,
+    "net_class_reduction": 28
+  },
+  {
+    "variant": "v03",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 197,
+    "source_eliminated": 135,
+    "complete_class_eliminated": 135,
+    "net_class_reduction": 78
+  },
+  {
+    "variant": "v03",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 9,
+    "source_eliminated": 3,
+    "complete_class_eliminated": 3,
+    "net_class_reduction": 2
+  },
+  {
+    "variant": "v03",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 15,
+    "source_eliminated": 9,
+    "complete_class_eliminated": 9,
+    "net_class_reduction": 11
+  },
+  {
+    "variant": "v03",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 2,
+    "source_eliminated": 2,
+    "complete_class_eliminated": 2,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v03_arbitrary",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "change_implicated_check_order",
+    "attempts": 60,
+    "source_eliminated": 12,
+    "complete_class_eliminated": 12,
+    "net_class_reduction": 31
+  },
+  {
+    "variant": "v03_arbitrary",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "separate_syndrome_ancillas",
+    "attempts": 38,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_arbitrary",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "serialize_cross_check_gadgets",
+    "attempts": 27,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_arbitrary",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 46,
+    "source_eliminated": 21,
+    "complete_class_eliminated": 20,
+    "net_class_reduction": 29
+  },
+  {
+    "variant": "v03_arbitrary",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "redirect_hook_order",
+    "attempts": 7,
+    "source_eliminated": 3,
+    "complete_class_eliminated": 2,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v03_arbitrary",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 86,
+    "source_eliminated": 54,
+    "complete_class_eliminated": 51,
+    "net_class_reduction": 19
+  },
+  {
+    "variant": "v03_arbitrary",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 75,
+    "source_eliminated": 34,
+    "complete_class_eliminated": 34,
+    "net_class_reduction": 21
+  },
+  {
+    "variant": "v03_arbitrary",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 48,
+    "source_eliminated": 21,
+    "complete_class_eliminated": 21,
+    "net_class_reduction": 17
+  },
+  {
+    "variant": "v03_arbitrary",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 22,
+    "source_eliminated": 4,
+    "complete_class_eliminated": 1,
+    "net_class_reduction": 9
+  },
+  {
+    "variant": "v03_arbitrary",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 27,
+    "source_eliminated": 10,
+    "complete_class_eliminated": 9,
+    "net_class_reduction": 15
+  },
+  {
+    "variant": "v03_arbitrary",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 1,
+    "source_eliminated": 1,
+    "complete_class_eliminated": 1,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v03_arbitrary",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 6,
+    "source_eliminated": 6,
+    "complete_class_eliminated": 6,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_arbitrary",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 1,
+    "source_eliminated": 1,
+    "complete_class_eliminated": 1,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v03_no_coverage",
+    "failure": "BOUNDARY_READOUT_FAILURE",
+    "operator": "noisy_terminal_verification_round",
+    "attempts": 30,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_no_coverage",
+    "failure": "FLAG_CANCELLATION",
+    "operator": "independent_full_interval_flag",
+    "attempts": 1,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_no_coverage",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 132,
+    "source_eliminated": 87,
+    "complete_class_eliminated": 83,
+    "net_class_reduction": 96
+  },
+  {
+    "variant": "v03_no_coverage",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "redirect_hook_order",
+    "attempts": 9,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_no_coverage",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 27,
+    "source_eliminated": 15,
+    "complete_class_eliminated": 15,
+    "net_class_reduction": 6
+  },
+  {
+    "variant": "v03_no_coverage",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 3,
+    "source_eliminated": 1,
+    "complete_class_eliminated": 1,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_no_coverage",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 81,
+    "source_eliminated": 22,
+    "complete_class_eliminated": 22,
+    "net_class_reduction": 30
+  },
+  {
+    "variant": "v03_no_coverage",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 61,
+    "source_eliminated": 15,
+    "complete_class_eliminated": 15,
+    "net_class_reduction": 23
+  },
+  {
+    "variant": "v03_no_coverage",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 31,
+    "source_eliminated": 9,
+    "complete_class_eliminated": 9,
+    "net_class_reduction": 10
+  },
+  {
+    "variant": "v03_no_coverage",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 27,
+    "source_eliminated": 27,
+    "complete_class_eliminated": 27,
+    "net_class_reduction": 27
+  },
+  {
+    "variant": "v03_no_coverage",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 5,
+    "source_eliminated": 4,
+    "complete_class_eliminated": 4,
+    "net_class_reduction": 2
+  },
+  {
+    "variant": "v03_no_coverage",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 15,
+    "source_eliminated": 4,
+    "complete_class_eliminated": 4,
+    "net_class_reduction": 8
+  },
+  {
+    "variant": "v03_no_coverage",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 11,
+    "source_eliminated": 7,
+    "complete_class_eliminated": 7,
+    "net_class_reduction": 8
+  },
+  {
+    "variant": "v03_no_coverage",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 1,
+    "source_eliminated": 1,
+    "complete_class_eliminated": 1,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "BOUNDARY_READOUT_FAILURE",
+    "operator": "noisy_terminal_verification_round",
+    "attempts": 2,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "change_implicated_check_order",
+    "attempts": 10,
+    "source_eliminated": 7,
+    "complete_class_eliminated": 7,
+    "net_class_reduction": 2
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "separate_syndrome_ancillas",
+    "attempts": 85,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "serialize_cross_check_gadgets",
+    "attempts": 69,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 21,
+    "source_eliminated": 11,
+    "complete_class_eliminated": 11,
+    "net_class_reduction": 14
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "redirect_hook_order",
+    "attempts": 5,
+    "source_eliminated": 2,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 50,
+    "source_eliminated": 28,
+    "complete_class_eliminated": 27,
+    "net_class_reduction": 9
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 55,
+    "source_eliminated": 32,
+    "complete_class_eliminated": 31,
+    "net_class_reduction": 19
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 16,
+    "source_eliminated": 3,
+    "complete_class_eliminated": 3,
+    "net_class_reduction": 5
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 5,
+    "source_eliminated": 2,
+    "complete_class_eliminated": 1,
+    "net_class_reduction": 2
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 7,
+    "source_eliminated": 4,
+    "complete_class_eliminated": 4,
+    "net_class_reduction": 4
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 1,
+    "source_eliminated": 1,
+    "complete_class_eliminated": 1,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 41,
+    "source_eliminated": 33,
+    "complete_class_eliminated": 33,
+    "net_class_reduction": 7
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 61,
+    "source_eliminated": 40,
+    "complete_class_eliminated": 40,
+    "net_class_reduction": 31
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 5,
+    "source_eliminated": 2,
+    "complete_class_eliminated": 2,
+    "net_class_reduction": 2
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 3,
+    "source_eliminated": 3,
+    "complete_class_eliminated": 3,
+    "net_class_reduction": 2
+  },
+  {
+    "variant": "v03_no_protection",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 4,
+    "source_eliminated": 4,
+    "complete_class_eliminated": 4,
+    "net_class_reduction": 4
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "change_implicated_check_order",
+    "attempts": 4,
+    "source_eliminated": 4,
+    "complete_class_eliminated": 4,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "separate_syndrome_ancillas",
+    "attempts": 82,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "serialize_cross_check_gadgets",
+    "attempts": 47,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "FLAG_CANCELLATION",
+    "operator": "split_suffix_flag",
+    "attempts": 1,
+    "source_eliminated": 1,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 42,
+    "source_eliminated": 25,
+    "complete_class_eliminated": 25,
+    "net_class_reduction": 28
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "redirect_hook_order",
+    "attempts": 4,
+    "source_eliminated": 1,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 53,
+    "source_eliminated": 33,
+    "complete_class_eliminated": 32,
+    "net_class_reduction": 10
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 44,
+    "source_eliminated": 25,
+    "complete_class_eliminated": 25,
+    "net_class_reduction": 14
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 30,
+    "source_eliminated": 5,
+    "complete_class_eliminated": 5,
+    "net_class_reduction": 8
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 24,
+    "source_eliminated": 7,
+    "complete_class_eliminated": 6,
+    "net_class_reduction": 15
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 8,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 3,
+    "source_eliminated": 3,
+    "complete_class_eliminated": 3,
+    "net_class_reduction": 3
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 34,
+    "source_eliminated": 29,
+    "complete_class_eliminated": 29,
+    "net_class_reduction": 6
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 60,
+    "source_eliminated": 42,
+    "complete_class_eliminated": 42,
+    "net_class_reduction": 23
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 2,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 2,
+    "source_eliminated": 1,
+    "complete_class_eliminated": 1,
+    "net_class_reduction": 2
+  },
+  {
+    "variant": "v03_raw",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 4,
+    "source_eliminated": 3,
+    "complete_class_eliminated": 3,
+    "net_class_reduction": 4
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "BOUNDARY_READOUT_FAILURE",
+    "operator": "noisy_terminal_verification_round",
+    "attempts": 4,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "change_implicated_check_order",
+    "attempts": 6,
+    "source_eliminated": 3,
+    "complete_class_eliminated": 3,
+    "net_class_reduction": 2
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "separate_syndrome_ancillas",
+    "attempts": 85,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "CROSS_CHECK_COLLISION",
+    "operator": "serialize_cross_check_gadgets",
+    "attempts": 49,
+    "source_eliminated": 0,
+    "complete_class_eliminated": 0,
+    "net_class_reduction": 0
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 28,
+    "source_eliminated": 26,
+    "complete_class_eliminated": 26,
+    "net_class_reduction": 26
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "redirect_hook_order",
+    "attempts": 6,
+    "source_eliminated": 1,
+    "complete_class_eliminated": 1,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 48,
+    "source_eliminated": 42,
+    "complete_class_eliminated": 41,
+    "net_class_reduction": 16
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 55,
+    "source_eliminated": 28,
+    "complete_class_eliminated": 28,
+    "net_class_reduction": 25
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 21,
+    "source_eliminated": 5,
+    "complete_class_eliminated": 5,
+    "net_class_reduction": 9
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 24,
+    "source_eliminated": 18,
+    "complete_class_eliminated": 18,
+    "net_class_reduction": 21
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "INTERACTION_ORDER_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 5,
+    "source_eliminated": 1,
+    "complete_class_eliminated": 1,
+    "net_class_reduction": 1
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "independent_full_interval_flag",
+    "attempts": 5,
+    "source_eliminated": 5,
+    "complete_class_eliminated": 5,
+    "net_class_reduction": 5
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "reverse_implicated_order",
+    "attempts": 35,
+    "source_eliminated": 34,
+    "complete_class_eliminated": 34,
+    "net_class_reduction": 8
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "separate_hook_support",
+    "attempts": 73,
+    "source_eliminated": 46,
+    "complete_class_eliminated": 46,
+    "net_class_reduction": 35
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_prefix_flag",
+    "attempts": 4,
+    "source_eliminated": 2,
+    "complete_class_eliminated": 2,
+    "net_class_reduction": 2
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_suffix_flag",
+    "attempts": 6,
+    "source_eliminated": 3,
+    "complete_class_eliminated": 3,
+    "net_class_reduction": 4
+  },
+  {
+    "variant": "v03_signature",
+    "failure": "SAME_CHECK_HOOK",
+    "operator": "split_temporal_flag_records",
+    "attempts": 3,
+    "source_eliminated": 3,
+    "complete_class_eliminated": 3,
+    "net_class_reduction": 3
+  }
+]

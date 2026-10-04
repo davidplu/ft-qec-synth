@@ -20,7 +20,7 @@ from ftqec.faults.verification import verify_witness
 from ftqec.faults.exclusion import verify_exclusion
 from ftqec.faults.signatures import signatures
 from ftqec.faults.spectrum import representative_witness
-from ftqec.faults.batch_verification import replay_lanes
+from ftqec.faults.batch_verification import verify_batch
 
 VARIANTS={'random':{},'resource':{},'v02':{},'v03':{},'mixed':{},
           'v03_raw':{'equivalence':'raw'},'v03_signature':{'equivalence':'signature'},
@@ -159,6 +159,7 @@ def holm(tests):
 
 def audit():
     m=check_protocol();tasks={t['task']:t for t in m['tasks']};seen=set();counts=Counter();details=[];initial_quality={};initial_rows={}
+    censored_quality={};censored_rows=[]
     from jsonschema import Draft202012Validator
     validator=Draft202012Validator(json.loads((ROOT/'docs/schemas/result-v0.3.schema.json').read_text()))
     # Architecture-local deduplication; no search result can grant a certificate.
@@ -184,10 +185,8 @@ def audit():
                 else:assert layer['class_count'] is None
             for start in range(0,len(classes),1024):
                 ws=[representative_witness(c,ss,cls) for cls in classes[start:start+1024]]
-                actual=replay_lanes(c,[w['faults'] for w in ws])
-                for w,a in zip(ws,actual):
-                    for field in ('detector_outcomes','logical_coset','flag_outcomes','final_data_pauli'):assert a[field]==w[field]
-                    assert a['detector_outcomes']==0 and a['logical_coset'];counts['class_representatives']+=1
+                actual=verify_batch(c,ws)
+                assert actual['verified'];counts['class_representatives']+=actual['witnesses']
             counts['architectures']+=1
         for rec in r['records'][:6]:
             key=(t['task'],rec['architecture_id']);b=rec['bounds']
@@ -203,6 +202,16 @@ def audit():
             initial_rows[rowkey]={'task':t['task'],'seed':r['configuration']['seed'],'node':rec['evaluation_index'],
                 'architecture_id':rec['architecture_id'],'native_lower_bound':b['lower_bound'],**initial_quality[key]}
         for rec in r['records']:
+            b=rec['bounds'];key=(t['task'],rec['architecture_id'])
+            if b['upper_bound'] is None and b['lower_bound']<t['d_target']:
+                if key not in censored_quality:
+                    c=build_memory(code,Candidate.from_dict(rec['candidate']),MemoryConfig(3,t['basis']))
+                    cert=verify_exclusion(c,t['d_target']-1)
+                    censored_quality[key]={'physical_target':cert['verified'],'independent_exclusion':cert}
+                censored_rows.append({'file':path.name,'task':t['task'],'seed':r['configuration']['seed'],
+                    'variant':r['experiment_variant'],'node':rec['evaluation_index'],
+                    'architecture_id':rec['architecture_id'],'native_lower_bound':b['lower_bound'],
+                    **censored_quality[key]})
             if rec.get('dc_delta',0)>0:
                 assert rec['independent_exclusion']['verified'];counts['gain_events']+=1
                 details.append({'file':path.name,'gain_node':rec['evaluation_index'],'parent_node':rec['parent_node'],
@@ -214,6 +223,8 @@ def audit():
     dump(OUT/'validation.json',{'verified':True,'counts':dict(counts),'distance_gains':details,
                               'algorithm_unchanged':True,'previous_results_unchanged':True,'held_out_runs':0})
     dump(OUT/'final_initial_quality.json',list(initial_rows.values()))
+    dump(OUT/'final_censoring_audit.json',{'diagnostic_only':True,'primary_scores_unchanged':True,
+        'unique_censored_architectures':len(censored_quality),'records':censored_rows})
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('stage',choices=('manifest','run','audit'));a=p.parse_args()

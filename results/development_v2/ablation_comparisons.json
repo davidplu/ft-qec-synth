@@ -1,0 +1,282 @@
+[
+  {
+    "ablation": "v03_raw",
+    "endpoint": "target",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 2,
+    "ties": 14,
+    "losses": 2,
+    "mean_oriented_difference": 0,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_raw",
+    "endpoint": "distance",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 2,
+    "ties": 14,
+    "losses": 2,
+    "mean_oriented_difference": 0,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_raw",
+    "endpoint": "evaluations",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 2,
+    "ties": 13,
+    "losses": 3,
+    "mean_oriented_difference": -0.3333333333333333,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_raw",
+    "endpoint": "qd",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 1,
+    "ties": 11,
+    "losses": 6,
+    "mean_oriented_difference": -168.88888888888889,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_signature",
+    "endpoint": "target",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 5,
+    "ties": 13,
+    "losses": 0,
+    "mean_oriented_difference": 0.2777777777777778,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_signature",
+    "endpoint": "distance",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 5,
+    "ties": 13,
+    "losses": 0,
+    "mean_oriented_difference": 0.2777777777777778,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_signature",
+    "endpoint": "evaluations",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 5,
+    "ties": 13,
+    "losses": 0,
+    "mean_oriented_difference": 2.388888888888889,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_signature",
+    "endpoint": "qd",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 2,
+    "ties": 12,
+    "losses": 4,
+    "mean_oriented_difference": -204.22222222222223,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_no_protection",
+    "endpoint": "target",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 4,
+    "ties": 13,
+    "losses": 1,
+    "mean_oriented_difference": 0.16666666666666666,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_no_protection",
+    "endpoint": "distance",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 4,
+    "ties": 13,
+    "losses": 1,
+    "mean_oriented_difference": 0.16666666666666666,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_no_protection",
+    "endpoint": "evaluations",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 5,
+    "ties": 12,
+    "losses": 1,
+    "mean_oriented_difference": 1.2222222222222223,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_no_protection",
+    "endpoint": "qd",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 1,
+    "ties": 12,
+    "losses": 5,
+    "mean_oriented_difference": -99.16666666666667,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_arbitrary",
+    "endpoint": "target",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 2,
+    "ties": 16,
+    "losses": 0,
+    "mean_oriented_difference": 0.1111111111111111,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_arbitrary",
+    "endpoint": "distance",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 2,
+    "ties": 16,
+    "losses": 0,
+    "mean_oriented_difference": 0.1111111111111111,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_arbitrary",
+    "endpoint": "evaluations",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 4,
+    "ties": 13,
+    "losses": 1,
+    "mean_oriented_difference": 0.5555555555555556,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_arbitrary",
+    "endpoint": "qd",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 2,
+    "ties": 11,
+    "losses": 5,
+    "mean_oriented_difference": -199.16666666666666,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_no_coverage",
+    "endpoint": "target",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 3,
+    "ties": 10,
+    "losses": 5,
+    "mean_oriented_difference": -0.1111111111111111,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_no_coverage",
+    "endpoint": "distance",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 3,
+    "ties": 10,
+    "losses": 5,
+    "mean_oriented_difference": -0.1111111111111111,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_no_coverage",
+    "endpoint": "evaluations",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 3,
+    "ties": 8,
+    "losses": 7,
+    "mean_oriented_difference": -3.388888888888889,
+    "confirmatory": false
+  },
+  {
+    "ablation": "v03_no_coverage",
+    "endpoint": "qd",
+    "paired_seeds": [
+      10,
+      11,
+      12
+    ],
+    "wins": 4,
+    "ties": 9,
+    "losses": 5,
+    "mean_oriented_difference": 293.1111111111111,
+    "confirmatory": false
+  }
+]

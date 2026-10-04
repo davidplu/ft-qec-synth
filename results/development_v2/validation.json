@@ -1,0 +1,1247 @@
+{
+  "verified": true,
+  "counts": {
+    "minimum_witnesses": 7768,
+    "class_representatives": 1356861,
+    "architectures": 7914,
+    "nontrivial_exclusions": 7592,
+    "gain_events": 154
+  },
+  "distance_gains": [
+    {
+      "file": "affine15_k1-X-seed10-v02.json.gz",
+      "gain_node": 11,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed10-v02.json.gz",
+      "gain_node": 23,
+      "parent_node": 18,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed10-v03_no_coverage.json.gz",
+      "gain_node": 13,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed10-v03_raw.json.gz",
+      "gain_node": 29,
+      "parent_node": 23,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed10-v03_signature.json.gz",
+      "gain_node": 26,
+      "parent_node": 24,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed11-random.json.gz",
+      "gain_node": 9,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed11-v02.json.gz",
+      "gain_node": 11,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed11-v02.json.gz",
+      "gain_node": 20,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed11-v02.json.gz",
+      "gain_node": 32,
+      "parent_node": 18,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed11-v03_arbitrary.json.gz",
+      "gain_node": 20,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed11-v03_raw.json.gz",
+      "gain_node": 11,
+      "parent_node": 9,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed11-v03_signature.json.gz",
+      "gain_node": 16,
+      "parent_node": 10,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed11-v03_signature.json.gz",
+      "gain_node": 26,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed12-v02.json.gz",
+      "gain_node": 13,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed12-v02.json.gz",
+      "gain_node": 30,
+      "parent_node": 28,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed12-v03_no_coverage.json.gz",
+      "gain_node": 13,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed12-v03_no_protection.json.gz",
+      "gain_node": 19,
+      "parent_node": 13,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed12-v03_signature.json.gz",
+      "gain_node": 20,
+      "parent_node": 9,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed13-mixed.json.gz",
+      "gain_node": 24,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed13-v02.json.gz",
+      "gain_node": 12,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed13-v02.json.gz",
+      "gain_node": 32,
+      "parent_node": 29,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed14-mixed.json.gz",
+      "gain_node": 14,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed14-random.json.gz",
+      "gain_node": 17,
+      "parent_node": 15,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed14-v02.json.gz",
+      "gain_node": 10,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed14-v02.json.gz",
+      "gain_node": 20,
+      "parent_node": 17,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed14-v03.json.gz",
+      "gain_node": 15,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed15-mixed.json.gz",
+      "gain_node": 21,
+      "parent_node": 13,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed15-random.json.gz",
+      "gain_node": 24,
+      "parent_node": 22,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed15-v02.json.gz",
+      "gain_node": 14,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed15-v03.json.gz",
+      "gain_node": 19,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed16-mixed.json.gz",
+      "gain_node": 15,
+      "parent_node": 10,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed16-mixed.json.gz",
+      "gain_node": 24,
+      "parent_node": 6,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed16-mixed.json.gz",
+      "gain_node": 28,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed16-v02.json.gz",
+      "gain_node": 7,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed16-v02.json.gz",
+      "gain_node": 13,
+      "parent_node": 6,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed16-v02.json.gz",
+      "gain_node": 23,
+      "parent_node": 6,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed16-v02.json.gz",
+      "gain_node": 30,
+      "parent_node": 21,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed16-v03.json.gz",
+      "gain_node": 10,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed17-v02.json.gz",
+      "gain_node": 7,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed17-v02.json.gz",
+      "gain_node": 23,
+      "parent_node": 21,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed17-v03.json.gz",
+      "gain_node": 21,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed18-mixed.json.gz",
+      "gain_node": 12,
+      "parent_node": 8,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed18-v02.json.gz",
+      "gain_node": 10,
+      "parent_node": 4,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed18-v02.json.gz",
+      "gain_node": 13,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed18-v02.json.gz",
+      "gain_node": 25,
+      "parent_node": 24,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed19-v02.json.gz",
+      "gain_node": 11,
+      "parent_node": 1,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "affine15_k1-X-seed19-v02.json.gz",
+      "gain_node": 27,
+      "parent_node": 25,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed11-v02.json.gz",
+      "gain_node": 11,
+      "parent_node": 6,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed11-v02.json.gz",
+      "gain_node": 29,
+      "parent_node": 28,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed11-v03_no_protection.json.gz",
+      "gain_node": 27,
+      "parent_node": 16,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed11-v03_signature.json.gz",
+      "gain_node": 19,
+      "parent_node": 15,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed11-v03_signature.json.gz",
+      "gain_node": 23,
+      "parent_node": 13,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed17-v02.json.gz",
+      "gain_node": 7,
+      "parent_node": 2,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed18-v02.json.gz",
+      "gain_node": 12,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed18-v02.json.gz",
+      "gain_node": 19,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed18-v03.json.gz",
+      "gain_node": 31,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed19-mixed.json.gz",
+      "gain_node": 9,
+      "parent_node": 7,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed19-random.json.gz",
+      "gain_node": 9,
+      "parent_node": 2,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed19-v02.json.gz",
+      "gain_node": 7,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed19-v02.json.gz",
+      "gain_node": 19,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed19-v03.json.gz",
+      "gain_node": 8,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-X-seed19-v03.json.gz",
+      "gain_node": 21,
+      "parent_node": 15,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed10-v02.json.gz",
+      "gain_node": 27,
+      "parent_node": 20,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed11-v03_no_coverage.json.gz",
+      "gain_node": 27,
+      "parent_node": 26,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed11-v03_no_coverage.json.gz",
+      "gain_node": 29,
+      "parent_node": 26,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed11-v03_raw.json.gz",
+      "gain_node": 21,
+      "parent_node": 14,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed12-mixed.json.gz",
+      "gain_node": 25,
+      "parent_node": 4,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed12-random.json.gz",
+      "gain_node": 9,
+      "parent_node": 4,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed12-v02.json.gz",
+      "gain_node": 14,
+      "parent_node": 4,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed12-v02.json.gz",
+      "gain_node": 23,
+      "parent_node": 4,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed12-v03.json.gz",
+      "gain_node": 32,
+      "parent_node": 28,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed12-v03_arbitrary.json.gz",
+      "gain_node": 29,
+      "parent_node": 4,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed12-v03_no_coverage.json.gz",
+      "gain_node": 13,
+      "parent_node": 4,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed12-v03_no_coverage.json.gz",
+      "gain_node": 27,
+      "parent_node": 26,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed12-v03_no_protection.json.gz",
+      "gain_node": 28,
+      "parent_node": 4,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed12-v03_signature.json.gz",
+      "gain_node": 10,
+      "parent_node": 4,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed12-v03_signature.json.gz",
+      "gain_node": 18,
+      "parent_node": 4,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed13-v03.json.gz",
+      "gain_node": 23,
+      "parent_node": 21,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed14-v02.json.gz",
+      "gain_node": 13,
+      "parent_node": 6,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed14-v02.json.gz",
+      "gain_node": 28,
+      "parent_node": 26,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed16-mixed.json.gz",
+      "gain_node": 32,
+      "parent_node": 29,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed17-v02.json.gz",
+      "gain_node": 7,
+      "parent_node": 6,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed17-v02.json.gz",
+      "gain_node": 18,
+      "parent_node": 15,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed19-v02.json.gz",
+      "gain_node": 7,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed19-v02.json.gz",
+      "gain_node": 21,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "simplex15_k7-Z-seed19-v03.json.gz",
+      "gain_node": 25,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed10-mixed.json.gz",
+      "gain_node": 24,
+      "parent_node": 14,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed10-random.json.gz",
+      "gain_node": 10,
+      "parent_node": 9,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed10-random.json.gz",
+      "gain_node": 14,
+      "parent_node": 9,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed10-v02.json.gz",
+      "gain_node": 7,
+      "parent_node": 6,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed10-v03_no_coverage.json.gz",
+      "gain_node": 7,
+      "parent_node": 2,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed10-v03_no_coverage.json.gz",
+      "gain_node": 9,
+      "parent_node": 6,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed10-v03_no_coverage.json.gz",
+      "gain_node": 11,
+      "parent_node": 10,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed10-v03_no_coverage.json.gz",
+      "gain_node": 14,
+      "parent_node": 13,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed10-v03_no_coverage.json.gz",
+      "gain_node": 21,
+      "parent_node": 20,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed10-v03_no_coverage.json.gz",
+      "gain_node": 23,
+      "parent_node": 20,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed10-v03_raw.json.gz",
+      "gain_node": 31,
+      "parent_node": 29,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed11-v02.json.gz",
+      "gain_node": 13,
+      "parent_node": 5,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed11-v03_no_coverage.json.gz",
+      "gain_node": 9,
+      "parent_node": 7,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed11-v03_no_coverage.json.gz",
+      "gain_node": 11,
+      "parent_node": 7,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed11-v03_no_coverage.json.gz",
+      "gain_node": 12,
+      "parent_node": 5,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed11-v03_no_coverage.json.gz",
+      "gain_node": 17,
+      "parent_node": 16,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed11-v03_no_coverage.json.gz",
+      "gain_node": 19,
+      "parent_node": 16,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed11-v03_no_coverage.json.gz",
+      "gain_node": 24,
+      "parent_node": 23,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed11-v03_no_coverage.json.gz",
+      "gain_node": 27,
+      "parent_node": 26,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed12-mixed.json.gz",
+      "gain_node": 28,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed12-v02.json.gz",
+      "gain_node": 10,
+      "parent_node": 6,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed12-v03_no_coverage.json.gz",
+      "gain_node": 9,
+      "parent_node": 8,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed12-v03_no_coverage.json.gz",
+      "gain_node": 19,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed12-v03_no_coverage.json.gz",
+      "gain_node": 22,
+      "parent_node": 6,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed12-v03_no_coverage.json.gz",
+      "gain_node": 25,
+      "parent_node": 24,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed12-v03_no_coverage.json.gz",
+      "gain_node": 27,
+      "parent_node": 24,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed12-v03_raw.json.gz",
+      "gain_node": 31,
+      "parent_node": 28,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed14-mixed.json.gz",
+      "gain_node": 26,
+      "parent_node": 4,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed14-v03.json.gz",
+      "gain_node": 22,
+      "parent_node": 4,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed15-mixed.json.gz",
+      "gain_node": 25,
+      "parent_node": 21,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed16-v03.json.gz",
+      "gain_node": 31,
+      "parent_node": 28,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed18-v02.json.gz",
+      "gain_node": 7,
+      "parent_node": 6,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed18-v02.json.gz",
+      "gain_node": 19,
+      "parent_node": 18,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed19-mixed.json.gz",
+      "gain_node": 31,
+      "parent_node": 19,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed19-v02.json.gz",
+      "gain_node": 11,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane14_sum-Z-seed19-v02.json.gz",
+      "gain_node": 24,
+      "parent_node": 21,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed10-mixed.json.gz",
+      "gain_node": 11,
+      "parent_node": 8,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed10-random.json.gz",
+      "gain_node": 22,
+      "parent_node": 17,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed10-v03.json.gz",
+      "gain_node": 12,
+      "parent_node": 9,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed10-v03_arbitrary.json.gz",
+      "gain_node": 11,
+      "parent_node": 8,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed10-v03_no_protection.json.gz",
+      "gain_node": 22,
+      "parent_node": 9,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed10-v03_raw.json.gz",
+      "gain_node": 12,
+      "parent_node": 9,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed11-mixed.json.gz",
+      "gain_node": 22,
+      "parent_node": 17,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed11-random.json.gz",
+      "gain_node": 13,
+      "parent_node": 10,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed11-v03.json.gz",
+      "gain_node": 24,
+      "parent_node": 11,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed11-v03_arbitrary.json.gz",
+      "gain_node": 32,
+      "parent_node": 16,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed12-v03.json.gz",
+      "gain_node": 22,
+      "parent_node": 18,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed12-v03_arbitrary.json.gz",
+      "gain_node": 23,
+      "parent_node": 20,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed12-v03_no_coverage.json.gz",
+      "gain_node": 9,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed12-v03_raw.json.gz",
+      "gain_node": 22,
+      "parent_node": 18,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed13-v02.json.gz",
+      "gain_node": 8,
+      "parent_node": 2,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed16-v03.json.gz",
+      "gain_node": 31,
+      "parent_node": 2,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed18-v03.json.gz",
+      "gain_node": 10,
+      "parent_node": 8,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7-X-seed18-v03.json.gz",
+      "gain_node": 26,
+      "parent_node": 24,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7_mixed-X-seed10-random.json.gz",
+      "gain_node": 22,
+      "parent_node": 15,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7_mixed-X-seed10-v03.json.gz",
+      "gain_node": 32,
+      "parent_node": 30,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7_mixed-X-seed10-v03_raw.json.gz",
+      "gain_node": 25,
+      "parent_node": 21,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7_mixed-X-seed11-v03_no_coverage.json.gz",
+      "gain_node": 18,
+      "parent_node": 14,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7_mixed-X-seed11-v03_raw.json.gz",
+      "gain_node": 26,
+      "parent_node": 23,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7_mixed-X-seed12-v03_no_coverage.json.gz",
+      "gain_node": 30,
+      "parent_node": 3,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7_mixed-X-seed12-v03_no_protection.json.gz",
+      "gain_node": 23,
+      "parent_node": 8,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7_mixed-X-seed13-v02.json.gz",
+      "gain_node": 8,
+      "parent_node": 2,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7_mixed-X-seed14-mixed.json.gz",
+      "gain_node": 29,
+      "parent_node": 26,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7_mixed-X-seed14-v03.json.gz",
+      "gain_node": 17,
+      "parent_node": 14,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7_mixed-X-seed18-mixed.json.gz",
+      "gain_node": 19,
+      "parent_node": 4,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7_mixed-X-seed18-mixed.json.gz",
+      "gain_node": 29,
+      "parent_node": 22,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7_mixed-X-seed18-mixed.json.gz",
+      "gain_node": 30,
+      "parent_node": 17,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": null,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    },
+    {
+      "file": "steane7_mixed-X-seed18-v03.json.gz",
+      "gain_node": 30,
+      "parent_node": 27,
+      "class_eliminated_by_global_exclusion": true,
+      "source_transport_status": true,
+      "reason": "independent exclusion eliminates every valid lower-tier fault set in the new physical circuit; semantic transport recorded separately"
+    }
+  ],
+  "algorithm_unchanged": true,
+  "previous_results_unchanged": true,
+  "held_out_runs": 0
+}

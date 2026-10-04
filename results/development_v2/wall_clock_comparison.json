@@ -1,0 +1,6122 @@
+[
+  {
+    "task": "affine15_k1-X",
+    "variant": "random",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "affine15_k1-X",
+    "variant": "resource",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "affine15_k1-X",
+    "variant": "v02",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "affine15_k1-X",
+    "variant": "v03",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "affine15_k1-X",
+    "variant": "mixed",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "affine15_k1-X",
+    "variant": "random",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 20,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "affine15_k1-X",
+    "variant": "resource",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 19,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 20,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 19,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "affine15_k1-X",
+    "variant": "v02",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "affine15_k1-X",
+    "variant": "v03",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "affine15_k1-X",
+    "variant": "mixed",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "affine15_k1-X",
+    "variant": "random",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 29,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 27,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 31,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 28,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "affine15_k1-X",
+    "variant": "resource",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "affine15_k1-X",
+    "variant": "v02",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 29,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 31,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "affine15_k1-X",
+    "variant": "v03",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 20,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 23,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 25,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 25,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 28,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 27,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "affine15_k1-X",
+    "variant": "mixed",
+    "random_median_seconds": 9.96964135003509,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 21,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 27,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 27,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 23,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "random",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "resource",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 7,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "v02",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 7,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 11,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 7,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 19,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "v03",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "mixed",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "random",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 14,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 11,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 12,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 19,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "resource",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 21,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 19,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 19,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 25,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 21,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 21,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "v02",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 13,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 11,
+        "slots_completed": 16,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 12,
+        "slots_completed": 11,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 14,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 19,
+        "slots_completed": 14,
+        "target": true,
+        "best_dc": 3
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "v03",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 12,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "mixed",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 12,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "random",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 29,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 11,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 25,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 31,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "resource",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 32,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "v02",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 29,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 11,
+        "slots_completed": 29,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 12,
+        "slots_completed": 23,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 27,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 28,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 29,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 19,
+        "slots_completed": 27,
+        "target": true,
+        "best_dc": 3
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "v03",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 24,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 25,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 29,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 15,
+        "slots_completed": 27,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 29,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 27,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 25,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane14_sum-Z",
+    "variant": "mixed",
+    "random_median_seconds": 6.715804799983744,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 27,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 11,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 23,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 30,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 15,
+        "slots_completed": 25,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 27,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "random",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "resource",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "v02",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "v03",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "mixed",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "random",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 21,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 15,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 12,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "resource",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 19,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 29,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 20,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 20,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 21,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "v02",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 10,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 14,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "v03",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 12,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 11,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 10,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 19,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "mixed",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 12,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 11,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "random",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 11,
+        "slots_completed": 23,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 12,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "resource",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "v02",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 31,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 22,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 14,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 28,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 25,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 31,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "v03",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 23,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 11,
+        "slots_completed": 20,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 24,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 13,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 20,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 20,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 19,
+        "slots_completed": 27,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7-X",
+    "variant": "mixed",
+    "random_median_seconds": 2.1698825999628752,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 25,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 11,
+        "slots_completed": 21,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 23,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 20,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 27,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 19,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 25,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "random",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "resource",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "v02",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 5,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "v03",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 5,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "mixed",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "random",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 13,
+        "target": true,
+        "best_dc": 3
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "resource",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 19,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 29,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 23,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 23,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "v02",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "v03",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "mixed",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "random",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 31,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 28,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 28,
+        "target": true,
+        "best_dc": 3
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "resource",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "v02",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 27,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 28,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 28,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 29,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 27,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 29,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 29,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "v03",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 23,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 23,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 21,
+        "target": true,
+        "best_dc": 3
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-X",
+    "variant": "mixed",
+    "random_median_seconds": 5.83848199993372,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 25,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 19,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 23,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 21,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "random",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "resource",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "v02",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "v03",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "mixed",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 5,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "random",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "resource",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 31,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 28,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 19,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 19,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 20,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 21,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 20,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "v02",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 10,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 14,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "v03",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "mixed",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "random",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 11,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 31,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 25,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "resource",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "v02",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 31,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 24,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 14,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 29,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 28,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 31,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "v03",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 25,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 20,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 20,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 22,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 15,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 25,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "steane7_mixed-X",
+    "variant": "mixed",
+    "random_median_seconds": 2.2854036000208,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 29,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 21,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 23,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 20,
+        "target": true,
+        "best_dc": 3
+      },
+      {
+        "seed": 19,
+        "slots_completed": 25,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "random",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "resource",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 8,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "v02",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "v03",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "mixed",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 0.25,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 6,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 7,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "random",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 16,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "resource",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 23,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 19,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 25,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 17,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 23,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "v02",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 15,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 14,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "v03",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 9,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "mixed",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 0.5,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 10,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 12,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 13,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 11,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "random",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 31,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 31,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "resource",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "v02",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 31,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 28,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 29,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 32,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 29,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 30,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "v03",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 23,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 19,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 21,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 18,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 20,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 21,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 20,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "variant": "mixed",
+    "random_median_seconds": 5.927483349922113,
+    "fraction": 1,
+    "outcomes": [
+      {
+        "seed": 10,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 11,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 12,
+        "slots_completed": 23,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 13,
+        "slots_completed": 23,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 14,
+        "slots_completed": 19,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 15,
+        "slots_completed": 21,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 16,
+        "slots_completed": 26,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 17,
+        "slots_completed": 24,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 18,
+        "slots_completed": 21,
+        "target": false,
+        "best_dc": 2
+      },
+      {
+        "seed": 19,
+        "slots_completed": 22,
+        "target": false,
+        "best_dc": 2
+      }
+    ]
+  }
+]

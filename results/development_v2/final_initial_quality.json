@@ -1,0 +1,3242 @@
+[
+  {
+    "task": "affine15_k1-X",
+    "seed": 10,
+    "node": 1,
+    "architecture_id": "8bcdff16f43d9e45453d",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 10,
+    "node": 2,
+    "architecture_id": "b02d0342ea051b8b6238",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 10,
+    "node": 3,
+    "architecture_id": "819abedf4f57cc4e95b2",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 10,
+    "node": 4,
+    "architecture_id": "804c998a161f6a29031e",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 10,
+    "node": 5,
+    "architecture_id": "e761bfc4a18040f857c6",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 10,
+    "node": 6,
+    "architecture_id": "0506df82313ddf9b235a",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 11,
+    "node": 1,
+    "architecture_id": "8bcdff16f43d9e45453d",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 11,
+    "node": 2,
+    "architecture_id": "695a97851c7c4283a9f3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 11,
+    "node": 3,
+    "architecture_id": "c8a960476bb210758c3a",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 11,
+    "node": 4,
+    "architecture_id": "c6e2ebcc090075ed46e6",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 11,
+    "node": 5,
+    "architecture_id": "02f3b4a88652f883a986",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 11,
+    "node": 6,
+    "architecture_id": "99301f2040e62d3a3879",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 12,
+    "node": 1,
+    "architecture_id": "8bcdff16f43d9e45453d",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 12,
+    "node": 2,
+    "architecture_id": "81b069eb460fc999d5a4",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 12,
+    "node": 3,
+    "architecture_id": "44ed2e3a3a8725addc75",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 12,
+    "node": 4,
+    "architecture_id": "fd58261d85d732b798b5",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 12,
+    "node": 5,
+    "architecture_id": "71c35b4f566a6773442a",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 12,
+    "node": 6,
+    "architecture_id": "f4f5e369bbd2f8123a3c",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 13,
+    "node": 1,
+    "architecture_id": "8bcdff16f43d9e45453d",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 13,
+    "node": 2,
+    "architecture_id": "cbc6747dab990be647b9",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 13,
+    "node": 3,
+    "architecture_id": "93cf1ec43e69d48e48ad",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 13,
+    "node": 4,
+    "architecture_id": "ce0a30470359a614eefb",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 13,
+    "node": 5,
+    "architecture_id": "877c4a9a071033400467",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 13,
+    "node": 6,
+    "architecture_id": "820aa9b7c4146703ba0f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 14,
+    "node": 1,
+    "architecture_id": "8bcdff16f43d9e45453d",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 14,
+    "node": 2,
+    "architecture_id": "22ceaedc5ff5f77f971d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 14,
+    "node": 3,
+    "architecture_id": "f7e3ad77a7cd6c05fda8",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 14,
+    "node": 4,
+    "architecture_id": "babed779f13e2599bbd5",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 14,
+    "node": 5,
+    "architecture_id": "acc076c02b3d611ff228",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 14,
+    "node": 6,
+    "architecture_id": "b0e3a56a5c42ea4d4a22",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 15,
+    "node": 1,
+    "architecture_id": "8bcdff16f43d9e45453d",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 15,
+    "node": 2,
+    "architecture_id": "2c8c8f7789c4e3040330",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 15,
+    "node": 3,
+    "architecture_id": "014d711f88bd94b83a0a",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 15,
+    "node": 4,
+    "architecture_id": "9f406916b8412e754e61",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 15,
+    "node": 5,
+    "architecture_id": "5440f61dc42ee9ed3f9e",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 15,
+    "node": 6,
+    "architecture_id": "99244f0fd6c1940214ad",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 16,
+    "node": 1,
+    "architecture_id": "8bcdff16f43d9e45453d",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 16,
+    "node": 2,
+    "architecture_id": "23d42b861cc2af337729",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 16,
+    "node": 3,
+    "architecture_id": "0ef23c43d7a8b008436d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 16,
+    "node": 4,
+    "architecture_id": "416127acda36bac20e18",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 16,
+    "node": 5,
+    "architecture_id": "f1c5f3d292d113c15bf9",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 16,
+    "node": 6,
+    "architecture_id": "916acf915e465e4f4056",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 17,
+    "node": 1,
+    "architecture_id": "8bcdff16f43d9e45453d",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 17,
+    "node": 2,
+    "architecture_id": "f15187284dcf73b6664b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 17,
+    "node": 3,
+    "architecture_id": "52b2eb7cd95d16a8c561",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 17,
+    "node": 4,
+    "architecture_id": "3fa5969791e2e09f6919",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 17,
+    "node": 5,
+    "architecture_id": "fa940d9088491b315daf",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 17,
+    "node": 6,
+    "architecture_id": "ce602d9d9cbaf1ef2d44",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 18,
+    "node": 1,
+    "architecture_id": "8bcdff16f43d9e45453d",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 18,
+    "node": 2,
+    "architecture_id": "a229ec07bed315e342ee",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 18,
+    "node": 3,
+    "architecture_id": "51811d0bbb6e5ae57d93",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 18,
+    "node": 4,
+    "architecture_id": "2a1c896cb7b6bd63083c",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 18,
+    "node": 5,
+    "architecture_id": "f877d0a0d18091ddafb6",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 18,
+    "node": 6,
+    "architecture_id": "a0122c684fa753125168",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 19,
+    "node": 1,
+    "architecture_id": "8bcdff16f43d9e45453d",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 19,
+    "node": 2,
+    "architecture_id": "7a75b9015f91b347c0a3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 19,
+    "node": 3,
+    "architecture_id": "6d6614d4aac751ea7100",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 19,
+    "node": 4,
+    "architecture_id": "06ef31e04e8221505601",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 19,
+    "node": 5,
+    "architecture_id": "f764eb138965f15a90cc",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 19,
+    "node": 6,
+    "architecture_id": "884523a9c082cc213d6b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 10,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 10,
+    "node": 2,
+    "architecture_id": "9de37de3586b2f8eef63",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 10,
+    "node": 3,
+    "architecture_id": "ea801fa10f051ee82ea2",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 10,
+    "node": 4,
+    "architecture_id": "7c59dbd5c4ab1021c685",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 10,
+    "node": 5,
+    "architecture_id": "08ddbb9c70dfd30d57f1",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 10,
+    "node": 6,
+    "architecture_id": "933a4c558791958a295b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 11,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 11,
+    "node": 2,
+    "architecture_id": "1766700367173d15a62d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 11,
+    "node": 3,
+    "architecture_id": "8c3e0e0cacc7b315094d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 11,
+    "node": 4,
+    "architecture_id": "a08fe60eb688462643fa",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 11,
+    "node": 5,
+    "architecture_id": "3caa24bad43984597427",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 11,
+    "node": 6,
+    "architecture_id": "41a9ae1085fd609c2cc4",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 12,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 12,
+    "node": 2,
+    "architecture_id": "77ec5022616807ffb8f7",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 12,
+    "node": 3,
+    "architecture_id": "f967209afefa53dfc87f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 12,
+    "node": 4,
+    "architecture_id": "51968362ce9713cbee42",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 12,
+    "node": 5,
+    "architecture_id": "a926e85775eb4756f254",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 12,
+    "node": 6,
+    "architecture_id": "f8add1f92c411cedc7da",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 13,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 13,
+    "node": 2,
+    "architecture_id": "9e475ced838ceae63ba3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 13,
+    "node": 3,
+    "architecture_id": "72d9d3240f8c820c1888",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 13,
+    "node": 4,
+    "architecture_id": "8583d7f162e0ec04117d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 13,
+    "node": 5,
+    "architecture_id": "a9066dbad31c112384eb",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 13,
+    "node": 6,
+    "architecture_id": "0d254e066d69782ae564",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 14,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 14,
+    "node": 2,
+    "architecture_id": "26551bb6a198d386278f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 14,
+    "node": 3,
+    "architecture_id": "c37e617f1fa2bf3aa4d0",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 14,
+    "node": 4,
+    "architecture_id": "827306dc3c45be5bee2c",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 14,
+    "node": 5,
+    "architecture_id": "def1b271416c69416d2c",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 14,
+    "node": 6,
+    "architecture_id": "e88265fb3706ada69372",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 15,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 15,
+    "node": 2,
+    "architecture_id": "ab07a1abf8e6c741c651",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 15,
+    "node": 3,
+    "architecture_id": "408283589fb6db7832d1",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 15,
+    "node": 4,
+    "architecture_id": "8876d1cd4c3b8125e034",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 15,
+    "node": 5,
+    "architecture_id": "16c04d21d3c8d0d0bd1f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 15,
+    "node": 6,
+    "architecture_id": "d92b809e412114f70ac0",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 16,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 16,
+    "node": 2,
+    "architecture_id": "bb169f866a372dd11955",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 16,
+    "node": 3,
+    "architecture_id": "d69d869201dcc2793efc",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 16,
+    "node": 4,
+    "architecture_id": "21ce5cb9b4d9526db48b",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 16,
+    "node": 5,
+    "architecture_id": "b771eaa8521bed46a0c1",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 16,
+    "node": 6,
+    "architecture_id": "9e92eb754f774798dc3d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 17,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 17,
+    "node": 2,
+    "architecture_id": "496c72ba856f7a37cb21",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 17,
+    "node": 3,
+    "architecture_id": "7946d6508450d702bab7",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 17,
+    "node": 4,
+    "architecture_id": "ea47eee9a0a92a48005e",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 17,
+    "node": 5,
+    "architecture_id": "277bed1964515dfb7b3f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 17,
+    "node": 6,
+    "architecture_id": "228541edc403bd6f1ea8",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 18,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 18,
+    "node": 2,
+    "architecture_id": "6ef2917becca41306420",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 18,
+    "node": 3,
+    "architecture_id": "805cfe584b51b904d6e0",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 18,
+    "node": 4,
+    "architecture_id": "038749141710329669a5",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 18,
+    "node": 5,
+    "architecture_id": "33313c727660b4a3cd81",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 18,
+    "node": 6,
+    "architecture_id": "7c3c17c2c19b6f8700b1",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 19,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 19,
+    "node": 2,
+    "architecture_id": "041194cc1e6cf5a7ea15",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 19,
+    "node": 3,
+    "architecture_id": "3bdf5fb47a8d7c048ed5",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 19,
+    "node": 4,
+    "architecture_id": "00dae783c495e17876fb",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 19,
+    "node": 5,
+    "architecture_id": "8b8d5dc341f3af7efdf3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 19,
+    "node": 6,
+    "architecture_id": "76e22177f397d2925e60",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 10,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 10,
+    "node": 2,
+    "architecture_id": "9de37de3586b2f8eef63",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 10,
+    "node": 3,
+    "architecture_id": "ea801fa10f051ee82ea2",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 10,
+    "node": 4,
+    "architecture_id": "7c59dbd5c4ab1021c685",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 10,
+    "node": 5,
+    "architecture_id": "08ddbb9c70dfd30d57f1",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 10,
+    "node": 6,
+    "architecture_id": "933a4c558791958a295b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 11,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 11,
+    "node": 2,
+    "architecture_id": "1766700367173d15a62d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 11,
+    "node": 3,
+    "architecture_id": "8c3e0e0cacc7b315094d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 11,
+    "node": 4,
+    "architecture_id": "a08fe60eb688462643fa",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 11,
+    "node": 5,
+    "architecture_id": "3caa24bad43984597427",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 11,
+    "node": 6,
+    "architecture_id": "41a9ae1085fd609c2cc4",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "node": 2,
+    "architecture_id": "77ec5022616807ffb8f7",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "node": 3,
+    "architecture_id": "f967209afefa53dfc87f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "node": 4,
+    "architecture_id": "51968362ce9713cbee42",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "node": 5,
+    "architecture_id": "a926e85775eb4756f254",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "node": 6,
+    "architecture_id": "f8add1f92c411cedc7da",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 13,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 13,
+    "node": 2,
+    "architecture_id": "9e475ced838ceae63ba3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 13,
+    "node": 3,
+    "architecture_id": "72d9d3240f8c820c1888",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 13,
+    "node": 4,
+    "architecture_id": "8583d7f162e0ec04117d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 13,
+    "node": 5,
+    "architecture_id": "a9066dbad31c112384eb",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 13,
+    "node": 6,
+    "architecture_id": "0d254e066d69782ae564",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 14,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 14,
+    "node": 2,
+    "architecture_id": "26551bb6a198d386278f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 14,
+    "node": 3,
+    "architecture_id": "c37e617f1fa2bf3aa4d0",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 14,
+    "node": 4,
+    "architecture_id": "827306dc3c45be5bee2c",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 14,
+    "node": 5,
+    "architecture_id": "def1b271416c69416d2c",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 14,
+    "node": 6,
+    "architecture_id": "e88265fb3706ada69372",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 15,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 15,
+    "node": 2,
+    "architecture_id": "ab07a1abf8e6c741c651",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 15,
+    "node": 3,
+    "architecture_id": "408283589fb6db7832d1",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 15,
+    "node": 4,
+    "architecture_id": "8876d1cd4c3b8125e034",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 15,
+    "node": 5,
+    "architecture_id": "16c04d21d3c8d0d0bd1f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 15,
+    "node": 6,
+    "architecture_id": "d92b809e412114f70ac0",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 16,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 16,
+    "node": 2,
+    "architecture_id": "bb169f866a372dd11955",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 16,
+    "node": 3,
+    "architecture_id": "d69d869201dcc2793efc",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 16,
+    "node": 4,
+    "architecture_id": "21ce5cb9b4d9526db48b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 16,
+    "node": 5,
+    "architecture_id": "b771eaa8521bed46a0c1",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 16,
+    "node": 6,
+    "architecture_id": "9e92eb754f774798dc3d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 17,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 17,
+    "node": 2,
+    "architecture_id": "496c72ba856f7a37cb21",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 17,
+    "node": 3,
+    "architecture_id": "7946d6508450d702bab7",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 17,
+    "node": 4,
+    "architecture_id": "ea47eee9a0a92a48005e",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 17,
+    "node": 5,
+    "architecture_id": "277bed1964515dfb7b3f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 17,
+    "node": 6,
+    "architecture_id": "228541edc403bd6f1ea8",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 18,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 18,
+    "node": 2,
+    "architecture_id": "6ef2917becca41306420",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 18,
+    "node": 3,
+    "architecture_id": "805cfe584b51b904d6e0",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 18,
+    "node": 4,
+    "architecture_id": "038749141710329669a5",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 18,
+    "node": 5,
+    "architecture_id": "33313c727660b4a3cd81",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 18,
+    "node": 6,
+    "architecture_id": "7c3c17c2c19b6f8700b1",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 19,
+    "node": 1,
+    "architecture_id": "5b64850a0076d52527e3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 19,
+    "node": 2,
+    "architecture_id": "041194cc1e6cf5a7ea15",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 19,
+    "node": 3,
+    "architecture_id": "3bdf5fb47a8d7c048ed5",
+    "native_lower_bound": 1,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 19,
+    "node": 4,
+    "architecture_id": "00dae783c495e17876fb",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 19,
+    "node": 5,
+    "architecture_id": "8b8d5dc341f3af7efdf3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 19,
+    "node": 6,
+    "architecture_id": "76e22177f397d2925e60",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "node": 1,
+    "architecture_id": "93348680879a480e7dde",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "node": 2,
+    "architecture_id": "d7d9c655e88f75ef8eca",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "node": 3,
+    "architecture_id": "715e365e2483285cbe4b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "node": 4,
+    "architecture_id": "c39f94da06989fc68b65",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "node": 5,
+    "architecture_id": "cb430d40e2dbf7f80369",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "node": 6,
+    "architecture_id": "3306cc15a420762e773d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 11,
+    "node": 1,
+    "architecture_id": "93348680879a480e7dde",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 11,
+    "node": 2,
+    "architecture_id": "e82e79732cc577fa3bfc",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 11,
+    "node": 3,
+    "architecture_id": "f89824b830abe2498c13",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 11,
+    "node": 4,
+    "architecture_id": "801c04bb5641e86c5ff2",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 11,
+    "node": 5,
+    "architecture_id": "52a3b1c1e0082ca1ae99",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 11,
+    "node": 6,
+    "architecture_id": "c6aa8ad39d1724c86154",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 12,
+    "node": 1,
+    "architecture_id": "93348680879a480e7dde",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 12,
+    "node": 2,
+    "architecture_id": "c234e20fc552cdec0a53",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 12,
+    "node": 3,
+    "architecture_id": "019a5834aee00a993fa7",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 12,
+    "node": 4,
+    "architecture_id": "46faa15808d4b0d73201",
+    "native_lower_bound": 3,
+    "target": true,
+    "method": "native bound independently excluded"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 12,
+    "node": 5,
+    "architecture_id": "c3c7455834e0b8f8d939",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 12,
+    "node": 6,
+    "architecture_id": "a8153a979e37c4fd22b9",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 13,
+    "node": 1,
+    "architecture_id": "93348680879a480e7dde",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 13,
+    "node": 2,
+    "architecture_id": "4029eceddcb575f46139",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 13,
+    "node": 3,
+    "architecture_id": "64c991b6b006050ee9ea",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 13,
+    "node": 4,
+    "architecture_id": "198ebf98851307174c84",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 13,
+    "node": 5,
+    "architecture_id": "e42b44dae8a68163dabb",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 13,
+    "node": 6,
+    "architecture_id": "36917331330859586d6b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 14,
+    "node": 1,
+    "architecture_id": "93348680879a480e7dde",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 14,
+    "node": 2,
+    "architecture_id": "f3df5fe7e8f32e06a06f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 14,
+    "node": 3,
+    "architecture_id": "214b9800d67f3016ac99",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 14,
+    "node": 4,
+    "architecture_id": "76b7ee2f177f43981618",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 14,
+    "node": 5,
+    "architecture_id": "f8c0f0ea93694aadb3f8",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 14,
+    "node": 6,
+    "architecture_id": "9da347c8d57822b7e066",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 15,
+    "node": 1,
+    "architecture_id": "93348680879a480e7dde",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 15,
+    "node": 2,
+    "architecture_id": "7c93568289c4faf9bfd2",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 15,
+    "node": 3,
+    "architecture_id": "72334c2f21811c687fb2",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 15,
+    "node": 4,
+    "architecture_id": "eb8afc89fcd04d6a0a98",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 15,
+    "node": 5,
+    "architecture_id": "dda6ab894707cd454d22",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 15,
+    "node": 6,
+    "architecture_id": "c3ea06c053330c48fb46",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 16,
+    "node": 1,
+    "architecture_id": "93348680879a480e7dde",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 16,
+    "node": 2,
+    "architecture_id": "69af1cbe37fa1c6e5a4b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 16,
+    "node": 3,
+    "architecture_id": "5c4ef834aadf39883f3c",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 16,
+    "node": 4,
+    "architecture_id": "6e59dd3042fd2bb862c1",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 16,
+    "node": 5,
+    "architecture_id": "277f83bd8a70d6971d02",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 16,
+    "node": 6,
+    "architecture_id": "c033e955b9e2e81624da",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 17,
+    "node": 1,
+    "architecture_id": "93348680879a480e7dde",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 17,
+    "node": 2,
+    "architecture_id": "7ee9b30f31a4fb5a5111",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 17,
+    "node": 3,
+    "architecture_id": "6a12defd036c16273eb6",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 17,
+    "node": 4,
+    "architecture_id": "81b64b2169f1f2af9ddf",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 17,
+    "node": 5,
+    "architecture_id": "58228058393607ddd3ec",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 17,
+    "node": 6,
+    "architecture_id": "259c7a1a99df3aba9dc2",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 18,
+    "node": 1,
+    "architecture_id": "93348680879a480e7dde",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 18,
+    "node": 2,
+    "architecture_id": "95e1d7d14ea7d58ea47b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 18,
+    "node": 3,
+    "architecture_id": "5dc9406d98fa5e02574a",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 18,
+    "node": 4,
+    "architecture_id": "cfd214143b262cc01bb3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 18,
+    "node": 5,
+    "architecture_id": "3a85748e57732577178e",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 18,
+    "node": 6,
+    "architecture_id": "6d6490e5e83b74de49e8",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 19,
+    "node": 1,
+    "architecture_id": "93348680879a480e7dde",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 19,
+    "node": 2,
+    "architecture_id": "485df88dca0cffbc7c28",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 19,
+    "node": 3,
+    "architecture_id": "220a071aedbaa1efc17b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 19,
+    "node": 4,
+    "architecture_id": "db06cc11ae886db54dcf",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 19,
+    "node": 5,
+    "architecture_id": "1c48898259cc9ef4f9fc",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 19,
+    "node": 6,
+    "architecture_id": "d282cddcc4cf7b8ea22b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 10,
+    "node": 1,
+    "architecture_id": "aac259b9dff50156609d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 10,
+    "node": 2,
+    "architecture_id": "d82603585c0b3e30aa54",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 10,
+    "node": 3,
+    "architecture_id": "aa32929fc7771a9441e5",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 10,
+    "node": 4,
+    "architecture_id": "3c2c5d993738684f31e0",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 10,
+    "node": 5,
+    "architecture_id": "6eb50bd7dfd386d750ea",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 10,
+    "node": 6,
+    "architecture_id": "4fbddcf5dce16dd80ac9",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 11,
+    "node": 1,
+    "architecture_id": "aac259b9dff50156609d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 11,
+    "node": 2,
+    "architecture_id": "ada6bc5645b00ca78fe6",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 11,
+    "node": 3,
+    "architecture_id": "3feee3526676a0f0e3ea",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 11,
+    "node": 4,
+    "architecture_id": "8b6c758fe74d3f3bd524",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 11,
+    "node": 5,
+    "architecture_id": "e55c0c7f865699fee346",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 11,
+    "node": 6,
+    "architecture_id": "eaa9586f39290ce4ff19",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 12,
+    "node": 1,
+    "architecture_id": "aac259b9dff50156609d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 12,
+    "node": 2,
+    "architecture_id": "d09e8678220ab78fd370",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 12,
+    "node": 3,
+    "architecture_id": "b931e48e28ba9501a964",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 12,
+    "node": 4,
+    "architecture_id": "3f3357b2d6c2fa27654b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 12,
+    "node": 5,
+    "architecture_id": "b1feb900605ce0d250b9",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 12,
+    "node": 6,
+    "architecture_id": "e93c7575e53a1563f810",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 13,
+    "node": 1,
+    "architecture_id": "aac259b9dff50156609d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 13,
+    "node": 2,
+    "architecture_id": "5f835368abda89175c05",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 13,
+    "node": 3,
+    "architecture_id": "a0a3b10e54b8b56bd7b3",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 13,
+    "node": 4,
+    "architecture_id": "e8a5993c8de16f79033f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 13,
+    "node": 5,
+    "architecture_id": "6555e36481a69008a5dd",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 13,
+    "node": 6,
+    "architecture_id": "cd7307b9fa3ad352d9e4",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 14,
+    "node": 1,
+    "architecture_id": "aac259b9dff50156609d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 14,
+    "node": 2,
+    "architecture_id": "704a62c502401228c7ef",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 14,
+    "node": 3,
+    "architecture_id": "d1c3155d639797287768",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 14,
+    "node": 4,
+    "architecture_id": "cf4c60ed32830509b338",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 14,
+    "node": 5,
+    "architecture_id": "2e37179016b2a4977f95",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 14,
+    "node": 6,
+    "architecture_id": "695af15679ae5231ea35",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 15,
+    "node": 1,
+    "architecture_id": "aac259b9dff50156609d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 15,
+    "node": 2,
+    "architecture_id": "f85625a0e47d52c31fc7",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 15,
+    "node": 3,
+    "architecture_id": "9524e33a6a117c3feace",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 15,
+    "node": 4,
+    "architecture_id": "9e82aaab47d1732d5c6f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 15,
+    "node": 5,
+    "architecture_id": "779f0cb832395c647fa2",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 15,
+    "node": 6,
+    "architecture_id": "58babacc986e46c40906",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 16,
+    "node": 1,
+    "architecture_id": "aac259b9dff50156609d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 16,
+    "node": 2,
+    "architecture_id": "31755825d567a46411de",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 16,
+    "node": 3,
+    "architecture_id": "26b750450bd92629572b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 16,
+    "node": 4,
+    "architecture_id": "7878b911b227c1fbc8bf",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 16,
+    "node": 5,
+    "architecture_id": "6756f0d7dc5d373aea1d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 16,
+    "node": 6,
+    "architecture_id": "9ad76dc0772f77531243",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 17,
+    "node": 1,
+    "architecture_id": "aac259b9dff50156609d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 17,
+    "node": 2,
+    "architecture_id": "fefc5b1337421605ad08",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 17,
+    "node": 3,
+    "architecture_id": "1c3eadf783e044be22f1",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 17,
+    "node": 4,
+    "architecture_id": "cb611cd3aa92dd80d708",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 17,
+    "node": 5,
+    "architecture_id": "b98cfd8acede0592635b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 17,
+    "node": 6,
+    "architecture_id": "1bb3fa98136e9e833de0",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 18,
+    "node": 1,
+    "architecture_id": "aac259b9dff50156609d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 18,
+    "node": 2,
+    "architecture_id": "1a87afc85ae0c99214ca",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 18,
+    "node": 3,
+    "architecture_id": "9605ccc63bd1e9946856",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 18,
+    "node": 4,
+    "architecture_id": "10c0c23d07fd9bdec12a",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 18,
+    "node": 5,
+    "architecture_id": "fc81b1c1b00401df4baa",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 18,
+    "node": 6,
+    "architecture_id": "39a2dc48b9ec205bd0f9",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 19,
+    "node": 1,
+    "architecture_id": "aac259b9dff50156609d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 19,
+    "node": 2,
+    "architecture_id": "68a62d1da294135ffa67",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 19,
+    "node": 3,
+    "architecture_id": "209dc59afb36e804596e",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 19,
+    "node": 4,
+    "architecture_id": "61543ac0d29239ba1dbc",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 19,
+    "node": 5,
+    "architecture_id": "5cc162468aefaeef193b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7-X",
+    "seed": 19,
+    "node": 6,
+    "architecture_id": "7af9fe436e888a048340",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 10,
+    "node": 1,
+    "architecture_id": "94eaf3fb70b6d092653b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 10,
+    "node": 2,
+    "architecture_id": "480a731bc40f6a6e10ad",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 10,
+    "node": 3,
+    "architecture_id": "832d8d493eedbcf21343",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 10,
+    "node": 4,
+    "architecture_id": "411c22e697dd1a8f09b4",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 10,
+    "node": 5,
+    "architecture_id": "8332773d7584b2076e71",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 10,
+    "node": 6,
+    "architecture_id": "d150ac983243c453e0a9",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 11,
+    "node": 1,
+    "architecture_id": "94eaf3fb70b6d092653b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 11,
+    "node": 2,
+    "architecture_id": "3b74882181865f704def",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 11,
+    "node": 3,
+    "architecture_id": "cb3fd7ef9fc3a742db58",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 11,
+    "node": 4,
+    "architecture_id": "81c1db97f827f1c6b16b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 11,
+    "node": 5,
+    "architecture_id": "aa297de1624e27c428e9",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 11,
+    "node": 6,
+    "architecture_id": "e146bca7338e6714a59a",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 12,
+    "node": 1,
+    "architecture_id": "94eaf3fb70b6d092653b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 12,
+    "node": 2,
+    "architecture_id": "1d4427ea4e6eb796bbb1",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 12,
+    "node": 3,
+    "architecture_id": "4a20d6472fda56b7e18a",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 12,
+    "node": 4,
+    "architecture_id": "78cd92b49c29a234526f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 12,
+    "node": 5,
+    "architecture_id": "8fc3c959f1a52779cd02",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 12,
+    "node": 6,
+    "architecture_id": "0b44dea395de62475a0f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 13,
+    "node": 1,
+    "architecture_id": "94eaf3fb70b6d092653b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 13,
+    "node": 2,
+    "architecture_id": "4c19089df513e386494c",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 13,
+    "node": 3,
+    "architecture_id": "d16b1c45e2b77b4281f8",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 13,
+    "node": 4,
+    "architecture_id": "c18985450afbeffbec95",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 13,
+    "node": 5,
+    "architecture_id": "822bea15a4ec409478f1",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 13,
+    "node": 6,
+    "architecture_id": "f06311f83fcc35ba28ba",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 14,
+    "node": 1,
+    "architecture_id": "94eaf3fb70b6d092653b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 14,
+    "node": 2,
+    "architecture_id": "d80dfc8c82c4ab94edc6",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 14,
+    "node": 3,
+    "architecture_id": "a73fc002f38441f4b9f8",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 14,
+    "node": 4,
+    "architecture_id": "3fc652276ea0222e1746",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 14,
+    "node": 5,
+    "architecture_id": "7adc329aae9f7de796b4",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 14,
+    "node": 6,
+    "architecture_id": "2c91835bb4047dea47bf",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 15,
+    "node": 1,
+    "architecture_id": "94eaf3fb70b6d092653b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 15,
+    "node": 2,
+    "architecture_id": "1a1d15ce6cb96aebae05",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 15,
+    "node": 3,
+    "architecture_id": "21808cf83cc69fb2f2fc",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 15,
+    "node": 4,
+    "architecture_id": "11dbcae94ee5dd757b54",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 15,
+    "node": 5,
+    "architecture_id": "216153a2057bc3f0e86d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 15,
+    "node": 6,
+    "architecture_id": "a35e0bc1669690613944",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 16,
+    "node": 1,
+    "architecture_id": "94eaf3fb70b6d092653b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 16,
+    "node": 2,
+    "architecture_id": "25f0e853bb644a16bac9",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 16,
+    "node": 3,
+    "architecture_id": "f3d91de882d7fe6db6bd",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 16,
+    "node": 4,
+    "architecture_id": "153f723ddc3507ad5095",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 16,
+    "node": 5,
+    "architecture_id": "930f137870c38c001f04",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 16,
+    "node": 6,
+    "architecture_id": "3dac87ecb8d7096f971f",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 17,
+    "node": 1,
+    "architecture_id": "94eaf3fb70b6d092653b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 17,
+    "node": 2,
+    "architecture_id": "be1cad3eae4392b32c88",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 17,
+    "node": 3,
+    "architecture_id": "59feb150a02d91a5a4ea",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 17,
+    "node": 4,
+    "architecture_id": "95163783c993a6d981ba",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 17,
+    "node": 5,
+    "architecture_id": "54d3313c0a760154f35c",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 17,
+    "node": 6,
+    "architecture_id": "7fa7b187c1102ceea308",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 18,
+    "node": 1,
+    "architecture_id": "94eaf3fb70b6d092653b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 18,
+    "node": 2,
+    "architecture_id": "cd7f33667ac2b031be8d",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 18,
+    "node": 3,
+    "architecture_id": "fb6716f4b0b3b88b4a79",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 18,
+    "node": 4,
+    "architecture_id": "491a391582c03d3ed86b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 18,
+    "node": 5,
+    "architecture_id": "0c36f09d55d74ada2d77",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 18,
+    "node": 6,
+    "architecture_id": "6b35d3d9e05f1a226073",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 19,
+    "node": 1,
+    "architecture_id": "94eaf3fb70b6d092653b",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 19,
+    "node": 2,
+    "architecture_id": "bbcf98c8a4a9a20c6a56",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 19,
+    "node": 3,
+    "architecture_id": "c21f94a93bc63a153b86",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 19,
+    "node": 4,
+    "architecture_id": "a755147d54104f749959",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 19,
+    "node": 5,
+    "architecture_id": "f16a4333e174ad5ce964",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 19,
+    "node": 6,
+    "architecture_id": "a9acd83d8006cda26ddf",
+    "native_lower_bound": 2,
+    "target": false,
+    "method": "independently replayed below-target witness"
+  }
+]

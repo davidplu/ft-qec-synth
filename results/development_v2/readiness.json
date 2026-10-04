@@ -1,0 +1,32 @@
+{
+  "status": "NOT_READY_FOR_HELD_OUT",
+  "advantage_passed": false,
+  "runtime_gate_passed": true,
+  "tests": {
+    "tests_run": 99,
+    "passed": 99,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true,
+    "pytest_exit_code": 0,
+    "stage": "final completed comparison, report and archive harness",
+    "seconds": 14.265
+  },
+  "reasons": [
+    "Frozen reproducible advantage criterion failed."
+  ],
+  "held_out_runs": 0,
+  "algorithm_unchanged": true,
+  "benchmark_manifest_frozen": true,
+  "limitation_categories": [
+    "ALGORITHM_LIMITATION",
+    "BENCHMARK_LIMITATION",
+    "COMPUTE_LIMITATION",
+    "FAULT_MODEL_LIMITATION"
+  ],
+  "category_explanation": "Reachable tasks separate search failure from impossible targets; family diversity and generator controls limit generality, work caps can suppress the class gradient, and fixed product readout rejects genuinely non-CSS candidates.",
+  "diagnostic_censored_primary_target_records": 0,
+  "dominant_limitation": "ALGORITHM_LIMITATION (no established general advantage at 32 slots) combined with BENCHMARK_LIMITATION (few related parents and limited seed/family power)",
+  "next_experiment": "A prospectively fixed matched evaluation-budget staircase on the same development tasks and seeds, keeping search operators, targets and certification caps fixed, to distinguish budget insufficiency from persistent guidance failure"
+}

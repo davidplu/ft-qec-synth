@@ -65,3 +65,20 @@ Selection limitation: only six tasks, below the preferred eight to fifteen, surv
 Independent initial calibration audited 180 initial architectures and found 31 hidden tier-three initial architectures in three large-code tasks. Those are deferred under the original target rule, so native certificate censoring is not mistaken for architecture headroom. The pre-audit screen is retained. Original and additional pilots, including role-based reachability checks and all failures, are saved separately; no pilot configuration is passed to the final search.
 
 Every admitted task has a native-engine target lower bound of three on a saved generic pilot architecture and independent exhaustive exclusion through weight two. Every calibration population remains below the target even after independent resolution. The final manifest was selected without any V0.3 strategy result.
+
+## Reproduce the frozen comparison
+
+Use the repository's installed Python environment. From the repository root:
+
+```text
+python experiments/compare_development_v2.py run
+python experiments/compare_development_v2.py audit
+python experiments/verify_development_v2_archive.py
+python experiments/report_development_v2.py
+```
+
+The first command resumes from existing lossless raw files and checks protocol hashes, matched initial populations and fixed evaluation-slot counts. Remove or relocate the new comparison raw directory only when intentionally reproducing the entire experiment. Do not rerun pool construction, calibration, pilots or manifest selection to interpret the frozen comparison. Those stages have their own preserved pre-comparison evidence.
+
+The audit independently replays physical witnesses and spectrum representatives, verifies nontrivial exclusions and resolves censored initial populations without feeding any result back into search. Primary endpoints use native frozen-engine bounds. Independent certificates and population diagnostics remain separately labeled. The results report contains all twenty requested answers; machine-readable paired tests, wall-clock checkpoints, ancestry, ablations, operator statistics and readiness are under `results/development_v2`.
+
+Archive verification checks every raw hash, exact configuration, code input and matched population. Freeze checks are byte-level: retain the original line endings rather than regenerate hash records after a converted checkout. The delivery ZIP preserves the worktree bytes and excludes local environments, caches and Git internals.

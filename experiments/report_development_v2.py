@@ -152,11 +152,14 @@ def main():
             'mean_check_weight':statistics.mean(weights),'max_check_weight':max(weights),'mean_overlap':statistics.mean(off) if off else 0,
             'mean_degree':statistics.mean(t['metrics']['degrees']),'observed_mechanism_count':len(t.get('failure_mechanisms',{})),
             'mean_initial_classes':statistics.mean(ms) if ms else None,'calibrated_initial_target_frequency':t['initial_target_frequency'],
+            'initial_class_count_complete_architectures':len(ms),
+            'native_final_initial_target_frequency':statistics.mean(alltable[task,seed,'random']['initial_target'] for seed in m['final_seeds']),
+            'physical_final_initial_target_frequency':statistics.mean(independent_initial_target[task,seed] for seed in m['final_seeds']),
             'target_gap':t['d_target']-t['d_initial'],'boundary_headroom':t['boundary']['distance']-t['d_initial'],
             'v03_minus_random_target_success':statistics.mean(alltable[task,seed,'v03']['target']-alltable[task,seed,'random']['target'] for seed in m['final_seeds']),
             'v03_minus_random_distance':statistics.mean(alltable[task,seed,'v03']['distance']-alltable[task,seed,'random']['distance'] for seed in m['final_seeds'])})
     correlations=[]
-    for feature in ('n','k','mean_check_weight','max_check_weight','mean_overlap','mean_degree','observed_mechanism_count','mean_initial_classes','boundary_headroom'):
+    for feature in ('n','k','css','mean_check_weight','max_check_weight','mean_overlap','mean_degree','observed_mechanism_count','mean_initial_classes','target_gap','physical_final_initial_target_frequency','boundary_headroom'):
         pairs=[(c[feature],c['v03_minus_random_target_success']) for c in characteristics if c[feature] is not None]
         xs=[p[0] for p in pairs];ys=[p[1] for p in pairs]
         mx=statistics.mean(xs);my=statistics.mean(ys);den=(sum((x-mx)**2 for x in xs)*sum((y-my)**2 for y in ys))**.5
@@ -172,6 +175,8 @@ def main():
     dump(OUT/'gradient_association.json',gradients)
     comp={v:{'gains':sum(c['variant']==v for c in composition),'compositions':sum(c['variant']==v and c['observed_composition'] for c in composition),
              'guided_compositions':sum(c['variant']==v and c['strict_guided_composition'] for c in composition),
+             'gains_beyond_initial':sum(c['variant']==v and c['beyond_initial_best'] for c in composition),
+             'strict_guided_beyond_initial_compositions':sum(c['variant']==v and c['strict_guided_composition'] and c['beyond_initial_best'] for c in composition),
              'beyond_initial_compositions':sum(c['variant']==v and c['observed_composition'] and c['beyond_initial_best'] for c in composition)} for v in m['primary_variants']}
     dump(OUT/'composition_summary.json',comp)
     checkpoints=[]
@@ -187,11 +192,15 @@ def main():
                 checkpoints.append({'task':task,'variant':v,'random_median_seconds':limit,'fraction':fraction,'outcomes':outcomes})
     dump(OUT/'wall_clock_comparison.json',checkpoints)
     failures=[]
+    censoring=json.loads((OUT/'final_censoring_audit.json').read_text())
     pilots={p['task']:p for p in json.loads((OUT/'pilots.json').read_text())}
     for task in tasks:
         ss=[s for s in primary if s['task']==task]
-        if not any(s['target'] for s in ss):failures.append({'task':task,'classification':'E_SEARCH_FAILED_DESPITE_CERTIFIED_REACHABLE_CANDIDATE',
-            'alternative':'B_INSUFFICIENT_SEARCH_BUDGET remains possible; no impossibility inference','pilot':pilots[task]['status']})
+        if not any(s['target'] for s in ss):
+            hidden=[x for x in censoring['records'] if x['task']==task and x['variant'] in m['primary_variants'] and x['physical_target']]
+            failures.append({'task':task,'classification':'NATIVE_CERTIFICATION_CENSORED_PHYSICAL_TARGET' if hidden else 'E_SEARCH_FAILED_DESPITE_CERTIFIED_REACHABLE_CANDIDATE',
+                'independently_found_censored_target_records':len(hidden),
+                'alternative':'B_INSUFFICIENT_SEARCH_BUDGET remains possible; no impossibility inference','pilot':tasks[task]['reachability']})
     dump(OUT/'all_strategy_failures.json',failures)
     runtime=[]
     for task,t in tasks.items():
@@ -218,6 +227,11 @@ def main():
                                       (['COMPUTE_LIMITATION'] if not practical or any(s['pretarget_incomplete_frontier_records'] for s in primary) else [])+
                                       ['FAULT_MODEL_LIMITATION'],
                'category_explanation':'Reachable tasks separate search failure from impossible targets; family diversity and generator controls limit generality, work caps can suppress the class gradient, and fixed product readout rejects genuinely non-CSS candidates.'}
+    hidden_primary=sum(x['physical_target'] and x['variant'] in m['primary_variants'] for x in censoring['records'])
+    readiness['diagnostic_censored_primary_target_records']=hidden_primary
+    readiness['dominant_limitation']=('ALGORITHM_LIMITATION (no established general advantage at 32 slots) combined with BENCHMARK_LIMITATION (few related parents and limited seed/family power)' if not advantage else 'No failed readiness gate')
+    if hidden_primary:readiness['dominant_limitation']+='; COMPUTE_LIMITATION demonstrably hides some physical target candidates'
+    readiness['next_experiment']=('A prospectively fixed matched certification/spectrum-work-cap staircase on the same development tasks and seeds, keeping evaluation slots and search operators fixed, with independent two-fault audits' if hidden_primary else 'A prospectively fixed matched evaluation-budget staircase on the same development tasks and seeds, keeping search operators, targets and certification caps fixed, to distinguish budget insufficiency from persistent guidance failure')
     dump(OUT/'readiness.json',readiness)
     write_report(m,aggregates,tests,comp,gradients,runtime,readiness,failures,proxies)
     print(json.dumps(readiness,indent=2))
@@ -225,11 +239,18 @@ def main():
 def write_report(m,aggregates,tests,comp,gradients,runtime,readiness,failures,proxies):
     pool=json.loads((OUT/'candidate_pool.json').read_text());screen=json.loads((OUT/'screening.json').read_text());tasks=m['tasks']
     primary_names={t['name'] for t in tasks};families={family(t) for t in tasks};codes={parent_code(t) for t in tasks}
+    totals={v:sum(a['targets'] for a in aggregates if a['variant']==v) for v in m['primary_variants']}
+    denominator=len(tasks)*len(m['final_seeds'])
     lines=['# Development Suite 2 results','',readiness['status'], '',
+        'V0.3 shows partial development success, without passing the frozen general-advantage criterion. Target totals out of '+str(denominator)+': '+str(totals)+'. More observed successes are not automatically statistically validated superiority. The RANDOM/RESOURCE matched-QD tests favor the baselines, not V0.3.','',
+        'Terminal ceilings alone cannot explain the remaining readiness failure: all primary tasks have independently certified reachable headroom, and 59 of 60 final initial populations have no target. However, this related, small finite suite and the fixed 32-slot budget do not support a causal verdict that the guidance method is ineffective in general.','',
+        'The benchmark manifest and complete experiment driver were committed as 6035a868a120f7a23e907d687b9c9f5e08b5e62a before the first primary run. The frozen runtime baseline is '+m['algorithm_commit']+'. Manifest SHA256: '+json.loads((OUT/'protocol.json').read_text())['manifest_sha256']+'.','',
+        'Final comparison: 390 runs and 12,480 evaluation slots, six tasks, ten primary seeds (10–19), five primary arms and five secondary ablations on seeds 10–12. Each run uses 32 slots; unreached targets receive penalized evaluation count 33. The retained initial 64-slot proposal was replaced by the documented compute-only amendment before primary results. Pilots retained 64 slots.','',
         'The V0.3 runtime source and all original results are byte-identical to the pre-design freeze. New inputs are permanently development. No held-out input, architecture or resource count was used. Final seeds differ from calibration and pilots. All raw final runs, initial spectra, rejected candidates and reachability pilots are saved separately.','',
         'Selection follows DEVELOPMENT_V2_SELECTION_PROTOCOL.md and the prospectively committed structural pool extension. Manifest and hypothesis hashes are checked before every run. Candidate distances use explicit construction proofs or exhaustive Pauli checks; terminal ceilings use physical replay and exhaustive classical parity supports. A terminal-only distance is an upper bound on a full circuit, never its lower bound.','',
         'Distance claims concern the frozen chosen-basis logical-index-zero memory experiment. In k>1 tasks, protection of every encoded logical observable is not established. Circuit candidates still extract all supplied checks. Sign-flip tests assume symmetric/exchangeable seed-block differences under the null; they are not a randomized causal trial.','',
-        f'Considered {len(pool)} code instances and {len(screen)} basis tasks. Selected {len(tasks)} tasks from {len(primary_names)} named check sets, {len(codes)} parent instances and {len(families)} underlying construction families. Non-CSS generator controls and direct sums have shared dependence. The suite does not establish generalization to arbitrary non-CSS stabilizer groups.','',
+        f'Considered {len(pool)} code instances and {len(screen)} basis tasks. Selected {len(tasks)} tasks from {len(primary_names)} named check sets, {len(codes)} parent instances and {len(families)} declared construction groups. Both groups are Hamming-related; their labels do not establish independent sampling of code families. Non-CSS generator controls and direct sums have shared dependence. Mixed unsigned presentations preserve the binary stabilizer module and distance but can change the joint eigensector. The suite does not establish generalization to arbitrary non-CSS stabilizer groups.','',
+        'Primary check weights are 4, 6 and 8. The desired weight-3/5, higher-distance, cyclic-in-the-supplied-order and strongly degenerate primary strata are absent. Such coverage cannot be inferred from deferred candidates. Six tasks survived the fixed criteria, below the preferred eight to fifteen. Independent calibration found 31 hidden target architectures and deferred three large-code tasks rather than treating certificate censoring as genuine architecture headroom.','',
         '| Task | n,k | code d | initial | boundary | target | CSS representation |','|---|---|---:|---:|---:|---:|---|']
     for t in tasks:
         d=t['distance_certificate'];lines.append(f"| {t['task']} | {t['n']},{t['k']} | {d.get('construction_distance',d.get('distance',d.get('lower_bound')))} | {t['d_initial']} | {t['boundary']['distance']} | {t['d_target']} | {t['css']} |")
@@ -249,34 +270,43 @@ def write_report(m,aggregates,tests,comp,gradients,runtime,readiness,failures,pr
         if g['expanded_only']:lines.append(f"| {g['variant']} | {g['reduced']} | {g['edges']} | {g['later_gains']} | {g['fraction']} |")
     lines+=['','Runtime/scaling; examined-combination rates refer to bounded certification, not all possible combinations. Capped third-weight searches cannot establish completion. Wall-clock checkpoints include analysis overhead and are saved in wall_clock_comparison.json. Process peaks include earlier runs in the same driver process.','','| Task | n | checks | slots/s | unique arch/s | fault joins/s | peak MiB |','|---|---:|---:|---:|---:|---:|---:|']
     for r in runtime:lines.append(f"| {r['task']} | {r['n']} | {r['check_count']} | {r['evaluation_slots_per_sec']:.3f} | {r['unique_architectures_per_sec']:.3f} | {r['examined_fault_combinations_per_sec']} | {r['peak_working_set_bytes']/1024**2:.1f} |")
-    lines+=['','Unrelated size proxies (runtime only):','','| Proxy | n | slots | seconds | best lower bound | peak MiB |','|---|---:|---:|---:|---:|---:|']
-    for p in proxies:lines.append(f"| {p['name']} | {p['n']} | {p['evaluation_slots']} | {p['seconds']:.2f} | {p['best_dc']} | {p['memory'].get('peak_working_set_bytes',0)/1024**2:.1f} |")
+    lines+=['','Unrelated size proxies (runtime only):','','| Proxy | n | slots | search seconds | audit seconds | native lower bound | independent lower bound | peak MiB |','|---|---:|---:|---:|---:|---:|---:|---:|']
+    for p in proxies:lines.append(f"| {p['name']} | {p['n']} | {p['evaluation_slots']} | {p['native_search_seconds']:.2f} | {p['independent_audit_seconds']:.3f} | {p['best_dc']} | {p['best_dc_independent_lower_bound']} | {p['memory'].get('peak_working_set_bytes',0)/1024**2:.1f} |")
+    scaling=json.loads((OUT/'fault_weight_scaling.json').read_text())
+    lines+=['','Fixed-candidate fault-weight/round scaling (independent of strategy selection):','','| n | rounds | requested weight | native lower/upper | examined combinations | seconds | reason |','|---|---:|---:|---|---:|---:|---|']
+    for x in scaling:
+        b=x['bounds'];lines.append(f"| {x['n']} | {x['rounds']} | {x['requested_fault_weight']} | {b['lower_bound']}/{b['upper_bound']} | {b['combinations_examined']} | {x['total_seconds']:.3f} | {b['reason']} |")
     lines+=['','No projection is a held-out-code measurement. Proxy checks differ in connectivity/degeneracy and exact signatures, so equal n is not equal certification cost. Targets above the frozen tier and rigorous large-distance certification remain compute-limited.','',
             'All-strategy failures: '+json.dumps(failures)+'. Pilot witness existence distinguishes bounded search failure from impossible targets. No failed pilot proves unreachability.','',
             'Exploratory characteristics: task-wise effects and class spectra are saved. Parent-dependent representation controls, basis correlation and small family count prevent credible causal attribution to check weight, overlap, degeneracy or k. Do not promote an ablation after observing its performance.','',
             'Explicit final answers:','']
     boundary=[s for s in screen if s['classification']=='BOUNDARY_LIMITED'];easy=[s for s in screen if s['difficulty']=='TOO_EASY'];unknown=[s for s in screen if s['difficulty']=='UNREACHABLE/UNKNOWN' and s['classification']!='BOUNDARY_LIMITED']
+    apparently_unreachable=[p['task'] for p in json.loads((OUT/'pilots.json').read_text()) if not p['reachable'] and p['task'] not in {t['task'] for t in tasks}]
+    initial=json.loads((OUT/'final_initial_quality.json').read_text())
+    v03_gradient={g['reduced']:g for g in gradients if g['variant']=='v03' and g['expanded_only']}
+    old_gradient=json.loads((ROOT/'results/v0.3/gradient_exposure_analysis.json').read_text())
     answers=[f'{len(pool)} candidate code instances ({len(screen)} basis tasks).',
         f'{len(boundary)} basis tasks of {len({s["name"] for s in boundary})} codes were boundary-limited; this counts at least one rejected basis, not necessarily rejection of the entire code.',
         f'{len(easy)} tasks were too easy/at their terminal ceiling. Certification-tier-limited cases are counted separately, not called easy.',
-        f'{len(unknown)} screening tasks unresolved/deferred; bounded failed pilots remain unknown, never proven unreachable.',
-        ', '.join(t['task'] for t in tasks)+'.',f'{len(families)} underlying families, k values '+str(sorted({t['k'] for t in tasks}))+', code distances '+str(sorted({t['distance_certificate'].get('construction_distance',t['distance_certificate'].get('distance')) for t in tasks}))+'. Shared-parent controls are explicit.',
+        f'{len(apparently_unreachable)} task(s) rejected after all bounded reachability pilots remained unsuccessful: {apparently_unreachable}. {len(unknown)} screening tasks separately unresolved/deferred. No failed pilot proves unreachability.',
+        ', '.join(t['task'] for t in tasks)+'.',f'{len(families)} declared construction groups, {len(codes)} parent instances, k values '+str(sorted({t['k'] for t in tasks}))+', code distances '+str(sorted({t['distance_certificate'].get('construction_distance',t['distance_certificate'].get('distance')) for t in tasks}))+', check weights 4/6/8. Shared-parent controls and Hamming-related construction dependence limit diversity; genuinely non-CSS, higher-distance and cyclic primary strata are absent.',
         'Every admitted task has proved terminal headroom and a certified reachable target above the calibrated initial bound. New-seed initial successes are reported separately.',
-        'Calibration target frequency is zero by the prospectively defined target rule; final initial-target counts appear in the strategy table.',
-        'Passed frozen criterion versus RANDOM: '+str(any(t['passes'] for t in tests if t['baseline']=='random'))+'.',
-        'Passed frozen criterion versus RESOURCE_GUIDED: '+str(any(t['passes'] for t in tests if t['baseline']=='resource'))+'.',
-        'Passed frozen criterion versus V0.2 CEGIS: '+str(any(t['passes'] for t in tests if t['baseline']=='v02'))+'.',
+        f'Calibration target frequency is zero. Final independent initial audit found {sum(x["target"] for x in initial)}/{len(initial)} target architectures; population-level frequencies per task are in the strategy table. No final task was reselected.',
+        'Validated general advantage versus RANDOM: '+str(any(t['passes'] for t in tests if t['baseline']=='random'))+f". Observed targets: {totals['v03']}/{denominator} versus {totals['random']}/{denominator}.",
+        'Validated general advantage versus RESOURCE_GUIDED: '+str(any(t['passes'] for t in tests if t['baseline']=='resource'))+f". Observed targets: {totals['v03']}/{denominator} versus {totals['resource']}/{denominator}.",
+        'Validated general advantage versus V0.2 CEGIS: '+str(any(t['passes'] for t in tests if t['baseline']=='v02'))+f". Observed targets: {totals['v03']}/{denominator} versus {totals['v02']}/{denominator}.",
         'Passing endpoints: '+str([(t['baseline'],t['endpoint']) for t in tests if t['passes']])+'. All descriptive endpoint effects and intervals are above.',
-        'Favorable parent-code, family and seed sets are retained per endpoint in paired_comparisons.json; basis tasks are not independent codes.',
+        'Favorable parent-code/seed counts per endpoint: '+str([(t['baseline'],t['endpoint'],len(t['favorable_parent_codes']),len(t['favorable_seeds'])) for t in tests])+'. Basis tasks and shared-parent controls are not independent codes.',
         'Statistical/practical meaning requires Holm significance, practical margin and spread simultaneously; see passes column. Few independent families constrain generalization.',
-        'The expanded-node gradient fractions above are descriptive and confounded; they do not establish prediction out of sample or causality.',
-        'Observed strict guided compositions: '+str(comp['v03'])+'. They do not prove necessity.',
+        'Expanded V0.3 edges with class reduction versus without: '+str({k:(g['later_gains'],g['edges'],g['fraction']) for k,g in v03_gradient.items()})+'. Prior-suite fractions were '+str({g['reduced']:g['fraction'] for g in old_gradient})+'. Different task selection and evaluation budgets, adaptive expansion and overlapping ancestry prevent a validated prediction-improvement claim.',
+        f"V0.3 has {comp['v03']['strict_guided_beyond_initial_compositions']}/{comp['v03']['gains_beyond_initial']} strict guided compositions among gain events above the best initial tier. All gain-event composition counts: "+str(comp['v03'])+'. These are observed histories, not proof that the intermediate repairs were necessary.',
         'No reliable causal predictor established; all code-characteristic analyses are exploratory and parent-correlated.',
-        'Smaller-size frozen runtime gate passed: '+str(readiness['runtime_gate_passed'])+'. Proxy runtime is empirical; n31/n44 extrapolations are conditional, not certification promises.',
-        'If advantage fails on these reachable tasks, algorithm/search-budget limitations remain; benchmark diversity, certification caps and fixed product readout remain additional limitations.',
+        'Smaller-size frozen runtime gate passed: '+str(readiness['runtime_gate_passed'])+'. Actual unrelated n23/n25/n31/n44 proxy runs and independent two-fault audits were measured; these do not establish held-out distance-7/9 certification cost.',
+        readiness['dominant_limitation']+'. Benchmark diversity and fixed product readout also limit generality; this experiment cannot isolate an uncapped-algorithm effect.',
         readiness['status']+'. '+ ' '.join(readiness['reasons'])]
     lines += [f'{i}. {a}' for i,a in enumerate(answers,1)]
-    lines+=['','One next experiment: independently increase only the matched evaluation budget on this already-frozen suite, keeping targets, operators and certification caps fixed, to distinguish budget insufficiency from persistent guidance failure. This is a proposed future experiment, not a V0.4 implementation.']
+    lines+=['','Post-comparison diagnostic censoring audit: '+str(readiness['diagnostic_censored_primary_target_records'])+' primary record(s) had a physical target hidden by a native below-target cap. Every censored final record was independently resolved through the target exclusion tier. This audit was added while primary runs were in progress, after observing capped records; it never fed back into search or changed any confirmatory endpoint. Full certificates are in final_censoring_audit.json.','',
+        'One next experiment: '+readiness['next_experiment']+'. This is a proposed future experiment; it was not performed here.']
     (ROOT/'docs/DEVELOPMENT_V2_RESULTS.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
 
 if __name__=='__main__':main()

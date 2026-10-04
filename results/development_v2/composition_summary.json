@@ -1,0 +1,42 @@
+{
+  "random": {
+    "gains": 10,
+    "compositions": 0,
+    "guided_compositions": 0,
+    "gains_beyond_initial": 6,
+    "strict_guided_beyond_initial_compositions": 0,
+    "beyond_initial_compositions": 0
+  },
+  "resource": {
+    "gains": 0,
+    "compositions": 0,
+    "guided_compositions": 0,
+    "gains_beyond_initial": 0,
+    "strict_guided_beyond_initial_compositions": 0,
+    "beyond_initial_compositions": 0
+  },
+  "v02": {
+    "gains": 48,
+    "compositions": 1,
+    "guided_compositions": 1,
+    "gains_beyond_initial": 8,
+    "strict_guided_beyond_initial_compositions": 1,
+    "beyond_initial_compositions": 1
+  },
+  "v03": {
+    "gains": 21,
+    "compositions": 11,
+    "guided_compositions": 9,
+    "gains_beyond_initial": 14,
+    "strict_guided_beyond_initial_compositions": 9,
+    "beyond_initial_compositions": 11
+  },
+  "mixed": {
+    "gains": 21,
+    "compositions": 6,
+    "guided_compositions": 5,
+    "gains_beyond_initial": 11,
+    "strict_guided_beyond_initial_compositions": 4,
+    "beyond_initial_compositions": 5
+  }
+}

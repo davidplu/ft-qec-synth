@@ -1,0 +1,5548 @@
+[
+  {
+    "task": "affine15_k1-X",
+    "seed": 10,
+    "variant": "v02",
+    "gain_node": 11,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      11
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "49bdad335a1f6a4b115b"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 10,
+    "variant": "v02",
+    "gain_node": 23,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      18,
+      23
+    ],
+    "architecture_ids": [
+      "88b91084c61a6c64dc98",
+      "503f02918ca5e3fc2617"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 10,
+    "variant": "v03_no_coverage",
+    "gain_node": 13,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      13
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "49bdad335a1f6a4b115b"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 10,
+    "variant": "v03_raw",
+    "gain_node": 29,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      23,
+      29
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "2d26b5ddb6a65b7e0cdb"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 10,
+    "variant": "v03_signature",
+    "gain_node": 26,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      24,
+      26
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "1000876663be2835af17"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 11,
+    "variant": "random",
+    "gain_node": 9,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      9
+    ],
+    "architecture_ids": [
+      "c8a960476bb210758c3a",
+      "ebee0433db5a943b4b80"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 581
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 11,
+    "variant": "v02",
+    "gain_node": 11,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      11
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "49bdad335a1f6a4b115b"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 11,
+    "variant": "v02",
+    "gain_node": 20,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      20
+    ],
+    "architecture_ids": [
+      "c8a960476bb210758c3a",
+      "e9a529c7178fcab21c3d"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 413
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 11,
+    "variant": "v02",
+    "gain_node": 32,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      18,
+      32
+    ],
+    "architecture_ids": [
+      "88b91084c61a6c64dc98",
+      "503f02918ca5e3fc2617"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 11,
+    "variant": "v03_arbitrary",
+    "gain_node": 20,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      20
+    ],
+    "architecture_ids": [
+      "c8a960476bb210758c3a",
+      "e34a3e3023fad7a4550f"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": -9,
+      "QD": -243
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 11,
+    "variant": "v03_raw",
+    "gain_node": 11,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      9,
+      11
+    ],
+    "architecture_ids": [
+      "88b91084c61a6c64dc98",
+      "20a077e7c08003d5cd8b"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 11,
+    "variant": "v03_signature",
+    "gain_node": 16,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      10,
+      16
+    ],
+    "architecture_ids": [
+      "f1286e5b349e33e4d261",
+      "070d1ba2b6beae52d7c2"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 3,
+      "QD": 320
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 11,
+    "variant": "v03_signature",
+    "gain_node": 26,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      26
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "1000876663be2835af17"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 12,
+    "variant": "v02",
+    "gain_node": 13,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      13
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "49bdad335a1f6a4b115b"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 12,
+    "variant": "v02",
+    "gain_node": 30,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      28,
+      30
+    ],
+    "architecture_ids": [
+      "88b91084c61a6c64dc98",
+      "503f02918ca5e3fc2617"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 12,
+    "variant": "v03_no_coverage",
+    "gain_node": 13,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      13
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "49bdad335a1f6a4b115b"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 12,
+    "variant": "v03_no_protection",
+    "gain_node": 19,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      13,
+      19
+    ],
+    "architecture_ids": [
+      "88b91084c61a6c64dc98",
+      "1e0cb95afbd6d9721135"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 12,
+    "variant": "v03_signature",
+    "gain_node": 20,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      9,
+      20
+    ],
+    "architecture_ids": [
+      "88b91084c61a6c64dc98",
+      "1e0cb95afbd6d9721135"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 13,
+    "variant": "mixed",
+    "gain_node": 24,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      24
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "2d26b5ddb6a65b7e0cdb"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 13,
+    "variant": "v02",
+    "gain_node": 12,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      12
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "49bdad335a1f6a4b115b"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 13,
+    "variant": "v02",
+    "gain_node": 32,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      29,
+      32
+    ],
+    "architecture_ids": [
+      "88b91084c61a6c64dc98",
+      "503f02918ca5e3fc2617"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 14,
+    "variant": "mixed",
+    "gain_node": 14,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      14
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "1000876663be2835af17"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 14,
+    "variant": "random",
+    "gain_node": 17,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      15,
+      17
+    ],
+    "architecture_ids": [
+      "0ab458f428e9bf183daf",
+      "d03bbc83f19138ec2d84"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 14,
+    "variant": "v02",
+    "gain_node": 10,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      10
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "49bdad335a1f6a4b115b"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 14,
+    "variant": "v02",
+    "gain_node": 20,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      17,
+      20
+    ],
+    "architecture_ids": [
+      "88b91084c61a6c64dc98",
+      "503f02918ca5e3fc2617"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 14,
+    "variant": "v03",
+    "gain_node": 15,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      15
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "1000876663be2835af17"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 15,
+    "variant": "mixed",
+    "gain_node": 21,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      13,
+      21
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "2d26b5ddb6a65b7e0cdb"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 15,
+    "variant": "random",
+    "gain_node": 24,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      22,
+      24
+    ],
+    "architecture_ids": [
+      "7469fe3a5e046fb38538",
+      "89a4493e9f6bcd6ec74b"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 15,
+    "variant": "v02",
+    "gain_node": 14,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      14
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "49bdad335a1f6a4b115b"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 15,
+    "variant": "v03",
+    "gain_node": 19,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      19
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "343b3c3ebb9905668b4e"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 16,
+    "variant": "mixed",
+    "gain_node": 15,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      6,
+      10,
+      15
+    ],
+    "architecture_ids": [
+      "916acf915e465e4f4056",
+      "03cbcd6768759a8542ee",
+      "07d3e8e7c79645346025"
+    ],
+    "M": [
+      7,
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      1,
+      2
+    ],
+    "operators": [
+      "split_suffix_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 2,
+      "D": 0,
+      "QD": 562
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 16,
+    "variant": "mixed",
+    "gain_node": 24,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      6,
+      24
+    ],
+    "architecture_ids": [
+      "916acf915e465e4f4056",
+      "522b26529b33d41d9212"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 16,
+    "variant": "mixed",
+    "gain_node": 28,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      28
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "1000876663be2835af17"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 16,
+    "variant": "v02",
+    "gain_node": 7,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      7
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "49bdad335a1f6a4b115b"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 16,
+    "variant": "v02",
+    "gain_node": 13,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      6,
+      13
+    ],
+    "architecture_ids": [
+      "916acf915e465e4f4056",
+      "f0060bd703e3b5b9df10"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 281
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 16,
+    "variant": "v02",
+    "gain_node": 23,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      6,
+      23
+    ],
+    "architecture_ids": [
+      "916acf915e465e4f4056",
+      "522b26529b33d41d9212"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 16,
+    "variant": "v02",
+    "gain_node": 30,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      21,
+      30
+    ],
+    "architecture_ids": [
+      "88b91084c61a6c64dc98",
+      "503f02918ca5e3fc2617"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 16,
+    "variant": "v03",
+    "gain_node": 10,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      10
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "1000876663be2835af17"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 17,
+    "variant": "v02",
+    "gain_node": 7,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      7
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "49bdad335a1f6a4b115b"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 17,
+    "variant": "v02",
+    "gain_node": 23,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      21,
+      23
+    ],
+    "architecture_ids": [
+      "88b91084c61a6c64dc98",
+      "503f02918ca5e3fc2617"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 17,
+    "variant": "v03",
+    "gain_node": 21,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      21
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "1000876663be2835af17"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 18,
+    "variant": "mixed",
+    "gain_node": 12,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      8,
+      12
+    ],
+    "architecture_ids": [
+      "eb8d6778d7c83ef2d62f",
+      "3574a483fc066439817b"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 18,
+    "variant": "v02",
+    "gain_node": 10,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      4,
+      10
+    ],
+    "architecture_ids": [
+      "2a1c896cb7b6bd63083c",
+      "9aada0afea7087f9aed6"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 158
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 18,
+    "variant": "v02",
+    "gain_node": 13,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      13
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "49bdad335a1f6a4b115b"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 18,
+    "variant": "v02",
+    "gain_node": 25,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      24,
+      25
+    ],
+    "architecture_ids": [
+      "88b91084c61a6c64dc98",
+      "503f02918ca5e3fc2617"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 19,
+    "variant": "v02",
+    "gain_node": 11,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      1,
+      11
+    ],
+    "architecture_ids": [
+      "8bcdff16f43d9e45453d",
+      "49bdad335a1f6a4b115b"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "affine15_k1-X",
+    "seed": 19,
+    "variant": "v02",
+    "gain_node": 27,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      25,
+      27
+    ],
+    "architecture_ids": [
+      "88b91084c61a6c64dc98",
+      "503f02918ca5e3fc2617"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 596
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 11,
+    "variant": "v02",
+    "gain_node": 11,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      6,
+      11
+    ],
+    "architecture_ids": [
+      "41a9ae1085fd609c2cc4",
+      "501c7ed7168b5403c177"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 11,
+    "variant": "v02",
+    "gain_node": 29,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      28,
+      29
+    ],
+    "architecture_ids": [
+      "314a93065c3d94d55597",
+      "79ea7f4475745d7f034e"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 11,
+    "variant": "v03_no_protection",
+    "gain_node": 27,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      16,
+      27
+    ],
+    "architecture_ids": [
+      "41a9ae1085fd609c2cc4",
+      "501c7ed7168b5403c177"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 11,
+    "variant": "v03_signature",
+    "gain_node": 19,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      15,
+      19
+    ],
+    "architecture_ids": [
+      "02f541b11e500b9a2966",
+      "e4fa17198428f777ce47"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "split_temporal_flag_records"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 11,
+    "variant": "v03_signature",
+    "gain_node": 23,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      13,
+      23
+    ],
+    "architecture_ids": [
+      "41a9ae1085fd609c2cc4",
+      "3c63285e5c3fe92a6424"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 17,
+    "variant": "v02",
+    "gain_node": 7,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      2,
+      7
+    ],
+    "architecture_ids": [
+      "496c72ba856f7a37cb21",
+      "6fd230d91f8f2d236bc0"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 188
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 18,
+    "variant": "v02",
+    "gain_node": 12,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      12
+    ],
+    "architecture_ids": [
+      "805cfe584b51b904d6e0",
+      "87908f867d0df88fb084"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 12,
+      "QD": 252
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 18,
+    "variant": "v02",
+    "gain_node": 19,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      19
+    ],
+    "architecture_ids": [
+      "805cfe584b51b904d6e0",
+      "0d800054a2e615e670fd"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 18,
+    "variant": "v03",
+    "gain_node": 31,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      31
+    ],
+    "architecture_ids": [
+      "805cfe584b51b904d6e0",
+      "0d800054a2e615e670fd"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 19,
+    "variant": "mixed",
+    "gain_node": 9,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      7,
+      9
+    ],
+    "architecture_ids": [
+      "bf17ba97c99874c1175e",
+      "0da822fd24919064ee4d"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 19,
+    "variant": "random",
+    "gain_node": 9,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      2,
+      9
+    ],
+    "architecture_ids": [
+      "041194cc1e6cf5a7ea15",
+      "79797193402a750ae93e"
+    ],
+    "M": [
+      101,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 530
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 19,
+    "variant": "v02",
+    "gain_node": 7,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      7
+    ],
+    "architecture_ids": [
+      "3bdf5fb47a8d7c048ed5",
+      "51f402bd7891575e5ef4"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 218
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 19,
+    "variant": "v02",
+    "gain_node": 19,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      19
+    ],
+    "architecture_ids": [
+      "3bdf5fb47a8d7c048ed5",
+      "2c0a67929e15658bf317"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 19,
+    "variant": "v03",
+    "gain_node": 8,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      8
+    ],
+    "architecture_ids": [
+      "3bdf5fb47a8d7c048ed5",
+      "0c1bd0ef88759162b8d7"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "split_suffix_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 218
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-X",
+    "seed": 19,
+    "variant": "v03",
+    "gain_node": 21,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      8,
+      12,
+      15,
+      21
+    ],
+    "architecture_ids": [
+      "0c1bd0ef88759162b8d7",
+      "54c7571fac7bae349ce5",
+      "eb023708c2eb8950fb77",
+      "456ae64182fc7769ec09"
+    ],
+    "M": [
+      296,
+      182,
+      86,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "split_suffix_flag",
+      "split_suffix_flag",
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 18,
+      "QD": 758
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 10,
+    "variant": "v02",
+    "gain_node": 27,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      20,
+      27
+    ],
+    "architecture_ids": [
+      "b8369aab00a2087be384",
+      "11caa19b979a31b59388"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 304
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 11,
+    "variant": "v03_no_coverage",
+    "gain_node": 27,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      5,
+      25,
+      26,
+      27
+    ],
+    "architecture_ids": [
+      "3caa24bad43984597427",
+      "b762b847e92d17758ff4",
+      "568a7e1588ef85e8fe4a",
+      "6d8c6eaf2ea19d7c6431"
+    ],
+    "M": [
+      217,
+      182,
+      94,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 3,
+      "D": 36,
+      "QD": 2127
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 11,
+    "variant": "v03_no_coverage",
+    "gain_node": 29,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      5,
+      25,
+      26,
+      29
+    ],
+    "architecture_ids": [
+      "3caa24bad43984597427",
+      "b762b847e92d17758ff4",
+      "568a7e1588ef85e8fe4a",
+      "18c796e824ca7a707d0d"
+    ],
+    "M": [
+      217,
+      182,
+      94,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag",
+      "split_suffix_flag"
+    ],
+    "resource_delta": {
+      "Q": 3,
+      "D": 36,
+      "QD": 2127
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 11,
+    "variant": "v03_raw",
+    "gain_node": 21,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      14,
+      21
+    ],
+    "architecture_ids": [
+      "5aded06d8ea5ada6ef7d",
+      "a128e6e401bb8ef8d97c"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 532
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "variant": "mixed",
+    "gain_node": 25,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      4,
+      25
+    ],
+    "architecture_ids": [
+      "51968362ce9713cbee42",
+      "26e88d17907fb600eaa8"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "variant": "random",
+    "gain_node": 9,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      4,
+      9
+    ],
+    "architecture_ids": [
+      "51968362ce9713cbee42",
+      "14975a95fd29d63a6bba"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 172
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "variant": "v02",
+    "gain_node": 14,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      4,
+      14
+    ],
+    "architecture_ids": [
+      "51968362ce9713cbee42",
+      "2dc14f5e6ad6749e021e"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 172
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "variant": "v02",
+    "gain_node": 23,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      4,
+      23
+    ],
+    "architecture_ids": [
+      "51968362ce9713cbee42",
+      "49d5c228ff108b88b1bf"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "variant": "v03",
+    "gain_node": 32,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      22,
+      28,
+      32
+    ],
+    "architecture_ids": [
+      "405a741e4124e55522e1",
+      "c546ecc1c5903342ad0f",
+      "eac7528795f4b15551dd"
+    ],
+    "M": [
+      77,
+      30,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "reverse_implicated_order",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 21,
+      "QD": 979
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "variant": "v03_arbitrary",
+    "gain_node": 29,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      4,
+      29
+    ],
+    "architecture_ids": [
+      "51968362ce9713cbee42",
+      "2dc14f5e6ad6749e021e"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 172
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "variant": "v03_no_coverage",
+    "gain_node": 13,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      4,
+      13
+    ],
+    "architecture_ids": [
+      "51968362ce9713cbee42",
+      "2dc14f5e6ad6749e021e"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 172
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "variant": "v03_no_coverage",
+    "gain_node": 27,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      2,
+      24,
+      26,
+      27
+    ],
+    "architecture_ids": [
+      "77ec5022616807ffb8f7",
+      "5b15fcadfd24c1017c25",
+      "93dea58d1221825cb438",
+      "35508f3a46c669c9cb5a"
+    ],
+    "M": [
+      155,
+      102,
+      21,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 3,
+      "D": 36,
+      "QD": 2343
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "variant": "v03_no_protection",
+    "gain_node": 28,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      4,
+      28
+    ],
+    "architecture_ids": [
+      "51968362ce9713cbee42",
+      "27c018e1fc12f9b79f6d"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "split_suffix_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 172
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "variant": "v03_signature",
+    "gain_node": 10,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      4,
+      10
+    ],
+    "architecture_ids": [
+      "51968362ce9713cbee42",
+      "27c018e1fc12f9b79f6d"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "split_suffix_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 172
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 12,
+    "variant": "v03_signature",
+    "gain_node": 18,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      4,
+      18
+    ],
+    "architecture_ids": [
+      "51968362ce9713cbee42",
+      "2dc14f5e6ad6749e021e"
+    ],
+    "M": [
+      7,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 172
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 13,
+    "variant": "v03",
+    "gain_node": 23,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      4,
+      17,
+      21,
+      23
+    ],
+    "architecture_ids": [
+      "8583d7f162e0ec04117d",
+      "efd066904028d911c074",
+      "1d4f03a1adad0b0da299",
+      "2a7b1be561b1e6f30e98"
+    ],
+    "M": [
+      66,
+      60,
+      36,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "reverse_implicated_order",
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 2,
+      "D": 24,
+      "QD": 1562
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 14,
+    "variant": "v02",
+    "gain_node": 13,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      6,
+      13
+    ],
+    "architecture_ids": [
+      "e88265fb3706ada69372",
+      "96d7ba5edd3a5de2ed42"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 12,
+      "QD": 252
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 14,
+    "variant": "v02",
+    "gain_node": 28,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      26,
+      28
+    ],
+    "architecture_ids": [
+      "071efc7f6c1f9c3f7f04",
+      "b08f57a8b89283fa9558"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 12,
+      "QD": 252
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 16,
+    "variant": "mixed",
+    "gain_node": 32,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      2,
+      26,
+      29,
+      32
+    ],
+    "architecture_ids": [
+      "bb169f866a372dd11955",
+      "5a35373af894e688181c",
+      "4c1f250a0e91c829feba",
+      "9454924ed52e9f360d61"
+    ],
+    "M": [
+      110,
+      86,
+      78,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 36,
+      "QD": 648
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 17,
+    "variant": "v02",
+    "gain_node": 7,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      6,
+      7
+    ],
+    "architecture_ids": [
+      "228541edc403bd6f1ea8",
+      "05d07c5daeac1201aadf"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 6,
+      "QD": 138
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 17,
+    "variant": "v02",
+    "gain_node": 18,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      15,
+      18
+    ],
+    "architecture_ids": [
+      "33638ddf99d603229755",
+      "9d94eacab7d520668da4"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 6,
+      "QD": 138
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 19,
+    "variant": "v02",
+    "gain_node": 7,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      7
+    ],
+    "architecture_ids": [
+      "3bdf5fb47a8d7c048ed5",
+      "0e9579a56c57fc0f1190"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 391
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 19,
+    "variant": "v02",
+    "gain_node": 21,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      21
+    ],
+    "architecture_ids": [
+      "3bdf5fb47a8d7c048ed5",
+      "ad164cc7a2d75a21b744"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "seed": 19,
+    "variant": "v03",
+    "gain_node": 25,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      25
+    ],
+    "architecture_ids": [
+      "3bdf5fb47a8d7c048ed5",
+      "051bfc7cbd2b7b69f0de"
+    ],
+    "M": [
+      6,
+      0
+    ],
+    "dc": [
+      1,
+      2
+    ],
+    "operators": [
+      "separate_hook_support"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "variant": "mixed",
+    "gain_node": 24,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      14,
+      24
+    ],
+    "architecture_ids": [
+      "9ca527034420bdb876f8",
+      "0fae51e14ec52e5b0b5a"
+    ],
+    "M": [
+      28,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "variant": "random",
+    "gain_node": 10,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      9,
+      10
+    ],
+    "architecture_ids": [
+      "89047ae2c79e6f6ee050",
+      "f24975f690fc150f2ae8"
+    ],
+    "M": [
+      28,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "variant": "random",
+    "gain_node": 14,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      9,
+      14
+    ],
+    "architecture_ids": [
+      "89047ae2c79e6f6ee050",
+      "ae5dfca08de89f86f90a"
+    ],
+    "M": [
+      28,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "variant": "v02",
+    "gain_node": 7,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      6,
+      7
+    ],
+    "architecture_ids": [
+      "3306cc15a420762e773d",
+      "4aa13a9c55fc11ff8548"
+    ],
+    "M": [
+      28,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "variant": "v03_no_coverage",
+    "gain_node": 7,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      2,
+      7
+    ],
+    "architecture_ids": [
+      "d7d9c655e88f75ef8eca",
+      "f5882a1ddf8238b5a943"
+    ],
+    "M": [
+      14,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 379
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "variant": "v03_no_coverage",
+    "gain_node": 9,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      6,
+      9
+    ],
+    "architecture_ids": [
+      "3306cc15a420762e773d",
+      "4aa13a9c55fc11ff8548"
+    ],
+    "M": [
+      28,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "variant": "v03_no_coverage",
+    "gain_node": 11,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      6,
+      10,
+      11
+    ],
+    "architecture_ids": [
+      "3306cc15a420762e773d",
+      "e87f57bb5e618c513777",
+      "1734de154ce99452a70a"
+    ],
+    "M": [
+      28,
+      25,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "split_prefix_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 9,
+      "QD": 454
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "variant": "v03_no_coverage",
+    "gain_node": 14,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      6,
+      10,
+      13,
+      14
+    ],
+    "architecture_ids": [
+      "3306cc15a420762e773d",
+      "e87f57bb5e618c513777",
+      "d17f9f2fddbc6ff3d414",
+      "5b302fb3e3a3fe335565"
+    ],
+    "M": [
+      28,
+      25,
+      22,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "split_prefix_flag",
+      "split_suffix_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 2,
+      "D": 21,
+      "QD": 1004
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "variant": "v03_no_coverage",
+    "gain_node": 21,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "architecture_ids": [
+      "93348680879a480e7dde",
+      "108b62461c75448c6363",
+      "450c0a3e73c479ef2e1b",
+      "76b95aa684c828b5be8c"
+    ],
+    "M": [
+      200,
+      104,
+      36,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 36,
+      "QD": 865
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "variant": "v03_no_coverage",
+    "gain_node": 23,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      1,
+      19,
+      20,
+      23
+    ],
+    "architecture_ids": [
+      "93348680879a480e7dde",
+      "108b62461c75448c6363",
+      "450c0a3e73c479ef2e1b",
+      "d157bfa8946bacc837ad"
+    ],
+    "M": [
+      200,
+      104,
+      36,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag",
+      "split_suffix_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 36,
+      "QD": 865
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 10,
+    "variant": "v03_raw",
+    "gain_node": 31,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      29,
+      31
+    ],
+    "architecture_ids": [
+      "1a3b33acec6bd37665b4",
+      "10d72cea7591d1915ba1"
+    ],
+    "M": [
+      31,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "split_suffix_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 11,
+    "variant": "v02",
+    "gain_node": 13,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      5,
+      13
+    ],
+    "architecture_ids": [
+      "52a3b1c1e0082ca1ae99",
+      "6a861ddb94843ff82611"
+    ],
+    "M": [
+      44,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 3,
+      "QD": 247
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 11,
+    "variant": "v03_no_coverage",
+    "gain_node": 9,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      3,
+      7,
+      9
+    ],
+    "architecture_ids": [
+      "f89824b830abe2498c13",
+      "b2e0127b4c40a48b3750",
+      "cdc4390e9ea63496ee98"
+    ],
+    "M": [
+      54,
+      32,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 24,
+      "QD": 480
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 11,
+    "variant": "v03_no_coverage",
+    "gain_node": 11,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      3,
+      7,
+      11
+    ],
+    "architecture_ids": [
+      "f89824b830abe2498c13",
+      "b2e0127b4c40a48b3750",
+      "d83522d7e4c9d79ac744"
+    ],
+    "M": [
+      54,
+      32,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "split_suffix_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 24,
+      "QD": 480
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 11,
+    "variant": "v03_no_coverage",
+    "gain_node": 12,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      5,
+      12
+    ],
+    "architecture_ids": [
+      "52a3b1c1e0082ca1ae99",
+      "6a861ddb94843ff82611"
+    ],
+    "M": [
+      44,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 3,
+      "QD": 247
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 11,
+    "variant": "v03_no_coverage",
+    "gain_node": 17,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      4,
+      16,
+      17
+    ],
+    "architecture_ids": [
+      "801c04bb5641e86c5ff2",
+      "d1ed08b06e6b21e89d20",
+      "44c6547a0eaea721b614"
+    ],
+    "M": [
+      84,
+      52,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 322
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 11,
+    "variant": "v03_no_coverage",
+    "gain_node": 19,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      4,
+      16,
+      19
+    ],
+    "architecture_ids": [
+      "801c04bb5641e86c5ff2",
+      "d1ed08b06e6b21e89d20",
+      "4aec25c27a38b11cd6c2"
+    ],
+    "M": [
+      84,
+      52,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "split_suffix_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 322
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 11,
+    "variant": "v03_no_coverage",
+    "gain_node": 24,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      2,
+      23,
+      24
+    ],
+    "architecture_ids": [
+      "e82e79732cc577fa3bfc",
+      "f7ed75cd415c5162af13",
+      "6443f7498c4ea7f11fce"
+    ],
+    "M": [
+      37,
+      17,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 24,
+      "QD": 408
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 11,
+    "variant": "v03_no_coverage",
+    "gain_node": 27,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      2,
+      23,
+      26,
+      27
+    ],
+    "architecture_ids": [
+      "e82e79732cc577fa3bfc",
+      "f7ed75cd415c5162af13",
+      "287780d01b518909ab46",
+      "e3c201928bb68fb9dbab"
+    ],
+    "M": [
+      37,
+      17,
+      14,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "split_suffix_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 36,
+      "QD": 612
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 12,
+    "variant": "mixed",
+    "gain_node": 28,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      28
+    ],
+    "architecture_ids": [
+      "019a5834aee00a993fa7",
+      "2fb1e9cd3e0928d5a3c5"
+    ],
+    "M": [
+      25,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 12,
+    "variant": "v02",
+    "gain_node": 10,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      6,
+      10
+    ],
+    "architecture_ids": [
+      "a8153a979e37c4fd22b9",
+      "b134800fe9de90537b7f"
+    ],
+    "M": [
+      24,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 439
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 12,
+    "variant": "v03_no_coverage",
+    "gain_node": 9,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      5,
+      7,
+      8,
+      9
+    ],
+    "architecture_ids": [
+      "c3c7455834e0b8f8d939",
+      "f122ba6ac8f213d1d780",
+      "18c9a027bb797bae6f74",
+      "5105c3892e80252b7b36"
+    ],
+    "M": [
+      167,
+      106,
+      34,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 18,
+      "QD": 594
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 12,
+    "variant": "v03_no_coverage",
+    "gain_node": 19,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      19
+    ],
+    "architecture_ids": [
+      "019a5834aee00a993fa7",
+      "2fb1e9cd3e0928d5a3c5"
+    ],
+    "M": [
+      25,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 0,
+      "QD": 0
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 12,
+    "variant": "v03_no_coverage",
+    "gain_node": 22,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      6,
+      22
+    ],
+    "architecture_ids": [
+      "a8153a979e37c4fd22b9",
+      "b134800fe9de90537b7f"
+    ],
+    "M": [
+      24,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 439
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 12,
+    "variant": "v03_no_coverage",
+    "gain_node": 25,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      1,
+      23,
+      24,
+      25
+    ],
+    "architecture_ids": [
+      "93348680879a480e7dde",
+      "108b62461c75448c6363",
+      "450c0a3e73c479ef2e1b",
+      "76b95aa684c828b5be8c"
+    ],
+    "M": [
+      200,
+      104,
+      36,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 36,
+      "QD": 865
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 12,
+    "variant": "v03_no_coverage",
+    "gain_node": 27,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      1,
+      23,
+      24,
+      27
+    ],
+    "architecture_ids": [
+      "93348680879a480e7dde",
+      "108b62461c75448c6363",
+      "450c0a3e73c479ef2e1b",
+      "d157bfa8946bacc837ad"
+    ],
+    "M": [
+      200,
+      104,
+      36,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag",
+      "split_suffix_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 36,
+      "QD": 865
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 12,
+    "variant": "v03_raw",
+    "gain_node": 31,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      1,
+      26,
+      28,
+      31
+    ],
+    "architecture_ids": [
+      "93348680879a480e7dde",
+      "0973bdedd67565fb69eb",
+      "0a80f3c3fe3622e70645",
+      "76b95aa684c828b5be8c"
+    ],
+    "M": [
+      200,
+      144,
+      44,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 36,
+      "QD": 865
+    },
+    "beyond_initial_best": false
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 14,
+    "variant": "mixed",
+    "gain_node": 26,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      4,
+      26
+    ],
+    "architecture_ids": [
+      "76b7ee2f177f43981618",
+      "03471aee67b9e9e438af"
+    ],
+    "M": [
+      22,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 112
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 14,
+    "variant": "v03",
+    "gain_node": 22,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      4,
+      22
+    ],
+    "architecture_ids": [
+      "76b7ee2f177f43981618",
+      "03471aee67b9e9e438af"
+    ],
+    "M": [
+      22,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 112
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 15,
+    "variant": "mixed",
+    "gain_node": 25,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      5,
+      19,
+      21,
+      25
+    ],
+    "architecture_ids": [
+      "dda6ab894707cd454d22",
+      "a1b3f30096cf1b0bf186",
+      "05c77e3863769bebe169",
+      "ad7b26f94e1edcb0cdc9"
+    ],
+    "M": [
+      47,
+      43,
+      36,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "reverse_implicated_order",
+      "split_suffix_flag",
+      "split_suffix_flag"
+    ],
+    "resource_delta": {
+      "Q": 2,
+      "D": 21,
+      "QD": 1013
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 16,
+    "variant": "v03",
+    "gain_node": 31,
+    "neutral_reductions": 2,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      1,
+      26,
+      28,
+      31
+    ],
+    "architecture_ids": [
+      "93348680879a480e7dde",
+      "0973bdedd67565fb69eb",
+      "0a80f3c3fe3622e70645",
+      "76b95aa684c828b5be8c"
+    ],
+    "M": [
+      200,
+      144,
+      44,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 36,
+      "QD": 865
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 18,
+    "variant": "v02",
+    "gain_node": 7,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      6,
+      7
+    ],
+    "architecture_ids": [
+      "6d6490e5e83b74de49e8",
+      "51913c51bfe4e1550f87"
+    ],
+    "M": [
+      40,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 328
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 18,
+    "variant": "v02",
+    "gain_node": 19,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      18,
+      19
+    ],
+    "architecture_ids": [
+      "77ee67760e1d613fe4dc",
+      "9dd4e4dfbbfc62df973a"
+    ],
+    "M": [
+      40,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 325
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 19,
+    "variant": "mixed",
+    "gain_node": 31,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      19,
+      31
+    ],
+    "architecture_ids": [
+      "5f5913a33500ad0970bb",
+      "05d28d00deb58041b232"
+    ],
+    "M": [
+      17,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 12,
+      "QD": 276
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 19,
+    "variant": "v02",
+    "gain_node": 11,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      11
+    ],
+    "architecture_ids": [
+      "220a071aedbaa1efc17b",
+      "4cce1e205a770894ff09"
+    ],
+    "M": [
+      25,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 3,
+      "QD": 205
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane14_sum-Z",
+    "seed": 19,
+    "variant": "v02",
+    "gain_node": 24,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      3,
+      21,
+      24
+    ],
+    "architecture_ids": [
+      "220a071aedbaa1efc17b",
+      "71870cfd351439e15375",
+      "4d296b7480d2228d8258"
+    ],
+    "M": [
+      25,
+      24,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "reverse_implicated_order",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 103
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 10,
+    "variant": "mixed",
+    "gain_node": 11,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      4,
+      8,
+      11
+    ],
+    "architecture_ids": [
+      "3c2c5d993738684f31e0",
+      "05945aff692c6adfb7c1",
+      "b409c4817ab59900215a"
+    ],
+    "M": [
+      31,
+      23,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 209
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 10,
+    "variant": "random",
+    "gain_node": 22,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      17,
+      22
+    ],
+    "architecture_ids": [
+      "31362250b375c6f57046",
+      "addd3aa69b73557f7b7d"
+    ],
+    "M": [
+      31,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 104
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 10,
+    "variant": "v03",
+    "gain_node": 12,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      4,
+      9,
+      12
+    ],
+    "architecture_ids": [
+      "3c2c5d993738684f31e0",
+      "05945aff692c6adfb7c1",
+      "b409c4817ab59900215a"
+    ],
+    "M": [
+      31,
+      23,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 209
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 10,
+    "variant": "v03_arbitrary",
+    "gain_node": 11,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      4,
+      8,
+      11
+    ],
+    "architecture_ids": [
+      "3c2c5d993738684f31e0",
+      "05945aff692c6adfb7c1",
+      "b409c4817ab59900215a"
+    ],
+    "M": [
+      31,
+      23,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 209
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 10,
+    "variant": "v03_no_protection",
+    "gain_node": 22,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      4,
+      9,
+      22
+    ],
+    "architecture_ids": [
+      "3c2c5d993738684f31e0",
+      "05945aff692c6adfb7c1",
+      "b409c4817ab59900215a"
+    ],
+    "M": [
+      31,
+      23,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 209
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 10,
+    "variant": "v03_raw",
+    "gain_node": 12,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      4,
+      9,
+      12
+    ],
+    "architecture_ids": [
+      "3c2c5d993738684f31e0",
+      "05945aff692c6adfb7c1",
+      "b409c4817ab59900215a"
+    ],
+    "M": [
+      31,
+      23,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 209
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 11,
+    "variant": "mixed",
+    "gain_node": 22,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": false,
+    "nodes": [
+      6,
+      17,
+      22
+    ],
+    "architecture_ids": [
+      "eaa9586f39290ce4ff19",
+      "fe47a9f8363b827fcbbf",
+      "428eb1e88f514e28a7b8"
+    ],
+    "M": [
+      22,
+      20,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "reverse_implicated_order",
+      "toggle_noisy_terminal_round"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 92,
+      "QD": 1978
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 11,
+    "variant": "random",
+    "gain_node": 13,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      10,
+      13
+    ],
+    "architecture_ids": [
+      "23aba8e3ebc1e9f067a6",
+      "f8572ef5624a84b7d3fa"
+    ],
+    "M": [
+      42,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 188
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 11,
+    "variant": "v03",
+    "gain_node": 24,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      11,
+      24
+    ],
+    "architecture_ids": [
+      "bab741874035ee4c95f9",
+      "075940e57b11e3432b24"
+    ],
+    "M": [
+      20,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 458
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 11,
+    "variant": "v03_arbitrary",
+    "gain_node": 32,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      6,
+      16,
+      32
+    ],
+    "architecture_ids": [
+      "eaa9586f39290ce4ff19",
+      "fe47a9f8363b827fcbbf",
+      "beed0fa8a428913f2b33"
+    ],
+    "M": [
+      22,
+      20,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "reverse_implicated_order",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 458
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 12,
+    "variant": "v03",
+    "gain_node": 22,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      3,
+      18,
+      22
+    ],
+    "architecture_ids": [
+      "b931e48e28ba9501a964",
+      "18e0f4fd99b63e888052",
+      "9789c5204c396a37c2d3"
+    ],
+    "M": [
+      30,
+      23,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "separate_hook_support",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 12,
+      "QD": 180
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 12,
+    "variant": "v03_arbitrary",
+    "gain_node": 23,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      18,
+      20,
+      23
+    ],
+    "architecture_ids": [
+      "11fffe31d3e8dd85be7a",
+      "01a207104f99c543a200",
+      "d33924df0449223f5704"
+    ],
+    "M": [
+      39,
+      14,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 2,
+      "D": 15,
+      "QD": 532
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 12,
+    "variant": "v03_no_coverage",
+    "gain_node": 9,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      9
+    ],
+    "architecture_ids": [
+      "b931e48e28ba9501a964",
+      "7f731b4ba90cc9d2d63b"
+    ],
+    "M": [
+      30,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 12,
+      "QD": 180
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 12,
+    "variant": "v03_raw",
+    "gain_node": 22,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      3,
+      18,
+      22
+    ],
+    "architecture_ids": [
+      "b931e48e28ba9501a964",
+      "18e0f4fd99b63e888052",
+      "9789c5204c396a37c2d3"
+    ],
+    "M": [
+      30,
+      23,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "separate_hook_support",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 12,
+      "QD": 180
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 13,
+    "variant": "v02",
+    "gain_node": 8,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      2,
+      8
+    ],
+    "architecture_ids": [
+      "5f835368abda89175c05",
+      "5e83909495e3637ce892"
+    ],
+    "M": [
+      26,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 197
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 16,
+    "variant": "v03",
+    "gain_node": 31,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      2,
+      31
+    ],
+    "architecture_ids": [
+      "31755825d567a46411de",
+      "0d970fe6d4f74dcd5289"
+    ],
+    "M": [
+      17,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "split_temporal_flag_records"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 227
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 18,
+    "variant": "v03",
+    "gain_node": 10,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      3,
+      8,
+      10
+    ],
+    "architecture_ids": [
+      "9605ccc63bd1e9946856",
+      "0a9885767d47add9eb4f",
+      "1f0ed6f8041cc4c76a83"
+    ],
+    "M": [
+      47,
+      40,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "separate_hook_support",
+      "split_temporal_flag_records"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 89
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7-X",
+    "seed": 18,
+    "variant": "v03",
+    "gain_node": 26,
+    "neutral_reductions": 3,
+    "observed_composition": true,
+    "strict_guided_composition": false,
+    "nodes": [
+      5,
+      18,
+      20,
+      24,
+      26
+    ],
+    "architecture_ids": [
+      "fc81b1c1b00401df4baa",
+      "012222be1002834aac84",
+      "91252039f40ae804b75a",
+      "adeb3cdad9633ef443a9",
+      "eab2d6f15d8f11d05cbf"
+    ],
+    "M": [
+      50,
+      21,
+      17,
+      14,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "split_suffix_flag",
+      "split_suffix_flag",
+      "split_suffix_flag",
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 2,
+      "D": 12,
+      "QD": 514
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 10,
+    "variant": "random",
+    "gain_node": 22,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      15,
+      22
+    ],
+    "architecture_ids": [
+      "41f2ddedd2cb43bd6038",
+      "4bce8d40cf7caf8fa385"
+    ],
+    "M": [
+      31,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 128
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 10,
+    "variant": "v03",
+    "gain_node": 32,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      14,
+      30,
+      32
+    ],
+    "architecture_ids": [
+      "65c5be1e133f015b02be",
+      "1dae0c600b915842e5aa",
+      "6237d430060920f79be3"
+    ],
+    "M": [
+      23,
+      20,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "split_suffix_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 2,
+      "D": 0,
+      "QD": 274
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 10,
+    "variant": "v03_raw",
+    "gain_node": 25,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      21,
+      25
+    ],
+    "architecture_ids": [
+      "86405aeb56a2efccca5a",
+      "0d4007a1f153f7c227a2"
+    ],
+    "M": [
+      23,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 140
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 11,
+    "variant": "v03_no_coverage",
+    "gain_node": 18,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      14,
+      18
+    ],
+    "architecture_ids": [
+      "43a453fb69aefe7698bf",
+      "f49f3aad01d71e62458b"
+    ],
+    "M": [
+      58,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 12,
+      "QD": 156
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 11,
+    "variant": "v03_raw",
+    "gain_node": 26,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      5,
+      23,
+      26
+    ],
+    "architecture_ids": [
+      "aa297de1624e27c428e9",
+      "08df0ff9c60c4ee24a32",
+      "925c394e1e9efb902b23"
+    ],
+    "M": [
+      64,
+      12,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 302
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 12,
+    "variant": "v03_no_coverage",
+    "gain_node": 30,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      3,
+      30
+    ],
+    "architecture_ids": [
+      "4a20d6472fda56b7e18a",
+      "58132836caf5115350cf"
+    ],
+    "M": [
+      30,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 12,
+      "QD": 180
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 12,
+    "variant": "v03_no_protection",
+    "gain_node": 23,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      8,
+      23
+    ],
+    "architecture_ids": [
+      "e72761fbff1feaf86582",
+      "3dc118fcb22b7945b5d7"
+    ],
+    "M": [
+      30,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "split_temporal_flag_records"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 12,
+      "QD": 180
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 13,
+    "variant": "v02",
+    "gain_node": 8,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      2,
+      8
+    ],
+    "architecture_ids": [
+      "4c19089df513e386494c",
+      "f46fd48e1e96e8eb2438"
+    ],
+    "M": [
+      26,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 6,
+      "QD": 212
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 14,
+    "variant": "mixed",
+    "gain_node": 29,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      2,
+      26,
+      29
+    ],
+    "architecture_ids": [
+      "d80dfc8c82c4ab94edc6",
+      "05c1d790c55c28a23559",
+      "226142e84993128bbffb"
+    ],
+    "M": [
+      27,
+      14,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 0,
+      "D": 6,
+      "QD": 78
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 14,
+    "variant": "v03",
+    "gain_node": 17,
+    "neutral_reductions": 3,
+    "observed_composition": true,
+    "strict_guided_composition": false,
+    "nodes": [
+      6,
+      9,
+      12,
+      14,
+      17
+    ],
+    "architecture_ids": [
+      "2c91835bb4047dea47bf",
+      "2016217ed87133251a6d",
+      "03da15b2c4b7a46aa405",
+      "09a4b3a2ed71811b3de1",
+      "aed5751ed8e61bef1065"
+    ],
+    "M": [
+      74,
+      69,
+      63,
+      18,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "reverse_implicated_order",
+      "separate_hook_support",
+      "independent_full_interval_flag",
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 12,
+      "QD": 296
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 18,
+    "variant": "mixed",
+    "gain_node": 19,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      4,
+      19
+    ],
+    "architecture_ids": [
+      "491a391582c03d3ed86b",
+      "0e2e34edd6b558036016"
+    ],
+    "M": [
+      41,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 146
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 18,
+    "variant": "mixed",
+    "gain_node": 29,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      22,
+      29
+    ],
+    "architecture_ids": [
+      "491a391582c03d3ed86b",
+      "0e2e34edd6b558036016"
+    ],
+    "M": [
+      41,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "split_suffix_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 146
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 18,
+    "variant": "mixed",
+    "gain_node": 30,
+    "neutral_reductions": 0,
+    "observed_composition": false,
+    "strict_guided_composition": false,
+    "nodes": [
+      17,
+      30
+    ],
+    "architecture_ids": [
+      "c68cc0645ebb10be222d",
+      "607429694e8ccc71d377"
+    ],
+    "M": [
+      41,
+      0
+    ],
+    "dc": [
+      2,
+      3
+    ],
+    "operators": [
+      "random_local_mutation"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 0,
+      "QD": 146
+    },
+    "beyond_initial_best": true
+  },
+  {
+    "task": "steane7_mixed-X",
+    "seed": 18,
+    "variant": "v03",
+    "gain_node": 30,
+    "neutral_reductions": 1,
+    "observed_composition": true,
+    "strict_guided_composition": true,
+    "nodes": [
+      12,
+      27,
+      30
+    ],
+    "architecture_ids": [
+      "0acc41ebac44ea67c4d7",
+      "02207e51d5c0fd8ca2a2",
+      "0b2f0560b9e6fb3a4166"
+    ],
+    "M": [
+      58,
+      29,
+      0
+    ],
+    "dc": [
+      2,
+      2,
+      3
+    ],
+    "operators": [
+      "independent_full_interval_flag",
+      "independent_full_interval_flag"
+    ],
+    "resource_delta": {
+      "Q": 1,
+      "D": 9,
+      "QD": 320
+    },
+    "beyond_initial_best": true
+  }
+]

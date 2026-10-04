@@ -1,0 +1,1952 @@
+[
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed10-mixed.json.gz",
+    "bytes": 442503,
+    "sha256": "84616b61e0d4e660458d21b2e29c4a57cb1a0d54cd3eaa21c05a70ad10c4f96e"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed10-random.json.gz",
+    "bytes": 466644,
+    "sha256": "e9518d7b166785856fedf2ef3fdc88b8dce4226cba2329495fe334c2395dfcfd"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed10-resource.json.gz",
+    "bytes": 517245,
+    "sha256": "0d7583dca80641855650533140881b2c5ead899c1d26fe4152f662bf826e4448"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed10-v02.json.gz",
+    "bytes": 684619,
+    "sha256": "7a7f04f2cf6e934e7e86724b9606afc60a05a6f6df0cbc2e6c29d4ffc2ee4d46"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed10-v03.json.gz",
+    "bytes": 603748,
+    "sha256": "542d066e2f8d32543e3fb3b847554418cae7ca3de2e02c99bb1ac2d852082c58"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed10-v03_arbitrary.json.gz",
+    "bytes": 690882,
+    "sha256": "c1924d8d9523eb3bef979fa1afacf4244b8acf6c2ff4af87a1630bbc034248f4"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed10-v03_no_coverage.json.gz",
+    "bytes": 584182,
+    "sha256": "1ca6994b9d74ead610d9311527451d1c057dbfdb74ffd047c13999d3969344b0"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed10-v03_no_protection.json.gz",
+    "bytes": 628365,
+    "sha256": "c8dcb27c0e5db1df2c0b8db64a62f05dbc76e9a8ef864d697bfd35ce3225b8ca"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed10-v03_raw.json.gz",
+    "bytes": 619507,
+    "sha256": "9bdc8174e4a6a1d9e87b3e0ca14a065f8ef295f5d5b23a9fdecf804728d772af"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed10-v03_signature.json.gz",
+    "bytes": 635403,
+    "sha256": "6776c5b29b685e4d81750f7524c35937af63b04ca96f2d86b9ee1d48c209ecf9"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed11-mixed.json.gz",
+    "bytes": 324006,
+    "sha256": "84fdfc814b6c0a3647459d7b96cc60e946225072891b2df04cdd282781bcb1c5"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed11-random.json.gz",
+    "bytes": 316407,
+    "sha256": "180d977da1878a84861375a0b0003fe52eb48d9fd273692fc603ffcac423f9fc"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed11-resource.json.gz",
+    "bytes": 271288,
+    "sha256": "c865540bf0673a4d2b5af48a97a337404c685620fec95a8487e01cad2530c3db"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed11-v02.json.gz",
+    "bytes": 456217,
+    "sha256": "4194dec752cfd71712d4a896fe9f933b8a5da0cf3feed6438aadf375faab9c6c"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed11-v03.json.gz",
+    "bytes": 336922,
+    "sha256": "59c1dba98eb41c9a379b1fe8077b090fda31bb04de98d860b1d0a70ae4db1168"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed11-v03_arbitrary.json.gz",
+    "bytes": 344305,
+    "sha256": "021126e93d9e9d29c4b133b497ed8fe653991e4fcd0b9e6a3e4ae9bd8e13d39f"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed11-v03_no_coverage.json.gz",
+    "bytes": 317149,
+    "sha256": "3d348d2899ea46320edc11b65ed184df9a82675b8d0c708238e2921c12cf47a4"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed11-v03_no_protection.json.gz",
+    "bytes": 356394,
+    "sha256": "2c91e259138bc8e67b64a40f8914b69cabcc103adb24a97a492651d75dd9a279"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed11-v03_raw.json.gz",
+    "bytes": 602777,
+    "sha256": "88b9763c5165d807a07aa57b58a8ae0f44c6b261ef6d4e5ed712d45053a89011"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed11-v03_signature.json.gz",
+    "bytes": 419421,
+    "sha256": "5bb4a3a64a7695fa221f6bf4fe09e291006a0f0c3ce57e6b08efa1b5aa7c76fb"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed12-mixed.json.gz",
+    "bytes": 506568,
+    "sha256": "abbba7bfef2cba1c46f3c53ee59b2ad955eaa0b028bc6100b39628f3f0f82d44"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed12-random.json.gz",
+    "bytes": 563034,
+    "sha256": "8f575e54dfbcc66b2c1112c85c4a1cf9eacd89842de85a422e53b8431868e515"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed12-resource.json.gz",
+    "bytes": 540910,
+    "sha256": "5c6a7de67525658b9cabe2fc79993ac90ce31d07e73187fa956c9d3029131d57"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed12-v02.json.gz",
+    "bytes": 717691,
+    "sha256": "9ece3ade679dd3d769b76947330540f47bf11d94c0331647cae02226cda2711e"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed12-v03.json.gz",
+    "bytes": 539357,
+    "sha256": "d05be24077f9fe0782551d70dffe2974380b64297f80e68c8086bca73d4026f2"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed12-v03_arbitrary.json.gz",
+    "bytes": 608101,
+    "sha256": "a533a0a0bd711e76cea777862e067f3ebba74f1fe603fe031fbd3079b842902e"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed12-v03_no_coverage.json.gz",
+    "bytes": 575403,
+    "sha256": "2eb8932131d4fc644c7c53903204aa4e73d2f6ed1b7b5299f3009e4bf79fb1ff"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed12-v03_no_protection.json.gz",
+    "bytes": 570325,
+    "sha256": "d1163b7a74430fc32a2bc28c46a7dc472650b3af4e1cbc4bc472eae37fc51987"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed12-v03_raw.json.gz",
+    "bytes": 553578,
+    "sha256": "87aa4ffea1237989c4ad16bbfda188e4c0970f35ab8cdd8623f75f6330c13795"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed12-v03_signature.json.gz",
+    "bytes": 637600,
+    "sha256": "a45de65736fb97790620c0a2cc70dba0cf56d55a016d4cc59ed222f4d5b97f74"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed13-mixed.json.gz",
+    "bytes": 393189,
+    "sha256": "536378b22434080b3835219d827adf43fe5d5af3d53f426f50891cf3bfe81c8b"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed13-random.json.gz",
+    "bytes": 335413,
+    "sha256": "a61ba44ec3180b435377b54a206498b46678b551ec9e7fd74026b60c5e811eb6"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed13-resource.json.gz",
+    "bytes": 358700,
+    "sha256": "b9b4c1bd2de704e07b1b762922a5991e2feb65eab18211788cfe17bb696297e8"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed13-v02.json.gz",
+    "bytes": 538435,
+    "sha256": "8e53ce7f36c8408beab14f3582aa080a29cfcda86182e8b2ffa4b64f3892513f"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed13-v03.json.gz",
+    "bytes": 358459,
+    "sha256": "3ebe9889ce60c6adfb4242bf6d725b4d1144041d903dbb2633f5a24317c3d869"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed14-mixed.json.gz",
+    "bytes": 606276,
+    "sha256": "98e18940a5720db00725f5c1c1b6fca17f39cbbc1e018eab7b5f37e10a95181f"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed14-random.json.gz",
+    "bytes": 653750,
+    "sha256": "7cf76ef7bcf8eb2fe774fcb56c73b2fd9faf90304963f27e4cc5330f99e8e836"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed14-resource.json.gz",
+    "bytes": 487761,
+    "sha256": "991ec29942c6fb2ca2077d3471ccb6af9d7dc3fad17b806c4b9b7da6cddbb0bc"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed14-v02.json.gz",
+    "bytes": 857459,
+    "sha256": "895e5a0e2ca59a7be5f10273883bb88ed61c838d84f7f032b0ba3c69bdd1e6e6"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed14-v03.json.gz",
+    "bytes": 498604,
+    "sha256": "701fb0bc95dcc9e5e68df468534d55de1def88245e9f93dcda3f2975f8e8873a"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed15-mixed.json.gz",
+    "bytes": 502964,
+    "sha256": "7b9aedac14f267a192163d5e51fd04bd72fd2d842a073e35f7bb9e40366d1763"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed15-random.json.gz",
+    "bytes": 471560,
+    "sha256": "a1c1535da26d34b0dd6f257db78c9fab3f7356d3c2c0f928c32afb098f686baf"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed15-resource.json.gz",
+    "bytes": 467632,
+    "sha256": "5b8fecc4b8ef12c145b6391ef652ed707619a81bff54292b31f49ee3b9873c55"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed15-v02.json.gz",
+    "bytes": 657123,
+    "sha256": "d1fe36e3a459d5266f9ed011f3457b7a2bcb0098bd9bd8a7c47d83fae5a87135"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed15-v03.json.gz",
+    "bytes": 579813,
+    "sha256": "18c2ba1e7244ac85182e476c67876122361ea6f184f746d9e682629f3292fa0c"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed16-mixed.json.gz",
+    "bytes": 267034,
+    "sha256": "fbf259f2ffd55da983d773d9891985539ab079de863acb77fea8724b9b31b295"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed16-random.json.gz",
+    "bytes": 277467,
+    "sha256": "7cbddd6adbd959b5cc14b5e0034dd0290b516925ce90a441ed3b2a8bbf81e392"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed16-resource.json.gz",
+    "bytes": 307295,
+    "sha256": "95f5f376b4784e8b20a9730c2668adaced74a794739aac6dcb58e214fedc5cd6"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed16-v02.json.gz",
+    "bytes": 515489,
+    "sha256": "8b8e31fe96094b716d7d55464640c0e4f2cb9e21ca73a5d3a6ddee333026e230"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed16-v03.json.gz",
+    "bytes": 746446,
+    "sha256": "dccba9030a8c1d9ea768a0b9729e8c20123c086147e34e02dac5a321ba1fadb4"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed17-mixed.json.gz",
+    "bytes": 472225,
+    "sha256": "17396fa5bc802acce273ea95ccd593f85984e97776ff3006b0eb0cbac73a7390"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed17-random.json.gz",
+    "bytes": 611119,
+    "sha256": "2774995b5c8f03ebd1e59352506f7a32bba4f0fcb97a2e75dc58c63e408e8d75"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed17-resource.json.gz",
+    "bytes": 522022,
+    "sha256": "024b29959047cf61a15f1175003c7fb5eed7c3928f955fef5c4c402cbfa2a09e"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed17-v02.json.gz",
+    "bytes": 744277,
+    "sha256": "65e31d5f40005debecfebdb6bf8eedfebf64bc88b300c1b6cc5061d37074b80c"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed17-v03.json.gz",
+    "bytes": 624988,
+    "sha256": "712edabcab2e169129f26cf3d9b279d695f6c1ad6c31b2521f32e0fd9ae386ae"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed18-mixed.json.gz",
+    "bytes": 383849,
+    "sha256": "c4f31c6a1a98a5db251c62736419695f55839412dc687c9caf221943c15de206"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed18-random.json.gz",
+    "bytes": 364752,
+    "sha256": "e1e300a694d826008d4aabcc0f87df3ed0e818ca047c15128dc0f0d7bb50d02a"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed18-resource.json.gz",
+    "bytes": 314828,
+    "sha256": "ba4dc4bc215feb673a8201ff0926b2b2af2c91b7bd137375f040b47a42416724"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed18-v02.json.gz",
+    "bytes": 679969,
+    "sha256": "9eac89daddbe72be72690e1a960f924c6662d9d9b152d9886bdc5c6a654183f1"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed18-v03.json.gz",
+    "bytes": 462620,
+    "sha256": "640d09c200e43e3e75ca028c41db8f7477d1476d7e0bc92b7002802ac02e24eb"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed19-mixed.json.gz",
+    "bytes": 389034,
+    "sha256": "26af1bc4d73e212a3d74328c83ee429634c34f21c1e317a3e7a88a1f8509d632"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed19-random.json.gz",
+    "bytes": 401343,
+    "sha256": "9c22bfc032dec16347f378ca3f8cfd4ce8064ecf53a47040683ce1f38589c737"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed19-resource.json.gz",
+    "bytes": 539820,
+    "sha256": "34f918e0579c431763e417aacda71bc302b3bd3575317ddb47da589efe60b6bc"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed19-v02.json.gz",
+    "bytes": 747322,
+    "sha256": "9f83a1fcbbf5b86ef9fd6a4128c4bfdc6c09f5b9f63f7e4b233c8ad8758b9567"
+  },
+  {
+    "file": "results/development_v2/raw/affine15_k1-X-seed19-v03.json.gz",
+    "bytes": 550416,
+    "sha256": "21e0d0e732a60db7f893ad93a684c800d22eb38b85fa51863adb061eaa98ca23"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed10-mixed.json.gz",
+    "bytes": 695682,
+    "sha256": "c58635f9a7914f6bb58f7bb353011bb5bc4939e9c5130aa396e18d4977c80d13"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed10-random.json.gz",
+    "bytes": 675294,
+    "sha256": "681f612fe84b478676a7e4118d1663327f84b43fd6ec38aa5de4669cf092f81d"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed10-resource.json.gz",
+    "bytes": 910705,
+    "sha256": "63d4d55729b53ea821a45a87761a14312eff4f76171b3a54d40d8c861b544c4b"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed10-v02.json.gz",
+    "bytes": 799874,
+    "sha256": "e03f7ec79474dabd23225fec8d13bf42bafc010b61fd109a4ad23d4f50fb2c9c"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed10-v03.json.gz",
+    "bytes": 750426,
+    "sha256": "2536973f7540e3f9280c106b6797cd6e8510fb166bc88856bc15d9380a205345"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed10-v03_arbitrary.json.gz",
+    "bytes": 570031,
+    "sha256": "ce06dfde6ec7d7a2ca472e5042187807860d822a6c4cad8c9501140c744fefaa"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed10-v03_no_coverage.json.gz",
+    "bytes": 776619,
+    "sha256": "72d1bf50bb8666b519e8a12d28ec5eaf8b37c1bb606c8486e59a4314959233c7"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed10-v03_no_protection.json.gz",
+    "bytes": 726686,
+    "sha256": "d2638458c83276a94315470f4c98a5b70852b472618771c8551bbfc4024c7b38"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed10-v03_raw.json.gz",
+    "bytes": 601809,
+    "sha256": "58fdb0b71de24f8752d652f707c6ce42dbc0bc14fb46d654c626d0819316a684"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed10-v03_signature.json.gz",
+    "bytes": 761372,
+    "sha256": "0f219afdbd5a6910944fe542262f30ae7965a5dfab516bd0f453a119519ae981"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed11-mixed.json.gz",
+    "bytes": 354670,
+    "sha256": "49c6d1b877f4cab5a794651b9aab1ee1f3732900d93591191aef42b39c47ac8b"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed11-random.json.gz",
+    "bytes": 559078,
+    "sha256": "8a2848859d4bbdf7cf1f3443ac03113f3c62e728f5112d3181491d8ca71ce430"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed11-resource.json.gz",
+    "bytes": 412871,
+    "sha256": "fc68a3a3ba59277f1ec99044047d490b47ff7e2f73b28481f328cd4b42b1406a"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed11-v02.json.gz",
+    "bytes": 573354,
+    "sha256": "021128a7279d37046cd32652f163044d9e12383f3231b44b9073cbcc4c2311d8"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed11-v03.json.gz",
+    "bytes": 531135,
+    "sha256": "fb605895400b43e8bf9b48a837b9184354b14c84dc9246d2ece8f5205177b045"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed11-v03_arbitrary.json.gz",
+    "bytes": 466711,
+    "sha256": "15e20a92c44e971b41008b14205227467973a114d99fd69712a7e46d4b3287fa"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed11-v03_no_coverage.json.gz",
+    "bytes": 494572,
+    "sha256": "d370d711fee55fe3fbf2a38db58ffa8020e7a70e4f55a0c5d48201caa129c0c2"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed11-v03_no_protection.json.gz",
+    "bytes": 440544,
+    "sha256": "7199b3e3f6ee8961a13a588eb77e4ea97d7aae7c494c57e7466854c1e509f40e"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed11-v03_raw.json.gz",
+    "bytes": 524434,
+    "sha256": "40e7fdc0109bd638cda3f4a4ff299588d84691850dfaff6c726be840a92db2be"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed11-v03_signature.json.gz",
+    "bytes": 491303,
+    "sha256": "0712da60cff279fc065874aa82073b9660427f9e10c3af3821318925cc930c3f"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed12-mixed.json.gz",
+    "bytes": 391473,
+    "sha256": "1baf475c78cd7edc89688d6b225e702c9fcbeaf7ce27a9c76ca615dd0d977317"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed12-random.json.gz",
+    "bytes": 457293,
+    "sha256": "dfb8da2df80381ed9b619262f23873d74d99d1fade4a2c6faf582a32dade5757"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed12-resource.json.gz",
+    "bytes": 602244,
+    "sha256": "ed228d8facb0d2ee0d3b17e83591dd449257063b2ee17b0717fb0d8fabcac79c"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed12-v02.json.gz",
+    "bytes": 475856,
+    "sha256": "9cee67c00193e8d7e058025bdb9f7e0da4016bb09343a441cb5bf619533d0569"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed12-v03.json.gz",
+    "bytes": 482976,
+    "sha256": "63e7e361cf4bfcc6053577b0642efc9ac882a3685f2fa2139bc0392c0be4da49"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed12-v03_arbitrary.json.gz",
+    "bytes": 479837,
+    "sha256": "cdfb4c3611c8f7b501fc97ec94092c9d4de5f8af6e46f90eb7e7f6db169449a7"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed12-v03_no_coverage.json.gz",
+    "bytes": 407385,
+    "sha256": "76bf2cd00b36e4c1ff1883449b23a2169fdbff7c22b87bf006db4b434c3a2b61"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed12-v03_no_protection.json.gz",
+    "bytes": 484550,
+    "sha256": "25ac5565418cd8ed67cf9bcfb744177e37b416741849908d18cfe8ba394aa2a1"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed12-v03_raw.json.gz",
+    "bytes": 310772,
+    "sha256": "13416b6daf9b8e6f3ba43d338237656d8dc4a5b1e7448b3b20119bafabebac51"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed12-v03_signature.json.gz",
+    "bytes": 812536,
+    "sha256": "97c8fcf9f30ac936e3a38a1ab41f6655e515eea887bfed6ef140e3b9ef75655e"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed13-mixed.json.gz",
+    "bytes": 621002,
+    "sha256": "b3f7e1b308e16b0df2b0ff6b42a32c591e57f04f43169e27bfcc3ca03fa57d3e"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed13-random.json.gz",
+    "bytes": 616678,
+    "sha256": "3df09aa2d12aa48edddfd8e030b6ffa44b3b0c1bdb378ad238ef793ebc011de2"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed13-resource.json.gz",
+    "bytes": 617205,
+    "sha256": "2beb224a1ed641f91704f2b7dc53d99f981c06cbf102bea72d2c9f761063a51b"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed13-v02.json.gz",
+    "bytes": 554298,
+    "sha256": "ad332eab242faf4e0438c2e8e92bf45816f6363b04b276c80f46b608c6f384ec"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed13-v03.json.gz",
+    "bytes": 566934,
+    "sha256": "1d029ffecb37c49b3ba80ef65e93f326b797988df368671bfea4bd8c2c9b419c"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed14-mixed.json.gz",
+    "bytes": 569760,
+    "sha256": "05f473e2fa3eda7bdd4575cdf891b8720ad83ecf84b29b7f530b98d6c0cfe603"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed14-random.json.gz",
+    "bytes": 484782,
+    "sha256": "573c6cc564a0bb90d09a2b69a1d424a4724922c58cf3b528f0d2b35e0adae502"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed14-resource.json.gz",
+    "bytes": 549447,
+    "sha256": "75c0b17cc7dc7c49e3623a3fdc8215bd9f5b05cb9211082d07b2d90c355d12be"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed14-v02.json.gz",
+    "bytes": 467418,
+    "sha256": "1e50d949b6fe8a93365cbd07453ff2348129518b9dfa39d02a32bd98a1c1282d"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed14-v03.json.gz",
+    "bytes": 425594,
+    "sha256": "b57b5037cfb7ccb2591e1927a2f54105e6b85a299bfd5fd3afd5e27f034260d1"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed15-mixed.json.gz",
+    "bytes": 460163,
+    "sha256": "932b3b263bac9f27110d03f383544f8eac70dfa9ebd2129971d904154ee2831c"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed15-random.json.gz",
+    "bytes": 716347,
+    "sha256": "b2e968d19a680d2fc88bb4e29bd8956fa1069447be30b6583ede9ed0200d2d4c"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed15-resource.json.gz",
+    "bytes": 525426,
+    "sha256": "22c7d835c42327921a97ef8f4870e1429ab9dfbf9b9391df010e83fa001eece5"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed15-v02.json.gz",
+    "bytes": 689468,
+    "sha256": "385daf66c81bd444be8a23464bab422f10baf5df6fa5da33525baa9f20b7f9d3"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed15-v03.json.gz",
+    "bytes": 492936,
+    "sha256": "974d0cdca87b8ee86d72ca195ecf2db2a23073a5dccf51dac0d9e4ec61328bff"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed16-mixed.json.gz",
+    "bytes": 396001,
+    "sha256": "bf173d6b3c4640bf191aa8b27b29780b4f1b6b4a343191213e7c130aeb9dbbae"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed16-random.json.gz",
+    "bytes": 633011,
+    "sha256": "ce61231a61371e8e0f6422e84a8f7e78ac032018570d120e35f7f4114d5369e4"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed16-resource.json.gz",
+    "bytes": 667288,
+    "sha256": "894d5a6c28ccff1e7d1b080add80eed02f42b890fb93ce9a86838e4f54326951"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed16-v02.json.gz",
+    "bytes": 696207,
+    "sha256": "a89e92fec8f0bec1603b7a96e98cb9464644d814bdc7c50c59184602761b737e"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed16-v03.json.gz",
+    "bytes": 566441,
+    "sha256": "637794a9f00fe94c904b91d533f7128d41554f5bf7bd494c897cc0b38dede732"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed17-mixed.json.gz",
+    "bytes": 301045,
+    "sha256": "ab68fff0dd8f1e5ebff27a6af3c152c2734aa9ec8ca0c9d4e3fe3982c7681ea0"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed17-random.json.gz",
+    "bytes": 330830,
+    "sha256": "8a22df7ede900cc76c3a7ed3bd902f66cc07ba2f3b940cfc912c4f4679d44a67"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed17-resource.json.gz",
+    "bytes": 436612,
+    "sha256": "c00119d23321ac3d825c79650a63ccd3b0a98f2be288b984eafe212645f3628d"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed17-v02.json.gz",
+    "bytes": 385123,
+    "sha256": "096aa4a552935d257a2c167090e92f470144f01f95d2715c16bf55e96d3e5e09"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed17-v03.json.gz",
+    "bytes": 178157,
+    "sha256": "ef37a23d377b7efe1640aa5c8cc8b15a977528fb7754ded77b3e9eaae744b93c"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed18-mixed.json.gz",
+    "bytes": 295932,
+    "sha256": "f19d0b0fdb2791f0d9de7f2c890f3fbb8666bf96cdac020067fcb21f08e270e2"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed18-random.json.gz",
+    "bytes": 473136,
+    "sha256": "64c010e8647e07f4dfcafb35948b26f435596598db1a1f16ec404ac32e5d1c98"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed18-resource.json.gz",
+    "bytes": 374781,
+    "sha256": "fd81ad9171d340c2acdaaa4589817b0b1607009791da2915a6e37f20b125df51"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed18-v02.json.gz",
+    "bytes": 583555,
+    "sha256": "081b8526e83e8738b4dcbf868a49d43b39c8a5191b8d8df37a52c0ecbb597fdc"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed18-v03.json.gz",
+    "bytes": 351649,
+    "sha256": "d47c6d94ad0c53bbdab539114c921c70fad3b77e382432c02542618ccd0791b2"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed19-mixed.json.gz",
+    "bytes": 559956,
+    "sha256": "2a6e6f1360c8f65144af06f98435bad8cac5313574d3d54ce804fcc245719410"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed19-random.json.gz",
+    "bytes": 311709,
+    "sha256": "95016ebe210d556d595818318934b63a1cd58f4ac80cf53991256e0b2893bc88"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed19-resource.json.gz",
+    "bytes": 454720,
+    "sha256": "c6a69c6e00ea3f93c14f1143af16adda517cc0f90b43b347ae50c3dc37d867bf"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed19-v02.json.gz",
+    "bytes": 473829,
+    "sha256": "7d088ea7fb02fee3d9cf3b3d6ffc5055e9451775404736bed57c72db7b9c8460"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-X-seed19-v03.json.gz",
+    "bytes": 431579,
+    "sha256": "d704c25f54ec2f73387a2bb2c6172377fab65db193a29faf26a54a10c400f916"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed10-mixed.json.gz",
+    "bytes": 590308,
+    "sha256": "b7fb7509547d07be7794f9abcc3a304b95446328f1b045e15c5341ce95489f1e"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed10-random.json.gz",
+    "bytes": 657442,
+    "sha256": "906a111d195378cefa27afdc6e2b45a41a59032b02b65c06db6560b09dba1ff6"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed10-resource.json.gz",
+    "bytes": 731291,
+    "sha256": "33cfe57cd18989845e202eda7f9409e5b69d094b759f0efa8730fc09e5607ebb"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed10-v02.json.gz",
+    "bytes": 615800,
+    "sha256": "8392d770aed2dc07e6a935bdd8d8817b6aa28ab01f0bac5d1573f5e9cba04c22"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed10-v03.json.gz",
+    "bytes": 536944,
+    "sha256": "a3899c8c9aa94c83b421af2603589cffd21f6f05cf59dca12f402cb938130f36"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed10-v03_arbitrary.json.gz",
+    "bytes": 619498,
+    "sha256": "30f875e79cea7ae137d1f6a6b4d61471e25a665d89efd38b342a53922c8be5eb"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed10-v03_no_coverage.json.gz",
+    "bytes": 368866,
+    "sha256": "1d26a27dee19059ba11da9d17016ffdaead8e30222039583255845dbe7c5bc2c"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed10-v03_no_protection.json.gz",
+    "bytes": 594103,
+    "sha256": "58e3aab126a825b3047902e32960fb5d6032ed0cc45cfda45a72a3c1438db26c"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed10-v03_raw.json.gz",
+    "bytes": 536602,
+    "sha256": "5f8585aef212ddfe899d082bc66ba034e3d9df31a723da5f76332ff2a3fd560a"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed10-v03_signature.json.gz",
+    "bytes": 583355,
+    "sha256": "c914c99196a016205f30e7d03c8578e83a7bd7c4d567014ed27f7a4e356de484"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed11-mixed.json.gz",
+    "bytes": 614550,
+    "sha256": "eb090064650d2c62ae86f9f979870c0c03c09792ab12e2f29b94cb406a520bd1"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed11-random.json.gz",
+    "bytes": 627377,
+    "sha256": "7ec66ddb9a32c02839abae741fb9e73568fdbae1838bcd36fda4efce35942501"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed11-resource.json.gz",
+    "bytes": 592461,
+    "sha256": "76ffe57aa8beed21e5f471014ccdf992456be5fc991be57b574358fb8d9308f3"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed11-v02.json.gz",
+    "bytes": 542845,
+    "sha256": "f5b79d109f81aa9d80d5a3d76c86a822da4014183f512a1c9aa2ee5ddc1b5628"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed11-v03.json.gz",
+    "bytes": 427662,
+    "sha256": "412b3637a5bd6b5949c0b28f089f9ec15d47804c4b4782acc24d975e291f855e"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed11-v03_arbitrary.json.gz",
+    "bytes": 430592,
+    "sha256": "e05b17ae66c4681e87687d4d2c24056e47199effda398c99db03347cfb78491d"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed11-v03_no_coverage.json.gz",
+    "bytes": 321440,
+    "sha256": "29f81c104ac3ceffe5af9f4919a675fc6c5071da3e85d0c263e58b3ac92b9594"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed11-v03_no_protection.json.gz",
+    "bytes": 508484,
+    "sha256": "7036ced13cfa4816859ddb589dc90efc1045bfc52674f7d2262fd3b183bddc01"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed11-v03_raw.json.gz",
+    "bytes": 409124,
+    "sha256": "443ad4879eebb367e9b58f5a9b3baa97486f273a40b94ff72e8f4b43c43d732c"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed11-v03_signature.json.gz",
+    "bytes": 695309,
+    "sha256": "7ce86c7bab91e76e45cef27c8292ee26befb102c2529cf1ea0229ded9da730e1"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed12-mixed.json.gz",
+    "bytes": 574488,
+    "sha256": "492a551bf15ff1bc1f66a5a8fa8dc54244da49ee08101b9ea4438c25fdae9de7"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed12-random.json.gz",
+    "bytes": 380865,
+    "sha256": "062bd1b420c8929db215b26056bec001f1f5a1ac92d9094df6fd5aba5cdbb51c"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed12-resource.json.gz",
+    "bytes": 399835,
+    "sha256": "6d0260d6279b28c3ed297199c813f684e28f1b60e1c9877fd0b46386eb9d9ce4"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed12-v02.json.gz",
+    "bytes": 548463,
+    "sha256": "e09cc26db6c23571fb4515836f087c82763d97bc491713fa2bf7e2f6de20e5c1"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed12-v03.json.gz",
+    "bytes": 299481,
+    "sha256": "3f05b73a152e83292986998c987466bb7fe8bb2e7fab5793a6c16606fda0e30d"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed12-v03_arbitrary.json.gz",
+    "bytes": 539098,
+    "sha256": "efb336afc6af1d71dd7ac43d7b44056916950fed68bc22a6aea69cdc900f13d0"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed12-v03_no_coverage.json.gz",
+    "bytes": 285832,
+    "sha256": "de135c9166719ae53c7faa8d141c3988c3afb4e18c6b4f2cea5f43c70a76ae9a"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed12-v03_no_protection.json.gz",
+    "bytes": 491576,
+    "sha256": "13f3166af99b8793e3c5d088302d7b0082e87a6a5948c04fee753fa0571509b8"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed12-v03_raw.json.gz",
+    "bytes": 324765,
+    "sha256": "e32c5142ba409ae29d4b4871dfe57b7ab16b8f6bc598aa620105ea8597a60f2f"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed12-v03_signature.json.gz",
+    "bytes": 661327,
+    "sha256": "0353558599010e76dd1a0465b5e0c6b60c22b684b5b3311d3f4c0c5700b3362a"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed13-mixed.json.gz",
+    "bytes": 405931,
+    "sha256": "7d059325ff61fd5214140e08095245f20c451b3b25c8b6bb0b3991bb9e28a2d9"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed13-random.json.gz",
+    "bytes": 521799,
+    "sha256": "5041e60bdf8eee11354253ca4f83646dc95c6b42566451933f936fdb1d6d819c"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed13-resource.json.gz",
+    "bytes": 616000,
+    "sha256": "fb6c92eb89ae49f1ed11e08f098edad6f6f99bf7fd18d517c3b9dede87c4f8c6"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed13-v02.json.gz",
+    "bytes": 472102,
+    "sha256": "c4d8b7dfb8c2642f6107e611fedea3c6856afcb5ba7ee6940edaef96c7444811"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed13-v03.json.gz",
+    "bytes": 369757,
+    "sha256": "9666fa6dc9ecbbbd7a3516e9f40c677c263a19afc542667d69bafaee553f9c83"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed14-mixed.json.gz",
+    "bytes": 339765,
+    "sha256": "b0837fba1daa9a7d5ec5256df11ea2c3856518c5c486e7623f0442542f61f520"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed14-random.json.gz",
+    "bytes": 678723,
+    "sha256": "e9852f1e9877692d554a29db44b984bab04b4fc9f0dcb028cb303ec4af3ab437"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed14-resource.json.gz",
+    "bytes": 684035,
+    "sha256": "34b8fafaac043cd0e1f9458e4d998b8e224e8cc5bf0a1d0ef2291c8588ff6525"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed14-v02.json.gz",
+    "bytes": 463308,
+    "sha256": "a11a40d0931b5d79366c20ce8b657462549ba057d017ca4c16948b7fb1e5ae19"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed14-v03.json.gz",
+    "bytes": 231311,
+    "sha256": "b611c234660c826cf84a885430f84b8e56a4f4305c88950fca427198b7f991dc"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed15-mixed.json.gz",
+    "bytes": 453757,
+    "sha256": "ea519bd4544ca035fd4025bff7c524733fb2f5f5fd658ddbd77b08ec93d95d29"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed15-random.json.gz",
+    "bytes": 481376,
+    "sha256": "287a6539734fb4c1e73a0a463db07e174c0c6170b51a037735ae973cad5c197e"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed15-resource.json.gz",
+    "bytes": 488960,
+    "sha256": "75f863b6ea202e59ae252c2d7b8c0d29e6b3f0ed7ba7b9b57d08c721be04e45f"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed15-v02.json.gz",
+    "bytes": 513029,
+    "sha256": "356094080ffad62990a4d78b48113d65864a44e5a5b40dc7270c2b8d2b022e0b"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed15-v03.json.gz",
+    "bytes": 356003,
+    "sha256": "e280926877b17f2c7b851e27f5cbe60941e2d6da4dae44bd52a232e6e3f6a9ed"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed16-mixed.json.gz",
+    "bytes": 344449,
+    "sha256": "44891f631142087188b2faa52372ef736b1b37bf4da1ab84b9cd8e9d41c51d97"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed16-random.json.gz",
+    "bytes": 620348,
+    "sha256": "2946009a079f1583df337d1b526b6ae6bcc9a9f301d234589896e6914bef6709"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed16-resource.json.gz",
+    "bytes": 664686,
+    "sha256": "daabad17759ec2fe76d58068c4eb83a66bd90fe5721cc400d3785103ae63f3b7"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed16-v02.json.gz",
+    "bytes": 608931,
+    "sha256": "d4bb62c9f3b46a4fe61c53bc1fbbd0bf379738e225e014e78e8891cb93b5fed2"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed16-v03.json.gz",
+    "bytes": 472579,
+    "sha256": "dae4da7658b99e2c96d612a1a9c442f803d22925cdeeb06d367b5ed633076a3b"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed17-mixed.json.gz",
+    "bytes": 383937,
+    "sha256": "6c1510e9f3bc5b085b1afc9d09bfa15433bc3a7200ba40a5bed5704405139c40"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed17-random.json.gz",
+    "bytes": 361334,
+    "sha256": "da58fea208d253f7dcd074788cc6603b41dd304c3db8b14e8583eee4b061a7c6"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed17-resource.json.gz",
+    "bytes": 414351,
+    "sha256": "0f75c99756b64596892bb4ef074135e1a01adcaab55268240abbb52240794b79"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed17-v02.json.gz",
+    "bytes": 459528,
+    "sha256": "7c7c53e70df8e4ac1ca5a9bd7c6310145ec554d2f965e1712b44d92ff56e2d98"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed17-v03.json.gz",
+    "bytes": 276370,
+    "sha256": "cb573b6f9f7d2598393b9b32c36ee5e45abcb9107aa825ca868fb4a4777bbddb"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed18-mixed.json.gz",
+    "bytes": 471669,
+    "sha256": "f17bf30791f0d556b1bcfc22652cf0067b3685fd3f8d8005e475b996417ebfd2"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed18-random.json.gz",
+    "bytes": 669181,
+    "sha256": "d776e67c221c74449705f040fd27a9a9be6cbb1b4d3efc478019100e31d5907f"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed18-resource.json.gz",
+    "bytes": 615329,
+    "sha256": "943dd20082b82397e477e04d9d1622330acc53cfec9fa35a4115291fd6631c59"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed18-v02.json.gz",
+    "bytes": 584245,
+    "sha256": "d710a60675c897e29ec83ddb7e9ef315c0fabc667040a830d9e92812ab1b7c34"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed18-v03.json.gz",
+    "bytes": 574802,
+    "sha256": "46959754bd3501f01e045f87c89df5d487d0768f69840eaf315dfb4ac9558b67"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed19-mixed.json.gz",
+    "bytes": 329410,
+    "sha256": "9617e44c162bca929dbe62e271cbcae392549b420176ec26c937d7f674c10732"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed19-random.json.gz",
+    "bytes": 518087,
+    "sha256": "4b4b95d5215ba5bd9630f19749a0145d598ab7e0af95fe4d20d9c095abded831"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed19-resource.json.gz",
+    "bytes": 702952,
+    "sha256": "0228cb66cc6d7e1a8f55df6d21bce0e2587d8480fed8cbeafafe061667a90c46"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed19-v02.json.gz",
+    "bytes": 483087,
+    "sha256": "9ddc2832d943fa184f637ab85aac3d52f7b9cc2eb72770d2df3aa2eb2f95fb36"
+  },
+  {
+    "file": "results/development_v2/raw/simplex15_k7-Z-seed19-v03.json.gz",
+    "bytes": 400987,
+    "sha256": "cc6d6632646d7f635c10d4e3276644dc8b4c66d54de42cd90696df0bbb95a7ae"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed10-mixed.json.gz",
+    "bytes": 94466,
+    "sha256": "55f097186722872d6b0865bda8ecba0aa8635666e832e3d2fc39f7a5b14cc66e"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed10-random.json.gz",
+    "bytes": 143231,
+    "sha256": "55967890cef43b8fbb799f4b33d6ec9686811acd018f309b1b669ae85042170e"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed10-resource.json.gz",
+    "bytes": 114535,
+    "sha256": "ab0f9b143fa47a0340f1669210b78ee9969dccba5bc4afc15301995004087835"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed10-v02.json.gz",
+    "bytes": 117023,
+    "sha256": "5ff286143d30e4d4172f338916a974c5145cf9599893e116df0dbcebb5e9973b"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed10-v03.json.gz",
+    "bytes": 74605,
+    "sha256": "4112f4156963d528402ae40d4eec08c0eda1d8a1ca11a68cb684ac80164208a8"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed10-v03_arbitrary.json.gz",
+    "bytes": 120758,
+    "sha256": "198db26790bbf19e1a0ac2653db4686dff39368a9b77ac806c7d7f6df35d7afa"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed10-v03_no_coverage.json.gz",
+    "bytes": 75471,
+    "sha256": "cd8a89e63d7b66d62675a94ba82e5e86830732467e7afbde40b7a002d0c1b768"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed10-v03_no_protection.json.gz",
+    "bytes": 75217,
+    "sha256": "e1588fbfa83b273f7c4f7340ce0ba48aba017d3be0370ac4ff7f95dd5635e205"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed10-v03_raw.json.gz",
+    "bytes": 67335,
+    "sha256": "7f8d907fd1d722e7ae1132015cad8e055b72072dfef8f946b7951a701bf18422"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed10-v03_signature.json.gz",
+    "bytes": 218412,
+    "sha256": "5a457250d9cce82b7546acf5c9d1f04629436f0608f86b5562fb479f91b61f3f"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed11-mixed.json.gz",
+    "bytes": 84332,
+    "sha256": "f5604ea8f63099a9f4710cf2077d9cc20569d9705892cf4d348da15de9088535"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed11-random.json.gz",
+    "bytes": 154715,
+    "sha256": "2a9cb9db0e089b12d68eb8b6d67302a47e1e7a0e433db45d25077ad87099058c"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed11-resource.json.gz",
+    "bytes": 193475,
+    "sha256": "88f2f72aec8324fd8d92aea1c0002a421d8df727d2d7a0aedbc5926c077528c4"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed11-v02.json.gz",
+    "bytes": 123733,
+    "sha256": "f1d8c481177e60b72a567c85da5112d2a7e0422a4529b8c1b66a7dc9e1108016"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed11-v03.json.gz",
+    "bytes": 95368,
+    "sha256": "fe11e1a9900bd6452938420f52d1bc8520284839bb9172abee7a3dfabf3eec19"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed11-v03_arbitrary.json.gz",
+    "bytes": 103342,
+    "sha256": "7311e356502868065f69306dcbf31a9a8861056b95b0102581d5cd6fc665df81"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed11-v03_no_coverage.json.gz",
+    "bytes": 60214,
+    "sha256": "cc4232715216845a8f7f7b7a843c4aaf8fe0ae84261bb06aedabfaac1c7f9ce3"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed11-v03_no_protection.json.gz",
+    "bytes": 147784,
+    "sha256": "56c5156cc0c6d38a2cc4a58390c827158e6a944ccd488ee2a6454edc4f9dc1c2"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed11-v03_raw.json.gz",
+    "bytes": 109372,
+    "sha256": "b2a1f883e25f040d2874c5564d6ae5935b1b2b0cf73109171060ebdbdd5273c9"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed11-v03_signature.json.gz",
+    "bytes": 191176,
+    "sha256": "c7ff607483709992eafc04e160d39c793ae1961bac49608c3e3f0e5b8d70e64b"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed12-mixed.json.gz",
+    "bytes": 98461,
+    "sha256": "1fcf5e8fd7075631ca98eaa926221fad997d76fc61f78dd0467dbe1da3238571"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed12-random.json.gz",
+    "bytes": 94057,
+    "sha256": "05d39bb9e942dc4d116fde77f56a85e30896baf0df83b18102caa2d51f112b09"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed12-resource.json.gz",
+    "bytes": 165425,
+    "sha256": "80653dbf7be3665a8428402b56ca93e9b84e186814ec920f8d3ecb573994c764"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed12-v02.json.gz",
+    "bytes": 127381,
+    "sha256": "88501f426d252834246c06d2b312badf023ad81123bff380d2ebfc71c58bcef9"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed12-v03.json.gz",
+    "bytes": 112801,
+    "sha256": "762402b24a80da92738423900ce166e0660a7d284a7d5354cf077eb416b27c24"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed12-v03_arbitrary.json.gz",
+    "bytes": 179115,
+    "sha256": "c5cd6904e6134585d4721d0509cd47a0db2447df3cdea1684a14a00138118405"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed12-v03_no_coverage.json.gz",
+    "bytes": 100619,
+    "sha256": "c393a0a967b56f2817e2b6d9a8071031b28297a4cb678a9a349ed55ef3eb20e1"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed12-v03_no_protection.json.gz",
+    "bytes": 74068,
+    "sha256": "479823c9bc222b7c2a0aefe8908eba68b46619411410084cadc9307e35524d73"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed12-v03_raw.json.gz",
+    "bytes": 196911,
+    "sha256": "f114083d2321278a85440e06c766ef6dcb315275bda1d0f4d81b7b60ee4b87b8"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed12-v03_signature.json.gz",
+    "bytes": 111126,
+    "sha256": "119b14b82097bd339ff73962c9842849d38f7c78a3115972eb81dc75b8f75edd"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed13-mixed.json.gz",
+    "bytes": 160457,
+    "sha256": "f16e5d2eb111670a58cee1d33eaf5bf2edd8d5347fb1996ed955dba943b0b817"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed13-random.json.gz",
+    "bytes": 200462,
+    "sha256": "7afa550cef1e1be88bebdba3d5970e343ee313ae8634a5e4e2121d39912c9e2a"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed13-resource.json.gz",
+    "bytes": 194709,
+    "sha256": "8c540c03fff92d3b54e8bf1240b7d08eaaa0bfbb6e5bb7db3b349198f331489a"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed13-v02.json.gz",
+    "bytes": 137501,
+    "sha256": "5fa417416cecfb856cee4c793d7f2e55237cff5893f6af6d31190533a9ab43b4"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed13-v03.json.gz",
+    "bytes": 97232,
+    "sha256": "6431b7af51d51cb2585bf212e860ecaef40d4bb4eb8baab62d25691f7718668f"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed14-mixed.json.gz",
+    "bytes": 170251,
+    "sha256": "7d0c862e560a52aec136a4409d0a027d7696c3ac806b41e146b4b31ca435fe99"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed14-random.json.gz",
+    "bytes": 268995,
+    "sha256": "d8170d6fbcdedd21e14b4333c1834ad1cbc0537f3749fe6ab32b98d238708c9b"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed14-resource.json.gz",
+    "bytes": 240258,
+    "sha256": "8f4e7683574c9990f82b166bc97801d9d53a614ee59d72920ecc465ae2abd80b"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed14-v02.json.gz",
+    "bytes": 228038,
+    "sha256": "26aa595885113b6d364040983542b22a8e017e2cce88ac1adf1085186d672854"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed14-v03.json.gz",
+    "bytes": 185986,
+    "sha256": "fdd20d50ff5990c639a781cfe7416a74f70e3a47aa67b8a05186b3cbd0be089b"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed15-mixed.json.gz",
+    "bytes": 89143,
+    "sha256": "02245cf172b1f08ee68abb5c165daf7e9abd832899e6c66f1f6c856033f0bfc4"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed15-random.json.gz",
+    "bytes": 200042,
+    "sha256": "cd5582666597aad1ce29b72d7a6aeafbb67f0ff5d1e4772ff21c88fc8e574ce0"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed15-resource.json.gz",
+    "bytes": 217402,
+    "sha256": "a7861cd317d983c152b5a92388899e3ac1e8bda2e20ee4b150fd55e6ba8d4e3a"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed15-v02.json.gz",
+    "bytes": 220225,
+    "sha256": "522bf34235b4f8dc9f330fd6783538453a2cc0926f8ff186e491fbbb05533be2"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed15-v03.json.gz",
+    "bytes": 160827,
+    "sha256": "42cc565df73a270e7e031402237d6d5e1adb5ba3636a67a760fde1d231445311"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed16-mixed.json.gz",
+    "bytes": 119837,
+    "sha256": "d06e22f97aef8de8beeeb6269ad966af6e46fc1d7f14ac8b38c61b419468efdc"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed16-random.json.gz",
+    "bytes": 161684,
+    "sha256": "3da19583f6b4565669ed69afe00cda3f660eaf5343d0e8d3033d1590cf2fbc04"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed16-resource.json.gz",
+    "bytes": 142939,
+    "sha256": "6a4aafcf3a85f77ac329f8af4a0b44dd4761421db713d09cc922b0895fbd9608"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed16-v02.json.gz",
+    "bytes": 170452,
+    "sha256": "88261bd29b48d2ec78e96fb55efcf7d0b1069e1644f26d0520ea31804b5acd96"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed16-v03.json.gz",
+    "bytes": 105949,
+    "sha256": "b1f39fc15c7e8fcbf87ef60842b794b6750130f2218c7ad19cab178f6e7ea471"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed17-mixed.json.gz",
+    "bytes": 175047,
+    "sha256": "83b80e0a53267f9495a149a37b541009cf6748746758dac95184fe9978ff03ee"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed17-random.json.gz",
+    "bytes": 170752,
+    "sha256": "ec15d00fda4f877799813120d656755535ed21ad0d19bf8bd185916a5eccf405"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed17-resource.json.gz",
+    "bytes": 188722,
+    "sha256": "fb90d10bb26e9e713bfaa18cbfa055beb73c4b6a199a28bc240b751ffdce0aea"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed17-v02.json.gz",
+    "bytes": 150441,
+    "sha256": "2ad27019c38a7d1a888b57c121062833d876bbe342e6d82c25c563c623a2e05d"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed17-v03.json.gz",
+    "bytes": 146679,
+    "sha256": "5969314066729d9f8a23e68f3cfb66daa9b71379d4f76da8425d4f008ceff181"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed18-mixed.json.gz",
+    "bytes": 110147,
+    "sha256": "376b859923d6a305d99097130fd39e5f15b73855cb812d99722e15e9b59ad8d5"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed18-random.json.gz",
+    "bytes": 163962,
+    "sha256": "fda4d5d8429777fd6fd1a97c2e3c9c5f631f081fbc30dc6297b2ec9c107cf908"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed18-resource.json.gz",
+    "bytes": 123811,
+    "sha256": "f0911c466d652a4b973dfbc527c1333cfa08eedb1345ad372ca821f5df97c025"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed18-v02.json.gz",
+    "bytes": 135102,
+    "sha256": "4e5453770ddc7328c3d62b1064ac55e76c87cea49270de026782d5a665d3b4f4"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed18-v03.json.gz",
+    "bytes": 95942,
+    "sha256": "f750dd6d8b71310d455ecb39c6237ef25e0ebc6b9a870d1e7c2e95a5aecc6d4b"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed19-mixed.json.gz",
+    "bytes": 62829,
+    "sha256": "a2aa5b237db16813b789b36221cf266e7823d2b46c7b52b569a28ed0dbe40b21"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed19-random.json.gz",
+    "bytes": 159614,
+    "sha256": "400676ecb3b2c6d8410a5f99f20633aacd33a16cebd2d4eb06c73461c07559c8"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed19-resource.json.gz",
+    "bytes": 188126,
+    "sha256": "4dc64a8e8a8a858791fbdf0f7e055e162abee36496f3bd1e2a22402e173b0a93"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed19-v02.json.gz",
+    "bytes": 131358,
+    "sha256": "98ad767a4fdcbda2a299f5b8ab798142282e6385e28998f1cae6188a5311fddd"
+  },
+  {
+    "file": "results/development_v2/raw/steane14_sum-Z-seed19-v03.json.gz",
+    "bytes": 75050,
+    "sha256": "71b06655e2406a46221d798bee5dc7d4a5f2a35365f0c81790bbfa3568ae6467"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed10-mixed.json.gz",
+    "bytes": 70288,
+    "sha256": "76d8d1c425536f9d50c1aadb615e38222b9f4f8fc3036ecd2abeabac2873a263"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed10-random.json.gz",
+    "bytes": 187690,
+    "sha256": "94e0fc7702dd7cd3fb391903a1a8763b764b7058d5d821bd8ff9baa99174dc92"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed10-resource.json.gz",
+    "bytes": 212479,
+    "sha256": "805ca6d6941e1c631604bc366896a51e5945d3e7adbbbaa71b5a1453bb66a9ad"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed10-v02.json.gz",
+    "bytes": 183217,
+    "sha256": "6c9845d9ee7d2a22bb90ac271866db21e2a7883d4579353cd02d3edfa9e68358"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed10-v03.json.gz",
+    "bytes": 103865,
+    "sha256": "794c349f7d51f782240e0b61d5f9624a809685c0e3215e8f955fc6c6346d8c31"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed10-v03_arbitrary.json.gz",
+    "bytes": 139362,
+    "sha256": "8505eec4442b06f279bc3262916bac7e511ef7d8b9360c92908f935b9a24d95d"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed10-v03_no_coverage.json.gz",
+    "bytes": 85627,
+    "sha256": "1c3b7efbd4b7afd0242a519e8e4038de9db44ab87e59f34e9b51414b0541e737"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed10-v03_no_protection.json.gz",
+    "bytes": 150447,
+    "sha256": "b586852df87933e787b1bdf549f4df2e64984576f37febf37c552a14546522a0"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed10-v03_raw.json.gz",
+    "bytes": 137663,
+    "sha256": "2d2552b5c1266b282237b72c110d85f356877b6fc38bc1743c5aeb0d4637c7e5"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed10-v03_signature.json.gz",
+    "bytes": 263000,
+    "sha256": "c7458619450f729d2fecd6cc1f88677b20a46b6371afac5e3a97c53712737b92"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed11-mixed.json.gz",
+    "bytes": 125991,
+    "sha256": "b09e517e31b20297cd8406e8e0f23d6155b8bbf1034db27630543b7a464fc2e7"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed11-random.json.gz",
+    "bytes": 168144,
+    "sha256": "a080f6da3d379bf46c8b2ff1b09c221db7150ec02557875068e40caca97ddab1"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed11-resource.json.gz",
+    "bytes": 156988,
+    "sha256": "8f2e1fea97e04c9ed2d3f10d1a28e30e6bb8e6543f5741a7d477305cab3e1bdd"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed11-v02.json.gz",
+    "bytes": 152217,
+    "sha256": "79c4847e766060e65d1bc062408cec68d0db4fce94c9d6c039cb42d7126b9863"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed11-v03.json.gz",
+    "bytes": 166545,
+    "sha256": "6b1de7765450dfaa3ba7a87187a60e53e465cbfe0ac2bb3b133e9f5261530ac5"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed11-v03_arbitrary.json.gz",
+    "bytes": 175109,
+    "sha256": "8b6e2e74caf5755deaa7d1ea276ab1f31f4fe0b91a20c6950ff343ced9d38a51"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed11-v03_no_coverage.json.gz",
+    "bytes": 180371,
+    "sha256": "7c53184e2f4b7b525b4278c113313bc341f4e9aaa009130efd9af85e2bb4e4c8"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed11-v03_no_protection.json.gz",
+    "bytes": 151151,
+    "sha256": "b94121e5ee8693076f669f2c5ec5b1277347846c3316e0e37f6dc5cdcaa2d5c5"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed11-v03_raw.json.gz",
+    "bytes": 82173,
+    "sha256": "d7403bacffde7fb47c143f8731615e2721acc88fd3ce25d68874b9ddabe3c50f"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed11-v03_signature.json.gz",
+    "bytes": 224409,
+    "sha256": "7aaaf618788c5202b22e6d4f2fe2ff1415fd7ca3c3411647c51a20315be2e644"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed12-mixed.json.gz",
+    "bytes": 142855,
+    "sha256": "2cd51ae041a3b6bf75e5d19ca789b1f83189a99bf3ebbe790af96dcbb9f1464e"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed12-random.json.gz",
+    "bytes": 149957,
+    "sha256": "48e3c1705244ea6f41f5178967e9505d73a23ac2bf2d4e7e6cfee418ea0988d2"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed12-resource.json.gz",
+    "bytes": 232717,
+    "sha256": "5c18ea5f5d0510aa05dd9bb336b44f434b2a178e3204fdfd3bf8fe1993092ff6"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed12-v02.json.gz",
+    "bytes": 203282,
+    "sha256": "713120328cb1ca9dbb29f13278f188fe877a3eb2c07e200421da19b44adcdf1c"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed12-v03.json.gz",
+    "bytes": 146453,
+    "sha256": "f28b9af548c812091a3d3b5e231e1d84f4e189d21ffcd8222470db9909756365"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed12-v03_arbitrary.json.gz",
+    "bytes": 148474,
+    "sha256": "b77e348712d1f1a50d29b9b059f9d580ccf8f5323c5ae20c740ea1dd9274a9f5"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed12-v03_no_coverage.json.gz",
+    "bytes": 82256,
+    "sha256": "ed7ff866deddf0c319ee784db459b14967a7c60395bb9fe6900336eaf5641384"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed12-v03_no_protection.json.gz",
+    "bytes": 158884,
+    "sha256": "1f6fb4ae624e9bd68f9f38a3f2ed6388c98220316b6aba384fcbc8bc15573f90"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed12-v03_raw.json.gz",
+    "bytes": 146483,
+    "sha256": "25d5f14009bf36ccc2ca5e7ab966c474aee8cbc8b3489707f17878e420e6c253"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed12-v03_signature.json.gz",
+    "bytes": 151386,
+    "sha256": "0377670e5f1e65f27e6a346e7343f0570a1dfd5a9ee6043c14d6257078fd2876"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed13-mixed.json.gz",
+    "bytes": 114444,
+    "sha256": "2b63170c29915f96cab8fc828cb303a2d7f0dbb5897526ea93f9cc0c04a4ab35"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed13-random.json.gz",
+    "bytes": 158458,
+    "sha256": "6df095fc9c9d973e301325af95be6d23baf3aacd034384443518dbaedea42a13"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed13-resource.json.gz",
+    "bytes": 178528,
+    "sha256": "720a6b25021a3b06a5e94f72be77658c8ed4722763583bb4b4ecfe6f47f3a550"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed13-v02.json.gz",
+    "bytes": 132578,
+    "sha256": "93e70628c70854b759d6a0d8be6833a96ebe508158c294244770fea3da4702bc"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed13-v03.json.gz",
+    "bytes": 158499,
+    "sha256": "854dd748dd4a8d25c2376743a1ed2eb221b1b809f8513f479ea14418fed2d4ee"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed14-mixed.json.gz",
+    "bytes": 156238,
+    "sha256": "5f96578dbcae2f286db96be11bd4ef98657bb0d6e837ce59a873244ba6a5fb77"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed14-random.json.gz",
+    "bytes": 238167,
+    "sha256": "f9709d4b2e922e37c33501c8ab3debfed5eb4c4d454ed734c6b0c22d690443a2"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed14-resource.json.gz",
+    "bytes": 152438,
+    "sha256": "75b18b1d5029a64299a14622787fc0ac8180c583cafcf998c74d07ef9d927dec"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed14-v02.json.gz",
+    "bytes": 178464,
+    "sha256": "a884a937b4d24fb290654bd77d8267dfc55bb527503f4e4ad32e99a1a261cf5c"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed14-v03.json.gz",
+    "bytes": 117917,
+    "sha256": "476f8263a5f5548c4d3d1f77b99f894444912cbe2202e2cae0a00b3f5b5ba5bf"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed15-mixed.json.gz",
+    "bytes": 208314,
+    "sha256": "7d4c4618fe325f51bd5379f6f2ead8743bef8259228ea14b1bf991c391f92f6d"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed15-random.json.gz",
+    "bytes": 201914,
+    "sha256": "2d08957749a45ce8731e906fb13b240f6a415f0b4fc4422c62975d11ae38389c"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed15-resource.json.gz",
+    "bytes": 231984,
+    "sha256": "94c646276a5db076ce1be97f8a891718cf4daf4a46d09a5402b343357a170415"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed15-v02.json.gz",
+    "bytes": 206253,
+    "sha256": "85de8ca236c2e3d33749476093b99729cdcc4c23c6628b0e0f3d45257e828a92"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed15-v03.json.gz",
+    "bytes": 178234,
+    "sha256": "42ac5b066310d49a2b72f051c49bf8a597506790db0c5ff972d1916245c871eb"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed16-mixed.json.gz",
+    "bytes": 192891,
+    "sha256": "cf22ee79cb0abb819c4a60f70b5a38ff896625e3f99934c1bed2e03ce44a9b8e"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed16-random.json.gz",
+    "bytes": 230502,
+    "sha256": "b6976abd28881f37003d7ec779310027e9a5fa74aedd7e4e9ff1b794a1f27b9f"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed16-resource.json.gz",
+    "bytes": 208305,
+    "sha256": "f6ddea934ca5f2bccfacf75f639e826e4c45a99c015d1ab337ec4614ed0a6a0d"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed16-v02.json.gz",
+    "bytes": 172140,
+    "sha256": "8a9b898ed28daf21e40f6985ad94ab96dc844450d3fc38be585744f78c7e407d"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed16-v03.json.gz",
+    "bytes": 175311,
+    "sha256": "3a2cf8d30cc8a9c91750a3ad2dc03ac76990057869bee37f6f7a42628b7db63f"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed17-mixed.json.gz",
+    "bytes": 156295,
+    "sha256": "81e1b70dc42e961d01424734a23f88aa683a59f64ec66c7146215e7bc55cd703"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed17-random.json.gz",
+    "bytes": 244955,
+    "sha256": "9ffa7f3686adfefdda9f8cc670592289f70e0cb4b8503912ade4fc3102bbeeaf"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed17-resource.json.gz",
+    "bytes": 251903,
+    "sha256": "45a7be0128fb521d4355b17440c8fde7def4fc681cd3ce98f37632e9123368a3"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed17-v02.json.gz",
+    "bytes": 238336,
+    "sha256": "e350f5cc5b21239bd33fca3547262c55a6c6f5ce9f2d6b3040a832d7632a6795"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed17-v03.json.gz",
+    "bytes": 189460,
+    "sha256": "08cc7d67a6bc837db713b1d47083ed0eca957f48583ff5df2fbe3c530669ce29"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed18-mixed.json.gz",
+    "bytes": 150069,
+    "sha256": "35a4568662706d0ebb7b623e99272ac6190d457ff3c7b27425f604a4f811bee6"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed18-random.json.gz",
+    "bytes": 144191,
+    "sha256": "a1edf88def3e88f69e644c8925a0ad9ca5621863c629eab25341729001830f4f"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed18-resource.json.gz",
+    "bytes": 170635,
+    "sha256": "267cfb7d98228eee0244837bfbe179461334e47e23d1c333fd39b96bbfca7792"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed18-v02.json.gz",
+    "bytes": 92591,
+    "sha256": "f7b2b575bd7328d25801b399a5931be55093b749ab2ee33a153bf789452697cc"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed18-v03.json.gz",
+    "bytes": 66904,
+    "sha256": "f31d76f2a725579c36d68e2892d46f30d2f0d86697e44f586a7d2f6cc418ea90"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed19-mixed.json.gz",
+    "bytes": 107706,
+    "sha256": "f16728a0058b826c4a3ae01ffd9e4a9c81574cac2233d5cfe0b31caa8fdb231e"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed19-random.json.gz",
+    "bytes": 262558,
+    "sha256": "8f6ed3bec769a79fabac6d0c4180e859d58c4e520e8f9f6506d34200d71eee14"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed19-resource.json.gz",
+    "bytes": 204602,
+    "sha256": "4a809b7b9d3238539c84cdbbbf73c59293bd7ea26639967d58ac7ea0af80fc41"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed19-v02.json.gz",
+    "bytes": 240159,
+    "sha256": "13b7123d5baeea87c2b3154a3887e51ab56ea07b1be4360b82dc46dabb44a903"
+  },
+  {
+    "file": "results/development_v2/raw/steane7-X-seed19-v03.json.gz",
+    "bytes": 179269,
+    "sha256": "7752cedcde16badc870bcc167accf7e9a4a9a4d81a9dba111a41b1ae00cbc8fc"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed10-mixed.json.gz",
+    "bytes": 188489,
+    "sha256": "c588d377402264b7083c72e99a5209d75c558832e2013569b718ebbac26551a5"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed10-random.json.gz",
+    "bytes": 223144,
+    "sha256": "67e25640bba7e3c46f4d6f92684cad97e1c30e36ce1ed46c1dbed54e36bfba9b"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed10-resource.json.gz",
+    "bytes": 279995,
+    "sha256": "f357e7905007664c7f689fcffa48817525db720fa672f6d65177099868eebf4b"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed10-v02.json.gz",
+    "bytes": 227484,
+    "sha256": "adcb463e541da767fd64a0cc453b093de5b0a0abd3fc50e5822be17fde3fe589"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed10-v03.json.gz",
+    "bytes": 173211,
+    "sha256": "72c4d25bd3ce92a6059aff16c7e9abd8f07ac447a3adc749939e0c54147d8aff"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed10-v03_arbitrary.json.gz",
+    "bytes": 161480,
+    "sha256": "3d37875f894466d487714a24f34cd0cd86adca3e14be9843bec3b9792ebcc27f"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed10-v03_no_coverage.json.gz",
+    "bytes": 126303,
+    "sha256": "5a974b86b421ad7b14c32fba1f42cde2476a3973bee03a4562b6a0b7c8d5c65e"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed10-v03_no_protection.json.gz",
+    "bytes": 158953,
+    "sha256": "7cf59d0a34f41cf6f7dfa2ef8a86c113c62d752fc12048e871b973ff320da589"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed10-v03_raw.json.gz",
+    "bytes": 173600,
+    "sha256": "8459e4299e532a9f4c03e03747cab559fa545d112c0bf9e48d50280026b05a36"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed10-v03_signature.json.gz",
+    "bytes": 253736,
+    "sha256": "88ff40cad4046a51cc304a4dc049018b7b4b2de52addbb527711a560e29c785e"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed11-mixed.json.gz",
+    "bytes": 207486,
+    "sha256": "6c5565fb966c453c992bf0c411bc9062848b5ca2cc95e380fbb002cd39c13e0a"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed11-random.json.gz",
+    "bytes": 237794,
+    "sha256": "ee3d772381d5dca541d07bb817cd40358b1dff3a37ffeaec419891fcff765a15"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed11-resource.json.gz",
+    "bytes": 233660,
+    "sha256": "79c20109fd0766ae9091c22e667ed238388f894b4cf3ed10d0a9d45b7873c4ba"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed11-v02.json.gz",
+    "bytes": 226764,
+    "sha256": "7753e196dcf0a71e92be25a133cc9a2e9495501674b20cf428b0e3e763c8c685"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed11-v03.json.gz",
+    "bytes": 168313,
+    "sha256": "9814e161812356cb73120ae5bef7a302a7d54d23f2384a3313ead5ddd19bd3a3"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed11-v03_arbitrary.json.gz",
+    "bytes": 122691,
+    "sha256": "3b1ba7768751c0d804d69ef8d563c034812aaba69717243e050f60feaf2f91d4"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed11-v03_no_coverage.json.gz",
+    "bytes": 200423,
+    "sha256": "ddbd8adbcd5c87648e01dd59c045d1026d416bdb53dfece492a206e7b9c0abb8"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed11-v03_no_protection.json.gz",
+    "bytes": 203715,
+    "sha256": "861c172a5214763dc29b84fde3ff653b2949d788767e6c1c7d1d5aef642c24ae"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed11-v03_raw.json.gz",
+    "bytes": 213836,
+    "sha256": "fce87061e1278c41f39f9a98184d1e72c3f8e683028c926b7338204d92f269fa"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed11-v03_signature.json.gz",
+    "bytes": 248825,
+    "sha256": "ab98eae19ea8df611af5812ad77a5ea0c6251094a659ef08c61ea7c03ec6f04c"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed12-mixed.json.gz",
+    "bytes": 198326,
+    "sha256": "2e228ec19aaf16de9410f28318ed224da453b6fa16a065aa0485809900409efe"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed12-random.json.gz",
+    "bytes": 159293,
+    "sha256": "28855a1ff916a4a14397fa6d6a17eed423b09b3b83dc4d5a3b3255f984a2986a"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed12-resource.json.gz",
+    "bytes": 263536,
+    "sha256": "c76aeb932a68ae4ee5739f8b6f343ce01aed535340f2b3493dc8725bfc768a2a"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed12-v02.json.gz",
+    "bytes": 218697,
+    "sha256": "a40e53b9d7e0643b5129716aa0fc25d9b428e53ade5e17739cb9e1e8410ad6fb"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed12-v03.json.gz",
+    "bytes": 184606,
+    "sha256": "f9b6fe2c0a50dfad5784d987bf34a2eec71bc29a103a31510c125b5dbaab201c"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed12-v03_arbitrary.json.gz",
+    "bytes": 111082,
+    "sha256": "457df98fdc2455e95fb69fc321b4871d804a7ed166a4bb2d7da0db59a4ad03a9"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed12-v03_no_coverage.json.gz",
+    "bytes": 184275,
+    "sha256": "efc3177640e4bb8d9ac192e9598b5a0532ef7fbd2a508af5583d319b2a524a4c"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed12-v03_no_protection.json.gz",
+    "bytes": 153843,
+    "sha256": "a13a1dcaaeb1145d36e106dc2cc1c47cf2eb6a82f64191a7f74b2590706defd6"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed12-v03_raw.json.gz",
+    "bytes": 189050,
+    "sha256": "0c20cb0c7a90eeba2774832285d218170a48661642758d231b96c174c5fe2b5e"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed12-v03_signature.json.gz",
+    "bytes": 295837,
+    "sha256": "de4a1b0d90c991c45936715c50b889d3f6f515401cfb17d57b22d0f05e49bc63"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed13-mixed.json.gz",
+    "bytes": 163191,
+    "sha256": "23c75c3c1cedeb00f250fa01177902c759b5b2385408f4f04e6cdc27d68dcde8"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed13-random.json.gz",
+    "bytes": 204886,
+    "sha256": "a01138f8cbe8e6e9e83be885f2041d30d5089b5e0f3f73150b9bab2a60b6db71"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed13-resource.json.gz",
+    "bytes": 198018,
+    "sha256": "3a4a5fd9f270b6fe26952a4d37a02722bff434599f2a06b95385d9579a70a646"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed13-v02.json.gz",
+    "bytes": 206268,
+    "sha256": "b8b2e7221cdda3dda38622d314aaadaec18baeb4bc1e2d39c0bef6b26e2ef875"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed13-v03.json.gz",
+    "bytes": 169373,
+    "sha256": "4e1cc0cc93a5899ae4bb1171dfa06786cdad1b6780f650484b60b3f91e49ddbc"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed14-mixed.json.gz",
+    "bytes": 132084,
+    "sha256": "1c9d22d0761736bd12215e8238f1d5cabc50b6e716492612337bfcdeeb46f20d"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed14-random.json.gz",
+    "bytes": 279655,
+    "sha256": "5a63a81eeb17d62c660147af9e8bc99a6388ab7bb54b2020d1ada732f22fcdd7"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed14-resource.json.gz",
+    "bytes": 199008,
+    "sha256": "e4e5463d5ff835f04370ad8c51ac02b3a627ae0e7720efa5a127fbf1f6d89ce5"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed14-v02.json.gz",
+    "bytes": 209392,
+    "sha256": "5cb18c22a3e19eddb5086cc0f79154958b4d42ea8a5460927427435cbc6b6462"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed14-v03.json.gz",
+    "bytes": 123323,
+    "sha256": "9d1ff9de3e67ca9b38f8e7ced618c4915c1ca5bfcf5ce5ecd950ef79ae021f51"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed15-mixed.json.gz",
+    "bytes": 262834,
+    "sha256": "f3a5695fa1d55d7ffe299eaba9478e28815d526f39e5993daf5aff6578015f46"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed15-random.json.gz",
+    "bytes": 328899,
+    "sha256": "c7c7664ea67ef2162e748eb53b4f066a670d3421378c0bd0ffca29510b099381"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed15-resource.json.gz",
+    "bytes": 293873,
+    "sha256": "0cf16ef13bb30be60410c63c2233a595d426cf1926980ac8dadab049c51b7f98"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed15-v02.json.gz",
+    "bytes": 224368,
+    "sha256": "0f00f02ec42743b0aed6042c67ef215621551e4eba067d0af95da058b22633d1"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed15-v03.json.gz",
+    "bytes": 296987,
+    "sha256": "582fecb3911a3e9b5d9405820199a5d959db4a2c15958a7d51c6dbfbf3356020"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed16-mixed.json.gz",
+    "bytes": 230705,
+    "sha256": "0c43c0786d2b50b0ca897db32af21e698ff48f9b96f724db5740051677893e6b"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed16-random.json.gz",
+    "bytes": 279788,
+    "sha256": "d54ca0c21dfb356a4e4ee0221d2db2ce9bfb2d6a6c1a230d2a2ec721c7b6e466"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed16-resource.json.gz",
+    "bytes": 267140,
+    "sha256": "4ab6bfa18bff70ebb0a7df81305d419963a92ab4ca3357de573de5e2c4b211c6"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed16-v02.json.gz",
+    "bytes": 223546,
+    "sha256": "ed6d4d0fbe5f8b4d50df167633d3055b7eaba9ec081f34d455442c4147190009"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed16-v03.json.gz",
+    "bytes": 205691,
+    "sha256": "3b98e145accbfd01c80801eb39535f90f25ec56ace3e34c679e8eeacbc4ebf4f"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed17-mixed.json.gz",
+    "bytes": 200786,
+    "sha256": "6bdfe06ba2172aafb6879d421bc5d175ea25707db587aada95f11a39d9fbd4a4"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed17-random.json.gz",
+    "bytes": 266074,
+    "sha256": "951f1418ab6ef03540c0f8de132c66b1965d3f319fd0c4d676880103b7a0e836"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed17-resource.json.gz",
+    "bytes": 291175,
+    "sha256": "86c0527aa9cb044d93062e0af2ee1421466d299d1faa10867b7ac795c6e714c1"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed17-v02.json.gz",
+    "bytes": 288372,
+    "sha256": "5f749117096cfd01529f138b81c2c43a7f48261232c4c1762bdbdd993ff9e75a"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed17-v03.json.gz",
+    "bytes": 161977,
+    "sha256": "02873a9bccae2ef441c394a5e1953df288488a4a54cf81698029ecabf6a64bc6"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed18-mixed.json.gz",
+    "bytes": 176214,
+    "sha256": "b7431138ff2586cd8b83add8ac800b2f777e1bc3566dc8bd6e05ea8b6d16589a"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed18-random.json.gz",
+    "bytes": 176303,
+    "sha256": "ffbe3b13956e99c25a6c56a9d99c8c376123d817aa90c474f024adde70b638af"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed18-resource.json.gz",
+    "bytes": 241896,
+    "sha256": "3cb1e40c8c2066a262b0f29eb0d8da6bfd38e6c53f0c32624c467eca579923dc"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed18-v02.json.gz",
+    "bytes": 177694,
+    "sha256": "0537d96022e1d580a0045a3b2b424ec736566811b3620593aedd1af385aae5e4"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed18-v03.json.gz",
+    "bytes": 177294,
+    "sha256": "4c0d068f756e4d305967b5c107f9f94d46a198f4d3c563c9c71d4ef01a36434e"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed19-mixed.json.gz",
+    "bytes": 170358,
+    "sha256": "df2709985e0143a226330866ef8a29dfb160daa51c64695a3d550a27fcec0c1a"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed19-random.json.gz",
+    "bytes": 307446,
+    "sha256": "41bc739b29f9357c56cc32896509636bc831a861187f86ab6828d663d73ede3e"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed19-resource.json.gz",
+    "bytes": 322859,
+    "sha256": "a4fe6478b550ff8b2a12e0feea3921fde108a75d55ba33a0d08dcad70892425c"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed19-v02.json.gz",
+    "bytes": 294606,
+    "sha256": "6ca5706a411e33b3cff860454ee85bcde75a70bbbc7f55c89ee5a07e9d900867"
+  },
+  {
+    "file": "results/development_v2/raw/steane7_mixed-X-seed19-v03.json.gz",
+    "bytes": 186843,
+    "sha256": "5455236c94a9e5705422395849c19097506db6ef093ee9d512f391b186d9e6e2"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "diagnostic_only": true,
+  "primary_scores_unchanged": true,
+  "unique_censored_architectures": 2,
+  "records": [
+    {
+      "file": "affine15_k1-X-seed11-v03_no_coverage.json.gz",
+      "task": "affine15_k1-X",
+      "seed": 11,
+      "variant": "v03_no_coverage",
+      "node": 30,
+      "architecture_id": "c798489eb5588208fe6b",
+      "native_lower_bound": 2,
+      "physical_target": false,
+      "independent_exclusion": {
+        "verified": false,
+        "counterexample_indices": [
+          209,
+          464
+        ]
+      }
+    },
+    {
+      "file": "affine15_k1-X-seed11-v03_no_coverage.json.gz",
+      "task": "affine15_k1-X",
+      "seed": 11,
+      "variant": "v03_no_coverage",
+      "node": 32,
+      "architecture_id": "969bd634d6874bf56173",
+      "native_lower_bound": 2,
+      "physical_target": false,
+      "independent_exclusion": {
+        "verified": false,
+        "counterexample_indices": [
+          209,
+          464
+        ]
+      }
+    }
+  ]
+}

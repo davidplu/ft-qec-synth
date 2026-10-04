@@ -1,0 +1,421 @@
+[
+  {
+    "baseline": "random",
+    "endpoint": "target",
+    "pairs": 60,
+    "wins": 9,
+    "ties": 50,
+    "losses": 1,
+    "mean_oriented_difference": 0.13333333333333333,
+    "effect_95pct_seed_family_bootstrap": [
+      0,
+      0.26
+    ],
+    "p": 0.09375,
+    "family_block_sensitivity_p": 1.0,
+    "favorable_parent_codes": [
+      "simplex15_k7",
+      "steane7"
+    ],
+    "favorable_families": [
+      "simplex_css"
+    ],
+    "favorable_seeds": [
+      12,
+      13,
+      14,
+      16,
+      18
+    ],
+    "practical_margin_passed": true,
+    "generalization_spread_passed": false,
+    "p_holm": 0.65625,
+    "passes": false
+  },
+  {
+    "baseline": "random",
+    "endpoint": "evaluations",
+    "pairs": 60,
+    "wins": 10,
+    "ties": 46,
+    "losses": 4,
+    "mean_oriented_difference": 0.55,
+    "effect_95pct_seed_family_bootstrap": [
+      -1,
+      2.2
+    ],
+    "p": 0.515625,
+    "family_block_sensitivity_p": 1.0,
+    "favorable_parent_codes": [
+      "simplex15_k7",
+      "steane7"
+    ],
+    "favorable_families": [
+      "simplex_css"
+    ],
+    "favorable_seeds": [
+      10,
+      12,
+      13,
+      14,
+      16,
+      18
+    ],
+    "practical_margin_passed": false,
+    "generalization_spread_passed": false,
+    "p_holm": 1,
+    "passes": false
+  },
+  {
+    "baseline": "random",
+    "endpoint": "distance",
+    "pairs": 60,
+    "wins": 9,
+    "ties": 50,
+    "losses": 1,
+    "mean_oriented_difference": 0.13333333333333333,
+    "effect_95pct_seed_family_bootstrap": [
+      0,
+      0.26
+    ],
+    "p": 0.09375,
+    "family_block_sensitivity_p": 1.0,
+    "favorable_parent_codes": [
+      "simplex15_k7",
+      "steane7"
+    ],
+    "favorable_families": [
+      "simplex_css"
+    ],
+    "favorable_seeds": [
+      12,
+      13,
+      14,
+      16,
+      18
+    ],
+    "practical_margin_passed": true,
+    "generalization_spread_passed": false,
+    "p_holm": 0.65625,
+    "passes": false
+  },
+  {
+    "baseline": "random",
+    "endpoint": "qd",
+    "pairs": 60,
+    "wins": 6,
+    "ties": 27,
+    "losses": 27,
+    "mean_oriented_difference": -330.1333333333333,
+    "effect_95pct_seed_family_bootstrap": [
+      -906.6,
+      -142.8
+    ],
+    "p": 0.001953125,
+    "family_block_sensitivity_p": 0.5,
+    "favorable_parent_codes": [
+      "affine15_k1",
+      "simplex15_k7",
+      "steane7"
+    ],
+    "favorable_families": [
+      "affine_css",
+      "simplex_css"
+    ],
+    "favorable_seeds": [
+      12,
+      14,
+      15,
+      17,
+      18,
+      19
+    ],
+    "practical_margin_passed": false,
+    "generalization_spread_passed": true,
+    "p_holm": 0.0234375,
+    "passes": false
+  },
+  {
+    "baseline": "resource",
+    "endpoint": "target",
+    "pairs": 60,
+    "wins": 13,
+    "ties": 47,
+    "losses": 0,
+    "mean_oriented_difference": 0.21666666666666667,
+    "effect_95pct_seed_family_bootstrap": [
+      0,
+      0.32
+    ],
+    "p": 0.0078125,
+    "family_block_sensitivity_p": 1.0,
+    "favorable_parent_codes": [
+      "simplex15_k7",
+      "steane7"
+    ],
+    "favorable_families": [
+      "simplex_css"
+    ],
+    "favorable_seeds": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      19
+    ],
+    "practical_margin_passed": true,
+    "generalization_spread_passed": false,
+    "p_holm": 0.078125,
+    "passes": false
+  },
+  {
+    "baseline": "resource",
+    "endpoint": "evaluations",
+    "pairs": 60,
+    "wins": 13,
+    "ties": 47,
+    "losses": 0,
+    "mean_oriented_difference": 2.033333333333333,
+    "effect_95pct_seed_family_bootstrap": [
+      0,
+      3.2
+    ],
+    "p": 0.0078125,
+    "family_block_sensitivity_p": 1.0,
+    "favorable_parent_codes": [
+      "simplex15_k7",
+      "steane7"
+    ],
+    "favorable_families": [
+      "simplex_css"
+    ],
+    "favorable_seeds": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      19
+    ],
+    "practical_margin_passed": false,
+    "generalization_spread_passed": false,
+    "p_holm": 0.078125,
+    "passes": false
+  },
+  {
+    "baseline": "resource",
+    "endpoint": "distance",
+    "pairs": 60,
+    "wins": 13,
+    "ties": 47,
+    "losses": 0,
+    "mean_oriented_difference": 0.21666666666666667,
+    "effect_95pct_seed_family_bootstrap": [
+      0,
+      0.32
+    ],
+    "p": 0.0078125,
+    "family_block_sensitivity_p": 1.0,
+    "favorable_parent_codes": [
+      "simplex15_k7",
+      "steane7"
+    ],
+    "favorable_families": [
+      "simplex_css"
+    ],
+    "favorable_seeds": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      19
+    ],
+    "practical_margin_passed": true,
+    "generalization_spread_passed": false,
+    "p_holm": 0.078125,
+    "passes": false
+  },
+  {
+    "baseline": "resource",
+    "endpoint": "qd",
+    "pairs": 60,
+    "wins": 2,
+    "ties": 9,
+    "losses": 49,
+    "mean_oriented_difference": -434.18333333333334,
+    "effect_95pct_seed_family_bootstrap": [
+      -806.1,
+      -318.1
+    ],
+    "p": 0.001953125,
+    "family_block_sensitivity_p": 0.5,
+    "favorable_parent_codes": [
+      "affine15_k1",
+      "steane7"
+    ],
+    "favorable_families": [
+      "affine_css",
+      "simplex_css"
+    ],
+    "favorable_seeds": [
+      18,
+      19
+    ],
+    "practical_margin_passed": false,
+    "generalization_spread_passed": false,
+    "p_holm": 0.0234375,
+    "passes": false
+  },
+  {
+    "baseline": "v02",
+    "endpoint": "target",
+    "pairs": 60,
+    "wins": 13,
+    "ties": 41,
+    "losses": 6,
+    "mean_oriented_difference": 0.11666666666666667,
+    "effect_95pct_seed_family_bootstrap": [
+      0,
+      0.23333333333333334
+    ],
+    "p": 0.125,
+    "family_block_sensitivity_p": 1.0,
+    "favorable_parent_codes": [
+      "simplex15_k7",
+      "steane7"
+    ],
+    "favorable_families": [
+      "simplex_css"
+    ],
+    "favorable_seeds": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      19
+    ],
+    "practical_margin_passed": true,
+    "generalization_spread_passed": false,
+    "p_holm": 0.65625,
+    "passes": false
+  },
+  {
+    "baseline": "v02",
+    "endpoint": "evaluations",
+    "pairs": 60,
+    "wins": 13,
+    "ties": 41,
+    "losses": 6,
+    "mean_oriented_difference": -0.36666666666666664,
+    "effect_95pct_seed_family_bootstrap": [
+      -2.1666666666666665,
+      1.16
+    ],
+    "p": 0.71875,
+    "family_block_sensitivity_p": 1.0,
+    "favorable_parent_codes": [
+      "simplex15_k7",
+      "steane7"
+    ],
+    "favorable_families": [
+      "simplex_css"
+    ],
+    "favorable_seeds": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      19
+    ],
+    "practical_margin_passed": false,
+    "generalization_spread_passed": false,
+    "p_holm": 1,
+    "passes": false
+  },
+  {
+    "baseline": "v02",
+    "endpoint": "distance",
+    "pairs": 60,
+    "wins": 13,
+    "ties": 41,
+    "losses": 6,
+    "mean_oriented_difference": 0.11666666666666667,
+    "effect_95pct_seed_family_bootstrap": [
+      0,
+      0.23333333333333334
+    ],
+    "p": 0.125,
+    "family_block_sensitivity_p": 1.0,
+    "favorable_parent_codes": [
+      "simplex15_k7",
+      "steane7"
+    ],
+    "favorable_families": [
+      "simplex_css"
+    ],
+    "favorable_seeds": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      19
+    ],
+    "practical_margin_passed": true,
+    "generalization_spread_passed": false,
+    "p_holm": 0.65625,
+    "passes": false
+  },
+  {
+    "baseline": "v02",
+    "endpoint": "qd",
+    "pairs": 60,
+    "wins": 9,
+    "ties": 37,
+    "losses": 14,
+    "mean_oriented_difference": -35.9,
+    "effect_95pct_seed_family_bootstrap": [
+      -315.2,
+      121.2
+    ],
+    "p": 0.20703125,
+    "family_block_sensitivity_p": 0.5,
+    "favorable_parent_codes": [
+      "affine15_k1",
+      "simplex15_k7",
+      "steane7"
+    ],
+    "favorable_families": [
+      "affine_css",
+      "simplex_css"
+    ],
+    "favorable_seeds": [
+      10,
+      11,
+      14,
+      15,
+      17,
+      18
+    ],
+    "practical_margin_passed": false,
+    "generalization_spread_passed": true,
+    "p_holm": 0.65625,
+    "passes": false
+  }
+]

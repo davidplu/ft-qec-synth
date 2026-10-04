@@ -1,0 +1,10 @@
+{
+  "runs": 390,
+  "counts": {
+    "minimum_witnesses": 7768,
+    "class_representatives": 1356861,
+    "architectures": 7914,
+    "nontrivial_exclusions": 7592,
+    "gain_events": 154
+  }
+}

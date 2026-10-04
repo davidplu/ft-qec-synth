@@ -1,0 +1,80 @@
+[
+  {
+    "task": "affine15_k1-X",
+    "n": 15,
+    "check_count": 14,
+    "rounds": 3,
+    "max_fault_weight": 3,
+    "evaluation_slots_per_sec": 2.9971805971714067,
+    "unique_architectures_per_sec": 2.7648991008906227,
+    "examined_fault_combinations_per_sec": 6134737.538680853,
+    "certification_seconds": 18.06189740006812,
+    "spectrum_seconds": 381.5944107979303,
+    "peak_working_set_bytes": 212389888
+  },
+  {
+    "task": "steane14_sum-Z",
+    "n": 14,
+    "check_count": 12,
+    "rounds": 3,
+    "max_fault_weight": 3,
+    "evaluation_slots_per_sec": 4.589186969308558,
+    "unique_architectures_per_sec": 4.233524979187144,
+    "examined_fault_combinations_per_sec": 6084854.307476183,
+    "certification_seconds": 16.13904179749079,
+    "spectrum_seconds": 244.6528810984455,
+    "peak_working_set_bytes": 212389888
+  },
+  {
+    "task": "steane7-X",
+    "n": 7,
+    "check_count": 6,
+    "rounds": 3,
+    "max_fault_weight": 3,
+    "evaluation_slots_per_sec": 12.839049764411818,
+    "unique_architectures_per_sec": 11.338485823196187,
+    "examined_fault_combinations_per_sec": 5541578.652801944,
+    "certification_seconds": 4.90460800123401,
+    "spectrum_seconds": 72.87742069677915,
+    "peak_working_set_bytes": 212389888
+  },
+  {
+    "task": "simplex15_k7-X",
+    "n": 15,
+    "check_count": 8,
+    "rounds": 3,
+    "max_fault_weight": 3,
+    "evaluation_slots_per_sec": 4.827509827364425,
+    "unique_architectures_per_sec": 4.399068330185832,
+    "examined_fault_combinations_per_sec": 5030873.909088574,
+    "certification_seconds": 9.474666998488829,
+    "spectrum_seconds": 211.9538080979837,
+    "peak_working_set_bytes": 212389888
+  },
+  {
+    "task": "steane7_mixed-X",
+    "n": 7,
+    "check_count": 6,
+    "rounds": 3,
+    "max_fault_weight": 3,
+    "evaluation_slots_per_sec": 12.36925895256153,
+    "unique_architectures_per_sec": 10.946794173016954,
+    "examined_fault_combinations_per_sec": 5393746.1150542395,
+    "certification_seconds": 4.2274728015763685,
+    "spectrum_seconds": 74.89873750146944,
+    "peak_working_set_bytes": 212389888
+  },
+  {
+    "task": "simplex15_k7-Z",
+    "n": 15,
+    "check_count": 8,
+    "rounds": 3,
+    "max_fault_weight": 3,
+    "evaluation_slots_per_sec": 4.746572985061042,
+    "unique_architectures_per_sec": 4.313448200174222,
+    "examined_fault_combinations_per_sec": 5217583.877311665,
+    "certification_seconds": 9.511155003332533,
+    "spectrum_seconds": 213.76615189900622,
+    "peak_working_set_bytes": 212389888
+  }
+]
