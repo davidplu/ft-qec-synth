@@ -1,0 +1,50 @@
+{
+  "fault_count": 2,
+  "faults": [
+    {
+      "operation": 3,
+      "qubits": [
+        7
+      ],
+      "label": "X",
+      "kind": "reset",
+      "location": "op:3",
+      "before": false,
+      "round_index": 0,
+      "check": 1,
+      "role": "flag_reset",
+      "interval": 0,
+      "interaction_position": 0
+    },
+    {
+      "operation": 6,
+      "qubits": [
+        5,
+        0
+      ],
+      "label": "XI",
+      "kind": "cz",
+      "location": "op:6",
+      "before": false,
+      "round_index": 0,
+      "check": 1,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 1
+    }
+  ],
+  "checks": [
+    1
+  ],
+  "relation": "same-check",
+  "hook_support": [
+    1,
+    3
+  ],
+  "flags_fired": true,
+  "flag_information_cancelled": true,
+  "logical_coset": 1,
+  "detector_outcomes": 0,
+  "flag_outcomes": 0,
+  "final_data_pauli": "IXIX"
+}

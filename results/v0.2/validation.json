@@ -1,0 +1,15 @@
+{
+  "raw_runs": 96,
+  "schema_valid": true,
+  "witnesses_replayed": 2281,
+  "all_witnesses_verified": true,
+  "local_repair_counts": {
+    "raises_minimum_witness_weight": 17,
+    "improves_distance_lower_bound": 17,
+    "preserves_exact_distance_improves_resources": 13,
+    "repair_success": 30,
+    "transportable": 544,
+    "eliminated": 242,
+    "repairs": 544
+  }
+}

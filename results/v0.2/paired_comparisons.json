@@ -1,0 +1,242 @@
+[
+  {
+    "code": "css4",
+    "basis": "X",
+    "seed": 0,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "css4",
+    "basis": "X",
+    "seed": 1,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "css4",
+    "basis": "X",
+    "seed": 2,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "seed": 0,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "seed": 1,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "seed": 2,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "seed": 0,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "seed": 1,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "seed": 2,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "seed": 0,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "seed": 1,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "seed": 2,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "seed": 0,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "seed": 1,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "seed": 2,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "seed": 0,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "seed": 1,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "seed": 2,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "seed": 0,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "seed": 1,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "seed": 2,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "seed": 0,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": true,
+    "cegis_target_reached": true,
+    "random_evaluations_to_target": 6,
+    "cegis_evaluations_to_target": 6
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "seed": 1,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "seed": 2,
+    "cegis_minus_random_dc": 0,
+    "random_target_reached": false,
+    "cegis_target_reached": false,
+    "random_evaluations_to_target": null,
+    "cegis_evaluations_to_target": null
+  }
+]

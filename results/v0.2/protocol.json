@@ -1,0 +1,40 @@
+{
+  "development_codes": [
+    "css4",
+    "noncss4",
+    "perfect5",
+    "steane"
+  ],
+  "rounds": 3,
+  "bases": [
+    "X",
+    "Z"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "strategies": [
+    "random",
+    "resource",
+    "cegis",
+    "mixed"
+  ],
+  "evaluation_budget": 24,
+  "mutation_count": 18,
+  "initial_population": 6,
+  "target_dc": 3,
+  "max_weight": 3,
+  "beam_width": 12,
+  "decoder_weight": 1,
+  "logical_index": 0,
+  "max_flags_per_check": 4,
+  "max_combinations": 200000,
+  "idles": false,
+  "noisy_input": false,
+  "budget_policy": "every proposal including cached duplicates consumes one slot",
+  "total_runs": 96,
+  "total_evaluation_slots": 2304,
+  "total_wall_seconds": 35.46641320025083
+}

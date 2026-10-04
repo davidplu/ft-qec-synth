@@ -1,0 +1,39 @@
+{
+  "status": "NOT_READY_FOR_HELD_OUT",
+  "correctness": {
+    "tests_passed": 70,
+    "tests_failed": 0,
+    "tests_skipped": 0,
+    "saved_witnesses_independently_replayed": 2281,
+    "raw_runs_schema_validated": 96,
+    "dense_state_semantics_tested": true
+  },
+  "search": {
+    "cegis_distance_wins": 0,
+    "cegis_distance_ties": 24,
+    "cegis_distance_losses": 0,
+    "all_target_successes_reached_in_initial_population": true,
+    "empirical_stronger_distance_advantage": false,
+    "statistically_established_advantage": false
+  },
+  "performance": {
+    "evaluation_slots": 2304,
+    "wall_seconds": 35.46641320025083,
+    "slots_per_second": 64.96287027930147,
+    "median_signature_speedup": 48.60185947832794,
+    "large_code_scaling_tested": false
+  },
+  "isolation": {
+    "held_out_runs": 0,
+    "held_out_files": [
+      "README.md"
+    ],
+    "external_architecture_searches": 0
+  },
+  "reasons": [
+    "No strongest-distance or target-reach advantage for CEGIS in this pilot.",
+    "Product-basis final readout limits the non-CSS memory experiments.",
+    "Three seeds and small budgets do not establish a general search-efficiency advantage.",
+    "Held-out-size throughput has not been measured."
+  ]
+}

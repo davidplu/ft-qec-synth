@@ -1,0 +1,994 @@
+[
+  {
+    "code": "css4",
+    "basis": "X",
+    "strategy": "cegis",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      2,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.25727203333129484,
+    "unique_candidates": [
+      24,
+      22,
+      19
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "css4",
+    "basis": "X",
+    "strategy": "mixed",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      2,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.21192943335821232,
+    "unique_candidates": [
+      17,
+      18,
+      16
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "css4",
+    "basis": "X",
+    "strategy": "random",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      2,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.2199400000196571,
+    "unique_candidates": [
+      16,
+      19,
+      20
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "css4",
+    "basis": "X",
+    "strategy": "resource",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      2,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.14736116665881127,
+    "unique_candidates": [
+      9,
+      11,
+      7
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "strategy": "cegis",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      2,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.30260136669191223,
+    "unique_candidates": [
+      24,
+      24,
+      24
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "strategy": "mixed",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      2,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.23411116667557508,
+    "unique_candidates": [
+      20,
+      19,
+      16
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "strategy": "random",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      2,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.25183086667675525,
+    "unique_candidates": [
+      16,
+      20,
+      18
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "css4",
+    "basis": "Z",
+    "strategy": "resource",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      2,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.1839944333769381,
+    "unique_candidates": [
+      11,
+      12,
+      11
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "strategy": "cegis",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.30624336667824537,
+    "unique_candidates": [
+      24,
+      23,
+      22
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "strategy": "mixed",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.2596004999165113,
+    "unique_candidates": [
+      18,
+      20,
+      15
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "strategy": "random",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.2404290666260446,
+    "unique_candidates": [
+      16,
+      19,
+      20
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "noncss4",
+    "basis": "X",
+    "strategy": "resource",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.16947003337554634,
+    "unique_candidates": [
+      9,
+      11,
+      10
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "strategy": "cegis",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.3197802333937337,
+    "unique_candidates": [
+      24,
+      23,
+      21
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "strategy": "mixed",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.2284661999826009,
+    "unique_candidates": [
+      16,
+      18,
+      17
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "strategy": "random",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.24203916666253159,
+    "unique_candidates": [
+      16,
+      19,
+      20
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "noncss4",
+    "basis": "Z",
+    "strategy": "resource",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.1714603000242884,
+    "unique_candidates": [
+      9,
+      11,
+      10
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "strategy": "cegis",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.4966136666868503,
+    "unique_candidates": [
+      24,
+      23,
+      23
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "strategy": "mixed",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.383385366643779,
+    "unique_candidates": [
+      22,
+      18,
+      21
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "strategy": "random",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.4517699666709329,
+    "unique_candidates": [
+      21,
+      22,
+      20
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "perfect5",
+    "basis": "X",
+    "strategy": "resource",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.31580579998747754,
+    "unique_candidates": [
+      16,
+      14,
+      14
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "strategy": "cegis",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.48826976667623967,
+    "unique_candidates": [
+      24,
+      23,
+      23
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "strategy": "mixed",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.41453373335146654,
+    "unique_candidates": [
+      22,
+      18,
+      22
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "strategy": "random",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.4056964000143732,
+    "unique_candidates": [
+      21,
+      22,
+      20
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "perfect5",
+    "basis": "Z",
+    "strategy": "resource",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      1,
+      1,
+      1
+    ],
+    "mean_best_dc_lower_bound": 1,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.28153160004876554,
+    "unique_candidates": [
+      16,
+      14,
+      14
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "strategy": "cegis",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      2,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.7050511333315322,
+    "unique_candidates": [
+      24,
+      22,
+      24
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "strategy": "mixed",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      2,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.5941585333396991,
+    "unique_candidates": [
+      20,
+      19,
+      23
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "strategy": "random",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      2,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.5619054666021839,
+    "unique_candidates": [
+      22,
+      21,
+      19
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "steane",
+    "basis": "X",
+    "strategy": "resource",
+    "seeds": 3,
+    "target_reach_fraction": 0.0,
+    "best_dc_lower_bounds": [
+      2,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2,
+    "evaluations_to_target": [
+      null,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": null,
+    "best_QD_at_target": [
+      null,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.3964240999969964,
+    "unique_candidates": [
+      15,
+      11,
+      13
+    ],
+    "incomplete_screens": 0
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "strategy": "cegis",
+    "seeds": 3,
+    "target_reach_fraction": 0.3333333333333333,
+    "best_dc_lower_bounds": [
+      3,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2.3333333333333335,
+    "evaluations_to_target": [
+      6,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": 6,
+    "best_QD_at_target": [
+      2119,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.7979448999976739,
+    "unique_candidates": [
+      24,
+      23,
+      24
+    ],
+    "incomplete_screens": 6
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "strategy": "mixed",
+    "seeds": 3,
+    "target_reach_fraction": 0.3333333333333333,
+    "best_dc_lower_bounds": [
+      3,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2.3333333333333335,
+    "evaluations_to_target": [
+      6,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": 6,
+    "best_QD_at_target": [
+      2392,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.6284632999838019,
+    "unique_candidates": [
+      19,
+      18,
+      22
+    ],
+    "incomplete_screens": 5
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "strategy": "random",
+    "seeds": 3,
+    "target_reach_fraction": 0.3333333333333333,
+    "best_dc_lower_bounds": [
+      3,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2.3333333333333335,
+    "evaluations_to_target": [
+      6,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": 6,
+    "best_QD_at_target": [
+      2197,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.6543411999785652,
+    "unique_candidates": [
+      22,
+      21,
+      19
+    ],
+    "incomplete_screens": 7
+  },
+  {
+    "code": "steane",
+    "basis": "Z",
+    "strategy": "resource",
+    "seeds": 3,
+    "target_reach_fraction": 0.3333333333333333,
+    "best_dc_lower_bounds": [
+      3,
+      2,
+      2
+    ],
+    "mean_best_dc_lower_bound": 2.3333333333333335,
+    "evaluations_to_target": [
+      6,
+      null,
+      null
+    ],
+    "median_evaluations_to_target_conditional": 6,
+    "best_QD_at_target": [
+      2392,
+      null,
+      null
+    ],
+    "mean_wall_seconds": 0.4997134666579465,
+    "unique_candidates": [
+      18,
+      11,
+      13
+    ],
+    "incomplete_screens": 5
+  }
+]

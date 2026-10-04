@@ -1,0 +1,25 @@
+{
+  "verified": true,
+  "agrees": true,
+  "actual": {
+    "detector_outcomes": 0,
+    "flag_outcomes": 0,
+    "logical_coset": 1,
+    "final_data_pauli": "IXIX",
+    "measurement_record_effects": {
+      "s1:r0": 0,
+      "f0_0:r0": 0,
+      "s0:r0": 0,
+      "s1:r1": 0,
+      "f0_0:r1": 0,
+      "s0:r1": 0,
+      "s1:r2": 0,
+      "f0_0:r2": 0,
+      "s0:r2": 0,
+      "d0": 0,
+      "d1": 1,
+      "d2": 0,
+      "d3": 1
+    }
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\search\\cegis.py",
+    "line": 110,
+    "function": "run_search",
+    "calls": 1,
+    "self_seconds": 0.0027204,
+    "cumulative_seconds": 0.7933538
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\search\\cegis.py",
+    "line": 48,
+    "function": "evaluate_memory",
+    "calls": 12,
+    "self_seconds": 0.0029441000000000003,
+    "cumulative_seconds": 0.6201777
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\circuits\\model.py",
+    "line": 50,
+    "function": "to_dict",
+    "calls": 30,
+    "self_seconds": 0.0023192,
+    "cumulative_seconds": 0.20476550000000002
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\signatures.py",
+    "line": 87,
+    "function": "signatures",
+    "calls": 12,
+    "self_seconds": 0.0453264,
+    "cumulative_seconds": 0.1958088
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\dataclasses.py",
+    "line": 1308,
+    "function": "asdict",
+    "calls": 6670,
+    "self_seconds": 0.0037549000000000003,
+    "cumulative_seconds": 0.1583274
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\dataclasses.py",
+    "line": 1332,
+    "function": "_asdict_inner",
+    "calls": 111227,
+    "self_seconds": 0.0847973,
+    "cumulative_seconds": 0.1515031
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\signatures.py",
+    "line": 41,
+    "function": "enumerate_faults",
+    "calls": 20622,
+    "self_seconds": 0.048755400000000004,
+    "cumulative_seconds": 0.11239400000000001
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\search\\engine.py",
+    "line": 38,
+    "function": "software_commit",
+    "calls": 1,
+    "self_seconds": 3.3e-05,
+    "cumulative_seconds": 0.0852822
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py",
+    "line": 506,
+    "function": "run",
+    "calls": 1,
+    "self_seconds": 3.58e-05,
+    "cumulative_seconds": 0.0850896
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\serialization.py",
+    "line": 5,
+    "function": "json_native",
+    "calls": 369,
+    "self_seconds": 0.0005662,
+    "cumulative_seconds": 0.08239020000000001
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py",
+    "line": 1165,
+    "function": "communicate",
+    "calls": 1,
+    "self_seconds": 1.0500000000000001e-05,
+    "cumulative_seconds": 0.0739746
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py",
+    "line": 1603,
+    "function": "_communicate",
+    "calls": 1,
+    "self_seconds": 1.93e-05,
+    "cumulative_seconds": 0.0734991
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\threading.py",
+    "line": 1117,
+    "function": "join",
+    "calls": 2,
+    "self_seconds": 1.73e-05,
+    "cumulative_seconds": 0.0734376
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<method 'acquire' of '_thread.lock' objects>",
+    "calls": 14,
+    "self_seconds": 0.0001354,
+    "cumulative_seconds": 0.0734284
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\threading.py",
+    "line": 1155,
+    "function": "_wait_for_tstate_lock",
+    "calls": 2,
+    "self_seconds": 1.0700000000000001e-05,
+    "cumulative_seconds": 0.0733517
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\circuits\\model.py",
+    "line": 36,
+    "function": "validate",
+    "calls": 96,
+    "self_seconds": 0.0293237,
+    "cumulative_seconds": 0.07329100000000001
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\threading.py",
+    "line": 1018,
+    "function": "_bootstrap",
+    "calls": 2,
+    "self_seconds": 0.0002109,
+    "cumulative_seconds": 0.07329100000000001
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\threading.py",
+    "line": 1058,
+    "function": "_bootstrap_inner",
+    "calls": 2,
+    "self_seconds": 2.2400000000000002e-05,
+    "cumulative_seconds": 0.0731707
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\threading.py",
+    "line": 1001,
+    "function": "run",
+    "calls": 2,
+    "self_seconds": 1.67e-05,
+    "cumulative_seconds": 0.07303130000000001
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py",
+    "line": 1598,
+    "function": "_readerthread",
+    "calls": 2,
+    "self_seconds": 1.4400000000000001e-05,
+    "cumulative_seconds": 0.07293190000000001
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<method 'read' of '_io.TextIOWrapper' objects>",
+    "calls": 2,
+    "self_seconds": 0.0725609,
+    "cumulative_seconds": 0.0728854
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\__init__.py",
+    "line": 299,
+    "function": "loads",
+    "calls": 369,
+    "self_seconds": 0.0004998,
+    "cumulative_seconds": 0.06614890000000001
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\decoder.py",
+    "line": 333,
+    "function": "decode",
+    "calls": 369,
+    "self_seconds": 0.0008373,
+    "cumulative_seconds": 0.06542980000000001
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\decoder.py",
+    "line": 344,
+    "function": "raw_decode",
+    "calls": 369,
+    "self_seconds": 0.0638517,
+    "cumulative_seconds": 0.0638517
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\verification.py",
+    "line": 12,
+    "function": "replay",
+    "calls": 18,
+    "self_seconds": 0.0032922000000000003,
+    "cumulative_seconds": 0.0559954
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\search\\cegis.py",
+    "line": 84,
+    "function": "repair_outcome",
+    "calls": 6,
+    "self_seconds": 0.00034920000000000003,
+    "cumulative_seconds": 0.050775400000000005
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\search.py",
+    "line": 32,
+    "function": "search_faults",
+    "calls": 12,
+    "self_seconds": 0.0340227,
+    "cumulative_seconds": 0.0493272
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\circuits\\memory.py",
+    "line": 20,
+    "function": "build_memory",
+    "calls": 12,
+    "self_seconds": 0.0047761,
+    "cumulative_seconds": 0.043819500000000004
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.any>",
+    "calls": 37246,
+    "self_seconds": 0.0216368,
+    "cumulative_seconds": 0.039606600000000006
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\verification.py",
+    "line": 98,
+    "function": "verify_witness",
+    "calls": 12,
+    "self_seconds": 0.0002477,
+    "cumulative_seconds": 0.0383555
+  }
+]

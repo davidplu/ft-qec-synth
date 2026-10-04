@@ -1,0 +1,35 @@
+{
+  "fault_count": 1,
+  "faults": [
+    {
+      "operation": 7,
+      "qubits": [
+        5,
+        7
+      ],
+      "label": "XI",
+      "kind": "cx",
+      "location": "op:7",
+      "before": false,
+      "round_index": 0,
+      "check": 1,
+      "role": "flag_close",
+      "interval": 0,
+      "interaction_position": 2
+    }
+  ],
+  "checks": [
+    1
+  ],
+  "relation": "same-check",
+  "hook_support": [
+    1,
+    3
+  ],
+  "flags_fired": false,
+  "flag_information_cancelled": false,
+  "logical_coset": 1,
+  "detector_outcomes": 0,
+  "flag_outcomes": 0,
+  "final_data_pauli": "IXIX"
+}

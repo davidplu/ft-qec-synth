@@ -1,0 +1,1368 @@
+{
+  "code": {
+    "n": 4,
+    "generators": [
+      "XXXX",
+      "ZZZZ"
+    ],
+    "name": "Four-qubit CSS"
+  },
+  "syndrome_qubits": [
+    4,
+    5
+  ],
+  "flag_qubits": [
+    6
+  ],
+  "operations": [
+    {
+      "gate": "BARRIER",
+      "qubits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "deps": [],
+      "record": null,
+      "check": null,
+      "round_index": 0,
+      "role": "round_start",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "RESET",
+      "qubits": [
+        5
+      ],
+      "deps": [
+        0
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 0,
+      "role": "syndrome_reset",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        5
+      ],
+      "deps": [
+        1,
+        0
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 0,
+      "role": "syndrome_prepare",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "CZ",
+      "qubits": [
+        5,
+        2
+      ],
+      "deps": [
+        2,
+        0
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 0,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 0
+    },
+    {
+      "gate": "CZ",
+      "qubits": [
+        5,
+        0
+      ],
+      "deps": [
+        3,
+        0
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 0,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 1
+    },
+    {
+      "gate": "CZ",
+      "qubits": [
+        5,
+        3
+      ],
+      "deps": [
+        4,
+        0
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 0,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 2
+    },
+    {
+      "gate": "CZ",
+      "qubits": [
+        5,
+        1
+      ],
+      "deps": [
+        5,
+        0
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 0,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 3
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        5
+      ],
+      "deps": [
+        6,
+        0
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 0,
+      "role": "syndrome_basis_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "M",
+      "qubits": [
+        5
+      ],
+      "deps": [
+        7,
+        0
+      ],
+      "record": "s1:r0",
+      "check": 1,
+      "round_index": 0,
+      "role": "syndrome_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "RESET",
+      "qubits": [
+        4
+      ],
+      "deps": [
+        0
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 0,
+      "role": "syndrome_reset",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        4
+      ],
+      "deps": [
+        9,
+        0
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 0,
+      "role": "syndrome_prepare",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        2
+      ],
+      "deps": [
+        10,
+        0
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 0,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 0
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        3
+      ],
+      "deps": [
+        11,
+        0
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 0,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 1
+    },
+    {
+      "gate": "RESET",
+      "qubits": [
+        6
+      ],
+      "deps": [
+        12,
+        0
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 0,
+      "role": "flag_reset",
+      "interval": 0,
+      "interaction_position": 2
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        6
+      ],
+      "deps": [
+        13,
+        0
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 0,
+      "role": "flag_open",
+      "interval": 0,
+      "interaction_position": 2
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        0
+      ],
+      "deps": [
+        14,
+        0
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 0,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 2
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        1
+      ],
+      "deps": [
+        15,
+        0
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 0,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 3
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        6
+      ],
+      "deps": [
+        16,
+        0
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 0,
+      "role": "flag_close",
+      "interval": 0,
+      "interaction_position": 4
+    },
+    {
+      "gate": "M",
+      "qubits": [
+        6
+      ],
+      "deps": [
+        17,
+        0
+      ],
+      "record": "f0_0:r0",
+      "check": 0,
+      "round_index": 0,
+      "role": "flag_readout",
+      "interval": 0,
+      "interaction_position": 4
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        4
+      ],
+      "deps": [
+        18,
+        0
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 0,
+      "role": "syndrome_basis_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "M",
+      "qubits": [
+        4
+      ],
+      "deps": [
+        19,
+        0
+      ],
+      "record": "s0:r0",
+      "check": 0,
+      "round_index": 0,
+      "role": "syndrome_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "BARRIER",
+      "qubits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "deps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "record": null,
+      "check": null,
+      "round_index": 0,
+      "role": "round_end",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "BARRIER",
+      "qubits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "deps": [
+        21
+      ],
+      "record": null,
+      "check": null,
+      "round_index": 1,
+      "role": "round_start",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "RESET",
+      "qubits": [
+        5
+      ],
+      "deps": [
+        22
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 1,
+      "role": "syndrome_reset",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        5
+      ],
+      "deps": [
+        23,
+        22
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 1,
+      "role": "syndrome_prepare",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "CZ",
+      "qubits": [
+        5,
+        2
+      ],
+      "deps": [
+        24,
+        22
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 1,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 0
+    },
+    {
+      "gate": "CZ",
+      "qubits": [
+        5,
+        0
+      ],
+      "deps": [
+        25,
+        22
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 1,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 1
+    },
+    {
+      "gate": "CZ",
+      "qubits": [
+        5,
+        3
+      ],
+      "deps": [
+        26,
+        22
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 1,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 2
+    },
+    {
+      "gate": "CZ",
+      "qubits": [
+        5,
+        1
+      ],
+      "deps": [
+        27,
+        22
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 1,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 3
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        5
+      ],
+      "deps": [
+        28,
+        22
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 1,
+      "role": "syndrome_basis_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "M",
+      "qubits": [
+        5
+      ],
+      "deps": [
+        29,
+        22
+      ],
+      "record": "s1:r1",
+      "check": 1,
+      "round_index": 1,
+      "role": "syndrome_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "RESET",
+      "qubits": [
+        4
+      ],
+      "deps": [
+        22
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 1,
+      "role": "syndrome_reset",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        4
+      ],
+      "deps": [
+        31,
+        22
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 1,
+      "role": "syndrome_prepare",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        2
+      ],
+      "deps": [
+        32,
+        22
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 1,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 0
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        3
+      ],
+      "deps": [
+        33,
+        22
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 1,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 1
+    },
+    {
+      "gate": "RESET",
+      "qubits": [
+        6
+      ],
+      "deps": [
+        34,
+        22
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 1,
+      "role": "flag_reset",
+      "interval": 0,
+      "interaction_position": 2
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        6
+      ],
+      "deps": [
+        35,
+        22
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 1,
+      "role": "flag_open",
+      "interval": 0,
+      "interaction_position": 2
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        0
+      ],
+      "deps": [
+        36,
+        22
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 1,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 2
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        1
+      ],
+      "deps": [
+        37,
+        22
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 1,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 3
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        6
+      ],
+      "deps": [
+        38,
+        22
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 1,
+      "role": "flag_close",
+      "interval": 0,
+      "interaction_position": 4
+    },
+    {
+      "gate": "M",
+      "qubits": [
+        6
+      ],
+      "deps": [
+        39,
+        22
+      ],
+      "record": "f0_0:r1",
+      "check": 0,
+      "round_index": 1,
+      "role": "flag_readout",
+      "interval": 0,
+      "interaction_position": 4
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        4
+      ],
+      "deps": [
+        40,
+        22
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 1,
+      "role": "syndrome_basis_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "M",
+      "qubits": [
+        4
+      ],
+      "deps": [
+        41,
+        22
+      ],
+      "record": "s0:r1",
+      "check": 0,
+      "round_index": 1,
+      "role": "syndrome_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "BARRIER",
+      "qubits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "deps": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "record": null,
+      "check": null,
+      "round_index": 1,
+      "role": "round_end",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "BARRIER",
+      "qubits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "deps": [
+        43
+      ],
+      "record": null,
+      "check": null,
+      "round_index": 2,
+      "role": "round_start",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "RESET",
+      "qubits": [
+        5
+      ],
+      "deps": [
+        44
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 2,
+      "role": "syndrome_reset",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        5
+      ],
+      "deps": [
+        45,
+        44
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 2,
+      "role": "syndrome_prepare",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "CZ",
+      "qubits": [
+        5,
+        2
+      ],
+      "deps": [
+        46,
+        44
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 2,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 0
+    },
+    {
+      "gate": "CZ",
+      "qubits": [
+        5,
+        0
+      ],
+      "deps": [
+        47,
+        44
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 2,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 1
+    },
+    {
+      "gate": "CZ",
+      "qubits": [
+        5,
+        3
+      ],
+      "deps": [
+        48,
+        44
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 2,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 2
+    },
+    {
+      "gate": "CZ",
+      "qubits": [
+        5,
+        1
+      ],
+      "deps": [
+        49,
+        44
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 2,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 3
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        5
+      ],
+      "deps": [
+        50,
+        44
+      ],
+      "record": null,
+      "check": 1,
+      "round_index": 2,
+      "role": "syndrome_basis_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "M",
+      "qubits": [
+        5
+      ],
+      "deps": [
+        51,
+        44
+      ],
+      "record": "s1:r2",
+      "check": 1,
+      "round_index": 2,
+      "role": "syndrome_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "RESET",
+      "qubits": [
+        4
+      ],
+      "deps": [
+        44
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 2,
+      "role": "syndrome_reset",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        4
+      ],
+      "deps": [
+        53,
+        44
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 2,
+      "role": "syndrome_prepare",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        2
+      ],
+      "deps": [
+        54,
+        44
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 2,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 0
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        3
+      ],
+      "deps": [
+        55,
+        44
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 2,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 1
+    },
+    {
+      "gate": "RESET",
+      "qubits": [
+        6
+      ],
+      "deps": [
+        56,
+        44
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 2,
+      "role": "flag_reset",
+      "interval": 0,
+      "interaction_position": 2
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        6
+      ],
+      "deps": [
+        57,
+        44
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 2,
+      "role": "flag_open",
+      "interval": 0,
+      "interaction_position": 2
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        0
+      ],
+      "deps": [
+        58,
+        44
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 2,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 2
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        1
+      ],
+      "deps": [
+        59,
+        44
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 2,
+      "role": "data_interaction",
+      "interval": null,
+      "interaction_position": 3
+    },
+    {
+      "gate": "CX",
+      "qubits": [
+        4,
+        6
+      ],
+      "deps": [
+        60,
+        44
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 2,
+      "role": "flag_close",
+      "interval": 0,
+      "interaction_position": 4
+    },
+    {
+      "gate": "M",
+      "qubits": [
+        6
+      ],
+      "deps": [
+        61,
+        44
+      ],
+      "record": "f0_0:r2",
+      "check": 0,
+      "round_index": 2,
+      "role": "flag_readout",
+      "interval": 0,
+      "interaction_position": 4
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        4
+      ],
+      "deps": [
+        62,
+        44
+      ],
+      "record": null,
+      "check": 0,
+      "round_index": 2,
+      "role": "syndrome_basis_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "M",
+      "qubits": [
+        4
+      ],
+      "deps": [
+        63,
+        44
+      ],
+      "record": "s0:r2",
+      "check": 0,
+      "round_index": 2,
+      "role": "syndrome_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "BARRIER",
+      "qubits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "deps": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "record": null,
+      "check": null,
+      "round_index": 2,
+      "role": "round_end",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        0
+      ],
+      "deps": [
+        65
+      ],
+      "record": null,
+      "check": null,
+      "round_index": 3,
+      "role": "final_basis_change",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "M",
+      "qubits": [
+        0
+      ],
+      "deps": [
+        66
+      ],
+      "record": "d0",
+      "check": null,
+      "round_index": 3,
+      "role": "final_data_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        1
+      ],
+      "deps": [
+        65
+      ],
+      "record": null,
+      "check": null,
+      "round_index": 3,
+      "role": "final_basis_change",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "M",
+      "qubits": [
+        1
+      ],
+      "deps": [
+        68
+      ],
+      "record": "d1",
+      "check": null,
+      "round_index": 3,
+      "role": "final_data_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        2
+      ],
+      "deps": [
+        65
+      ],
+      "record": null,
+      "check": null,
+      "round_index": 3,
+      "role": "final_basis_change",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "M",
+      "qubits": [
+        2
+      ],
+      "deps": [
+        70
+      ],
+      "record": "d2",
+      "check": null,
+      "round_index": 3,
+      "role": "final_data_readout",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "H",
+      "qubits": [
+        3
+      ],
+      "deps": [
+        65
+      ],
+      "record": null,
+      "check": null,
+      "round_index": 3,
+      "role": "final_basis_change",
+      "interval": null,
+      "interaction_position": null
+    },
+    {
+      "gate": "M",
+      "qubits": [
+        3
+      ],
+      "deps": [
+        72
+      ],
+      "record": "d3",
+      "check": null,
+      "round_index": 3,
+      "role": "final_data_readout",
+      "interval": null,
+      "interaction_position": null
+    }
+  ],
+  "detectors": [
+    [
+      "s0:r0"
+    ],
+    [
+      "s1:r0"
+    ],
+    [
+      "f0_0:r0"
+    ],
+    [
+      "s0:r0",
+      "s0:r1"
+    ],
+    [
+      "s1:r0",
+      "s1:r1"
+    ],
+    [
+      "f0_0:r1"
+    ],
+    [
+      "s0:r1",
+      "s0:r2"
+    ],
+    [
+      "s1:r1",
+      "s1:r2"
+    ],
+    [
+      "f0_0:r2"
+    ],
+    [
+      "s0:r2",
+      "d0",
+      "d1",
+      "d2",
+      "d3"
+    ]
+  ],
+  "observables": [
+    [
+      "d0",
+      "d1"
+    ]
+  ],
+  "boundary_model": "repeated_noisy_memory",
+  "experiment": {
+    "rounds": 3,
+    "basis": "X",
+    "logical_index": 0,
+    "noisy_input": false,
+    "logical_pauli": "XXII",
+    "readout_axes": [
+      "X",
+      "X",
+      "X",
+      "X"
+    ],
+    "final_compatible_checks": [
+      0
+    ],
+    "input_boundary": "ideal_encoded_eigenstate_with_optional_local_preparation_noise"
+  }
+}

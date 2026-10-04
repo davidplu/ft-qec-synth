@@ -1,0 +1,232 @@
+[
+  {
+    "failure_class": "CROSS_CHECK_COLLISION",
+    "operator": "change_implicated_check_order",
+    "repairs": 1,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 1,
+    "elimination_rate": 0.0,
+    "equal_or_worse_witnesses": 1
+  },
+  {
+    "failure_class": "CROSS_CHECK_COLLISION",
+    "operator": "separate_syndrome_ancillas",
+    "repairs": 1,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 1,
+    "elimination_rate": 0.0,
+    "equal_or_worse_witnesses": 1
+  },
+  {
+    "failure_class": "FLAG_CANCELLATION",
+    "operator": "independent_full_interval_flag",
+    "repairs": 12,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 12,
+    "elimination_rate": 1.0,
+    "equal_or_worse_witnesses": 12
+  },
+  {
+    "failure_class": "FLAG_CANCELLATION",
+    "operator": "split_prefix_flag",
+    "repairs": 5,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 5,
+    "elimination_rate": 1.0,
+    "equal_or_worse_witnesses": 5
+  },
+  {
+    "failure_class": "FLAG_CANCELLATION",
+    "operator": "split_suffix_flag",
+    "repairs": 1,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 1,
+    "elimination_rate": 0.0,
+    "equal_or_worse_witnesses": 1
+  },
+  {
+    "failure_class": "INTERACTION_ORDER_HOOK",
+    "operator": "independent_full_interval_flag",
+    "repairs": 45,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 45,
+    "elimination_rate": 0.5777777777777777,
+    "equal_or_worse_witnesses": 45
+  },
+  {
+    "failure_class": "INTERACTION_ORDER_HOOK",
+    "operator": "redirect_hook_order",
+    "repairs": 7,
+    "successes": 3,
+    "success_rate": 0.42857142857142855,
+    "transportable_witnesses": 7,
+    "elimination_rate": 0.0,
+    "equal_or_worse_witnesses": 7
+  },
+  {
+    "failure_class": "INTERACTION_ORDER_HOOK",
+    "operator": "reverse_implicated_order",
+    "repairs": 19,
+    "successes": 1,
+    "success_rate": 0.05263157894736842,
+    "transportable_witnesses": 19,
+    "elimination_rate": 0.5789473684210527,
+    "equal_or_worse_witnesses": 19
+  },
+  {
+    "failure_class": "INTERACTION_ORDER_HOOK",
+    "operator": "separate_hook_support",
+    "repairs": 8,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 8,
+    "elimination_rate": 0.625,
+    "equal_or_worse_witnesses": 8
+  },
+  {
+    "failure_class": "INTERACTION_ORDER_HOOK",
+    "operator": "split_prefix_flag",
+    "repairs": 35,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 35,
+    "elimination_rate": 0.5714285714285714,
+    "equal_or_worse_witnesses": 35
+  },
+  {
+    "failure_class": "INTERACTION_ORDER_HOOK",
+    "operator": "split_suffix_flag",
+    "repairs": 27,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 27,
+    "elimination_rate": 0.037037037037037035,
+    "equal_or_worse_witnesses": 27
+  },
+  {
+    "failure_class": "INTERACTION_ORDER_HOOK",
+    "operator": "split_temporal_flag_records",
+    "repairs": 5,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 5,
+    "elimination_rate": 0.6,
+    "equal_or_worse_witnesses": 5
+  },
+  {
+    "failure_class": "OTHER",
+    "operator": "independent_full_interval_flag",
+    "repairs": 52,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 52,
+    "elimination_rate": 0.0,
+    "equal_or_worse_witnesses": 52
+  },
+  {
+    "failure_class": "OTHER",
+    "operator": "reverse_implicated_order",
+    "repairs": 29,
+    "successes": 4,
+    "success_rate": 0.13793103448275862,
+    "transportable_witnesses": 29,
+    "elimination_rate": 0.0,
+    "equal_or_worse_witnesses": 29
+  },
+  {
+    "failure_class": "OTHER",
+    "operator": "split_prefix_flag",
+    "repairs": 44,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 44,
+    "elimination_rate": 0.0,
+    "equal_or_worse_witnesses": 44
+  },
+  {
+    "failure_class": "OTHER",
+    "operator": "split_suffix_flag",
+    "repairs": 35,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 35,
+    "elimination_rate": 0.0,
+    "equal_or_worse_witnesses": 35
+  },
+  {
+    "failure_class": "OTHER",
+    "operator": "split_temporal_flag_records",
+    "repairs": 7,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 7,
+    "elimination_rate": 0.0,
+    "equal_or_worse_witnesses": 7
+  },
+  {
+    "failure_class": "SAME_CHECK_HOOK",
+    "operator": "independent_full_interval_flag",
+    "repairs": 64,
+    "successes": 15,
+    "success_rate": 0.234375,
+    "transportable_witnesses": 64,
+    "elimination_rate": 1.0,
+    "equal_or_worse_witnesses": 49
+  },
+  {
+    "failure_class": "SAME_CHECK_HOOK",
+    "operator": "reverse_implicated_order",
+    "repairs": 31,
+    "successes": 3,
+    "success_rate": 0.0967741935483871,
+    "transportable_witnesses": 31,
+    "elimination_rate": 1.0,
+    "equal_or_worse_witnesses": 31
+  },
+  {
+    "failure_class": "SAME_CHECK_HOOK",
+    "operator": "separate_hook_support",
+    "repairs": 21,
+    "successes": 4,
+    "success_rate": 0.19047619047619047,
+    "transportable_witnesses": 21,
+    "elimination_rate": 0.6666666666666666,
+    "equal_or_worse_witnesses": 19
+  },
+  {
+    "failure_class": "SAME_CHECK_HOOK",
+    "operator": "split_prefix_flag",
+    "repairs": 49,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 49,
+    "elimination_rate": 0.6122448979591837,
+    "equal_or_worse_witnesses": 49
+  },
+  {
+    "failure_class": "SAME_CHECK_HOOK",
+    "operator": "split_suffix_flag",
+    "repairs": 40,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 40,
+    "elimination_rate": 0.375,
+    "equal_or_worse_witnesses": 40
+  },
+  {
+    "failure_class": "SAME_CHECK_HOOK",
+    "operator": "split_temporal_flag_records",
+    "repairs": 6,
+    "successes": 0,
+    "success_rate": 0.0,
+    "transportable_witnesses": 6,
+    "elimination_rate": 0.8333333333333334,
+    "equal_or_worse_witnesses": 6
+  }
+]
