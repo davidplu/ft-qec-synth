@@ -1,0 +1,3372 @@
+{
+  "schema_version": "0.1",
+  "code": {
+    "n": 4,
+    "generators": [
+      "XXXX",
+      "ZZZZ"
+    ],
+    "name": "Four-qubit CSS"
+  },
+  "code_input_hash": "4407fb45b8175b03193e43f402579e34718ffb7f544f2855f20a5cb246f1c5c6",
+  "software_version": "0.1.0",
+  "software_git_commit": null,
+  "seed": 20261003,
+  "configuration": {
+    "budget": 24,
+    "max_weight": 2,
+    "max_combinations": 500000,
+    "beam_width": 12,
+    "idles": false,
+    "required_distance": 2
+  },
+  "fault_model": "independent Pauli faults at distinct circuit locations; ideal initial and final syndrome boundaries",
+  "candidates_evaluated": 24,
+  "rejections": {
+    "B_logical_witness": 22
+  },
+  "stage_outcomes": {
+    "B_logical_witness": 22,
+    "C_logical_witness": 2
+  },
+  "frontier": [
+    {
+      "architecture_id": "728cb80cd589a5c92cc9",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            1,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          1
+        ],
+        "syndrome_budget": 2,
+        "parallelism": 2
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 2,
+        "flag_ancillas": 3,
+        "Q": 9,
+        "one_q_gates": 4,
+        "two_q_gates": 14,
+        "measurements": 5,
+        "resets": 5,
+        "preparations": 0,
+        "operation_count": 28,
+        "D": 24,
+        "QD": 216,
+        "depth_lower_bound": 16,
+        "schedule_efficiency": 0.6666666666666666
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 2,
+        "upper_bound": 2,
+        "excluded_through": 1,
+        "witness": {
+          "fault_count": 2,
+          "faults": [
+            {
+              "operation": 2,
+              "qubits": [
+                6
+              ],
+              "label": "X",
+              "kind": "reset",
+              "location": "op:2",
+              "before": false
+            },
+            {
+              "operation": 5,
+              "qubits": [
+                4,
+                3
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:5",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            2
+          ],
+          "flags_fired": true,
+          "flag_information_cancelled": true,
+          "logical_coset": 4,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XIXI"
+        },
+        "reason": null,
+        "combinations_examined": 594,
+        "fault_locations": 28,
+        "fault_variants": 242,
+        "requested_weight": 2
+      },
+      "stage": "C",
+      "rejection": null,
+      "signature_seconds": 0.022573199938051403,
+      "screening_stop": "C_logical_witness",
+      "fault_search_seconds": 0.0005598000716418028,
+      "runtime_seconds": 0.023746400023810565
+    },
+    {
+      "architecture_id": "fc2f3dd0f98d85bc21e1",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            3,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          1,
+          0
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 2,
+        "Q": 7,
+        "one_q_gates": 4,
+        "two_q_gates": 16,
+        "measurements": 6,
+        "resets": 6,
+        "preparations": 0,
+        "operation_count": 32,
+        "D": 32,
+        "QD": 224,
+        "depth_lower_bound": 32,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 2,
+        "upper_bound": 2,
+        "excluded_through": 1,
+        "witness": {
+          "fault_count": 2,
+          "faults": [
+            {
+              "operation": 4,
+              "qubits": [
+                4,
+                2
+              ],
+              "label": "IX",
+              "kind": "cz",
+              "location": "op:4",
+              "before": false
+            },
+            {
+              "operation": 7,
+              "qubits": [
+                4,
+                1
+              ],
+              "label": "IX",
+              "kind": "cz",
+              "location": "op:7",
+              "before": false
+            }
+          ],
+          "checks": [
+            1
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            1,
+            2
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 5,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "IXXI"
+        },
+        "reason": null,
+        "combinations_examined": 877,
+        "fault_locations": 32,
+        "fault_variants": 276,
+        "requested_weight": 2
+      },
+      "stage": "C",
+      "rejection": null,
+      "signature_seconds": 0.02768539998214692,
+      "screening_stop": "C_logical_witness",
+      "fault_search_seconds": 0.0005911000771448016,
+      "runtime_seconds": 0.028898400021716952
+    }
+  ],
+  "exploratory_frontier": [
+    {
+      "architecture_id": "d63f5e3a2457dbc660ef",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            2,
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            2,
+            1,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [],
+          []
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 0,
+        "Q": 5,
+        "one_q_gates": 4,
+        "two_q_gates": 8,
+        "measurements": 2,
+        "resets": 2,
+        "preparations": 0,
+        "operation_count": 16,
+        "D": 16,
+        "QD": 80,
+        "depth_lower_bound": 16,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                3
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            1
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XXII"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 16,
+        "fault_variants": 140,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.008475799928419292,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00011630007065832615,
+      "runtime_seconds": 0.008967600064352155
+    },
+    {
+      "architecture_id": "a0d829e035edff58af2b",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            2,
+            3,
+            1,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            3
+          ]
+        ],
+        "flag_intervals": [
+          [],
+          []
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          1
+        ],
+        "syndrome_budget": 2,
+        "parallelism": 2
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 2,
+        "flag_ancillas": 0,
+        "Q": 6,
+        "one_q_gates": 4,
+        "two_q_gates": 8,
+        "measurements": 2,
+        "resets": 2,
+        "preparations": 0,
+        "operation_count": 16,
+        "D": 11,
+        "QD": 66,
+        "depth_lower_bound": 8,
+        "schedule_efficiency": 0.7272727272727273
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                3
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            1
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XXII"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 16,
+        "fault_variants": 140,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.008650499978102744,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.0001311000669375062,
+      "runtime_seconds": 0.009196600061841309
+    },
+    {
+      "architecture_id": "728cb80cd589a5c92cc9",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            1,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          1
+        ],
+        "syndrome_budget": 2,
+        "parallelism": 2
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 2,
+        "flag_ancillas": 3,
+        "Q": 9,
+        "one_q_gates": 4,
+        "two_q_gates": 14,
+        "measurements": 5,
+        "resets": 5,
+        "preparations": 0,
+        "operation_count": 28,
+        "D": 24,
+        "QD": 216,
+        "depth_lower_bound": 16,
+        "schedule_efficiency": 0.6666666666666666
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 2,
+        "upper_bound": 2,
+        "excluded_through": 1,
+        "witness": {
+          "fault_count": 2,
+          "faults": [
+            {
+              "operation": 2,
+              "qubits": [
+                6
+              ],
+              "label": "X",
+              "kind": "reset",
+              "location": "op:2",
+              "before": false
+            },
+            {
+              "operation": 5,
+              "qubits": [
+                4,
+                3
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:5",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            2
+          ],
+          "flags_fired": true,
+          "flag_information_cancelled": true,
+          "logical_coset": 4,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XIXI"
+        },
+        "reason": null,
+        "combinations_examined": 594,
+        "fault_locations": 28,
+        "fault_variants": 242,
+        "requested_weight": 2
+      },
+      "stage": "C",
+      "rejection": null,
+      "signature_seconds": 0.022573199938051403,
+      "screening_stop": "C_logical_witness",
+      "fault_search_seconds": 0.0005598000716418028,
+      "runtime_seconds": 0.023746400023810565
+    },
+    {
+      "architecture_id": "fc2f3dd0f98d85bc21e1",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            3,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          1,
+          0
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 2,
+        "Q": 7,
+        "one_q_gates": 4,
+        "two_q_gates": 16,
+        "measurements": 6,
+        "resets": 6,
+        "preparations": 0,
+        "operation_count": 32,
+        "D": 32,
+        "QD": 224,
+        "depth_lower_bound": 32,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 2,
+        "upper_bound": 2,
+        "excluded_through": 1,
+        "witness": {
+          "fault_count": 2,
+          "faults": [
+            {
+              "operation": 4,
+              "qubits": [
+                4,
+                2
+              ],
+              "label": "IX",
+              "kind": "cz",
+              "location": "op:4",
+              "before": false
+            },
+            {
+              "operation": 7,
+              "qubits": [
+                4,
+                1
+              ],
+              "label": "IX",
+              "kind": "cz",
+              "location": "op:7",
+              "before": false
+            }
+          ],
+          "checks": [
+            1
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            1,
+            2
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 5,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "IXXI"
+        },
+        "reason": null,
+        "combinations_examined": 877,
+        "fault_locations": 32,
+        "fault_variants": 276,
+        "requested_weight": 2
+      },
+      "stage": "C",
+      "rejection": null,
+      "signature_seconds": 0.02768539998214692,
+      "screening_stop": "C_logical_witness",
+      "fault_search_seconds": 0.0005911000771448016,
+      "runtime_seconds": 0.028898400021716952
+    }
+  ],
+  "records": [
+    {
+      "architecture_id": "e2378b2b63185649a3f6",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "flag_intervals": [
+          [],
+          []
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 0,
+        "Q": 5,
+        "one_q_gates": 4,
+        "two_q_gates": 8,
+        "measurements": 2,
+        "resets": 2,
+        "preparations": 0,
+        "operation_count": 16,
+        "D": 16,
+        "QD": 80,
+        "depth_lower_bound": 16,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                1
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            2,
+            3
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "IIXX"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 16,
+        "fault_variants": 140,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.009039900032803416,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00018880004063248634,
+      "runtime_seconds": 0.009686399949714541
+    },
+    {
+      "architecture_id": "a0d829e035edff58af2b",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            2,
+            3,
+            1,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            3
+          ]
+        ],
+        "flag_intervals": [
+          [],
+          []
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          1
+        ],
+        "syndrome_budget": 2,
+        "parallelism": 2
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 2,
+        "flag_ancillas": 0,
+        "Q": 6,
+        "one_q_gates": 4,
+        "two_q_gates": 8,
+        "measurements": 2,
+        "resets": 2,
+        "preparations": 0,
+        "operation_count": 16,
+        "D": 11,
+        "QD": 66,
+        "depth_lower_bound": 8,
+        "schedule_efficiency": 0.7272727272727273
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                3
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            1
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XXII"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 16,
+        "fault_variants": 140,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.008650499978102744,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.0001311000669375062,
+      "runtime_seconds": 0.009196600061841309
+    },
+    {
+      "architecture_id": "f5252c051b577fe05491",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            1,
+            2,
+            0,
+            3
+          ],
+          [
+            1,
+            3,
+            2,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [],
+          [
+            [
+              1,
+              3
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 1,
+        "Q": 6,
+        "one_q_gates": 4,
+        "two_q_gates": 10,
+        "measurements": 3,
+        "resets": 3,
+        "preparations": 0,
+        "operation_count": 20,
+        "D": 20,
+        "QD": 120,
+        "depth_lower_bound": 20,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                2
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            3
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 5,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XIIX"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 20,
+        "fault_variants": 174,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.011930500040762126,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00012310000602155924,
+      "runtime_seconds": 0.012518799980171025
+    },
+    {
+      "architecture_id": "d63f5e3a2457dbc660ef",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            2,
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            2,
+            1,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [],
+          []
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 0,
+        "Q": 5,
+        "one_q_gates": 4,
+        "two_q_gates": 8,
+        "measurements": 2,
+        "resets": 2,
+        "preparations": 0,
+        "operation_count": 16,
+        "D": 16,
+        "QD": 80,
+        "depth_lower_bound": 16,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                3
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            1
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XXII"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 16,
+        "fault_variants": 140,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.008475799928419292,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00011630007065832615,
+      "runtime_seconds": 0.008967600064352155
+    },
+    {
+      "architecture_id": "9862697265c2092e4dbc",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            0,
+            3,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              2,
+              4
+            ]
+          ],
+          []
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 1,
+        "Q": 6,
+        "one_q_gates": 4,
+        "two_q_gates": 10,
+        "measurements": 3,
+        "resets": 3,
+        "preparations": 0,
+        "operation_count": 20,
+        "D": 20,
+        "QD": 120,
+        "depth_lower_bound": 20,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                3
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            1,
+            2
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 5,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "IXXI"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 20,
+        "fault_variants": 174,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.012512900051660836,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.0001335999695584178,
+      "runtime_seconds": 0.01308559998869896
+    },
+    {
+      "architecture_id": "e0e5b8b2523ccd84e8f7",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            3,
+            2,
+            0,
+            1
+          ],
+          [
+            1,
+            3,
+            2,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [],
+          [
+            [
+              0,
+              1
+            ]
+          ]
+        ],
+        "check_order": [
+          1,
+          0
+        ],
+        "ancilla_assignment": [
+          0,
+          1
+        ],
+        "syndrome_budget": 2,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 2,
+        "flag_ancillas": 1,
+        "Q": 7,
+        "one_q_gates": 4,
+        "two_q_gates": 10,
+        "measurements": 3,
+        "resets": 3,
+        "preparations": 0,
+        "operation_count": 20,
+        "D": 20,
+        "QD": 140,
+        "depth_lower_bound": 20,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 7,
+              "qubits": [
+                5,
+                3
+              ],
+              "label": "XI",
+              "kind": "cz",
+              "location": "op:7",
+              "before": false
+            }
+          ],
+          "checks": [
+            1
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            2
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 2,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "ZIZI"
+        },
+        "reason": null,
+        "combinations_examined": 59,
+        "fault_locations": 20,
+        "fault_variants": 174,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.013234100071713328,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.0001425999216735363,
+      "runtime_seconds": 0.013853500015102327
+    },
+    {
+      "architecture_id": "fbec6b2f51ed7ea59a61",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            3,
+            0,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            0,
+            3
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 2,
+        "Q": 7,
+        "one_q_gates": 4,
+        "two_q_gates": 14,
+        "measurements": 5,
+        "resets": 5,
+        "preparations": 0,
+        "operation_count": 28,
+        "D": 28,
+        "QD": 196,
+        "depth_lower_bound": 28,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 22,
+              "qubits": [
+                4,
+                5
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:22",
+              "before": false
+            }
+          ],
+          "checks": [
+            1
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            3
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 10,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "ZIIZ"
+        },
+        "reason": null,
+        "combinations_examined": 196,
+        "fault_locations": 28,
+        "fault_variants": 242,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.022589299944229424,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00019890000112354755,
+      "runtime_seconds": 0.023378900019451976
+    },
+    {
+      "architecture_id": "fae7c16d74a109d94caa",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            2,
+            3,
+            1,
+            0
+          ],
+          [
+            2,
+            0,
+            3,
+            1
+          ]
+        ],
+        "flag_intervals": [
+          [],
+          [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 2,
+        "Q": 7,
+        "one_q_gates": 4,
+        "two_q_gates": 12,
+        "measurements": 4,
+        "resets": 4,
+        "preparations": 0,
+        "operation_count": 24,
+        "D": 24,
+        "QD": 168,
+        "depth_lower_bound": 24,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                3
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            1
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XXII"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 24,
+        "fault_variants": 208,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.017202600021846592,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00017170002683997154,
+      "runtime_seconds": 0.017906300025060773
+    },
+    {
+      "architecture_id": "19109d687eb98a90181d",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            3,
+            1,
+            0,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              4
+            ]
+          ],
+          []
+        ],
+        "check_order": [
+          1,
+          0
+        ],
+        "ancilla_assignment": [
+          0,
+          1
+        ],
+        "syndrome_budget": 2,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 2,
+        "flag_ancillas": 1,
+        "Q": 7,
+        "one_q_gates": 4,
+        "two_q_gates": 10,
+        "measurements": 3,
+        "resets": 3,
+        "preparations": 0,
+        "operation_count": 20,
+        "D": 20,
+        "QD": 140,
+        "depth_lower_bound": 20,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                5,
+                2
+              ],
+              "label": "XI",
+              "kind": "cz",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            1
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            3
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 10,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "ZIIZ"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 20,
+        "fault_variants": 174,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.012967500020749867,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.0001428999239578843,
+      "runtime_seconds": 0.013598799938336015
+    },
+    {
+      "architecture_id": "c2eaafee63b8adfceb40",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            0,
+            1,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            0,
+            1
+          ]
+        ],
+        "flag_intervals": [
+          [],
+          [
+            [
+              0,
+              3
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          1
+        ],
+        "syndrome_budget": 2,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 2,
+        "flag_ancillas": 1,
+        "Q": 7,
+        "one_q_gates": 4,
+        "two_q_gates": 10,
+        "measurements": 3,
+        "resets": 3,
+        "preparations": 0,
+        "operation_count": 20,
+        "D": 20,
+        "QD": 140,
+        "depth_lower_bound": 20,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                1
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            2,
+            3
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "IIXX"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 20,
+        "fault_variants": 174,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.013077000039629638,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00015189999248832464,
+      "runtime_seconds": 0.013700900017283857
+    },
+    {
+      "architecture_id": "f65c280e63f7d8f9a83a",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            2,
+            1,
+            0,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          []
+        ],
+        "check_order": [
+          1,
+          0
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 2,
+        "Q": 7,
+        "one_q_gates": 4,
+        "two_q_gates": 12,
+        "measurements": 4,
+        "resets": 4,
+        "preparations": 0,
+        "operation_count": 24,
+        "D": 24,
+        "QD": 168,
+        "depth_lower_bound": 24,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                3
+              ],
+              "label": "XI",
+              "kind": "cz",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            1
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            1
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 8,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "ZZII"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 24,
+        "fault_variants": 208,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.017447800026275218,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00015310000162571669,
+      "runtime_seconds": 0.018134100013412535
+    },
+    {
+      "architecture_id": "086daa2b92693e7bc0f6",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            1,
+            3,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            3,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 2,
+        "Q": 7,
+        "one_q_gates": 4,
+        "two_q_gates": 14,
+        "measurements": 5,
+        "resets": 5,
+        "preparations": 0,
+        "operation_count": 28,
+        "D": 28,
+        "QD": 196,
+        "depth_lower_bound": 28,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                3
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            2
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 4,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XIXI"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 28,
+        "fault_variants": 242,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.022460700012743473,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.0001615999499335885,
+      "runtime_seconds": 0.023230699938721955
+    },
+    {
+      "architecture_id": "728cb80cd589a5c92cc9",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            1,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          1
+        ],
+        "syndrome_budget": 2,
+        "parallelism": 2
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 2,
+        "flag_ancillas": 3,
+        "Q": 9,
+        "one_q_gates": 4,
+        "two_q_gates": 14,
+        "measurements": 5,
+        "resets": 5,
+        "preparations": 0,
+        "operation_count": 28,
+        "D": 24,
+        "QD": 216,
+        "depth_lower_bound": 16,
+        "schedule_efficiency": 0.6666666666666666
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 2,
+        "upper_bound": 2,
+        "excluded_through": 1,
+        "witness": {
+          "fault_count": 2,
+          "faults": [
+            {
+              "operation": 2,
+              "qubits": [
+                6
+              ],
+              "label": "X",
+              "kind": "reset",
+              "location": "op:2",
+              "before": false
+            },
+            {
+              "operation": 5,
+              "qubits": [
+                4,
+                3
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:5",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            2
+          ],
+          "flags_fired": true,
+          "flag_information_cancelled": true,
+          "logical_coset": 4,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XIXI"
+        },
+        "reason": null,
+        "combinations_examined": 594,
+        "fault_locations": 28,
+        "fault_variants": 242,
+        "requested_weight": 2
+      },
+      "stage": "C",
+      "rejection": null,
+      "signature_seconds": 0.022573199938051403,
+      "screening_stop": "C_logical_witness",
+      "fault_search_seconds": 0.0005598000716418028,
+      "runtime_seconds": 0.023746400023810565
+    },
+    {
+      "architecture_id": "e28a703e85e133fdac39",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            3,
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1,
+            3
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              3,
+              4
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          1,
+          0
+        ],
+        "ancilla_assignment": [
+          0,
+          1
+        ],
+        "syndrome_budget": 2,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 2,
+        "flag_ancillas": 3,
+        "Q": 9,
+        "one_q_gates": 4,
+        "two_q_gates": 14,
+        "measurements": 5,
+        "resets": 5,
+        "preparations": 0,
+        "operation_count": 28,
+        "D": 28,
+        "QD": 252,
+        "depth_lower_bound": 28,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 18,
+              "qubits": [
+                4,
+                7
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:18",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            2
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 4,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XIXI"
+        },
+        "reason": null,
+        "combinations_examined": 162,
+        "fault_locations": 28,
+        "fault_variants": 242,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.022691900026984513,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.0001824999926611781,
+      "runtime_seconds": 0.023486900026910007
+    },
+    {
+      "architecture_id": "9e39346eec5031c2ae64",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            2,
+            1,
+            3,
+            0
+          ],
+          [
+            2,
+            0,
+            3,
+            1
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          []
+        ],
+        "check_order": [
+          1,
+          0
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 2,
+        "Q": 7,
+        "one_q_gates": 4,
+        "two_q_gates": 12,
+        "measurements": 4,
+        "resets": 4,
+        "preparations": 0,
+        "operation_count": 24,
+        "D": 24,
+        "QD": 168,
+        "depth_lower_bound": 24,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                0
+              ],
+              "label": "XI",
+              "kind": "cz",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            1
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            1,
+            3
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 2,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "IZIZ"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 24,
+        "fault_variants": 208,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.0177034999942407,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.000161800067871809,
+      "runtime_seconds": 0.018433200079016387
+    },
+    {
+      "architecture_id": "eaf1ee04d758989287cc",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            2,
+            1,
+            0,
+            3
+          ],
+          [
+            1,
+            0,
+            3,
+            2
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              1,
+              4
+            ]
+          ],
+          []
+        ],
+        "check_order": [
+          1,
+          0
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 1,
+        "Q": 6,
+        "one_q_gates": 4,
+        "two_q_gates": 10,
+        "measurements": 3,
+        "resets": 3,
+        "preparations": 0,
+        "operation_count": 20,
+        "D": 20,
+        "QD": 120,
+        "depth_lower_bound": 20,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                0
+              ],
+              "label": "XI",
+              "kind": "cz",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            1
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            2,
+            3
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 8,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "IIZZ"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 20,
+        "fault_variants": 174,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.013151200022548437,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.0001414999132975936,
+      "runtime_seconds": 0.013773199985735118
+    },
+    {
+      "architecture_id": "d27ba250ff99bd103bab",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            2,
+            3,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            3,
+            2
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ]
+          ]
+        ],
+        "check_order": [
+          1,
+          0
+        ],
+        "ancilla_assignment": [
+          0,
+          1
+        ],
+        "syndrome_budget": 2,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 2,
+        "flag_ancillas": 3,
+        "Q": 9,
+        "one_q_gates": 4,
+        "two_q_gates": 14,
+        "measurements": 5,
+        "resets": 5,
+        "preparations": 0,
+        "operation_count": 28,
+        "D": 28,
+        "QD": 252,
+        "depth_lower_bound": 28,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 7,
+              "qubits": [
+                5,
+                0
+              ],
+              "label": "XI",
+              "kind": "cz",
+              "location": "op:7",
+              "before": false
+            }
+          ],
+          "checks": [
+            1
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            2,
+            3
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 8,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "IIZZ"
+        },
+        "reason": null,
+        "combinations_examined": 59,
+        "fault_locations": 28,
+        "fault_variants": 242,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.02274290006607771,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00016870000399649143,
+      "runtime_seconds": 0.02352210006210953
+    },
+    {
+      "architecture_id": "b3609fc6d52cb5edc859",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            2,
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            0,
+            2
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              3
+            ]
+          ],
+          []
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 1,
+        "Q": 6,
+        "one_q_gates": 4,
+        "two_q_gates": 10,
+        "measurements": 3,
+        "resets": 3,
+        "preparations": 0,
+        "operation_count": 20,
+        "D": 20,
+        "QD": 120,
+        "depth_lower_bound": 20,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 15,
+              "qubits": [
+                4,
+                3
+              ],
+              "label": "XI",
+              "kind": "cz",
+              "location": "op:15",
+              "before": false
+            }
+          ],
+          "checks": [
+            1
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            2
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 2,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "ZIZI"
+        },
+        "reason": null,
+        "combinations_examined": 129,
+        "fault_locations": 20,
+        "fault_variants": 174,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.013435299973934889,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00017619994468986988,
+      "runtime_seconds": 0.0141032999381423
+    },
+    {
+      "architecture_id": "09a6744f6b9f6d210524",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            3,
+            2,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            2,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              1,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          1
+        ],
+        "syndrome_budget": 2,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 2,
+        "flag_ancillas": 2,
+        "Q": 8,
+        "one_q_gates": 4,
+        "two_q_gates": 12,
+        "measurements": 4,
+        "resets": 4,
+        "preparations": 0,
+        "operation_count": 24,
+        "D": 24,
+        "QD": 192,
+        "depth_lower_bound": 24,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 18,
+              "qubits": [
+                5,
+                7
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:18",
+              "before": false
+            }
+          ],
+          "checks": [
+            1
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            2
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 2,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "ZIZI"
+        },
+        "reason": null,
+        "combinations_examined": 162,
+        "fault_locations": 24,
+        "fault_variants": 208,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.017895300057716668,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00018799991812556982,
+      "runtime_seconds": 0.018656599917449057
+    },
+    {
+      "architecture_id": "fc2f3dd0f98d85bc21e1",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            3,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          1,
+          0
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 2,
+        "Q": 7,
+        "one_q_gates": 4,
+        "two_q_gates": 16,
+        "measurements": 6,
+        "resets": 6,
+        "preparations": 0,
+        "operation_count": 32,
+        "D": 32,
+        "QD": 224,
+        "depth_lower_bound": 32,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 2,
+        "upper_bound": 2,
+        "excluded_through": 1,
+        "witness": {
+          "fault_count": 2,
+          "faults": [
+            {
+              "operation": 4,
+              "qubits": [
+                4,
+                2
+              ],
+              "label": "IX",
+              "kind": "cz",
+              "location": "op:4",
+              "before": false
+            },
+            {
+              "operation": 7,
+              "qubits": [
+                4,
+                1
+              ],
+              "label": "IX",
+              "kind": "cz",
+              "location": "op:7",
+              "before": false
+            }
+          ],
+          "checks": [
+            1
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            1,
+            2
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 5,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "IXXI"
+        },
+        "reason": null,
+        "combinations_examined": 877,
+        "fault_locations": 32,
+        "fault_variants": 276,
+        "requested_weight": 2
+      },
+      "stage": "C",
+      "rejection": null,
+      "signature_seconds": 0.02768539998214692,
+      "screening_stop": "C_logical_witness",
+      "fault_search_seconds": 0.0005911000771448016,
+      "runtime_seconds": 0.028898400021716952
+    },
+    {
+      "architecture_id": "ef2a23aa9f5f03b9a482",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            3,
+            2,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [],
+          []
+        ],
+        "check_order": [
+          1,
+          0
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 0,
+        "Q": 5,
+        "one_q_gates": 4,
+        "two_q_gates": 8,
+        "measurements": 2,
+        "resets": 2,
+        "preparations": 0,
+        "operation_count": 16,
+        "D": 16,
+        "QD": 80,
+        "depth_lower_bound": 16,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                2
+              ],
+              "label": "XI",
+              "kind": "cz",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            1
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            3
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 10,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "ZIIZ"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 16,
+        "fault_variants": 140,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.010320700006559491,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00015590002294629812,
+      "runtime_seconds": 0.01090879994444549
+    },
+    {
+      "architecture_id": "4e6542cafd59d3370f16",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            1,
+            3,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            2,
+            3
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          1
+        ],
+        "syndrome_budget": 2,
+        "parallelism": 2
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 2,
+        "flag_ancillas": 3,
+        "Q": 9,
+        "one_q_gates": 4,
+        "two_q_gates": 14,
+        "measurements": 5,
+        "resets": 5,
+        "preparations": 0,
+        "operation_count": 28,
+        "D": 19,
+        "QD": 171,
+        "depth_lower_bound": 16,
+        "schedule_efficiency": 0.8421052631578947
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                3
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            2
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 4,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XIXI"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 28,
+        "fault_variants": 242,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.023344000102952123,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00017710006795823574,
+      "runtime_seconds": 0.0241575000109151
+    },
+    {
+      "architecture_id": "a747afabcd6360c801ed",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            3,
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            1,
+            3,
+            2
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          0,
+          1
+        ],
+        "ancilla_assignment": [
+          0,
+          1
+        ],
+        "syndrome_budget": 2,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 2,
+        "flag_ancillas": 4,
+        "Q": 10,
+        "one_q_gates": 4,
+        "two_q_gates": 16,
+        "measurements": 6,
+        "resets": 6,
+        "preparations": 0,
+        "operation_count": 32,
+        "D": 32,
+        "QD": 320,
+        "depth_lower_bound": 32,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 6,
+              "qubits": [
+                4,
+                6
+              ],
+              "label": "XI",
+              "kind": "cx",
+              "location": "op:6",
+              "before": false
+            }
+          ],
+          "checks": [
+            0
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            1,
+            2
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 5,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "IXXI"
+        },
+        "reason": null,
+        "combinations_examined": 58,
+        "fault_locations": 32,
+        "fault_variants": 276,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.029914099955931306,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00021490000654011965,
+      "runtime_seconds": 0.030818399973213673
+    },
+    {
+      "architecture_id": "e148bf4e6c55c91a3710",
+      "candidate": {
+        "generating_basis": [
+          "XXXX",
+          "ZZZZ"
+        ],
+        "orders": [
+          [
+            0,
+            1,
+            3,
+            2
+          ],
+          [
+            2,
+            1,
+            3,
+            0
+          ]
+        ],
+        "flag_intervals": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              2,
+              4
+            ]
+          ]
+        ],
+        "check_order": [
+          1,
+          0
+        ],
+        "ancilla_assignment": [
+          0,
+          0
+        ],
+        "syndrome_budget": 1,
+        "parallelism": 1
+      },
+      "resources": {
+        "data_qubits": 4,
+        "syndrome_ancillas": 1,
+        "flag_ancillas": 2,
+        "Q": 7,
+        "one_q_gates": 4,
+        "two_q_gates": 14,
+        "measurements": 5,
+        "resets": 5,
+        "preparations": 0,
+        "operation_count": 28,
+        "D": 28,
+        "QD": 196,
+        "depth_lower_bound": 28,
+        "schedule_efficiency": 1.0
+      },
+      "bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 3,
+              "qubits": [
+                4,
+                1
+              ],
+              "label": "XI",
+              "kind": "cz",
+              "location": "op:3",
+              "before": false
+            }
+          ],
+          "checks": [
+            1
+          ],
+          "relation": "same-check",
+          "hook_support": [
+            0,
+            3
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 10,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "ZIIZ"
+        },
+        "reason": null,
+        "combinations_examined": 25,
+        "fault_locations": 28,
+        "fault_variants": 242,
+        "requested_weight": 1
+      },
+      "stage": "B",
+      "rejection": "B_logical_witness",
+      "signature_seconds": 0.02495139988604933,
+      "screening_stop": "B_logical_witness",
+      "fault_search_seconds": 0.00019610009621828794,
+      "runtime_seconds": 0.025825500022619963
+    }
+  ],
+  "runtime_seconds": 0.5123451000545174
+}

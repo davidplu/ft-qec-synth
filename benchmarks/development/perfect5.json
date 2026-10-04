@@ -1,0 +1,9 @@
+{
+  "name": "Five-qubit perfect code",
+  "generators": [
+    "XZZXI",
+    "IXZZX",
+    "XIXZZ",
+    "ZXIXZ"
+  ]
+}

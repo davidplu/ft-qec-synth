@@ -1,0 +1,242 @@
+[
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\search\\engine.py",
+    "line": 43,
+    "function": "search",
+    "calls": 5,
+    "self_seconds": 0.0046354000000000005,
+    "cumulative_seconds": 6.3705398
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\search\\engine.py",
+    "line": 13,
+    "function": "evaluate",
+    "calls": 120,
+    "self_seconds": 0.0022921,
+    "cumulative_seconds": 5.9572522
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\signatures.py",
+    "line": 53,
+    "function": "signatures",
+    "calls": 120,
+    "self_seconds": 0.20296830000000002,
+    "cumulative_seconds": 5.796650400000001
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\propagation.py",
+    "line": 22,
+    "function": "propagate",
+    "calls": 39276,
+    "self_seconds": 0.8705041,
+    "cumulative_seconds": 4.0349642
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\propagation.py",
+    "line": 3,
+    "function": "conjugate",
+    "calls": 1345920,
+    "self_seconds": 0.8541126,
+    "cumulative_seconds": 2.3710773
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.sum>",
+    "calls": 612530,
+    "self_seconds": 0.40100080000000005,
+    "cumulative_seconds": 1.1295114000000002
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\codes\\pauli.py",
+    "line": 9,
+    "function": "__post_init__",
+    "calls": 1839876,
+    "self_seconds": 0.5610894000000001,
+    "cumulative_seconds": 0.8502027000000001
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\signatures.py",
+    "line": 60,
+    "function": "<genexpr>",
+    "calls": 376820,
+    "self_seconds": 0.1520328,
+    "cumulative_seconds": 0.4725825
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\threading.py",
+    "line": 1117,
+    "function": "join",
+    "calls": 10,
+    "self_seconds": 0.00019250000000000002,
+    "cumulative_seconds": 0.38328840000000003
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\threading.py",
+    "line": 1155,
+    "function": "_wait_for_tstate_lock",
+    "calls": 10,
+    "self_seconds": 7.05e-05,
+    "cumulative_seconds": 0.38253210000000004
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\search\\engine.py",
+    "line": 37,
+    "function": "software_commit",
+    "calls": 5,
+    "self_seconds": 0.00015920000000000002,
+    "cumulative_seconds": 0.3474476
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py",
+    "line": 506,
+    "function": "run",
+    "calls": 5,
+    "self_seconds": 0.0001314,
+    "cumulative_seconds": 0.34722400000000003
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<method 'acquire' of '_thread.lock' objects>",
+    "calls": 70,
+    "self_seconds": 0.0012352,
+    "cumulative_seconds": 0.335509
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.min>",
+    "calls": 1840271,
+    "self_seconds": 0.2892002,
+    "cumulative_seconds": 0.2892002
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py",
+    "line": 1165,
+    "function": "communicate",
+    "calls": 5,
+    "self_seconds": 4.36e-05,
+    "cumulative_seconds": 0.28701720000000003
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py",
+    "line": 1603,
+    "function": "_communicate",
+    "calls": 5,
+    "self_seconds": 8.740000000000001e-05,
+    "cumulative_seconds": 0.2845537
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\threading.py",
+    "line": 1018,
+    "function": "_bootstrap",
+    "calls": 10,
+    "self_seconds": 0.0023994000000000003,
+    "cumulative_seconds": 0.282955
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\threading.py",
+    "line": 1058,
+    "function": "_bootstrap_inner",
+    "calls": 10,
+    "self_seconds": 0.0001395,
+    "cumulative_seconds": 0.2811383
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\codes\\stabilizer.py",
+    "line": 46,
+    "function": "syndrome",
+    "calls": 39276,
+    "self_seconds": 0.0235052,
+    "cumulative_seconds": 0.24146710000000002
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\signatures.py",
+    "line": 16,
+    "function": "pauli",
+    "calls": 38502,
+    "self_seconds": 0.0630614,
+    "cumulative_seconds": 0.1940521
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\codes\\pauli.py",
+    "line": 27,
+    "function": "symplectic",
+    "calls": 259976,
+    "self_seconds": 0.127732,
+    "cumulative_seconds": 0.1913205
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\signatures.py",
+    "line": 32,
+    "function": "enumerate_faults",
+    "calls": 39396,
+    "self_seconds": 0.0942741,
+    "cumulative_seconds": 0.19017910000000002
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.sorted>",
+    "calls": 41495,
+    "self_seconds": 0.0477476,
+    "cumulative_seconds": 0.1873012
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\threading.py",
+    "line": 1001,
+    "function": "run",
+    "calls": 10,
+    "self_seconds": 7.98e-05,
+    "cumulative_seconds": 0.18123270000000002
+  },
+  {
+    "file": "C:\\Users\\david\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py",
+    "line": 1598,
+    "function": "_readerthread",
+    "calls": 10,
+    "self_seconds": 5.6800000000000005e-05,
+    "cumulative_seconds": 0.18097000000000002
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\codes\\stabilizer.py",
+    "line": 46,
+    "function": "<genexpr>",
+    "calls": 199604,
+    "self_seconds": 0.057243,
+    "cumulative_seconds": 0.1776136
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\codes\\logicals.py",
+    "line": 24,
+    "function": "logical_effect",
+    "calls": 39276,
+    "self_seconds": 0.023528300000000002,
+    "cumulative_seconds": 0.1545232
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<method 'read' of '_io.TextIOWrapper' objects>",
+    "calls": 15,
+    "self_seconds": 0.2782233,
+    "cumulative_seconds": 0.1446626
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\faults\\signatures.py",
+    "line": 62,
+    "function": "<genexpr>",
+    "calls": 216492,
+    "self_seconds": 0.0784253,
+    "cumulative_seconds": 0.1385818
+  },
+  {
+    "file": "C:\\Users\\david\\qLDPC synthesizer\\src\\ftqec\\codes\\logicals.py",
+    "line": 25,
+    "function": "<genexpr>",
+    "calls": 88840,
+    "self_seconds": 0.0356509,
+    "cumulative_seconds": 0.1061494
+  }
+]

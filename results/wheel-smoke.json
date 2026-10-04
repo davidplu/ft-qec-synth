@@ -1,0 +1,36 @@
+{
+  "n": 4,
+  "rank": 2,
+  "k": 2,
+  "commuting": true,
+  "weights": [
+    4,
+    4
+  ],
+  "degrees": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "overlaps": [
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "logicals": [
+    [
+      "XXII",
+      "ZIZI"
+    ],
+    [
+      "XIXI",
+      "ZZII"
+    ]
+  ]
+}

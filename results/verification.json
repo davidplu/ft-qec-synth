@@ -1,0 +1,13 @@
+{
+  "tests_run": 33,
+  "passed": 32,
+  "failures": [],
+  "errors": [],
+  "skipped": [
+    [
+      "test_schema_results_if_validator_available (test_verification.IndependentTests.test_schema_results_if_validator_available)",
+      "Optional JSON-schema validator not installed"
+    ]
+  ],
+  "successful": true
+}

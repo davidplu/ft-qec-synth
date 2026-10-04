@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "code",
+    "syndrome_qubits",
+    "flag_qubits",
+    "operations",
+    "detectors",
+    "observables",
+    "boundary_model"
+  ],
+  "properties": {
+    "code": {
+      "type": "object",
+      "required": [
+        "generators"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "n": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "generators": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[IXYZ]+$"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "syndrome_qubits": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "flag_qubits": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "operations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "gate",
+          "qubits",
+          "deps",
+          "record",
+          "check"
+        ],
+        "properties": {
+          "gate": {
+            "enum": [
+              "H",
+              "S",
+              "SDG",
+              "X",
+              "Y",
+              "Z",
+              "CX",
+              "CZ",
+              "SWAP",
+              "PREP",
+              "RESET",
+              "M",
+              "IDLE",
+              "BARRIER"
+            ]
+          },
+          "qubits": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "deps": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "record": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "check": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "detectors": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "observables": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "boundary_model": {
+      "const": "ideal_initial_and_final_syndrome"
+    }
+  }
+}

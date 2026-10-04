@@ -1,0 +1,7 @@
+{
+  "name": "Three-qubit repetition",
+  "generators": [
+    "ZZI",
+    "IZZ"
+  ]
+}

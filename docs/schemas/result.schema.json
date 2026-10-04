@@ -1,0 +1,464 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FTQEC 0.1 search result",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "code",
+    "code_input_hash",
+    "software_version",
+    "software_git_commit",
+    "seed",
+    "configuration",
+    "fault_model",
+    "candidates_evaluated",
+    "rejections",
+    "stage_outcomes",
+    "frontier",
+    "exploratory_frontier",
+    "records",
+    "runtime_seconds"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "code": {
+      "$ref": "#/$defs/code"
+    },
+    "code_input_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "software_version": {
+      "type": "string"
+    },
+    "software_git_commit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "seed": {
+      "type": "integer"
+    },
+    "configuration": {
+      "type": "object",
+      "required": [
+        "budget",
+        "max_weight",
+        "max_combinations",
+        "beam_width",
+        "idles",
+        "required_distance"
+      ]
+    },
+    "fault_model": {
+      "type": "string"
+    },
+    "candidates_evaluated": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "rejections": {
+      "type": "object"
+    },
+    "stage_outcomes": {
+      "type": "object"
+    },
+    "runtime_seconds": {
+      "type": "number",
+      "minimum": 0
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    },
+    "frontier": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    },
+    "exploratory_frontier": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    }
+  },
+  "$defs": {
+    "fault": {
+      "type": "object",
+      "required": [
+        "operation",
+        "qubits",
+        "label",
+        "kind",
+        "location",
+        "before"
+      ],
+      "properties": {
+        "operation": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "qubits": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "label": {
+          "type": "string",
+          "pattern": "^[IXYZ]+$"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "before": {
+          "type": "boolean"
+        }
+      }
+    },
+    "counterexample": {
+      "type": "object",
+      "required": [
+        "fault_count",
+        "faults",
+        "checks",
+        "relation",
+        "hook_support",
+        "flags_fired",
+        "flag_information_cancelled",
+        "logical_coset",
+        "detector_outcomes",
+        "flag_outcomes",
+        "final_data_pauli"
+      ],
+      "properties": {
+        "fault_count": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 3
+        },
+        "faults": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fault"
+          }
+        },
+        "checks": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "relation": {
+          "enum": [
+            "same-check",
+            "cross-check",
+            "unassigned"
+          ]
+        },
+        "hook_support": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "flags_fired": {
+          "type": "boolean"
+        },
+        "flag_information_cancelled": {
+          "type": "boolean"
+        },
+        "logical_coset": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "detector_outcomes": {
+          "type": "integer",
+          "const": 0
+        },
+        "flag_outcomes": {
+          "type": "integer",
+          "const": 0
+        },
+        "final_data_pauli": {
+          "type": "string",
+          "pattern": "^[IXYZ]+$"
+        }
+      }
+    },
+    "bounds": {
+      "type": "object",
+      "required": [
+        "status",
+        "lower_bound",
+        "upper_bound"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "EXACT",
+            "LOWER_BOUND",
+            "UPPER_BOUND",
+            "UNRESOLVED"
+          ]
+        },
+        "lower_bound": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "upper_bound": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "excluded_through": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "witness": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/counterexample"
+            }
+          ]
+        },
+        "reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "resources": {
+      "type": "object",
+      "required": [
+        "data_qubits",
+        "syndrome_ancillas",
+        "flag_ancillas",
+        "Q",
+        "one_q_gates",
+        "two_q_gates",
+        "measurements",
+        "resets",
+        "preparations",
+        "operation_count",
+        "D",
+        "QD",
+        "depth_lower_bound",
+        "schedule_efficiency"
+      ],
+      "properties": {
+        "data_qubits": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "syndrome_ancillas": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "flag_ancillas": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "Q": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "one_q_gates": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "two_q_gates": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "measurements": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "resets": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "preparations": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "operation_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "D": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "QD": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "depth_lower_bound": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "schedule_efficiency": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "candidate": {
+      "type": "object",
+      "required": [
+        "generating_basis",
+        "orders",
+        "flag_intervals",
+        "check_order",
+        "ancilla_assignment",
+        "syndrome_budget",
+        "parallelism"
+      ],
+      "properties": {
+        "generating_basis": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[IXYZ]+$"
+          }
+        },
+        "syndrome_budget": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "parallelism": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "orders": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "flag_intervals": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        },
+        "check_order": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "ancilla_assignment": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "record": {
+      "type": "object",
+      "required": [
+        "architecture_id",
+        "candidate",
+        "resources",
+        "bounds",
+        "stage",
+        "rejection",
+        "runtime_seconds"
+      ],
+      "properties": {
+        "architecture_id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{20}$"
+        },
+        "candidate": {
+          "$ref": "#/$defs/candidate"
+        },
+        "resources": {
+          "$ref": "#/$defs/resources"
+        },
+        "bounds": {
+          "$ref": "#/$defs/bounds"
+        },
+        "stage": {
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "rejection": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "runtime_seconds": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "code": {
+      "type": "object",
+      "required": [
+        "generators"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "n": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "generators": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[IXYZ]+$"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

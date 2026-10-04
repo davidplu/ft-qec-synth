@@ -1,0 +1,7 @@
+{
+  "name": "Four-qubit non-CSS development example",
+  "generators": [
+    "YXXY",
+    "ZYYZ"
+  ]
+}
