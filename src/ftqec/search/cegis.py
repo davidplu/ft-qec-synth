@@ -97,6 +97,7 @@ def repair_outcome(parent, child, parent_circuit, child_circuit):
             'improves_distance_lower_bound': cb['lower_bound'] > pb['lower_bound'],
             'preserves_exact_distance_improves_resources': improved_resources,
             'equal_or_worse_witness': cb['upper_bound'] is not None and cb['upper_bound'] <= pb['upper_bound'],
+            'fails_or_equal_or_worse_without_quality_gain': not (raised or cb['lower_bound'] > pb['lower_bound'] or improved_resources),
             'repair_success': raised or cb['lower_bound'] > pb['lower_bound'] or improved_resources}
 
 
@@ -160,6 +161,7 @@ def run_search(code, memory=MemoryConfig(), config=SearchConfig()):
     repairs = [r for r in records if 'repair_outcome' in r]
     transportable = [r for r in repairs if r['repair_outcome']['eliminates_source_witness'] is not None]
     summary = {'best_dc_lower_bound': quality,
+               'minimum_witness_weight_at_best_dc': min((r['bounds']['upper_bound'] for r in best if r['bounds']['upper_bound']),default=None),
                'minimum_witness_weight': min((r['bounds']['upper_bound'] for r in records if r['bounds']['upper_bound']), default=None),
                'best_resources_at_best_dc': {m: min(r['resources'][m] for r in best) for m in ('Q','D','QD','two_q_gates')},
                'first_dc_tiers': tiers, 'evaluations_to_target_dc': reached['evaluation'] if reached else None,

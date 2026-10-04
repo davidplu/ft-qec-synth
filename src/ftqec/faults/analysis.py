@@ -43,8 +43,14 @@ def analyze(circuit, witness, signatures):
         support = [q for q in range(p.n) if (p.x | p.z) >> q & 1]
         if p.weight > 1: hook.update(support)
         if f.interaction_position is not None:
+            monitored=[]
+            for op in circuit.operations:
+                if op.check==f.check and op.round_index==f.round_index and op.role=='flag_open':
+                    close=next((x for x in circuit.operations if x.check==f.check and x.round_index==f.round_index and x.role=='flag_close' and x.interval==op.interval),None)
+                    if close and op.interaction_position<=f.interaction_position<close.interaction_position:
+                        monitored.append({'flag_interval':op.interval,'lo':op.interaction_position,'hi':close.interaction_position})
             intervals.append(dict(round=f.round_index, check=f.check, flag_interval=f.interval,
-                                  interaction_position=f.interaction_position, propagated_support=support))
+                                  interaction_position=f.interaction_position, monitored_intervals=monitored,propagated_support=support))
     names = sorted(op.record for op in circuit.operations if op.record and op.record.startswith('f'))
     triggered = []; cancelled = []
     for i, name in enumerate(names):
@@ -68,6 +74,13 @@ def analyze(circuit, witness, signatures):
     if len(checks) > 1: classes.append('CROSS_CHECK_OVERLAP' if overlap else 'CROSS_CHECK_COLLISION')
     if any(s.fault.role == 'final_data_readout' for s in group): classes.append('FINAL_READOUT')
     if not classes: classes.append('OTHER')
+    completion=False
+    for s in group:
+        if hook and Pauli.unpack(circuit.code.n,s.data).weight==1:
+            d=l=0
+            for other in group:
+                if other is not s: d^=other.detectors; l^=other.logical
+            completion |= bool(d or not l)
     identifier = sha256(json.dumps(witness, sort_keys=True).encode()).hexdigest()[:20]
     return CounterexampleAnalysis(identifier, len(group), rounds, checks,
         'same-round' if len(rounds) == 1 else 'cross-round',
@@ -75,8 +88,8 @@ def analyze(circuit, witness, signatures):
         sorted(hook), len(hook), intervals, triggered, cancelled,
         sum(s.fault.kind == 'measurement' for s in group),
         sum(s.fault.kind in ('reset', 'preparation', 'prep') for s in group),
-        sum(s.fault.kind == 'idle' for s in group), len(gadgets) != len(set(gadgets)),
-        bool(hook) and any(Pauli.unpack(circuit.code.n,s.data).weight == 1 for s in group), overlap, classes)
+        sum(s.fault.kind in ('idle','idle_gate') for s in group), len(gadgets) != len(set(gadgets)),
+        completion, overlap, classes)
 
 
 def semantic_address(circuit, operation):

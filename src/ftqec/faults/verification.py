@@ -30,7 +30,7 @@ def replay(circuit, faults):
                 raise ValueError('Invalid gate fault')
             if all(p == 'I' for p in f.label) or c.operations[f.operation].gate in ('M', 'BARRIER'):
                 raise ValueError('Invalid gate fault type')
-            expected_kind = 'preparation' if c.operations[f.operation].role == 'input_preparation_noise' else c.operations[f.operation].gate.lower()
+            expected_kind = 'preparation' if c.operations[f.operation].role == 'input_preparation_noise' else 'idle_gate' if c.operations[f.operation].gate=='IDLE' else c.operations[f.operation].gate.lower()
             if f.kind != expected_kind: raise ValueError('Fault kind does not match gate')
         if f.kind != 'idle' and f.location != f'op:{f.operation}':
             raise ValueError('Forged physical location identifier')

@@ -1,53 +1,58 @@
-# FTQEC 0.1
+# FTQEC 0.2
 
-A generic, reproducible research core for stabilizer syndrome-extraction architecture search. Pure Python, no runtime dependencies. Inputs are unsigned (+1), commuting Hermitian Pauli generators. CSS and non-CSS codes, dependent generators, arbitrary n and k are supported. Invalid commutation and hidden -I relations are rejected.
+Repeated noisy syndrome-extraction memory experiments and counterexample-guided architecture search, extending the V0.1 research core. No held-out architectural answers are included. Runtime uses only the Python standard library; the full development suite declares pytest and jsonschema.
 
-## Install and run
+## Install and test
 
-Python 3.10+:
+Python 3.10+, from this repository:
 
 ```console
-python -m pip install -e ".[dev]"
-ftqec validate benchmarks/development/steane.json
-ftqec generate benchmarks/development/steane.json --budget 12 --seed 7 -o results/generated.json
-ftqec search benchmarks/development/steane.json --budget 1000 --seed 7 --max-weight 2 -o results/steane-search.json
-ftqec frontier results/steane-search.json -o results/frontier.json
+python -m venv .venv
+.venv\Scripts\activate
+pip install -e ".[dev]"
 pytest
-python experiments/run_development.py --budget 24
+python experiments/run_tests.py
 ```
 
-Without installation, set PYTHONPATH to the absolute `src` directory and use `python -m ftqec.cli` in place of `ftqec`. No network or simulator is needed for the core. Optional `pip install -e ".[verification]"` enables JSON-schema validation tests. To evaluate a circuit, save one `circuit` object from the generate output as `circuit.json`:
+On POSIX activate with `source .venv/bin/activate`. Editable installation is the normal workflow; no manual PYTHONPATH is required. The automated verification command saves JUnit XML and a JSON summary. Missing test dependencies fail explicitly instead of skipping.
+
+## End-to-end example
 
 ```console
-ftqec evaluate circuit.json
-ftqec faults circuit.json --max-weight 3 --max-combinations 2000000
-ftqec search my_code.json --budget 100 --required-distance 3 --max-weight 2 --idles -o results/custom.json
+ftqec validate benchmarks/development/steane.json
+ftqec memory benchmarks/development/steane.json --rounds 3 --basis Z -o results/memory.json
+ftqec evaluate results/memory.json
+ftqec faults results/memory.json --max-weight 3 -o results/faults.json
+ftqec verify results/memory.json --witness results/faults.json
+ftqec decode results/memory.json --max-weight 1
+ftqec search benchmarks/development/steane.json --budget 1000 --seed 7 --rounds 3 --basis Z --target-dc 3 --strategy cegis -o results/search.json
+ftqec frontier results/search.json -o results/frontier.json
 ```
 
-Minimal input:
+`memory` defaults to the generic bare candidate. Supply `--candidate candidate.json` to build a particular candidate object saved from a search record. `generate` retains the V0.1 bounded candidate/single-round export. To run its legacy evaluation explicitly, use `search --model ideal-boundary`; these outputs retain the 0.1 result schema and are not mixed with repeated-memory results. Repeated memory is the default search model. Frontiers are grouped by code, model, memory basis/index/rounds/input policy, idle policy and target threshold.
+
+Input is only a stabilizer definition:
 
 ```json
-{"name": "my code", "generators": ["XXXX", "ZZZZ"]}
+{"name": "custom", "generators": ["XXXX", "ZZZZ"]}
 ```
 
-For no generators, explicitly provide n. No target resources, schedules or flag hints belong in a code input. `benchmarks/held_out/` is reserved for later stabilizer-only inputs.
+Signed Pauli inputs are not supported; strings specify +1 Hermitian generators. Empty generator sets require n. Algebra supports CSS/non-CSS, arbitrary n/k and dependent generators, rejecting noncommuting or -I-implying input. Logical representatives are generic, not optimized for weight. k>1 memory experiments select `--logical-index` and test one X/Z observable per run.
 
-## Pipeline
+## What changed from V0.1
 
-Bit-packed symplectic algebra -> generic logical quotient basis -> seeded candidates -> extraction IR -> greedy scheduling -> resources -> precomputed linear fault signatures -> weight 1/2/3 hash searches -> explicit witnesses -> Pareto frontier -> beam mutations.
+The existing algebra, gadget, candidate, scheduler, resource and bounded fault-search modules remain. V0.2 adds round/operation metadata, temporal detectors, physical final readout, separate decoder metrics, independent witness replay, deterministic counterexample analysis, provenance-labelled targeted repairs and matched search ablations. Signature construction now uses backward packed transfer maps, checked against forward propagation and independent actual-state tests. Public serialization returns JSON-native arrays, and source-layout tests run after the declared editable install.
 
-Candidates specify the input generating basis, support permutations, flag intervals, check order, syndrome slot assignment/budget and parallelism. SHA-256 IDs cover the complete candidate configuration. Search uses a nondominated finite beam; a deterministic lexicographic order only allocates the finite beam. The reported frontier uses Q, D, QD, two-qubit gates and certified distance lower bound, rather than a scalar score. Frontiers retain one reproducible representative per identical objective vector; raw records retain all alternatives. Frontiers retain one reproducible representative per identical objective vector; raw records retain all alternatives. Cross-code frontier aggregation keeps code input hashes separate.
+A default round means one complete measurement of all supplied checks. R=3 is a fixed development convention, not implicitly the code distance. The input encoded logical state is ideal; optional `--noisy-input` adds local output-preparation faults. Ancilla preparation/reset, gates and measurement are noisy; `--idles` enables storage faults. Final detectors close only checks compatible with the physical product readout. Non-CSS cases can consequently have a distance-one readout ceiling. Read [the exact fault model](docs/FAULT_MODEL.md) before interpreting any bound.
 
-Each check uses a |+> syndrome ancilla with controlled Pauli interactions. A Y interaction is SDG(data), CX(ancilla,data), S(data). Zero, one or two flag intervals are generated; the IR builder supports arbitrary configured interval counts. Paired CX(ancilla,flag) operations bracket each interval. Each flag is reset to |0>, measured in Z and reused only after its measurement epoch. The candidate intervals provide check segmentation into monitored intervals, not independently measured partial stabilizers.
+Distance is decoder-independent: zero temporal/flag detectors plus a flipped final logical observable. Decoder failures, including nonzero-syndrome collisions, are separate results. EXACT is emitted only when lower/upper bounds meet; partial search is never certified. Weights 1–3 use hashing/meet-in-the-middle; weights 4–6 are supported for small tractable cases with explicit work limits. No LER or global optimality claim is made.
 
-`--budget` caps distinct evaluated candidates, not elapsed time. Duplicate pruning and a bounded mutation attempt count may yield fewer candidates. All stochastic choices use the provided seed. Runtime measurements are intentionally nondeterministic; architectures, metrics and bounds are reproducible.
+## Controlled development experiment
 
-## Read the result correctly
+```console
+python experiments/run_v02.py --budget 24 --seeds 0 1 2 --rounds 3
+```
 
-The default acceptance threshold is `--required-distance 2`: exclude all single-fault undetected logical failures under the documented model. Weight-two failures are retained with their exact/upper bounds and witnesses if the threshold is met. For a stricter screen, use `--required-distance 3 --max-weight 2`. This is a detection-distance criterion, **not a proof of fault-tolerant error correction**.
+Four development codes, X/Z memory, three seeds and four strategies (random/resource/CEGIS/mixed) use identical populations, evaluation slots and mutation counts. Duplicate proposals consume slots under every strategy; raw records retain cache status and all provenance. Runs, paired comparisons, repairs and profiles are saved in `results/v0.2/`. The current pilot does not establish a CEGIS search advantage.
 
-Stage A conservatively rejects resource dominance only against candidates fully screened through the requested weight; resources alone cannot justify discarding a potentially higher-distance candidate. B/C/D search weights 1/2/3. Once a witness is found, higher weights cannot improve its upper bound and are skipped. Every rejection is recorded. `stage_outcomes` also counts witnesses that meet the configured acceptance threshold. `frontier` contains accepted candidates; `exploratory_frontier` includes failed candidates for research feedback and must not be called a certified frontier.
-
-Bounds are integer lower/upper bounds: excluding faults through t means d >= t+1 (d > t). A weight-t witness means d <= t. EXACT is emitted only when lower and upper agree. A work limit never certifies an unfinished layer. k=0 has no data logical failure; finite-order searches do not claim infinite distance.
-
-See [the model](docs/FAULT_MODEL.md), [limitations](docs/V0_1_LIMITATIONS.md), [benchmark protocol](BENCHMARK_PROTOCOL.md), and [roadmap](docs/V0_2_ROADMAP.md). See [the development report](docs/DEVELOPMENT_REPORT.md). See [the development report](docs/DEVELOPMENT_REPORT.md). Saved demonstration and profile outputs are in `results/development/`.
+See [CEGIS and repair definitions](docs/CEGIS.md), [V0.2 results and readiness](docs/V0_2_RESULTS.md), [limitations](docs/V0_2_LIMITATIONS.md) and [research isolation](BENCHMARK_PROTOCOL.md). JSON schemas are under `docs/schemas/`; use `result-v0.2.schema.json` for repeated-memory results and `result.schema.json` for legacy V0.1 outputs.

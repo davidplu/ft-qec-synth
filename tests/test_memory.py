@@ -148,3 +148,54 @@ def test_flagged_dense_noiseless_epochs():
     ss=signatures(circuit)
     fault=next(s for s in ss if s.fault.role=='flag_readout')
     assert dense_run(circuit,[fault.fault],4)==(fault.detectors,fault.logical,fault.flags)
+
+
+def test_all_logical_indices_and_input_validation():
+    code=StabilizerCode.from_dict({'generators':['XXXX','ZZZZ']})
+    candidate=next(generate(code,1))
+    for index in range(code.k):
+        for basis in ['X','Z']:
+            c=build_memory(code,candidate,MemoryConfig(2,basis,index))
+            assert dense_run(c,seed=5)==(0,0,0)
+    with pytest.raises(ValueError): build_memory(code,candidate,MemoryConfig(2,'Z',code.k))
+    with pytest.raises(ValueError): MemoryConfig(0)
+    with pytest.raises(ValueError): SearchConfig(budget=0)
+
+def test_repair_source_elimination_and_quality_gain_are_distinct():
+    from dataclasses import replace
+    from ftqec.search.cegis import evaluate_memory,repair_outcome
+    code=StabilizerCode.from_dict({'generators':['XXXX','ZZZZ']})
+    parent=next(generate(code,1)); child=replace(parent,flag_intervals=(((0,4),),()))
+    config=SearchConfig(budget=2,max_combinations=100000)
+    p,pc=evaluate_memory(code,parent,MemoryConfig(3,'Z'),config)
+    c,cc=evaluate_memory(code,child,MemoryConfig(3,'Z'),config)
+    outcome=repair_outcome(p,c,pc,cc)
+    assert outcome['eliminates_source_witness']
+    assert outcome['improves_distance_lower_bound']
+    assert c['bounds']['upper_bound']==2
+    assert c['bounds']['lower_bound']==2
+    assert not c['bounds']['lower_bound']>=config.target_dc
+
+def test_repeated_cli_memory_faults_decode_verify(tmp_path):
+    from ftqec.cli import main
+    code=ROOT/'benchmarks/development/css4.json'
+    circuit=tmp_path/'c.json'; fault=tmp_path/'f.json'; verification=tmp_path/'v.json'
+    main(['memory',str(code),'--rounds','2','--basis','X','-o',str(circuit)])
+    main(['faults',str(circuit),'--max-weight','3','-o',str(fault)])
+    main(['verify',str(circuit),'--witness',str(fault),'-o',str(verification)])
+    assert json.loads(verification.read_text())['verified']
+    main(['decode',str(circuit),'-o',str(tmp_path/'d.json')])
+    assert json.loads((tmp_path/'d.json').read_text())['training_completed_through']==1
+
+
+def test_explicit_idle_is_a_gate_location_not_a_virtual_tick():
+    c=Circuit(StabilizerCode(1,()),(),()); c.add('IDLE',[0])
+    ss=signatures(c)
+    assert all(s.fault.kind=='idle_gate' for s in ss)
+    w=search_faults(c,ss,1)['witness']
+    assert verify_witness(c.to_dict(),w)['verified']
+
+def test_dense_encoded_input_output_noise():
+    c=simple(noisy_input=True)
+    fault=next(s for s in signatures(c) if s.fault.kind=='preparation' and s.fault.qubits==(0,) and s.fault.label=='X')
+    assert dense_run(c,[fault.fault],3)==(fault.detectors,fault.logical,fault.flags)

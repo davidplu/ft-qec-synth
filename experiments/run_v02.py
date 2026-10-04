@@ -124,7 +124,7 @@ def main():
     dump(out/'protocol.json',{'development_codes':['css4','noncss4','perfect5','steane'],
                              'rounds':args.rounds,'bases':['X','Z'],'seeds':args.seeds,'strategies':['random','resource','cegis','mixed'],
                              'evaluation_budget':args.budget,'mutation_count':max(0,args.budget-6),'initial_population':min(6,args.budget),
-                             'target_dc':3,'max_weight':3,'max_combinations':args.max_combinations,'idles':False,
+                             'target_dc':3,'max_weight':3,'beam_width':12,'decoder_weight':1,'logical_index':0,'max_flags_per_check':4,'max_combinations':args.max_combinations,'idles':False,
                              'noisy_input':False,'budget_policy':'every proposal including cached duplicates consumes one slot',
                              'total_runs':len(runs),'total_evaluation_slots':sum(r['result']['evaluation_slots'] for r in runs),
                              'total_wall_seconds':sum(r['result']['runtime_seconds'] for r in runs)})

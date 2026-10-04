@@ -46,19 +46,26 @@ def enumerate_faults(c,idles=False):
         else:
             for labels in product('IXYZ',repeat=len(op.qubits)):
                 if all(p=='I' for p in labels): continue
-                yield Fault(i,op.qubits,''.join(labels),'preparation' if op.role=='input_preparation_noise' else op.gate.lower(),f'op:{i}',**metadata)
+                yield Fault(i,op.qubits,''.join(labels),'preparation' if op.role=='input_preparation_noise' else 'idle_gate' if op.gate=='IDLE' else op.gate.lower(),f'op:{i}',**metadata)
     if idles:
         s=schedule(c)
+        spans={}
+        for i,op in enumerate(c.operations):
+            if op.role=='round_start': spans.setdefault(op.round_index,[s.starts[i],s.starts[i]])[0]=s.starts[i]
+            if op.role=='round_end': spans.setdefault(op.round_index,[s.starts[i],s.starts[i]])[1]=s.starts[i]
+        def idle_round(tick):
+            return next((r for r,(lo,hi) in spans.items() if lo<=tick<hi),
+                        -1 if spans and tick<min(lo for lo,hi in spans.values()) else c.experiment.get('rounds'))
         for q in range(c.num_qubits):
             uses=[(s.starts[i],i) for i,o in enumerate(c.operations) if q in o.qubits and o.gate!='BARRIER']
             previous=0
             for t,i in uses:
                 for tick in range(previous,t):
-                    for p in 'XYZ': yield Fault(i,(q,),p,'idle',f'idle:{q}:{tick}',True,round_index=c.operations[i].round_index,check=c.operations[i].check,role='idle')
+                    for p in 'XYZ': yield Fault(i,(q,),p,'idle',f'idle:{q}:{tick}',True,round_index=idle_round(tick),role='idle')
                 previous=t+1
             # Include trailing storage of every physical qubit through the end.
             for tick in range(previous,s.depth):
-                for p in 'XYZ': yield Fault(len(c.operations),(q,),p,'idle',f'idle:{q}:{tick}',True)
+                for p in 'XYZ': yield Fault(len(c.operations),(q,),p,'idle',f'idle:{q}:{tick}',True,round_index=idle_round(tick),role='idle')
 
 def signatures_forward(c,idles=False):
     c.validate(); pairs=logical_basis(c.code); out=[]

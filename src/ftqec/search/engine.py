@@ -62,7 +62,7 @@ def search(code,budget=100,seed=0,max_weight=2,max_combinations=2000000,beam_wid
         beam=[type(candidate).from_dict(r['candidate']) for r in sorted(pool,key=beam_order)[:beam_width]]
     counts={reason:sum(r['rejection']==reason for r in records) for reason in sorted(set(r['rejection'] for r in records if r['rejection']))}
     return dict(schema_version='0.1',code=code.to_dict(),code_input_hash=code.input_hash,
-                software_version='0.1.0',software_git_commit=software_commit(),seed=seed,
+                software_version='0.2.0',software_git_commit=software_commit(),seed=seed,
                 configuration=dict(budget=budget,max_weight=max_weight,max_combinations=max_combinations,beam_width=beam_width,idles=idles,required_distance=required_distance),
                 fault_model=MODEL,candidates_evaluated=len(records),rejections=counts,
                 stage_outcomes={stage:sum(r.get('screening_stop')==stage for r in records) for stage in sorted(set(r.get('screening_stop') for r in records if r.get('screening_stop')))},

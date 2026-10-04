@@ -31,7 +31,7 @@ def targeted_repairs(candidate, analysis, rng, max_flags=4):
             flags = [list(f) for f in candidate.flag_intervals]
             if len(flags[check]) < max_flags:
                 flags[check].append(interval)
-                cls = 'FLAG_CANCELLATION' if analysis.flag_records_cancelled else failure
+                cls = 'FLAG_READOUT_HIDING' if 'FLAG_READOUT_HIDING' in analysis.failure_classes else 'FLAG_CANCELLATION' if analysis.flag_records_cancelled else failure
                 offer(replace(candidate,flag_intervals=tuple(tuple(f) for f in flags)), name, cls)
         if candidate.flag_intervals[check]:
             flags = [list(f) for f in candidate.flag_intervals]

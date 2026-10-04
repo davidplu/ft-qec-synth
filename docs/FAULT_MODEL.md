@@ -1,3 +1,47 @@
+# V0.2 repeated-memory fault model
+
+## Experiment and rounds
+
+The default is R=3 complete extraction rounds, independent of code distance. `MemoryConfig` and the CLI expose R explicitly. A round measures every specified stabilizer once using the candidate's check order, support order, ancilla allocation, flag intervals and parallel lanes; a global zero-duration barrier ends the round. Every flag interval is reset, opened, closed and measured in each round. No round is silently omitted or replaced by an ideal syndrome measurement. The result records rounds, basis, logical index, noisy-input setting and idle policy.
+
+Input is an ideal encoded +1 stabilizer state with the selected logical X_i or Z_i in its +1 eigenstate. Other logical degrees of freedom need not be fixed. There is no hidden noisy encoder circuit. Optional `noisy_input` adds an explicit unit-time local Pauli output-noise layer after that ideal encoded preparation, labelled preparation noise; this is not a proof of fault-tolerant preparation. All syndrome/flag preparations use noisy RESET-to-|0> plus basis gates where required.
+
+Final readout measures every data qubit destructively in a physical Pauli basis. On support of the selected logical representative, that basis is its local X/Y/Z; remaining sites use the experiment's X or Z basis. X readout uses H then M; Y readout uses SDG then H then M. Those basis gates and every final measurement are noisy. One logical index is measured per experiment; run both X/Z and all desired indices separately for k>1.
+
+## Temporal detectors and logical observable
+
+Initial detector for S_i is s_i(0), against the ideal +1 input check. Inter-round detector is s_i(r-1) XOR s_i(r). Flag records are separate detectors in each fresh epoch, not differenced across resets. A final detector is s_i(R-1) XOR the parity of terminal data records on S_i's support **only if every local Pauli of S_i matches the physical readout basis**. No other ideal final syndrome is appended in repeated-memory mode. Non-CSS product readout can lack enough compatible checks and yield a genuine low-distance terminal readout experiment; this limitation is reported rather than closed by fictitious measurements.
+
+The logical observable is the parity of actual final data records on the selected logical representative, relative to its intended +1 stored eigenvalue. Fault signatures track its flip, not membership of the final data Pauli in the stabilizer group. A decoder-independent circuit-distance witness has zero full temporal/flag detector signature and nonzero logical-observable effect. Nonzero-detector events can fail a decoder without being distance witnesses.
+
+## Allowed physical faults
+
+One-qubit Clifford/Pauli/explicit-IDLE locations admit X, Y or Z after the ideal gate. Two-qubit CX/CZ/SWAP locations admit all 15 nonidentity two-qubit Paulis after the gate. RESET and PREP erase prior local Pauli errors, prepare |0>, then admit X/Y/Z output faults. Z at |0> can be a harmless duplicate; variants remain explicit. Measurement faults flip the classical Z readout bit only, with no additional quantum backaction fault. Final data readout uses the same model as syndrome/flag readout. Pauli phases are ignored for error deviations.
+
+Optional implicit idle noise adds X/Y/Z at each unoccupied unit-duration scheduler tick, on all allocated qubits, including trailing storage. Idle addresses include physical qubit and tick; round metadata follows the actual round time span. Propagation anchors the event before that qubit's next operation, or after the circuit when it has no later use. Operations on other qubits commute with this insertion. A fault after a qubit's final physical measurement cannot alter its already recorded outcome. Zero-duration barriers are not noisy locations.
+
+A fault set contains at most one variant per physical gate/readout/idle location. This is adversarial physical-location weight, not a stochastic noise probability or LER. It includes noisy ancilla preparation/reset, gates and measurement, and optionally noisy encoded-input output locations and storage. It does not include correlations between distinct locations unless their combination is explicitly enumerated.
+
+## Signatures, search and verification
+
+Elementary signatures use packed temporal detector bits, the selected logical bit, flag-record effects and final Pauli-support coordinates. A backwards Clifford/reset/measurement transfer map builds these signatures efficiently. The retained forward single-fault simulation and independent simultaneous-fault boolean-array replay use different algorithms/representations. Dense-state tests independently validate noiseless reference parity and actual fault effects on small CSS/non-CSS circuits, including flag epochs.
+
+Weights 1 and 2 use syndrome grouping; weight 3 matches pair XOR against singleton syndrome groups and excludes same-location combinations. Tractable weights 4–6 use bounded direct signature combinations, never repeated circuit simulation. Exhausted layers alone advance the lower bound. A t-fault witness gives d_c <= t; exhaustive exclusion through t gives d_c > t. EXACT requires matching integer bounds. Work limits and incomplete layers are explicit. Every witness reported by repeated-memory search is independently replayed; standalone `faults` also reports verification.
+
+## Decoder metric
+
+The bounded minimum-weight decoder learns a deterministic detector-to-logical recovery table from completely enumerated low-weight layers. A minimum-weight tie chooses the numerically smallest logical effect. It never calls an unseen or partially trained detector signature a resolved prediction. Its complete-layer coverage, resolved cases, failures and nonzero-syndrome failure witnesses are separate from circuit-distance results. Recovery means a logical-frame correction; no physical recovery circuit is synthesized. Enumerated failure counts are not a stochastic logical-error rate.
+
+## Resources and scheduling
+
+All allocated data, syndrome and flag slots count toward Q. Every gate, measurement, reset, explicit input-noise/IDLE location occupies one tick; barriers have zero duration. Implicit idles are noise locations without adding explicit operations. D spans preparation/output-noise if enabled, all R rounds, final basis rotations and final data measurements. QD is Q times D; gate and measurement/reset counts include all rounds and final readout. Ancilla reuse retains its causal dependencies. Hardware durations remain unused in this unit-time model.
+
+Imported custom IR must establish its own ideal reference parity/encoded-memory semantic contract. Structural validation alone does not prove it. Generated gadgets and repeated-memory construction are independently tested. The explicit legacy `--model ideal-boundary` mode retains the V0.1 experiment below and is not mixed into V0.2 benchmark frontiers.
+
+---
+
+# Legacy V0.1 model (explicit compatibility mode)
+
 # V0.1 fault, boundary and resource definitions
 
 ## Boundary experiment

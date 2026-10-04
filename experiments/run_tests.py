@@ -1,19 +1,25 @@
-"""Run tests and save machine-readable verification status."""
+"""Execute the complete installed pytest suite and save machine-readable status."""
 import json
 from pathlib import Path
-import unittest
+import subprocess
+import sys
+import xml.etree.ElementTree as ET
 
 root = Path(__file__).resolve().parents[1]
-suite = unittest.defaultTestLoader.discover(str(root / 'tests'))
-result = unittest.TextTestRunner(verbosity=2).run(suite)
-summary = {
-    'tests_run': result.testsRun,
-    'passed': result.testsRun - len(result.failures) - len(result.errors) - len(result.skipped),
-    'failures': [(str(test), text) for test, text in result.failures],
-    'errors': [(str(test), text) for test, text in result.errors],
-    'skipped': [(str(test), reason) for test, reason in result.skipped],
-    'successful': result.wasSuccessful(),
-}
-(root / 'results').mkdir(exist_ok=True)
-(root / 'results' / 'verification.json').write_text(json.dumps(summary, indent=2) + '\n')
-raise SystemExit(0 if result.wasSuccessful() else 1)
+out = root / 'results/v0.2'
+out.mkdir(parents=True, exist_ok=True)
+report = out / 'junit.xml'
+command = [sys.executable, '-m', 'pytest', '-q', '--basetemp', str(root / '.pytest-tmp'),
+           '--junitxml', str(report)]
+result = subprocess.run(command, cwd=root)
+suites = ET.parse(report).getroot().iter('testsuite') if report.exists() else []
+counts = {name: 0 for name in ('tests', 'failures', 'errors', 'skipped')}
+for suite in suites:
+    for name in counts: counts[name] += int(suite.get(name, '0'))
+summary = {'tests_run': counts['tests'],
+           'passed': counts['tests']-counts['failures']-counts['errors']-counts['skipped'],
+           'failures': counts['failures'], 'errors': counts['errors'], 'skipped': counts['skipped'],
+           'successful': result.returncode == 0 and counts['skipped'] == 0,
+           'pytest_exit_code': result.returncode}
+(out / 'verification.json').write_text(json.dumps(summary, indent=2) + '\n')
+raise SystemExit(0 if summary['successful'] else 1)
