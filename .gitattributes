@@ -1,0 +1,9 @@
+# These files contain byte-level freeze hashes or frozen evidence.
+# Preserve their bytes on every platform; do not normalize line endings.
+src/ftqec/** -text
+experiments/** -text
+benchmarks/development_v2/** -text
+results/v0.3/** -text
+results/development_v2/** -text
+docs/DEVELOPMENT_V2*.md -text
+FROZEN_V0_3_ALGORITHM.md -text
