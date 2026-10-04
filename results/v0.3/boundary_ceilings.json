@@ -1,0 +1,486 @@
+{
+  "included_in_matched_experiment": false,
+  "scope": "Development-only diagnostic; terminal-only witnesses are upper bounds, never full-circuit lower bounds",
+  "invariance": "At fixed code, basis and logical index 0, readout axes and product-parity rows are fixed; extraction mutations change only the zero-effect detector prefix for terminal-only faults.",
+  "rows": [
+    {
+      "code": "css4",
+      "basis": "X",
+      "logical_index": 0,
+      "full_circuit_distance_upper_bound": 2,
+      "restricted_search_bounds": {
+        "status": "EXACT",
+        "lower_bound": 2,
+        "upper_bound": 2,
+        "excluded_through": 1,
+        "witness": {
+          "fault_count": 2,
+          "faults": [
+            {
+              "operation": 54,
+              "qubits": [
+                0
+              ],
+              "label": "X",
+              "kind": "h",
+              "location": "op:54",
+              "before": false,
+              "round_index": 3,
+              "check": null,
+              "role": "final_basis_change",
+              "interval": null,
+              "interaction_position": null
+            },
+            {
+              "operation": 58,
+              "qubits": [
+                2
+              ],
+              "label": "X",
+              "kind": "h",
+              "location": "op:58",
+              "before": false,
+              "round_index": 3,
+              "check": null,
+              "role": "final_basis_change",
+              "interval": null,
+              "interaction_position": null
+            }
+          ],
+          "checks": [],
+          "relation": "unassigned",
+          "hook_support": [
+            0,
+            2
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XIXI"
+        },
+        "reason": null,
+        "combinations_examined": 21,
+        "fault_locations": 8,
+        "fault_variants": 16,
+        "requested_weight": 3
+      },
+      "witness_independently_verified": true
+    },
+    {
+      "code": "css4",
+      "basis": "Z",
+      "logical_index": 0,
+      "full_circuit_distance_upper_bound": 2,
+      "restricted_search_bounds": {
+        "status": "EXACT",
+        "lower_bound": 2,
+        "upper_bound": 2,
+        "excluded_through": 1,
+        "witness": {
+          "fault_count": 2,
+          "faults": [
+            {
+              "operation": 54,
+              "qubits": [
+                0
+              ],
+              "label": "I",
+              "kind": "measurement",
+              "location": "op:54",
+              "before": false,
+              "round_index": 3,
+              "check": null,
+              "role": "final_data_readout",
+              "interval": null,
+              "interaction_position": null
+            },
+            {
+              "operation": 55,
+              "qubits": [
+                1
+              ],
+              "label": "I",
+              "kind": "measurement",
+              "location": "op:55",
+              "before": false,
+              "round_index": 3,
+              "check": null,
+              "role": "final_data_readout",
+              "interval": null,
+              "interaction_position": null
+            }
+          ],
+          "checks": [],
+          "relation": "unassigned",
+          "hook_support": [],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "IIII"
+        },
+        "reason": null,
+        "combinations_examined": 5,
+        "fault_locations": 4,
+        "fault_variants": 4,
+        "requested_weight": 3
+      },
+      "witness_independently_verified": true
+    },
+    {
+      "code": "noncss4",
+      "basis": "X",
+      "logical_index": 0,
+      "full_circuit_distance_upper_bound": 1,
+      "restricted_search_bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 80,
+              "qubits": [
+                1
+              ],
+              "label": "X",
+              "kind": "h",
+              "location": "op:80",
+              "before": false,
+              "round_index": 3,
+              "check": null,
+              "role": "final_basis_change",
+              "interval": null,
+              "interaction_position": null
+            }
+          ],
+          "checks": [],
+          "relation": "unassigned",
+          "hook_support": [
+            1
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "IXII"
+        },
+        "reason": null,
+        "combinations_examined": 5,
+        "fault_locations": 8,
+        "fault_variants": 16,
+        "requested_weight": 3
+      },
+      "witness_independently_verified": true
+    },
+    {
+      "code": "noncss4",
+      "basis": "Z",
+      "logical_index": 0,
+      "full_circuit_distance_upper_bound": 1,
+      "restricted_search_bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 78,
+              "qubits": [
+                0
+              ],
+              "label": "X",
+              "kind": "h",
+              "location": "op:78",
+              "before": false,
+              "round_index": 3,
+              "check": null,
+              "role": "final_basis_change",
+              "interval": null,
+              "interaction_position": null
+            }
+          ],
+          "checks": [],
+          "relation": "unassigned",
+          "hook_support": [
+            0
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XIII"
+        },
+        "reason": null,
+        "combinations_examined": 1,
+        "fault_locations": 5,
+        "fault_variants": 7,
+        "requested_weight": 3
+      },
+      "witness_independently_verified": true
+    },
+    {
+      "code": "perfect5",
+      "basis": "X",
+      "logical_index": 0,
+      "full_circuit_distance_upper_bound": 1,
+      "restricted_search_bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 102,
+              "qubits": [
+                0
+              ],
+              "label": "X",
+              "kind": "h",
+              "location": "op:102",
+              "before": false,
+              "round_index": 3,
+              "check": null,
+              "role": "final_basis_change",
+              "interval": null,
+              "interaction_position": null
+            }
+          ],
+          "checks": [],
+          "relation": "unassigned",
+          "hook_support": [
+            0
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XIIII"
+        },
+        "reason": null,
+        "combinations_examined": 1,
+        "fault_locations": 10,
+        "fault_variants": 20,
+        "requested_weight": 3
+      },
+      "witness_independently_verified": true
+    },
+    {
+      "code": "perfect5",
+      "basis": "Z",
+      "logical_index": 0,
+      "full_circuit_distance_upper_bound": 1,
+      "restricted_search_bounds": {
+        "status": "EXACT",
+        "lower_bound": 1,
+        "upper_bound": 1,
+        "excluded_through": 0,
+        "witness": {
+          "fault_count": 1,
+          "faults": [
+            {
+              "operation": 102,
+              "qubits": [
+                0
+              ],
+              "label": "I",
+              "kind": "measurement",
+              "location": "op:102",
+              "before": false,
+              "round_index": 3,
+              "check": null,
+              "role": "final_data_readout",
+              "interval": null,
+              "interaction_position": null
+            }
+          ],
+          "checks": [],
+          "relation": "unassigned",
+          "hook_support": [],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "IIIII"
+        },
+        "reason": null,
+        "combinations_examined": 1,
+        "fault_locations": 7,
+        "fault_variants": 11,
+        "requested_weight": 3
+      },
+      "witness_independently_verified": true
+    },
+    {
+      "code": "steane",
+      "basis": "X",
+      "logical_index": 0,
+      "full_circuit_distance_upper_bound": 3,
+      "restricted_search_bounds": {
+        "status": "EXACT",
+        "lower_bound": 3,
+        "upper_bound": 3,
+        "excluded_through": 2,
+        "witness": {
+          "fault_count": 3,
+          "faults": [
+            {
+              "operation": 150,
+              "qubits": [
+                0
+              ],
+              "label": "X",
+              "kind": "h",
+              "location": "op:150",
+              "before": false,
+              "round_index": 3,
+              "check": null,
+              "role": "final_basis_change",
+              "interval": null,
+              "interaction_position": null
+            },
+            {
+              "operation": 152,
+              "qubits": [
+                1
+              ],
+              "label": "X",
+              "kind": "h",
+              "location": "op:152",
+              "before": false,
+              "round_index": 3,
+              "check": null,
+              "role": "final_basis_change",
+              "interval": null,
+              "interaction_position": null
+            },
+            {
+              "operation": 154,
+              "qubits": [
+                2
+              ],
+              "label": "X",
+              "kind": "h",
+              "location": "op:154",
+              "before": false,
+              "round_index": 3,
+              "check": null,
+              "role": "final_basis_change",
+              "interval": null,
+              "interaction_position": null
+            }
+          ],
+          "checks": [],
+          "relation": "unassigned",
+          "hook_support": [
+            0,
+            1,
+            2
+          ],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "XXXIIII"
+        },
+        "reason": null,
+        "combinations_examined": 72,
+        "fault_locations": 14,
+        "fault_variants": 28,
+        "requested_weight": 3
+      },
+      "witness_independently_verified": true
+    },
+    {
+      "code": "steane",
+      "basis": "Z",
+      "logical_index": 0,
+      "full_circuit_distance_upper_bound": 3,
+      "restricted_search_bounds": {
+        "status": "EXACT",
+        "lower_bound": 3,
+        "upper_bound": 3,
+        "excluded_through": 2,
+        "witness": {
+          "fault_count": 3,
+          "faults": [
+            {
+              "operation": 150,
+              "qubits": [
+                0
+              ],
+              "label": "I",
+              "kind": "measurement",
+              "location": "op:150",
+              "before": false,
+              "round_index": 3,
+              "check": null,
+              "role": "final_data_readout",
+              "interval": null,
+              "interaction_position": null
+            },
+            {
+              "operation": 151,
+              "qubits": [
+                1
+              ],
+              "label": "I",
+              "kind": "measurement",
+              "location": "op:151",
+              "before": false,
+              "round_index": 3,
+              "check": null,
+              "role": "final_data_readout",
+              "interval": null,
+              "interaction_position": null
+            },
+            {
+              "operation": 152,
+              "qubits": [
+                2
+              ],
+              "label": "I",
+              "kind": "measurement",
+              "location": "op:152",
+              "before": false,
+              "round_index": 3,
+              "check": null,
+              "role": "final_data_readout",
+              "interval": null,
+              "interaction_position": null
+            }
+          ],
+          "checks": [],
+          "relation": "unassigned",
+          "hook_support": [],
+          "flags_fired": false,
+          "flag_information_cancelled": false,
+          "logical_coset": 1,
+          "detector_outcomes": 0,
+          "flag_outcomes": 0,
+          "final_data_pauli": "IIIIIII"
+        },
+        "reason": null,
+        "combinations_examined": 9,
+        "fault_locations": 7,
+        "fault_variants": 7,
+        "requested_weight": 3
+      },
+      "witness_independently_verified": true
+    }
+  ]
+}

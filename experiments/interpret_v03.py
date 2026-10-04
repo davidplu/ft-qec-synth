@@ -8,6 +8,12 @@ from collections import defaultdict
 import gzip
 import json
 from pathlib import Path
+from ftqec.codes.stabilizer import StabilizerCode
+from ftqec.architectures.generators import generate
+from ftqec.circuits.memory import MemoryConfig,build_memory
+from ftqec.faults.signatures import signatures
+from ftqec.faults.search import search_faults
+from ftqec.faults.verification import verify_witness
 
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'results/v0.3'
 
@@ -56,8 +62,25 @@ def main():
         'strict_compositions':strict['strict_compositions'],'strict_compositions_beyond_initial_best':strict['strict_compositions_beyond_initial_best'],
         'does_not_pass_frozen_general_criteria':not readiness['frozen_development_criteria_passed']}
     def dump(name,value):(OUT/name).write_text(json.dumps(value,indent=2)+'\n',encoding='utf-8')
+    ceilings=[]
+    for name in read('protocol.json')['codes']:
+        code=StabilizerCode.from_dict(json.loads((ROOT/f'benchmarks/development/{name}.json').read_text(encoding='utf-8')))
+        for basis in ('X','Z'):
+            c=build_memory(code,next(generate(code,1)),MemoryConfig(3,basis))
+            terminal=[s for s in signatures(c) if s.fault.role in ('final_data_readout','final_basis_change')]
+            bounds=search_faults(c,terminal,3,200000)
+            assert bounds['witness'] and verify_witness(c,bounds['witness'])['verified']
+            ceilings.append({'code':name,'basis':basis,'logical_index':0,'full_circuit_distance_upper_bound':bounds['upper_bound'],
+                'restricted_search_bounds':bounds,'witness_independently_verified':True})
+    dump('boundary_ceilings.json',{'included_in_matched_experiment':False,
+        'scope':'Development-only diagnostic; terminal-only witnesses are upper bounds, never full-circuit lower bounds',
+        'invariance':'At fixed code, basis and logical index 0, readout axes and product-parity rows are fixed; extraction mutations change only the zero-effect detector prefix for terminal-only faults.',
+        'rows':ceilings})
     dump('strict_composition_analysis.json',strict);dump('gradient_exposure_analysis.json',exposure);dump('readiness.json',readiness)
     path=ROOT/'docs/V0_3_RESULTS.md';text=path.read_text(encoding='utf-8')
+    text=text.replace('X/Z memory, three extraction rounds','X/Z memory at logical index 0, three extraction rounds')
+    clause=' The strict contiguous-guided definition yields 9/17; three exceed the best shared initial distance. The table composition column is the broader ancestry metric.'
+    while clause+clause in text:text=text.replace(clause+clause,clause)
     for old in ('RESULT C — No reproducible advantage','RESULT B — Partial success'):
         text=text.replace(old,readiness['interpretation'])
     lines=text.splitlines()
@@ -67,7 +90,7 @@ def main():
         elif line.startswith('16. Usually multi-step gains:'):
             lines[i]=f"16. Multi-step gains: {strict['strict_compositions']}/{len(details)} strict events, with overlapping ancestries. The broad ancestry metric was 10/17; it includes one noncontiguous case. Neither count proves that a shorter repair was impossible."
         elif line.startswith('V0.3 has 17 parent-child'):
-            lines[i]+=' The strict contiguous-guided definition yields 9/17; three exceed the best shared initial distance. The table composition column is the broader ancestry metric.'
+            if clause not in line:lines[i]+=clause
         elif 'audited 3507 distinct raised-bound exclusions' in line:
             lines[i]=line.replace('audited 3507 distinct raised-bound exclusions','audited all 3507 distinct nontrivial certified bounds, including 87 distinct distance-gain exclusions')
     extra=['','## Local evidence does not satisfy the frozen general criterion','',
@@ -81,6 +104,14 @@ def main():
         '', 'Disabling coverage prioritization reached 10/48 targets versus 6/48 for the frozen default. '
         'This is an exploratory ablation, not a promoted replacement algorithm or a retrospective readiness pass. '
         'Matched-tier mean QD was higher for V0.3 by 20.125 versus random, 92.333 versus resource and 26.458 versus V0.2 CEGIS.']
+    extra+=['','A separate development-only boundary diagnostic finds the following rigorous upper bounds on the entire current architecture family. '
+        'They are terminal-only witness upper bounds, not distance certificates for extraction. '
+        'Readout axes and compatible-product rows are fixed by code/basis; extraction mutations cannot remove these terminal-only witnesses.',
+        '', '| Code | Basis | Product-readout distance ceiling |','|---|---|---|']
+    for row in ceilings:extra.append(f"| {row['code']} | {row['basis']} | {row['full_circuit_distance_upper_bound']} |")
+    extra+=['','Only Steane has room above the best shared initial distance in this family. Thus the frozen requirement for distance gains across multiple codes '
+        'cannot be established by this development set with its current boundaries. The matched-distance resource endpoint remained eligible, but did not pass. '
+        'This limits the general hypothesis test; no benchmark, endpoint, target or algorithm was changed after observing results.']
     for d in [d for d in details if d['qualifies'] and d['beyond_best_initial']]:
         extra+=['',f"Strict global-distance-gain example {d['run']}: d_c {d['start_dc']} -> {d['end_dc']}; "
             f"architecture sequence {d['architecture_ids']}; M_{d['start_dc']}={d['class_counts_at_start_weight']}; "

@@ -6,7 +6,7 @@ The prospective criteria in `V0_3_HYPOTHESIS.md` were committed before the final
 
 ## Model and matched protocol
 
-css4, noncss4, perfect5, Steane; X/Z memory, three extraction rounds, ideal encoded input, noisy gates/ancilla resets/readouts and physical product terminal readout. One optional additional noisy terminal round is available to every strategy. Six seeds 0–5, six shared initial candidates, 32 slots, 26 mutation slots, 200000 certification and spectrum work entries. Ten variants, 480 runs, 15360 slots. Unknown/capped counts never guide as zeros. Exact lower bounds are independent of the heuristic.
+css4, noncss4, perfect5, Steane; X/Z memory at logical index 0, three extraction rounds, ideal encoded input, noisy gates/ancilla resets/readouts and physical product terminal readout. One optional additional noisy terminal round is available to every strategy. Six seeds 0–5, six shared initial candidates, 32 slots, 26 mutation slots, 200000 certification and spectrum work entries. Ten variants, 480 runs, 15360 slots. Unknown/capped counts never guide as zeros. Exact lower bounds are independent of the heuristic.
 
 ## All codes, seeds and strategies
 
@@ -205,6 +205,8 @@ Total wall time 998.231s; summed search time 834.839s; 15.387 slots/s including 
 19. Algorithm freeze: no; all readiness conditions are not met. ALGORITHM_FREEZE.md is not created.
 20. NOT_READY_FOR_HELD_OUT. Reasons: V0.3 does not beat every required baseline under the frozen multiplicity-corrected, cross-code/cross-seed criteria. Practical throughput at held-out code size has not been established; only development codes were run. Pure product-readout boundary failures remain unsupported.
 
+
+
 ## Local evidence does not satisfy the frozen general criterion
 
 The requested RESULT B interpretation fits the restricted evidence: targets 6/48 versus 3/48 for each primary baseline, three distance wins all on Steane and seeds 1/4, nine strict composition events, and three strict chains beyond the shared initial best. No endpoint passes the unchanged frozen tests: every Holm-adjusted p-value is 1.0. The +6.25 percentage-point target margin and +0.0625 mean distance margin are descriptive. No new success threshold is introduced, and the algorithm is not ready to freeze.
@@ -212,6 +214,21 @@ The requested RESULT B interpretation fits the restricted evidence: targets 6/48
 Class-reducing nodes were expanded more often. Among equal-distance edges with at least one observed descendant: [{'reduced': True, 'expanded_edges': 208, 'future_gains': 10, 'fraction': 0.04807692307692308}, {'reduced': False, 'expanded_edges': 166, 'future_gains': 7, 'fraction': 0.04216867469879518}]. This exposure restriction still does not remove adaptive selection, ancestry dependence or censoring. Larger reductions did not show a positive size/gain correlation (r=-0.093).
 
 Disabling coverage prioritization reached 10/48 targets versus 6/48 for the frozen default. This is an exploratory ablation, not a promoted replacement algorithm or a retrospective readiness pass. Matched-tier mean QD was higher for V0.3 by 20.125 versus random, 92.333 versus resource and 26.458 versus V0.2 CEGIS.
+
+A separate development-only boundary diagnostic finds the following rigorous upper bounds on the entire current architecture family. They are terminal-only witness upper bounds, not distance certificates for extraction. Readout axes and compatible-product rows are fixed by code/basis; extraction mutations cannot remove these terminal-only witnesses.
+
+| Code | Basis | Product-readout distance ceiling |
+|---|---|---|
+| css4 | X | 2 |
+| css4 | Z | 2 |
+| noncss4 | X | 1 |
+| noncss4 | Z | 1 |
+| perfect5 | X | 1 |
+| perfect5 | Z | 1 |
+| steane | X | 3 |
+| steane | Z | 3 |
+
+Only Steane has room above the best shared initial distance in this family. Thus the frozen requirement for distance gains across multiple codes cannot be established by this development set with its current boundaries. The matched-distance resource endpoint remained eligible, but did not pass. This limits the general hypothesis test; no benchmark, endpoint, target or algorithm was changed after observing results.
 
 Strict global-distance-gain example steane-X-seed1-v03.json.gz: d_c 2 -> 3; architecture sequence ['5e75e0c5b4ffcc9e40cc', '106d0cc99243bb503309', 'c739d88f4d1945db7ab0']; M_2=[33, 32, 0]; operators ['change_implicated_check_order', 'independent_full_interval_flag']; resource delta {'Q': 1, 'D': 39, 'QD': 893, 'two_q_gates': 6}. Targeted classes and all nodes are in strict_composition_analysis.json.
 
