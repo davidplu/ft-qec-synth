@@ -12,6 +12,10 @@ class Operation:
     deps: tuple = ()
     record: str | None = None
     check: int | None = None
+    round_index: int | None = None
+    role: str | None = None
+    interval: int | None = None
+    interaction_position: int | None = None
 
 @dataclass
 class Circuit:
@@ -22,11 +26,12 @@ class Circuit:
     detectors: list = field(default_factory=list)
     observables: list = field(default_factory=list)
     boundary_model: str = 'ideal_initial_and_final_syndrome'
+    experiment: dict = field(default_factory=dict)
 
     @property
     def num_qubits(self): return self.code.n+len(self.syndrome_qubits)+len(self.flag_qubits)
-    def add(self,gate,qubits,deps=(),record=None,check=None):
-        self.operations.append(Operation(gate,tuple(qubits),tuple(deps),record,check))
+    def add(self,gate,qubits,deps=(),record=None,check=None,**metadata):
+        self.operations.append(Operation(gate,tuple(qubits),tuple(deps),record,check,**metadata))
         return len(self.operations)-1
     def validate(self):
         allq = tuple(range(self.code.n))+self.syndrome_qubits+self.flag_qubits
@@ -40,15 +45,15 @@ class Circuit:
             if op.record:
                 if op.gate!='M' or op.record in records: raise ValueError('Invalid measurement record')
                 records.add(op.record)
-        if self.boundary_model!='ideal_initial_and_final_syndrome': raise ValueError('Unsupported boundary model')
+        if self.boundary_model not in ('ideal_initial_and_final_syndrome','repeated_noisy_memory'): raise ValueError('Unsupported boundary model')
         if any(r not in records for d in self.detectors+self.observables for r in d): raise ValueError('Unknown record')
     def to_dict(self):
         return json_native(dict(code=self.code.to_dict(),syndrome_qubits=self.syndrome_qubits,flag_qubits=self.flag_qubits,
                     operations=[asdict(op) for op in self.operations],detectors=self.detectors,
-                    observables=self.observables,boundary_model=self.boundary_model))
+                    observables=self.observables,boundary_model=self.boundary_model,experiment=self.experiment))
     @classmethod
     def from_dict(cls,d):
         c = cls(StabilizerCode.from_dict(d['code']),tuple(d['syndrome_qubits']),tuple(d['flag_qubits']))
-        c.operations = [Operation(o['gate'],tuple(o['qubits']),tuple(o.get('deps',())),o.get('record'),o.get('check')) for o in d['operations']]
+        c.operations = [Operation(o['gate'],tuple(o['qubits']),tuple(o.get('deps',())),o.get('record'),o.get('check'),o.get('round_index'),o.get('role'),o.get('interval'),o.get('interaction_position')) for o in d['operations']]
         c.detectors=d.get('detectors',[]); c.observables=d.get('observables',[])
-        c.boundary_model=d.get('boundary_model','ideal_initial_and_final_syndrome'); c.validate(); return c
+        c.boundary_model=d.get('boundary_model','ideal_initial_and_final_syndrome'); c.experiment=d.get('experiment',{}); c.validate(); return c

@@ -126,7 +126,13 @@
       }
     },
     "boundary_model": {
-      "const": "ideal_initial_and_final_syndrome"
+      "enum": [
+        "ideal_initial_and_final_syndrome",
+        "repeated_noisy_memory"
+      ]
+    },
+    "experiment": {
+      "type": "object"
     }
   }
 }

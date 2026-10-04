@@ -1,4 +1,5 @@
 import random, time, subprocess
+from pathlib import Path
 from ..architectures.generators import generate
 from ..circuits.extraction import build
 from ..evaluation.resources import resources
@@ -36,7 +37,7 @@ def evaluate(code,candidate,max_weight=2,max_combinations=2000000,idles=False,st
 
 def software_commit():
     try:
-        p=subprocess.run(['git','rev-parse','HEAD'],capture_output=True,text=True,timeout=3)
+        p=subprocess.run(['git','-c',f'safe.directory={Path.cwd().as_posix()}','rev-parse','HEAD'],capture_output=True,text=True,timeout=3)
         return p.stdout.strip() if p.returncode==0 else None
     except (OSError,subprocess.TimeoutExpired): return None
 

@@ -1,6 +1,6 @@
 from dataclasses import replace
 
-def mutate(candidate,rng):
+def mutate(candidate,rng,max_flags=2):
     m=len(candidate.orders)
     action=rng.randrange(7)
     if not m: return candidate
@@ -16,7 +16,7 @@ def mutate(candidate,rng):
         elif w>1:
             interval=tuple(sorted(rng.sample(range(w+1),2)))
             if action==1 and intervals[i]: intervals[i][rng.randrange(len(intervals[i]))]=interval
-            elif len(intervals[i])<2: intervals[i].append(interval)
+            elif len(intervals[i])<max_flags: intervals[i].append(interval)
         return replace(candidate,flag_intervals=tuple(tuple(f) for f in intervals))
     if action==4:
         order=list(candidate.check_order); rng.shuffle(order); return replace(candidate,check_order=tuple(order))

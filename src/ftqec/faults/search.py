@@ -1,5 +1,6 @@
 from dataclasses import dataclass, asdict
 from collections import defaultdict
+from itertools import combinations
 from ..codes.pauli import Pauli
 
 @dataclass
@@ -29,7 +30,7 @@ def witness(c,ss):
         any(s.flags for s in ss) and flags==0,logical,detection,flags,str(p))
 
 def search_faults(c,ss,max_weight=2,max_combinations=2000000):
-    if max_weight not in (1,2,3): raise ValueError('max_weight must be 1, 2 or 3')
+    if max_weight not in range(1,7): raise ValueError('max_weight must be between 1 and 6')
     if max_combinations<0: raise ValueError('Negative work limit')
     examined=0; completed=0
     def result(found=None,reason=None):
@@ -68,4 +69,14 @@ def search_faults(c,ss,max_weight=2,max_combinations=2000000):
                 if examined>=max_combinations: return result(reason='work_limit')
                 examined+=1
                 if a.logical^b.logical^ss[k].logical: return result(witness(c,[a,b,ss[k]]))
-    completed=3; return result()
+    completed=3
+    for weight in range(4,max_weight+1):
+        for group in combinations(ss,weight):
+            if examined>=max_combinations: return result(reason='work_limit')
+            examined+=1
+            if len({s.fault.location for s in group})!=weight: continue
+            d=l=0
+            for s in group: d^=s.detectors; l^=s.logical
+            if not d and l: return result(witness(c,group))
+        completed=weight
+    return result()
