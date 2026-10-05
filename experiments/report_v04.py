@@ -113,7 +113,12 @@ def summarize():
     testpath=OUT/'final_tests.json'
     if testpath.exists(): gates['tests']=json.loads(testpath.read_text())['passed']
     readiness='READY_FOR_HELD_OUT' if all(v is True for v in gates.values()) else 'NOT_READY_FOR_HELD_OUT'
-    data={'algorithm_commit':freeze['algorithm_commit'],'historical_files_unchanged':historical_check(),
+    historic=historical_check()
+    v01=json.loads((OUT/'v01_preservation.json').read_text())
+    for name,h in v01['hashes'].items():
+        if hashlib.sha256((ROOT/name).read_bytes()).hexdigest()!=h: raise AssertionError('V0.1 baseline changed: '+name)
+    historic+=len(v01['hashes'])
+    data={'algorithm_commit':freeze['algorithm_commit'],'historical_files_unchanged':historic,
         'run_count':len(rows),'groups':groups,'comparisons':comparisons,'runs':rows,
         'paretos':paretos,'minimality':dict(minimality),'audited_frontier_nodes':audit_count,
         'necessity_by_operator':{k:dict(v) for k,v in removals.items()},'necessity_examples':examples,

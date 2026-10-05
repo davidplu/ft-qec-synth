@@ -53,10 +53,13 @@ def main():
         if result['schema_version']=='0.4':
             assert (OUT/'minimality'/path.name).exists(),('missing minimality',path.name)
     assert dict(counts)=={'bare':18,'overprotected':12,'prefixprotected':6,'primary':108}
+    v01=json.loads((OUT/'v01_preservation.json').read_text())
+    for name,h in v01['hashes'].items():
+        assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==h,name
     dump(OUT/'verification.json',{'verified':True,'run_count':len(paths),'groups':dict(counts),'evaluation_slots':48*len(paths),
         'matched_initial_population_blocks':len(starts),'unique_architectures_rebuilt':len(unique),
         'persisted_witnesses_independently_replayed':witness_count,'independent_frontier_certificates':audits,
-        'historical_files_unchanged':historical_check(),'runtime_seconds':time.perf_counter()-start})
+        'historical_files_unchanged':historical_check()+len(v01['hashes']),'runtime_seconds':time.perf_counter()-start})
     print('verified',len(paths),'runs;',len(unique),'architectures;',witness_count,'witnesses;',audits,'final certificates',flush=True)
 
 if __name__=='__main__': main()

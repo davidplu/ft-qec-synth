@@ -67,10 +67,12 @@ Those papers do not supply certificates for these generated circuits.
 ## Preservation and prospective experiment
 
 The baseline was clean at `fd29e51d17bfd1e8855fefe257bf22b132525dba`;
-99 tests passed before source changes. All **1,318** preserved historical
+99 tests passed before source changes. All **1,332** preserved historical
 source/results hashes still match, including V0.1, V0.2, V0.3 and Development
 Suite 2. Development occurred on `development/v0.4`.
-Git had normalized line endings in 122 V0.2 JSON/JSONL files despite their
+The original record covers 1,318 files; the fourteen root/development V0.1
+results additionally match the immutable pre-V0.4 archive exactly.
+Git had normalized line endings in 120 V0.2 JSON/JSONL files despite their
 preserved Windows bytes. A storage-only attribute/restaging correction retains
 the existing bytes across checkouts; no historical file was rewritten and no
 scientific value changed. The published V0.2 tag is untouched.
@@ -173,8 +175,8 @@ epochs. This is direct evidence of a functioning bidirectional mechanism on
 that development case, not reliable improvement across all parents.
 
 An actual Steane overprotected frontier retains the tradeoff between a cat
-implementation **(12,193,2316,78)** and an interval-flag implementation
-**(16,46,736,86)**. Smaller Q/gate count and smaller depth/QD are different points.
+implementation **(12,482,5784,195)** and an interval-flag implementation
+**(16,46,736,86)**. Smaller Q and smaller depth/QD/gate count are different points.
 An extra terminal noisy round, duplicated flags and unnecessary serialization
 can be removed in certified surrounding architectures.
 
@@ -286,7 +288,7 @@ overprotected compression median is 36.06 seconds and the prefix supplement
 58.26 seconds. Summed search time across all runs is **2,565.71 seconds**;
 driver time is 2,579.33 seconds. Several groups ran concurrently, so these are
 contention-affected elapsed times, not dedicated-machine CPU benchmarks.
-Independent saved-data verification took 116.23 seconds. Runtime is affordable
+Independent saved-data verification took 90.37 seconds. Runtime is affordable
 for these n=7/14/15, target-three experiments; targets above four lack a supported
 independent certifier here, and distance-seven/nine feasibility is unestablished.
 
@@ -364,7 +366,7 @@ supplement. `audit_v04_fast.py`, `audit_v04_classes.py`,
 command refuses to overwrite the existing experiment freeze.
 
 Data: `results/v0.4/raw/*.json.gz`, `minimality/*.json.gz`,
-`preservation.json`, `experiment_freeze.json`, `secondary_starts.json`,
+`preservation.json`, `v01_preservation.json`, `experiment_freeze.json`, `secondary_starts.json`,
 `prefix_starts.json`, `aggregate.json`, `pareto_frontiers.json`,
 `distance_conditioned_frontiers.json`, `design_inventory.json`,
 `operator_statistics.json`, `whole_class_repair_audit.json`,

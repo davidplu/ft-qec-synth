@@ -12,6 +12,6 @@
   "unique_architectures_rebuilt": 4414,
   "persisted_witnesses_independently_replayed": 3869,
   "independent_frontier_certificates": 83,
-  "historical_files_unchanged": 1318,
-  "runtime_seconds": 116.22681900009047
+  "historical_files_unchanged": 1332,
+  "runtime_seconds": 90.36740400001872
 }

@@ -6,6 +6,8 @@ benchmarks/development_v2/** -text
 results/v0.3/** -text
 results/v0.1/** -text
 results/v0.2/** -text
+results/development/** -text
+results/*.json -text
 results/development_v2/** -text
 docs/DEVELOPMENT_V2*.md -text
 FROZEN_V0_3_ALGORITHM.md -text

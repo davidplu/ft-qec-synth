@@ -1,0 +1,22 @@
+{
+  "baseline_commit": "fd29e51d17bfd1e8855fefe257bf22b132525dba",
+  "baseline_archive_sha256": "d5bbad5b3860bdc52013b6d5e50344b02fa4b402f2b32414483c07a01368a3f0",
+  "scope": "V0.1 root-level and development results, verified against pre-V0.4 archive",
+  "verified": true,
+  "hashes": {
+    "results/development-console.json": "2e9954d40edd9bbd17715137168eecd4fb9a08d8915ee68995386a9a0bcb527c",
+    "results/development-frontier.json": "b382e7293de55fbddb15b2dbda2ea8ee43f5ec6810ad2e74dd1b6445b6265dae",
+    "results/development/css4.json": "765103f17b340e480cf74a34857f2cf982f7198d330575b46fa5c9a9eeda2189",
+    "results/development/noncss4.json": "90895309afa4cbc8185f8283ada38e2dea51fb651e099951489ba1b6a76d825c",
+    "results/development/perfect5.json": "cd58527d531fd7dd49f343606668d38095c8b6f3f447dbe17bf4682595194a57",
+    "results/development/profile.json": "d51d04ec8f8bd28a7922cf39821dd3d5ec8a5e1132500f460066c1b7c471f8b4",
+    "results/development/profile.pstats": "5d52192a278941bd79948a33d1359cf64b3c9111c632fcf5c7386e755eac870b",
+    "results/development/repetition.json": "c004030a0a10f379bf20f079aeb9b4e7553af7c5ccefb65de06c920507bcea65",
+    "results/development/steane.json": "759db12be06ebe27b7e7d4e97e63a5771c3789eb0e6ffb6c7f00a8c59bd4ad3a",
+    "results/development/summary.json": "2e9954d40edd9bbd17715137168eecd4fb9a08d8915ee68995386a9a0bcb527c",
+    "results/source_manifest.json": "b8e991fd8d44a9273c7baf63eef2ac24706cd762dda08cd59b22ba05fe0d50cd",
+    "results/steane-budget1000.json": "752b5da85a2d131053d3e49c723413b72e03440e5f9c5edbde6b9e891ff7afc9",
+    "results/verification.json": "867408ce8916266e277665a05061d92367e4651c33a5f9c06474a2cfa7bbed9e",
+    "results/wheel-smoke.json": "9330865bd73246184e7290298eea5e59da9de6fd3a10752678ce734420cb4656"
+  }
+}
