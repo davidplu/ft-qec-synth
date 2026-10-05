@@ -1,4 +1,28 @@
-# FTQEC 0.3
+# FTQEC 0.4
+
+Find resource Pareto frontiers **(Q, D, QD, two-qubit gates) subject to certified
+circuit distance at least the requested target**. CEGIS is an internal repair
+mechanism; protection-preserving compression removes unnecessary cost.
+
+```console
+ftqec search benchmarks/development_v2/pool/steane7.json --basis X --target-dc 3 --budget 48 --seed 10 -o results/my-search.json
+ftqec frontier results/my-search.json --target-dc 3
+```
+
+The default returns multiple tradeoffs. Optional `--select QD` or `--select Q
+--depth-limit 100` records a user-selected implementation without replacing the
+scientific Pareto output. `--minimality` audits every supported single protection
+removal from each finalist. `python -m ftqec.resource_synthesis.cli` works without
+reinstalling the entry point. Legacy commands use `ftqec-v03`.
+
+V0.4 includes bidirectional valid/invalid boundary archives, physical compression
+edits, signed stabilizer-basis search, modular interval-flag and verified-cat
+families, safe suffix screening reuse and independent final exclusion audits.
+See [prospective protocol](docs/V0_4_PROTOCOL.md). The V0.3 runtime below remains
+byte-identical for historical comparisons; the new API lives in
+`ftqec.resource_synthesis`.
+
+## Historical V0.3 baseline
 
 Repeated noisy syndrome-extraction memory experiments and counterexample-guided architecture search, extending the V0.1 research core. No held-out architectural answers are included. Runtime uses only the Python standard library; the full development suite declares pytest and jsonschema.
 
@@ -7,9 +31,9 @@ bounded progress archive, diverse class-targeted repairs, estimated set-cover
 ordering, ancestry and independent exhaustive audits of distance gains. The
 published `v0.2.0` tag preserves the pre-V0.3 baseline and its results.
 
-Use `ftqec search benchmarks/development/css4.json --search-version 0.3 --strategy v03 --budget 32`
+Use `ftqec-v03 search benchmarks/development/css4.json --search-version 0.3 --strategy v03 --budget 32`
 for the new algorithm. `--equivalence raw|signature|structural` selects its
-malignant objective. `ftqec spectrum circuit.json --max-weight 3` evaluates a
+malignant objective. `ftqec-v03 spectrum circuit.json --max-weight 3` evaluates a
 saved circuit's bounded spectrum. Legacy search remains available with
 `--search-version 0.2`; V0.2 raw files are never overwritten by V0.3 experiments.
 

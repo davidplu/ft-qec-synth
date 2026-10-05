@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FTQEC resource-constrained Pareto synthesis V0.4",
+  "type": "object",
+  "required": ["schema_version", "software_version", "configuration", "code", "records", "frontier", "distance_conditioned_frontiers", "independent_final_audits"],
+  "properties": {
+    "schema_version": {"const": "0.4"},
+    "software_version": {"const": "0.4.0"},
+    "records": {"type": "array", "items": {"type": "object", "required": ["architecture_id", "design", "resources", "bounds", "region", "ideal_validation", "provenance"], "properties": {
+      "region": {"enum": ["VALID", "INVALID", "UNKNOWN", "INVALID_STRUCTURE"]},
+      "resources": {"type": "object", "required": ["Q", "D", "QD", "two_q_gates"]}
+    }}},
+    "frontier": {"type": "array", "items": {"type": "string"}},
+    "independent_final_audits": {"type": "array", "items": {"type": "object", "required": ["architecture_id", "verified"], "properties": {"verified": {"const": true}}}}
+  }
+}
