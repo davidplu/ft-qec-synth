@@ -70,6 +70,10 @@ The baseline was clean at `fd29e51d17bfd1e8855fefe257bf22b132525dba`;
 99 tests passed before source changes. All **1,318** preserved historical
 source/results hashes still match, including V0.1, V0.2, V0.3 and Development
 Suite 2. Development occurred on `development/v0.4`.
+Git had normalized line endings in 122 V0.2 JSON/JSONL files despite their
+preserved Windows bytes. A storage-only attribute/restaging correction retains
+the existing bytes across checkouts; no historical file was rewritten and no
+scientific value changed. The published V0.2 tag is untouched.
 
 The experimental algorithm was committed before comparisons at
 `e0ef5c14e2992ab2a4885ea5d22e96756c732454`. Its source, inputs, seeds,
