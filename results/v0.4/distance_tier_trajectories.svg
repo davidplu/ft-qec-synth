@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="690" viewBox="0 0 1020 690">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;font-size:12px}.title{font-size:15px}</style>
+<text class="title" x="20" y="22">bare--steane7-X--repair_compress--10.json.gz</text>
+<text x="50" y="42">Q versus certified tier; labels = evaluation</text>
+<path d="M50,50 V175 H310" stroke="#333" fill="none"/>
+<text x="43" y="179.0" text-anchor="end">0</text>
+<text x="43" y="112.7" text-anchor="end">7</text>
+<text x="43" y="55.9" text-anchor="end">13</text>
+<text x="47" y="195">1</text>
+<text x="167" y="195">2</text>
+<text x="287" y="195">3</text>
+<polyline points="170.0,99.2 170.0,89.8 170.0,89.8 170.0,89.8 290.0,61.4 290.0,61.4 290.0,61.4 290.0,61.4 290.0,61.4 290.0,61.4 290.0,61.4 290.0,61.4 290.0,61.4 290.0,61.4 290.0,61.4 290.0,61.4 290.0,61.4 290.0,61.4" stroke="#295caa" stroke-width="2" fill="none"/>
+<circle cx="170.0" cy="99.2" r="4" fill="#b74138"/>
+<circle cx="170.0" cy="89.8" r="4" fill="#b74138"/>
+<circle cx="170.0" cy="89.8" r="4" fill="#b74138"/>
+<circle cx="170.0" cy="89.8" r="4" fill="#b74138"/>
+<circle cx="290.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="61.4" r="4" fill="#25874e"/>
+<text x="177.0" y="103.2">e1</text>
+<text x="297.0" y="65.4">e9/48</text>
+<text x="380" y="42">D versus certified tier; labels = evaluation</text>
+<path d="M380,50 V175 H640" stroke="#333" fill="none"/>
+<text x="373" y="179.0" text-anchor="end">0</text>
+<text x="373" y="116.5" text-anchor="end">318</text>
+<text x="373" y="54.0" text-anchor="end">636</text>
+<text x="377" y="195">1</text>
+<text x="497" y="195">2</text>
+<text x="617" y="195">3</text>
+<polyline points="500.0,146.3 500.0,143.9 500.0,143.9 500.0,143.9 620.0,61.4 620.0,67.7 620.0,73.9 620.0,80.2 620.0,86.5 620.0,92.8 620.0,99.1 620.0,105.4 620.0,111.7 620.0,118.0 620.0,124.3 620.0,130.6 620.0,136.9 620.0,137.1" stroke="#295caa" stroke-width="2" fill="none"/>
+<circle cx="500.0" cy="146.3" r="4" fill="#b74138"/>
+<circle cx="500.0" cy="143.9" r="4" fill="#b74138"/>
+<circle cx="500.0" cy="143.9" r="4" fill="#b74138"/>
+<circle cx="500.0" cy="143.9" r="4" fill="#b74138"/>
+<circle cx="620.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="67.7" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="73.9" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="80.2" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="86.5" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="92.8" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="99.1" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="105.4" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="111.7" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="118.0" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="124.3" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="130.6" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="136.9" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="137.1" r="4" fill="#25874e"/>
+<text x="507.0" y="150.3">e1</text>
+<text x="627.0" y="65.4">e9</text>
+<text x="627.0" y="141.1">e48</text>
+<text x="710" y="42">QD versus certified tier; labels = evaluation</text>
+<path d="M710,50 V175 H970" stroke="#333" fill="none"/>
+<text x="703" y="179.0" text-anchor="end">0</text>
+<text x="703" y="116.5" text-anchor="end">3815</text>
+<text x="703" y="54.0" text-anchor="end">7630</text>
+<text x="707" y="195">1</text>
+<text x="827" y="195">2</text>
+<text x="947" y="195">3</text>
+<polyline points="830.0,155.9 830.0,151.7 830.0,151.7 830.0,151.7 950.0,61.4 950.0,67.7 950.0,73.9 950.0,80.2 950.0,86.5 950.0,92.8 950.0,99.1 950.0,105.4 950.0,111.7 950.0,118.0 950.0,124.3 950.0,130.6 950.0,136.9 950.0,137.1" stroke="#295caa" stroke-width="2" fill="none"/>
+<circle cx="830.0" cy="155.9" r="4" fill="#b74138"/>
+<circle cx="830.0" cy="151.7" r="4" fill="#b74138"/>
+<circle cx="830.0" cy="151.7" r="4" fill="#b74138"/>
+<circle cx="830.0" cy="151.7" r="4" fill="#b74138"/>
+<circle cx="950.0" cy="61.4" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="67.7" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="73.9" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="80.2" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="86.5" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="92.8" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="99.1" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="105.4" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="111.7" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="118.0" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="124.3" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="130.6" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="136.9" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="137.1" r="4" fill="#25874e"/>
+<text x="837.0" y="159.9">e1</text>
+<text x="957.0" y="65.4">e9</text>
+<text x="957.0" y="141.1">e48</text>
+<text class="title" x="20" y="252">overprotected--simplex15_k7-X--repair_compress--10.json.gz</text>
+<text x="50" y="272">Q versus certified tier; labels = evaluation</text>
+<path d="M50,280 V405 H310" stroke="#333" fill="none"/>
+<text x="43" y="409.0" text-anchor="end">0</text>
+<text x="43" y="347.8" text-anchor="end">21</text>
+<text x="43" y="283.7" text-anchor="end">43</text>
+<text x="47" y="425">1</text>
+<text x="167" y="425">2</text>
+<text x="287" y="425">3</text>
+<polyline points="290.0,291.4 290.0,291.4 290.0,291.4 290.0,294.3 290.0,297.2 290.0,300.1 290.0,303.0 290.0,305.9 290.0,308.8 290.0,311.8 290.0,314.7 290.0,317.6 290.0,320.5 290.0,323.4 290.0,326.3 290.0,326.3 290.0,326.3" stroke="#295caa" stroke-width="2" fill="none"/>
+<circle cx="290.0" cy="291.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="291.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="291.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="294.3" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="297.2" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="300.1" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="303.0" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="305.9" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="308.8" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="311.8" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="314.7" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="317.6" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="320.5" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="323.4" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="326.3" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="326.3" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="326.3" r="4" fill="#25874e"/>
+<text x="297.0" y="295.4">e1</text>
+<text x="297.0" y="330.3">e41</text>
+<text x="380" y="272">D versus certified tier; labels = evaluation</text>
+<path d="M380,280 V405 H640" stroke="#333" fill="none"/>
+<text x="373" y="409.0" text-anchor="end">0</text>
+<text x="373" y="346.5" text-anchor="end">353</text>
+<text x="373" y="284.0" text-anchor="end">706</text>
+<text x="377" y="425">1</text>
+<text x="497" y="425">2</text>
+<text x="617" y="425">3</text>
+<polyline points="620.0,291.4 620.0,384.8 620.0,389.8 620.0,390.3 620.0,390.8 620.0,391.4 620.0,391.9 620.0,392.4 620.0,392.4 620.0,393.0 620.0,393.0 620.0,393.0 620.0,393.0 620.0,393.0 620.0,393.0 620.0,393.1 620.0,393.3" stroke="#295caa" stroke-width="2" fill="none"/>
+<circle cx="620.0" cy="291.4" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="384.8" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="389.8" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="390.3" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="390.8" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="391.4" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="391.9" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="392.4" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="392.4" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="393.0" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="393.0" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="393.0" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="393.0" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="393.0" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="393.0" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="393.1" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="393.3" r="4" fill="#25874e"/>
+<text x="627.0" y="295.4">e1</text>
+<text x="627.0" y="397.3">e41</text>
+<text x="710" y="272">QD versus certified tier; labels = evaluation</text>
+<path d="M710,280 V405 H970" stroke="#333" fill="none"/>
+<text x="703" y="409.0" text-anchor="end">0</text>
+<text x="703" y="346.5" text-anchor="end">13771</text>
+<text x="703" y="284.0" text-anchor="end">27542</text>
+<text x="707" y="425">1</text>
+<text x="827" y="425">2</text>
+<text x="947" y="425">3</text>
+<polyline points="950.0,291.4 950.0,384.8 950.0,389.8 950.0,390.7 950.0,391.6 950.0,392.4 950.0,393.2 950.0,394.0 950.0,394.4 950.0,395.1 950.0,395.4 950.0,395.7 950.0,396.0 950.0,396.4 950.0,396.7 950.0,396.8 950.0,396.9" stroke="#295caa" stroke-width="2" fill="none"/>
+<circle cx="950.0" cy="291.4" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="384.8" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="389.8" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="390.7" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="391.6" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="392.4" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="393.2" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="394.0" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="394.4" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="395.1" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="395.4" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="395.7" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="396.0" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="396.4" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="396.7" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="396.8" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="396.9" r="4" fill="#25874e"/>
+<text x="957.0" y="295.4">e1</text>
+<text x="957.0" y="400.9">e41</text>
+<text class="title" x="20" y="482">primary--steane7-X--v04--12.json.gz</text>
+<text x="50" y="502">Q versus certified tier; labels = evaluation</text>
+<path d="M50,510 V635 H310" stroke="#333" fill="none"/>
+<text x="43" y="639.0" text-anchor="end">0</text>
+<text x="43" y="578.8" text-anchor="end">9</text>
+<text x="43" y="512.0" text-anchor="end">19</text>
+<text x="47" y="655">1</text>
+<text x="167" y="655">2</text>
+<text x="287" y="655">3</text>
+<polyline points="170.0,534.7 170.0,534.7 170.0,528.0 170.0,521.4 170.0,521.4 170.0,521.4 170.0,521.4 170.0,521.4 170.0,521.4 170.0,521.4 170.0,521.4 290.0,554.8 290.0,554.8 290.0,554.8 290.0,554.8 290.0,554.8 290.0,554.8 290.0,554.8 290.0,554.8 290.0,554.8 290.0,554.8 290.0,554.8" stroke="#295caa" stroke-width="2" fill="none"/>
+<circle cx="170.0" cy="534.7" r="4" fill="#b74138"/>
+<circle cx="170.0" cy="534.7" r="4" fill="#b74138"/>
+<circle cx="170.0" cy="528.0" r="4" fill="#b74138"/>
+<circle cx="170.0" cy="521.4" r="4" fill="#b74138"/>
+<circle cx="170.0" cy="521.4" r="4" fill="#b74138"/>
+<circle cx="170.0" cy="521.4" r="4" fill="#b74138"/>
+<circle cx="170.0" cy="521.4" r="4" fill="#b74138"/>
+<circle cx="170.0" cy="521.4" r="4" fill="#b74138"/>
+<circle cx="170.0" cy="521.4" r="4" fill="#b74138"/>
+<circle cx="170.0" cy="521.4" r="4" fill="#b74138"/>
+<circle cx="170.0" cy="521.4" r="4" fill="#b74138"/>
+<circle cx="290.0" cy="554.8" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="554.8" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="554.8" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="554.8" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="554.8" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="554.8" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="554.8" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="554.8" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="554.8" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="554.8" r="4" fill="#25874e"/>
+<circle cx="290.0" cy="554.8" r="4" fill="#25874e"/>
+<text x="177.0" y="538.7">e3</text>
+<text x="297.0" y="558.8">e18/48</text>
+<text x="380" y="502">D versus certified tier; labels = evaluation</text>
+<path d="M380,510 V635 H640" stroke="#333" fill="none"/>
+<text x="373" y="639.0" text-anchor="end">0</text>
+<text x="373" y="576.5" text-anchor="end">318</text>
+<text x="373" y="514.0" text-anchor="end">636</text>
+<text x="377" y="655">1</text>
+<text x="497" y="655">2</text>
+<text x="617" y="655">3</text>
+<polyline points="500.0,587.4 500.0,585.1 500.0,582.7 500.0,580.3 500.0,580.3 500.0,580.3 500.0,580.3 500.0,580.3 500.0,580.3 500.0,580.3 500.0,580.3 620.0,521.4 620.0,527.7 620.0,533.9 620.0,540.2 620.0,546.5 620.0,552.8 620.0,559.1 620.0,565.4 620.0,571.7 620.0,578.0 620.0,584.3" stroke="#295caa" stroke-width="2" fill="none"/>
+<circle cx="500.0" cy="587.4" r="4" fill="#b74138"/>
+<circle cx="500.0" cy="585.1" r="4" fill="#b74138"/>
+<circle cx="500.0" cy="582.7" r="4" fill="#b74138"/>
+<circle cx="500.0" cy="580.3" r="4" fill="#b74138"/>
+<circle cx="500.0" cy="580.3" r="4" fill="#b74138"/>
+<circle cx="500.0" cy="580.3" r="4" fill="#b74138"/>
+<circle cx="500.0" cy="580.3" r="4" fill="#b74138"/>
+<circle cx="500.0" cy="580.3" r="4" fill="#b74138"/>
+<circle cx="500.0" cy="580.3" r="4" fill="#b74138"/>
+<circle cx="500.0" cy="580.3" r="4" fill="#b74138"/>
+<circle cx="500.0" cy="580.3" r="4" fill="#b74138"/>
+<circle cx="620.0" cy="521.4" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="527.7" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="533.9" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="540.2" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="546.5" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="552.8" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="559.1" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="565.4" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="571.7" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="578.0" r="4" fill="#25874e"/>
+<circle cx="620.0" cy="584.3" r="4" fill="#25874e"/>
+<text x="507.0" y="591.4">e3</text>
+<text x="627.0" y="525.4">e18</text>
+<text x="627.0" y="588.3">e48</text>
+<text x="710" y="502">QD versus certified tier; labels = evaluation</text>
+<path d="M710,510 V635 H970" stroke="#333" fill="none"/>
+<text x="703" y="639.0" text-anchor="end">0</text>
+<text x="703" y="576.5" text-anchor="end">3815</text>
+<text x="703" y="514.0" text-anchor="end">7630</text>
+<text x="707" y="655">1</text>
+<text x="827" y="655">2</text>
+<text x="947" y="655">3</text>
+<polyline points="830.0,575.5 830.0,572.6 830.0,565.3 830.0,557.6 830.0,557.6 830.0,557.6 830.0,557.6 830.0,557.6 830.0,557.6 830.0,557.6 830.0,557.6 950.0,521.4 950.0,527.7 950.0,533.9 950.0,540.2 950.0,546.5 950.0,552.8 950.0,559.1 950.0,565.4 950.0,571.7 950.0,578.0 950.0,584.3" stroke="#295caa" stroke-width="2" fill="none"/>
+<circle cx="830.0" cy="575.5" r="4" fill="#b74138"/>
+<circle cx="830.0" cy="572.6" r="4" fill="#b74138"/>
+<circle cx="830.0" cy="565.3" r="4" fill="#b74138"/>
+<circle cx="830.0" cy="557.6" r="4" fill="#b74138"/>
+<circle cx="830.0" cy="557.6" r="4" fill="#b74138"/>
+<circle cx="830.0" cy="557.6" r="4" fill="#b74138"/>
+<circle cx="830.0" cy="557.6" r="4" fill="#b74138"/>
+<circle cx="830.0" cy="557.6" r="4" fill="#b74138"/>
+<circle cx="830.0" cy="557.6" r="4" fill="#b74138"/>
+<circle cx="830.0" cy="557.6" r="4" fill="#b74138"/>
+<circle cx="830.0" cy="557.6" r="4" fill="#b74138"/>
+<circle cx="950.0" cy="521.4" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="527.7" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="533.9" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="540.2" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="546.5" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="552.8" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="559.1" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="565.4" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="571.7" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="578.0" r="4" fill="#25874e"/>
+<circle cx="950.0" cy="584.3" r="4" fill="#25874e"/>
+<text x="837.0" y="579.5">e3</text>
+<text x="957.0" y="525.4">e18</text>
+<text x="957.0" y="588.3">e48</text>
+</svg>

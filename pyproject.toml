@@ -10,7 +10,7 @@ requires-python = ">=3.10"
 dependencies = []
 
 [project.scripts]
-ftqec = "ftqec.resource_synthesis.cli:main"
+ftqec = "ftqec.resource_synthesis.entrypoint:main"
 ftqec-v03 = "ftqec.cli:main"
 
 [project.optional-dependencies]

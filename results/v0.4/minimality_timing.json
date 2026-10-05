@@ -1,0 +1,9 @@
+{
+  "counts": {
+    "retained_existing": 28,
+    "cached": 5,
+    "new": 17
+  },
+  "seconds": 100.56664179998916,
+  "optimization": "omit unused diagnostic spectrum; identical physical design/memory/target/cap certificate reuse; final exclusion unchanged"
+}

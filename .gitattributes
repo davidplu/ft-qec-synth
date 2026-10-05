@@ -7,3 +7,7 @@ results/v0.3/** -text
 results/development_v2/** -text
 docs/DEVELOPMENT_V2*.md -text
 FROZEN_V0_3_ALGORITHM.md -text
+results/v0.4/** -text
+docs/V0_4*.md -text
+tests/test_resource_synthesis.py -text
+tests/test_resource_audits.py -text

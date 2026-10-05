@@ -12,7 +12,7 @@ ftqec frontier results/my-search.json --target-dc 3
 The default returns multiple tradeoffs. Optional `--select QD` or `--select Q
 --depth-limit 100` records a user-selected implementation without replacing the
 scientific Pareto output. `--minimality` audits every supported single protection
-removal from each finalist. `python -m ftqec.resource_synthesis.cli` works without
+removal from each finalist. `python -m ftqec.resource_synthesis.entrypoint` works without
 reinstalling the entry point. Legacy commands use `ftqec-v03`.
 
 V0.4 includes bidirectional valid/invalid boundary archives, physical compression
@@ -21,6 +21,11 @@ families, safe suffix screening reuse and independent final exclusion audits.
 See [prospective protocol](docs/V0_4_PROTOCOL.md). The V0.3 runtime below remains
 byte-identical for historical comparisons; the new API lives in
 `ftqec.resource_synthesis`.
+
+The completed [V0.4 results](docs/V0_4_RESULTS.md) include 144 saved runs,
+independent certificates, operator statistics and plotted ancestry. Compression
+materially reduces overprotected development circuits; bounded primary search
+remains **NOT_READY_FOR_HELD_OUT**. Historical evidence is unchanged.
 
 ## Historical V0.3 baseline
 
@@ -66,14 +71,14 @@ On POSIX activate with `source .venv/bin/activate`. Editable installation is the
 ## End-to-end example
 
 ```console
-ftqec validate benchmarks/development/steane.json
-ftqec memory benchmarks/development/steane.json --rounds 3 --basis Z -o results/memory.json
-ftqec evaluate results/memory.json
-ftqec faults results/memory.json --max-weight 3 -o results/faults.json
-ftqec verify results/memory.json --witness results/faults.json
-ftqec decode results/memory.json --max-weight 1
-ftqec search benchmarks/development/steane.json --budget 1000 --seed 7 --rounds 3 --basis Z --target-dc 3 --strategy cegis -o results/search.json
-ftqec frontier results/search.json -o results/frontier.json
+ftqec-v03 validate benchmarks/development/steane.json
+ftqec-v03 memory benchmarks/development/steane.json --rounds 3 --basis Z -o results/memory.json
+ftqec-v03 evaluate results/memory.json
+ftqec-v03 faults results/memory.json --max-weight 3 -o results/faults.json
+ftqec-v03 verify results/memory.json --witness results/faults.json
+ftqec-v03 decode results/memory.json --max-weight 1
+ftqec-v03 search benchmarks/development/steane.json --budget 1000 --seed 7 --rounds 3 --basis Z --target-dc 3 --strategy cegis -o results/search.json
+ftqec-v03 frontier results/search.json -o results/frontier.json
 ```
 
 `memory` defaults to the generic bare candidate. Supply `--candidate candidate.json` to build a particular candidate object saved from a search record. `generate` retains the V0.1 bounded candidate/single-round export. To run its legacy evaluation explicitly, use `search --model ideal-boundary`; these outputs retain the 0.1 result schema and are not mixed with repeated-memory results. Repeated memory is the default search model. Frontiers are grouped by code, model, memory basis/index/rounds/input policy, idle policy and target threshold.

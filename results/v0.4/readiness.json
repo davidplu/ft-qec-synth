@@ -1,0 +1,13 @@
+{
+  "status": "NOT_READY_FOR_HELD_OUT",
+  "gates": {
+    "tests": true,
+    "target_success": false,
+    "compression_material_multiple_parents": true,
+    "independent_audits": true,
+    "meaningful_tradeoffs": true,
+    "primary_runtime": true,
+    "higher_tier_scaling_justified": false,
+    "heldout_uncontaminated": true
+  }
+}

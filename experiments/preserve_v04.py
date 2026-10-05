@@ -3,6 +3,8 @@ from pathlib import Path
 import hashlib, json, subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
+if (ROOT/'results/v0.4/preservation.json').exists():
+    raise SystemExit('Preservation record already exists; refusing to overwrite the baseline.')
 git = ['git', '-c', f'safe.directory={ROOT.as_posix()}']
 commit = subprocess.check_output(git + ['rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
 status = subprocess.check_output(git + ['status', '--porcelain'], cwd=ROOT, text=True)

@@ -1,0 +1,2476 @@
+[
+  {
+    "group": "bare",
+    "task": "affine15_k1-X",
+    "variant": "repair_compress",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "477fc7b33db715fc4b81"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 392,
+          "QD": 6272,
+          "two_q_gates": 222
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "a38e7fa1c2699d328b4d"
+        ],
+        "minima": {
+          "Q": 17,
+          "D": 404,
+          "QD": 6868,
+          "two_q_gates": 228
+        }
+      }
+    }
+  },
+  {
+    "group": "bare",
+    "task": "affine15_k1-X",
+    "variant": "repair_only",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "477fc7b33db715fc4b81"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 392,
+          "QD": 6272,
+          "two_q_gates": 222
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "a38e7fa1c2699d328b4d"
+        ],
+        "minima": {
+          "Q": 17,
+          "D": 404,
+          "QD": 6868,
+          "two_q_gates": 228
+        }
+      }
+    }
+  },
+  {
+    "group": "bare",
+    "task": "simplex15_k7-X",
+    "variant": "repair_compress",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "f8db726a220196dc2762"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 290,
+          "QD": 4640,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "f8db726a220196dc2762"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 290,
+          "QD": 4640,
+          "two_q_gates": 192
+        }
+      }
+    }
+  },
+  {
+    "group": "bare",
+    "task": "simplex15_k7-X",
+    "variant": "repair_only",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "f8db726a220196dc2762"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 290,
+          "QD": 4640,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "f8db726a220196dc2762"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 290,
+          "QD": 4640,
+          "two_q_gates": 192
+        }
+      }
+    }
+  },
+  {
+    "group": "bare",
+    "task": "steane7-X",
+    "variant": "repair_compress",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "0163ab12a9e62a15edfa",
+          "5bfb9e4a9001d857bc95"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 122,
+          "QD": 1168,
+          "two_q_gates": 42
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "0163ab12a9e62a15edfa",
+          "5bfb9e4a9001d857bc95"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 122,
+          "QD": 1168,
+          "two_q_gates": 42
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "82a4a65938466166785f"
+        ],
+        "minima": {
+          "Q": 12,
+          "D": 193,
+          "QD": 2316,
+          "two_q_gates": 78
+        }
+      }
+    }
+  },
+  {
+    "group": "bare",
+    "task": "steane7-X",
+    "variant": "repair_only",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "0163ab12a9e62a15edfa"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "0163ab12a9e62a15edfa"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 146,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "0dea85341196f39a42ad"
+        ],
+        "minima": {
+          "Q": 12,
+          "D": 578,
+          "QD": 6936,
+          "two_q_gates": 234
+        }
+      }
+    }
+  },
+  {
+    "group": "overprotected",
+    "task": "simplex15_k7-X",
+    "variant": "repair_compress",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "edbf1c60b7a868447cd2",
+          "a7c285db2e3259008a5a"
+        ],
+        "minima": {
+          "Q": 24,
+          "D": 63,
+          "QD": 1638,
+          "two_q_gates": 210
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "edbf1c60b7a868447cd2",
+          "a7c285db2e3259008a5a"
+        ],
+        "minima": {
+          "Q": 24,
+          "D": 63,
+          "QD": 1638,
+          "two_q_gates": 210
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "0a52617a74cdc2a4db60"
+        ],
+        "minima": {
+          "Q": 27,
+          "D": 66,
+          "QD": 1782,
+          "two_q_gates": 216
+        }
+      }
+    }
+  },
+  {
+    "group": "overprotected",
+    "task": "simplex15_k7-X",
+    "variant": "repair_only",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "8eef617f7de1220ed481",
+          "5f1c46b4ff22afa43e8b",
+          "07fdd6b8ade97ae5783c",
+          "891cf43554e04715a803",
+          "236dbd355e77fe65268a",
+          "3dd7ab7cd1d7e9867e5e",
+          "22b5e4f256afb2b141fe",
+          "9c031786636822d02c89",
+          "4d01c7e0ba277f335c25",
+          "c6545c602e8289b9eff1",
+          "d5065d243554ebd1b902",
+          "28845a44f2b95ff05de8"
+        ],
+        "minima": {
+          "Q": 24,
+          "D": 310,
+          "QD": 15500,
+          "two_q_gates": 384
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "8eef617f7de1220ed481",
+          "5f1c46b4ff22afa43e8b",
+          "07fdd6b8ade97ae5783c",
+          "891cf43554e04715a803",
+          "236dbd355e77fe65268a",
+          "3dd7ab7cd1d7e9867e5e",
+          "22b5e4f256afb2b141fe",
+          "9c031786636822d02c89",
+          "4d01c7e0ba277f335c25",
+          "c6545c602e8289b9eff1",
+          "d5065d243554ebd1b902",
+          "28845a44f2b95ff05de8"
+        ],
+        "minima": {
+          "Q": 24,
+          "D": 310,
+          "QD": 15500,
+          "two_q_gates": 384
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "8eef617f7de1220ed481"
+        ],
+        "minima": {
+          "Q": 39,
+          "D": 642,
+          "QD": 25038,
+          "two_q_gates": 384
+        }
+      }
+    }
+  },
+  {
+    "group": "overprotected",
+    "task": "steane7-X",
+    "variant": "repair_compress",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "89e8bfb9b177373546e1",
+          "2d9fae1845666b95b43b"
+        ],
+        "minima": {
+          "Q": 11,
+          "D": 43,
+          "QD": 645,
+          "two_q_gates": 80
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "89e8bfb9b177373546e1",
+          "2d9fae1845666b95b43b"
+        ],
+        "minima": {
+          "Q": 11,
+          "D": 43,
+          "QD": 645,
+          "two_q_gates": 80
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "450eb46cd0f7dce4ad70",
+          "9cd67b3d29aaabda6593"
+        ],
+        "minima": {
+          "Q": 12,
+          "D": 46,
+          "QD": 736,
+          "two_q_gates": 86
+        }
+      }
+    }
+  },
+  {
+    "group": "overprotected",
+    "task": "steane7-X",
+    "variant": "repair_only",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "fcdec41914c643ac9c5b"
+        ],
+        "minima": {
+          "Q": 25,
+          "D": 386,
+          "QD": 9650,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "fcdec41914c643ac9c5b"
+        ],
+        "minima": {
+          "Q": 25,
+          "D": 386,
+          "QD": 9650,
+          "two_q_gates": 192
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "fcdec41914c643ac9c5b"
+        ],
+        "minima": {
+          "Q": 25,
+          "D": 386,
+          "QD": 9650,
+          "two_q_gates": 192
+        }
+      }
+    }
+  },
+  {
+    "group": "prefixprotected",
+    "task": "steane7-X",
+    "variant": "repair_compress",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "feb68faecf41f7d0412c",
+          "a485e8b26fbd5f7bd36b",
+          "3e941d1ffaa7c2375609",
+          "7188875d22e2331c103c"
+        ],
+        "minima": {
+          "Q": 11,
+          "D": 50,
+          "QD": 700,
+          "two_q_gates": 68
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "feb68faecf41f7d0412c",
+          "a485e8b26fbd5f7bd36b",
+          "3e941d1ffaa7c2375609",
+          "7188875d22e2331c103c"
+        ],
+        "minima": {
+          "Q": 11,
+          "D": 50,
+          "QD": 700,
+          "two_q_gates": 68
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "c8843f8b66eef8c7b41a",
+          "34c1981b5fd9021b4b02",
+          "71a0af231910bdb0d7cf"
+        ],
+        "minima": {
+          "Q": 12,
+          "D": 50,
+          "QD": 780,
+          "two_q_gates": 74
+        }
+      }
+    }
+  },
+  {
+    "group": "prefixprotected",
+    "task": "steane7-X",
+    "variant": "repair_only",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "7b0d48dbb69fc2602097",
+          "f537415df348d57b7251",
+          "afed75ed5b9ccf08cfa9"
+        ],
+        "minima": {
+          "Q": 37,
+          "D": 578,
+          "QD": 21386,
+          "two_q_gates": 288
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "7b0d48dbb69fc2602097",
+          "f537415df348d57b7251",
+          "afed75ed5b9ccf08cfa9"
+        ],
+        "minima": {
+          "Q": 37,
+          "D": 578,
+          "QD": 21386,
+          "two_q_gates": 288
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "7b0d48dbb69fc2602097",
+          "f537415df348d57b7251",
+          "afed75ed5b9ccf08cfa9"
+        ],
+        "minima": {
+          "Q": 37,
+          "D": 578,
+          "QD": 21386,
+          "two_q_gates": 288
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "affine15_k1-X",
+    "variant": "no_basis",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "477fc7b33db715fc4b81",
+          "6f6618b02f5605bb31e1",
+          "20c09e095996035e70b6",
+          "28cada3de1042c76bb9c",
+          "1ef41edc998de96cfb5d",
+          "c3d56b1602bbfd666367"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 179,
+          "QD": 6272,
+          "two_q_gates": 222
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "6f6618b02f5605bb31e1",
+          "20c09e095996035e70b6",
+          "095f98e237b4cc9df643",
+          "c4935eedfb614f63fd6b",
+          "1ef41edc998de96cfb5d",
+          "a30ecb1df4368724bfef",
+          "c3d56b1602bbfd666367"
+        ],
+        "minima": {
+          "Q": 18,
+          "D": 179,
+          "QD": 7025,
+          "two_q_gates": 294
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "affine15_k1-X",
+    "variant": "no_family",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "477fc7b33db715fc4b81",
+          "6f6618b02f5605bb31e1",
+          "20c09e095996035e70b6",
+          "5a0908509cc8d3783ece",
+          "a9fab23b6bb1944da4ce",
+          "28cada3de1042c76bb9c",
+          "1ef41edc998de96cfb5d",
+          "c3d56b1602bbfd666367"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 161,
+          "QD": 6272,
+          "two_q_gates": 222
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "6f6618b02f5605bb31e1",
+          "20c09e095996035e70b6",
+          "5a0908509cc8d3783ece",
+          "a9fab23b6bb1944da4ce",
+          "095f98e237b4cc9df643",
+          "c4935eedfb614f63fd6b",
+          "1ef41edc998de96cfb5d",
+          "a30ecb1df4368724bfef",
+          "c3d56b1602bbfd666367"
+        ],
+        "minima": {
+          "Q": 18,
+          "D": 161,
+          "QD": 7025,
+          "two_q_gates": 294
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "affine15_k1-X",
+    "variant": "random",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "8bcdff16f43d9e45453d",
+          "cadf54bfe17de400d049",
+          "f55553d941bf663eb899",
+          "4567fe25ae09d4502267",
+          "194231c9a06b5424894f",
+          "55a332f34f45a03c4825",
+          "b1edffeda4206b0558b7",
+          "7fff27cf2545cca3231f",
+          "c8a960476bb210758c3a",
+          "f70dce00783d184c0ed0",
+          "afd397c4fcb580de4fdd",
+          "f3191816d359a1f530bb",
+          "035a4492bd76605caf34",
+          "ee9d7c530994d310c36b",
+          "48213afcd94db02b916f",
+          "71eb17dec56e51ac12b2",
+          "a5deff9d9f3fdffba0a3",
+          "29b5eed0f6b099d6d2e7"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 161,
+          "QD": 4991,
+          "two_q_gates": 222
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "393ee4242ab089e5808d",
+          "f7fd94b1759f1ac8608f",
+          "408c3e6c3cb7fd86b5d3",
+          "55a332f34f45a03c4825",
+          "63ba899ed2434391bbc7",
+          "34973f86ed64734fb36a",
+          "b1edffeda4206b0558b7",
+          "7fff27cf2545cca3231f",
+          "f70dce00783d184c0ed0",
+          "3504cc600664b421a11f",
+          "81ea2542324879b619f3",
+          "e62eecb46812e50f2f34",
+          "035a4492bd76605caf34",
+          "71eb17dec56e51ac12b2"
+        ],
+        "minima": {
+          "Q": 18,
+          "D": 161,
+          "QD": 4991,
+          "two_q_gates": 288
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "affine15_k1-X",
+    "variant": "resource",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "8bcdff16f43d9e45453d",
+          "2d819faf084a00c3e54f",
+          "907f9a46e06387409903",
+          "ee9454bf40b55b4dd058",
+          "ecffd4134d4aaa0444ef",
+          "60a018e08830f5fe86b6",
+          "63ef2f3b8600268b703d",
+          "71663c3bb09634a2538c",
+          "46ea4a18aedc9b47e673",
+          "8e95d966c1ab30a9b367",
+          "3211f6070866699ddff2",
+          "f6c9e493d3ca085da0aa",
+          "b58f11dd63d13a45a426"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 167,
+          "QD": 5664,
+          "two_q_gates": 222
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "ee9454bf40b55b4dd058",
+          "71663c3bb09634a2538c",
+          "ca825e83698d9def8541",
+          "3526be04b758a1e1f736",
+          "675de94356b9cbf69498",
+          "f6c9e493d3ca085da0aa",
+          "81b069eb460fc999d5a4",
+          "b58f11dd63d13a45a426",
+          "712557e54b2d0d12a4d5",
+          "e0515ed271ac8187492a",
+          "8d412e8364d50b3c2b91"
+        ],
+        "minima": {
+          "Q": 18,
+          "D": 167,
+          "QD": 6179,
+          "two_q_gates": 282
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "affine15_k1-X",
+    "variant": "v03",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "8bcdff16f43d9e45453d",
+          "819abedf4f57cc4e95b2",
+          "0b39cc4ead027835bcbc",
+          "9e3cede802941e2bf2ff",
+          "3aa975176069dac87438",
+          "02f3b4a88652f883a986",
+          "88b91084c61a6c64dc98",
+          "f1286e5b349e33e4d261",
+          "3d62a4cecbd16c90abb5",
+          "05a69c65e76aa60466c2",
+          "394f279ed675ad513bc0",
+          "f4f5e369bbd2f8123a3c"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 170,
+          "QD": 6272,
+          "two_q_gates": 222
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "819abedf4f57cc4e95b2",
+          "0b39cc4ead027835bcbc",
+          "9e3cede802941e2bf2ff",
+          "3aa975176069dac87438",
+          "695a97851c7c4283a9f3",
+          "c6e2ebcc090075ed46e6",
+          "02f3b4a88652f883a986",
+          "3d62a4cecbd16c90abb5",
+          "05a69c65e76aa60466c2",
+          "394f279ed675ad513bc0",
+          "81b069eb460fc999d5a4",
+          "f4f5e369bbd2f8123a3c",
+          "9ba2f5ce2ee0b2a8a5de"
+        ],
+        "minima": {
+          "Q": 18,
+          "D": 170,
+          "QD": 6970,
+          "two_q_gates": 294
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "affine15_k1-X",
+    "variant": "v04",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "477fc7b33db715fc4b81",
+          "6f6618b02f5605bb31e1",
+          "20c09e095996035e70b6",
+          "a9fab23b6bb1944da4ce",
+          "28cada3de1042c76bb9c",
+          "1ef41edc998de96cfb5d",
+          "c3d56b1602bbfd666367"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 161,
+          "QD": 6272,
+          "two_q_gates": 222
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "6f6618b02f5605bb31e1",
+          "20c09e095996035e70b6",
+          "a9fab23b6bb1944da4ce",
+          "095f98e237b4cc9df643",
+          "c4935eedfb614f63fd6b",
+          "1ef41edc998de96cfb5d",
+          "a30ecb1df4368724bfef",
+          "c3d56b1602bbfd666367"
+        ],
+        "minima": {
+          "Q": 18,
+          "D": 161,
+          "QD": 7025,
+          "two_q_gates": 294
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "simplex15_k7-X",
+    "variant": "no_basis",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "f8db726a220196dc2762",
+          "b6e7bc4c6803e99c2ef1",
+          "80a9ed62c823a5293a9e",
+          "a447361b17d3b2ffe228",
+          "120a9a9e23ef29f933a5"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 164,
+          "QD": 4004,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "f8db726a220196dc2762",
+          "b6e7bc4c6803e99c2ef1",
+          "80a9ed62c823a5293a9e",
+          "a447361b17d3b2ffe228",
+          "120a9a9e23ef29f933a5"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 164,
+          "QD": 4004,
+          "two_q_gates": 192
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "simplex15_k7-X",
+    "variant": "no_family",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "f8db726a220196dc2762",
+          "b6e7bc4c6803e99c2ef1",
+          "80a9ed62c823a5293a9e",
+          "bab6e7ffeeeb3dfb24d4"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 155,
+          "QD": 4004,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "f8db726a220196dc2762",
+          "b6e7bc4c6803e99c2ef1",
+          "80a9ed62c823a5293a9e",
+          "bab6e7ffeeeb3dfb24d4"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 155,
+          "QD": 4004,
+          "two_q_gates": 192
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "simplex15_k7-X",
+    "variant": "random",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "5b64850a0076d52527e3",
+          "54815651f766ea9871fa",
+          "fb41ad3e1cd7b9c4ffc7",
+          "75b3fd9d44034a1867d0",
+          "99ac9083435922cd0aa8",
+          "30722b61fda0e9813a1f",
+          "3e4d7862e677f1d42e4f",
+          "c641df0c10e4933cbb9f",
+          "f7c21847fc1eef878d6c",
+          "87404ad265dadd3bcebd",
+          "a8a6f9aefbbe95d6c439",
+          "678ca46b69380b0cc076",
+          "359910863227b52bc889",
+          "0b580e5dd3d5393afbcf",
+          "0a54dde3a2bbb64d489b",
+          "e94b0a9f539affeb0869",
+          "e08e711203f68db3c06f",
+          "e20bb51e0f13e124b25b",
+          "1001463df7f8dc7fd58c",
+          "ae6f2900b5685f27f83c",
+          "33634c193fe4aba537bf",
+          "c3d899a957b1d8f916e4",
+          "f323a1bde032952290bc",
+          "17b4f0c0a1b3a5c4e21f",
+          "4bc38d8fb9ad6c2099d4",
+          "5b753ee443244de5052f",
+          "c8d67295da4d95eb6181",
+          "7cb881ab6b31c6c1dedc",
+          "e4110d6128f8a22fbdb3",
+          "f80b0cd7701618ff41c0"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 137,
+          "QD": 3360,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "5b64850a0076d52527e3",
+          "54815651f766ea9871fa",
+          "fb41ad3e1cd7b9c4ffc7",
+          "75b3fd9d44034a1867d0",
+          "99ac9083435922cd0aa8",
+          "30722b61fda0e9813a1f",
+          "3e4d7862e677f1d42e4f",
+          "c641df0c10e4933cbb9f",
+          "f7c21847fc1eef878d6c",
+          "87404ad265dadd3bcebd",
+          "a8a6f9aefbbe95d6c439",
+          "678ca46b69380b0cc076",
+          "359910863227b52bc889",
+          "0b580e5dd3d5393afbcf",
+          "0a54dde3a2bbb64d489b",
+          "e94b0a9f539affeb0869",
+          "e08e711203f68db3c06f",
+          "e20bb51e0f13e124b25b",
+          "1001463df7f8dc7fd58c",
+          "ae6f2900b5685f27f83c",
+          "33634c193fe4aba537bf",
+          "c3d899a957b1d8f916e4",
+          "f323a1bde032952290bc",
+          "17b4f0c0a1b3a5c4e21f",
+          "4bc38d8fb9ad6c2099d4",
+          "5b753ee443244de5052f",
+          "c8d67295da4d95eb6181",
+          "7cb881ab6b31c6c1dedc",
+          "e4110d6128f8a22fbdb3",
+          "f80b0cd7701618ff41c0"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 137,
+          "QD": 3360,
+          "two_q_gates": 192
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "simplex15_k7-X",
+    "variant": "resource",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "5b64850a0076d52527e3",
+          "ac4ec5320e041fc33634",
+          "ffda4a51089bca20d1b3",
+          "b63490851fb417078241",
+          "d791b7081f0c6176da49",
+          "6fe2f0db7d7335df70ef",
+          "17c099851ba0742be030",
+          "247583f48df4102e866f",
+          "868e3d208ed18a23bd5f",
+          "ac6e71c6862e02456a92",
+          "b670afa56df2090507e9",
+          "5283f89535960e222722",
+          "176d9c73daca8b6a039e",
+          "68efb833313fa49b3e8c",
+          "1f5b035ef2219ba98335",
+          "8191ac7d5df151f6470a",
+          "43b111dda1f81120e8f7",
+          "38d9546d72b8e82f96f4",
+          "990b5ff054293aa5aadc",
+          "cc0bc5804f2fa8603ac7",
+          "67c32cfdafdc97426078",
+          "115253bcbbb90622c6d6"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 134,
+          "QD": 2814,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "5b64850a0076d52527e3",
+          "ac4ec5320e041fc33634",
+          "ffda4a51089bca20d1b3",
+          "b63490851fb417078241",
+          "d791b7081f0c6176da49",
+          "6fe2f0db7d7335df70ef",
+          "17c099851ba0742be030",
+          "247583f48df4102e866f",
+          "868e3d208ed18a23bd5f",
+          "ac6e71c6862e02456a92",
+          "b670afa56df2090507e9",
+          "5283f89535960e222722",
+          "176d9c73daca8b6a039e",
+          "68efb833313fa49b3e8c",
+          "1f5b035ef2219ba98335",
+          "8191ac7d5df151f6470a",
+          "43b111dda1f81120e8f7",
+          "38d9546d72b8e82f96f4",
+          "990b5ff054293aa5aadc",
+          "cc0bc5804f2fa8603ac7",
+          "67c32cfdafdc97426078",
+          "115253bcbbb90622c6d6"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 134,
+          "QD": 2814,
+          "two_q_gates": 192
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "simplex15_k7-X",
+    "variant": "v03",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "5b64850a0076d52527e3",
+          "933a4c558791958a295b",
+          "0db9b6d4acc9674d7afe",
+          "2c2ec4225266271e2a2c",
+          "05d7c335f24048cf3e42",
+          "fcf358abb6112b3bde22",
+          "0c0a25df1f4424f5addd",
+          "129a17b69003b65fd0f7",
+          "910d9fa35a318b6c0fa7",
+          "005129a18ee9ddfd9a57",
+          "0142057264da0c628f44",
+          "1931f905ec85b4bccbff",
+          "0b3ffabcfcec2761e0bf",
+          "14620122ea67e422e783",
+          "1b9e90d223fcc1831769",
+          "4157629f32c1f28ece28",
+          "5e22e8c085295fc57f9c",
+          "a2318c013ee9eee63969",
+          "081f200f0be7ea7df624",
+          "51968362ce9713cbee42",
+          "0b0922141c14c020d31e",
+          "f7417f406819da1e461d",
+          "0dd4ecce7476707e4d05",
+          "203d86ed73af858314c5",
+          "22e8336cfc7f8b843eec",
+          "2e9f3dd8cbd56d33ef02",
+          "31ff806692527bca6924",
+          "0726549a9bc629148fd2"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 173,
+          "QD": 3938,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "5b64850a0076d52527e3",
+          "933a4c558791958a295b",
+          "0db9b6d4acc9674d7afe",
+          "2c2ec4225266271e2a2c",
+          "05d7c335f24048cf3e42",
+          "fcf358abb6112b3bde22",
+          "0c0a25df1f4424f5addd",
+          "129a17b69003b65fd0f7",
+          "910d9fa35a318b6c0fa7",
+          "005129a18ee9ddfd9a57",
+          "0142057264da0c628f44",
+          "1931f905ec85b4bccbff",
+          "0b3ffabcfcec2761e0bf",
+          "14620122ea67e422e783",
+          "1b9e90d223fcc1831769",
+          "4157629f32c1f28ece28",
+          "5e22e8c085295fc57f9c",
+          "a2318c013ee9eee63969",
+          "081f200f0be7ea7df624",
+          "51968362ce9713cbee42",
+          "0b0922141c14c020d31e",
+          "f7417f406819da1e461d",
+          "0dd4ecce7476707e4d05",
+          "203d86ed73af858314c5",
+          "22e8336cfc7f8b843eec",
+          "2e9f3dd8cbd56d33ef02",
+          "31ff806692527bca6924",
+          "0726549a9bc629148fd2"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 173,
+          "QD": 3938,
+          "two_q_gates": 192
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "simplex15_k7-X",
+    "variant": "v04",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "f8db726a220196dc2762",
+          "b6e7bc4c6803e99c2ef1",
+          "80a9ed62c823a5293a9e",
+          "a447361b17d3b2ffe228",
+          "468ead1d3fef11ed007d"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 158,
+          "QD": 4004,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "f8db726a220196dc2762",
+          "b6e7bc4c6803e99c2ef1",
+          "80a9ed62c823a5293a9e",
+          "a447361b17d3b2ffe228",
+          "468ead1d3fef11ed007d"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 158,
+          "QD": 4004,
+          "two_q_gates": 192
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "simplex15_k7-Z",
+    "variant": "no_basis",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "f8db726a220196dc2762",
+          "b6e7bc4c6803e99c2ef1",
+          "80a9ed62c823a5293a9e",
+          "a447361b17d3b2ffe228"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 172,
+          "QD": 3982,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "f8db726a220196dc2762",
+          "b6e7bc4c6803e99c2ef1",
+          "80a9ed62c823a5293a9e"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 181,
+          "QD": 3982,
+          "two_q_gates": 192
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "simplex15_k7-Z",
+    "variant": "no_family",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "f8db726a220196dc2762",
+          "b6e7bc4c6803e99c2ef1",
+          "80a9ed62c823a5293a9e",
+          "a447361b17d3b2ffe228"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 172,
+          "QD": 3982,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "f8db726a220196dc2762",
+          "b6e7bc4c6803e99c2ef1",
+          "80a9ed62c823a5293a9e",
+          "6bd2565b965e7aee3698",
+          "7d46cba9cdba6d23b3ab",
+          "0403a8c24c2722d974db"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 178,
+          "QD": 3982,
+          "two_q_gates": 192
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "simplex15_k7-Z",
+    "variant": "random",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "5b64850a0076d52527e3",
+          "54815651f766ea9871fa",
+          "fb41ad3e1cd7b9c4ffc7",
+          "75b3fd9d44034a1867d0",
+          "99ac9083435922cd0aa8",
+          "30722b61fda0e9813a1f",
+          "3e4d7862e677f1d42e4f",
+          "c641df0c10e4933cbb9f",
+          "f7c21847fc1eef878d6c",
+          "87404ad265dadd3bcebd",
+          "a8a6f9aefbbe95d6c439",
+          "678ca46b69380b0cc076",
+          "359910863227b52bc889",
+          "0b580e5dd3d5393afbcf",
+          "0a54dde3a2bbb64d489b",
+          "e94b0a9f539affeb0869",
+          "e08e711203f68db3c06f",
+          "e20bb51e0f13e124b25b",
+          "1001463df7f8dc7fd58c",
+          "ae6f2900b5685f27f83c",
+          "33634c193fe4aba537bf",
+          "052c8e27bbd97ac0be00",
+          "7a69aae3ba554ebf6e95",
+          "c42ec031975251de2c1f",
+          "44d723fcf94a3157203d"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 139,
+          "QD": 3336,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "5b64850a0076d52527e3",
+          "54815651f766ea9871fa",
+          "fb41ad3e1cd7b9c4ffc7",
+          "75b3fd9d44034a1867d0",
+          "99ac9083435922cd0aa8",
+          "30722b61fda0e9813a1f",
+          "3e4d7862e677f1d42e4f",
+          "c641df0c10e4933cbb9f",
+          "f7c21847fc1eef878d6c",
+          "87404ad265dadd3bcebd",
+          "a8a6f9aefbbe95d6c439",
+          "678ca46b69380b0cc076",
+          "359910863227b52bc889",
+          "0b580e5dd3d5393afbcf",
+          "0a54dde3a2bbb64d489b",
+          "e94b0a9f539affeb0869",
+          "e08e711203f68db3c06f",
+          "e20bb51e0f13e124b25b",
+          "1001463df7f8dc7fd58c",
+          "ae6f2900b5685f27f83c",
+          "33634c193fe4aba537bf",
+          "052c8e27bbd97ac0be00",
+          "7a69aae3ba554ebf6e95",
+          "c42ec031975251de2c1f",
+          "44d723fcf94a3157203d"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 139,
+          "QD": 3336,
+          "two_q_gates": 192
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "simplex15_k7-Z",
+    "variant": "resource",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "5b64850a0076d52527e3",
+          "ac4ec5320e041fc33634",
+          "ffda4a51089bca20d1b3",
+          "b63490851fb417078241",
+          "d791b7081f0c6176da49",
+          "6fe2f0db7d7335df70ef",
+          "17c099851ba0742be030",
+          "247583f48df4102e866f",
+          "868e3d208ed18a23bd5f",
+          "ac6e71c6862e02456a92",
+          "5283f89535960e222722",
+          "b1a0b7ca7a2d62e64b2d",
+          "2707db2ae12379ca6484",
+          "0d5941e31ca183746272",
+          "78940d86469b2c272541",
+          "3b5472d98a8b6c40e0e7",
+          "6c148c2e5a7145cc7efa",
+          "3e7dfaf71816d70db004"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 115,
+          "QD": 2530,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "5b64850a0076d52527e3",
+          "ac4ec5320e041fc33634",
+          "ffda4a51089bca20d1b3",
+          "b63490851fb417078241",
+          "d791b7081f0c6176da49",
+          "6fe2f0db7d7335df70ef",
+          "17c099851ba0742be030",
+          "247583f48df4102e866f",
+          "868e3d208ed18a23bd5f",
+          "ac6e71c6862e02456a92",
+          "5283f89535960e222722",
+          "b1a0b7ca7a2d62e64b2d",
+          "e8969703904545db4e3f",
+          "2707db2ae12379ca6484",
+          "3b5472d98a8b6c40e0e7"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 124,
+          "QD": 2852,
+          "two_q_gates": 192
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "simplex15_k7-Z",
+    "variant": "v03",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "5b64850a0076d52527e3",
+          "933a4c558791958a295b",
+          "20eead88b0d4af419c16",
+          "036f6c104ccc735879ca",
+          "075e90386fdae71f0ab1",
+          "0b0922141c14c020d31e",
+          "51968362ce9713cbee42"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 172,
+          "QD": 3850,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "5b64850a0076d52527e3",
+          "933a4c558791958a295b",
+          "20eead88b0d4af419c16",
+          "036f6c104ccc735879ca",
+          "075e90386fdae71f0ab1",
+          "1f11d702a09e8d24e495",
+          "1d4041c5b443f515bc8c",
+          "0b0922141c14c020d31e"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 175,
+          "QD": 3850,
+          "two_q_gates": 192
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "ae0b389daa36f2f30bb6"
+        ],
+        "minima": {
+          "Q": 38,
+          "D": 193,
+          "QD": 7334,
+          "two_q_gates": 282
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "simplex15_k7-Z",
+    "variant": "v04",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "f8db726a220196dc2762",
+          "b6e7bc4c6803e99c2ef1",
+          "80a9ed62c823a5293a9e",
+          "8545ccc1f68ce2efab69",
+          "d6746bd0a009ff15bfbb",
+          "a447361b17d3b2ffe228"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 103,
+          "QD": 2987,
+          "two_q_gates": 192
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "f8db726a220196dc2762",
+          "b6e7bc4c6803e99c2ef1",
+          "80a9ed62c823a5293a9e",
+          "8545ccc1f68ce2efab69",
+          "d6746bd0a009ff15bfbb"
+        ],
+        "minima": {
+          "Q": 16,
+          "D": 103,
+          "QD": 2987,
+          "two_q_gates": 192
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "d6746bd0a009ff15bfbb"
+        ],
+        "minima": {
+          "Q": 28,
+          "D": 118,
+          "QD": 3304,
+          "two_q_gates": 222
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane14_sum-Z",
+    "variant": "no_basis",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "7a28f3e42518830376e0",
+          "da2f51db8e3044da2136",
+          "401824d8f0a7c7127bb1"
+        ],
+        "minima": {
+          "Q": 15,
+          "D": 60,
+          "QD": 1680,
+          "two_q_gates": 132
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "7a28f3e42518830376e0",
+          "da2f51db8e3044da2136",
+          "401824d8f0a7c7127bb1"
+        ],
+        "minima": {
+          "Q": 15,
+          "D": 60,
+          "QD": 1680,
+          "two_q_gates": 132
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "4b58daabff403efdb6e0",
+          "6d9a7baa7c8311c28a82"
+        ],
+        "minima": {
+          "Q": 19,
+          "D": 64,
+          "QD": 1748,
+          "two_q_gates": 134
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane14_sum-Z",
+    "variant": "no_family",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "7a28f3e42518830376e0",
+          "2b67312baf7831264372",
+          "da2f51db8e3044da2136",
+          "401824d8f0a7c7127bb1"
+        ],
+        "minima": {
+          "Q": 15,
+          "D": 60,
+          "QD": 1680,
+          "two_q_gates": 132
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "7a28f3e42518830376e0",
+          "2b67312baf7831264372",
+          "da2f51db8e3044da2136",
+          "401824d8f0a7c7127bb1"
+        ],
+        "minima": {
+          "Q": 15,
+          "D": 60,
+          "QD": 1680,
+          "two_q_gates": 132
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "4b58daabff403efdb6e0",
+          "6d9a7baa7c8311c28a82"
+        ],
+        "minima": {
+          "Q": 19,
+          "D": 64,
+          "QD": 1748,
+          "two_q_gates": 134
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane14_sum-Z",
+    "variant": "random",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "93348680879a480e7dde",
+          "89047ae2c79e6f6ee050",
+          "616b6f2073480bc1d9d7",
+          "4d44e8548040760e4906",
+          "a8d96934140beeacc318",
+          "88c037dccee84cc8f454",
+          "4e969161c2de2b72000c",
+          "6f9b9be43936db751975",
+          "18238e1c8f55c2313c66",
+          "363326b1ae616d053248",
+          "39490796ad73d0f5ccd1",
+          "0cc2631fedccd941128f",
+          "0e30b10203333bf145b7",
+          "48919f62f6eb2683541b"
+        ],
+        "minima": {
+          "Q": 15,
+          "D": 76,
+          "QD": 2432,
+          "two_q_gates": 144
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "93348680879a480e7dde",
+          "89047ae2c79e6f6ee050",
+          "616b6f2073480bc1d9d7",
+          "4d44e8548040760e4906",
+          "a8d96934140beeacc318",
+          "88c037dccee84cc8f454",
+          "4e969161c2de2b72000c",
+          "6f9b9be43936db751975",
+          "18238e1c8f55c2313c66",
+          "363326b1ae616d053248",
+          "39490796ad73d0f5ccd1",
+          "0cc2631fedccd941128f",
+          "0e30b10203333bf145b7",
+          "48919f62f6eb2683541b"
+        ],
+        "minima": {
+          "Q": 15,
+          "D": 76,
+          "QD": 2432,
+          "two_q_gates": 144
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "f24975f690fc150f2ae8",
+          "ae5dfca08de89f86f90a",
+          "4ed5f30f1be898e2eedd",
+          "b0198a30e5d292b5639b",
+          "134436327d34bc633cdb",
+          "42833b66e3c643762696",
+          "39490796ad73d0f5ccd1",
+          "6971bd0d05df7dc20b14"
+        ],
+        "minima": {
+          "Q": 20,
+          "D": 190,
+          "QD": 4750,
+          "two_q_gates": 210
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane14_sum-Z",
+    "variant": "resource",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "93348680879a480e7dde",
+          "cb50a4a600f6dccdf894",
+          "9b85905cf5be4feb7d4f",
+          "07c0f89162df1092ff7a",
+          "017419f9f73840f6f6b1",
+          "39c296f6eee71e515b88",
+          "a07468d664f0328f87ad",
+          "adb8b63878fdf12fb762",
+          "e2b1649e012b8583f863",
+          "929f1f776421890eee20",
+          "1d69cd3dfa3acc0b00f2",
+          "6ae0f0a288bbcfc20d81",
+          "57a5a53942cc123c2587",
+          "b57ebe5180f991ba075d",
+          "7d092101e1bb858d7313",
+          "6e7db7ce555f8aa6f6ce"
+        ],
+        "minima": {
+          "Q": 15,
+          "D": 97,
+          "QD": 3266,
+          "two_q_gates": 144
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "93348680879a480e7dde",
+          "cb50a4a600f6dccdf894",
+          "9b85905cf5be4feb7d4f",
+          "07c0f89162df1092ff7a",
+          "017419f9f73840f6f6b1",
+          "39c296f6eee71e515b88",
+          "a07468d664f0328f87ad",
+          "adb8b63878fdf12fb762",
+          "e2b1649e012b8583f863",
+          "929f1f776421890eee20",
+          "1d69cd3dfa3acc0b00f2",
+          "6ae0f0a288bbcfc20d81",
+          "57a5a53942cc123c2587",
+          "b57ebe5180f991ba075d",
+          "7d092101e1bb858d7313",
+          "6e7db7ce555f8aa6f6ce"
+        ],
+        "minima": {
+          "Q": 15,
+          "D": 97,
+          "QD": 3266,
+          "two_q_gates": 144
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "ec0887b6447740fe14d7",
+          "efef1a30b78d7bec8548",
+          "dba8a85438c20aabe177"
+        ],
+        "minima": {
+          "Q": 20,
+          "D": 169,
+          "QD": 4225,
+          "two_q_gates": 222
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane14_sum-Z",
+    "variant": "v03",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "93348680879a480e7dde",
+          "3306cc15a420762e773d",
+          "c140b8b62f89ef933845",
+          "8bb197c70a853e5c7fd7",
+          "47437c4185575bc0960c",
+          "20d995153d5d887c0abf",
+          "3135d648d4f932ba62d9",
+          "99d7ff8ded779aa3277d",
+          "942c128bdc1f4eb09f7e"
+        ],
+        "minima": {
+          "Q": 15,
+          "D": 109,
+          "QD": 3706,
+          "two_q_gates": 144
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "93348680879a480e7dde",
+          "3306cc15a420762e773d",
+          "c140b8b62f89ef933845",
+          "8bb197c70a853e5c7fd7",
+          "47437c4185575bc0960c",
+          "20d995153d5d887c0abf",
+          "3135d648d4f932ba62d9",
+          "99d7ff8ded779aa3277d",
+          "942c128bdc1f4eb09f7e"
+        ],
+        "minima": {
+          "Q": 15,
+          "D": 109,
+          "QD": 3706,
+          "two_q_gates": 144
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "8bb197c70a853e5c7fd7",
+          "9840542afa3049ee74d3",
+          "37d1604a8011b24b3a96"
+        ],
+        "minima": {
+          "Q": 24,
+          "D": 133,
+          "QD": 4344,
+          "two_q_gates": 204
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane14_sum-Z",
+    "variant": "v04",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "7a28f3e42518830376e0",
+          "2b67312baf7831264372",
+          "da2f51db8e3044da2136",
+          "401824d8f0a7c7127bb1"
+        ],
+        "minima": {
+          "Q": 15,
+          "D": 60,
+          "QD": 1680,
+          "two_q_gates": 132
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "7a28f3e42518830376e0",
+          "2b67312baf7831264372",
+          "da2f51db8e3044da2136",
+          "401824d8f0a7c7127bb1"
+        ],
+        "minima": {
+          "Q": 15,
+          "D": 60,
+          "QD": 1680,
+          "two_q_gates": 132
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "4b58daabff403efdb6e0",
+          "6d9a7baa7c8311c28a82"
+        ],
+        "minima": {
+          "Q": 19,
+          "D": 64,
+          "QD": 1748,
+          "two_q_gates": 134
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane7-X",
+    "variant": "no_basis",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "0163ab12a9e62a15edfa",
+          "b970c8ed8c1c8fc4e406",
+          "b74ddbddc16b138bfb67",
+          "26a1f4efffe2180e6ff5"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1168,
+          "two_q_gates": 42
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "0163ab12a9e62a15edfa",
+          "b970c8ed8c1c8fc4e406",
+          "b74ddbddc16b138bfb67",
+          "26a1f4efffe2180e6ff5"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1168,
+          "two_q_gates": 42
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "ec90d9985fda878a51e2"
+        ],
+        "minima": {
+          "Q": 12,
+          "D": 194,
+          "QD": 2328,
+          "two_q_gates": 78
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane7-X",
+    "variant": "no_family",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "0163ab12a9e62a15edfa",
+          "6c57aa687648562280f6",
+          "b970c8ed8c1c8fc4e406",
+          "26a1f4efffe2180e6ff5"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "0163ab12a9e62a15edfa",
+          "6c57aa687648562280f6",
+          "b970c8ed8c1c8fc4e406",
+          "26a1f4efffe2180e6ff5"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane7-X",
+    "variant": "random",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "aac259b9dff50156609d",
+          "f4d396fe0ded5a2bfcd1",
+          "dcfbc6f81a47b2a9ffbf",
+          "31362250b375c6f57046",
+          "f8e6ee89d7ba6bb97a38",
+          "a39713e76e7a7e956852",
+          "8ef8df8d5ce53792bd3a",
+          "00ca9356706f1c6b2e7a",
+          "bdddaebab984e04e6e67",
+          "9a6228c5e06023024a9d",
+          "3d8a6b195c237ea9aabf",
+          "62e4ab5cd1cd3a6f8613",
+          "4f1335d9649733d44709",
+          "6b36d60626fd862b618f",
+          "ac30e184fae6a241fbbd"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 89,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "aac259b9dff50156609d",
+          "f4d396fe0ded5a2bfcd1",
+          "dcfbc6f81a47b2a9ffbf",
+          "31362250b375c6f57046",
+          "f8e6ee89d7ba6bb97a38",
+          "a39713e76e7a7e956852",
+          "8ef8df8d5ce53792bd3a",
+          "00ca9356706f1c6b2e7a",
+          "bdddaebab984e04e6e67",
+          "9a6228c5e06023024a9d",
+          "3d8a6b195c237ea9aabf",
+          "62e4ab5cd1cd3a6f8613",
+          "4f1335d9649733d44709",
+          "6b36d60626fd862b618f",
+          "ac30e184fae6a241fbbd"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 89,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "addd3aa69b73557f7b7d",
+          "db93537455bbad08ead0",
+          "e05e0a14f195921a4ea2",
+          "3d8a6b195c237ea9aabf"
+        ],
+        "minima": {
+          "Q": 13,
+          "D": 89,
+          "QD": 1335,
+          "two_q_gates": 96
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane7-X",
+    "variant": "resource",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "aac259b9dff50156609d",
+          "00fa9686115caa6701b2",
+          "63dfdc7cab0c0fa9e94d",
+          "8bb1b4d672a207276552",
+          "673ec456758866b531bb",
+          "31b28efa9de61c87c98d",
+          "7cd2e8f74f2d36e73cdb",
+          "019bbf9ff20af9219239",
+          "9a066821019a3ef188b9",
+          "b71894a177ef0abbec4c",
+          "22f3643758eadb327b7f",
+          "5cf426b13ea99e169a44",
+          "30aa1a693768d21d872e",
+          "31ac7a884c084e32aa8c",
+          "a314b5a20fa7f67f95b2",
+          "b5d7df8f19dd3d3165b8",
+          "8521e03d8686025be154",
+          "29d02611ae8255dc344b",
+          "39bedec138822e225642"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 65,
+          "QD": 650,
+          "two_q_gates": 72
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "aac259b9dff50156609d",
+          "00fa9686115caa6701b2",
+          "63dfdc7cab0c0fa9e94d",
+          "8bb1b4d672a207276552",
+          "673ec456758866b531bb",
+          "31b28efa9de61c87c98d",
+          "7cd2e8f74f2d36e73cdb",
+          "019bbf9ff20af9219239",
+          "9a066821019a3ef188b9",
+          "b71894a177ef0abbec4c",
+          "22f3643758eadb327b7f",
+          "5cf426b13ea99e169a44",
+          "30aa1a693768d21d872e",
+          "31ac7a884c084e32aa8c",
+          "a314b5a20fa7f67f95b2",
+          "b5d7df8f19dd3d3165b8",
+          "8521e03d8686025be154",
+          "29d02611ae8255dc344b",
+          "39bedec138822e225642"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 65,
+          "QD": 650,
+          "two_q_gates": 72
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane7-X",
+    "variant": "v03",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "aac259b9dff50156609d",
+          "a508aa51cd3c3a3ccfbe",
+          "ec8f54039b7acd8c2ec4",
+          "0a625f191d55aac651d6",
+          "1adff203a3a79dd3ca4d",
+          "3a06fc0a7cc314d7379a",
+          "425212928c8a32b12860",
+          "4f409f044ae35dad7f47",
+          "822b3a92f178bf66c1a8",
+          "12fa3975bcb37817b815",
+          "11bae53f4bcdaa7cc17f",
+          "dacf26cc1ff0e48de0a4",
+          "cc4c813bdcd8e6ee4ecb",
+          "02e2a408a3cf99ec6cf5",
+          "12cf7897f7c114e77627",
+          "7c0e57622e75f757a611",
+          "f06b992a7d6a98bff513",
+          "7f822adf8092769eafb4",
+          "c603ce5abbf4574da0aa",
+          "78bce42b084799cd8127",
+          "2b1007fcbbe0a101308c",
+          "df68ac159c790f0a9b9c",
+          "26a4a6c5540592af2ea0"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 98,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "aac259b9dff50156609d",
+          "a508aa51cd3c3a3ccfbe",
+          "ec8f54039b7acd8c2ec4",
+          "0a625f191d55aac651d6",
+          "1adff203a3a79dd3ca4d",
+          "3a06fc0a7cc314d7379a",
+          "425212928c8a32b12860",
+          "4f409f044ae35dad7f47",
+          "822b3a92f178bf66c1a8",
+          "12fa3975bcb37817b815",
+          "11bae53f4bcdaa7cc17f",
+          "dacf26cc1ff0e48de0a4",
+          "cc4c813bdcd8e6ee4ecb",
+          "02e2a408a3cf99ec6cf5",
+          "12cf7897f7c114e77627",
+          "7c0e57622e75f757a611",
+          "f06b992a7d6a98bff513",
+          "7f822adf8092769eafb4",
+          "c603ce5abbf4574da0aa",
+          "78bce42b084799cd8127",
+          "2b1007fcbbe0a101308c",
+          "df68ac159c790f0a9b9c",
+          "26a4a6c5540592af2ea0"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 98,
+          "QD": 1168,
+          "two_q_gates": 72
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "b409c4817ab59900215a",
+          "58276756b6f6d939e2d3"
+        ],
+        "minima": {
+          "Q": 14,
+          "D": 131,
+          "QD": 1834,
+          "two_q_gates": 108
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane7-X",
+    "variant": "v04",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "0163ab12a9e62a15edfa",
+          "6c57aa687648562280f6",
+          "b970c8ed8c1c8fc4e406",
+          "ca7024a1e479acd8230b",
+          "26a1f4efffe2180e6ff5"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1168,
+          "two_q_gates": 49
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "0163ab12a9e62a15edfa",
+          "6c57aa687648562280f6",
+          "b970c8ed8c1c8fc4e406",
+          "ca7024a1e479acd8230b",
+          "26a1f4efffe2180e6ff5"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1168,
+          "two_q_gates": 49
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "45bb3e1e61f2b6d36a7b"
+        ],
+        "minima": {
+          "Q": 12,
+          "D": 226,
+          "QD": 2712,
+          "two_q_gates": 91
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane7_mixed-X",
+    "variant": "no_basis",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "25a8928349ca4420a481",
+          "270112816c57d11d0412",
+          "c5cbb04cbf27df13fc6f",
+          "7028b19bcba3a85cdb75"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1360,
+          "two_q_gates": 42
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "25a8928349ca4420a481",
+          "270112816c57d11d0412",
+          "c5cbb04cbf27df13fc6f",
+          "7028b19bcba3a85cdb75"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 110,
+          "QD": 1360,
+          "two_q_gates": 42
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "00d562d77cd0da1a9902",
+          "d42e6bbda1e1523b7d3d"
+        ],
+        "minima": {
+          "Q": 12,
+          "D": 202,
+          "QD": 2424,
+          "two_q_gates": 78
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane7_mixed-X",
+    "variant": "no_family",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "25a8928349ca4420a481",
+          "98093957964042d546c1",
+          "b60b08d04babe562e30c",
+          "dd4a8ca6bde502ec8801",
+          "82c01367e5a35df920fb",
+          "c5cbb04cbf27df13fc6f",
+          "b7f082334433dc47f9af"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 57,
+          "QD": 1026,
+          "two_q_gates": 72
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "25a8928349ca4420a481",
+          "98093957964042d546c1",
+          "b60b08d04babe562e30c",
+          "dd4a8ca6bde502ec8801",
+          "82c01367e5a35df920fb",
+          "c5cbb04cbf27df13fc6f",
+          "b7f082334433dc47f9af"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 57,
+          "QD": 1026,
+          "two_q_gates": 72
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "8f490900669c33b738bb"
+        ],
+        "minima": {
+          "Q": 19,
+          "D": 60,
+          "QD": 1140,
+          "two_q_gates": 96
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane7_mixed-X",
+    "variant": "random",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "94eaf3fb70b6d092653b",
+          "d43ae1d3e4af208e87f0",
+          "657f08e75ddffd1e9760",
+          "ca7b0a37071e7cf108b8",
+          "301a3225991f667a9c2d",
+          "5748190560c7bcb3acc1",
+          "f5d6211e31436b8051b8",
+          "c3209231dfb1d7c3857b",
+          "1e7237aba1ddc0777981",
+          "6ad7ebb786a4907008a8",
+          "b93cf80091d2144e8def",
+          "188db31ff8431c2e318c",
+          "386a99f1452fb38f8e2d",
+          "1f67f8d2545ad18976dd",
+          "f5d730ae6c86649fe48d"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1360,
+          "two_q_gates": 72
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "94eaf3fb70b6d092653b",
+          "d43ae1d3e4af208e87f0",
+          "657f08e75ddffd1e9760",
+          "ca7b0a37071e7cf108b8",
+          "301a3225991f667a9c2d",
+          "5748190560c7bcb3acc1",
+          "f5d6211e31436b8051b8",
+          "c3209231dfb1d7c3857b",
+          "1e7237aba1ddc0777981",
+          "6ad7ebb786a4907008a8",
+          "b93cf80091d2144e8def",
+          "188db31ff8431c2e318c",
+          "386a99f1452fb38f8e2d",
+          "1f67f8d2545ad18976dd",
+          "f5d730ae6c86649fe48d"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1360,
+          "two_q_gates": 72
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "658311452d89500a2bee",
+          "5d562c81763ba60a04f3"
+        ],
+        "minima": {
+          "Q": 13,
+          "D": 122,
+          "QD": 1586,
+          "two_q_gates": 96
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane7_mixed-X",
+    "variant": "resource",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "94eaf3fb70b6d092653b",
+          "68da7454d473a1464219",
+          "c5b8ee93c2982d340e22",
+          "1f812893f64cbe85de49",
+          "f02bcc78082569738c40",
+          "5a52745a059bbb76e758",
+          "0b50ff0307b5d30ceca9",
+          "c0508a13bb16f4365c3c",
+          "ef539dff49dc2642d454",
+          "13b94bc6b1f03f46c2d7",
+          "994373f9bc39d8642f3e",
+          "95e0bc7ec0f4149ca529",
+          "9ecd35bc87a5476e303a",
+          "7e7dd2e4858f47bb875c",
+          "8ef205a78b74fa740e2b",
+          "08ccd7e077bac017ba34",
+          "74a12560de93aa15e4bc",
+          "1b158f8a901a34ce755b",
+          "40f67b881c43ec60bd96",
+          "05ea95377c8c59993af6",
+          "af0c0230043591991d0b",
+          "ca828a6f4029364ff6e9"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 92,
+          "QD": 920,
+          "two_q_gates": 72
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "94eaf3fb70b6d092653b",
+          "68da7454d473a1464219",
+          "c5b8ee93c2982d340e22",
+          "1f812893f64cbe85de49",
+          "f02bcc78082569738c40",
+          "5a52745a059bbb76e758",
+          "0b50ff0307b5d30ceca9",
+          "c0508a13bb16f4365c3c",
+          "ef539dff49dc2642d454",
+          "13b94bc6b1f03f46c2d7",
+          "994373f9bc39d8642f3e",
+          "95e0bc7ec0f4149ca529",
+          "9ecd35bc87a5476e303a",
+          "7e7dd2e4858f47bb875c",
+          "8ef205a78b74fa740e2b",
+          "08ccd7e077bac017ba34",
+          "74a12560de93aa15e4bc",
+          "1b158f8a901a34ce755b",
+          "40f67b881c43ec60bd96",
+          "05ea95377c8c59993af6",
+          "af0c0230043591991d0b",
+          "ca828a6f4029364ff6e9"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 92,
+          "QD": 920,
+          "two_q_gates": 72
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane7_mixed-X",
+    "variant": "v03",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "94eaf3fb70b6d092653b",
+          "2880ae227738f1d74d5d",
+          "65c5be1e133f015b02be",
+          "32c38511504b335f40c5",
+          "9b70a5b5c18b5ab98a7a",
+          "513e8cb7199983c547ef",
+          "66cd621c04df3a907338",
+          "4fc07de2c648825562af",
+          "184b9ef65cbad1d75537",
+          "ae8dfc14a866095ebf27",
+          "e94b976a19bcc3a0b0d8",
+          "077f5009f6cddb855a8c",
+          "0a435db9947441838448"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1360,
+          "two_q_gates": 72
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "94eaf3fb70b6d092653b",
+          "2880ae227738f1d74d5d",
+          "65c5be1e133f015b02be",
+          "32c38511504b335f40c5",
+          "9b70a5b5c18b5ab98a7a",
+          "513e8cb7199983c547ef",
+          "66cd621c04df3a907338",
+          "4fc07de2c648825562af",
+          "184b9ef65cbad1d75537",
+          "ae8dfc14a866095ebf27",
+          "e94b976a19bcc3a0b0d8",
+          "077f5009f6cddb855a8c",
+          "0a435db9947441838448"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 104,
+          "QD": 1360,
+          "two_q_gates": 72
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "6e0c4e434d94fcc362bb",
+          "ffaf4946485b76eb77af"
+        ],
+        "minima": {
+          "Q": 10,
+          "D": 137,
+          "QD": 1918,
+          "two_q_gates": 102
+        }
+      }
+    }
+  },
+  {
+    "group": "primary",
+    "task": "steane7_mixed-X",
+    "variant": "v04",
+    "tiers": {
+      "1": {
+        "architecture_ids": [
+          "25a8928349ca4420a481",
+          "98093957964042d546c1",
+          "b60b08d04babe562e30c",
+          "c5cbb04cbf27df13fc6f",
+          "ecc7d56bc63119ef993c",
+          "283518cb5d66b33aeab9"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 83,
+          "QD": 1360,
+          "two_q_gates": 72
+        }
+      },
+      "2": {
+        "architecture_ids": [
+          "25a8928349ca4420a481",
+          "98093957964042d546c1",
+          "b60b08d04babe562e30c",
+          "c5cbb04cbf27df13fc6f",
+          "ecc7d56bc63119ef993c",
+          "283518cb5d66b33aeab9"
+        ],
+        "minima": {
+          "Q": 8,
+          "D": 83,
+          "QD": 1360,
+          "two_q_gates": 72
+        }
+      },
+      "3": {
+        "architecture_ids": [
+          "31063a77de54827a63b2",
+          "5736c19085f5699c98b0"
+        ],
+        "minima": {
+          "Q": 12,
+          "D": 84,
+          "QD": 1512,
+          "two_q_gates": 96
+        }
+      }
+    }
+  }
+]

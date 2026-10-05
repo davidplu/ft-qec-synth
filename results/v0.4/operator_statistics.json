@@ -1,0 +1,3973 @@
+{
+  "bare:repair_compress:REPAIR:independent_full_interval_flag": {
+    "attempts": 9,
+    "valid_survivors": 0,
+    "dc_failures": 9,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -12.0,
+      "QD": -448.0,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:REPAIR:split_prefix_flag": {
+    "attempts": 9,
+    "valid_survivors": 0,
+    "dc_failures": 9,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -12.0,
+      "QD": -448.0,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:REPAIR:split_suffix_flag": {
+    "attempts": 9,
+    "valid_survivors": 0,
+    "dc_failures": 9,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -12.0,
+      "QD": -456.0,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:BASIS:basis_row_10_times_4": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 6.0,
+      "QD": 108.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:BASIS:basis_row_10_times_5": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 6.0,
+      "QD": 108.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:BASIS:basis_row_10_times_6": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 6.0,
+      "QD": 108.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:BASIS:basis_row_10_times_7": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 6.0,
+      "QD": 108.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:FAMILY:switch_to_verified_cat": {
+    "attempts": 9,
+    "valid_survivors": 3,
+    "dc_failures": 0,
+    "unknown": 6,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -5.333333333333333,
+      "D": -1056.0,
+      "QD": -25470.666666666668,
+      "two_q_gates": -394.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": -3.0,
+      "D": -420.0,
+      "QD": -5514.0,
+      "two_q_gates": -156.0
+    }
+  },
+  "bare:repair_compress:REPAIR:reverse_implicated_order": {
+    "attempts": 18,
+    "valid_survivors": 0,
+    "dc_failures": 18,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:REPAIR:separate_hook_support": {
+    "attempts": 55,
+    "valid_survivors": 0,
+    "dc_failures": 55,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:BASIS:basis_row_0_times_1": {
+    "attempts": 20,
+    "valid_survivors": 0,
+    "dc_failures": 20,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:BASIS:basis_row_0_times_2": {
+    "attempts": 20,
+    "valid_survivors": 0,
+    "dc_failures": 20,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:BASIS:basis_row_0_times_3": {
+    "attempts": 20,
+    "valid_survivors": 0,
+    "dc_failures": 20,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -3.6,
+      "QD": -32.4,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:BASIS:basis_row_0_times_5": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -24.0,
+      "QD": -432.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:BASIS:basis_row_1_times_0": {
+    "attempts": 70,
+    "valid_survivors": 0,
+    "dc_failures": 70,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:REPAIR:redirect_hook_order": {
+    "attempts": 17,
+    "valid_survivors": 0,
+    "dc_failures": 17,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:REPAIR:separate_syndrome_ancillas": {
+    "attempts": 9,
+    "valid_survivors": 0,
+    "dc_failures": 9,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -8.333333333333334,
+      "D": 0.0,
+      "QD": -2744.6666666666665,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:REPAIR:change_implicated_check_order": {
+    "attempts": 37,
+    "valid_survivors": 0,
+    "dc_failures": 37,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:BASIS:basis_row_0_times_8": {
+    "attempts": 1,
+    "valid_survivors": 0,
+    "dc_failures": 1,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -24.0,
+      "QD": -432.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:REPAIR:independent_full_interval_flag": {
+    "attempts": 9,
+    "valid_survivors": 0,
+    "dc_failures": 9,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -12.0,
+      "QD": -448.0,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:REPAIR:split_prefix_flag": {
+    "attempts": 9,
+    "valid_survivors": 0,
+    "dc_failures": 9,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -12.0,
+      "QD": -448.0,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:REPAIR:split_suffix_flag": {
+    "attempts": 9,
+    "valid_survivors": 0,
+    "dc_failures": 9,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -12.0,
+      "QD": -456.0,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:BASIS:basis_row_10_times_4": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 6.0,
+      "QD": 108.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:BASIS:basis_row_10_times_5": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 6.0,
+      "QD": 108.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:BASIS:basis_row_10_times_6": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 6.0,
+      "QD": 108.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:BASIS:basis_row_10_times_7": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 6.0,
+      "QD": 108.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:FAMILY:switch_to_verified_cat": {
+    "attempts": 9,
+    "valid_survivors": 3,
+    "dc_failures": 0,
+    "unknown": 6,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -5.333333333333333,
+      "D": -1056.0,
+      "QD": -25470.666666666668,
+      "two_q_gates": -394.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": -3.0,
+      "D": -420.0,
+      "QD": -5514.0,
+      "two_q_gates": -156.0
+    }
+  },
+  "bare:repair_only:REPAIR:reverse_implicated_order": {
+    "attempts": 58,
+    "valid_survivors": 0,
+    "dc_failures": 58,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:REPAIR:separate_hook_support": {
+    "attempts": 86,
+    "valid_survivors": 0,
+    "dc_failures": 86,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:BASIS:basis_row_0_times_1": {
+    "attempts": 25,
+    "valid_survivors": 0,
+    "dc_failures": 25,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:BASIS:basis_row_0_times_2": {
+    "attempts": 24,
+    "valid_survivors": 0,
+    "dc_failures": 24,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:BASIS:basis_row_0_times_3": {
+    "attempts": 20,
+    "valid_survivors": 0,
+    "dc_failures": 20,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -3.6,
+      "QD": -32.4,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:BASIS:basis_row_0_times_5": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -24.0,
+      "QD": -432.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:BASIS:basis_row_1_times_0": {
+    "attempts": 62,
+    "valid_survivors": 0,
+    "dc_failures": 62,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:REPAIR:redirect_hook_order": {
+    "attempts": 20,
+    "valid_survivors": 0,
+    "dc_failures": 20,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:REPAIR:separate_syndrome_ancillas": {
+    "attempts": 9,
+    "valid_survivors": 0,
+    "dc_failures": 9,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -8.333333333333334,
+      "D": 0.0,
+      "QD": -2744.6666666666665,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:REPAIR:change_implicated_check_order": {
+    "attempts": 41,
+    "valid_survivors": 0,
+    "dc_failures": 41,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:BASIS:basis_row_0_times_8": {
+    "attempts": 1,
+    "valid_survivors": 0,
+    "dc_failures": 1,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -24.0,
+      "QD": -432.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:BASIS:basis_row_0_times_4": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -48.0,
+      "QD": -816.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:BASIS:basis_row_1_times_2": {
+    "attempts": 9,
+    "valid_survivors": 0,
+    "dc_failures": 6,
+    "unknown": 3,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:BASIS:basis_row_1_times_3": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:BASIS:basis_row_2_times_1": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:REPAIR:split_temporal_flag_records": {
+    "attempts": 6,
+    "valid_survivors": 0,
+    "dc_failures": 6,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -12.0,
+      "QD": -398.0,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:BASIS:basis_row_0_times_4": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -48.0,
+      "QD": -816.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:BASIS:basis_row_1_times_2": {
+    "attempts": 11,
+    "valid_survivors": 0,
+    "dc_failures": 8,
+    "unknown": 3,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:BASIS:basis_row_1_times_3": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:BASIS:basis_row_2_times_1": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_only:REPAIR:split_temporal_flag_records": {
+    "attempts": 6,
+    "valid_survivors": 0,
+    "dc_failures": 6,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -12.0,
+      "QD": -398.0,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:COMPRESSION:remove_cat_verification": {
+    "attempts": 39,
+    "valid_survivors": 0,
+    "dc_failures": 39,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 1.0,
+      "D": 144.0,
+      "QD": 1970.0,
+      "two_q_gates": 72.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:COMPRESSION:remove_redundant_syndrome_measurement": {
+    "attempts": 36,
+    "valid_survivors": 36,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 32.0,
+      "QD": 384.0,
+      "two_q_gates": 13.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 32.0,
+      "QD": 384.0,
+      "two_q_gates": 13.0
+    }
+  },
+  "bare:repair_compress:REPAIR:restore_syndrome_measurement": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -20.0,
+      "QD": -220.0,
+      "two_q_gates": -7.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "bare:repair_compress:COMPRESSION:reduce_reset_measurement_cycles": {
+    "attempts": 3,
+    "valid_survivors": 3,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 1.0,
+      "QD": 12.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 1.0,
+      "QD": 12.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "overprotected:repair_compress:COMPRESSION:increase_safe_parallelism": {
+    "attempts": 6,
+    "valid_survivors": 6,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 414.0,
+      "QD": 14046.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 414.0,
+      "QD": 14046.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "overprotected:repair_compress:COMPRESSION:remove_redundant_terminal_round": {
+    "attempts": 6,
+    "valid_survivors": 6,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 24.5,
+      "QD": 808.5,
+      "two_q_gates": 72.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 24.5,
+      "QD": 808.5,
+      "two_q_gates": 72.0
+    }
+  },
+  "overprotected:repair_compress:COMPRESSION:merge_flag_intervals": {
+    "attempts": 42,
+    "valid_survivors": 42,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 1.0,
+      "D": 1.7142857142857142,
+      "QD": 118.35714285714286,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 1.0,
+      "D": 1.7142857142857142,
+      "QD": 118.35714285714286,
+      "two_q_gates": 6.0
+    }
+  },
+  "overprotected:repair_compress:COMPRESSION:remove_flag_ancilla": {
+    "attempts": 84,
+    "valid_survivors": 21,
+    "dc_failures": 63,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 1.0,
+      "D": 1.2857142857142858,
+      "QD": 91.03571428571429,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 1.0,
+      "D": 1.7142857142857142,
+      "QD": 104.85714285714286,
+      "two_q_gates": 6.0
+    }
+  },
+  "overprotected:repair_compress:REPAIR:independent_full_interval_flag": {
+    "attempts": 6,
+    "valid_survivors": 0,
+    "dc_failures": 6,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -6.0,
+      "QD": -201.5,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_compress:REPAIR:split_prefix_flag": {
+    "attempts": 6,
+    "valid_survivors": 0,
+    "dc_failures": 6,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -10.5,
+      "QD": -300.5,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_compress:REPAIR:split_suffix_flag": {
+    "attempts": 9,
+    "valid_survivors": 0,
+    "dc_failures": 9,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -6.0,
+      "QD": -212.0,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_compress:BASIS:basis_row_0_times_1": {
+    "attempts": 12,
+    "valid_survivors": 6,
+    "dc_failures": 6,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -1.5,
+      "QD": -21.75,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": -3.0,
+      "QD": -64.5,
+      "two_q_gates": 0.0
+    }
+  },
+  "overprotected:repair_compress:BASIS:basis_row_0_times_2": {
+    "attempts": 6,
+    "valid_survivors": 6,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -3.0,
+      "QD": -64.5,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": -3.0,
+      "QD": -64.5,
+      "two_q_gates": 0.0
+    }
+  },
+  "overprotected:repair_compress:BASIS:basis_row_0_times_3": {
+    "attempts": 9,
+    "valid_survivors": 3,
+    "dc_failures": 6,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -15.0,
+      "QD": -251.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": -3.0,
+      "QD": -81.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "overprotected:repair_compress:BASIS:basis_row_0_times_4": {
+    "attempts": 6,
+    "valid_survivors": 0,
+    "dc_failures": 6,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -45.0,
+      "QD": -1260.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_compress:FAMILY:switch_to_verified_cat": {
+    "attempts": 9,
+    "valid_survivors": 6,
+    "dc_failures": 0,
+    "unknown": 3,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 3.3333333333333335,
+      "D": -876.0,
+      "QD": -16598.333333333332,
+      "two_q_gates": -258.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 3.5,
+      "D": -531.0,
+      "QD": -6207.5,
+      "two_q_gates": -147.0
+    }
+  },
+  "overprotected:repair_compress:REPAIR:redirect_hook_order": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -6.0,
+      "QD": -156.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_compress:COMPRESSION:reduce_reset_measurement_cycles": {
+    "attempts": 6,
+    "valid_survivors": 6,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 1.0,
+      "QD": 27.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 1.0,
+      "QD": 27.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "overprotected:repair_compress:REPAIR:reverse_implicated_order": {
+    "attempts": 6,
+    "valid_survivors": 0,
+    "dc_failures": 6,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -13.5,
+      "QD": -285.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_compress:REPAIR:separate_hook_support": {
+    "attempts": 6,
+    "valid_survivors": 0,
+    "dc_failures": 6,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -3.0,
+      "QD": -78.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_compress:REPAIR:serialize_cross_check_gadgets": {
+    "attempts": 6,
+    "valid_survivors": 0,
+    "dc_failures": 6,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -190.5,
+      "QD": -4276.5,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_compress:REPAIR:change_implicated_check_order": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -9.0,
+      "QD": -234.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_compress:COMPRESSION:remove_one_flag_interaction": {
+    "attempts": 12,
+    "valid_survivors": 0,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 12,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 1.0,
+      "QD": 18.75,
+      "two_q_gates": 1.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_only:REPAIR:add_protection_to_valid": {
+    "attempts": 123,
+    "valid_survivors": 120,
+    "dc_failures": 0,
+    "unknown": 3,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -16.0,
+      "QD": -1087.658536585366,
+      "two_q_gates": -8.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": -1.0,
+      "D": -16.0,
+      "QD": -1074.8,
+      "two_q_gates": -8.0
+    }
+  },
+  "overprotected:repair_only:BASIS:basis_row_0_times_1": {
+    "attempts": 16,
+    "valid_survivors": 0,
+    "dc_failures": 0,
+    "unknown": 16,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_only:BASIS:basis_row_0_times_2": {
+    "attempts": 23,
+    "valid_survivors": 0,
+    "dc_failures": 0,
+    "unknown": 23,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_only:BASIS:basis_row_0_times_3": {
+    "attempts": 9,
+    "valid_survivors": 0,
+    "dc_failures": 0,
+    "unknown": 9,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_only:BASIS:basis_row_1_times_0": {
+    "attempts": 21,
+    "valid_survivors": 0,
+    "dc_failures": 0,
+    "unknown": 21,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_only:FAMILY:switch_to_verified_cat": {
+    "attempts": 16,
+    "valid_survivors": 0,
+    "dc_failures": 0,
+    "unknown": 16,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 26.0,
+      "D": -1360.0,
+      "QD": -11372.0,
+      "two_q_gates": -456.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_only:BASIS:basis_row_0_times_4": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 0,
+    "unknown": 3,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -64.0,
+      "QD": -3200.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_only:RANDOM:random_local_mutation": {
+    "attempts": 69,
+    "valid_survivors": 53,
+    "dc_failures": 0,
+    "unknown": 16,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.8405797101449275,
+      "D": 7.594202898550725,
+      "QD": 1066.608695652174,
+      "two_q_gates": 0.11594202898550725
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.03773584905660377,
+      "D": 0.6037735849056604,
+      "QD": 60.45283018867924,
+      "two_q_gates": 0.3018867924528302
+    }
+  },
+  "overprotected:repair_only:BASIS:basis_row_0_times_5": {
+    "attempts": 2,
+    "valid_survivors": 0,
+    "dc_failures": 0,
+    "unknown": 2,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -64.0,
+      "QD": -3200.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_compress:BASIS:basis_row_1_times_0": {
+    "attempts": 3,
+    "valid_survivors": 3,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -3.0,
+      "QD": -48.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": -3.0,
+      "QD": -48.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "overprotected:repair_compress:COMPRESSION:remove_cat_verification": {
+    "attempts": 15,
+    "valid_survivors": 0,
+    "dc_failures": 15,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 1.0,
+      "D": 201.6,
+      "QD": 2757.2,
+      "two_q_gates": 100.8
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_compress:COMPRESSION:remove_redundant_syndrome_measurement": {
+    "attempts": 12,
+    "valid_survivors": 12,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 24.25,
+      "QD": 292.0,
+      "two_q_gates": 10.75
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 24.25,
+      "QD": 292.0,
+      "two_q_gates": 10.75
+    }
+  },
+  "overprotected:repair_compress:BASIS:basis_row_1_times_2": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -3.0,
+      "QD": -45.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_compress:BASIS:basis_row_1_times_4": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -6.0,
+      "QD": -96.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "overprotected:repair_compress:REPAIR:split_temporal_flag_records": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -9.0,
+      "QD": -236.0,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "prefixprotected:repair_compress:COMPRESSION:increase_safe_parallelism": {
+    "attempts": 3,
+    "valid_survivors": 3,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 392.0,
+      "QD": 14504.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 392.0,
+      "QD": 14504.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "prefixprotected:repair_compress:COMPRESSION:remove_redundant_terminal_round": {
+    "attempts": 3,
+    "valid_survivors": 3,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 46.0,
+      "QD": 1702.0,
+      "two_q_gates": 72.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 46.0,
+      "QD": 1702.0,
+      "two_q_gates": 72.0
+    }
+  },
+  "prefixprotected:repair_compress:COMPRESSION:merge_flag_intervals": {
+    "attempts": 54,
+    "valid_survivors": 54,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.9444444444444444,
+      "D": 3.4814814814814814,
+      "QD": 182.37037037037038,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.9444444444444444,
+      "D": 3.4814814814814814,
+      "QD": 182.37037037037038,
+      "two_q_gates": 6.0
+    }
+  },
+  "prefixprotected:repair_compress:COMPRESSION:remove_flag_ancilla": {
+    "attempts": 34,
+    "valid_survivors": 9,
+    "dc_failures": 25,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.9705882352941176,
+      "D": 2.7941176470588234,
+      "QD": 127.52941176470588,
+      "two_q_gates": 5.882352941176471
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.8888888888888888,
+      "D": 2.2222222222222223,
+      "QD": 111.44444444444444,
+      "two_q_gates": 5.555555555555555
+    }
+  },
+  "prefixprotected:repair_compress:COMPRESSION:simplify_interaction_order": {
+    "attempts": 2,
+    "valid_survivors": 2,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 15.0,
+      "QD": 498.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 15.0,
+      "QD": 498.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "prefixprotected:repair_compress:REPAIR:independent_full_interval_flag": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -4.0,
+      "QD": -169.66666666666666,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "prefixprotected:repair_compress:REPAIR:split_prefix_flag": {
+    "attempts": 5,
+    "valid_survivors": 0,
+    "dc_failures": 5,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -9.6,
+      "QD": -302.2,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "prefixprotected:repair_compress:REPAIR:split_suffix_flag": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -1.0,
+      "D": -4.0,
+      "QD": -139.33333333333334,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "prefixprotected:repair_compress:BASIS:basis_row_0_times_1": {
+    "attempts": 6,
+    "valid_survivors": 2,
+    "dc_failures": 4,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -0.5,
+      "QD": -26.166666666666668,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": -1.0,
+      "QD": -16.5,
+      "two_q_gates": 0.0
+    }
+  },
+  "prefixprotected:repair_compress:BASIS:basis_row_0_times_2": {
+    "attempts": 5,
+    "valid_survivors": 1,
+    "dc_failures": 4,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -1.6,
+      "QD": -26.4,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": -3.0,
+      "QD": -48.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "prefixprotected:repair_compress:BASIS:basis_row_0_times_3": {
+    "attempts": 2,
+    "valid_survivors": 0,
+    "dc_failures": 2,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -15.0,
+      "QD": -325.5,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "prefixprotected:repair_compress:BASIS:basis_row_1_times_0": {
+    "attempts": 3,
+    "valid_survivors": 1,
+    "dc_failures": 2,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -6.0,
+      "QD": -105.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": -9.0,
+      "QD": -144.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "prefixprotected:repair_compress:FAMILY:switch_to_verified_cat": {
+    "attempts": 3,
+    "valid_survivors": 3,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 10.666666666666666,
+      "D": -504.0,
+      "QD": -5125.666666666667,
+      "two_q_gates": -104.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 10.666666666666666,
+      "D": -504.0,
+      "QD": -5125.666666666667,
+      "two_q_gates": -104.0
+    }
+  },
+  "prefixprotected:repair_compress:COMPRESSION:remove_cat_verification": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 1.0,
+      "D": 212.0,
+      "QD": 2899.3333333333335,
+      "two_q_gates": 106.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "prefixprotected:repair_compress:COMPRESSION:remove_redundant_syndrome_measurement": {
+    "attempts": 6,
+    "valid_survivors": 6,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 9.166666666666666,
+      "QD": 140.16666666666666,
+      "two_q_gates": 6.166666666666667
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 9.166666666666666,
+      "QD": 140.16666666666666,
+      "two_q_gates": 6.166666666666667
+    }
+  },
+  "prefixprotected:repair_compress:REPAIR:redirect_hook_order": {
+    "attempts": 2,
+    "valid_survivors": 0,
+    "dc_failures": 2,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -4.5,
+      "QD": -133.5,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "prefixprotected:repair_compress:REPAIR:split_temporal_flag_records": {
+    "attempts": 1,
+    "valid_survivors": 0,
+    "dc_failures": 1,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "prefixprotected:repair_compress:REPAIR:reverse_implicated_order": {
+    "attempts": 1,
+    "valid_survivors": 0,
+    "dc_failures": 1,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 9.0,
+      "QD": 315.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "prefixprotected:repair_compress:REPAIR:separate_hook_support": {
+    "attempts": 1,
+    "valid_survivors": 0,
+    "dc_failures": 1,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 9.0,
+      "QD": 315.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "prefixprotected:repair_compress:COMPRESSION:reuse_syndrome_ancilla": {
+    "attempts": 1,
+    "valid_survivors": 1,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 5.0,
+      "D": 0.0,
+      "QD": 745.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 5.0,
+      "D": 0.0,
+      "QD": 745.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "prefixprotected:repair_only:RANDOM:random_local_mutation": {
+    "attempts": 141,
+    "valid_survivors": 141,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:no_basis:REPAIR:independent_full_interval_flag": {
+    "attempts": 22,
+    "valid_survivors": 2,
+    "dc_failures": 20,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -0.6363636363636364,
+      "D": -6.818181818181818,
+      "QD": -305.8181818181818,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": -1.0,
+      "D": -6.0,
+      "QD": -409.0,
+      "two_q_gates": -6.0
+    }
+  },
+  "primary:no_basis:REPAIR:split_prefix_flag": {
+    "attempts": 26,
+    "valid_survivors": 0,
+    "dc_failures": 26,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -0.7692307692307693,
+      "D": -7.961538461538462,
+      "QD": -362.0,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_basis:REPAIR:split_temporal_flag_records": {
+    "attempts": 29,
+    "valid_survivors": 0,
+    "dc_failures": 29,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -0.5517241379310345,
+      "D": -4.448275862068965,
+      "QD": -251.13793103448276,
+      "two_q_gates": -3.9310344827586206
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_basis:REPAIR:redirect_hook_order": {
+    "attempts": 103,
+    "valid_survivors": 0,
+    "dc_failures": 103,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 1.3689320388349515,
+      "QD": 50.18446601941748,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_basis:REPAIR:reverse_implicated_order": {
+    "attempts": 73,
+    "valid_survivors": 0,
+    "dc_failures": 73,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -1.3150684931506849,
+      "QD": -48.945205479452056,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_basis:FAMILY:switch_to_verified_cat": {
+    "attempts": 34,
+    "valid_survivors": 15,
+    "dc_failures": 0,
+    "unknown": 19,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 6.117647058823529,
+      "D": -891.6176470588235,
+      "QD": -17516.676470588234,
+      "two_q_gates": -275.6470588235294
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 4.266666666666667,
+      "D": -375.8,
+      "QD": -3551.0666666666666,
+      "two_q_gates": -115.2
+    }
+  },
+  "primary:no_basis:REPAIR:split_suffix_flag": {
+    "attempts": 31,
+    "valid_survivors": 0,
+    "dc_failures": 31,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -0.8064516129032258,
+      "D": -8.903225806451612,
+      "QD": -379.80645161290323,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_basis:REPAIR:separate_hook_support": {
+    "attempts": 103,
+    "valid_survivors": 0,
+    "dc_failures": 103,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -0.3786407766990291,
+      "QD": -15.174757281553399,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_basis:REPAIR:separate_syndrome_ancillas": {
+    "attempts": 23,
+    "valid_survivors": 0,
+    "dc_failures": 23,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -5.217391304347826,
+      "D": 3.260869565217391,
+      "QD": -1844.4347826086957,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_basis:REPAIR:change_implicated_check_order": {
+    "attempts": 91,
+    "valid_survivors": 0,
+    "dc_failures": 91,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 1.2527472527472527,
+      "QD": 48.97802197802198,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_basis:REPAIR:serialize_cross_check_gadgets": {
+    "attempts": 16,
+    "valid_survivors": 0,
+    "dc_failures": 16,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -176.8125,
+      "QD": -5236.25,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:REPAIR:independent_full_interval_flag": {
+    "attempts": 18,
+    "valid_survivors": 2,
+    "dc_failures": 16,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -0.7222222222222222,
+      "D": -7.333333333333333,
+      "QD": -325.8333333333333,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": -1.0,
+      "D": -6.0,
+      "QD": -409.0,
+      "two_q_gates": -6.0
+    }
+  },
+  "primary:no_family:REPAIR:split_prefix_flag": {
+    "attempts": 25,
+    "valid_survivors": 0,
+    "dc_failures": 25,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -0.8,
+      "D": -8.28,
+      "QD": -376.48,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:REPAIR:split_temporal_flag_records": {
+    "attempts": 21,
+    "valid_survivors": 0,
+    "dc_failures": 21,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -0.5714285714285714,
+      "D": -5.0,
+      "QD": -265.9047619047619,
+      "two_q_gates": -3.4285714285714284
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:REPAIR:redirect_hook_order": {
+    "attempts": 50,
+    "valid_survivors": 0,
+    "dc_failures": 50,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 2.82,
+      "QD": 93.3,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:REPAIR:reverse_implicated_order": {
+    "attempts": 49,
+    "valid_survivors": 0,
+    "dc_failures": 49,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -0.8775510204081632,
+      "QD": -41.3469387755102,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_10_times_4": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 13.0,
+      "QD": 546.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_10_times_5": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 20.0,
+      "QD": 818.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_10_times_6": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 25.0,
+      "QD": 1011.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_10_times_7": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 12.0,
+      "QD": 506.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:REPAIR:separate_hook_support": {
+    "attempts": 74,
+    "valid_survivors": 0,
+    "dc_failures": 74,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.1891891891891892,
+      "QD": 3.027027027027027,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:REPAIR:split_suffix_flag": {
+    "attempts": 32,
+    "valid_survivors": 0,
+    "dc_failures": 32,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -0.8125,
+      "D": -9.375,
+      "QD": -379.78125,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:REPAIR:serialize_cross_check_gadgets": {
+    "attempts": 11,
+    "valid_survivors": 0,
+    "dc_failures": 11,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -236.1818181818182,
+      "QD": -8656.09090909091,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_0_times_1": {
+    "attempts": 49,
+    "valid_survivors": 0,
+    "dc_failures": 49,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 3.795918367346939,
+      "QD": 150.85714285714286,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_0_times_2": {
+    "attempts": 45,
+    "valid_survivors": 0,
+    "dc_failures": 45,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 2.533333333333333,
+      "QD": 92.13333333333334,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_0_times_3": {
+    "attempts": 56,
+    "valid_survivors": 2,
+    "dc_failures": 54,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.8928571428571429,
+      "QD": 9.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 24.0,
+      "QD": 504.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:no_family:BASIS:basis_row_1_times_0": {
+    "attempts": 46,
+    "valid_survivors": 0,
+    "dc_failures": 46,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 1.3043478260869565,
+      "QD": 42.78260869565217,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:REPAIR:change_implicated_check_order": {
+    "attempts": 95,
+    "valid_survivors": 0,
+    "dc_failures": 95,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 4.326315789473684,
+      "QD": 225.1578947368421,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_0_times_5": {
+    "attempts": 4,
+    "valid_survivors": 0,
+    "dc_failures": 4,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -5.25,
+      "QD": -397.5,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:REPAIR:separate_syndrome_ancillas": {
+    "attempts": 14,
+    "valid_survivors": 0,
+    "dc_failures": 14,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -6.071428571428571,
+      "D": 2.7857142857142856,
+      "QD": -1919.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_1_times_2": {
+    "attempts": 31,
+    "valid_survivors": 0,
+    "dc_failures": 31,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.2903225806451613,
+      "QD": 13.064516129032258,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_1_times_3": {
+    "attempts": 8,
+    "valid_survivors": 0,
+    "dc_failures": 8,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 4.125,
+      "QD": 95.625,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:REPAIR:independent_full_interval_flag": {
+    "attempts": 19,
+    "valid_survivors": 2,
+    "dc_failures": 17,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -0.7368421052631579,
+      "D": -7.578947368421052,
+      "QD": -362.4736842105263,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": -1.0,
+      "D": -6.0,
+      "QD": -409.0,
+      "two_q_gates": -6.0
+    }
+  },
+  "primary:v04:REPAIR:split_prefix_flag": {
+    "attempts": 24,
+    "valid_survivors": 0,
+    "dc_failures": 24,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -0.7916666666666666,
+      "D": -8.375,
+      "QD": -383.4583333333333,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:REPAIR:split_temporal_flag_records": {
+    "attempts": 18,
+    "valid_survivors": 0,
+    "dc_failures": 18,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -0.3888888888888889,
+      "D": -4.166666666666667,
+      "QD": -199.88888888888889,
+      "two_q_gates": -3.3333333333333335
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:REPAIR:redirect_hook_order": {
+    "attempts": 43,
+    "valid_survivors": 0,
+    "dc_failures": 43,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.9767441860465116,
+      "QD": 43.883720930232556,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:REPAIR:reverse_implicated_order": {
+    "attempts": 36,
+    "valid_survivors": 0,
+    "dc_failures": 36,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -2.1666666666666665,
+      "QD": -68.58333333333333,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_10_times_4": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 13.0,
+      "QD": 546.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_10_times_5": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 20.0,
+      "QD": 818.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_10_times_6": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 25.0,
+      "QD": 1011.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_10_times_7": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 12.0,
+      "QD": 506.0,
+      "two_q_gates": 6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:FAMILY:switch_to_verified_cat": {
+    "attempts": 20,
+    "valid_survivors": 8,
+    "dc_failures": 0,
+    "unknown": 12,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 6.9,
+      "D": -924.2,
+      "QD": -18274.15,
+      "two_q_gates": -282.85
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 5.0,
+      "D": -351.375,
+      "QD": -2979.875,
+      "two_q_gates": -111.75
+    }
+  },
+  "primary:v04:REPAIR:split_suffix_flag": {
+    "attempts": 31,
+    "valid_survivors": 0,
+    "dc_failures": 31,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -0.8064516129032258,
+      "D": -9.67741935483871,
+      "QD": -394.9032258064516,
+      "two_q_gates": -6.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:REPAIR:separate_hook_support": {
+    "attempts": 68,
+    "valid_survivors": 2,
+    "dc_failures": 66,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.5294117647058824,
+      "QD": 13.323529411764707,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:v04:BASIS:basis_row_0_times_1": {
+    "attempts": 41,
+    "valid_survivors": 0,
+    "dc_failures": 41,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 3.951219512195122,
+      "QD": 164.41463414634146,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_0_times_2": {
+    "attempts": 29,
+    "valid_survivors": 0,
+    "dc_failures": 29,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 3.413793103448276,
+      "QD": 127.34482758620689,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_0_times_3": {
+    "attempts": 38,
+    "valid_survivors": 0,
+    "dc_failures": 38,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 1.5526315789473684,
+      "QD": 2.9210526315789473,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_1_times_0": {
+    "attempts": 35,
+    "valid_survivors": 0,
+    "dc_failures": 35,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 1.0285714285714285,
+      "QD": 27.428571428571427,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:REPAIR:serialize_cross_check_gadgets": {
+    "attempts": 9,
+    "valid_survivors": 0,
+    "dc_failures": 9,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -222.0,
+      "QD": -7909.666666666667,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:REPAIR:separate_syndrome_ancillas": {
+    "attempts": 17,
+    "valid_survivors": 0,
+    "dc_failures": 17,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": -8.058823529411764,
+      "D": 3.0,
+      "QD": -2965.470588235294,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:REPAIR:change_implicated_check_order": {
+    "attempts": 66,
+    "valid_survivors": 0,
+    "dc_failures": 66,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 4.545454545454546,
+      "QD": 232.36363636363637,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_0_times_5": {
+    "attempts": 2,
+    "valid_survivors": 0,
+    "dc_failures": 2,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -24.0,
+      "QD": -948.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_0_times_7": {
+    "attempts": 1,
+    "valid_survivors": 0,
+    "dc_failures": 1,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -24.0,
+      "QD": -696.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_1_times_2": {
+    "attempts": 19,
+    "valid_survivors": 0,
+    "dc_failures": 19,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -0.3157894736842105,
+      "QD": -9.473684210526315,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_1_times_3": {
+    "attempts": 8,
+    "valid_survivors": 0,
+    "dc_failures": 8,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 4.125,
+      "QD": 78.75,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_0_times_8": {
+    "attempts": 1,
+    "valid_survivors": 0,
+    "dc_failures": 1,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_0_times_11": {
+    "attempts": 1,
+    "valid_survivors": 0,
+    "dc_failures": 1,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_0_times_13": {
+    "attempts": 1,
+    "valid_survivors": 0,
+    "dc_failures": 1,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -24.0,
+      "QD": -696.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_0_times_4": {
+    "attempts": 7,
+    "valid_survivors": 0,
+    "dc_failures": 7,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -37.714285714285715,
+      "QD": -1059.857142857143,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_0_times_4": {
+    "attempts": 9,
+    "valid_survivors": 0,
+    "dc_failures": 9,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -37.666666666666664,
+      "QD": -1034.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_2_times_1": {
+    "attempts": 10,
+    "valid_survivors": 0,
+    "dc_failures": 10,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 6.3,
+      "QD": 195.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_1_times_5": {
+    "attempts": 2,
+    "valid_survivors": 0,
+    "dc_failures": 2,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -36.0,
+      "QD": -696.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_2_times_3": {
+    "attempts": 1,
+    "valid_survivors": 0,
+    "dc_failures": 1,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_2_times_1": {
+    "attempts": 16,
+    "valid_survivors": 0,
+    "dc_failures": 16,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 9.375,
+      "QD": 290.625,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_1_times_5": {
+    "attempts": 2,
+    "valid_survivors": 0,
+    "dc_failures": 2,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -36.0,
+      "QD": -876.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_2_times_3": {
+    "attempts": 1,
+    "valid_survivors": 0,
+    "dc_failures": 1,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:COMPRESSION:increase_safe_parallelism": {
+    "attempts": 3,
+    "valid_survivors": 3,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 71.0,
+      "QD": 1667.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 71.0,
+      "QD": 1667.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:v04:COMPRESSION:simplify_interaction_order": {
+    "attempts": 9,
+    "valid_survivors": 5,
+    "dc_failures": 4,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 18.555555555555557,
+      "QD": 536.5555555555555,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 13.6,
+      "QD": 371.2,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:v04:COMPRESSION:merge_flag_intervals": {
+    "attempts": 13,
+    "valid_survivors": 13,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.8461538461538461,
+      "D": 5.153846153846154,
+      "QD": 246.76923076923077,
+      "two_q_gates": 5.538461538461538
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.8461538461538461,
+      "D": 5.153846153846154,
+      "QD": 246.76923076923077,
+      "two_q_gates": 5.538461538461538
+    }
+  },
+  "primary:v04:COMPRESSION:remove_flag_ancilla": {
+    "attempts": 37,
+    "valid_survivors": 11,
+    "dc_failures": 26,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.4864864864864865,
+      "D": 5.945945945945946,
+      "QD": 199.8108108108108,
+      "two_q_gates": 5.027027027027027
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.45454545454545453,
+      "D": 5.636363636363637,
+      "QD": 194.27272727272728,
+      "two_q_gates": 5.818181818181818
+    }
+  },
+  "primary:no_basis:COMPRESSION:increase_safe_parallelism": {
+    "attempts": 1,
+    "valid_survivors": 1,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 39.0,
+      "QD": 1443.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 39.0,
+      "QD": 1443.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:no_basis:COMPRESSION:merge_flag_intervals": {
+    "attempts": 10,
+    "valid_survivors": 10,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.8,
+      "D": 4.3,
+      "QD": 217.5,
+      "two_q_gates": 5.4
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.8,
+      "D": 4.3,
+      "QD": 217.5,
+      "two_q_gates": 5.4
+    }
+  },
+  "primary:no_basis:COMPRESSION:remove_flag_ancilla": {
+    "attempts": 33,
+    "valid_survivors": 10,
+    "dc_failures": 23,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.48484848484848486,
+      "D": 5.666666666666667,
+      "QD": 195.4848484848485,
+      "two_q_gates": 4.909090909090909
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.4,
+      "D": 5.0,
+      "QD": 167.1,
+      "two_q_gates": 5.8
+    }
+  },
+  "primary:no_basis:COMPRESSION:remove_redundant_syndrome_measurement": {
+    "attempts": 78,
+    "valid_survivors": 78,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 29.871794871794872,
+      "QD": 371.6025641025641,
+      "two_q_gates": 12.26923076923077
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 29.871794871794872,
+      "QD": 371.6025641025641,
+      "two_q_gates": 12.26923076923077
+    }
+  },
+  "primary:no_basis:COMPRESSION:reuse_flag_ancilla": {
+    "attempts": 1,
+    "valid_survivors": 1,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 2.0,
+      "D": 0.0,
+      "QD": 218.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 2.0,
+      "D": 0.0,
+      "QD": 218.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:no_basis:COMPRESSION:simplify_interaction_order": {
+    "attempts": 1,
+    "valid_survivors": 1,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 2.0,
+      "QD": 38.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 2.0,
+      "QD": 38.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:no_basis:REPAIR:restore_syndrome_measurement": {
+    "attempts": 4,
+    "valid_survivors": 0,
+    "dc_failures": 4,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -18.0,
+      "QD": -222.0,
+      "two_q_gates": -6.75
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_basis:COMPRESSION:reduce_reset_measurement_cycles": {
+    "attempts": 3,
+    "valid_survivors": 1,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 2,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 1.0,
+      "QD": 14.333333333333334,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 1.0,
+      "QD": 19.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:no_family:COMPRESSION:increase_safe_parallelism": {
+    "attempts": 3,
+    "valid_survivors": 3,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 122.0,
+      "QD": 2668.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 122.0,
+      "QD": 2668.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:no_family:COMPRESSION:merge_flag_intervals": {
+    "attempts": 12,
+    "valid_survivors": 12,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.8333333333333334,
+      "D": 4.166666666666667,
+      "QD": 203.5,
+      "two_q_gates": 5.5
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.8333333333333334,
+      "D": 4.166666666666667,
+      "QD": 203.5,
+      "two_q_gates": 5.5
+    }
+  },
+  "primary:no_family:COMPRESSION:remove_flag_ancilla": {
+    "attempts": 39,
+    "valid_survivors": 10,
+    "dc_failures": 29,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.5384615384615384,
+      "D": 5.538461538461538,
+      "QD": 188.82051282051282,
+      "two_q_gates": 4.9743589743589745
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.4,
+      "D": 5.0,
+      "QD": 167.1,
+      "two_q_gates": 5.8
+    }
+  },
+  "primary:no_family:COMPRESSION:remove_redundant_syndrome_measurement": {
+    "attempts": 13,
+    "valid_survivors": 13,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 8.76923076923077,
+      "QD": 208.07692307692307,
+      "two_q_gates": 6.461538461538462
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 8.76923076923077,
+      "QD": 208.07692307692307,
+      "two_q_gates": 6.461538461538462
+    }
+  },
+  "primary:no_family:BASIS:basis_row_1_times_4": {
+    "attempts": 7,
+    "valid_survivors": 0,
+    "dc_failures": 7,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -20.714285714285715,
+      "QD": -331.2857142857143,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:COMPRESSION:reuse_flag_ancilla": {
+    "attempts": 1,
+    "valid_survivors": 1,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 2.0,
+      "D": 0.0,
+      "QD": 218.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 2.0,
+      "D": 0.0,
+      "QD": 218.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:no_family:COMPRESSION:simplify_interaction_order": {
+    "attempts": 3,
+    "valid_survivors": 3,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 9.666666666666666,
+      "QD": 189.66666666666666,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 9.666666666666666,
+      "QD": 189.66666666666666,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:no_family:COMPRESSION:reduce_reset_measurement_cycles": {
+    "attempts": 1,
+    "valid_survivors": 1,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 1.0,
+      "QD": 19.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 1.0,
+      "QD": 19.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:v04:COMPRESSION:remove_redundant_syndrome_measurement": {
+    "attempts": 64,
+    "valid_survivors": 64,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 28.609375,
+      "QD": 362.421875,
+      "two_q_gates": 11.78125
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 28.609375,
+      "QD": 362.421875,
+      "two_q_gates": 11.78125
+    }
+  },
+  "primary:v04:BASIS:basis_row_1_times_4": {
+    "attempts": 6,
+    "valid_survivors": 0,
+    "dc_failures": 6,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -18.666666666666668,
+      "QD": -351.5,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:COMPRESSION:reuse_flag_ancilla": {
+    "attempts": 1,
+    "valid_survivors": 1,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 2.0,
+      "D": 0.0,
+      "QD": 218.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 2.0,
+      "D": 0.0,
+      "QD": 218.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:v04:COMPRESSION:reduce_reset_measurement_cycles": {
+    "attempts": 1,
+    "valid_survivors": 1,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 1.0,
+      "QD": 19.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 1.0,
+      "QD": 19.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:no_basis:COMPRESSION:remove_cat_verification": {
+    "attempts": 74,
+    "valid_survivors": 0,
+    "dc_failures": 74,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 1.0,
+      "D": 147.8918918918919,
+      "QD": 2028.162162162162,
+      "two_q_gates": 73.94594594594595
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:COMPRESSION:remove_cat_verification": {
+    "attempts": 53,
+    "valid_survivors": 0,
+    "dc_failures": 53,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 1.0,
+      "D": 166.18867924528303,
+      "QD": 2279.735849056604,
+      "two_q_gates": 83.09433962264151
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_2_times_4": {
+    "attempts": 2,
+    "valid_survivors": 0,
+    "dc_failures": 2,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -24.0,
+      "QD": -396.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_2_times_0": {
+    "attempts": 2,
+    "valid_survivors": 0,
+    "dc_failures": 2,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 3.0,
+      "QD": 48.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_2_times_5": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -23.0,
+      "QD": -377.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_3_times_0": {
+    "attempts": 1,
+    "valid_survivors": 0,
+    "dc_failures": 1,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:no_family:BASIS:basis_row_3_times_4": {
+    "attempts": 1,
+    "valid_survivors": 1,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    }
+  },
+  "primary:v04:BASIS:basis_row_2_times_4": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -24.0,
+      "QD": -416.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_2_times_0": {
+    "attempts": 2,
+    "valid_survivors": 0,
+    "dc_failures": 2,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 3.0,
+      "QD": 48.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_2_times_5": {
+    "attempts": 3,
+    "valid_survivors": 0,
+    "dc_failures": 3,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": -23.0,
+      "QD": -377.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_3_times_0": {
+    "attempts": 1,
+    "valid_survivors": 0,
+    "dc_failures": 1,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": null,
+      "D": null,
+      "QD": null,
+      "two_q_gates": null
+    }
+  },
+  "primary:v04:BASIS:basis_row_3_times_4": {
+    "attempts": 1,
+    "valid_survivors": 1,
+    "dc_failures": 0,
+    "unknown": 0,
+    "invalid_structure": 0,
+    "mean_saved_all_attempts": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    },
+    "mean_saved_valid_survivors": {
+      "Q": 0.0,
+      "D": 0.0,
+      "QD": 0.0,
+      "two_q_gates": 0.0
+    }
+  }
+}

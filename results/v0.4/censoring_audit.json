@@ -1,0 +1,1207 @@
+{
+  "selection": "up to four independent resource minima among UNKNOWN primary records; all UNKNOWN supplemental prefix starts",
+  "records": [
+    {
+      "run": "primary--affine15_k1-X--no_basis--10.json.gz",
+      "architecture_id": "237c1791252494e93cbb",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1860,
+        "fault_variants": 13890,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 279,
+        "two_q_gates": 762,
+        "measurements": 417,
+        "resets": 402,
+        "preparations": 0,
+        "operation_count": 1860,
+        "D": 1832,
+        "QD": 43968,
+        "depth_lower_bound": 1832,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 13890,
+        "joined_combinations_checked": 1427160,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--affine15_k1-X--no_basis--11.json.gz",
+      "architecture_id": "22a78df7d703d900d468",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1860,
+        "fault_variants": 13890,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 279,
+        "two_q_gates": 762,
+        "measurements": 417,
+        "resets": 402,
+        "preparations": 0,
+        "operation_count": 1860,
+        "D": 1832,
+        "QD": 43968,
+        "depth_lower_bound": 1832,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 13890,
+        "joined_combinations_checked": 1433890,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--affine15_k1-X--no_basis--12.json.gz",
+      "architecture_id": "5204e1b45e9a40a4c4a1",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1860,
+        "fault_variants": 13890,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 279,
+        "two_q_gates": 762,
+        "measurements": 417,
+        "resets": 402,
+        "preparations": 0,
+        "operation_count": 1860,
+        "D": 1832,
+        "QD": 43968,
+        "depth_lower_bound": 1832,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 13890,
+        "joined_combinations_checked": 1398958,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--affine15_k1-X--v04--10.json.gz",
+      "architecture_id": "237c1791252494e93cbb",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1860,
+        "fault_variants": 13890,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 279,
+        "two_q_gates": 762,
+        "measurements": 417,
+        "resets": 402,
+        "preparations": 0,
+        "operation_count": 1860,
+        "D": 1832,
+        "QD": 43968,
+        "depth_lower_bound": 1832,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 13890,
+        "joined_combinations_checked": 1427160,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--affine15_k1-X--v04--11.json.gz",
+      "architecture_id": "284ac3d57c5c3894de26",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1860,
+        "fault_variants": 13890,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 279,
+        "two_q_gates": 762,
+        "measurements": 417,
+        "resets": 402,
+        "preparations": 0,
+        "operation_count": 1860,
+        "D": 1832,
+        "QD": 43968,
+        "depth_lower_bound": 1832,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 13890,
+        "joined_combinations_checked": 1433934,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--affine15_k1-X--v04--12.json.gz",
+      "architecture_id": "5204e1b45e9a40a4c4a1",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1860,
+        "fault_variants": 13890,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 279,
+        "two_q_gates": 762,
+        "measurements": 417,
+        "resets": 402,
+        "preparations": 0,
+        "operation_count": 1860,
+        "D": 1832,
+        "QD": 43968,
+        "depth_lower_bound": 1832,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 13890,
+        "joined_combinations_checked": 1398958,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--simplex15_k7-X--no_basis--10.json.gz",
+      "architecture_id": "2bad3d9e39ab8b605602",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1662,
+        "fault_variants": 12588,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 231,
+        "two_q_gates": 696,
+        "measurements": 375,
+        "resets": 360,
+        "preparations": 0,
+        "operation_count": 1662,
+        "D": 1634,
+        "QD": 39216,
+        "depth_lower_bound": 1634,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12588,
+        "joined_combinations_checked": 1098379,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--simplex15_k7-X--no_basis--11.json.gz",
+      "architecture_id": "1d972b60f785ad189906",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1662,
+        "fault_variants": 12588,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 231,
+        "two_q_gates": 696,
+        "measurements": 375,
+        "resets": 360,
+        "preparations": 0,
+        "operation_count": 1662,
+        "D": 1634,
+        "QD": 39216,
+        "depth_lower_bound": 1634,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12588,
+        "joined_combinations_checked": 1068833,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--simplex15_k7-X--no_basis--12.json.gz",
+      "architecture_id": "e350676be59d60100576",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1662,
+        "fault_variants": 12588,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 231,
+        "two_q_gates": 696,
+        "measurements": 375,
+        "resets": 360,
+        "preparations": 0,
+        "operation_count": 1662,
+        "D": 1634,
+        "QD": 39216,
+        "depth_lower_bound": 1634,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12588,
+        "joined_combinations_checked": 1130363,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--simplex15_k7-X--v04--10.json.gz",
+      "architecture_id": "1afa24b92da8bc602096",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1662,
+        "fault_variants": 12588,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 231,
+        "two_q_gates": 696,
+        "measurements": 375,
+        "resets": 360,
+        "preparations": 0,
+        "operation_count": 1662,
+        "D": 1634,
+        "QD": 39216,
+        "depth_lower_bound": 1634,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12588,
+        "joined_combinations_checked": 1098795,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--simplex15_k7-X--v04--11.json.gz",
+      "architecture_id": "340e4bf6dbbf253927bc",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1662,
+        "fault_variants": 12588,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 231,
+        "two_q_gates": 696,
+        "measurements": 375,
+        "resets": 360,
+        "preparations": 0,
+        "operation_count": 1662,
+        "D": 1634,
+        "QD": 39216,
+        "depth_lower_bound": 1634,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12588,
+        "joined_combinations_checked": 1081025,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--simplex15_k7-X--v04--12.json.gz",
+      "architecture_id": "4888f79d9f1d828a9302",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1662,
+        "fault_variants": 12588,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 231,
+        "two_q_gates": 696,
+        "measurements": 375,
+        "resets": 360,
+        "preparations": 0,
+        "operation_count": 1662,
+        "D": 1634,
+        "QD": 39216,
+        "depth_lower_bound": 1634,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12588,
+        "joined_combinations_checked": 1130783,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--simplex15_k7-Z--no_basis--10.json.gz",
+      "architecture_id": "d739fef1e48af2be2b87",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1647,
+        "fault_variants": 12543,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 216,
+        "two_q_gates": 696,
+        "measurements": 375,
+        "resets": 360,
+        "preparations": 0,
+        "operation_count": 1647,
+        "D": 1633,
+        "QD": 39192,
+        "depth_lower_bound": 1633,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12543,
+        "joined_combinations_checked": 1062205,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--simplex15_k7-Z--no_basis--11.json.gz",
+      "architecture_id": "27ae5a7ff20e2a229324",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1647,
+        "fault_variants": 12543,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 216,
+        "two_q_gates": 696,
+        "measurements": 375,
+        "resets": 360,
+        "preparations": 0,
+        "operation_count": 1647,
+        "D": 1633,
+        "QD": 39192,
+        "depth_lower_bound": 1633,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12543,
+        "joined_combinations_checked": 1140145,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--simplex15_k7-Z--no_basis--12.json.gz",
+      "architecture_id": "3c042536cbdbf244b34d",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1647,
+        "fault_variants": 12543,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 216,
+        "two_q_gates": 696,
+        "measurements": 375,
+        "resets": 360,
+        "preparations": 0,
+        "operation_count": 1647,
+        "D": 1633,
+        "QD": 39192,
+        "depth_lower_bound": 1633,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12543,
+        "joined_combinations_checked": 1116289,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--10.json.gz",
+      "architecture_id": "d739fef1e48af2be2b87",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1647,
+        "fault_variants": 12543,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 216,
+        "two_q_gates": 696,
+        "measurements": 375,
+        "resets": 360,
+        "preparations": 0,
+        "operation_count": 1647,
+        "D": 1633,
+        "QD": 39192,
+        "depth_lower_bound": 1633,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12543,
+        "joined_combinations_checked": 1062205,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--11.json.gz",
+      "architecture_id": "27ae5a7ff20e2a229324",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1647,
+        "fault_variants": 12543,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 216,
+        "two_q_gates": 696,
+        "measurements": 375,
+        "resets": 360,
+        "preparations": 0,
+        "operation_count": 1647,
+        "D": 1633,
+        "QD": 39192,
+        "depth_lower_bound": 1633,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12543,
+        "joined_combinations_checked": 1140145,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--12.json.gz",
+      "architecture_id": "3c042536cbdbf244b34d",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1647,
+        "fault_variants": 12543,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 1,
+        "Q": 24,
+        "one_q_gates": 216,
+        "two_q_gates": 696,
+        "measurements": 375,
+        "resets": 360,
+        "preparations": 0,
+        "operation_count": 1647,
+        "D": 1633,
+        "QD": 39192,
+        "depth_lower_bound": 1633,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12543,
+        "joined_combinations_checked": 1116289,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--steane14_sum-Z--no_basis--10.json.gz",
+      "architecture_id": "d21176a609ad66cafb96",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1166,
+        "fault_variants": 8582,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 14,
+        "syndrome_ancillas": 4,
+        "flag_ancillas": 1,
+        "Q": 19,
+        "one_q_gates": 180,
+        "two_q_gates": 468,
+        "measurements": 266,
+        "resets": 252,
+        "preparations": 0,
+        "operation_count": 1166,
+        "D": 1153,
+        "QD": 21907,
+        "depth_lower_bound": 1153,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 8582,
+        "joined_combinations_checked": 592956,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--steane14_sum-Z--no_basis--11.json.gz",
+      "architecture_id": "4bc3b56eb8c5f132cde6",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1166,
+        "fault_variants": 8582,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 14,
+        "syndrome_ancillas": 4,
+        "flag_ancillas": 1,
+        "Q": 19,
+        "one_q_gates": 180,
+        "two_q_gates": 468,
+        "measurements": 266,
+        "resets": 252,
+        "preparations": 0,
+        "operation_count": 1166,
+        "D": 1153,
+        "QD": 21907,
+        "depth_lower_bound": 1153,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 8582,
+        "joined_combinations_checked": 575106,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--steane14_sum-Z--no_basis--12.json.gz",
+      "architecture_id": "283ba129a77308d6c3c7",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1166,
+        "fault_variants": 8582,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 14,
+        "syndrome_ancillas": 4,
+        "flag_ancillas": 1,
+        "Q": 19,
+        "one_q_gates": 180,
+        "two_q_gates": 468,
+        "measurements": 266,
+        "resets": 252,
+        "preparations": 0,
+        "operation_count": 1166,
+        "D": 1153,
+        "QD": 21907,
+        "depth_lower_bound": 1153,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 8582,
+        "joined_combinations_checked": 581702,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--10.json.gz",
+      "architecture_id": "517808b1dddb30ba128e",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1102,
+        "fault_variants": 8106,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 14,
+        "syndrome_ancillas": 4,
+        "flag_ancillas": 1,
+        "Q": 19,
+        "one_q_gates": 170,
+        "two_q_gates": 442,
+        "measurements": 252,
+        "resets": 238,
+        "preparations": 0,
+        "operation_count": 1102,
+        "D": 1089,
+        "QD": 20691,
+        "depth_lower_bound": 1089,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 8106,
+        "joined_combinations_checked": 535835,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--11.json.gz",
+      "architecture_id": "b546c2b43b1eb0afa24d",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1166,
+        "fault_variants": 8582,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 14,
+        "syndrome_ancillas": 4,
+        "flag_ancillas": 1,
+        "Q": 19,
+        "one_q_gates": 180,
+        "two_q_gates": 468,
+        "measurements": 266,
+        "resets": 252,
+        "preparations": 0,
+        "operation_count": 1166,
+        "D": 1153,
+        "QD": 21907,
+        "depth_lower_bound": 1153,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 8582,
+        "joined_combinations_checked": 619234,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--12.json.gz",
+      "architecture_id": "cc4d4f889a2ebc0d2af2",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1070,
+        "fault_variants": 7868,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 14,
+        "syndrome_ancillas": 4,
+        "flag_ancillas": 1,
+        "Q": 19,
+        "one_q_gates": 165,
+        "two_q_gates": 429,
+        "measurements": 245,
+        "resets": 231,
+        "preparations": 0,
+        "operation_count": 1070,
+        "D": 1057,
+        "QD": 20083,
+        "depth_lower_bound": 1057,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 7868,
+        "joined_combinations_checked": 485410,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "prefix_initial:affine15_k1-X:10",
+      "architecture_id": "821ddc9a29a0bafe2f7d",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1734,
+        "fault_variants": 15124,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 14,
+        "flag_ancillas": 74,
+        "Q": 103,
+        "one_q_gates": 127,
+        "two_q_gates": 888,
+        "measurements": 367,
+        "resets": 352,
+        "preparations": 0,
+        "operation_count": 1734,
+        "D": 1706,
+        "QD": 175718,
+        "depth_lower_bound": 1706,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 15124,
+        "joined_combinations_checked": 929305,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "prefix_initial:affine15_k1-X:11",
+      "architecture_id": "16eeb3ca36c8e6a5c4eb",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1734,
+        "fault_variants": 15124,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 14,
+        "flag_ancillas": 74,
+        "Q": 103,
+        "one_q_gates": 127,
+        "two_q_gates": 888,
+        "measurements": 367,
+        "resets": 352,
+        "preparations": 0,
+        "operation_count": 1734,
+        "D": 1706,
+        "QD": 175718,
+        "depth_lower_bound": 1706,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 15124,
+        "joined_combinations_checked": 929305,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "prefix_initial:affine15_k1-X:12",
+      "architecture_id": "96223a2f1b193e208acf",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1734,
+        "fault_variants": 15124,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 14,
+        "flag_ancillas": 74,
+        "Q": 103,
+        "one_q_gates": 127,
+        "two_q_gates": 888,
+        "measurements": 367,
+        "resets": 352,
+        "preparations": 0,
+        "operation_count": 1734,
+        "D": 1706,
+        "QD": 175718,
+        "depth_lower_bound": 1706,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 15124,
+        "joined_combinations_checked": 929316,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "prefix_initial:simplex15_k7-X:10",
+      "architecture_id": "c5427406b4e5757b980c",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1438,
+        "fault_variants": 12924,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 64,
+        "Q": 87,
+        "one_q_gates": 79,
+        "two_q_gates": 768,
+        "measurements": 303,
+        "resets": 288,
+        "preparations": 0,
+        "operation_count": 1438,
+        "D": 1410,
+        "QD": 122670,
+        "depth_lower_bound": 1410,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12924,
+        "joined_combinations_checked": 589203,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "prefix_initial:simplex15_k7-X:11",
+      "architecture_id": "21ea032808e9f69401fd",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1438,
+        "fault_variants": 12924,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 64,
+        "Q": 87,
+        "one_q_gates": 79,
+        "two_q_gates": 768,
+        "measurements": 303,
+        "resets": 288,
+        "preparations": 0,
+        "operation_count": 1438,
+        "D": 1410,
+        "QD": 122670,
+        "depth_lower_bound": 1410,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12924,
+        "joined_combinations_checked": 589203,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    },
+    {
+      "run": "prefix_initial:simplex15_k7-X:12",
+      "architecture_id": "f4526190eae0a88ad6ea",
+      "native_bounds": {
+        "status": "LOWER_BOUND",
+        "lower_bound": 2,
+        "upper_bound": null,
+        "excluded_through": 1,
+        "witness": null,
+        "reason": "work_limit",
+        "combinations_examined": 200000,
+        "fault_locations": 1438,
+        "fault_variants": 12924,
+        "requested_weight": 2
+      },
+      "resources": {
+        "data_qubits": 15,
+        "syndrome_ancillas": 8,
+        "flag_ancillas": 64,
+        "Q": 87,
+        "one_q_gates": 79,
+        "two_q_gates": 768,
+        "measurements": 303,
+        "resets": 288,
+        "preparations": 0,
+        "operation_count": 1438,
+        "D": 1410,
+        "QD": 122670,
+        "depth_lower_bound": 1410,
+        "schedule_efficiency": 1.0
+      },
+      "independent_target_exclusion": {
+        "verified": true,
+        "excluded_through": 2,
+        "singleton_replay_count": 12924,
+        "joined_combinations_checked": 589225,
+        "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+      },
+      "interpretation": "native search remained UNKNOWN; this diagnostic does not rewrite frozen validity endpoints"
+    }
+  ],
+  "unique_circuits": 25,
+  "certified_target_afterwards": 30
+}

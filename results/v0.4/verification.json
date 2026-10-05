@@ -1,0 +1,17 @@
+{
+  "verified": true,
+  "run_count": 144,
+  "groups": {
+    "bare": 18,
+    "overprotected": 12,
+    "prefixprotected": 6,
+    "primary": 108
+  },
+  "evaluation_slots": 6912,
+  "matched_initial_population_blocks": 36,
+  "unique_architectures_rebuilt": 4414,
+  "persisted_witnesses_independently_replayed": 3869,
+  "independent_frontier_certificates": 83,
+  "historical_files_unchanged": 1318,
+  "runtime_seconds": 116.22681900009047
+}
