@@ -1,0 +1,15 @@
+{
+  "status": "NOT_READY_FOR_HELD_OUT",
+  "gates": {
+    "tests": true,
+    "native_promotion": true,
+    "compression": "Explicit bounded residuals",
+    "material_improvement": true,
+    "unrelated_dc5": true,
+    "unrelated_dc7": true,
+    "independent_higher_verification": true,
+    "held_out_23_scaling": false,
+    "held_out_uncontaminated": true
+  },
+  "reason": "Selected-X projection certificates succeed, but generic 23-qubit distance-7 runtime/memory feasibility is unestablished"
+}

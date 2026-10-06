@@ -1,0 +1,22 @@
+{
+  "v04_physical_pair_audit": {
+    "seconds": 0.7004015001002699,
+    "audit": {
+      "verified": true,
+      "excluded_through": 2,
+      "singleton_replay_count": 13890,
+      "joined_combinations_checked": 1427160,
+      "method": "bit_lane_boolean_replay_singletons_independent_detector_join"
+    }
+  },
+  "v05_forward_group_audit": {
+    "seconds": 0.6124685001559556,
+    "audit": {
+      "verified": true,
+      "excluded_through": 2,
+      "singleton_replay_count": 13890,
+      "logical_group_pairs": 0,
+      "method": "independent_forward_physical_logical_group_pairs"
+    }
+  }
+}

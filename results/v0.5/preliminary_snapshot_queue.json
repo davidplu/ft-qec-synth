@@ -1,0 +1,20 @@
+{
+  "baseline_commit": "67a7f2948d5df1d1096489a123adff2501789be6",
+  "hashes": {
+    "src/ftqec/certification_v5/descent.py": "9dfd3b82e07d02b8722194ecb8cc2a2ba2511ccc69d338d3209c3eeec0dce3d0",
+    "src/ftqec/certification_v5/exact.py": "d32809a45abbc95010c84b8efc0e20cfb0b1430b3128646736deab167a08a594",
+    "src/ftqec/certification_v5/independent.py": "b476b0dac3a34fb31cccbebaaef1808041407568b3a8396d8b05ed24c3c678f6",
+    "src/ftqec/certification_v5/staged.py": "f2efe63a9c544313780d073c6ca2a26c0b588e63de967daf652b9aeda8971efd",
+    "src/ftqec/certification_v5/__init__.py": "a0216a28032fb8fe78756360720a17de5555c735d2e19de2d6b519fa3a74ab66",
+    "experiments/v05_replay.py": "46410cb0c9f70fb6d0f6b14df33e2255052a18e31b65415c15d2d4891574c4ce",
+    "docs/V0_5_PROTOCOL.md": "8a0cd900a9be66daa6b477920a9ffa2b3ff50055d7b5d5cabdbeb6a3e1ccbc8d"
+  },
+  "search_budget": 48,
+  "certification_work": 20000000,
+  "descent_evaluations": 2000,
+  "seeds": [
+    10,
+    11,
+    12
+  ]
+}

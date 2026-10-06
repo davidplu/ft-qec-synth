@@ -1,0 +1,610 @@
+{
+  "verified": true,
+  "historical_files": 1704,
+  "finalists": [
+    {
+      "run": "primary--affine15_k1-X--v04--10.json.gz",
+      "phase": "raw",
+      "id": "0744df213f6cbaa0ccd8",
+      "verified": true
+    },
+    {
+      "run": "primary--affine15_k1-X--v04--10.json.gz",
+      "phase": "completion",
+      "id": "19b3c492cfff040ef6c2",
+      "verified": true
+    },
+    {
+      "run": "primary--affine15_k1-X--v04--10.json.gz",
+      "phase": "canonical_completion",
+      "id": "15232248485294b567a5",
+      "verified": true
+    },
+    {
+      "run": "primary--affine15_k1-X--v04--11.json.gz",
+      "phase": "raw",
+      "id": "143e8099ec857e6214d8",
+      "verified": true
+    },
+    {
+      "run": "primary--affine15_k1-X--v04--11.json.gz",
+      "phase": "completion",
+      "id": "0735612a01c9a578200d",
+      "verified": true
+    },
+    {
+      "run": "primary--affine15_k1-X--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "3559156d5eda0839577a",
+      "verified": true
+    },
+    {
+      "run": "primary--affine15_k1-X--v04--12.json.gz",
+      "phase": "raw",
+      "id": "04c11c940a8e73a1da80",
+      "verified": true
+    },
+    {
+      "run": "primary--affine15_k1-X--v04--12.json.gz",
+      "phase": "completion",
+      "id": "01be534283d988200ca3",
+      "verified": true
+    },
+    {
+      "run": "primary--affine15_k1-X--v04--12.json.gz",
+      "phase": "canonical_completion",
+      "id": "95cd0df773a3724b287b",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-X--v04--10.json.gz",
+      "phase": "raw",
+      "id": "07414e1313c50d3587b8",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-X--v04--10.json.gz",
+      "phase": "completion",
+      "id": "802204415b750bbca219",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-X--v04--10.json.gz",
+      "phase": "canonical_completion",
+      "id": "5f6207d1e59ae9ade5cd",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-X--v04--11.json.gz",
+      "phase": "raw",
+      "id": "02ee5e77f1da29a9c9de",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-X--v04--11.json.gz",
+      "phase": "completion",
+      "id": "19e8d08dddc8be16936e",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-X--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "e94872119adeeb944470",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-X--v04--12.json.gz",
+      "phase": "raw",
+      "id": "0ab58ba439c4daf61ad8",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-X--v04--12.json.gz",
+      "phase": "completion",
+      "id": "0db0f7b81916582f5a26",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-X--v04--12.json.gz",
+      "phase": "canonical_completion",
+      "id": "560668751edcdd5f53ec",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--10.json.gz",
+      "phase": "raw",
+      "id": "006bd9c192d049e540b0",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--10.json.gz",
+      "phase": "completion",
+      "id": "5d24c0ab827ca6c7895f",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--10.json.gz",
+      "phase": "canonical_completion",
+      "id": "5469c8abd75259a22152",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--11.json.gz",
+      "phase": "raw",
+      "id": "030fea18bab83c1ae0dc",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--11.json.gz",
+      "phase": "raw",
+      "id": "d6746bd0a009ff15bfbb",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--11.json.gz",
+      "phase": "completion",
+      "id": "219c0514c3ae4dc65b62",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--11.json.gz",
+      "phase": "completion",
+      "id": "d6746bd0a009ff15bfbb",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "1a4b4d0b1bbcfacd32fe",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "2f06382d09bb7668453e",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "38582aa8808ba2493ee3",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "5de30a53d5a2f662c704",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "655aa5128cc80d91197c",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "d97184664817c8a98a3c",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--12.json.gz",
+      "phase": "raw",
+      "id": "0512241c6ecc1bd2be88",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--12.json.gz",
+      "phase": "completion",
+      "id": "5047df3341613a989bb3",
+      "verified": true
+    },
+    {
+      "run": "primary--simplex15_k7-Z--v04--12.json.gz",
+      "phase": "canonical_completion",
+      "id": "61fb615c25d5854ed355",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--10.json.gz",
+      "phase": "raw",
+      "id": "19e7757d90c9289bb480",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--10.json.gz",
+      "phase": "raw",
+      "id": "4b58daabff403efdb6e0",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--10.json.gz",
+      "phase": "completion",
+      "id": "4b58daabff403efdb6e0",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--10.json.gz",
+      "phase": "completion",
+      "id": "a454f63d9258c54d613a",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--10.json.gz",
+      "phase": "canonical_completion",
+      "id": "0693295c58865596e205",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--10.json.gz",
+      "phase": "canonical_completion",
+      "id": "0810fa71d145ddcf27f5",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--10.json.gz",
+      "phase": "canonical_completion",
+      "id": "2acd2962ea1ca1ef66cf",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--10.json.gz",
+      "phase": "canonical_completion",
+      "id": "2d5b4b03913fdc061710",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--10.json.gz",
+      "phase": "canonical_completion",
+      "id": "5f5636da7a244821b227",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--10.json.gz",
+      "phase": "canonical_completion",
+      "id": "96bc1a70ed9ff0c354eb",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--10.json.gz",
+      "phase": "canonical_completion",
+      "id": "db7973beb7f32cb044c7",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--11.json.gz",
+      "phase": "raw",
+      "id": "092cc5e271ca6b8edc66",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--11.json.gz",
+      "phase": "completion",
+      "id": "0bc99af0f8b60aa15938",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "565cc80234b2f833faa5",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--12.json.gz",
+      "phase": "raw",
+      "id": "118b7b104ad36b13ca3d",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--12.json.gz",
+      "phase": "raw",
+      "id": "d1702622e9bccd713a3f",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--12.json.gz",
+      "phase": "completion",
+      "id": "00c8955bca97788b8e17",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--12.json.gz",
+      "phase": "completion",
+      "id": "5b900fdc9f5e0577a42c",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--12.json.gz",
+      "phase": "canonical_completion",
+      "id": "257297452ec5df499add",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--12.json.gz",
+      "phase": "canonical_completion",
+      "id": "622b154827eadc5d5407",
+      "verified": true
+    },
+    {
+      "run": "primary--steane14_sum-Z--v04--12.json.gz",
+      "phase": "canonical_completion",
+      "id": "93961e361dfe95642645",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7-X--v04--10.json.gz",
+      "phase": "raw",
+      "id": "d45372c31902a5a0f0c0",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7-X--v04--10.json.gz",
+      "phase": "completion",
+      "id": "d45372c31902a5a0f0c0",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7-X--v04--10.json.gz",
+      "phase": "canonical_completion",
+      "id": "7ac87a533599ed59462d",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7-X--v04--11.json.gz",
+      "phase": "raw",
+      "id": "26ae3bf8b9b4fc94fbff",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7-X--v04--11.json.gz",
+      "phase": "completion",
+      "id": "26ae3bf8b9b4fc94fbff",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7-X--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "37a5a9826f1ea1e7aadc",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7-X--v04--12.json.gz",
+      "phase": "raw",
+      "id": "dd6f42034566acd0bc97",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7-X--v04--12.json.gz",
+      "phase": "completion",
+      "id": "dd6f42034566acd0bc97",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7-X--v04--12.json.gz",
+      "phase": "canonical_completion",
+      "id": "5755126c1352084cf8bb",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--10.json.gz",
+      "phase": "raw",
+      "id": "9c465963207b8eda82ae",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--10.json.gz",
+      "phase": "completion",
+      "id": "9c465963207b8eda82ae",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--10.json.gz",
+      "phase": "canonical_completion",
+      "id": "dbb364ad3847e096abd8",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--11.json.gz",
+      "phase": "raw",
+      "id": "5736c19085f5699c98b0",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--11.json.gz",
+      "phase": "raw",
+      "id": "a9d2e0bd999a147e8c42",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--11.json.gz",
+      "phase": "completion",
+      "id": "0ca43b918d0f67b9a812",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--11.json.gz",
+      "phase": "completion",
+      "id": "1e4f3f1e63e081cdcb3f",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--11.json.gz",
+      "phase": "completion",
+      "id": "5053daf26259c546f664",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--11.json.gz",
+      "phase": "completion",
+      "id": "5e3d677f83fb0e72bfa4",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--11.json.gz",
+      "phase": "completion",
+      "id": "adde9dc636a55c6dd85e",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "033853b87ab4e83f7931",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "17eeb9fb1d2fe00cd381",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "3076ea125756ec1f9857",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "34e508b70752fd9cbe97",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "3f0e8b256dcbb77282a2",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "57a5a401ad3ec3814ef8",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--11.json.gz",
+      "phase": "canonical_completion",
+      "id": "f2d5145f48dcc74efb78",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--12.json.gz",
+      "phase": "raw",
+      "id": "3df61d2cce08e4e3d5cc",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--12.json.gz",
+      "phase": "completion",
+      "id": "3df61d2cce08e4e3d5cc",
+      "verified": true
+    },
+    {
+      "run": "primary--steane7_mixed-X--v04--12.json.gz",
+      "phase": "canonical_completion",
+      "id": "809ecbcd33e869d43aa1",
+      "verified": true
+    }
+  ],
+  "projection_proofs": [
+    {
+      "name": "shor-5x5-R1-interval_flag-X",
+      "lower": 5,
+      "upper": 5,
+      "verified": true
+    },
+    {
+      "name": "shor-5x5-R1-interval_flag-Z",
+      "lower": 1,
+      "upper": 5,
+      "verified": true
+    },
+    {
+      "name": "shor-5x5-R1-verified_cat-X",
+      "lower": 5,
+      "upper": 5,
+      "verified": true
+    },
+    {
+      "name": "shor-5x5-R1-verified_cat-Z",
+      "lower": 1,
+      "upper": 5,
+      "verified": true
+    },
+    {
+      "name": "shor-5x5-R3-interval_flag-X",
+      "lower": 5,
+      "upper": 5,
+      "verified": true
+    },
+    {
+      "name": "shor-5x5-R3-interval_flag-Z",
+      "lower": 1,
+      "upper": 5,
+      "verified": true
+    },
+    {
+      "name": "shor-5x5-R3-verified_cat-X",
+      "lower": 5,
+      "upper": 5,
+      "verified": true
+    },
+    {
+      "name": "shor-5x5-R3-verified_cat-Z",
+      "lower": 1,
+      "upper": 5,
+      "verified": true
+    },
+    {
+      "name": "shor-7x7-R1-interval_flag-X",
+      "lower": 7,
+      "upper": 7,
+      "verified": true
+    },
+    {
+      "name": "shor-7x7-R1-interval_flag-Z",
+      "lower": 1,
+      "upper": 7,
+      "verified": true
+    },
+    {
+      "name": "shor-7x7-R1-verified_cat-X",
+      "lower": 7,
+      "upper": 7,
+      "verified": true
+    },
+    {
+      "name": "shor-7x7-R1-verified_cat-Z",
+      "lower": 1,
+      "upper": 7,
+      "verified": true
+    },
+    {
+      "name": "shor-7x7-R3-interval_flag-X",
+      "lower": 7,
+      "upper": 7,
+      "verified": true
+    },
+    {
+      "name": "shor-7x7-R3-interval_flag-Z",
+      "lower": 1,
+      "upper": 7,
+      "verified": true
+    },
+    {
+      "name": "shor-7x7-R3-verified_cat-X",
+      "lower": 7,
+      "upper": 7,
+      "verified": true
+    },
+    {
+      "name": "shor-7x7-R3-verified_cat-Z",
+      "lower": 1,
+      "upper": 7,
+      "verified": true
+    }
+  ],
+  "higher_witness_checks": 22,
+  "runtime_seconds": 50.083543399814516
+}

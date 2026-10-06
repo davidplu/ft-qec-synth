@@ -4,18 +4,20 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ftqec"
-version = "0.4.0"
+version = "0.5.0"
 description = "Generic stabilizer extraction architecture synthesis research core"
 requires-python = ">=3.10"
 dependencies = []
 
 [project.scripts]
-ftqec = "ftqec.resource_synthesis.entrypoint:main"
+ftqec = "ftqec.certification_v5.entrypoint:main"
+ftqec-v04 = "ftqec.resource_synthesis.entrypoint:main"
 ftqec-v03 = "ftqec.cli:main"
 
 [project.optional-dependencies]
 verification = ["jsonschema>=4"]
-dev = ["pytest>=8", "jsonschema>=4"]
+sat-verification = ["ortools==9.15.6755"]
+dev = ["pytest>=8", "jsonschema>=4", "ortools==9.15.6755"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

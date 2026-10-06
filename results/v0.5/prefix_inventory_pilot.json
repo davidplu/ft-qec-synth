@@ -1,0 +1,38 @@
+[
+  {
+    "size": 5,
+    "rounds": 1,
+    "qubits": 36,
+    "operations": 523,
+    "variants": 4185,
+    "types": 923,
+    "pair_table_entries": 425503
+  },
+  {
+    "size": 5,
+    "rounds": 3,
+    "qubits": 36,
+    "operations": 1519,
+    "variants": 12505,
+    "types": 2979,
+    "pair_table_entries": 4435731
+  },
+  {
+    "size": 7,
+    "rounds": 1,
+    "qubits": 64,
+    "operations": 1083,
+    "variants": 8761,
+    "types": 1963,
+    "pair_table_entries": 1925703
+  },
+  {
+    "size": 7,
+    "rounds": 3,
+    "qubits": 64,
+    "operations": 3151,
+    "variants": 26185,
+    "types": 6295,
+    "pair_table_entries": 19810365
+  }
+]

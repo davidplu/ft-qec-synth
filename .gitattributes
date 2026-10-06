@@ -15,3 +15,13 @@ results/v0.4/** -text
 docs/V0_4*.md -text
 tests/test_resource_synthesis.py -text
 tests/test_resource_audits.py -text
+
+results/v0.5/** -text
+docs/V0_5*.md -text
+src/ftqec/certification_v5/** -text
+tests/test_certification_v5.py -text
+benchmarks/certification_v5/** -text
+# V0.5's artifact inventory records these exact packaging/document bytes.
+README.md -text
+pyproject.toml -text
+.gitattributes -text

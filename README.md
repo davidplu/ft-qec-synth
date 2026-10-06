@@ -1,12 +1,44 @@
-# FTQEC 0.4
+# FTQEC 0.5
+
+V0.5 adds Pareto-aware certification escalation, a separate certification budget,
+location-compatible exact meet-in-the-middle exclusions, and bounded multi-step
+compression descent. It preserves the V0.4 candidate-generation/search logic and
+historical files. Larger-distance certification remains explicitly bounded.
+
+```console
+python -m ftqec.certification_v5.entrypoint search benchmarks/development_v2/pool/steane7.json --basis X --target-dc 3 --budget 48 --seed 10 --descent-evaluations 256 -o results/my-v05-search.json
+python experiments/v05_reproduce.py --verify-only
+python experiments/v05_ladder.py
+```
+
+After reinstalling, `ftqec` runs V0.5; `ftqec-v04` preserves the V0.4 interface.
+Search supports the existing targets 2–4. The separate `certify` command accepts
+higher targets with explicit work/table caps and independent verification status.
+Default search runs 256 descent evaluations plus a separate 1024-evaluation
+canonical final-audit closure; either cap can leave explicitly unresolved minimality.
+`--final-audit-evaluations` controls the latter. SAT verification requires
+`pip install -e ".[sat-verification]"`; the complete dev installation includes it.
+See [V0.5 protocol](docs/V0_5_PROTOCOL.md),
+[certification method](docs/V0_5_CERTIFICATION.md), and
+[results](docs/V0_5_RESULTS.md).
+
+All 18 frozen development traces return certified target-distance-3 points,
+compared with V0.4's 9 native successes. Independently checked selected-X-memory
+distance-5/7 certificates are saved on 25/49-data-qubit Shor examples. These do
+not certify both quantum-memory channels. V0.5 remains
+**NOT_READY_FOR_HELD_OUT**: generic distance-7 certification at 23 qubits has
+not been shown tractable. No held-out experiment was performed.
+
+## Historical V0.4 baseline
+
 
 Find resource Pareto frontiers **(Q, D, QD, two-qubit gates) subject to certified
 circuit distance at least the requested target**. CEGIS is an internal repair
 mechanism; protection-preserving compression removes unnecessary cost.
 
 ```console
-ftqec search benchmarks/development_v2/pool/steane7.json --basis X --target-dc 3 --budget 48 --seed 10 -o results/my-search.json
-ftqec frontier results/my-search.json --target-dc 3
+ftqec-v04 search benchmarks/development_v2/pool/steane7.json --basis X --target-dc 3 --budget 48 --seed 10 -o results/my-search.json
+ftqec-v04 frontier results/my-search.json --target-dc 3
 ```
 
 The default returns multiple tradeoffs. Optional `--select QD` or `--select Q
@@ -97,7 +129,7 @@ The existing algebra, gadget, candidate, scheduler, resource and bounded fault-s
 
 A default round means one complete measurement of all supplied checks. R=3 is a fixed development convention, not implicitly the code distance. The input encoded logical state is ideal; optional `--noisy-input` adds local output-preparation faults. Ancilla preparation/reset, gates and measurement are noisy; `--idles` enables storage faults. Final detectors close the full stabilizer subgroup compatible with the physical product readout, including signed products of supplied generators. Non-CSS cases can consequently have a distance-one readout ceiling. Read [the exact fault model](docs/FAULT_MODEL.md) before interpreting any bound.
 
-Distance is decoder-independent: zero temporal/flag detectors plus a flipped final logical observable. Decoder failures, including nonzero-syndrome collisions, are separate results. EXACT is emitted only when lower/upper bounds meet; partial search is never certified. Weights 1–3 use hashing/meet-in-the-middle; weights 4–6 are supported for small tractable cases with explicit work limits. No LER or global optimality claim is made.
+Distance is decoder-independent: zero temporal/flag detectors plus a flipped final logical observable. Decoder failures, including nonzero-syndrome collisions, are separate results. EXACT is emitted only when lower/upper bounds meet; partial search is never certified. Weights 1â€“3 use hashing/meet-in-the-middle; weights 4â€“6 are supported for small tractable cases with explicit work limits. No LER or global optimality claim is made.
 
 ## Controlled development experiment
 

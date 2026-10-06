@@ -1,0 +1,9 @@
+{
+  "credential_pattern_hits": 0,
+  "files_scanned": 163,
+  "scan_scope": "Known token/private-key patterns including decompressed raw JSON; not a proof of absence of every secret",
+  "total_bytes": 18247074,
+  "largest_bytes": 893013,
+  "excluded": "Virtual environments, caches, wheel/build output, temporary smoke files and generated egg-info remain ignored",
+  "binary_model_reason": "Small exported reproducible physical SAT models; raw generated experimental evidence intentionally retained"
+}

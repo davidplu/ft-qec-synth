@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "wheel": "ftqec-0.5.0-py3-none-any.whl",
+  "sha256": "2d19232fa6c3032baafea786622fee70a146311606de3c8a9f4602e405e6422a",
+  "bytes": 100573,
+  "isolated_python": true,
+  "stdout": "Isolated wheel search, certify, certificate verification, historical imports passed\n",
+  "entrypoints": "[console_scripts]\nftqec = ftqec.certification_v5.entrypoint:main\nftqec-v03 = ftqec.cli:main\nftqec-v04 = ftqec.resource_synthesis.entrypoint:main\n"
+}

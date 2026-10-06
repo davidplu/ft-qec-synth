@@ -1,0 +1,150 @@
+[
+  {
+    "task": "primary--affine15_k1-X--v04--10.json.gz",
+    "variants": 13890,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 3,
+      "upper_bound": null,
+      "excluded_through": 2,
+      "witness": null,
+      "reason": null,
+      "combinations_examined": 7629,
+      "requested_weight": 2,
+      "fault_locations": 1860,
+      "fault_variants": 13890,
+      "signature_types": 1907,
+      "runtime_seconds": 0.23215999989770353,
+      "profile": {
+        "table_entries_peak": 1907,
+        "location_checks": 0,
+        "join_checks": 1907,
+        "subset_checks": 5722
+      },
+      "certificate": {
+        "circuit_hash": "5cea6645c7d1df3255d9d489b61a570b96d084b3fe9f8431d391816d3acf778a",
+        "fault_model_hash": "c56003d98a8d5ea960fd2f9792f25fc6ee001d5dbef9511b291d59ebb40d233f",
+        "fault_inventory_hash": "1769ad631dd7a2edb7c0103d4518a72801638907c4b7b54d5583b9617373981b",
+        "target": 3,
+        "algorithm_version": "location-compatible-mitm-1",
+        "work_limit": 1000000,
+        "table_limit": 250000,
+        "payload": {
+          "excluded_through": 2,
+          "proof": "minimum sets have distinct nonzero types; complete XOR joins; exact location matching"
+        }
+      }
+    }
+  },
+  {
+    "task": "primary--simplex15_k7-X--v04--10.json.gz",
+    "variants": 12588,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 3,
+      "upper_bound": null,
+      "excluded_through": 2,
+      "witness": null,
+      "reason": null,
+      "combinations_examined": 7189,
+      "requested_weight": 2,
+      "fault_locations": 1662,
+      "fault_variants": 12588,
+      "signature_types": 1797,
+      "runtime_seconds": 0.19816889986395836,
+      "profile": {
+        "table_entries_peak": 1797,
+        "location_checks": 0,
+        "join_checks": 1797,
+        "subset_checks": 5392
+      },
+      "certificate": {
+        "circuit_hash": "02e9bc514f01640961740a89bd5c5b78413d995c995e741c6bd107d4ce172012",
+        "fault_model_hash": "c56003d98a8d5ea960fd2f9792f25fc6ee001d5dbef9511b291d59ebb40d233f",
+        "fault_inventory_hash": "744ed84f4e8f41a7150aa9d3e388d8761d8a574f8866d4e5d8b03f07a7d165c5",
+        "target": 3,
+        "algorithm_version": "location-compatible-mitm-1",
+        "work_limit": 1000000,
+        "table_limit": 250000,
+        "payload": {
+          "excluded_through": 2,
+          "proof": "minimum sets have distinct nonzero types; complete XOR joins; exact location matching"
+        }
+      }
+    }
+  },
+  {
+    "task": "primary--simplex15_k7-Z--v04--10.json.gz",
+    "variants": 12543,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 3,
+      "upper_bound": null,
+      "excluded_through": 2,
+      "witness": null,
+      "reason": null,
+      "combinations_examined": 7209,
+      "requested_weight": 2,
+      "fault_locations": 1647,
+      "fault_variants": 12543,
+      "signature_types": 1802,
+      "runtime_seconds": 0.19612019998021424,
+      "profile": {
+        "table_entries_peak": 1802,
+        "location_checks": 0,
+        "join_checks": 1802,
+        "subset_checks": 5407
+      },
+      "certificate": {
+        "circuit_hash": "ca7c3df60ceb66e401be7b7ae68c33c789daa94559cd1f1fd8e392a0c3fda646",
+        "fault_model_hash": "c56003d98a8d5ea960fd2f9792f25fc6ee001d5dbef9511b291d59ebb40d233f",
+        "fault_inventory_hash": "ef7711a63f565baa3c61482d7f5c723ab11fb020c5e52c51af43761fdb6899da",
+        "target": 3,
+        "algorithm_version": "location-compatible-mitm-1",
+        "work_limit": 1000000,
+        "table_limit": 250000,
+        "payload": {
+          "excluded_through": 2,
+          "proof": "minimum sets have distinct nonzero types; complete XOR joins; exact location matching"
+        }
+      }
+    }
+  },
+  {
+    "task": "primary--steane14_sum-Z--v04--10.json.gz",
+    "variants": 8106,
+    "bounds": {
+      "status": "LOWER_BOUND",
+      "lower_bound": 3,
+      "upper_bound": null,
+      "excluded_through": 2,
+      "witness": null,
+      "reason": null,
+      "combinations_examined": 4257,
+      "requested_weight": 2,
+      "fault_locations": 1102,
+      "fault_variants": 8106,
+      "signature_types": 1064,
+      "runtime_seconds": 0.10007729986682534,
+      "profile": {
+        "table_entries_peak": 1064,
+        "location_checks": 0,
+        "join_checks": 1064,
+        "subset_checks": 3193
+      },
+      "certificate": {
+        "circuit_hash": "a53eef90ec8a7cfc3e72e0a11ce45e4f0c719e27a64519d7bf54e2bdcc47680d",
+        "fault_model_hash": "c56003d98a8d5ea960fd2f9792f25fc6ee001d5dbef9511b291d59ebb40d233f",
+        "fault_inventory_hash": "177f880ee20275dab3134a78b0abbe8015880311686a189a9fc104ec871d60e2",
+        "target": 3,
+        "algorithm_version": "location-compatible-mitm-1",
+        "work_limit": 1000000,
+        "table_limit": 250000,
+        "payload": {
+          "excluded_through": 2,
+          "proof": "minimum sets have distinct nonzero types; complete XOR joins; exact location matching"
+        }
+      }
+    }
+  }
+]

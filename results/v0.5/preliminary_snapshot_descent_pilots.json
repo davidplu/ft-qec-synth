@@ -1,0 +1,26 @@
+{
+  "baseline_commit": "67a7f2948d5df1d1096489a123adff2501789be6",
+  "hashes": {
+    "src/ftqec/certification_v5/artifacts.py": "8caa2b9c4df8315b37c52f9c9365ee2752e2c2d60d822eb3d419440e58e09c69",
+    "src/ftqec/certification_v5/cleanup.py": "b27fed987e2012628c1983abd3615101c5bb31d1c69cdbe1133d055b213560e9",
+    "src/ftqec/certification_v5/cli.py": "14ddc979ff8e8e4c71efa397662886420b3d77a9d7371997bf8a8357cc1ce818",
+    "src/ftqec/certification_v5/descent.py": "297800653a99518b31ceee9fe2b4d98136a171a96a349cc5b8740c1d967e4cfc",
+    "src/ftqec/certification_v5/exact.py": "d32809a45abbc95010c84b8efc0e20cfb0b1430b3128646736deab167a08a594",
+    "src/ftqec/certification_v5/independent.py": "b476b0dac3a34fb31cccbebaaef1808041407568b3a8396d8b05ed24c3c678f6",
+    "src/ftqec/certification_v5/low_audit.py": "e58b9b5b7fbe80499e3600d144971fd37beba1f7ec26f487ffff7cf2644128b1",
+    "src/ftqec/certification_v5/pipeline.py": "db50231227d322da4c3f7c436aad414431d290a2b2d1093dc37670935084bd9d",
+    "src/ftqec/certification_v5/rescue.py": "473c7b4c3504edd64fa62c3ddfc5320900326b1b007d739d481c2973f0b9d018",
+    "src/ftqec/certification_v5/staged.py": "2d1224a0261045a40aa69aa505fc0a38d3e26529e5f067a05e8959d05f516e87",
+    "src/ftqec/certification_v5/__init__.py": "a0216a28032fb8fe78756360720a17de5555c735d2e19de2d6b519fa3a74ab66",
+    "experiments/v05_replay.py": "46410cb0c9f70fb6d0f6b14df33e2255052a18e31b65415c15d2d4891574c4ce",
+    "docs/V0_5_PROTOCOL.md": "59be37b7f5db604d4b7b8ce28b494e9cfbe589fe8a2e4eb0a7c508f10d0ebc38"
+  },
+  "search_budget": 48,
+  "certification_work": 20000000,
+  "descent_evaluations": 2000,
+  "seeds": [
+    10,
+    11,
+    12
+  ]
+}

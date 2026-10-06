@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FTQEC V0.5 distance evidence",
+  "type": "object",
+  "required": ["status", "lower_bound", "upper_bound", "excluded_through", "witness", "combinations_examined", "certificate"],
+  "properties": {
+    "status": {"enum": ["EXACT", "LOWER_BOUND", "UPPER_BOUND", "UNKNOWN"]},
+    "lower_bound": {"type": "integer", "minimum": 1},
+    "upper_bound": {"type": ["integer", "null"], "minimum": 1},
+    "excluded_through": {"type": "integer", "minimum": 0},
+    "witness": {"type": ["object", "null"]},
+    "combinations_examined": {"type": "integer", "minimum": 0},
+    "certificate": {
+      "type": "object",
+      "required": ["circuit_hash", "fault_model_hash", "fault_inventory_hash", "target", "algorithm_version", "work_limit", "table_limit", "payload"],
+      "properties": {
+        "circuit_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "fault_model_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "fault_inventory_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "target": {"type": "integer", "minimum": 2},
+        "algorithm_version": {"type": "string"},
+        "work_limit": {"type": "integer", "minimum": 0},
+        "table_limit": {"type": "integer", "minimum": 1},
+        "payload": {"type": "object"}
+      }
+    }
+  }
+}
